@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowLeft, Layers, Play, RotateCcw, Timer, Trash2 } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, Layers, Play, RotateCcw, Timer, Trash2 } from 'lucide-react';
 import Ring from '../components/Ring.jsx';
 import { scopeGlossary, scopeQuestions } from '../lib/data.js';
 import { TYPES } from '../lib/quiz.js';
@@ -53,19 +53,19 @@ export default function Subject({ subject }) {
 
       <div className="bento modes">
         <a className="card mode glow big" href={practiceHref} aria-disabled={!pool.length}>
-          <Play size={26} aria-hidden="true" /><h3>Gyakorlás</h3>
+          <ArrowUpRight className="go" size={22} aria-hidden="true" /><Play size={26} className="mi" aria-hidden="true" /><h3>Gyakorlás</h3>
           <p>{pool.length} kérdés a kiválasztott fejezetekből és típusokból, visszajelzés minden válasz után.</p>
         </a>
         <a className="card mode glow" href={href(subject.path, 'rontott')}>
-          <RotateCcw size={24} aria-hidden="true" /><h3>Rontott kérdéseim</h3>
+          <ArrowUpRight className="go" size={22} aria-hidden="true" /><RotateCcw size={24} className="mi" aria-hidden="true" /><h3>Rontott kérdéseim</h3>
           <p>{wrong ? `${wrong} kérdés vár. Kétszer egymás után eltalálva lekerül a listáról.` : 'Még nincs rontott kérdésed.'}</p>
         </a>
         <a className="card mode glow" href={href(subject.path, 'szimulacio')}>
-          <Timer size={24} aria-hidden="true" /><h3>ZH-szimuláció</h3>
+          <ArrowUpRight className="go" size={22} aria-hidden="true" /><Timer size={24} className="mi" aria-hidden="true" /><h3>ZH-szimuláció</h3>
           <p>20 perc, 25 kérdés a valódi ZH arányaival. Értékelés csak a végén.</p>
         </a>
         <a className="card mode glow" href={href(subject.path, 'flashcard')}>
-          <Layers size={24} aria-hidden="true" /><h3>Flashcardok</h3>
+          <ArrowUpRight className="go" size={22} aria-hidden="true" /><Layers size={24} className="mi" aria-hidden="true" /><h3>Flashcardok</h3>
           <p>{scopeGlossary(subject).length} fogalom a fogalomtárból.</p>
         </a>
       </div>

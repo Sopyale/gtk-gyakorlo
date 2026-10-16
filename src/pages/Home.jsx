@@ -1,5 +1,6 @@
-import { FolderOpen, Play, ExternalLink } from 'lucide-react';
+import { ArrowUpRight, ExternalLink, FolderOpen, Play } from 'lucide-react';
 import HeroPlot from '../components/HeroPlot.jsx';
+import Count from '../components/Count.jsx';
 import Ring from '../components/Ring.jsx';
 import { getGlossary, getQuestions, subjects } from '../lib/data.js';
 import { href } from '../lib/route.js';
@@ -40,15 +41,15 @@ export default function Home() {
           <p>{main.sources}</p>
           <div className="chips">{main.chapters.map((c) => <span key={c.n}>{c.short}</span>)}</div>
         </a>
-        <div className="card stat"><b>{qs.length}</b><span>kérdés</span></div>
-        <div className="card stat acc"><b>{qs.filter((q) => q.official).length}</b><span>valódi gyakorló ZH-kérdés</span></div>
-        <div className="card stat"><b>20</b><span>perces ZH-szimuláció</span></div>
-        <div className="card stat"><b>{getGlossary(main.id).length}</b><span>flashcard a fogalomtárból</span></div>
+        <div className="card stat"><b><Count to={qs.length} /></b><span>kérdés</span></div>
+        <div className="card stat acc"><b><Count to={qs.filter((q) => q.official).length} /></b><span>valódi gyakorló ZH-kérdés</span></div>
+        <div className="card stat"><b><Count to={20} /></b><span>perces ZH-szimuláció</span></div>
+        <div className="card stat"><b><Count to={getGlossary(main.id).length} /></b><span>flashcard a fogalomtárból</span></div>
         <a className="card wide drive glow" href={DRIVE} target="_blank" rel="noreferrer">
           <div><h3>Tananyagok a Drive-on</h3><p>Jegyzetek, diák, tankönyv. Hozzáférés kérésre.</p></div>
           <span className="btn sec"><ExternalLink size={18} aria-hidden="true" />Megnyitás</span>
         </a>
-        <a className="card wide stat glow" href={href(main.id, main.exams[0].id, 'rontott')}><b>{wrong}</b><span>rontott kérdés vár ismétlésre</span></a>
+        <a className="card wide stat glow" href={href(main.id, main.exams[0].id, 'rontott')}><ArrowUpRight className="go" size={22} aria-hidden="true" /><b><Count to={wrong} /></b><span>rontott kérdés vár ismétlésre</span></a>
         <div className="soon-row">
           {subjects.filter((s) => !s.active).map((s) => (
             <div key={s.id} className="soon-card" aria-disabled="true"><span>{s.name}</span><small>Hamarosan</small></div>
