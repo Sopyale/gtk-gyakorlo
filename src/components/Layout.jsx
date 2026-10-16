@@ -5,6 +5,7 @@ import { href } from '../lib/route.js';
 import { load, save } from '../lib/storage.js';
 import { LEGAL, LegalBanner } from './Legal.jsx';
 
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const systemDark = () => matchMedia('(prefers-color-scheme: dark)').matches;
 
 function ThemeToggle() {
@@ -65,7 +66,8 @@ export default function Layout({ current, calm, children }) {
         </div>
       )}
       <main id="main" tabIndex={-1} className={calm ? 'calm' : ''}>{children}</main>
-      <footer className="foot"><div className="wrap"><p>{LEGAL}</p></div></footer>
+      <footer className="foot"><div className="wrap"><p>{LEGAL}</p>
+        <p className="ver">Verzió: {__VERSION__}{reduced && '. Az animációk ki vannak kapcsolva, mert az eszközöd mozgáscsökkentést kér.'}</p></div></footer>
       <LegalBanner />
     </>
   );
