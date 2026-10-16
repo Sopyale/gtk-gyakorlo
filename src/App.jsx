@@ -19,5 +19,9 @@ export default function App() {
     else if (mode === 'szimulacio') page = <Mock subject={scope} />;
     else if (mode === 'flashcard') page = <Flashcards subject={scope} />;
   } else if (subject?.active) page = <Hub subject={subject} />;
-  return <Layout current={subject?.id} calm={Boolean(scope && mode)}>{page}</Layout>;
+  return (
+    <Layout current={subject?.id} calm={Boolean(scope && mode)}>
+      <div className="page-in" key={[id, examId, mode].join('/')}>{page}</div>
+    </Layout>
+  );
 }
