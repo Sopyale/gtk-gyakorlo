@@ -2,9 +2,19 @@ import { createRoot } from 'react-dom/client';
 import '@fontsource-variable/bricolage-grotesque';
 import '@fontsource-variable/figtree';
 import './styles.css';
+import { registerSW } from 'virtual:pwa-register';
 import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(<App />);
+
+// autoUpdate: a new deploy reloads the page as soon as its service worker takes over,
+// so a refresh never keeps showing the cached old version. Also checks again when the tab regains focus.
+registerSW({
+  immediate: true,
+  onRegisteredSW(_, reg) {
+    if (reg) addEventListener('visibilitychange', () => document.visibilityState === 'visible' && reg.update());
+  },
+});
 
 // Pointer light: panels and controls read the pointer position from --mx/--my;
 // link cards also get --rx/--ry (-1..1) for a slight tilt.
