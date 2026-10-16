@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ArrowLeft, CheckCircle2, Clock, XCircle } from 'lucide-react';
 import QuestionCard from '../components/QuestionCard.jsx';
 import Ring from '../components/Ring.jsx';
-import { getQuestions } from '../lib/data.js';
+import { scopeQuestions } from '../lib/data.js';
 import { correctText, drawMock, MOCK_MIX, record } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 
@@ -37,14 +37,14 @@ export default function Mock({ subject }) {
     if (phase === 'done') qs.forEach((q, k) => answers[k] && record(q, answers[k].ok));
   }, [phase]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const back = <a className="back" href={href(subject.id)}><ArrowLeft size={18} aria-hidden="true" />{subject.name}</a>;
+  const back = <a className="back" href={href(subject.path)}><ArrowLeft size={18} aria-hidden="true" />{subject.title}</a>;
 
   if (phase === 'intro') {
     return (
       <div className="wrap page narrow">{back}
         <div className="empty"><Clock size={36} aria-hidden="true" /><h1>ZH-szimuláció</h1>
           <p>20 perc, {total} kérdés a valódi ZH arányaival: {MOCK_MIX['igaz-hamis']} igaz–hamis, {MOCK_MIX.feleletvalasztos} feleletválasztós, {MOCK_MIX['rovid-valasz']} rövid válasz és {MOCK_MIX.abra} ábrás. A kérdések a fejezetek arányában jönnek. Visszajelzést csak a végén kapsz.</p>
-          <button className="btn pri" onClick={() => { setQs(drawMock(getQuestions(subject.id))); setAnswers([]); setI(0); setLeft(LIMIT); setPhase('run'); }}>Indítás</button>
+          <button className="btn pri" onClick={() => { setQs(drawMock(scopeQuestions(subject))); setAnswers([]); setI(0); setLeft(LIMIT); setPhase('run'); }}>Indítás</button>
         </div>
       </div>
     );

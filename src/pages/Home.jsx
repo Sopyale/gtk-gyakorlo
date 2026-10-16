@@ -48,7 +48,7 @@ export default function Home() {
           <div><h3>Tananyagok a Drive-on</h3><p>Jegyzetek, diák, tankönyv. Hozzáférés kérésre.</p></div>
           <span className="btn sec"><ExternalLink size={18} aria-hidden="true" />Megnyitás</span>
         </a>
-        <a className="card wide stat glow" href={href(main.id, 'rontott')}><b>{wrong}</b><span>rontott kérdés vár ismétlésre</span></a>
+        <a className="card wide stat glow" href={href(main.id, main.exams[0].id, 'rontott')}><b>{wrong}</b><span>rontott kérdés vár ismétlésre</span></a>
         <div className="soon-row">
           {subjects.filter((s) => !s.active).map((s) => (
             <div key={s.id} className="soon-card" aria-disabled="true"><span>{s.name}</span><small>Hamarosan</small></div>

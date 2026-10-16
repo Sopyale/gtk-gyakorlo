@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { ArrowLeft, Flame, PartyPopper } from 'lucide-react';
 import QuestionCard from '../components/QuestionCard.jsx';
-import { getQuestions } from '../lib/data.js';
+import { scopeQuestions } from '../lib/data.js';
 import { record, shuffle } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 import { load } from '../lib/storage.js';
@@ -11,25 +11,25 @@ export default function Practice({ subject, mode, params }) {
   const queue = useMemo(() => {
     const ch = params.get('ch')?.split(',').map(Number);
     const t = params.get('t')?.split(',');
-    const all = getQuestions(subject.id);
+    const all = scopeQuestions(subject);
     if (mode === 'rontott') {
       const wrong = load('wrong', {});
       return shuffle(all.filter((q) => q.id in wrong));
     }
     return shuffle(all.filter((q) => (!ch || ch.includes(q.chapter)) && (!t || t.includes(q.type))));
-  }, [subject.id, mode, params]);
+  }, [subject.path, mode, params]);
   const [i, setI] = useState(0);
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const title = mode === 'rontott' ? 'Rontott kérdéseim' : 'Gyakorlás';
-  const back = <a className="back" href={href(subject.id)}><ArrowLeft size={18} aria-hidden="true" />{subject.name}</a>;
+  const back = <a className="back" href={href(subject.path)}><ArrowLeft size={18} aria-hidden="true" />{subject.title}</a>;
 
   if (!queue.length) {
     return (
       <div className="wrap page narrow">{back}
         <div className="empty"><h1>{title}</h1>
           <p>{mode === 'rontott' ? 'Nincs rontott kérdésed. Gyakorolj, és ide gyűlnek azok, amiket elrontasz.' : 'Ezekkel a szűrőkkel nincs kérdés. Válassz más fejezetet vagy típust.'}</p>
-          <a className="btn pri" href={href(subject.id)}>Vissza a tárgyhoz</a></div>
+          <a className="btn pri" href={href(subject.path)}>Vissza</a></div>
       </div>
     );
   }
@@ -40,7 +40,7 @@ export default function Practice({ subject, mode, params }) {
         <div className="empty"><PartyPopper size={36} aria-hidden="true" /><h1>Kör vége</h1>
           <p>{queue.length} kérdésből {score} helyes.</p>
           <div className="cta"><button className="btn pri" onClick={() => { setI(0); setScore(0); setStreak(0); }}>Újra</button>
-            <a className="btn sec" href={href(subject.id)}>Vissza a tárgyhoz</a></div></div>
+            <a className="btn sec" href={href(subject.path)}>Vissza</a></div></div>
       </div>
     );
   }

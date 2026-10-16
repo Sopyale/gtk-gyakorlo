@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Layers, Play, RotateCcw, Timer, Trash2 } from 'lucide-react';
+import { ArrowLeft, Layers, Play, RotateCcw, Timer, Trash2 } from 'lucide-react';
 import Ring from '../components/Ring.jsx';
-import { getGlossary, getQuestions } from '../lib/data.js';
+import { scopeGlossary, scopeQuestions } from '../lib/data.js';
 import { TYPES } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 import { clearProgress, load } from '../lib/storage.js';
@@ -9,25 +9,27 @@ import { clearProgress, load } from '../lib/storage.js';
 const toggle = (set, v) => (set.includes(v) ? set.filter((x) => x !== v) : [...set, v]);
 
 export default function Subject({ subject }) {
-  const qs = getQuestions(subject.id);
+  const qs = scopeQuestions(subject);
   const [chapters, setChapters] = useState([]);
   const [types, setTypes] = useState([]);
   const [, refresh] = useState(0);
   const answers = load('answers', {});
   const done = qs.filter((q) => answers[q.id]).length;
-  const wrong = Object.keys(load('wrong', {})).length;
+  const wrongIds = load('wrong', {});
+  const wrong = qs.filter((q) => q.id in wrongIds).length;
   const pool = qs.filter((q) => (!chapters.length || chapters.includes(q.chapter)) && (!types.length || types.includes(q.type)));
   const query = new URLSearchParams();
   if (chapters.length) query.set('ch', chapters.join(','));
   if (types.length) query.set('t', types.join(','));
-  const practiceHref = href(subject.id, 'gyakorlas') + (query.toString() ? `?${query}` : '');
+  const practiceHref = href(subject.path, 'gyakorlas') + (query.toString() ? `?${query}` : '');
 
   return (
     <div className="wrap page">
+      <a className="back" href={href(subject.id)}><ArrowLeft size={18} aria-hidden="true" />{subject.name}</a>
       <div className="subject-head">
         <div>
-          <h1>{subject.name}</h1>
-          <p className="lede">{subject.sources}. {qs.length} kérdés, {subject.chapters.length} fejezet.</p>
+          <h1>{subject.exam.name}</h1>
+          <p className="lede">{subject.name}, {subject.chapters.length} fejezet, {qs.length} kérdés. {subject.sources}.</p>
         </div>
         <Ring value={qs.length ? done / qs.length : 0} size={104} label={`Haladás: ${done} / ${qs.length}`} />
       </div>
@@ -54,17 +56,17 @@ export default function Subject({ subject }) {
           <Play size={26} aria-hidden="true" /><h3>Gyakorlás</h3>
           <p>{pool.length} kérdés a kiválasztott fejezetekből és típusokból, visszajelzés minden válasz után.</p>
         </a>
-        <a className="card mode glow" href={href(subject.id, 'rontott')}>
+        <a className="card mode glow" href={href(subject.path, 'rontott')}>
           <RotateCcw size={24} aria-hidden="true" /><h3>Rontott kérdéseim</h3>
           <p>{wrong ? `${wrong} kérdés vár. Kétszer egymás után eltalálva lekerül a listáról.` : 'Még nincs rontott kérdésed.'}</p>
         </a>
-        <a className="card mode glow" href={href(subject.id, 'zh')}>
+        <a className="card mode glow" href={href(subject.path, 'szimulacio')}>
           <Timer size={24} aria-hidden="true" /><h3>ZH-szimuláció</h3>
           <p>20 perc, 25 kérdés a valódi ZH arányaival. Értékelés csak a végén.</p>
         </a>
-        <a className="card mode glow" href={href(subject.id, 'flashcard')}>
+        <a className="card mode glow" href={href(subject.path, 'flashcard')}>
           <Layers size={24} aria-hidden="true" /><h3>Flashcardok</h3>
-          <p>{getGlossary(subject.id).length} fogalom a fogalomtárból.</p>
+          <p>{scopeGlossary(subject).length} fogalom a fogalomtárból.</p>
         </a>
       </div>
 

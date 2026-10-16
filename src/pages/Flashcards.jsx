@@ -1,13 +1,13 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, Check, RotateCw, X } from 'lucide-react';
-import { getGlossary } from '../lib/data.js';
+import { scopeGlossary } from '../lib/data.js';
 import { shuffle } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 import { load, save } from '../lib/storage.js';
 
 // Unknown cards go back to the end of the deck until the student knows them.
 export default function Flashcards({ subject }) {
-  const glossary = useMemo(() => getGlossary(subject.id), [subject.id]);
+  const glossary = useMemo(() => scopeGlossary(subject), [subject.path]);
   const [deck, setDeck] = useState(() => {
     const known = load('cards', {});
     return shuffle(glossary.filter((g) => !known[g.term])).concat(shuffle(glossary.filter((g) => known[g.term])));
@@ -34,7 +34,7 @@ export default function Flashcards({ subject }) {
 
   return (
     <div className="wrap page narrow">
-      <a className="back" href={href(subject.id)}><ArrowLeft size={18} aria-hidden="true" />{subject.name}</a>
+      <a className="back" href={href(subject.path)}><ArrowLeft size={18} aria-hidden="true" />{subject.title}</a>
       <h1 className="page-title">Flashcardok</h1>
       {card ? (
         <>
