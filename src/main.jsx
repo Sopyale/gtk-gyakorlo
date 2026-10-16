@@ -36,7 +36,7 @@ addEventListener('pointermove', (e) => {
 const PRESS = '.btn, .opt, .chip, .icon-btn, a.card, .nav a, .drawer a';
 addEventListener('pointerdown', (e) => {
   const el = e.target.closest?.(PRESS);
-  if (!el || el.disabled || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (!el || el.disabled) return;
   const r = el.getBoundingClientRect();
   const d = Math.hypot(r.width, r.height) * 2;
   const dot = document.createElement('span');

@@ -5,7 +5,6 @@ export default function Count({ to, ms = 1100 }) {
   const ref = useRef(null);
   useEffect(() => {
     const el = ref.current;
-    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     let raf, t0;
     const step = (t) => {
       t0 ??= t;

@@ -11,7 +11,7 @@ export function useRoute() {
   useEffect(() => {
     const onHash = () => {
       const update = () => { setRoute(parse()); window.scrollTo(0, 0); };
-      if (document.startViewTransition && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      if (document.startViewTransition) {
         document.startViewTransition(update);
       } else update();
     };
