@@ -26,7 +26,11 @@ export const isTrueFalse = (q) => typeof q.answer === 'boolean';
 
 export function isCorrect(q, response) {
   if (response == null) return false;
-  if (q.type === 'rovid-valasz') return q.answer.some((a) => normalize(a) === normalize(response));
+  if (q.type === 'rovid-valasz') {
+    const r = normalize(response);
+    // Longer model answers also accept a reply that contains one of the key phrases.
+    return q.answer.some((a) => normalize(a) === r) || (q.keywords ?? []).some((k) => r.includes(normalize(k)));
+  }
   if (q.type === 'parositas') return q.answer.every(([l, r]) => response[l] === r);
   return response === q.answer;
 }

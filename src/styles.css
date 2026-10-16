@@ -305,3 +305,5 @@ kbd { font: 600 12px var(--body); border: 1px solid var(--line); border-radius: 
   .hub-hero { padding: 40px 0 24px; } .exams { grid-template-columns: 1fr; } .exam { padding: 20px; }
   .exam-curve { width: 70%; opacity: .35; } .exam-top .ring { width: 72px; height: 72px; } .soon-exam { min-height: 0; }
 }
+.fig-grid { stroke: var(--line); stroke-width: 1; }
+.qfig:has(.fig-wide) { max-width: 520px; }

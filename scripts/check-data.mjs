@@ -34,8 +34,9 @@ for (const s of subjects.filter((x) => x.active)) {
         else if (q.options[0] !== q.answer) err('first option must be the answer');
         else if (new Set(q.options).size !== q.options.length) err('duplicate options');
       }
-      if (q.type === 'abra' && !figures.includes(`${q.figure}:`)) err(`unknown figure ${q.figure}`);
+      if (q.type === 'abra' && !figures.includes(`${q.figure}:`) && !figures.includes(`'${q.figure}':`)) err(`unknown figure ${q.figure}`);
       if (q.type === 'rovid-valasz' && !(Array.isArray(q.answer) && q.answer.length && q.answer.every((a) => typeof a === 'string' && a.trim()))) err('short answer must be a list of accepted answers, model answer first');
+      if (q.keywords !== undefined && !(Array.isArray(q.keywords) && q.keywords.every((k) => typeof k === 'string' && k.trim().length >= 3))) err('keywords must be strings of 3+ characters');
       if (q.type === 'parositas' && !(Array.isArray(q.answer) && q.answer.length >= 2 && q.answer.every((p) => p.length === 2))) err('matching needs [[left, right], ...]');
       const t = norm(q.question ?? '');
       if (texts.has(t)) err(`duplicate question text (also ${texts.get(t)})`); else texts.set(t, q.id);

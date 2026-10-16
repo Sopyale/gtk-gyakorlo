@@ -13,8 +13,8 @@ export function Axes({ x = 'Qa', y = 'Qb' }) {
   return (
     <g className="fig-axis">
       <path d={`M${sx(0)} ${sy(200)}V${sy(0)}H${sx(200)}`} />
-      <text x={sx(0) - 8} y={sy(200) + 4} textAnchor="end">{y}</text>
-      <text x={sx(200)} y={sy(0) + 22} textAnchor="end">{x}</text>
+      <text x={sx(0) + 6} y={sy(200) + 4}>{y}</text>
+      <text x={sx(200)} y={H - 4} textAnchor="end">{x}</text>
     </g>
   );
 }

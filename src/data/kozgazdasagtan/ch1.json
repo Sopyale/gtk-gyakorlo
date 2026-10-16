@@ -18,7 +18,12 @@
     "section": "1.5",
     "question": "Az, hogy a legtöbb ember fél a kígyótól",
     "answer": "evolúciós csökevény",
-    "options": ["evolúciós csökevény", "altruista viselkedés", "elsődleges drive", "másodlagos drive"],
+    "options": [
+      "evolúciós csökevény",
+      "altruista viselkedés",
+      "elsődleges drive",
+      "másodlagos drive"
+    ],
     "explanation": "Evolúciós csökevény: olyan viselkedés, amely valamikor segítette a túlélést, ma már kevés értelme van. A kígyótól való félelem a jegyzet egyik példája erre.",
     "source": "Jegyzet 1.5 · Könyv 6. o.",
     "official": true,
@@ -30,9 +35,895 @@
     "chapter": 1,
     "section": "1.10",
     "question": "Hogyan nevezzük latinul azt a feltevést, amely szerint egy tényező hatásának vizsgálatakor minden egyéb tényezőt változatlannak tekintünk?",
-    "answer": ["ceteris paribus"],
+    "answer": [
+      "ceteris paribus"
+    ],
     "explanation": "Ceteris paribus: minden egyéb változatlansága mellett. Így egyszerre csak egyetlen tényező változását vizsgáljuk.",
     "source": "Jegyzet 1.10 · Könyv 17. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-004",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.10",
+    "question": "A háztartások döntéseit a makroökonómia vizsgálja.",
+    "answer": false,
+    "explanation": "A háztartás egyéni szereplő, ezért döntései a mikroökonómia tárgyai. A könyv szerint a mikroökonómia azt vizsgálja, hogyan döntenek a háztartások és a vállalatok.",
+    "source": "Jegyzet 1.10 · Könyv 3. o.",
+    "official": true,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-005",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "A drive-redukciós elmélet szerint a motivációk arra irányulnak, hogy redukálják a személy által feszültségként átélt pszichikus állapotot.",
+    "answer": true,
+    "explanation": "A drive belső késztetés, amely a feszültség csökkentésére mozgósít. A belső egyensúly jó érzés, a feszültség, a hiányérzet rossz.",
+    "source": "Jegyzet 1.4 · Könyv 5. o.",
+    "official": true,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-006",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "A homo oeconomicus választhat a lehetőségek halmazán kívülről is.",
+    "answer": false,
+    "explanation": "A lehetőségek halmaza az egyén számára megvalósítható cselekvési lehetőségek összessége. A homo oeconomicus ezek közül választ, ami ezen kívül esik, az nem megvalósítható.",
+    "source": "Jegyzet 1.7 · Könyv 7. o.",
+    "official": true,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-007",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "A pénz iránti vágy elsődleges drive.",
+    "answer": false,
+    "explanation": "A pénz a másodlagos (áttételes) drive példája: azért vált drive-vá, mert az elsődleges drive-ok kielégítésében szerepet játszik. Az elsődleges drive-ok az ön- és fajfenntartással kapcsolatosak.",
+    "source": "Jegyzet 1.4 · Könyv 5. o.",
+    "official": true,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-008",
+    "type": "rovid-valasz",
+    "chapter": 1,
+    "section": "1.9",
+    "question": "Egészítsd ki: „A normatív közgazdasági állítás …” Adj rá egy példát is!",
+    "answer": [
+      "arról szól, milyennek kellene lennie a világnak (előíró, etikai értékítéletet tartalmaz). Példa: „A kereskedőnek el kellene mondania a rodosziaknak, hogy még sok gabona érkezik.”"
+    ],
+    "keywords": [
+      "kellene",
+      "eloiro",
+      "előíró",
+      "ertekitelet",
+      "értékítélet"
+    ],
+    "explanation": "A pozitív állítás leíró, tényekkel igazolható vagy cáfolható. A normatív állítás előíró: azt mondja meg, milyen kellene legyen az emberek viselkedése, és etikai értékítéletet tartalmaz. Kulcsszó: „kellene”.",
+    "source": "Jegyzet 1.9 · Könyv 13. o.",
+    "official": true,
+    "difficulty": 2,
+    "derivedKey": true
+  },
+  {
+    "id": "kg-1-009",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.1",
+    "question": "A közgazdaságtan egyének és közösségek termelési és fogyasztási döntéseivel foglalkozó társadalomtudomány.",
+    "answer": true,
+    "explanation": "A jegyzet definíciója szerint igen, és azért kell döntenünk, mert a lehetőségeink szűkösek.",
+    "source": "Jegyzet 1.1 · Könyv 3. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-010",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.1",
+    "question": "A mikroökonómia összevont (aggregált) mutatókkal, a gazdasági teljesítmény, állapot és tendencia vizsgálatával foglalkozik.",
+    "answer": false,
+    "explanation": "Ez a makroökonómia. A mikroökonómia egyéni (üzleti) szereplőkkel, egyéni döntésekkel, elkülönült gazdálkodókkal foglalkozik.",
+    "source": "Jegyzet 1.1 · Könyv 3. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-011",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.1",
+    "question": "A szűkösség azt jelenti, hogy az erőforrások korlátosak, ezért az egyénnek választania kell.",
+    "answer": true,
+    "explanation": "Szűkösség: az erőforrások korlátosak, az egyén nem kaphat meg mindent, amit szeretne, ezért választania kell.",
+    "source": "Jegyzet 1.1 · Könyv 3. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-012",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.1",
+    "question": "A közgazdasági modellek egyszerűsítő alapfeltevésekre (axiómákra) épülnek.",
+    "answer": true,
+    "explanation": "A könyv szerint a közgazdasági modellek egyszerűsítő alapfeltevésekre, axiómákra épülnek.",
+    "source": "Jegyzet 1.1 · Könyv 3. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-013",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.1",
+    "question": "Mivel foglalkozik a makroökonómia?",
+    "answer": "összevont (aggregált) mutatókkal, a gazdasági teljesítménnyel, állapottal és tendenciával",
+    "options": [
+      "összevont (aggregált) mutatókkal, a gazdasági teljesítménnyel, állapottal és tendenciával",
+      "egy háztartás vásárlási döntésével",
+      "egyéni (üzleti) szereplők döntéseivel",
+      "elkülönült gazdálkodók és egységek együttesével"
+    ],
+    "explanation": "A makroökonómia közösségi szereplőkkel és aggregált mutatókkal dolgozik. Az egyéni szereplők és az egyéni döntések a mikroökonómia tárgyai.",
+    "source": "Jegyzet 1.1 · Könyv 3. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-014",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.2",
+    "question": "A közgazdaságtan egyik alapelve: mindennek az a költsége, amiről lemondunk érte.",
+    "answer": true,
+    "explanation": "Ez a 2. alapelv. Erre épül az alternatíva költség fogalma (4.1, 5.2).",
+    "source": "Jegyzet 1.2",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-015",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.2",
+    "question": "A 10 alapelv szerint a racionális emberek átlagértékekben gondolkodnak.",
+    "answer": false,
+    "explanation": "A 3. alapelv szerint a racionális emberek marginális (határ-) értékekben gondolkodnak. Erre épül a határelemzés (2.3, 6.5).",
+    "source": "Jegyzet 1.2",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-016",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.2",
+    "question": "Az alapelvek szerint a társadalom az infláció és a munkanélküliség között átváltással szembesül.",
+    "answer": true,
+    "explanation": "Ez a 10. alapelv.",
+    "source": "Jegyzet 1.2",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-017",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.2",
+    "question": "Melyik állítás NEM szerepel a közgazdaságtan 10 alapelve között?",
+    "answer": "Az emberek mindig a legolcsóbb terméket választják.",
+    "options": [
+      "Az emberek mindig a legolcsóbb terméket választják.",
+      "Az emberek ösztönzőkre reagálnak.",
+      "Kereskedelem, csere révén mindenki jobban járhat.",
+      "Ha a kormány túl sok pénzt bocsát ki, az árak emelkednek."
+    ],
+    "explanation": "A másik három a 4., az 5. és a 9. alapelv. A legolcsóbb termék választása nem szerepel a listán.",
+    "source": "Jegyzet 1.2",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-018",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.3",
+    "question": "A közgazdaságtan természettudomány, hiszen jelenségeket modellez.",
+    "answer": false,
+    "explanation": "A jegyzet szerint ez sajnos nem természettudomány: az igen bonyolult emberek vágyait, viselkedését, reakcióit kell modellezni.",
+    "source": "Jegyzet 1.3 · Könyv 3–4. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-019",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.3",
+    "question": "A modellezésnél az embert annyira egyszerűsítjük le, hogy viselkedése érthető legyen, de a modell még erős magyarázóképességgel rendelkezzen.",
+    "answer": true,
+    "explanation": "A nagy kérdés az, hogyan kell „megfelelően” leegyszerűsíteni az embert. Ennek eredménye a homo oeconomicus.",
+    "source": "Jegyzet 1.3 · Könyv 3–4. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-020",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.3",
+    "question": "A jegyzet szerint a közgazdászok azért nem mondják ugyanazt, mert eltérőek az értékeik, a megközelítésük és az értékelésük.",
+    "answer": true,
+    "explanation": "A jegyzet ezeket sorolja fel: értékek, megközelítés, értékelés, és hogy mi a valóság.",
+    "source": "Jegyzet 1.3 · Könyv 3–4. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-021",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "A drive mozgósít, és meg is mutatja, pontosan mit tegyünk.",
+    "answer": false,
+    "explanation": "A drive mozgósít, de nem irányít: nem mutatja meg, mit tegyünk, csak jelzi, hogy tegyünk valamit a feszültség csökkentése érdekében.",
+    "source": "Jegyzet 1.4 · Könyv 4–5. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-022",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "Az arousalszint-elmélet szerint nem a nulla, hanem egy optimális éberségi, izgalmi szint elérése a cél.",
+    "answer": true,
+    "explanation": "Az arousalszint-elmélet a drive-redukciós elméletet árnyalja. Két végpontja az unatkozás és a túlhajtottság.",
+    "source": "Jegyzet 1.4 · Könyv 4–5. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-023",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "Az arousalszint-elmélet szerint az optimum alatti izgalmi szintet tovább akarjuk csökkenteni.",
+    "answer": false,
+    "explanation": "Az optimum fölött csökkenteni akarjuk az izgalmi szintet, alatta viszont ingereket keresünk.",
+    "source": "Jegyzet 1.4 · Könyv 4–5. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-024",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "A kutató (explorációs) drive az elsődleges drive-ok közé tartozik.",
+    "answer": true,
+    "explanation": "Az elsődleges drive-ok felsorolásában szerepel a kutató vagy explorációs drive is. A túlélés szempontjából értelemmel bír, ezért az állatvilágban is előfordul.",
+    "source": "Jegyzet 1.4 · Könyv 4–5. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-025",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "A majmok megtanulták az érmés automata kezelését, és később akkor is dolgoztak az érmékért, ha az automata nem volt a közelben. Ez a másodlagos drive példája.",
+    "answer": true,
+    "explanation": "Az érme az elsődleges drive (táplálék) kielégítésében játszott szerepet, ezért maga is jutalomértéket nyert, vagyis másodlagos drive lett.",
+    "source": "Jegyzet 1.4 · Könyv 4–5. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-026",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "A jegyzet szerint mi történik ELSŐKÉNT, amikor lecsökken a vércukorszint?",
+    "answer": "a belső tartalékok mozgósítása",
+    "options": [
+      "a belső tartalékok mozgósítása",
+      "a táplálékkeresés",
+      "a cselekvésre késztető belső feszültség",
+      "az arousalszint csökkentése"
+    ],
+    "explanation": "A sorrend: lecsökken a vércukorszint → előbb a belső tartalékok mozgósítása → cselekvésre késztető belső feszültség (drive) → táplálékkeresés.",
+    "source": "Jegyzet 1.4 · Könyv 4–5. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-027",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "Melyik elsődleges drive?",
+    "answer": "a szomjúság",
+    "options": [
+      "a szomjúság",
+      "a pénz iránti vágy",
+      "a majmok vágya az automata érméi iránt",
+      "a hullámvasutazás iránti vágy"
+    ],
+    "explanation": "Az elsődleges drive-ok az ön- és fajfenntartással kapcsolatosak, például hőszabályozás, éhség, szomjúság, alvás. A pénz és az érme másodlagos drive.",
+    "source": "Jegyzet 1.4 · Könyv 4–5. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-028",
+    "type": "parositas",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "Párosítsd a fogalmakat a jelentésükkel!",
+    "answer": [
+      [
+        "Elsődleges drive",
+        "az ön- és fajfenntartással kapcsolatos hajtóerő"
+      ],
+      [
+        "Másodlagos drive",
+        "tanulással, tapasztalással alakul ki"
+      ],
+      [
+        "Drive-redukciós elmélet",
+        "a feszültségként átélt állapot csökkentése a cél"
+      ],
+      [
+        "Arousalszint-elmélet",
+        "egy optimális izgalmi szint elérése a cél"
+      ]
+    ],
+    "explanation": "Az elsődleges drive-ok a túlélést szolgálják, a másodlagosakat tanuljuk. A drive-redukciós elmélet a feszültség csökkentését, az arousalszint-elmélet egy optimális izgalmi szintet tart célnak.",
+    "source": "Jegyzet 1.4 · Könyv 4–5. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-029",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "Őseink fajunk evolúciós történetének több mint 99%-át vadászó-gyűjtögető társadalmakban töltötték.",
+    "answer": true,
+    "explanation": "Ezért a környezet, amire „kódoltattunk”, sok tekintetben nagyon különbözik a mostanitól.",
+    "source": "Jegyzet 1.5 · Könyv 5–7. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-030",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "Az emberi vágyak többsége túlélési szempontokkal jól magyarázható, ezért az „ember mint túlélőgép” megközelítés az embernél is jól működik.",
+    "answer": false,
+    "explanation": "Ez a megközelítés az állatoknál működik jól. Túlélési szempontokkal nyilvánvalóan magyarázható emberi vágy kevés van, bőven akad ilyennel nem magyarázható vágyunk.",
+    "source": "Jegyzet 1.5 · Könyv 5–7. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-031",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "A jegyzet szerint jobban félünk a konnektoroktól, mint a kígyóktól.",
+    "answer": false,
+    "explanation": "Fordítva: inkább félünk a kígyóktól, mint a konnektoroktól. Ez evolúciós motívum.",
+    "source": "Jegyzet 1.5 · Könyv 5–7. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-032",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "Kinek a nevéhez fűződik a természetes szelekció működésének leírása?",
+    "answer": "Charles Darwin",
+    "options": [
+      "Charles Darwin",
+      "Gossen",
+      "Veblen",
+      "Cicero"
+    ],
+    "explanation": "Charles Darwin: az élőlények arra szelektálódnak, hogy adott környezetükben genetikailag egyre rátermettebbek legyenek.",
+    "source": "Jegyzet 1.5 · Könyv 5–7. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-033",
+    "type": "rovid-valasz",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "Egészítsd ki az idézetet: „Modern koponyánkban … elme lakik.”",
+    "answer": [
+      "kőkori"
+    ],
+    "explanation": "A természetes kiválasztódás évmilliókon át faragta az elmét, de a mai környezet nagyon különbözik attól, amire „kódoltattunk”.",
+    "source": "Jegyzet 1.5 · Könyv 5–7. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-034",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "A homo oeconomicus a szükségleteit maximalizálja.",
+    "answer": false,
+    "explanation": "A homo oeconomicus a hasznosságot maximalizálja. A szükséglet a hiány, a hasznosság a hiány megszüntetésének élvezete.",
+    "source": "Jegyzet 1.6 · Könyv 7. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-035",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "A szükséglet a hiány, a hasznosság a hiány megszüntetésének élvezete.",
+    "answer": true,
+    "explanation": "Ez a jegyzet vizsgatippje. Hasznossága van valaminek, ha kielégülést, élvezetet, hasznavehetőséget nyújt.",
+    "source": "Jegyzet 1.6 · Könyv 7. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-036",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "A szükséglet a kielégítése után megszűnik vagy gyengül.",
+    "answer": true,
+    "explanation": "A könyv szerint a szükséglet a kielégítés után megszűnik vagy gyengül.",
+    "source": "Jegyzet 1.6 · Könyv 7. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-037",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "A közgazdaságtan részletesen vizsgálja a drive-ok eredetét.",
+    "answer": false,
+    "explanation": "A közgazdaságtan a szükségleteket adottnak veszi, a drive-ok eredetével nem foglalkozik.",
+    "source": "Jegyzet 1.6 · Könyv 7. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-038",
+    "type": "rovid-valasz",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "Hogy hívjuk azt a jószág megszerzése vagy elfogyasztása iránti vágyat, hiányérzetet, amely cselekvésre késztet és fogyasztás révén nyer kielégítést?",
+    "answer": [
+      "szükséglet",
+      "a szükséglet"
+    ],
+    "explanation": "Ez a szükséglet definíciója. A hiányérzet megszüntetésének élvezete adja a dolgok hasznosságát.",
+    "source": "Jegyzet 1.6 · Könyv 7. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-039",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "Mit jelent a hasznosság a könyv szerint?",
+    "answer": "a szubjektív élvezetek és az elkerült kellemetlenségek együttesét",
+    "options": [
+      "a szubjektív élvezetek és az elkerült kellemetlenségek együttesét",
+      "egy jószág iránti hiányérzetet",
+      "a jószág piaci árát",
+      "a jószág előállításának költségét"
+    ],
+    "explanation": "A hasznosság a szubjektív élvezetek és az elkerült kellemetlenségek együttese. A hiányérzet a szükséglet.",
+    "source": "Jegyzet 1.6 · Könyv 7. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-040",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "A közgazdasági megközelítés szerint egy vállalatnak vagy egy országnak is lehetnek saját motivációi, céljai.",
+    "answer": false,
+    "explanation": "Motivációi, céljai csak embereknek lehetnek, bizottságnak, vállalatnak, országnak nem. Mindent egyéni választásokkal magyarázunk.",
+    "source": "Jegyzet 1.7 · Könyv 7–13. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-041",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "A homo oeconomicusnak világos és stabil preferenciái vannak, és képes rangsorolni a lehetőségeket.",
+    "answer": true,
+    "explanation": "Ez a racionális kalkuláció része, csakúgy, mint a korlátlan információ és a valószínűségszámítás pontos követése.",
+    "source": "Jegyzet 1.7 · Könyv 7–13. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-042",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "A homo oeconomicus korlátozott információ birtokában dönt.",
+    "answer": false,
+    "explanation": "Érdekei képviseletéhez korlátlan belátási képességekkel és információval rendelkezik: minden cselekvési lehetőségről van szükséges információja.",
+    "source": "Jegyzet 1.7 · Könyv 7–13. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-043",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "Az átlagegyénnek a modellezett helyzethez kell illeszkednie: más a fagylaltpiac és más a tűzifapiac átlagvásárlója.",
+    "answer": true,
+    "explanation": "A könyv példája. Az átlagegyén mindig az adott helyzethez illeszkedő, hipotetikus lény.",
+    "source": "Jegyzet 1.7 · Könyv 7–13. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-044",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "A racionális kalkuláció a tömegek átlagos viselkedésére rossz közelítés.",
+    "answer": false,
+    "explanation": "A gyakorlati korlátok ellenére a racionális kalkuláció a nagy horderejű döntéseknél és a tömegekre jó közelítés.",
+    "source": "Jegyzet 1.7 · Könyv 7–13. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-045",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "A „savanyú a szőlő” jelenség azt jelenti, hogy a döntés után igazítjuk a vágyainkat.",
+    "answer": true,
+    "explanation": "A könyv a racionális kalkuláció gyakorlati korlátai között említi.",
+    "source": "Jegyzet 1.7 · Könyv 7–13. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-046",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "A homo oeconomicusi világkép a neoklasszikus közgazdaságtan kiindulópontja.",
+    "answer": true,
+    "explanation": "Az 1. szeminárium szerint a tanult homo oeconomicusi világkép az ún. neoklasszikus közgazdaságtan kiindulópontja.",
+    "source": "Jegyzet 1.7 · Könyv 7–13. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-047",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "Melyik NEM a homo oeconomicus jellemzője?",
+    "answer": "altruista",
+    "options": [
+      "altruista",
+      "átlagegyén",
+      "önző",
+      "racionálisan kalkulál"
+    ],
+    "explanation": "A négy jellemző: átlagegyén, önző, nem etikus, racionálisan kalkulál. Önző, tehát nem altruista.",
+    "source": "Jegyzet 1.7 · Könyv 7–13. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-048",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "Melyik a racionális kalkuláció gyakorlati korlátja a könyv szerint?",
+    "answer": "a vágyvezérelt gondolkodás",
+    "options": [
+      "a vágyvezérelt gondolkodás",
+      "a korlátlan információ",
+      "a stabil preferenciák",
+      "a valószínűségszámítás pontos követése"
+    ],
+    "explanation": "A korlátok: a vélt és tényleges lehetőségek eltérnek, vágyvezérelt gondolkodás, statisztikai tévedések, tikkelés és „savanyú a szőlő”. A többi opció a racionális kalkuláció feltevése.",
+    "source": "Jegyzet 1.7 · Könyv 7–13. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-049",
+    "type": "parositas",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "Párosítsd a homo oeconomicus jellemzőit a jelentésükkel!",
+    "answer": [
+      [
+        "Átlagegyén",
+        "az adott helyzethez illeszkedő, átlagot megtestesítő hipotetikus lény"
+      ],
+      [
+        "Önző",
+        "csak saját hasznosságának maximalizálására törekszik"
+      ],
+      [
+        "Nem etikus",
+        "erkölcsi okból sem utasít el olyat, ami jó lenne neki"
+      ],
+      [
+        "Racionálisan kalkulál",
+        "korlátlan belátással és információval dönt"
+      ]
+    ],
+    "explanation": "Ez a homo oeconomicus négy jellemzője az 1. előadás és az 1. szeminárium alapján.",
+    "source": "Jegyzet 1.7 · Könyv 7–13. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-050",
+    "type": "rovid-valasz",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "Hogy hívjuk a közgazdaságtan alap választási mechanizmusa, a racionalitás alapján döntő „gazdálkodó embert”?",
+    "answer": [
+      "homo oeconomicus"
+    ],
+    "explanation": "A homo oeconomicus a közgazdasági „robotember”: átlagegyén, önző, nem etikus, racionálisan kalkulál.",
+    "source": "Jegyzet 1.7 · Könyv 7–13. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-051",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "A könyv szerint az altruista tettnek három motívuma lehet, és ezek közül csak a másik öröme számít igazi altruizmusnak.",
+    "answer": true,
+    "explanation": "A gazdasági haszon (később visszajön) és a pszichológiai haszon („De jó ember vagyok!”) ál-altruizmus, ami belefér az önzésbe.",
+    "source": "Jegyzet 1.8 · Könyv 9–10. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-052",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Ha valaki azért segít, mert a segítség később visszajön neki, az igazi altruizmus.",
+    "answer": false,
+    "explanation": "Ez a gazdasági haszon motívuma, vagyis ál-altruizmus, ami belefér az önzésbe.",
+    "source": "Jegyzet 1.8 · Könyv 9–10. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-053",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "A megtérülő etika rövid távon veszteséget, hosszú távon nyereséget hoz.",
+    "answer": true,
+    "explanation": "Ezért a megtérülő etika racionális. Az öncélú etika hosszú távon is árthat.",
+    "source": "Jegyzet 1.8 · Könyv 9–10. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-054",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "A homo oeconomicus öncélú etikai alapon is hozhat döntést.",
+    "answer": false,
+    "explanation": "A könyv szerint a homo oeconomicus igazi altruista vagy öncélú etikai alapon soha nem dönt.",
+    "source": "Jegyzet 1.8 · Könyv 9–10. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-055",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Cicero rodoszi példázatában a kereskedő látja, hogy még sok gabonás hajó indul Rodoszra. Mit tenne a homo oeconomicus?",
+    "answer": "elhallgatná az információt, hogy maximalizálja a nyereségét",
+    "options": [
+      "elhallgatná az információt, hogy maximalizálja a nyereségét",
+      "beszámolna a rodosziaknak a hajókról",
+      "ingyen szétosztaná a gabonát",
+      "olcsóbban adná a gabonát, hogy ne ártson a rodosziaknak"
+    ],
+    "explanation": "A homo oeconomicus önző és nem etikus, ezért elhallgatná az információt. Ha a kereskedő szól, az etikus vagy altruista viselkedés, ami közgazdasági értelemben „irracionális”.",
+    "source": "Jegyzet 1.8 · Könyv 9–10. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-056",
+    "type": "parositas",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Párosítsd az altruista tett motívumait a besorolásukkal!",
+    "answer": [
+      [
+        "Gazdasági haszon: a segítség később visszajön",
+        "ál-altruizmus, belefér az önzésbe"
+      ],
+      [
+        "Pszichológiai haszon: „De jó ember vagyok!”",
+        "ál-altruizmus, ez is belefér az önzésbe"
+      ],
+      [
+        "A másik öröme",
+        "igazi altruizmus"
+      ]
+    ],
+    "explanation": "A könyv szerint csak a harmadik motívum az igazi altruizmus.",
+    "source": "Jegyzet 1.8 · Könyv 9–10. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-057",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.9",
+    "question": "A normatív állítás tényekkel igazolható vagy cáfolható.",
+    "answer": false,
+    "explanation": "Ez a pozitív állítás. A normatív állítás előíró, etikai értékítéletet tartalmaz.",
+    "source": "Jegyzet 1.9 · Könyv 13. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-058",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.9",
+    "question": "A közgazdaságtudomány alapvetően csak pozitív, de alkalmazói gyakran keverik a pozitív és a normatív érvelést.",
+    "answer": true,
+    "explanation": "A jegyzet vizsgatippje szerint igaz.",
+    "source": "Jegyzet 1.9 · Könyv 13. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-059",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.9",
+    "question": "Melyik normatív állítás?",
+    "answer": "Az embereknek önzetlenül kellene segíteniük a súlyos betegeket.",
+    "options": [
+      "Az embereknek önzetlenül kellene segíteniük a súlyos betegeket.",
+      "Ha valaminek felmegy az ára, kevesebbet fogyasztanak belőle.",
+      "A háztartások döntéseit a mikroökonómia vizsgálja.",
+      "Őseink evolúciós történetük több mint 99%-át vadászó-gyűjtögetőként töltötték."
+    ],
+    "explanation": "A „kellene” kulcsszó jelzi a normatív, előíró állítást. A többi leíró állítás, tényekkel ellenőrizhető.",
+    "source": "Jegyzet 1.9 · Könyv 13. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-060",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.10",
+    "question": "A pénz a termelési tényezők egyik tradicionális csoportja.",
+    "answer": false,
+    "explanation": "Tradicionálisan a munka, a föld és a tőkejavak a termelési tényezők, az 1. előadás negyedikként a vállalkozói szolgáltatást is említi. A pénz egyik felsorolásban sincs.",
+    "source": "Jegyzet 1.10 · Könyv 3, 17, 38. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-061",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.10",
+    "question": "A ceteris paribus minden egyéb változatlanságát jelenti.",
+    "answer": true,
+    "explanation": "Ceteris paribus: minden egyéb változatlansága mellett.",
+    "source": "Jegyzet 1.10 · Könyv 3, 17, 38. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-062",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.10",
+    "question": "Melyik termelési tényezőbe tartozik a gép, az épület és az alkatrész?",
+    "answer": "tőkejavak",
+    "options": [
+      "tőkejavak",
+      "munkatényező",
+      "természeti tényező",
+      "vállalkozói szolgáltatás"
+    ],
+    "explanation": "Tőkejavak: gép, épület, alkatrész, mesterséges eszközök.",
+    "source": "Jegyzet 1.10 · Könyv 3, 17, 38. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-063",
+    "type": "parositas",
+    "chapter": 1,
+    "section": "1.10",
+    "question": "Párosítsd a termelési tényezőket a tartalmukkal!",
+    "answer": [
+      [
+        "Munkatényező",
+        "az ember fizikumában és szellemében"
+      ],
+      [
+        "Természeti tényező",
+        "föld, víz, bányakincs"
+      ],
+      [
+        "Tőkejavak",
+        "gép, épület, alkatrész"
+      ],
+      [
+        "Vállalkozói szolgáltatás",
+        "kombinálás, kockázatvállalás, szervezés, döntés"
+      ]
+    ],
+    "explanation": "Az 1. előadás négy termelési tényezőt sorol fel. A termelési tényezők a termelés erőforrásai.",
+    "source": "Jegyzet 1.10 · Könyv 3, 17, 38. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-1-064",
+    "type": "rovid-valasz",
+    "chapter": 1,
+    "section": "1.10",
+    "question": "Melyik tudományterület vizsgálja a háztartások és a vállalatok döntéseit?",
+    "answer": [
+      "mikroökonómia",
+      "a mikroökonómia",
+      "mikroökonómiát",
+      "mikro"
+    ],
+    "explanation": "A háztartás és a vállalat egyéni szereplő, ezért döntéseik a mikroökonómia tárgyai.",
+    "source": "Jegyzet 1.10 · Könyv 3. o.",
     "official": false,
     "difficulty": 1
   }

@@ -7,6 +7,8 @@ const { load } = await import('./storage.js');
 assert.equal(normalize('  Ceteris   Páribus! '), 'ceteris paribus');
 assert.ok(isCorrect({ type: 'rovid-valasz', answer: ['ceteris paribus'] }, 'CETERIS paribus'));
 assert.ok(!isCorrect({ type: 'rovid-valasz', answer: ['ceteris paribus'] }, 'ceteris'));
+assert.ok(isCorrect({ type: 'rovid-valasz', answer: ['hosszú mintaválasz'], keywords: ['jobb minőség'] }, 'Mert jobb minőségre következtetnek'));
+assert.ok(!isCorrect({ type: 'rovid-valasz', answer: ['hosszú mintaválasz'], keywords: ['jobb minőség'] }, 'mert drága'));
 assert.ok(isCorrect({ type: 'igaz-hamis', answer: false }, false));
 assert.ok(!isCorrect({ type: 'igaz-hamis', answer: false }, null));
 assert.ok(isCorrect({ type: 'parositas', answer: [['a', '1'], ['b', '2']] }, { a: '1', b: '2' }));

@@ -1,8 +1,446 @@
 [
-  { "term": "Másodlagos (áttételes) drive", "definition": "Tanulással, tapasztalással alakul ki; ami az elsődleges drive-ok kielégítésében szerepet játszik, maga is drive-vá válik (pl. pénz).", "section": "1.4", "star": true },
-  { "term": "Szükséglet", "definition": "Jószág megszerzése vagy elfogyasztása iránti vágy, hiányérzet, ami cselekvésre késztet, fogyasztás révén nyer kielégítést.", "section": "1.6", "star": true },
-  { "term": "Homo oeconomicus", "definition": "A racionalitás alapján döntő „gazdálkodó ember”: átlagegyén, önző, nem etikus, racionálisan kalkulál.", "section": "1.7", "star": true },
-  { "term": "Ceteris paribus", "definition": "Minden egyéb változatlansága mellett.", "section": "1.10", "star": true },
-  { "term": "Engel-görbe", "definition": "A jövedelem függvényében egy jószág fogyasztott mennyisége.", "section": "3.1", "star": true },
-  { "term": "Veblen-hatás", "definition": "Áremeléskor nő a kereslet, mert jobb minőséget sejtenek.", "section": "3.5", "star": false }
+ {
+  "term": "Másodlagos (áttételes) drive",
+  "definition": "Tanulással, tapasztalással alakul ki; ami az elsődleges drive-ok kielégítésében szerepet játszik, maga is drive-vá válik (pl. pénz).",
+  "section": "1.4",
+  "star": true
+ },
+ {
+  "term": "Szükséglet",
+  "definition": "Jószág megszerzése vagy elfogyasztása iránti vágy, hiányérzet, ami cselekvésre késztet, fogyasztás révén nyer kielégítést.",
+  "section": "1.6",
+  "star": true
+ },
+ {
+  "term": "Hasznosság",
+  "definition": "Van valaminek, ha valaki számára kielégülést, élvezetet, hasznavehetőséget nyújt.",
+  "section": "1.6",
+  "star": true
+ },
+ {
+  "term": "Homo oeconomicus",
+  "definition": "A racionalitás alapján döntő „gazdálkodó ember”: átlagegyén, önző, nem etikus, racionálisan kalkulál.",
+  "section": "1.7",
+  "star": true
+ },
+ {
+  "term": "Igazi altruizmus",
+  "definition": "A másik öröme, jóléte önzetlenül kerül előtérbe; nem fér bele a homo oeconomicusi racionalitásba.",
+  "section": "1.8",
+  "star": true
+ },
+ {
+  "term": "Mikro- és makroökonómia",
+  "definition": "Egyéni döntések, elkülönült gazdálkodók ↔ összevont (aggregált) mutatók.",
+  "section": "1.1, 1.10",
+  "star": true
+ },
+ {
+  "term": "Ceteris paribus",
+  "definition": "Minden egyéb változatlansága mellett.",
+  "section": "1.10",
+  "star": true
+ },
+ {
+  "term": "Termelési tényezők",
+  "definition": "Tradicionálisan munka, föld, tőkejavak (a dia szerint + vállalkozói szolgáltatás).",
+  "section": "1.10, 6.1",
+  "star": true
+ },
+ {
+  "term": "Drive",
+  "definition": "Belső késztetés, hajtóerő; mozgósít, de nem irányít.",
+  "section": "1.4",
+  "star": false
+ },
+ {
+  "term": "Elsődleges drive",
+  "definition": "Ön- és fajfenntartással kapcsolatos hajtóerő (az ember mint „túlélőgép”).",
+  "section": "1.4",
+  "star": false
+ },
+ {
+  "term": "Arousalszint-elmélet",
+  "definition": "Nem a nulla, hanem egy optimális éberségi, izgalmi szint elérése a cél.",
+  "section": "1.4",
+  "star": false
+ },
+ {
+  "term": "Közgazdaságtan",
+  "definition": "Egyének és közösségek termelési és fogyasztási döntéseivel foglalkozó társadalomtudomány.",
+  "section": "1.1",
+  "star": false
+ },
+ {
+  "term": "Lehetőségek halmaza",
+  "definition": "Az egyén számára megvalósítható cselekvési lehetőségek halmaza.",
+  "section": "1.7",
+  "star": false
+ },
+ {
+  "term": "Pozitív / normatív állítás",
+  "definition": "Milyen a viselkedés (tények, adatok) / milyen kellene legyen (etikai egyetértés).",
+  "section": "1.9",
+  "star": false
+ },
+ {
+  "term": "Szűkösség",
+  "definition": "Az erőforrások korlátosak; nem kaphatunk meg mindent, amit szeretnénk.",
+  "section": "1.1",
+  "star": false
+ },
+ {
+  "term": "Egyéni választások",
+  "definition": "A közgazdaságtan mindent egyéni választásokkal magyaráz.",
+  "section": "1.7",
+  "star": false
+ },
+ {
+  "term": "Választási mechanizmus, racionális választás",
+  "definition": "Ahogyan az egyén a lehetőségek közül dönt; alapesete a racionalitás.",
+  "section": "1.7",
+  "star": false
+ },
+ {
+  "term": "Ál-altruizmus",
+  "definition": "Gazdasági vagy pszichológiai haszonért tett „önzetlenség”; belefér az önzésbe.",
+  "section": "1.8",
+  "star": false
+ },
+ {
+  "term": "Megtérülő / öncélú etika",
+  "definition": "Rövid távú veszteség hosszú távú nyereségért / hosszú távon is árthat.",
+  "section": "1.8",
+  "star": false
+ },
+ {
+  "term": "Vágyvezérelt gondolkodás",
+  "definition": "Az információt úgy látjuk, ahogy szeretnénk.",
+  "section": "1.7",
+  "star": false
+ },
+ {
+  "term": "Evolúciós megközelítés, evolúciós csökevény",
+  "definition": "Vágyaink a természetes szelekció termékei; csökevény: ma már értelmét vesztett viselkedés.",
+  "section": "1.5",
+  "star": false
+ },
+ {
+  "term": "Kardinális elmélet",
+  "definition": "A hasznosság számmal kifejezhető; mérése lehetséges és szükséges.",
+  "section": "2.1",
+  "star": true
+ },
+ {
+  "term": "Ordinális elmélet",
+  "definition": "Preferencia, rangsor; számszerű mérés nem lehetséges és nem is szükséges.",
+  "section": "2.1",
+  "star": true
+ },
+ {
+  "term": "Csökkenő határhasznosság elve",
+  "definition": "Gossen I.: több egységnél az utolsó egység többlethasznossága csökken.",
+  "section": "2.2",
+  "star": true
+ },
+ {
+  "term": "Közömbösségi görbe",
+  "definition": "Azonos hasznosságot jelentő (egymással közömbös) jószágkosarak görbéje.",
+  "section": "2.5",
+  "star": true
+ },
+ {
+  "term": "Közömbösségi térkép",
+  "definition": "Közömbösségi görbék együttese a két jószág síkján; távolabb = magasabb hasznosság.",
+  "section": "2.5",
+  "star": true
+ },
+ {
+  "term": "Költségvetési korlát",
+  "definition": "A két jószág koordináta-rendszerében a jövedelem teljes elköltésével megvásárolható pontok; Pax + Pby = I.",
+  "section": "2.8",
+  "star": true
+ },
+ {
+  "term": "Teljes / határhasznosság",
+  "definition": "TU: az összes elfogyasztott egység hasznossága; MU: az utolsó egységé.",
+  "section": "2.2",
+  "star": false
+ },
+ {
+  "term": "Előnykiegyenlítés elve",
+  "definition": "MUa/Pa = … = MUz/Pz = MUM.",
+  "section": "2.4",
+  "star": false
+ },
+ {
+  "term": "Kereslet törvénye",
+  "definition": "Ha nő az ár, csökken a keresett mennyiség.",
+  "section": "2.4",
+  "star": false
+ },
+ {
+  "term": "Helyettesítési határráta, MRS",
+  "definition": "B azon mennyisége, amelyet a fogyasztó feláldoz a tetszőlegesen kicsi pótlólagos a-ért; MUa/MUb.",
+  "section": "2.7",
+  "star": false
+ },
+ {
+  "term": "Gossen II. törvénye",
+  "definition": "Optimális elköltésnél az utolsó pénzegységre jutó határhaszon minden terméknél azonos, és egyenlő a pénzjövedelem egységének határhasznával.",
+  "section": "2.9",
+  "star": false
+ },
+ {
+  "term": "Értékparadoxon",
+  "definition": "Víz olcsó, gyémánt drága; feloldás: teljes ≠ határhasznosság.",
+  "section": "2.3",
+  "star": false
+ },
+ {
+  "term": "Határértelem, határelemzés",
+  "definition": "Egy kis lépés többlethasznának és többletköltségének összevetése.",
+  "section": "2.3",
+  "star": false
+ },
+ {
+  "term": "Kereslet",
+  "definition": "A keresett mennyiség és az ár kapcsolata; nem azonos a szükséglettel.",
+  "section": "2.4",
+  "star": false
+ },
+ {
+  "term": "Jövedelem-fogyasztás görbe, ICC",
+  "definition": "A jövedelem változásakor kapott optimumpontok görbéje.",
+  "section": "3.1",
+  "star": true
+ },
+ {
+  "term": "Engel-görbe",
+  "definition": "A jövedelem függvényében egy jószág fogyasztott mennyisége.",
+  "section": "3.1",
+  "star": true
+ },
+ {
+  "term": "Helyettesítési hatás",
+  "definition": "Az árváltozás teljes hatásának egyik része (drágább jószágból kevesebb).",
+  "section": "3.4",
+  "star": true
+ },
+ {
+  "term": "Jövedelmi hatás",
+  "definition": "A reáljövedelem változása miatti hatás; normálnál azonos, inferiornál ellentétes irányú.",
+  "section": "3.4",
+  "star": true
+ },
+ {
+  "term": "Fogyasztói extern hatás",
+  "definition": "Az egyéni keresletek nem függetlenek; nyáj-, sznob-, Veblen-hatás.",
+  "section": "3.5",
+  "star": true
+ },
+ {
+  "term": "Ár-fogyasztás görbe, PCC",
+  "definition": "Az egyik ár változásakor kapott optimumpontok görbéje; ebből az egyéni kereslet.",
+  "section": "3.3",
+  "star": false
+ },
+ {
+  "term": "Giffen-jószág",
+  "definition": "Nagy kosárrészesedésű inferior jószág, jövedelmi hatása legyőzi a helyettesítésit: áremeléskor többet fogyasztanak.",
+  "section": "3.4",
+  "star": false
+ },
+ {
+  "term": "Normál / luxus / inferior jószág",
+  "definition": "Jövedelemmel nő / előbb nem veszik, aztán gyorsabban nő / egy jövedelemszint fölött csökken.",
+  "section": "3.2",
+  "star": false
+ },
+ {
+  "term": "Nyájhatás",
+  "definition": "Növekvő piaci kereslettől nő az egyéni is.",
+  "section": "3.5",
+  "star": false
+ },
+ {
+  "term": "Sznobhatás",
+  "definition": "Növekvő piaci kereslettől csökken az egyéni.",
+  "section": "3.5",
+  "star": false
+ },
+ {
+  "term": "Veblen-hatás",
+  "definition": "Áremeléskor nő a kereslet, mert jobb minőséget sejtenek.",
+  "section": "3.5",
+  "star": false
+ },
+ {
+  "term": "Kereslet változása",
+  "definition": "Az egész függvény változik; árváltozás csak a keresett mennyiséget változtatja.",
+  "section": "3.6",
+  "star": false
+ },
+ {
+  "term": "Alternatíva költség",
+  "definition": "A „legjobb más” elvesztett értéke.",
+  "section": "4.1, 5.2",
+  "star": false
+ },
+ {
+  "term": "Abszolút előny",
+  "definition": "Valamiből többet tud előállítani (a muffinpéldában Aladár).",
+  "section": "4.2",
+  "star": false
+ },
+ {
+  "term": "Komparatív előny",
+  "definition": "Relatíve olcsóbban (kisebb alternatíva költséggel) állítja elő.",
+  "section": "4.1–4.2",
+  "star": false
+ },
+ {
+  "term": "Relatív előny",
+  "definition": "Saját magához képest jobb/rosszabb; a komparatív előny megoszlik.",
+  "section": "4.2",
+  "star": false
+ },
+ {
+  "term": "Szakosodás és koordináció",
+  "definition": "A szakosodott munka csak összehangolással (vagy cserével) ér valamit.",
+  "section": "4.6",
+  "star": false
+ },
+ {
+  "term": "Tranzakciós költség",
+  "definition": "A szakosodás miatt szükséges koordináció, csere költsége; határt szab a szakosodásnak.",
+  "section": "4.6",
+  "star": false
+ },
+ {
+  "term": "Származékos kereslet",
+  "definition": "A termelési tényezők kereslete az output termékek keresletéből fakad.",
+  "section": "6.1",
+  "star": true
+ },
+ {
+  "term": "Kereslet növekedése",
+  "definition": "A keresleti görbe jobbra tolódik; az ár és a mennyiség is nő.",
+  "section": "5.6",
+  "star": true
+ },
+ {
+  "term": "Piac",
+  "definition": "Adott áru vagy szolgáltatás vevőinek és eladóinak összessége.",
+  "section": "5.1",
+  "star": false
+ },
+ {
+  "term": "Versenyzői piac",
+  "definition": "Sok vevő és sok eladó találkozási helye.",
+  "section": "5.1",
+  "star": false
+ },
+ {
+  "term": "Elsüllyedt költség",
+  "definition": "A döntési helyzetet már nem befolyásolja; érdektelen.",
+  "section": "5.2",
+  "star": false
+ },
+ {
+  "term": "Kínálati függvény",
+  "definition": "A kínáló a határ-alternatívaköltségeket árazza be.",
+  "section": "5.3",
+  "star": false
+ },
+ {
+  "term": "Piaci egyensúly, Marshall-kereszt",
+  "definition": "Keresett = kínált mennyiség; az ábra a D és S metszéspontja.",
+  "section": "5.4",
+  "star": false
+ },
+ {
+  "term": "Túlkínálat / túlkereslet",
+  "definition": "Egyensúlyinál magasabb ár → árufelesleg / alacsonyabb ár → áruhiány.",
+  "section": "5.4",
+  "star": false
+ },
+ {
+  "term": "Határköltség",
+  "definition": "Egy újabb egység többletköltsége; az alternatívaköltség mindig határköltség.",
+  "section": "5.2, 6.5",
+  "star": false
+ },
+ {
+  "term": "Kibocsátás, technológia",
+  "definition": "A teljes termelt mennyiség / a tényezők kombinációja.",
+  "section": "6.1",
+  "star": false
+ },
+ {
+  "term": "Határbevétel",
+  "definition": "Egy újabb termékegység eladásából származó többletbevétel (tökéletes versenyben az ár).",
+  "section": "6.2",
+  "star": false
+ },
+ {
+  "term": "Határtermék",
+  "definition": "Egy tényező újabb egységével elérhető többletkibocsátás (termelési egységben).",
+  "section": "6.2",
+  "star": false
+ },
+ {
+  "term": "Határtermék-bevétel",
+  "definition": "Határtermék × határbevétel, pénzben.",
+  "section": "6.2",
+  "star": false
+ },
+ {
+  "term": "Csökkenő határhozadék elve",
+  "definition": "Egy tényező növelésével a kibocsátás egyre kisebb mértékben nő.",
+  "section": "6.2",
+  "star": false
+ },
+ {
+  "term": "Költségminimalizálás alapszabálya",
+  "definition": "MRPA/PA = MRPB/PB = ….",
+  "section": "6.3",
+  "star": false
+ },
+ {
+  "term": "Helyettesítési szabály",
+  "definition": "Drágább tényezőt másikkal helyettesítenek, amíg a hányadosok ki nem egyenlítődnek.",
+  "section": "6.3",
+  "star": false
+ },
+ {
+  "term": "Mérethozadék",
+  "definition": "Minden tényező azonos arányú növelésének hatása: állandó, növekvő, csökkenő.",
+  "section": "6.4",
+  "star": false
+ },
+ {
+  "term": "Profitmaximálás",
+  "definition": "A termelés fokozása, amíg határköltség = határbevétel.",
+  "section": "6.5",
+  "star": false
+ },
+ {
+  "term": "Egyenlőtermék-görbe",
+  "definition": "A termelő „közömbösségi görbéje”, meredeksége MRPA/MRPB.",
+  "section": "6.6",
+  "star": false
+ },
+ {
+  "term": "Egyenlőköltség-görbe",
+  "definition": "Az azonos költségű tényezőkombinációk; meredeksége PA/PB, a termelő „költségvetési egyenese”.",
+  "section": "6.6",
+  "star": false
+ },
+ {
+  "term": "Láthatatlan kéz",
+  "definition": "A piaci koordináció ereje: allokációs és technológiai hatékonyság.",
+  "section": "6.8",
+  "star": false
+ }
 ]
