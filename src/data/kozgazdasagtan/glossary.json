@@ -1,0 +1,8 @@
+[
+  { "term": "Másodlagos (áttételes) drive", "definition": "Tanulással, tapasztalással alakul ki; ami az elsődleges drive-ok kielégítésében szerepet játszik, maga is drive-vá válik (pl. pénz).", "section": "1.4", "star": true },
+  { "term": "Szükséglet", "definition": "Jószág megszerzése vagy elfogyasztása iránti vágy, hiányérzet, ami cselekvésre késztet, fogyasztás révén nyer kielégítést.", "section": "1.6", "star": true },
+  { "term": "Homo oeconomicus", "definition": "A racionalitás alapján döntő „gazdálkodó ember”: átlagegyén, önző, nem etikus, racionálisan kalkulál.", "section": "1.7", "star": true },
+  { "term": "Ceteris paribus", "definition": "Minden egyéb változatlansága mellett.", "section": "1.10", "star": true },
+  { "term": "Engel-görbe", "definition": "A jövedelem függvényében egy jószág fogyasztott mennyisége.", "section": "3.1", "star": true },
+  { "term": "Veblen-hatás", "definition": "Áremeléskor nő a kereslet, mert jobb minőséget sejtenek.", "section": "3.5", "star": false }
+]

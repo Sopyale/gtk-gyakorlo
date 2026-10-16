@@ -1,0 +1,32 @@
+[
+  {
+    "id": "kg-3-001",
+    "type": "abra",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Az ábrán látható vastag görbe milyen görbe?",
+    "figure": "icc",
+    "answer": "jövedelem-fogyasztás görbe",
+    "options": ["jövedelem-fogyasztás görbe", "ár-fogyasztás görbe", "egyéni keresleti görbe", "közömbösségi görbe"],
+    "explanation": "A szaggatott költségvetési egyenesek párhuzamosak, tehát a jövedelem változik, nem az ár. Az érintési pontokat összekötő görbe a jövedelem-fogyasztás görbe (ICC).",
+    "source": "Jegyzet 3.1 · Könyv 24. o.",
+    "official": true,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-3-002",
+    "type": "parositas",
+    "chapter": 3,
+    "section": "3.5",
+    "question": "Párosítsd a fogyasztói extern hatásokat a leírásukkal!",
+    "answer": [
+      ["Nyájhatás", "A növekvő piaci kereslettől az egyéni kereslet is nő."],
+      ["Sznobhatás", "Ha nő a piaci kereslet, az egyéni kereslet csökken."],
+      ["Veblen-hatás", "A magasabb árból jobb minőségre következtetnek, ezért nő az egyéni kereslet."]
+    ],
+    "explanation": "Nyájhatás: divatkövetés. Sznobhatás: azért veszi, mert a tömeg nem. Veblen-hatás (minőségi hatás): az árból következtet a minőségre.",
+    "source": "Jegyzet 3.5 · Könyv 31. o.",
+    "official": false,
+    "difficulty": 2
+  }
+]

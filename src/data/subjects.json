@@ -1,0 +1,21 @@
+[
+  {
+    "id": "kozgazdasagtan",
+    "name": "Közgazdaságtan",
+    "active": true,
+    "sources": "Zsolnai Alíz jegyzete és Andor György tankönyve alapján",
+    "chapters": [
+      { "n": 1, "title": "Közgazdaságtan, motiváció, homo oeconomicus", "short": "Homo oeconomicus" },
+      { "n": 2, "title": "Fogyasztói döntések: hasznosság és optimum", "short": "Fogyasztói döntések" },
+      { "n": 3, "title": "Jövedelem- és árváltozás, kereslet", "short": "Kereslet" },
+      { "n": 4, "title": "Komparatív előny, szakosodás, csere", "short": "Komparatív előny" },
+      { "n": 5, "title": "Piac: kínálat és piaci egyensúly", "short": "Piac" },
+      { "n": 6, "title": "Termelői döntések, profitmaximálás", "short": "Termelés" }
+    ]
+  },
+  { "id": "menedzsment", "name": "Menedzsment", "active": false, "chapters": [] },
+  { "id": "marketing", "name": "Marketing", "active": false, "chapters": [] },
+  { "id": "szamvitel", "name": "Számvitel", "active": false, "chapters": [] },
+  { "id": "kozosseg-es-egyen", "name": "Közösség és egyén", "active": false, "chapters": [] },
+  { "id": "matematika", "name": "Matematika", "active": false, "chapters": [] }
+]

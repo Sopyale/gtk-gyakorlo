@@ -1,0 +1,39 @@
+[
+  {
+    "id": "kg-1-001",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "A másodlagos drive-ok tanulással, tapasztalással alakulnak ki.",
+    "answer": true,
+    "explanation": "A másodlagos (áttételes) drive-ok tanulással, tapasztalással alakulnak ki: ami az elsődleges drive-ok kielégítésében szerepet játszik, maga is drive-vá válik, például a pénz.",
+    "source": "Jegyzet 1.4 · Könyv 5. o.",
+    "official": true,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-002",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "Az, hogy a legtöbb ember fél a kígyótól",
+    "answer": "evolúciós csökevény",
+    "options": ["evolúciós csökevény", "altruista viselkedés", "elsődleges drive", "másodlagos drive"],
+    "explanation": "Evolúciós csökevény: olyan viselkedés, amely valamikor segítette a túlélést, ma már kevés értelme van. A kígyótól való félelem a jegyzet egyik példája erre.",
+    "source": "Jegyzet 1.5 · Könyv 6. o.",
+    "official": true,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-1-003",
+    "type": "rovid-valasz",
+    "chapter": 1,
+    "section": "1.10",
+    "question": "Hogyan nevezzük latinul azt a feltevést, amely szerint egy tényező hatásának vizsgálatakor minden egyéb tényezőt változatlannak tekintünk?",
+    "answer": ["ceteris paribus"],
+    "explanation": "Ceteris paribus: minden egyéb változatlansága mellett. Így egyszerre csak egyetlen tényező változását vizsgáljuk.",
+    "source": "Jegyzet 1.10 · Könyv 17. o.",
+    "official": false,
+    "difficulty": 1
+  }
+]
