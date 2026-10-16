@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Course materials are ELTE-internal and copyrighted: never commit them.
+kuldendo/
+private/
+*.pdf
