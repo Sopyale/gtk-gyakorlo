@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { FolderOpen, LogIn, LogOut, ShieldCheck, Trash2, UserPlus } from 'lucide-react';
+import { FolderOpen, KeyRound, LogIn, LogOut, ShieldCheck, Trash2, UserPlus } from 'lucide-react';
 import { DRIVE } from './Home.jsx';
 import {
-  completeProfile, deleteAccount, EMAIL, NEPTUN, recordDriveClick, signIn, signInWithGoogle, signOut, signUp, useAccount,
+  completeProfile, deleteAccount, ELTE, EMAIL, NEPTUN, recordDriveClick, sendPasswordReset, setNewPassword,
+  signIn, signInWithGoogle, signOut, signUp, useAccount,
 } from '../lib/account.js';
 import { href } from '../lib/route.js';
 
@@ -15,64 +16,77 @@ const GOOGLE = (
   </svg>
 );
 
-// One form for sign-in, sign-up and the Google users' first step; `mode` picks the fields.
-function AuthForm({ mode, setMode, google }) {
-  const [f, setF] = useState({ neptun: '', password: '', driveEmail: google?.email ?? '', consent: false });
+// One form for every account step; `mode` picks the fields:
+// in = sign in, up = register, reset = ask for a reset e-mail, newpass = set a new password, google = Google user's Neptun code.
+function AuthForm({ mode, setMode }) {
+  const [f, setF] = useState({ neptun: '', password: '', email: '', consent: false });
   const [error, setError] = useState('');
+  const [sent, setSent] = useState(false);
   const [busy, setBusy] = useState(false);
   const field = (k) => ({ value: f[k], onChange: (e) => { setError(''); setF({ ...f, [k]: k === 'neptun' ? e.target.value.toUpperCase() : e.target.value }); } });
-  const isNew = mode !== 'in';
+  const has = { neptun: mode === 'in' || mode === 'up' || mode === 'google', password: mode === 'in' || mode === 'up' || mode === 'newpass', email: mode === 'up' || mode === 'reset', consent: mode === 'up' || mode === 'google' };
 
   const submit = async (e) => {
     e.preventDefault();
-    const neptun = f.neptun.trim(), driveEmail = f.driveEmail.trim();
-    if (!NEPTUN.test(neptun)) return setError('A Neptun-kód 6 karakter: betűk és számok.');
-    if (mode !== 'google' && f.password.length < 8) return setError('A jelszó legalább 8 karakter legyen.');
-    if (isNew && !EMAIL.test(driveEmail)) return setError('Adj meg egy érvényes e-mail-címet.');
-    if (isNew && !f.consent) return setError('A regisztrációhoz el kell fogadnod az adatkezelést.');
+    const neptun = f.neptun.trim(), email = f.email.trim();
+    if (has.neptun && !NEPTUN.test(neptun)) return setError('A Neptun-kód 6 karakter: betűk és számok.');
+    if (has.password && f.password.length < 8) return setError('A jelszó legalább 8 karakter legyen.');
+    if (has.email && !EMAIL.test(email)) return setError('Adj meg egy érvényes e-mail-címet.');
+    if (mode === 'up' && ELTE.test(email)) return setError('ELTE-s e-mail-címet ne adj meg. Használd a saját, például gmailes címedet.');
+    if (has.consent && !f.consent) return setError('A regisztrációhoz el kell fogadnod az adatkezelést.');
     setError(''); setBusy(true);
     try {
       if (mode === 'in') await signIn({ neptun, password: f.password });
-      else if (mode === 'up') await signUp({ neptun, password: f.password, driveEmail });
-      else await completeProfile({ neptun, driveEmail });
+      else if (mode === 'up') await signUp({ neptun, password: f.password, email });
+      else if (mode === 'reset') { await sendPasswordReset(email); setSent(true); }
+      else if (mode === 'newpass') await setNewPassword(f.password);
+      else await completeProfile({ neptun });
     } catch (err) { setError(err.message); }
     setBusy(false);
   };
 
+  const label = { in: 'Belépés', up: 'Regisztráció', reset: 'Visszaállító e-mail küldése', newpass: 'Új jelszó mentése', google: 'Mentés' }[mode];
   return (
     <form className="card auth" onSubmit={submit} noValidate>
-      {mode !== 'google' && (
+      {(mode === 'in' || mode === 'up') && (
         <div className="auth-tabs" role="tablist">
           <button type="button" role="tab" className="chip" aria-pressed={mode === 'in'} aria-selected={mode === 'in'} onClick={() => setMode('in')}>Belépés</button>
           <button type="button" role="tab" className="chip" aria-pressed={mode === 'up'} aria-selected={mode === 'up'} onClick={() => setMode('up')}>Regisztráció</button>
         </div>
       )}
-      <label>Neptun-kód
-        <input {...field('neptun')} autoComplete="username" maxLength={6} placeholder="pl. ABC123" spellCheck="false" />
-      </label>
-      {mode !== 'google' && (
-        <label>Jelszó
+      {has.neptun && (
+        <label>Neptun-kód
+          <input {...field('neptun')} autoComplete="username" maxLength={6} placeholder="pl. ABC123" spellCheck="false" />
+        </label>
+      )}
+      {has.password && (
+        <label>{mode === 'newpass' ? 'Új jelszó' : 'Jelszó'}
           <input {...field('password')} type="password" autoComplete={mode === 'in' ? 'current-password' : 'new-password'} minLength={8} />
-          {isNew && <small>Legalább 8 karakter. Ne a Neptun-jelszavad legyen!</small>}
+          {mode !== 'in' && <small>Legalább 8 karakter. Ne a Neptun-jelszavad legyen!</small>}
         </label>
       )}
-      {isNew && (
-        <label>E-mail-cím, amivel a Drive-hoz hozzáférést kérsz
-          <input {...field('driveEmail')} type="email" autoComplete="email" placeholder="nev@gmail.com" />
+      {has.email && (
+        <label>E-mail-cím
+          <input {...field('email')} type="email" autoComplete="email" placeholder="nev@gmail.com" />
+          {mode === 'up' && <small>Bármilyen saját címed jó, de <strong>ELTE-s ne legyen</strong>. Erre kapod a jelszó-visszaállító levelet, és ezzel kérsz hozzáférést a Drive-hoz. Egy e-mail-cím csak egy Neptun-kódhoz tartozhat.</small>}
+          {mode === 'reset' && <small>Azt a címet add meg, amivel regisztráltál.</small>}
         </label>
       )}
-      {isNew && (
+      {has.consent && (
         <label className="auth-consent">
-          <input type="checkbox" checked={f.consent} onChange={(e) => setF({ ...f, consent: e.target.checked })} />
-          <span>Elolvastam az <a href={href('adatkezeles')}>adatkezelési tájékoztatót</a>, és hozzájárulok, hogy a Neptun-kódomat, az e-mail-címemet és a haladásomat tárolja az oldal.</span>
+          <input type="checkbox" checked={f.consent} onChange={(e) => { setError(''); setF({ ...f, consent: e.target.checked }); }} />
+          <span>Elolvastam az <a href={href('adatkezeles')}>adatkezelési tájékoztatót</a>, és hozzájárulok, hogy az oldal tárolja a Neptun-kódomat, az e-mail-címemet és a haladásomat.</span>
         </label>
       )}
       {error && <p className="auth-error" role="alert">{error}</p>}
+      {sent && <p className="auth-ok" role="status">Ha van fiók ezzel a címmel, elküldtük a levelet. Nézd meg a spam mappát is.</p>}
       <button className="btn pri" disabled={busy}>
-        {mode === 'in' ? <LogIn size={18} aria-hidden="true" /> : <UserPlus size={18} aria-hidden="true" />}
-        {busy ? 'Egy pillanat…' : mode === 'in' ? 'Belépés' : mode === 'up' ? 'Regisztráció' : 'Mentés'}
+        {mode === 'in' ? <LogIn size={18} aria-hidden="true" /> : mode === 'up' ? <UserPlus size={18} aria-hidden="true" /> : <KeyRound size={18} aria-hidden="true" />}
+        {busy ? 'Egy pillanat…' : label}
       </button>
-      {mode !== 'google' && (
+      {mode === 'in' && <button type="button" className="auth-link" onClick={() => setMode('reset')}>Elfelejtetted a jelszavad?</button>}
+      {mode === 'reset' && <button type="button" className="auth-link" onClick={() => setMode('in')}>Vissza a belépéshez</button>}
+      {(mode === 'in' || mode === 'up') && (
         <>
           <p className="auth-or"><span>vagy</span></p>
           <button type="button" className="btn sec" onClick={() => signInWithGoogle().catch((err) => setError(err.message))}>
@@ -85,16 +99,26 @@ function AuthForm({ mode, setMode, google }) {
 }
 
 export default function Account({ params }) {
-  const { ready, user, profile } = useAccount();
+  const { ready, user, profile, recovery } = useAccount();
   const [mode, setMode] = useState('in');
   const fromDrive = params.get('drive') === '1';
 
   if (!ready) return <div className="wrap page narrow"><div className="skeleton" aria-label="Betöltés" /></div>;
 
+  if (recovery) {
+    return (
+      <div className="wrap page narrow">
+        <h1 className="page-title">Új jelszó</h1>
+        <p className="lede">Add meg az új jelszavadat. Utána ezzel lépsz be a Neptun-kódoddal.</p>
+        <AuthForm mode="newpass" setMode={setMode} />
+      </div>
+    );
+  }
+
   if (!user) {
     return (
       <div className="wrap page narrow">
-        <h1 className="page-title">{mode === 'in' ? 'Belépés' : 'Regisztráció'}</h1>
+        <h1 className="page-title">{{ in: 'Belépés', up: 'Regisztráció', reset: 'Elfelejtett jelszó' }[mode]}</h1>
         <p className="lede">{fromDrive
           ? 'A Drive-mappához Neptun-kóddal regisztrált hallgatók kérhetnek hozzáférést. Lépj be, vagy regisztrálj.'
           : 'Fiókkal a haladásod minden eszközödön megmarad. Gyakorolni fiók nélkül is lehet.'}</p>
@@ -108,7 +132,7 @@ export default function Account({ params }) {
       <div className="wrap page narrow">
         <h1 className="page-title">Még egy lépés</h1>
         <p className="lede">Add meg a Neptun-kódodat. Ez lesz a felhasználóneved, és később nem módosítható.</p>
-        <AuthForm mode="google" google={user} />
+        <AuthForm mode="google" setMode={setMode} />
       </div>
     );
   }
@@ -118,8 +142,8 @@ export default function Account({ params }) {
       <h1 className="page-title">{profile.neptun}</h1>
       <p className="lede">A haladásod a fiókodba mentődik, így minden eszközödön ugyanott folytathatod.</p>
       <dl className="card account">
-        <div><dt>Belépés</dt><dd>{profile.login_method === 'google' ? `Google-fiók (${user.email})` : 'Neptun-kód és jelszó'}</dd></div>
-        <div><dt>Drive-hoz használt e-mail</dt><dd>{profile.drive_email}</dd></div>
+        <div><dt>Belépés</dt><dd>{profile.login_method === 'google' ? 'Google-fiók' : 'Neptun-kód és jelszó'}</dd></div>
+        <div><dt>E-mail-cím (ezzel kérsz hozzáférést a Drive-hoz)</dt><dd>{profile.drive_email}</dd></div>
         <div><dt>Regisztráció</dt><dd>{new Date(profile.created_at).toLocaleDateString('hu-HU')}</dd></div>
       </dl>
       <div className="cta">

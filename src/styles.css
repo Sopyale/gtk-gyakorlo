@@ -539,3 +539,6 @@ a.card:active { transform: scale(.985); transition-duration: 90ms; }
 .admin-bar { display: inline-block; width: 80px; height: 6px; margin-right: 8px; border-radius: 9px; background: var(--glass2); overflow: hidden; vertical-align: middle; }
 .admin-bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--plum), var(--acc)); }
 @media (max-width: 760px) { .account-btn span { display: none; } .auth { padding: 18px; } }
+.auth-ok { padding: 12px 14px; border-radius: 12px; color: var(--good); background: color-mix(in srgb, var(--good) 10%, transparent); border: 1px solid color-mix(in srgb, var(--good) 40%, transparent); }
+.auth .auth-link { justify-self: center; min-height: 44px; padding: 0 8px; border: 0; background: none; color: var(--acc-text); font-size: 15px; text-decoration: underline; text-underline-offset: 3px; }
+.auth label small strong { color: var(--text); }
