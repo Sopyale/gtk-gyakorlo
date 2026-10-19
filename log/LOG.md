@@ -3,6 +3,20 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.2.0 – 2026-10-19
+
+- **Újdonságok page** (`#/ujdonsagok`, footer and menu link): a short, Hungarian changelog for students, from
+  `src/data/changelog.json`. Requested so students see what's new.
+- **Kérdés tab** (`#/kerdes`, header icon, menu link): signed-in students send a question, request or bug report
+  (up to 2000 characters, 5 per hour) and see their own tickets' status. Signed-out visitors are sent to sign in.
+- **Admin:** new "Kérdések" list with the sender's Neptun code and e-mail, a "Megoldva" toggle, and an open-tickets
+  count. Database: new `supabase/tickets.sql` (run once; it never deletes data), with row-level security so students
+  only see their own tickets.
+- **Header:** Admin and Kérdés are icon buttons; on phones they move into the menu.
+- **Privacy notice:** lists the tickets among the stored data.
+- **Safety:** `schema.sql` now warns that re-running it deletes all profiles.
+- **graphify:** knowledge graph of the code in `graphify-out/` (GRAPH_REPORT.md, graph.html, graph.json).
+
 ## 1.1.0 – 2026-10-19
 
 - **Sign-in prompt:** every time a signed-out visitor opens the site, a pop-up asks them to sign in. It says that

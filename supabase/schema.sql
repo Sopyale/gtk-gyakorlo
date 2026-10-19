@@ -1,5 +1,6 @@
--- gtk-gyakorlo accounts: run in the Supabase SQL Editor. Safe to re-run before anyone has registered:
--- it drops and recreates everything below (it never touches auth.users rows).
+-- gtk-gyakorlo accounts: run in the Supabase SQL Editor on a fresh project.
+-- WARNING: it drops and recreates the profiles table, so re-running it deletes every student's profile and progress.
+-- Once people have registered, never re-run it; put changes in a separate, non-destructive file (like tickets.sql).
 -- Passwords never touch these tables: Supabase Auth stores them as bcrypt hashes.
 
 drop trigger if exists on_auth_user_created on auth.users;

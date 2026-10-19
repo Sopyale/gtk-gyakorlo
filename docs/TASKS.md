@@ -32,4 +32,11 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Add the rule to always use the installed plugins (agent-skills, frontend-design, webapp-testing, ponytail,
       graphify) to RULES.md
 
+## 1.2.0
+
+- [x] Build a graphify knowledge graph of the code (`graphify-out/`)
+- [x] Short changelog page for students (Újdonságok, `#/ujdonsagok`)
+- [x] Ticket tab (Kérdés, `#/kerdes`): signed-in students send a question, request or bug report; only the admin sees
+      them, in the Admin page, and can mark them done
+
 ## Open

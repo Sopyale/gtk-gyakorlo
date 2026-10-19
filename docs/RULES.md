@@ -15,7 +15,8 @@ add new ones here when he gives them.
    (in English) before any code changes. Tick it off when it ships.
 2. **Keep the docs current.** If the change affects what the site does, update [SPEC.md](../SPEC.md) and
    [README.md](../README.md) in the same commit.
-3. **Log it.** Add an entry to [log/LOG.md](../log/LOG.md): version, date, what changed and why.
+3. **Log it.** Add an entry to [log/LOG.md](../log/LOG.md): version, date, what changed and why. If students
+   would notice the change, also add a short Hungarian line to `src/data/changelog.json` (the Újdonságok page).
 4. **Save a version.** Every shipped change gets a new version number:
    - bump `version` in `package.json` (patch `1.0.x` for fixes and small tweaks, minor `1.x.0` for new features,
      major `x.0.0` for redesigns),
@@ -48,7 +49,9 @@ Always use the installed plugins where they fit (owner's rule):
   It never goes into the repository, a log, a screenshot or the laptop copy.
 - Only the Supabase publishable key may be in the code. Never commit a secret key, the `service_role` key,
   the Google client secret or any password.
-- Only admins (`profiles.is_admin`) see the Admin tab and the user list.
+- Only admins (`profiles.is_admin`) see the Admin tab, the user list and the tickets.
+- Never re-run `supabase/schema.sql` on the live project: it deletes every profile. Database changes go in a new,
+  non-destructive SQL file that the owner runs once.
 
 ## Design
 

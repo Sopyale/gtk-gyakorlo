@@ -102,6 +102,7 @@ const friendly = (error) => {
   if (/invalid login credentials/i.test(m)) return 'Hibás Neptun-kód vagy jelszó.';
   if (/not confirmed/i.test(m)) return 'A fiókot még meg kell erősíteni. Szólj az oldal gazdájának.';
   if (/password/i.test(m)) return 'A jelszó legalább 8 karakter legyen.';
+  if (/too many tickets/i.test(m)) return 'Egy órán belül legfeljebb 5 üzenetet küldhetsz.';
   if (/rate limit|too many/i.test(m)) return 'Túl sok próbálkozás. Várj pár percet.';
   return 'Nem sikerült. Próbáld újra később.';
 };
@@ -155,7 +156,19 @@ export async function recordDriveClick() {
 // Admin view: every profile; RLS returns only the caller's own row to anyone who is not admin.
 export async function listProfiles() {
   const sb = await getClient();
-  const { data, error } = await sb.from('profiles').select('neptun, drive_email, login_method, created_at, last_seen_at, drive_clicks, drive_clicked_at, progress').order('created_at', { ascending: false });
+  const { data, error } = await sb.from('profiles').select('id, neptun, drive_email, login_method, created_at, last_seen_at, drive_clicks, drive_clicked_at, progress').order('created_at', { ascending: false });
   if (error) throw new Error(friendly(error));
   return data;
 }
+
+// Tickets: a signed-in student sends a question or request; RLS shows each student only their own, the admin all.
+export async function sendTicket({ kind, message }) {
+  await run((sb) => sb.from('tickets').insert({ kind, message }));
+}
+export async function listTickets() {
+  const sb = await getClient();
+  const { data, error } = await sb.from('tickets').select('id, user_id, kind, message, done, created_at').order('created_at', { ascending: false });
+  if (error) throw new Error(friendly(error));
+  return data;
+}
+export const setTicketDone = (id, done) => run((sb) => sb.from('tickets').update({ done }).eq('id', id));

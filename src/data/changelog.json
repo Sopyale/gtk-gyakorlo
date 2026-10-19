@@ -1,0 +1,28 @@
+[
+  {
+    "version": "1.2.0",
+    "date": "2026-10-19",
+    "items": [
+      "Új Kérdés fül: bejelentkezve kérdést, kérést vagy hibajelentést küldhetsz az oldal gazdájának.",
+      "Új Újdonságok oldal: itt látod, mi változott az oldalon."
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "date": "2026-10-19",
+    "items": [
+      "Ha nem vagy bejelentkezve, az oldal megnyitásakor felajánljuk a belépést, hogy a haladásod minden eszközödön megmaradjon.",
+      "Belépésnél bepipálhatod, hogy bejelentkezve maradj ezen az eszközön."
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "date": "2026-10-19",
+    "items": [
+      "Közgazdaságtan 1. ZH: 294 gyakorlókérdés magyarázattal és forrással, 74 flashcard, ZH-szimuláció.",
+      "Ütemterv: a ZH napjáig napokra bontja a fejezeteket.",
+      "Fiók Neptun-kóddal vagy Google-lel: a haladásod minden eszközödön megmarad.",
+      "A Drive-mappához a regisztrált e-mail-címeddel kérhetsz hozzáférést."
+    ]
+  }
+]

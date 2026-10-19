@@ -13,6 +13,7 @@ export default function Privacy() {
         <li>az e-mail-címedet: amivel regisztráltál, vagy Google-belépésnél a Google-fiókod címét;</li>
         <li>a jelszavadat, de csak visszafejthetetlen formában (bcrypt-hash), így azt senki nem látja;</li>
         <li>a haladásodat: melyik kérdést találtad el, a rontott kérdéseidet, a flashcardokat és az ütemtervedet;</li>
+        <li>a Kérdés fülön elküldött üzeneteidet, hogy az üzemeltető válaszolhasson rájuk;</li>
         <li>mikor regisztráltál, mikor jártál az oldalon utoljára, és hányszor nyitottad meg a Drive-linket. Ebből az üzemeltető összesítve látja, hányan használják az oldalt.</li>
       </ul>
       <h2>Ki látja, és hol van</h2>

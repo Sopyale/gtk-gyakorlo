@@ -4,7 +4,7 @@ import { accountsEnabled, useAccount } from '../lib/account.js';
 import { href } from '../lib/route.js';
 
 // Pages where the prompt would only be in the way.
-const QUIET = ['#/fiok', '#/admin', '#/adatkezeles'];
+const QUIET = ['#/fiok', '#/admin', '#/adatkezeles', '#/kerdes'];
 let shown = false; // once per visit (page load), not on every navigation
 
 // Signed-out visitors are asked to sign in every time they open the site.
