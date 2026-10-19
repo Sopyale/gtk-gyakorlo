@@ -2,7 +2,7 @@
 
 Practice website for first-semester ELTE GTK students. Static, Hungarian UI, English code.
 Changes only with the owner's approval; every change follows [docs/RULES.md](docs/RULES.md) and is logged in
-[log/LOG.md](log/LOG.md). Current version: 1.5.0.
+[log/LOG.md](log/LOG.md). Current version: 1.5.1.
 
 ## 1. Objective
 

@@ -6,7 +6,7 @@
     "section": "6.2",
     "question": "A határtermék az egyik termelési tényező újabb egységével elérhető többletkibocsátás (pl. db-ban).",
     "answer": true,
-    "explanation": "Határtermék: egy termelési tényező újabb egységének bekapcsolásával elérhető többletkibocsátás, termelési egységben (db, m²) kifejezve.",
+    "explanation": "A határtermék azt mutatja, mennyivel nő a termelés, ha egy tényezőből (pl. munkásból) eggyel többet alkalmaznak. Termelési egységben mérjük (db, m²), nem pénzben.",
     "source": "Jegyzet 6.2 · Könyv 39. o.",
     "official": true,
     "difficulty": 1
@@ -18,7 +18,7 @@
     "section": "6.2",
     "question": "Egy termelési tényező határterméke az újabb egységének beiktatásával elérhető többletkibocsátás (pl. db-ban).",
     "answer": true,
-    "explanation": "Ugyanaz a definíció más megfogalmazásban. A pénzben kifejezett változat a határtermék-bevétel.",
+    "explanation": "Ugyanaz a definíció más szavakkal: egy tényező újabb egységével elérhető többletkibocsátás, darabban vagy más termelési egységben mérve. Ha ezt pénzben fejezzük ki, az már a határtermék-bevétel.",
     "source": "Jegyzet 6.2 · Könyv 39. o.",
     "official": true,
     "difficulty": 1
@@ -30,7 +30,7 @@
     "section": "6.3",
     "question": "Amennyiben a termelési tényezők költségegységre eső határtermék-bevétele azonos, adott mennyiség termelési költsége minimális.",
     "answer": true,
-    "explanation": "Ez a költségminimalizálás alapszabálya: MRPA/PA = MRPB/PB = … Különben az erőforrások átstrukturálásával még csökkenthetnénk a költségeket.",
+    "explanation": "MRP a határtermék-bevétel, P a tényező ára. Ha minden tényezőnél egy forint ugyanannyi bevételt hoz (MRPA/PA = MRPB/PB), átcsoportosítással már nem lehet olcsóbban termelni. Ha eltérnének, a jobban megtérülő tényezőre váltva csökkenne a költség.",
     "source": "Jegyzet 6.3 · Könyv 39–40. o.",
     "official": true,
     "difficulty": 2
@@ -50,7 +50,7 @@
       "hatartermek",
       "határtermék"
     ],
-    "explanation": "Határtermék-bevétel = határtermék × határbevétel (eladási ár), pénzben kifejezett többletbevétel.",
+    "explanation": "Határtermék-bevétel: pénzben kifejezve mennyivel nő a bevétel egy tényező újabb egységétől. Kiszámítása: határtermék (a többletdarabszám) × határbevétel (egy darab eladási ára).",
     "source": "Jegyzet 6.2 · Könyv 39. o.",
     "official": true,
     "difficulty": 2,
@@ -63,7 +63,7 @@
     "section": "6.1",
     "question": "A termelési tényezők kereslete származékos kereslet.",
     "answer": true,
-    "explanation": "A termelési tényezők kereslete az output termékek keresletéből fakad.",
+    "explanation": "Származékos kereslet: a tényezőket (munkát, földet, gépeket) nem önmagukért keresik, hanem azért, mert a velük előállított termékekre van kereslet. A tényezők kereslete tehát a termékek keresletéből fakad.",
     "source": "Jegyzet 6.1 · Könyv 38. o.",
     "official": false,
     "difficulty": 1
@@ -75,7 +75,7 @@
     "section": "6.1",
     "question": "A termelési tényezők keresletét a tényezők saját hasznossága határozza meg, nem az általuk előállított termékek kereslete.",
     "answer": false,
-    "explanation": "A tényezők kereslete származékos: az output termékek keresletéből fakad.",
+    "explanation": "A tényezők kereslete származékos: nem önmagukért keresik őket, hanem azért, mert a velük előállított termékekre (az outputra) van kereslet.",
     "source": "Jegyzet 6.1 · Könyv 38. o.",
     "official": false,
     "difficulty": 2
@@ -87,7 +87,7 @@
     "section": "6.1",
     "question": "A kibocsátás (output) a termelési tényezők kombinációjának, vagyis a technológiának az eredménye.",
     "answer": true,
-    "explanation": "A kibocsátás a teljes termelt mennyiség.",
+    "explanation": "A kibocsátás (output) a teljes megtermelt mennyiség. A termelési tényezők együttes felhasználásából születik; azt, hogy a tényezőket milyen kombinációban használják, technológiának nevezzük.",
     "source": "Jegyzet 6.1 · Könyv 38. o.",
     "official": false,
     "difficulty": 1
@@ -99,7 +99,7 @@
     "section": "6.1",
     "question": "A könyv szerint az egyes termelési tényezők hozzájárulása a kibocsátáshoz pontosan szétválasztható.",
     "answer": false,
-    "explanation": "Az egyes tényezők hozzájárulása nem választható szét. Ezt hidalja át a határtermék-bevétel fogalma.",
+    "explanation": "A kibocsátás a tényezők együttműködéséből születik, ezért nem mondható meg pontosan, mennyi belőle az egyes tényezők érdeme. Ezt hidalja át a határtermék-bevétel: azt nézzük, mennyivel nő a bevétel egy tényező újabb egységétől.",
     "source": "Jegyzet 6.1 · Könyv 38. o.",
     "official": false,
     "difficulty": 3
@@ -117,7 +117,7 @@
       "mert a tényezők ára állandó",
       "mert a tényezőket csak egyszer lehet felhasználni"
     ],
-    "explanation": "A tényezőket azért keresik, mert a velük előállított termékeket keresik.",
+    "explanation": "Származékos = másból fakadó: a tényezőket azért keresik, mert a velük előállított termékeket keresik a vevők. A háztartások a termékeket fogyasztják, nem a tényezőket.",
     "source": "Jegyzet 6.1 · Könyv 38. o.",
     "official": false,
     "difficulty": 1
@@ -136,7 +136,7 @@
     "keywords": [
       "szarmazekos"
     ],
-    "explanation": "A termelési tényezők kereslete származékos kereslet.",
+    "explanation": "Származékos kereslet: olyan kereslet, amely egy másik jószág keresletéből fakad. A termelési tényezőket azért keresik, mert a velük előállított termékekre van kereslet.",
     "source": "Jegyzet 6.1 · Könyv 38. o.",
     "official": false,
     "difficulty": 1
@@ -148,7 +148,7 @@
     "section": "6.2",
     "question": "A határtermék-bevétel a határtermék és a határbevétel (eladási ár) szorzata.",
     "answer": true,
-    "explanation": "Pénzben (Ft, €, $) kifejezett többletbevétel.",
+    "explanation": "A határtermék megmondja, hány darabbal termel többet egy újabb tényezőegység, a határbevétel pedig, mennyit hoz egy darab eladása. A kettő szorzata a pénzben (Ft, €, $) kifejezett többletbevétel.",
     "source": "Jegyzet 6.2 · Könyv 39. o.",
     "official": false,
     "difficulty": 1
@@ -160,7 +160,7 @@
     "section": "6.2",
     "question": "A csökkenő határhozadék elve szerint egy erőforrás alkalmazásának növelésével a kibocsátás egyre nagyobb mértékben nő.",
     "answer": false,
-    "explanation": "Egyre KISEBB mértékben nő: a tényező határterméke a mennyiség növelésével csökken. Hasonló a csökkenő határhasznosság elvéhez.",
+    "explanation": "Fordítva: a kibocsátás egyre kisebb mértékben nő. Ha egy tényezőből egyre többet alkalmaznak, minden újabb egység egyre kevesebb többletterméket ad, vagyis a határtermék csökken. Hasonló a csökkenő határhasznossághoz.",
     "source": "Jegyzet 6.2 · Könyv 39. o.",
     "official": false,
     "difficulty": 1
@@ -172,7 +172,7 @@
     "section": "6.2",
     "question": "A könyv szerint a csökkenő határhozadék „előbb-utóbb” mindig érvényesül.",
     "answer": true,
-    "explanation": "A könyv megfogalmazása szerint igen.",
+    "explanation": "A könyv szerint ez széles körben megfigyelt szabályszerűség, de alacsony termelési szinten lehet kivétel (pl. tapétázáshoz két ember kell, ketten többet tudnak, mint külön). Ha a tényezőből egyre többet alkalmaznak, a határtermék „előbb-utóbb” mégis csökkenni kezd.",
     "source": "Jegyzet 6.2 · Könyv 39. o.",
     "official": false,
     "difficulty": 2
@@ -190,7 +190,7 @@
       "a kereslet törvényéhez",
       "Gossen II. törvényéhez"
     ],
-    "explanation": "A csökkenő határhozadék a termelés „csökkenő határhaszna”. Az előnykiegyenlítés párja a költségminimalizálás alapszabálya.",
+    "explanation": "Mindkettő azt mondja: ugyanabból egyre többet használva az újabb egység egyre kevesebbet ad. A fogyasztónál egyre kisebb hasznosságot, a termelésben egyre kevesebb többletterméket. Az előnykiegyenlítés a költségminimalizálás alapszabályának párja.",
     "source": "Jegyzet 6.2 · Könyv 39. o.",
     "official": false,
     "difficulty": 2
@@ -208,7 +208,7 @@
       "500 Ft",
       "50 Ft"
     ],
-    "explanation": "Határtermék-bevétel = határtermék × határbevétel = 10 × 500 = 5000 Ft. A 10 darab a határtermék.",
+    "explanation": "Határtermék-bevétel = határtermék × határbevétel = 10 db × 500 Ft = 5000 Ft. A 10 darab csak a határtermék, az 500 Ft egy darab ára; a kérdés a pénzben mért többletbevételre vonatkozik.",
     "source": "Jegyzet 6.2 · Könyv 39. o.",
     "official": false,
     "difficulty": 2
@@ -220,7 +220,7 @@
     "section": "6.3",
     "question": "A helyettesítési szabály szerint ha egy termelési tényező ára megemelkedik, egy másikkal kezdik helyettesíteni.",
     "answer": true,
-    "explanation": "Addig, amíg a költségegységekre eső határtermék-bevételek újra ki nem egyenlítődnek. Ez a kereslet törvényének párja.",
+    "explanation": "Ha egy tényező drágul, ugyanannyi pénz kevesebb bevételt hoz rajta, ezért részben egy másik tényezőre váltanak. Addig, amíg az egy forintra jutó határtermék-bevételek újra ki nem egyenlítődnek. Ez a kereslet törvényének párja.",
     "source": "Jegyzet 6.3 · Könyv 39–40. o.",
     "official": false,
     "difficulty": 1
@@ -232,7 +232,7 @@
     "section": "6.3",
     "question": "A költségminimalizálás alapszabálya szerint minden termelési tényező határtermék-bevétele azonos kell legyen, az árától függetlenül.",
     "answer": false,
-    "explanation": "A költségegységre (egységárra) eső határtermék-bevételnek kell azonosnak lennie: MRPA/PA = MRPB/PB.",
+    "explanation": "Nem maguknak a határtermék-bevételeknek kell egyenlőnek lenniük, hanem az egységárra jutóknak: MRPA/PA = MRPB/PB. A drágább tényezőnek tehát több bevételt kell hoznia ahhoz, hogy ugyanúgy megérje.",
     "source": "Jegyzet 6.3 · Könyv 39–40. o.",
     "official": false,
     "difficulty": 3
@@ -250,7 +250,7 @@
       "mindkettő alkalmazását csökkenteni",
       "semmit, ez már a költségminimum"
     ],
-    "explanation": "A könyv szerint a nagyobb MRP/P hányadosú tényezővel helyettesítenek, amíg a hányadosok ki nem egyenlítődnek.",
+    "explanation": "A-nál egy forint több bevételt hoz, mint B-nél (nagyobb az MRP/P hányados), ezért B-t részben A-val érdemes kiváltani. Ezt addig folytatják, amíg a két hányados ki nem egyenlítődik.",
     "source": "Jegyzet 6.3 · Könyv 39–40. o.",
     "official": false,
     "difficulty": 3
@@ -268,7 +268,7 @@
       "a kereslet törvénye",
       "az értékparadoxon"
     ],
-    "explanation": "MRPA/PA = MRPB/PB, mint a fogyasztónál MUa/Pa = MUb/Pb.",
+    "explanation": "Mindkettő azt mondja, hogy az utolsó elköltött forint mindenhol ugyanannyit hozzon. A fogyasztónál ez az egy forintra jutó határhaszon (MUa/Pa = MUb/Pb), a termelőnél az egy forintra jutó határtermék-bevétel (MRPA/PA = MRPB/PB).",
     "source": "Jegyzet 6.3 · Könyv 39–40. o.",
     "official": false,
     "difficulty": 2
@@ -280,7 +280,7 @@
     "section": "6.4",
     "question": "Növekvő mérethozadéknál az összes tényező azonos arányú növelésével az össztermék az arányosnál nagyobb mértékben nő.",
     "answer": true,
-    "explanation": "Ez a méretgazdaságosság. Okai részben műszakiak, részben specializációs okok.",
+    "explanation": "Növekvő mérethozadék (méretgazdaságosság): ha minden tényezőt azonos arányban növelnek (pl. mindet duplázzák), a termelés ennél jobban nő (több mint duplázódik). Okai részben műszakiak, részben a szakosodás (specializáció) előnyei.",
     "source": "Jegyzet 6.4 · Könyv 40. o.",
     "official": false,
     "difficulty": 1
@@ -292,7 +292,7 @@
     "section": "6.4",
     "question": "A mérethozadék azt mutatja, hogyan változik a kibocsátás, ha egyetlen termelési tényezőt növelünk.",
     "answer": false,
-    "explanation": "Az a határhozadék. A mérethozadék az összes tényező AZONOS ARÁNYÚ növelésének hatása.",
+    "explanation": "Ez a határhozadék, ahol egyetlen tényezőt növelünk, a többit változatlanul hagyjuk. A mérethozadék azt mutatja, hogyan változik a kibocsátás, ha az összes tényezőt azonos arányban növeljük.",
     "source": "Jegyzet 6.4 · Könyv 40. o.",
     "official": false,
     "difficulty": 2
@@ -304,7 +304,7 @@
     "section": "6.4",
     "question": "A szállítási, a menedzselési és az ellenőrzési költségek a csökkenő mérethozadék okai között szerepelnek.",
     "answer": true,
-    "explanation": "Továbbá az üzemzavar-kockázatok és a természeti erőforrásokra épülő esetek.",
+    "explanation": "Nagy méretnél megnőnek a szállítási, irányítási és ellenőrzési költségek, ezért a kibocsátás kevésbé nő, mint a felhasznált tényezők. További okok: üzemzavar-kockázatok és a természeti erőforrásokra épülő esetek.",
     "source": "Jegyzet 6.4 · Könyv 40. o.",
     "official": false,
     "difficulty": 2
@@ -322,7 +322,7 @@
       "csökkenő mérethozadék",
       "csökkenő határhozadék"
     ],
-    "explanation": "Állandó mérethozadéknál a kibocsátás arányosan nő.",
+    "explanation": "Állandó mérethozadék: ha minden tényezőt azonos arányban növelünk, a kibocsátás is pontosan ugyanolyan arányban nő. Növekvő hozadéknál több, csökkenőnél kevesebb lenne, mint dupla; a csökkenő határhozadék pedig csak egy tényező növelésére vonatkozik.",
     "source": "Jegyzet 6.4 · Könyv 40. o.",
     "official": false,
     "difficulty": 1
@@ -347,7 +347,7 @@
         "arányaiban kevésbé nő"
       ]
     ],
-    "explanation": "A 3. előadás táblázata alapján.",
+    "explanation": "Mindhárom típus azt nézi, hogyan nő a kibocsátás, ha minden tényezőt azonos arányban növelünk: állandónál ugyanolyan arányban, növekvőnél jobban, csökkenőnél kevésbé, mint a tényezők.",
     "source": "Jegyzet 6.4 · Könyv 40. o.",
     "official": false,
     "difficulty": 1
@@ -359,7 +359,7 @@
     "section": "6.5",
     "question": "Amíg egy termelési tényező határköltsége kisebb a határtermék-bevételénél, még alkalmazzák.",
     "answer": true,
-    "explanation": "A használatot addig fokozzák, amíg a határköltség és a határbevétel ki nem egyenlítődik.",
+    "explanation": "Ha egy tényező újabb egysége több bevételt hoz (határtermék-bevétel), mint amennyibe kerül (határköltség), az alkalmazása növeli a profitot, ezért még alkalmazzák. Ezt addig folytatják, amíg a kettő ki nem egyenlítődik.",
     "source": "Jegyzet 6.5 · Könyv 40–41. o.",
     "official": false,
     "difficulty": 1
@@ -371,7 +371,7 @@
     "section": "6.5",
     "question": "Tökéletes piaci körülmények között egy tényező ára a határtermék-bevételéhez igazodik.",
     "answer": true,
-    "explanation": "E fölött nem érné meg alkalmazni, ez alatt pedig megérné többet használni belőle.",
+    "explanation": "A tényező ára (bér, bérleti díj, kamat) a határtermék-bevételéhez igazodik: ha az ár magasabb lenne, nem érné meg alkalmazni, ha alacsonyabb, megérné többet használni belőle.",
     "source": "Jegyzet 6.5 · Könyv 40–41. o.",
     "official": false,
     "difficulty": 2
@@ -383,7 +383,7 @@
     "section": "6.5",
     "question": "A könyv szerint az „1 Ft ráfordítás → 3 Ft bevétel” helyzet tartósan fennmarad.",
     "answer": false,
-    "explanation": "Átmeneti: az olló bezárul, mert az MRP csökken (csökkenő hozadék vagy eső termékár), vagy a tényező határköltsége nő.",
+    "explanation": "Csak átmeneti: a vállalat addig növeli a tényező használatát, amíg megéri, és közben „az olló bezárul”. Vagy a határtermék-bevétel csökken (csökkenő hozadék vagy eső termékár), vagy a tényező határköltsége nő.",
     "source": "Jegyzet 6.5 · Könyv 40–41. o.",
     "official": false,
     "difficulty": 3
@@ -401,7 +401,7 @@
       "amíg a határtermék nullára nem csökken",
       "amíg az átlagköltség nem nő"
     ],
-    "explanation": "„Határköltség = határbevétel”: eddig fokozzák a használatot, a termelést.",
+    "explanation": "Amíg egy újabb egység több bevételt hoz, mint amennyibe kerül, növeli a profitot, ezért tovább fokozzák a használatot. Ott állnak meg, ahol a határköltség (az újabb egység költsége) egyenlő a határbevétellel (az általa hozott bevétellel).",
     "source": "Jegyzet 6.5 · Könyv 40–41. o.",
     "official": false,
     "difficulty": 2
@@ -420,7 +420,7 @@
     "keywords": [
       "profit"
     ],
-    "explanation": "Fogyasztó – hasznosságmaximálás, termelői döntések – profitmaximálás.",
+    "explanation": "A profitot. Ahogy a fogyasztói döntések alapelve a hasznosság maximalizálása, úgy a termelői döntéseké a profit maximalizálása: a vállalat minden profitdarabkáért lehajol.",
     "source": "Jegyzet 6.5 · Könyv 40–41. o.",
     "official": false,
     "difficulty": 1
@@ -432,7 +432,7 @@
     "section": "6.6",
     "question": "Az egyenlőtermék-görbe a fogyasztói modellben a közömbösségi görbének felel meg.",
     "answer": true,
-    "explanation": "Az egyenlőköltség-egyenes pedig a költségvetési egyenesnek.",
+    "explanation": "Az egyenlőtermék-görbe azokat a tényező-kombinációkat köti össze, amelyekkel ugyanannyit lehet termelni, ahogy a közömbösségi görbe az ugyanakkora hasznosságot adó termékkombinációkat. Az egyenlőköltség-egyenes pedig a költségvetési egyenes párja.",
     "source": "Jegyzet 6.6 · Könyv 41–45. o.",
     "official": false,
     "difficulty": 1
@@ -444,7 +444,7 @@
     "section": "6.6",
     "question": "Ha az A tényező ára nő és a kibocsátás változatlan, a vállalat több A-t és kevesebb B-t alkalmaz.",
     "answer": false,
-    "explanation": "Fordítva: A-t részben B-vel helyettesítik, TA csökken, TB nő. Ugyanannyi termeléshez nő az összes költség.",
+    "explanation": "Fordítva: ha A drágul, A-t részben B-vel helyettesítik, így A-ból kevesebbet (TA csökken), B-ből többet (TB nő) alkalmaznak. Ugyanannyi termelés így is csak nagyobb összköltséggel érhető el.",
     "source": "Jegyzet 6.6 · Könyv 41–45. o.",
     "official": false,
     "difficulty": 2
@@ -473,7 +473,7 @@
         "kereslet törvénye"
       ]
     ],
-    "explanation": "A 2. szeminárium „Párhuzamok” táblázata alapján.",
+    "explanation": "A termelő ugyanazt a logikát követi, mint a fogyasztó: ugyanannyi termelés ↔ ugyanannyi hasznosság, költségkorlát ↔ jövedelemkorlát, egyre kisebb többlettermék ↔ egyre kisebb többlethaszon, drágulás miatti helyettesítés ↔ kereslet törvénye.",
     "source": "Jegyzet 6.6 · Könyv 41–45. o.",
     "official": false,
     "difficulty": 2
@@ -492,7 +492,7 @@
       "ott az A tényezőből a legtöbbet alkalmazzák",
       "ott a kibocsátás nulla"
     ],
-    "explanation": "Mint a fogyasztói optimumban: érintési pont, ahol a helyettesítési határráta (MRPA/MRPB) egyenlő az aránnyal (PA/PB).",
+    "explanation": "Mint a fogyasztói optimumnál: az adott termelés ott a legolcsóbb, ahol az egyenlőköltség-egyenes éppen érinti az egyenlőtermék-görbét. Ott a görbe meredeksége (MRPA/MRPB) egyenlő a tényezőárak arányával (PA/PB).",
     "source": "Jegyzet 6.6 · Könyv 41–45. o.",
     "official": false,
     "difficulty": 3
@@ -504,7 +504,7 @@
     "section": "6.7",
     "question": "A műtrágya árának növekedése (változatlan mezőgazdasági termékárak mellett) csökkenti a műtrágya felhasználását.",
     "answer": true,
-    "explanation": "A magasabb árnál a műtrágya határtermék-bevétele kisebb lesz az áránál. Kevesebbet használva a határtermék-bevétel nő, így csökkentett mennyiségben alkalmazzák.",
+    "explanation": "Drágább műtrágyánál az utolsó adag már kevesebb bevételt hoz, mint amennyibe kerül, ezért kevesebbet használnak. Kisebb mennyiségnél viszont nő a határtermék-bevétele, így egy alacsonyabb szinten újra megéri, ott állnak meg.",
     "source": "Jegyzet 6.7",
     "official": false,
     "difficulty": 2
@@ -522,7 +522,7 @@
       "mert a szabályok előírják",
       "mert a húrozó bére állandó"
     ],
-    "explanation": "A húrozó határtermék-bevétele csak a magas pénzdíjú játékosoknál fedezi a bérét.",
+    "explanation": "Egy húrozót csak akkor éri meg alkalmazni, ha a munkájával elérhető többletbevétel (határtermék-bevétel) fedezi a bérét. Ez csak a magas pénzdíjú legjobb játékosoknál teljesül.",
     "source": "Jegyzet 6.7",
     "official": false,
     "difficulty": 2
@@ -534,7 +534,7 @@
     "section": "6.8",
     "question": "A „láthatatlan kéz” Adam Smith kifejezése a piaci koordináció erejére.",
     "answer": true,
-    "explanation": "A piaci folyamatok terelik az erőforrásokat a legjobb felhasználási területük felé.",
+    "explanation": "Adam Smith „láthatatlan kéznek” nevezte, hogy a piac az árakon, a hasznosság- és profitmaximalizáló döntéseken keresztül magától a legjobb felhasználási terület felé tereli az erőforrásokat.",
     "source": "Jegyzet 6.8 · Könyv 46–47. o.",
     "official": false,
     "difficulty": 1
@@ -546,7 +546,7 @@
     "section": "6.8",
     "question": "Allokációs hatékonyságnál minden tényezőt mindenhol ugyanakkora határtermék-bevétel mellett alkalmaznak, így átcsoportosítással a kibocsátás nem növelhető.",
     "answer": true,
-    "explanation": "Ez a könyv definíciója.",
+    "explanation": "Allokációs hatékonyság: az erőforrások úgy oszlanak el, hogy minden tényező mindenhol ugyanannyi határtermék-bevételt hoz. Ha egy tényezőt máshová vinnénk, ott sem hozna többet, ezért átcsoportosítással a kibocsátás nem növelhető.",
     "source": "Jegyzet 6.8 · Könyv 46–47. o.",
     "official": false,
     "difficulty": 2
@@ -564,7 +564,7 @@
       "a kormány határozza meg a technológiát",
       "minden vállalat ugyanannyit termel"
     ],
-    "explanation": "A második opció az allokációs hatékonyság.",
+    "explanation": "Technológiai hatékonyság: a verseny rákényszeríti a vállalatokat, hogy a legjobb technológiát és a legalacsonyabb egységköltségű (legolcsóbb darabonkénti) méretet válasszák. A „mindenhol azonos határtermék-bevétel” az allokációs hatékonyság.",
     "source": "Jegyzet 6.8 · Könyv 46–47. o.",
     "official": false,
     "difficulty": 2

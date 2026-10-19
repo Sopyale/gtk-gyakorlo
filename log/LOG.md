@@ -3,6 +3,12 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.5.1 – 2026-10-19
+
+- **Explanations:** rewrote 270 of 294 question explanations so they say in plain words why the answer is right (for
+  a false statement, what is true instead), define the terms they use, and drop remarks like "A könyv szerint igaz".
+  Only from the note and the textbook; answer keys unchanged. Requested by the owner.
+
 ## 1.5.0 – 2026-10-19
 
 - **Ismétlés:** new mode on the 1. ZH page. A missed question comes back 1 day later, then after 3 and 7 days if

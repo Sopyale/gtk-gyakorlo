@@ -62,7 +62,7 @@ Every change the owner asks for is added here as a new task before work starts, 
 
 ## 1.5.1
 
-- [ ] Clear, understandable explanations for every question: rewrite short or vague explanations using only the note
+- [x] Clear, understandable explanations for every question: rewrite short or vague explanations using only the note
       and the textbook
 
 ## Open

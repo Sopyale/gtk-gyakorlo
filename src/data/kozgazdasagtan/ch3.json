@@ -13,7 +13,7 @@
       "egyéni keresleti görbe",
       "közömbösségi görbe"
     ],
-    "explanation": "A szaggatott költségvetési egyenesek párhuzamosak, tehát a jövedelem változik, nem az ár. Az érintési pontokat összekötő görbe a jövedelem-fogyasztás görbe (ICC).",
+    "explanation": "A szaggatott költségvetési egyenesek párhuzamosak, tehát csak a jövedelem változik, az árak nem. Az egyes egyenesekhez tartozó optimumpontokat (ahol az egyenes érinti a közömbösségi görbét) összekötő görbe a jövedelem-fogyasztás görbe (ICC).",
     "source": "Jegyzet 3.1 · Könyv 24. o.",
     "official": true,
     "difficulty": 2
@@ -38,7 +38,7 @@
         "A magasabb árból jobb minőségre következtetnek, ezért nő az egyéni kereslet."
       ]
     ],
-    "explanation": "Nyájhatás: divatkövetés. Sznobhatás: azért veszi, mert a tömeg nem. Veblen-hatás (minőségi hatás): az árból következtet a minőségre.",
+    "explanation": "Mindhárom esetben a piaci helyzet is hat az egyén keresletére. Nyájhatás: követi a divatot, ezért többet vesz, ha a többiek is. Sznobhatás: épp akkor fordul el, amikor a tömeg is veszi. Veblen-hatás: a magasabb árból jobb minőségre következtet.",
     "source": "Jegyzet 3.5 · Könyv 31. o.",
     "official": false,
     "difficulty": 2
@@ -50,7 +50,7 @@
     "section": "3.4",
     "question": "Giffen-hatás csak inferior jószágok esetén jelentkezhet.",
     "answer": true,
-    "explanation": "A Giffen-jószág olyan inferior jószág, amely a kosárban nagy részt tesz ki, és jövedelmi hatása nagyobb a helyettesítésinél. Minden Giffen-jószág inferior, de nem minden inferior jószág Giffen.",
+    "explanation": "A Giffen-hatásnál a jövedelmi hatás legyőzi a helyettesítésit, és drágulás után többet vesznek. Ehhez az kell, hogy kisebb reáljövedelemnél többet vegyenek a jószágból, ez pedig az inferior jószág ismérve. Minden Giffen-jószág inferior, de fordítva nem.",
     "source": "Jegyzet 3.4 · Könyv 30. o.",
     "official": true,
     "difficulty": 2
@@ -68,7 +68,7 @@
       "Mivel a pelenka inferior jószág, a kezdeti növekedés később visszaesett.",
       "Ennek ellenére nem változott a fogyasztott mennyiség."
     ],
-    "explanation": "A könyv szerint a piaci keresleti görbe a végén lapos: nagyon olcsón sok mindent helyettesítünk a jószággal (például sóval a jég felcsákányozását). Az olcsó pelenkát is sok mindenre használták.",
+    "explanation": "Ha egy jószág nagyon olcsó, egyre több mindent helyettesítünk vele (például sóval a jég felcsákányozását), ezért a keresleti görbe vége lapos. Az államilag olcsóvá tett pelenkát is sok másra kezdték használni, így a fogyasztott mennyiség nagyot nőtt.",
     "source": "Jegyzet 3.5 · Könyv 32. o.",
     "official": true,
     "difficulty": 2
@@ -86,7 +86,7 @@
       "A fogyasztók jövedelmének csökkenése.",
       "Egy helyettesítő termék árának jelentős növekedése."
     ],
-    "explanation": "A termék saját árának változása a keresett mennyiséget változtatja (mozgás a görbén). A jövedelem, a helyettesítők ára és a vágyak a görbét tolják el.",
+    "explanation": "A termék saját árának változása nem tolja el a görbét, csak mozgás rajta: a keresett mennyiség változik, a kereslet nem. A jövedelem, a helyettesítő termékek ára és a vágyak változása viszont az egész keresleti görbét eltolja.",
     "source": "Jegyzet 3.6 · Könyv 32–33. o.",
     "official": true,
     "difficulty": 2
@@ -104,7 +104,7 @@
       "Veblen-hatás",
       "Helyettesítési hatás"
     ],
-    "explanation": "A források a BKV-bérletet nem említik, a kulcs a Giffen-jószág definíciójához illik: inferior jószág, amely a kosárban nagy részt tesz ki, ezért drágulásakor a jövedelmi hatás nagyobb a helyettesítésinél, és nem csökken a keresett mennyiség.",
+    "explanation": "A Giffen-jószág olyan inferior jószág, amely a kiadások nagy részét viszi el, így drágulásakor annyira csökken a reáljövedelem, hogy a jövedelmi hatás legyőzi a helyettesítésit. Egy szerény jövedelmű családnál a bérlet ilyen nagy tétel. A nyáj- és a Veblen-hatás itt nem játszik szerepet.",
     "source": "Jegyzet 3.4 · Könyv 30. o.",
     "official": true,
     "difficulty": 3
@@ -122,7 +122,7 @@
       "minoseg",
       "minőség"
     ],
-    "explanation": "Veblen-hatás (minőségi hatás): az árból a minőségre következtetnek.",
+    "explanation": "A fogyasztó a minőséget nem tudja közvetlenül megítélni, ezért az árból következtet rá: a drágább termékről jobb minőséget feltételez. Így az áremelés növelheti a jószág kedveltségét és a keresett mennyiséget is. Más néven minőségi hatás.",
     "source": "Jegyzet 3.5 · Könyv 31. o.",
     "official": true,
     "difficulty": 2,
@@ -145,7 +145,7 @@
       "összeadjuk",
       "osszeadjuk"
     ],
-    "explanation": "Ha fellépnek fogyasztói extern hatások (nyáj-, sznob-, Veblen-hatás), a piaci keresletet nem kapjuk egyszerű összegzéssel.",
+    "explanation": "Minden adott árnál összeadjuk, hogy az egyes fogyasztók mennyit vennének; ez a horizontális (vízszintes) összegzés. Csak akkor működik, ha az egyéni keresletek függetlenek, vagyis nincs nyáj-, sznob- vagy Veblen-hatás.",
     "source": "Jegyzet 3.5 · Könyv 31. o.",
     "official": true,
     "difficulty": 2,
@@ -166,7 +166,7 @@
       "sznob",
       "veblen"
     ],
-    "explanation": "A három fogyasztói extern hatás: nyájhatás, sznobhatás és Veblen-hatás (minőségi hatás).",
+    "explanation": "Fogyasztói extern hatásról akkor beszélünk, ha a piaci helyzet (mások keresése vagy a piaci ár) is befolyásolja az egyén keresletét. Három ilyen van: nyájhatás (divatkövetés), sznobhatás (elfordul, ha a tömeg is veszi) és Veblen-hatás (az árból a minőségre következtet).",
     "source": "Jegyzet 3.5 · Könyv 31. o.",
     "official": true,
     "difficulty": 1,
@@ -179,7 +179,7 @@
     "section": "3.1",
     "question": "Az Engel-görbe a jövedelem és egy jószág fogyasztott mennyiségének koordináta-rendszerében mutatja az adott jövedelem mellett elfogyasztott mennyiséget.",
     "answer": true,
-    "explanation": "Ez az Engel-görbe definíciója: a jövedelem függvényében a fogyasztott mennyiséget ábrázolja.",
+    "explanation": "Az Engel-görbe azt mutatja, hogy a jövedelem változásával hogyan változik egy jószág fogyasztott mennyisége: egyik tengelyén a jövedelem, a másikon a jószág mennyisége áll.",
     "source": "Jegyzet 3.1 · Könyv 24–26. o.",
     "official": false,
     "difficulty": 1
@@ -191,7 +191,7 @@
     "section": "3.1",
     "question": "Az Engel-görbe a termék ára és a fogyasztó jövedelme koordináta-rendszerében mutatja a fogyasztást.",
     "answer": false,
-    "explanation": "Az Engel-görbe tengelyein a jövedelem és a fogyasztott mennyiség van, nem az ár. Ez a MiniZH csapdája.",
+    "explanation": "Az Engel-görbe tengelyein a jövedelem és a jószág fogyasztott mennyisége áll, az ár nem szerepel benne. Az ár és a mennyiség kapcsolatát a keresleti függvény mutatja.",
     "source": "Jegyzet 3.1 · Könyv 24–26. o.",
     "official": false,
     "difficulty": 2
@@ -203,7 +203,7 @@
     "section": "3.1",
     "question": "A jövedelem-fogyasztás görbe (ICC) a párhuzamosan kifelé tolódó költségvetési egyenesekhez tartozó optimumpontokat köti össze.",
     "answer": true,
-    "explanation": "Az ICC a jövedelem változásakor kapott érintési pontokat köti össze a Qa–Qb síkon.",
+    "explanation": "A párhuzamos kifelé tolódás azt jelenti, hogy nő a jövedelem, az árak pedig változatlanok. Minden egyeneshez tartozik egy optimumpont (ahol a közömbösségi görbe érinti az egyenest); ezeket köti össze az ICC a Qa–Qb síkon.",
     "source": "Jegyzet 3.1 · Könyv 24–26. o.",
     "official": false,
     "difficulty": 1
@@ -215,7 +215,7 @@
     "section": "3.1",
     "question": "A jövedelem-fogyasztás görbe az elforduló költségvetési egyenesekhez tartozó optimumpontokat köti össze.",
     "answer": false,
-    "explanation": "Az elforduló egyenesek árváltozást jelentenek, az optimumaikat az ár-fogyasztás görbe (PCC) köti össze.",
+    "explanation": "Az elforduló költségvetési egyenes az egyik jószág árának változását jelenti. Az ilyenkor kapott optimumpontokat az ár-fogyasztás görbe (PCC) köti össze; a jövedelem-fogyasztás görbe a párhuzamosan eltolódó egyenesekhez tartozik.",
     "source": "Jegyzet 3.1 · Könyv 24–26. o.",
     "official": false,
     "difficulty": 2
@@ -233,7 +233,7 @@
       "jövedelem-fogyasztás görbe két inferior jószág esetén",
       "ár-fogyasztás görbe két normál jószág esetén"
     ],
-    "explanation": "Párhuzamos egyenesek → jövedelemváltozás → ICC. A jövedelem növekedésével mindkét jószágból többet fogyasztanak → egyik sem inferior.",
+    "explanation": "A párhuzamos egyenesek jövedelemváltozást jelentenek, ezért ICC-ről van szó (az ár-fogyasztás görbe elforduló egyenesekhez tartozik). Mivel a görbe jobbra fölfelé halad, nagyobb jövedelemnél mindkét jószágból többet vesznek, így mindkettő normál, egyik sem inferior.",
     "source": "Jegyzet 3.1 · Könyv 24–26. o.",
     "official": false,
     "difficulty": 3
@@ -252,7 +252,7 @@
       "jövedelem-fogyasztás görbe",
       "kínálati görbe"
     ],
-    "explanation": "A tengelyeken a jövedelem (I) és a fogyasztott mennyiség (Qa) van. Ez az Engel-görbe.",
+    "explanation": "A tengelyeken a jövedelem (I) és egy jószág fogyasztott mennyisége (Qa) áll, ez az Engel-görbe. A keresleti görbe tengelyein az ár és a mennyiség lenne, az ICC pedig két jószág mennyiségének síkján fut.",
     "source": "Jegyzet 3.1 · Könyv 24–26. o.",
     "official": false,
     "difficulty": 1
@@ -270,7 +270,7 @@
     "keywords": [
       "jovedelem fogyasztas"
     ],
-    "explanation": "ICC = Income-Consumption Curve, jövedelem-fogyasztás görbe.",
+    "explanation": "ICC = Income-Consumption Curve, magyarul jövedelem-fogyasztás görbe. Azt mutatja, hogyan változik az optimális fogyasztói kosár, ha nő a jövedelem, az árak pedig nem változnak.",
     "source": "Jegyzet 3.1 · Könyv 24–26. o.",
     "official": false,
     "difficulty": 1
@@ -282,7 +282,7 @@
     "section": "3.2",
     "question": "Normál jószág Engel-görbéje végig pozitív meredekségű.",
     "answer": true,
-    "explanation": "A jövedelem növekedésével normál jószágból egyre többet fogyasztanak.",
+    "explanation": "Normál jószágból nagyobb jövedelemnél mindig többet vesznek, ezért az Engel-görbéje (jövedelem–mennyiség) végig emelkedő, vagyis pozitív meredekségű.",
     "source": "Jegyzet 3.2 · Könyv 26. o.",
     "official": false,
     "difficulty": 1
@@ -294,7 +294,7 @@
     "section": "3.2",
     "question": "Az inferioritás mindig egy jövedelemszinthez kötött.",
     "answer": true,
-    "explanation": "A könyv szerint inferior jószágból egy jövedelemszint fölött egyre kevesebbet vesznek.",
+    "explanation": "Egy jószág csak egy bizonyos jövedelemszint fölött inferior: onnantól a jövedelem növekedésével kevesebbet vesznek belőle, mert szívesen váltanak másra. Alacsonyabb jövedelemnél még normál jószágként viselkedik.",
     "source": "Jegyzet 3.2 · Könyv 26. o.",
     "official": false,
     "difficulty": 2
@@ -306,7 +306,7 @@
     "section": "3.2",
     "question": "Luxusjószágot alacsony jövedelemnél is fogyasztanak, de fogyasztása a jövedelemnél lassabban nő.",
     "answer": false,
-    "explanation": "Luxusjószágot alacsony jövedelemnél nem fogyasztanak, utána a fogyasztása a jövedelemnél gyorsabban nő.",
+    "explanation": "A luxusjószágot alacsony jövedelemnél egyáltalán nem fogyasztják. Egy jövedelemszint után kezdik venni, és onnantól a fogyasztása a jövedelemnél gyorsabban nő, nem lassabban.",
     "source": "Jegyzet 3.2 · Könyv 26. o.",
     "official": false,
     "difficulty": 2
@@ -325,7 +325,7 @@
       "luxusjószág",
       "Giffen-jószág csak, inferior nem"
     ],
-    "explanation": "Egy jövedelemszint fölött a fogyasztott mennyiség csökken: ez inferior jószág.",
+    "explanation": "Az Engel-görbe egy darabig emelkedik, majd egy jövedelemszint fölött lefelé fordul: nagyobb jövedelemnél már kevesebbet vesznek a jószágból. Ez az inferior (alacsonyabbrendű) jószág jele. A Giffen-jószág is mindig inferior, ezért az utolsó opció hibás.",
     "source": "Jegyzet 3.2 · Könyv 26. o.",
     "official": false,
     "difficulty": 2
@@ -344,7 +344,7 @@
       "normál jószág, amelyből a jövedelemmel arányosan fogyasztanak",
       "a jószágot a jövedelemtől függetlenül fogyasztják"
     ],
-    "explanation": "Alacsony jövedelemnél nem fogyasztják, utána a fogyasztás a jövedelemnél gyorsabban nő: luxusjószág.",
+    "explanation": "Az Engel-görbe alacsony jövedelemnél nulla, vagyis ott nem vesznek a jószágból; egy jövedelemszint után a fogyasztás a jövedelemnél gyorsabban nő. Ez a luxusjószág jellemzője.",
     "source": "Jegyzet 3.2 · Könyv 26. o.",
     "official": false,
     "difficulty": 2
@@ -369,7 +369,7 @@
         "alacsony jövedelemnél nincs fogyasztás, utána gyorsan nő"
       ]
     ],
-    "explanation": "A könyv leírása az Engel-görbék három alakjáról.",
+    "explanation": "Az Engel-görbe alakja mutatja, hogyan reagál a fogyasztás a jövedelem növekedésére: normál jószágnál folyamatosan nő, inferiornál egy szint fölött csökken, luxusjószágnál előbb nulla, aztán gyorsan nő.",
     "source": "Jegyzet 3.2 · Könyv 26. o.",
     "official": false,
     "difficulty": 2
@@ -381,7 +381,7 @@
     "section": "3.3",
     "question": "Az ár-fogyasztás görbe optimumpontjainak Pa–Qa párjaiból rajzolható meg az egyéni keresleti függvény.",
     "answer": true,
-    "explanation": "Az egyéni keresleti függvény az a jószág ára és keresett mennyisége közötti kapcsolat.",
+    "explanation": "Az ár-fogyasztás görbe minden pontja megmutatja, hogy egy adott Pa árnál mennyi az optimális Qa. Ezeket az ár–mennyiség párokat egy új (Pa–Qa) koordináta-rendszerbe átrajzolva kapjuk az egyéni keresleti függvényt.",
     "source": "Jegyzet 3.3 · Könyv 26–29. o.",
     "official": false,
     "difficulty": 2
@@ -393,7 +393,7 @@
     "section": "3.3",
     "question": "Az ár-fogyasztás görbe felrajzolásakor a jövedelem és a b összevont jószág ára is változik.",
     "answer": false,
-    "explanation": "Rögzítjük a jövedelmet és Qb árát, csak Pa változik. Az egyenes az I/Pb pont körül fordul.",
+    "explanation": "A PCC rajzolásakor csak az a jószág ára (Pa) változik, a jövedelem és a b jószág ára rögzített. Ezért a költségvetési egyenes a b tengelyen lévő I/Pb pont körül fordul el.",
     "source": "Jegyzet 3.3 · Könyv 26–29. o.",
     "official": false,
     "difficulty": 2
@@ -405,7 +405,7 @@
     "section": "3.3",
     "question": "A könyv szerint a b összevont jószág az a-ra el nem költött pénz.",
     "answer": true,
-    "explanation": "Így két jószággal is leírható az egész fogyasztás.",
+    "explanation": "Az összevont b jószág minden olyan pénzt jelent, amit a fogyasztó nem az a jószágra költ. Így két jószággal (az a és „minden más”) le lehet írni a teljes fogyasztást.",
     "source": "Jegyzet 3.3 · Könyv 26–29. o.",
     "official": false,
     "difficulty": 2
@@ -423,7 +423,7 @@
       "az azonos hasznosságú kosarakat",
       "a megvásárolható kosarakat"
     ],
-    "explanation": "Az egyéni keresleti függvény a Pa–Qa kapcsolat. A jövedelem és a mennyiség kapcsolata az Engel-görbe.",
+    "explanation": "Az egyéni keresleti függvény azt mutatja, hogy egy fogyasztó a jószág különböző árain mennyit venne belőle (Pa–Qa kapcsolat). A jövedelem és a mennyiség kapcsolata az Engel-görbe, az azonos hasznosságú kosarak a közömbösségi görbét adják.",
     "source": "Jegyzet 3.3 · Könyv 26–29. o.",
     "official": false,
     "difficulty": 1
@@ -442,7 +442,7 @@
       "Engel-görbe",
       "közömbösségi görbe"
     ],
-    "explanation": "Egy pont körül forduló egyenesek = árváltozás = PCC. Ebből vezetjük le a keresleti függvényt.",
+    "explanation": "Ha a költségvetési egyenes egy pont körül fordul, az egyik jószág ára változik. Az ilyenkor kapott optimumpontokat az ár-fogyasztás görbe (PCC) köti össze; ebből vezetjük le az egyéni keresleti függvényt.",
     "source": "Jegyzet 3.3 · Könyv 26–29. o.",
     "official": false,
     "difficulty": 2
@@ -454,7 +454,7 @@
     "section": "3.4",
     "question": "Az árváltozás teljes hatása keresleti és kínálati hatásra bontható.",
     "answer": false,
-    "explanation": "A teljes hatás helyettesítési és jövedelmi hatásra bontható. „Keresleti és kínálati hatás” nincs.",
+    "explanation": "Az árváltozás teljes hatása helyettesítési hatásra (az árarányok változása miatt) és jövedelmi hatásra (a reáljövedelem változása miatt) bontható. Keresleti és kínálati hatásra bontás nincs, ez csapda.",
     "source": "Jegyzet 3.4 · Könyv 29–30. o.",
     "official": false,
     "difficulty": 2
@@ -466,7 +466,7 @@
     "section": "3.4",
     "question": "A jövedelmi hatás azért lép fel, mert a jószág árának megváltozásával a fogyasztó reáljövedelme is módosult.",
     "answer": true,
-    "explanation": "Ha nő a jószág ára, ugyanabból a jövedelemből kevesebbet lehet venni: a reáljövedelem csökken.",
+    "explanation": "Ha egy jószág drágul, ugyanabból a pénzből kevesebbet lehet venni, vagyis csökken a reáljövedelem (a jövedelem vásárlóereje). Az ebből eredő változás a keresett mennyiségben a jövedelmi hatás.",
     "source": "Jegyzet 3.4 · Könyv 29–30. o.",
     "official": false,
     "difficulty": 1
@@ -478,7 +478,7 @@
     "section": "3.4",
     "question": "Normál jószágok esetén a jövedelmi és a helyettesítési hatás azonos irányban hat a keresett mennyiségre.",
     "answer": true,
-    "explanation": "Normál jószágnál a két hatás azonos irányú, inferiornál ellentétes.",
+    "explanation": "Normál jószág drágulásakor a helyettesítési hatás csökkenti a keresett mennyiséget (relatíve drágább lett), és a csökkenő reáljövedelem is csökkenti (normál jószágból kisebb jövedelemnél kevesebbet vesznek). A két hatás tehát azonos irányú.",
     "source": "Jegyzet 3.4 · Könyv 29–30. o.",
     "official": false,
     "difficulty": 2
@@ -490,7 +490,7 @@
     "section": "3.4",
     "question": "Inferior jószág esetén a jövedelmi és a helyettesítési hatás azonos irányban hat a keresett mennyiségre.",
     "answer": false,
-    "explanation": "Inferior jószágnál a két hatás ellentétes irányú. A Giffen-hatás ennek szélső esete, amikor a jövedelmi hatás „győz”.",
+    "explanation": "Inferior jószágnál a két hatás ellentétes irányú: drágulásakor a helyettesítési hatás csökkenti a keresett mennyiséget, a csökkenő reáljövedelem miatt viszont többet vesznek belőle. Ha ez utóbbi győz, az a Giffen-hatás.",
     "source": "Jegyzet 3.4 · Könyv 29–30. o.",
     "official": false,
     "difficulty": 2
@@ -502,7 +502,7 @@
     "section": "3.4",
     "question": "A jövedelmi hatás annál nagyobb, minél nagyobb a jószág részesedése a fogyasztói kosárban.",
     "answer": true,
-    "explanation": "A könyv szerint: ha a jószág a kiadások nagy részét teszi ki, az áremelés jobban csökkenti a reáljövedelmet.",
+    "explanation": "Ha a jószág a kiadások nagy részét teszi ki, a drágulása erősen csökkenti a reáljövedelmet, így nagyobb a jövedelmi hatás. Egy apró kiadási tételnél a jövedelmi hatás kicsi.",
     "source": "Jegyzet 3.4 · Könyv 29–30. o.",
     "official": false,
     "difficulty": 2
@@ -514,7 +514,7 @@
     "section": "3.4",
     "question": "Minden inferior jószág Giffen-jószág.",
     "answer": false,
-    "explanation": "Fordítva: minden Giffen-jószág inferior, de nem minden inferior jószág Giffen.",
+    "explanation": "Csak az az inferior jószág Giffen, amely a kosárban olyan nagy részt tesz ki, hogy a jövedelmi hatása legyőzi a helyettesítésit. Tehát minden Giffen-jószág inferior, de nem minden inferior jószág Giffen.",
     "source": "Jegyzet 3.4 · Könyv 29–30. o.",
     "official": false,
     "difficulty": 2
@@ -526,7 +526,7 @@
     "section": "3.4",
     "question": "Giffen-jószág keresleti görbéje emelkedő.",
     "answer": true,
-    "explanation": "A Giffen-jószágnál a jövedelmi hatás nagyobb a helyettesítésinél, ezért az ár növekedésével a keresett mennyiség is nő.",
+    "explanation": "A Giffen-jószágnál a jövedelmi hatás nagyobb a helyettesítésinél, ezért ha nő az ár, a keresett mennyiség is nő. Így a keresleti görbe emelkedő (felfelé hajlik), szemben a megszokott lejtő görbével.",
     "source": "Jegyzet 3.4 · Könyv 29–30. o.",
     "official": false,
     "difficulty": 3
@@ -544,7 +544,7 @@
       "nyáj- és sznobhatásra",
       "rövid és hosszú távú hatásra"
     ],
-    "explanation": "Teljes hatás = helyettesítési hatás + jövedelmi hatás.",
+    "explanation": "Helyettesítési hatás: az árarányok változása miatt a fogyasztó a relatíve olcsóbb jószág felé fordul. Jövedelmi hatás: az árváltozás a reáljövedelmet is módosítja. A kettő együtt adja a teljes hatást.",
     "source": "Jegyzet 3.4 · Könyv 29–30. o.",
     "official": false,
     "difficulty": 1
@@ -562,7 +562,7 @@
       "nem változtat rajta",
       "csak a kínált mennyiséget változtatja"
     ],
-    "explanation": "Az áremelés csökkenti a reáljövedelmet. Inferior jószágból kisebb jövedelem mellett többet fogyasztanak, így a jövedelmi hatás a helyettesítésivel ellentétes.",
+    "explanation": "Az áremelés csökkenti a reáljövedelmet, inferior jószágból pedig kisebb jövedelem mellett többet vesznek. Ezért itt a jövedelmi hatás növeli a keresett mennyiséget, a helyettesítési hatással ellentétesen.",
     "source": "Jegyzet 3.4 · Könyv 29–30. o.",
     "official": false,
     "difficulty": 3
@@ -580,7 +580,7 @@
       "ha a fogyasztók a magasabb árból jobb minőségre következtetnek",
       "ha a piaci kereslet nő"
     ],
-    "explanation": "Giffen-jószág: inferior, a kosárban nagy részt tesz ki, és jövedelmi hatása nagyobb a helyettesítésinél. A minőségre következtetés a Veblen-hatás.",
+    "explanation": "Giffen-hatás akkor van, ha egy inferior jószág a kiadások nagy részét teszi ki, és drágulásakor a jövedelmi hatás legyőzi a helyettesítésit: nő az ár, és nő a keresett mennyiség is. Az árból a minőségre következtetés a Veblen-hatás.",
     "source": "Jegyzet 3.4 · Könyv 29–30. o.",
     "official": false,
     "difficulty": 2
@@ -599,7 +599,7 @@
       "a teljes hatást",
       "a kínálati hatást"
     ],
-    "explanation": "A → B: azonos hasznossági szinten, az új árarány mellett csökken a fogyasztás (helyettesítési hatás). B → C: a csökkent reáljövedelem hatása (jövedelmi hatás).",
+    "explanation": "A → B: a fogyasztó ugyanazon a közömbösségi görbén marad, csak az új árarány miatt kevesebbet vesz az a jószágból; ez a helyettesítési hatás. B → C a csökkent reáljövedelem következménye (jövedelmi hatás), A → C a teljes hatás.",
     "source": "Jegyzet 3.4 · Könyv 29–30. o.",
     "official": false,
     "difficulty": 3
@@ -611,7 +611,7 @@
     "section": "3.5",
     "question": "A piaci keresleti függvényt, ha fellépnek fogyasztói extern hatások, az egyéniek horizontális összegzésével kapjuk.",
     "answer": false,
-    "explanation": "Horizontális összegzés csak akkor, ha az egyes keresletek függetlenek, vagyis nincsenek extern hatások.",
+    "explanation": "A horizontális összegzés (adott árnál a keresett mennyiségek összeadása) csak akkor adja a piaci keresletet, ha az egyéni keresletek függetlenek. Extern hatásnál a piaci kereslet maga is befolyásolja az egyéneket, így egyszerű összeadással nem kapjuk meg.",
     "source": "Jegyzet 3.5 · Könyv 30–32. o.",
     "official": false,
     "difficulty": 2
@@ -623,7 +623,7 @@
     "section": "3.5",
     "question": "Nyájhatásnál a növekvő piaci kereslettől az egyéni kereslet is növekszik.",
     "answer": true,
-    "explanation": "Nyájhatás = divatkövetés.",
+    "explanation": "A nyájhatás a divatkövetés: ha a fogyasztó látja, hogy egy termék iránt nő a piaci kereslet, számára is kedveltebb lesz, ezért ő is többet vesz belőle.",
     "source": "Jegyzet 3.5 · Könyv 30–32. o.",
     "official": false,
     "difficulty": 1
@@ -635,7 +635,7 @@
     "section": "3.5",
     "question": "Sznobhatásnál ha nő a piaci kereslet, az egyéni kereslet is nő.",
     "answer": false,
-    "explanation": "Sznobhatásnál a piaci kereslet növekedésével az egyéni kereslet csökken: azért veszi, mert a „tömeg” nem.",
+    "explanation": "Sznobhatásnál épp fordítva van: a fogyasztó addig keresi a terméket, amíg a „tömeg” nem veszi. Ha nő a piaci kereslet, elfordul tőle, így az egyéni kereslete csökken.",
     "source": "Jegyzet 3.5 · Könyv 30–32. o.",
     "official": false,
     "difficulty": 1
@@ -647,7 +647,7 @@
     "section": "3.5",
     "question": "A piaci keresleti görbe a könyv szerint az elején meredek, a végén lapos.",
     "answer": true,
-    "explanation": "Akinek nagyon fontos, drágán is megveszi (meredek), nagyon olcsón viszont sok mindent helyettesítünk vele (lapos).",
+    "explanation": "Az elején meredek, mert akiknek nagyon fontos a termék, magas áron is megveszik. A végén lapos, mert nagyon alacsony árnál egyre több mindent helyettesítünk vele (például sóval a jég felcsákányozását).",
     "source": "Jegyzet 3.5 · Könyv 30–32. o.",
     "official": false,
     "difficulty": 3
@@ -665,7 +665,7 @@
       "Veblen-hatás",
       "Giffen-hatás"
     ],
-    "explanation": "A könyv szerint ha árcsökkenés megnyitja a piacot, a sznobok elfordulnak.",
+    "explanation": "Sznobhatás: a fogyasztó addig veszi a terméket, amíg a „tömeg” nem. Ha az árcsökkenés megnyitja a piacot a szélesebb rétegek előtt, a sznob vevők elfordulnak tőle. Nyájhatásnál épp többet vennének.",
     "source": "Jegyzet 3.5 · Könyv 30–32. o.",
     "official": false,
     "difficulty": 2
@@ -683,7 +683,7 @@
       "az egyéni keresletek átlagát vesszük",
       "a legnagyobb egyéni keresletet vesszük"
     ],
-    "explanation": "Ez a horizontális összegzés: minden árnál összeadjuk a keresett mennyiségeket.",
+    "explanation": "Ez a horizontális összegzés: minden árnál összeadjuk, hogy az egyes fogyasztók mennyit vennének. Az árakat nem adjuk össze, és nem is átlagolunk.",
     "source": "Jegyzet 3.5 · Könyv 30–32. o.",
     "official": false,
     "difficulty": 2
@@ -702,7 +702,7 @@
       "a piaci ár a három egyéni ár összege",
       "a piaci keresett mennyiség a három egyéni átlaga"
     ],
-    "explanation": "Horizontális összegzés: azonos árnál a keresett mennyiségeket összeadjuk (feltéve, hogy nincsenek extern hatások).",
+    "explanation": "Az azonos árat jelző pontozott vonalon leolvassuk mindhárom fogyasztó keresett mennyiségét, és ezeket összeadjuk: ez a piaci keresett mennyiség (horizontális összegzés). Ehhez az kell, hogy ne legyenek fogyasztói extern hatások.",
     "source": "Jegyzet 3.5 · Könyv 30–32. o.",
     "official": false,
     "difficulty": 2
@@ -714,7 +714,7 @@
     "section": "3.6",
     "question": "Árváltozás hatására a keresett mennyiség változik, ez mozgás a keresleti görbén.",
     "answer": true,
-    "explanation": "A kereslet változásakor az egész függvény változik (D0 → D1).",
+    "explanation": "Ha a termék saját ára változik, ugyanazon a keresleti görbén mozdulunk el egy másik pontba: a keresett mennyiség változik, a kereslet nem. A kereslet változása az egész görbe eltolódása (D0 → D1), amit például a jövedelem változása okoz.",
     "source": "Jegyzet 3.6 · Könyv 32–33. o.",
     "official": false,
     "difficulty": 1
@@ -726,7 +726,7 @@
     "section": "3.6",
     "question": "Ha nő a kereslet, akkor adott mennyiséget csak alacsonyabb ár mellett vásárolnának meg.",
     "answer": false,
-    "explanation": "Keresletnövekedéskor a görbe jobbra-fölfelé tolódik, így adott mennyiségért magasabb árat is megfizetnének.",
+    "explanation": "Keresletnövekedéskor a keresleti görbe jobbra-fölfelé tolódik. Így adott árnál többet vennének, illetve adott mennyiségért magasabb árat is megfizetnének, nem alacsonyabbat.",
     "source": "Jegyzet 3.6 · Könyv 32–33. o.",
     "official": false,
     "difficulty": 3
@@ -738,7 +738,7 @@
     "section": "3.6",
     "question": "Ha nő a fogyasztók jövedelme, a keresleti görbe jobbra tolódik.",
     "answer": true,
-    "explanation": "A jövedelem változása a költségvetési korlát ki-be tolódásában jelenik meg, és eltolja a keresleti görbét.",
+    "explanation": "A jövedelem növekedése a költségvetési egyenest párhuzamosan kifelé tolja, így adott árak mellett nagyobb a keresett mennyiség. Ez a kereslet növekedése: a görbe jobbra tolódik.",
     "source": "Jegyzet 3.6 · Könyv 32–33. o.",
     "official": false,
     "difficulty": 1
@@ -750,7 +750,7 @@
     "section": "3.6",
     "question": "Ha egy helyettesítő termék ára csökken, a keresleti görbe jobbra tolódik.",
     "answer": false,
-    "explanation": "A könyv szerint egy helyettesítő árának csökkenésekor a kereslet balra tolódik: inkább a helyettesítőt veszik.",
+    "explanation": "Ha egy helyettesítő termék olcsóbb lesz, a fogyasztók inkább azt veszik, ezért az adott termékből minden árnál kevesebbet keresnek. A keresleti görbe tehát balra tolódik, nem jobbra.",
     "source": "Jegyzet 3.6 · Könyv 32–33. o.",
     "official": false,
     "difficulty": 2
@@ -779,7 +779,7 @@
         "a közömbösségi görbék hirtelen változása"
       ]
     ],
-    "explanation": "Az 1. szeminárium táblázata alapján.",
+    "explanation": "A fogyasztói modellnek két része van: a költségvetési korlát (mit engedhet meg magának) és a közömbösségi görbék (mit szeret). A jövedelem és a helyettesítők ára a korlátot mozdítja (eltolás, illetve meredekség), az ízlés és az időjárás a közömbösségi görbéket.",
     "source": "Jegyzet 3.6 · Könyv 32–33. o.",
     "official": false,
     "difficulty": 3

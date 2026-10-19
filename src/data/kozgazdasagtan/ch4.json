@@ -6,7 +6,7 @@
     "section": "4.2",
     "question": "Ha Géza kétszer jobb Tominál festésben és háromszor jobb tapétázásban, akkor Gézának komparatív előnye van festésben.",
     "answer": false,
-    "explanation": "Ha Tomi óránként f festést vagy t tapétázást végez, Géza 2f-et vagy 3t-t. Gézánál 1 festés ára 1,5·(t/f) tapétázás, Tominál csak t/f. A festés Tominak olcsóbb, így Gézának a tapétázásban van komparatív előnye.",
+    "explanation": "Géza festésben csak 2-szer, tapétázásban 3-szor jobb Tominál, vagyis relatíve a tapétázásban erősebb. Ezért Gézának a tapétázásban, Tominak a festésben van komparatív előnye: Tominak egy festés kevesebb tapétázásba kerül (kisebb az alternatíva költsége).",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": true,
     "difficulty": 3,
@@ -19,7 +19,7 @@
     "section": "4.2",
     "question": "Ha az egyik borász 800 liter rizlinget vagy 400 liter hárslevelűt, míg a másik 1000 liter rizlinget vagy 3000 liter hárslevelűt képes előállítani, akkor az elsőnek van komparatív előnye hárslevelűben.",
     "answer": false,
-    "explanation": "Az elsőnél 1 l hárslevelű ára 2 l rizling, a másodiknál csak 1/3 l. A hárslevelű a másodiknak olcsóbb, ezért neki van komparatív előnye benne (az elsőnek a rizlingben).",
+    "explanation": "Alternatíva költség: amiről lemondunk érte. Az elsőnél 1 l hárslevelű 800/400 = 2 l rizlingbe kerül, a másodiknál csak 1000/3000 ≈ 0,33 l-be. A hárslevelűben tehát a másodiknak van komparatív előnye, az elsőnek a rizlingben.",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": true,
     "difficulty": 3
@@ -49,7 +49,7 @@
     "section": "4.2",
     "question": "Ha Tomi kétszer jobb Gézánál festésben és háromszor jobb tapétázásban, akkor Gézának van komparatív előnye festésben.",
     "answer": true,
-    "explanation": "Tominál 1 festés 1,5-szer annyi tapétázásba kerül, mint Gézánál, így a festés Gézának olcsóbb: Gézának a festésben, Tominak a tapétázásban van komparatív előnye. Az eredeti Moodle-kérdésben „neki” állt, ami félreérthető volt, ezért a név bekerült a mondatba.",
+    "explanation": "Tomi festésben csak 2-szer, tapétázásban 3-szor jobb Gézánál, tehát relatíve a tapétázásban erősebb. Ezért Tominak a tapétázásban, Gézának a festésben van komparatív előnye: Gézának egy festés kevesebb tapétázásba kerül.",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": true,
     "difficulty": 3,
@@ -62,7 +62,7 @@
     "section": "4.1",
     "question": "A tokaji gazda (600 l szamorodni vagy 300 l kékfrankos) 1 liter szamorodniért 0,5 liter kékfrankost áldoz fel.",
     "answer": true,
-    "explanation": "300/600 = 0,5 l kékfrankos. Ez az alternatíva költség.",
+    "explanation": "Alternatíva költség: amiről le kell mondani egy egységért. A tokaji ugyanannyi munkával 600 l szamorodnit vagy 300 l kékfrankost termel, így 1 l szamorodni ára 300/600 = 0,5 l kékfrankos.",
     "source": "Jegyzet 4.1 · Könyv 47–48. o.",
     "official": false,
     "difficulty": 2
@@ -74,7 +74,7 @@
     "section": "4.1",
     "question": "A villányi gazdának (800 l szamorodni vagy 1000 l kékfrankos) mindkét borban abszolút előnye van a tokajival (600 l vagy 300 l) szemben.",
     "answer": true,
-    "explanation": "800 > 600 és 1000 > 300. A komparatív előny ennek ellenére megoszlik.",
+    "explanation": "Abszolút előny: valamiből többet tud előállítani. A villányi mindkét borból többet termel (800 > 600 és 1000 > 300), így mindkettőben abszolút előnye van. A komparatív előny ennek ellenére megoszlik a két gazda között.",
     "source": "Jegyzet 4.1 · Könyv 47–48. o.",
     "official": false,
     "difficulty": 1
@@ -86,7 +86,7 @@
     "section": "4.1",
     "question": "Mivel a villányi gazda mindkét borból többet tud termelni, mindkét borban komparatív előnye is van.",
     "answer": false,
-    "explanation": "Nem lehet valakinek mindkét jószágban komparatív előnye. A szamorodniban a tokajinak van komparatív előnye (0,5 l < 1,25 l kékfrankos).",
+    "explanation": "Komparatív előnye annak van, akinek kisebb az alternatíva költsége, és ez nem lehet mindkét jószágnál ugyanaz az ember. 1 l szamorodni a tokajinak 0,5 l, a villányinak 1,25 l kékfrankosba kerül, így szamorodniban a tokaji a komparatív előnyös.",
     "source": "Jegyzet 4.1 · Könyv 47–48. o.",
     "official": false,
     "difficulty": 2
@@ -104,7 +104,7 @@
       "2 literről",
       "0,5 literről"
     ],
-    "explanation": "800/1000 = 0,8 l szamorodni. Ez kevesebb, mint a tokaji 2 litere, ezért a kékfrankosban a villányinak van komparatív előnye.",
+    "explanation": "1 l kékfrankosért a villányi 800/1000 = 0,8 l szamorodniról mond le, ez az alternatíva költsége. A tokajinak ugyanez 600/300 = 2 l, ezért a kékfrankosban a villányinak van komparatív előnye.",
     "source": "Jegyzet 4.1 · Könyv 47–48. o.",
     "official": false,
     "difficulty": 2
@@ -124,7 +124,7 @@
     "keywords": [
       "alternativ"
     ],
-    "explanation": "Az egy literért feláldozott másik bor az alternatíva költség. Erre épül a komparatív előny.",
+    "explanation": "Az alternatíva költség az, amiről lemondunk, hogy egy egységet előállítsunk: a következő legjobb lehetőség feláldozott része. A borászatban ez az egy liter szamorodniért feláldozott kékfrankos mennyisége. Erre épül a komparatív előny.",
     "source": "Jegyzet 4.1 · Könyv 47–48. o.",
     "official": false,
     "difficulty": 1
@@ -143,7 +143,7 @@
       "mindkettőnek",
       "senkinek, mert az árak azonosak"
     ],
-    "explanation": "Tokaji: 300/600 = 0,5 l kékfrankos; villányi: 1000/800 = 1,25 l. A szamorodni a tokajinak olcsóbb.",
+    "explanation": "A tokajinak 1 l szamorodni 300/600 = 0,5 l kékfrankosba, a villányinak 1000/800 = 1,25 l-be kerül. A tokaji tehát kevesebbről mond le érte, így övé a komparatív előny; a villányinak csak abszolút előnye van, mert többet termel.",
     "source": "Jegyzet 4.1 · Könyv 47–48. o.",
     "official": false,
     "difficulty": 3
@@ -155,7 +155,7 @@
     "section": "4.2",
     "question": "Komparatív előnye annak van, akinek kisebb az alternatíva költsége.",
     "answer": true,
-    "explanation": "Komparatív előny = kevesebbet áldoz fel érte. Abszolút előny = többet tud előállítani belőle.",
+    "explanation": "Komparatív előnye annak van, aki egy jószágért kevesebbet áldoz fel a másikból, vagyis kisebb az alternatíva költsége. Az abszolút előny ezzel szemben azt jelenti, hogy valamiből többet tud előállítani.",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": false,
     "difficulty": 1
@@ -167,7 +167,7 @@
     "section": "4.2",
     "question": "Abszolút előnye annak van, akinek kisebb az alternatíva költsége.",
     "answer": false,
-    "explanation": "Abszolút előny: valamiből többet tud előállítani. A kisebb alternatíva költség a komparatív előny.",
+    "explanation": "Abszolút előnye annak van, aki valamiből többet tud előállítani. A kisebb alternatíva költség (kevesebbet áldoz fel érte) a komparatív előny ismérve.",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": false,
     "difficulty": 1
@@ -179,7 +179,7 @@
     "section": "4.2",
     "question": "Valakinek lehet mindkét termékben abszolút előnye, de komparatív előnye csak az egyikben.",
     "answer": true,
-    "explanation": "A komparatív előny megoszlik: senki nem lehet mindkét jószágnál komparatív előnyben.",
+    "explanation": "Az abszolút előny csak azt nézi, ki termel többet, így valaki mindkettőben jobb lehet (a villányi mindkét borból többet termel). A komparatív előny az alternatíva költségen múlik, és megoszlik: senki sem lehet mindkét jószágban komparatív előnyben.",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": false,
     "difficulty": 1
@@ -191,7 +191,7 @@
     "section": "4.2",
     "question": "A relatív előny azt jelenti, hogy valaki saját magához képest jobb vagy rosszabb valamiben.",
     "answer": true,
-    "explanation": "Relatív előny = saját magához képest jobb/rosszabb.",
+    "explanation": "A relatív előnynél valaki saját két tevékenységét hasonlítjuk össze: miben jobb vagy rosszabb saját magához képest. Ebből adódik, hogy a komparatív előny megoszlik, senki sem lehet mindenben komparatív előnyben.",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": false,
     "difficulty": 2
@@ -209,7 +209,7 @@
       "mindkettőre fele-fele arányban",
       "semmire, mert mindkettőben abszolút hátrányban van"
     ],
-    "explanation": "Cecíliának mindkettőben abszolút hátránya van, de relatíve az értékesítésben jobb (termelés/értékesítés = 0,5). A teljes szakosodással 90-ről 100-ra nő a termelés és az értékesítés is.",
+    "explanation": "Cecília mindkettőben gyengébb Aladárnál (abszolút hátrány), de saját magához képest az értékesítésben jobb: 20 termelés vagy 40 értékesítés. Ezért az értékesítésben van komparatív előnye. Teljes szakosodással a termelés és az értékesítés is 90-ről 100-ra nő.",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": false,
     "difficulty": 3
@@ -234,7 +234,7 @@
         "saját magához képest jobb"
       ]
     ],
-    "explanation": "A jegyzet vizsgatippje és a 2. előadás alapján.",
+    "explanation": "Az abszolút előny a mennyiségről szól (ki tud többet előállítani), a komparatív előny az áldozatról (kinek kisebb az alternatíva költsége), a relatív előny pedig arról, hogy valaki saját magához képest miben jobb.",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": false,
     "difficulty": 1
@@ -246,7 +246,7 @@
     "section": "4.3",
     "question": "Ha a gazdák komparatív előnyük szerint szakosodnak és cserélnek, mindketten jobban járnak.",
     "answer": true,
-    "explanation": "Mindketten olyan kombinációkat érnek el, amelyekre egyedül képtelenek lennének.",
+    "explanation": "Ha mindenki azt termeli, amiben kisebb az alternatíva költsége, majd cserélnek, mindketten olyan kombinációkhoz jutnak, amelyeket egyedül nem érhetnének el. A tokaji például kb. 200 l + 200 l helyett 300 l + 300 l bort fogyaszthat.",
     "source": "Jegyzet 4.3 · Könyv 49–50. o.",
     "official": false,
     "difficulty": 1
@@ -258,7 +258,7 @@
     "section": "4.3",
     "question": "A szakosodás és a csere csak akkor éri meg, ha nincsenek többletköltségek.",
     "answer": false,
-    "explanation": "A jegyzet szerint a szakosodás és a csere még többletköltségek esetén is megérheti.",
+    "explanation": "A szakosodás és a csere többletköltségek mellett is megérheti, mert a közös nyereségbe ezek bizonyos mértékig beleférnek. Határt az szab neki, ha a tranzakciós költségek már elviszik a szakosodás hasznát.",
     "source": "Jegyzet 4.3 · Könyv 49–50. o.",
     "official": false,
     "difficulty": 2
@@ -276,7 +276,7 @@
       "600 l + 0 l",
       "444 l + 444 l"
     ],
-    "explanation": "A 600 l szamorodni felét 1:1 arányban kékfrankosra cseréli: 300 l + 300 l.",
+    "explanation": "A tokaji csak szamorodnit termel (600 l), és a felét 1:1 arányban kékfrankosra cseréli: 300 l + 300 l. Ez több, mint a szakosodás nélküli kb. 200 l + 200 l, tehát a szakosodás és a csere megérte.",
     "source": "Jegyzet 4.3 · Könyv 49–50. o.",
     "official": false,
     "difficulty": 2
@@ -307,7 +307,7 @@
     "section": "4.4",
     "question": "Gazdasági mérlegelés mindig a két legjobb lehetőség között történik.",
     "answer": true,
-    "explanation": "Az áldozat mindig a következő legjobb.",
+    "explanation": "Az alternatíva költség mindig a következő legjobb lehetőség, amiről lemondunk. Ezért a gazdasági döntés a két legjobb lehetőség összevetése; a rosszabb lehetőségek nem számítanak.",
     "source": "Jegyzet 4.4 · Könyv 50. o.",
     "official": false,
     "difficulty": 1
@@ -319,7 +319,7 @@
     "section": "4.4",
     "question": "Ha az egyik bortermelőnek adódik egy még előnyösebb harmadik borfajta, a „szamorodni vagy kékfrankos?” összehasonlításnak is van értelme.",
     "answer": false,
-    "explanation": "Nincs értelme ezzel foglalkozni, ha van valami még jobb: mindig a két legjobb lehetőséget kell összevetni.",
+    "explanation": "Ha van egy még jobb harmadik lehetőség, akkor már az kerül a két legjobb közé, és azt kell összevetni. A „szamorodni vagy kékfrankos?” kérdés ekkor értelmét veszti, mert az áldozat mindig a következő legjobb lehetőség.",
     "source": "Jegyzet 4.4 · Könyv 50. o.",
     "official": false,
     "difficulty": 2
@@ -337,7 +337,7 @@
       "azonos minőség",
       "a két legjobb lehetőség összehasonlítása"
     ],
-    "explanation": "A feltételek: azonos terület, azonos árak, azonos minőség, nincs másik termék.",
+    "explanation": "A példa feltételei: azonos terület, azonos árak, azonos minőség, és nincs más termék, csak a két legjobb lehetőséget vetjük össze. Eltérő földterület tehát nem feltétel, épp az azonos terület az.",
     "source": "Jegyzet 4.4 · Könyv 50. o.",
     "official": false,
     "difficulty": 2
@@ -349,7 +349,7 @@
     "section": "4.5",
     "question": "A könyv szerint a költségek nem adottságok, hanem az alternatív lehetőségekből adódnak.",
     "answer": true,
-    "explanation": "A föld, a munkaerő, a gép ára a legjobb felhasználáshoz igazodik.",
+    "explanation": "A föld, a munkaerő vagy a gép ára ahhoz igazodik, mennyit érne a legjobb felhasználási lehetőségében. A költség tehát nem eleve adott szám, hanem abból adódik, miről mondunk le.",
     "source": "Jegyzet 4.5 · Könyv 50–52. o.",
     "official": false,
     "difficulty": 2
@@ -361,7 +361,7 @@
     "section": "4.5",
     "question": "Egy termelő a legjobb felhasználási lehetőségén is tartósan drágábban termelhet a versenytársánál.",
     "answer": false,
-    "explanation": "A költségek a legjobb felhasználáshoz igazodnak, ezért a legjobb lehetőségén mindenki versenyképes, legfeljebb keveset ér.",
+    "explanation": "A költségek (a föld, a munkaerő, a gép ára) a legjobb felhasználási lehetőséghez igazodnak. Ezért a legjobb lehetőségén mindenki versenyképes, legfeljebb keveset keres vele; tartósan drágábban nem termelhet.",
     "source": "Jegyzet 4.5 · Könyv 50–52. o.",
     "official": false,
     "difficulty": 3
@@ -373,7 +373,7 @@
     "section": "4.5",
     "question": "Ha a kékfrankos ára sokkal alacsonyabb, mindkét gazdának a szamorodni termelése éri meg jobban.",
     "answer": true,
-    "explanation": "Ekkor versenyezni fognak, mindketten szamorodnit termelnének.",
+    "explanation": "Ha a kékfrankos sokkal olcsóbban adható el, a szamorodni többet hoz mindkettőjüknek. Ezért mindketten szamorodnit termelnének, és versenyeznének egymással.",
     "source": "Jegyzet 4.5 · Könyv 50–52. o.",
     "official": false,
     "difficulty": 2
@@ -391,7 +391,7 @@
       "a villányi rosszabb minőségű bort termel",
       "a tokaji nem fizet a munkaerőért"
     ],
-    "explanation": "A jegyzet szerint vagy alacsonyabbak a tokaji költségei, vagy rosszul használják fel ott az erőforrásokat.",
+    "explanation": "Ha a tokaji kevesebbet termel, mégsem megy tönkre, akkor alacsonyabbak a költségei, például olcsóbb ott a föld használata. A másik lehetséges magyarázat, hogy rosszul használják az erőforrásokat; az árak és a minőség a példában azonosak.",
     "source": "Jegyzet 4.5 · Könyv 50–52. o.",
     "official": false,
     "difficulty": 2
@@ -403,7 +403,7 @@
     "section": "4.6",
     "question": "A szakosodás és csere módszerének a tranzakciós költségek szabnak határt.",
     "answer": true,
-    "explanation": "A szakosodással koordináció vagy csere válik szükségessé, egyre több tranzakció kell.",
+    "explanation": "Szakosodás után mindenki csak egy dologra koncentrál, ezért koordinálni és cserélni kell, egyre több tranzakcióval. Ezek költsége (tranzakciós költség) tompítja a szakosodás hasznát, és egy ponton túl már nem éri meg tovább szakosodni.",
     "source": "Jegyzet 4.6 · Könyv 52–53. o.",
     "official": false,
     "difficulty": 2
@@ -415,7 +415,7 @@
     "section": "4.6",
     "question": "Adam Smith gombostűgyártásos példája a tranzakciós költségek csökkentéséről szól.",
     "answer": false,
-    "explanation": "A példa a szakosodás termelékenységéről szól (nyújtja, egyenesíti, vágja…). A szakosodással viszont nő a tranzakciók száma.",
+    "explanation": "A gombostűgyártás arról szól, hogy ha a munkát részfeladatokra bontják (nyújtás, egyenesítés, vágás…), többszörös lesz a termelékenység. A tranzakciós költség ennek a másik oldala: a szakosodással nő a szükséges csere és koordináció.",
     "source": "Jegyzet 4.6 · Könyv 52–53. o.",
     "official": false,
     "difficulty": 2
@@ -427,7 +427,7 @@
     "section": "4.6",
     "question": "Két ember, két város vagy két ország közötti kereskedelem háttere ugyanaz: a komparatív előny szerinti szakosodás.",
     "answer": true,
-    "explanation": "A könyv szerint az export–import háttere is ez.",
+    "explanation": "Akár két ember, akár két város vagy ország cserél, a háttér ugyanaz: mindenki abban szakosodik, amiben komparatív előnye van, majd cserélnek. Az export és az import is erre épül.",
     "source": "Jegyzet 4.6 · Könyv 52–53. o.",
     "official": false,
     "difficulty": 1
@@ -445,7 +445,7 @@
     "keywords": [
       "tranzakcios"
     ],
-    "explanation": "A tranzakciós költségek tompítják a szakosodás előnyét.",
+    "explanation": "A tranzakciós költség a szakosodás miatt szükségessé váló koordináció és csere költsége. Minél több a tranzakció, annál inkább tompítja a szakosodás előnyét, ezért határt szab neki.",
     "source": "Jegyzet 4.6 · Könyv 52–53. o.",
     "official": false,
     "difficulty": 1
@@ -457,7 +457,7 @@
     "section": "4.7",
     "question": "A szobatársunk jobb szakács, mi gyorsabban takarítunk. Ha ő főz és mi takarítunk, a házimunka ugyanannyi időbe telik, mint ha egyenlően osztanánk fel.",
     "answer": false,
-    "explanation": "Kevesebb időbe telik, mert mindenki abban dolgozik, amiben komparatív előnye van.",
+    "explanation": "Kevesebb időbe telik. Ha mindenki azt csinálja, amiben komparatív előnye van (a szobatárs főz, mi takarítunk), a közös munka gyorsabban kész, mint ha mindkettőt egyenlően osztanánk fel.",
     "source": "Jegyzet 4.7",
     "official": false,
     "difficulty": 2
@@ -475,7 +475,7 @@
       "mindkettőnek",
       "senkinek"
     ],
-    "explanation": "Robinson: 10/1 = 10 kókuszdió, Péntek: 30/2 = 15 kókuszdió. Abszolút előnye a halászatban Pénteknek van (2 > 1).",
+    "explanation": "Alternatíva költség: hány kókuszdióról mond le egy halért. Robinsonnak 10/1 = 10, Pénteknek 30/2 = 15 kókuszdióba kerül egy hal, így Robinsonnak olcsóbb, övé a komparatív előny. Abszolút előnye Pénteknek van, mert óránként több halat fog (2 > 1).",
     "source": "Jegyzet 4.7",
     "official": false,
     "difficulty": 3
@@ -491,7 +491,7 @@
       "15 kókuszdió",
       "tizenöt"
     ],
-    "explanation": "30/2 = 15 kókuszdió.",
+    "explanation": "Péntek egy óra alatt 30 kókuszdiót vagy 2 halat szerez, tehát 1 halért 30/2 = 15 kókuszdióról mond le. Ez az alternatív költsége: amit egy hal kedvéért feláldoz.",
     "source": "Jegyzet 4.7",
     "official": false,
     "difficulty": 2
