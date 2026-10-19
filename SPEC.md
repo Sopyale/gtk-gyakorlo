@@ -2,7 +2,7 @@
 
 Practice website for first-semester ELTE GTK students. Static, Hungarian UI, English code.
 Changes only with the owner's approval; every change follows [docs/RULES.md](docs/RULES.md) and is logged in
-[log/LOG.md](log/LOG.md). Current version: 1.4.0.
+[log/LOG.md](log/LOG.md). Current version: 1.5.0.
 
 ## 1. Objective
 
@@ -66,6 +66,11 @@ Out: own server code, third-party analytics or tracking, any content outside the
   "Hibás a kérdés?" next to it sends a bug-report ticket with the question id and an optional comment (signed in only).
   Keyboard: 1–4 options, I/H true/false, Enter submit/next.
 - **Rontott kérdéseim**: every question answered wrong; leaves the list after two correct answers in a row.
+- **Ismétlés** (spaced repetition): a missed question is due again 1 day later; a right answer on a due day moves it to
+  3 days, then 7 days, then off the schedule; a miss starts it over. Stored in `review` (synced). The mode card shows
+  how many are due today.
+- **Párosító** (matching game): 6 random glossary terms and their definitions, shuffled; tap a term, then its
+  definition; a wrong pair adds 1 second; the best time per ZH is kept in `match` (synced).
 - **ZH-szimuláció**: 20 minutes, 25 questions drawn proportionally from the chapters; mix ≈ 16 igaz-hamis, 5 feleletválasztós,
   3 rövid válasz, 1 ábrás; no feedback until the end; then score, per-chapter breakdown, review of every question.
 - **Flashcardok**: glossary terms (front: term; back: definition + section), "tudtam / nem tudtam", unknown cards repeat.

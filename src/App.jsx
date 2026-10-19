@@ -9,6 +9,7 @@ import Mock from './pages/Mock.jsx';
 import Plan from './pages/Plan.jsx';
 import Privacy from './pages/Privacy.jsx';
 import Practice from './pages/Practice.jsx';
+import Match from './pages/Match.jsx';
 import Subject from './pages/Subject.jsx';
 import Tickets from './pages/Tickets.jsx';
 import { getScope, getSubject } from './lib/data.js';
@@ -21,9 +22,10 @@ export default function App() {
   let page = <Home />;
   if (scope) {
     if (!mode) page = <Subject subject={scope} />;
-    else if (mode === 'gyakorlas' || mode === 'rontott') page = <Practice subject={scope} mode={mode} params={params} />;
+    else if (['gyakorlas', 'rontott', 'ismetles'].includes(mode)) page = <Practice subject={scope} mode={mode} params={params} />;
     else if (mode === 'szimulacio') page = <Mock subject={scope} />;
     else if (mode === 'flashcard') page = <Flashcards subject={scope} />;
+    else if (mode === 'parosito') page = <Match subject={scope} />;
     else if (mode === 'utemterv') page = <Plan subject={scope} />;
   } else if (subject?.active) page = <Hub subject={subject} />;
   else if (id === 'fiok') page = <Account params={params} />;

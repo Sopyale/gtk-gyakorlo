@@ -57,10 +57,10 @@ Every change the owner asks for is added here as a new task before work starts, 
 
 ## 1.5.0
 
-- [ ] Ismétlés (spaced repetition): missed questions come back after 1, 3 and 7 days; synced across devices
-- [ ] Párosító (timed matching game): match about 6 terms to their definitions from the glossary, best time saved
+- [x] Ismétlés (spaced repetition): missed questions come back after 1, 3 and 7 days; synced across devices
+- [x] Párosító (timed matching game): match about 6 terms to their definitions from the glossary, best time saved
 
-## 1.5.x
+## 1.5.1
 
 - [ ] Clear, understandable explanations for every question: rewrite short or vague explanations using only the note
       and the textbook

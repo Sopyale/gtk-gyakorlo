@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from 'react';
-import { load, onSave, save } from './storage.js';
+import { load, onSave, PROGRESS, save } from './storage.js';
 
 // Supabase project. The publishable key is public by design: Row Level Security on the server
 // decides what each signed-in student may read or write (see supabase/schema.sql).
@@ -33,16 +33,16 @@ const subs = new Set();
 const set = (patch) => { state = { ...state, ...patch }; subs.forEach((fn) => fn()); };
 export const useAccount = () => useSyncExternalStore((fn) => (subs.add(fn), () => subs.delete(fn)), () => state);
 
-const SYNCED = (k) => k === 'answers' || k === 'wrong' || k === 'cards' || k.startsWith('plan:');
+const SYNCED = (k) => PROGRESS.includes(k) || k.startsWith('plan:');
 const localProgress = () => {
   const out = {};
-  for (const k of ['answers', 'wrong', 'cards']) out[k] = load(k, {});
+  for (const k of PROGRESS) out[k] = load(k, {});
   try {
     for (let i = 0; i < localStorage.length; i++) {
       const k = localStorage.key(i).replace(/^gtk:/, '');
       if (k.startsWith('plan:')) out[k] = load(k, null);
     }
-  } catch { /* storage blocked: answers, wrong and cards are still in memory */ }
+  } catch { /* storage blocked: the PROGRESS keys are still in memory */ }
   return out;
 };
 

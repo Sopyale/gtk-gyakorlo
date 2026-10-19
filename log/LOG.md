@@ -3,6 +3,15 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.5.0 – 2026-10-19
+
+- **Ismétlés:** new mode on the 1. ZH page. A missed question comes back 1 day later, then after 3 and 7 days if
+  answered right on its due day; a miss starts it over. The card shows how many are due today. The schedule is the new
+  `review` progress key, synced to the account and cleared by "Haladás törlése".
+- **Párosító:** new timed game: 6 glossary terms and their definitions, shuffled; a wrong pair costs 1 second; the best
+  time per ZH is kept (`match` key, synced).
+- Progress keys now live in one list (`PROGRESS` in `storage.js`) used by sync and by "Haladás törlése".
+
 ## 1.4.0 – 2026-10-19
 
 - **Hibás a kérdés?:** after every answer in practice, a button sends a bug-report ticket naming the question (id and

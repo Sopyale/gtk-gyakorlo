@@ -185,6 +185,18 @@ kbd { font: 600 12px var(--body); border: 1px solid var(--line); border-radius: 
 .mode.big { grid-row: span 2; }
 .mode.big h3 { font-size: 34px; font-weight: 800; }
 .mode[aria-disabled=true] { opacity: .5; pointer-events: none; }
+.match-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.match-time { font: 800 34px/1 var(--display); color: var(--acc); font-variant-numeric: tabular-nums; }
+.empty p svg { vertical-align: -3px; }
+.match-grid { margin-top: 20px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.match-card { min-height: 112px; padding: 14px; border-radius: 16px; border: 1px solid var(--line); background: var(--glass); color: var(--text); font: 500 14.5px/1.35 var(--body); text-align: left; cursor: pointer; transition: transform var(--fast), border-color var(--fast), background-color var(--fast), opacity var(--mid); }
+.match-card.term { font: 700 17px/1.2 var(--display); text-align: center; }
+.match-card:hover:not(:disabled) { transform: translateY(-2px); border-color: color-mix(in srgb, var(--plum) 55%, transparent); background-color: var(--glass2); }
+.match-card.picked { border-color: var(--acc); background: color-mix(in srgb, var(--acc) 14%, var(--glass)); box-shadow: 0 0 0 3px color-mix(in srgb, var(--acc) 25%, transparent); }
+.match-card.missed { border-color: var(--bad); background: color-mix(in srgb, var(--bad) 10%, var(--glass)); animation: shake .4s; }
+.match-card.matched { border-color: color-mix(in srgb, var(--good) 50%, transparent); background: color-mix(in srgb, var(--good) 10%, transparent); opacity: .35; transform: scale(.96); cursor: default; }
+@media (max-width: 900px) { .match-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 420px) { .match-card { min-height: 92px; font-size: 13.5px; padding: 12px; } .match-card.term { font-size: 15.5px; } }
 .weak { margin-top: 40px; }
 .weak h2 { font-size: 26px; }
 .weak .sub { margin-top: 6px; }

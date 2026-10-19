@@ -20,8 +20,11 @@ export function save(key, value) {
   try { localStorage.setItem(PREFIX + key, JSON.stringify(value)); } catch { /* memory only */ }
 }
 
+// Progress keys: synced to the account and cleared by "Haladás törlése" (plus the per-ZH `plan:*` keys for sync).
+export const PROGRESS = ['answers', 'wrong', 'cards', 'review', 'match'];
+
 export function clearProgress() {
-  for (const k of ['answers', 'wrong', 'cards']) {
+  for (const k of PROGRESS) {
     memory.delete(k);
     try { localStorage.removeItem(PREFIX + k); } catch { /* memory only */ }
     onSave.forEach((fn) => fn(k));

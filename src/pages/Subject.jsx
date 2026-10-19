@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { ArrowLeft, ArrowUpRight, CalendarDays, Layers, Play, RotateCcw, Timer, Trash2 } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, CalendarDays, Layers, Play, Puzzle, Repeat, RotateCcw, Timer, Trash2 } from 'lucide-react';
 import Ring from '../components/Ring.jsx';
 import { scopeGlossary, scopeQuestions } from '../lib/data.js';
 import { daysBetween, today } from '../lib/plan.js';
-import { TYPES } from '../lib/quiz.js';
+import { due, TYPES } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 import { clearProgress, load } from '../lib/storage.js';
 
@@ -19,6 +19,8 @@ export default function Subject({ subject }) {
   const wrongIds = load('wrong', {});
   const plan = load(`plan:${subject.path}`, {});
   const wrong = qs.filter((q) => q.id in wrongIds).length;
+  const dueNow = due(qs).length;
+  const best = load('match', {})[subject.path];
   const pool = qs.filter((q) => (!chapters.length || chapters.includes(q.chapter)) && (!types.length || types.includes(q.type)));
   const query = new URLSearchParams();
   if (chapters.length) query.set('ch', chapters.join(','));
@@ -67,6 +69,10 @@ export default function Subject({ subject }) {
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><RotateCcw size={24} className="mi" aria-hidden="true" /><h3>Rontott kérdéseim</h3>
           <p>{wrong ? `${wrong} kérdés vár. Kétszer egymás után eltalálva lekerül a listáról.` : 'Még nincs rontott kérdésed.'}</p>
         </a>
+        <a className="card mode glow" href={href(subject.path, 'ismetles')}>
+          <ArrowUpRight className="go" size={22} aria-hidden="true" /><Repeat size={24} className="mi" aria-hidden="true" /><h3>Ismétlés</h3>
+          <p>{dueNow ? `Mára ${dueNow} kérdés esedékes.` : 'Mára nincs ismételnivaló.'} Az elrontottak 1, 3 és 7 nap múlva jönnek vissza.</p>
+        </a>
         <a className="card mode glow" href={href(subject.path, 'szimulacio')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Timer size={24} className="mi" aria-hidden="true" /><h3>ZH-szimuláció</h3>
           <p>20 perc, 25 kérdés a valódi ZH arányaival. Értékelés csak a végén.</p>
@@ -75,7 +81,11 @@ export default function Subject({ subject }) {
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Layers size={24} className="mi" aria-hidden="true" /><h3>Flashcardok</h3>
           <p>{scopeGlossary(subject).length} fogalom a fogalomtárból.</p>
         </a>
-        <a className="card mode glow" href={href(subject.path, 'utemterv')}>
+        <a className="card mode glow" href={href(subject.path, 'parosito')}>
+          <ArrowUpRight className="go" size={22} aria-hidden="true" /><Puzzle size={24} className="mi" aria-hidden="true" /><h3>Párosító</h3>
+          <p>Párosíts 6 fogalmat a meghatározásával, minél gyorsabban.{best ? ` Legjobb időd: ${(best / 1000).toFixed(1)} mp.` : ''}</p>
+        </a>
+        <a className="card mode glow wide" href={href(subject.path, 'utemterv')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><CalendarDays size={24} className="mi" aria-hidden="true" /><h3>Ütemterv</h3>
           <p>{plan.date > today() ? `${daysBetween(today(), plan.date)} nap a ZH-ig, napi bontásban.` : 'Add meg a ZH dátumát, és napokra bontjuk az anyagot.'}</p>
         </a>

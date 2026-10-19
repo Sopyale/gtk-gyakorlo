@@ -1,3 +1,4 @@
+import { addDays, today } from './plan.js';
 import { load, save } from './storage.js';
 
 export const TYPES = {
@@ -54,7 +55,22 @@ export function record(q, correct) {
     if (wrong[q.id] >= 2) delete wrong[q.id];
   }
   save('wrong', wrong);
+  schedule(q.id, correct);
 }
+
+// Ismétlés (spaced repetition): a missed question is due again after 1, then 3, then 7 days;
+// a right answer on a due question moves it to the next step, a miss starts it over.
+export const STEPS = [1, 3, 7];
+export function schedule(id, correct, now = today()) {
+  const review = load('review', {});
+  const item = review[id];
+  if (!correct) review[id] = { step: 0, due: addDays(now, STEPS[0]) };
+  else if (!item || item.due > now) return;
+  else if (item.step + 1 >= STEPS.length) delete review[id];
+  else review[id] = { step: item.step + 1, due: addDays(now, STEPS[item.step + 1]) };
+  save('review', review);
+}
+export const due = (qs, now = today()) => { const r = load('review', {}); return qs.filter((q) => r[q.id]?.due <= now); };
 
 // Splits `total` over keys in proportion to their weights (largest remainder).
 export function apportion(weights, total) {
