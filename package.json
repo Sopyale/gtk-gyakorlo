@@ -8,7 +8,7 @@
     "build": "npm run check-data && vite build",
     "preview": "vite preview",
     "check-data": "node scripts/check-data.mjs",
-    "test": "node src/lib/quiz.test.mjs"
+    "test": "node src/lib/quiz.test.mjs && node src/lib/plan.test.mjs"
   },
   "dependencies": {
     "@fontsource-variable/bricolage-grotesque": "^5.1.0",

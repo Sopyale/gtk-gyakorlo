@@ -170,7 +170,6 @@ kbd { font: 600 12px var(--body); border: 1px solid var(--line); border-radius: 
 .filters { margin-top: 32px; }
 .filters h2, .sub { font-size: 15px; font-weight: 600; letter-spacing: 0; color: var(--muted); margin-top: 20px; }
 .modes { margin-top: 32px; padding-bottom: 0; grid-template-columns: 2fr 1fr 1fr; }
-.modes .mode:last-child { grid-column: span 2; }
 .mode { display: flex; flex-direction: column; gap: 10px; min-height: 180px; }
 .mode .mi { color: var(--acc); }
 .mode h3 { font-size: 22px; font-weight: 700; margin-top: auto; }
@@ -277,7 +276,10 @@ kbd { font: 600 12px var(--body); border: 1px solid var(--line); border-radius: 
 
 /* Page change: header and footer stay put, the old page lifts away and the new one floats up into place. */
 main { view-transition-name: page; }
-::view-transition-old(root), ::view-transition-new(root) { animation: none; }
+::view-transition-new(root) { animation: none; }
+/* The old root snapshot still holds the old footer; fade it out fast so it never sits over the new page. */
+::view-transition-old(root) { animation: fade-out .15s ease-out both; }
+@keyframes fade-out { to { opacity: 0; } }
 ::view-transition-group(page) { animation-duration: .7s; animation-timing-function: cubic-bezier(.16, 1, .3, 1); }
 ::view-transition-old(page) { animation: page-out .3s cubic-bezier(.4, 0, 1, 1) both; }
 ::view-transition-new(page) { animation: page-in .7s .08s cubic-bezier(.16, 1, .3, 1) both; }
@@ -297,7 +299,7 @@ main { view-transition-name: page; }
   .main-card { min-height: 0; } .main-card .ring { position: static; width: 64px; height: 64px; margin-bottom: 16px; }
   .main-card h2 { font-size: 32px; } .stat b { font-size: 40px; }
   .soon-row { grid-template-columns: 1fr 1fr; } .drive { flex-direction: column; align-items: flex-start; }
-  .modes { grid-template-columns: 1fr; } .modes .mode:last-child { grid-column: auto; } .mode { min-height: 0; } .mode.big h3 { font-size: 28px; }
+  .modes { grid-template-columns: 1fr; } .mode { min-height: 0; } .mode.big h3 { font-size: 28px; }
   .subject-head { flex-direction: column-reverse; align-items: flex-start; gap: 12px; } .subject-head .ring { width: 72px; height: 72px; }
   .qcard { padding: 18px; border-radius: 20px; } .qstem { font-size: 18.5px; }
   .opts.two { grid-template-columns: 1fr 1fr; } .pair { grid-template-columns: minmax(0, 1fr); padding: 10px; }
@@ -456,3 +458,44 @@ a.card:active { transform: scale(.985); transition-duration: 90ms; }
 .progress i::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .45), transparent); transform: translateX(-100%); animation: shimmer 2.4s ease-in-out infinite; }
 @keyframes shimmer { 60%, to { transform: translateX(100%); } }
 
+
+/* Ütemterv: a date card, then one card per day on a timeline that ends at the ZH */
+.plan-date { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 24px; }
+.plan-date label { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; }
+.plan-date label svg { color: var(--acc); }
+.plan-date input { min-height: 48px; padding: 0 14px; border-radius: 14px; border: 1px solid var(--line); background: var(--bg2); font-size: 16px; transition: border-color var(--fast), box-shadow var(--mid); }
+.plan-date input:hover { border-color: color-mix(in srgb, var(--plum) 55%, transparent); }
+.plan-date input:focus { outline: none; border-color: var(--plum); box-shadow: 0 0 0 4px color-mix(in srgb, var(--plum) 22%, transparent); }
+.plan-left { margin-left: auto; color: var(--muted); }
+.plan-left b { font: 800 34px/1 var(--display); color: var(--acc); margin-right: 6px; font-variant-numeric: tabular-nums; }
+.plan-reset { margin-top: 14px; }
+.plan { list-style: none; padding: 0 0 0 26px; margin-top: 28px; display: grid; gap: 14px; position: relative; }
+.plan::before { content: ""; position: absolute; left: 7px; top: 12px; bottom: 14px; width: 2px; border-radius: 2px; background: linear-gradient(var(--plum), var(--acc)); opacity: .5; }
+.plan-day { display: grid; gap: 14px; animation: plan-in .5s cubic-bezier(.16, 1, .3, 1) both; }
+.plan-day:nth-child(2) { animation-delay: .05s; } .plan-day:nth-child(3) { animation-delay: .1s; } .plan-day:nth-child(4) { animation-delay: .15s; }
+.plan-day:nth-child(5) { animation-delay: .2s; } .plan-day:nth-child(n+6) { animation-delay: .25s; }
+@keyframes plan-in { from { opacity: 0; transform: translateY(16px); } }
+.plan-day::after { content: ""; position: absolute; left: -25px; top: 30px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--plum); }
+.plan-day { overflow: visible; }
+.plan-day.today { box-shadow: 0 0 0 1px var(--acc), 0 24px 60px -34px var(--acc); }
+.plan-day.today::after { background: var(--acc); border-color: var(--acc); box-shadow: 0 0 12px var(--acc); }
+.plan-day.done::after { background: var(--good); border-color: var(--good); }
+.plan-day.past:not(.done) { opacity: .6; }
+.plan-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.plan-when { display: inline-flex; align-items: center; gap: 10px; font: 700 19px var(--display); letter-spacing: -.01em; }
+.plan-when::first-letter { text-transform: uppercase; }
+.plan-when em { font: 600 12px var(--body); font-style: normal; padding: 3px 9px; border-radius: 999px; background: var(--acc); color: var(--on-acc); }
+.plan-check { display: inline-flex; gap: 6px; }
+.plan-check::after { display: none; }
+.plan-check[aria-pressed=true] { color: var(--good); border-color: var(--good); background: color-mix(in srgb, var(--good) 12%, transparent); }
+.plan-ch { list-style: none; padding: 0; display: grid; gap: 10px; }
+.plan-ch li { display: grid; grid-template-columns: 26px 1fr; grid-template-rows: auto 4px; column-gap: 8px; row-gap: 6px; align-items: center; }
+.plan-ch li > b { grid-row: 1 / 3; font: 800 22px/1 var(--display); color: var(--acc); }
+.plan-ch i { height: 4px; border-radius: 9px; background: var(--glass2); overflow: hidden; }
+.plan-ch em { display: block; height: 100%; background: linear-gradient(90deg, var(--plum), var(--acc)); }
+.plan-day > .btn, .plan-day .cta { justify-self: start; margin-top: 0; }
+.plan-review { color: var(--soft); }
+.plan-zh { display: flex; justify-content: space-between; align-items: center; padding: 6px 4px 0; color: var(--muted); position: relative; }
+.plan-zh b { font: 800 34px/1 var(--display); letter-spacing: -.04em; color: var(--text); }
+.plan-zh::after { content: ""; position: absolute; left: -27px; top: 50%; width: 16px; height: 16px; margin-top: -2px; border-radius: 50%; background: var(--acc); box-shadow: 0 0 16px var(--acc); }
+@media (max-width: 760px) { .plan-left { margin-left: 0; width: 100%; } .plan-when { font-size: 17px; } }

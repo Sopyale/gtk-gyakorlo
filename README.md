@@ -12,6 +12,7 @@ Gyakorló kérdésbank az ELTE GTK első féléves tárgyaihoz. Jelenleg a Közg
 - **Rontott kérdéseim**: a hibás válaszok ide gyűlnek, és két egymás utáni helyes válasz után lekerülnek.
 - **ZH-szimuláció**: 20 perc, 25 kérdés a valódi ZH arányaival (16 igaz–hamis, 5 feleletválasztós, 3 rövid válasz, 1 ábrás), értékelés a végén.
 - **Flashcardok** a jegyzet fogalomtárából.
+- **Ütemterv**: a ZH dátumából napokra bontja a fejezeteket (a kérdések száma szerint), az utolsó nap ismétlés.
 - A haladás csak a böngészőben tárolódik (localStorage). Nincs fiók, nincs szerver, nincs analitika.
 - Telepíthető alkalmazásként (PWA), és offline is működik.
 - Sötét és világos téma, billentyűparancsok (I/H, 1–4, Enter, szóköz).

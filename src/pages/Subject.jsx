@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { ArrowLeft, ArrowUpRight, Layers, Play, RotateCcw, Timer, Trash2 } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, CalendarDays, Layers, Play, RotateCcw, Timer, Trash2 } from 'lucide-react';
 import Ring from '../components/Ring.jsx';
 import { scopeGlossary, scopeQuestions } from '../lib/data.js';
+import { daysBetween, today } from '../lib/plan.js';
 import { TYPES } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 import { clearProgress, load } from '../lib/storage.js';
@@ -16,6 +17,7 @@ export default function Subject({ subject }) {
   const answers = load('answers', {});
   const done = qs.filter((q) => answers[q.id]).length;
   const wrongIds = load('wrong', {});
+  const plan = load(`plan:${subject.path}`, {});
   const wrong = qs.filter((q) => q.id in wrongIds).length;
   const pool = qs.filter((q) => (!chapters.length || chapters.includes(q.chapter)) && (!types.length || types.includes(q.type)));
   const query = new URLSearchParams();
@@ -67,6 +69,10 @@ export default function Subject({ subject }) {
         <a className="card mode glow" href={href(subject.path, 'flashcard')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Layers size={24} className="mi" aria-hidden="true" /><h3>Flashcardok</h3>
           <p>{scopeGlossary(subject).length} fogalom a fogalomtárból.</p>
+        </a>
+        <a className="card mode glow" href={href(subject.path, 'utemterv')}>
+          <ArrowUpRight className="go" size={22} aria-hidden="true" /><CalendarDays size={24} className="mi" aria-hidden="true" /><h3>Ütemterv</h3>
+          <p>{plan.date > today() ? `${daysBetween(today(), plan.date)} nap a ZH-ig, napi bontásban.` : 'Add meg a ZH dátumát, és napokra bontjuk az anyagot.'}</p>
         </a>
       </div>
 
