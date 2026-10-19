@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { CircleUserRound, Menu, Moon, Sun, X } from 'lucide-react';
+import { CircleUserRound, Menu, Moon, ShieldCheck, Sun, X } from 'lucide-react';
 import { accountsEnabled, useAccount } from '../lib/account.js';
 import { subjects } from '../lib/data.js';
 import { href } from '../lib/route.js';
@@ -33,6 +33,18 @@ function AccountButton() {
   );
 }
 
+// Only admins see this tab; the data itself is fetched from Supabase and guarded by row-level security.
+function AdminLink({ current }) {
+  const { profile } = useAccount();
+  if (!profile?.is_admin) return null;
+  return (
+    <a className={`icon-btn account-btn ${current === 'admin' ? 'in' : ''}`} href={href('admin')} aria-label="Admin"
+      aria-current={current === 'admin' ? 'page' : undefined}>
+      <ShieldCheck size={20} aria-hidden="true" /><span>Admin</span>
+    </a>
+  );
+}
+
 function SubjectLinks({ current, onPick }) {
   return subjects.map((s) =>
     s.active ? (
@@ -60,6 +72,7 @@ export default function Layout({ current, calm, children }) {
         <div className="wrap bar">
           <a className="logo" href="#/"><span className="mark" aria-hidden="true" />gyakorló</a>
           <nav className="nav" aria-label="Tárgyak"><SubjectLinks current={current} /></nav>
+          <AdminLink current={current} />
           <AccountButton />
           <ThemeToggle />
           <button className="icon-btn burger" aria-label="Menü" aria-expanded={drawer} onClick={() => setDrawer(true)}>

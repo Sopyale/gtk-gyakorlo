@@ -28,7 +28,7 @@ export default function App() {
   else if (id === 'admin') page = <Admin />;
   else if (id === 'adatkezeles') page = <Privacy />;
   return (
-    <Layout current={subject?.id} calm={Boolean(scope && mode)}>
+    <Layout current={subject?.id ?? id} calm={Boolean(scope && mode)}>
       <div className="page-in" key={[id, examId, mode].join('/')}>{page}</div>
     </Layout>
   );
