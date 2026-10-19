@@ -23,6 +23,11 @@ export default function Subject({ subject }) {
   const query = new URLSearchParams();
   if (chapters.length) query.set('ch', chapters.join(','));
   if (types.length) query.set('t', types.join(','));
+  // Weak spots: share of right answers per chapter (latest answer per question), worst first.
+  const weak = subject.chapters.map((c) => {
+    const seen = qs.filter((q) => q.chapter === c.n && q.id in answers);
+    return { ...c, seen: seen.length, rate: seen.filter((q) => answers[q.id]).length / (seen.length || 1) };
+  }).filter((c) => c.seen).sort((a, b) => a.rate - b.rate);
   const practiceHref = href(subject.path, 'gyakorlas') + (query.toString() ? `?${query}` : '');
 
   return (
@@ -75,6 +80,27 @@ export default function Subject({ subject }) {
           <p>{plan.date > today() ? `${daysBetween(today(), plan.date)} nap a ZH-ig, napi bontásban.` : 'Add meg a ZH dátumát, és napokra bontjuk az anyagot.'}</p>
         </a>
       </div>
+
+      <section className="weak" aria-labelledby="weak-h">
+        <h2 id="weak-h">Gyenge pontok</h2>
+        {weak.length ? (
+          <>
+            <p className="sub">Fejezetenként a legutóbbi válaszaid alapján, elöl az, ami a legkevésbé megy.</p>
+            <ol className="weak-list">
+              {weak.map((c) => (
+                <li key={c.n}>
+                  <a className="card weak-row glow" href={`${href(subject.path, 'gyakorlas')}?ch=${c.n}`}>
+                    <b>{c.n}.</b>
+                    <span className="weak-name">{c.title}<small>{Math.round(c.rate * 100)}% helyes, {c.seen} megválaszolt kérdésből</small></span>
+                    <i style={{ '--p': c.rate }} aria-hidden="true" />
+                    <span className="weak-go">Gyakorold<ArrowUpRight size={18} aria-hidden="true" /></span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </>
+        ) : <p className="sub">Válaszolj néhány kérdésre, és itt látod, melyik fejezet megy a legkevésbé.</p>}
+      </section>
 
       <button className="btn ghost" onClick={() => {
         if (confirm('Biztosan törlöd a haladásodat? A válaszaid, a rontott kérdéseid és a flashcard-állapotod elvész.')) { clearProgress(); refresh((n) => n + 1); }

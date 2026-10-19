@@ -1,4 +1,5 @@
 import { ArrowRight, Clock } from 'lucide-react';
+import Countdown from '../components/Countdown.jsx';
 import Ring from '../components/Ring.jsx';
 import { getScope, scopeQuestions } from '../lib/data.js';
 import { href } from '../lib/route.js';
@@ -62,6 +63,7 @@ export default function Hub({ subject }) {
                 <Ring value={qs.length ? done / qs.length : 0} size={96} label={`Haladás: ${done} / ${qs.length}`} />
               </div>
               <p className="exam-sum">{scope.chapters.length} fejezet, {qs.length} kérdés, ebből {qs.filter((q) => q.official).length} valódi gyakorló ZH-kérdés.</p>
+              <Countdown subject={subject} exam={e} />
               <ol className="exam-ch">
                 {scope.chapters.map((c) => {
                   const cq = qs.filter((q) => q.chapter === c.n);

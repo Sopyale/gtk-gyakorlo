@@ -3,6 +3,15 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.4.0 – 2026-10-19
+
+- **Hibás a kérdés?:** after every answer in practice, a button sends a bug-report ticket naming the question (id and
+  text) with an optional comment, so wrong questions reach the owner directly. Signed-in students only.
+- **ZH countdown:** the home page and the 1. ZH card show the days left until the ZH (2026-10-21, or the student's own
+  Ütemterv date). `subjects.json` exams take an optional `date`.
+- **Gyenge pontok:** the 1. ZH page lists the chapters by share of right answers, worst first, each with a link to
+  practise that chapter. Ideas picked by the owner from the idea list.
+
 ## 1.3.0 – 2026-10-19
 
 - **Ticket replies:** under every ticket the admin and the student can write back and forth, on the Admin page and on

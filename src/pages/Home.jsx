@@ -1,6 +1,7 @@
 import { ArrowUpRight, ExternalLink, FolderOpen, Play } from 'lucide-react';
 import HeroPlot from '../components/HeroPlot.jsx';
 import Count from '../components/Count.jsx';
+import Countdown from '../components/Countdown.jsx';
 import Ring from '../components/Ring.jsx';
 import { getGlossary, getQuestions, subjects } from '../lib/data.js';
 import { href } from '../lib/route.js';
@@ -37,6 +38,7 @@ export default function Home() {
               <DriveLink className="btn sec"><FolderOpen size={18} aria-hidden="true" />Tananyagok (Google Drive)</DriveLink>
             </div>
             <p className="note">A Drive-mappához kérésre adunk hozzáférést.</p>
+            {main.exams.filter((e) => e.active).map((e) => <Countdown key={e.id} subject={main} exam={e} />)}
           </div>
           <HeroPlot />
         </div>

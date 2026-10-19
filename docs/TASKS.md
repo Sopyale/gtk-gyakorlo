@@ -49,4 +49,20 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Ticket replies: the admin answers a ticket and the student can answer back (`supabase/ticket-replies.sql`)
 - [x] Shorten the Újdonságok page to the notable changes only
 
+## 1.4.0
+
+- [x] "Hibás kérdés" button after every answer: sends a bug-report ticket with the question id and an optional comment
+- [x] Countdown to the ZH on the home page and the 1. ZH card
+- [x] Weak spots: error rate per chapter on the subject page, with a button to practise that chapter
+
+## 1.5.0
+
+- [ ] Ismétlés (spaced repetition): missed questions come back after 1, 3 and 7 days; synced across devices
+- [ ] Párosító (timed matching game): match about 6 terms to their definitions from the glossary, best time saved
+
+## 1.5.x
+
+- [ ] Clear, understandable explanations for every question: rewrite short or vague explanations using only the note
+      and the textbook
+
 ## Open

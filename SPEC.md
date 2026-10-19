@@ -2,7 +2,7 @@
 
 Practice website for first-semester ELTE GTK students. Static, Hungarian UI, English code.
 Changes only with the owner's approval; every change follows [docs/RULES.md](docs/RULES.md) and is logged in
-[log/LOG.md](log/LOG.md). Current version: 1.3.0.
+[log/LOG.md](log/LOG.md). Current version: 1.4.0.
 
 ## 1. Objective
 
@@ -56,10 +56,14 @@ Out: own server code, third-party analytics or tracking, any content outside the
 - **Menu**: top bar on desktop, drawer on phones; the six subjects in the order above.
 - **Home**: intro, subject bento cards (Közgazdaságtan active with its question count, others "Hamarosan", not clickable),
   "Tananyagok (Google Drive)" button → `https://drive.google.com/drive/folders/15-MBuk89WvQ-HQwPefg7sUawg0LdZi-0?usp=drive_link`
-  with a one-line note that access is granted on request.
+  with a one-line note that access is granted on request. A countdown to each active ZH ("2 nap az 1. ZH-ig") shows in
+  the hero and on the ZH card; the date is `date` on the exam in `subjects.json`, or the student's own Ütemterv date.
 - **Subject page**: the four modes as cards, chapter filter (6 chapters), type filter, overall progress.
+  "Gyenge pontok": share of right answers per chapter (latest answer per question), worst first, each linking to
+  practice of that chapter.
 - **Gyakorlás**: random questions from the selected chapters/types; one at a time; progress bar; feedback after each answer
   (correct/incorrect with icon + text, the correct answer, explanation, source); next button.
+  "Hibás a kérdés?" next to it sends a bug-report ticket with the question id and an optional comment (signed in only).
   Keyboard: 1–4 options, I/H true/false, Enter submit/next.
 - **Rontott kérdéseim**: every question answered wrong; leaves the list after two correct answers in a row.
 - **ZH-szimuláció**: 20 minutes, 25 questions drawn proportionally from the chapters; mix ≈ 16 igaz-hamis, 5 feleletválasztós,

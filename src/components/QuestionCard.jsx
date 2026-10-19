@@ -1,9 +1,38 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { BadgeCheck, CheckCircle2, CornerDownLeft, XCircle } from 'lucide-react';
+import { BadgeCheck, CheckCircle2, CornerDownLeft, Flag, Send, XCircle } from 'lucide-react';
 import { figures } from '../figures/index.js';
+import { accountsEnabled, sendTicket, useAccount } from '../lib/account.js';
 import { correctText, isCorrect, isTrueFalse, shuffle, TYPES } from '../lib/quiz.js';
+import { href } from '../lib/route.js';
 
 const KEY_TF = { i: true, h: false };
+
+// "Hibás a kérdés?": sends a bug-report ticket naming the question, so the owner can fix it.
+function Report({ q }) {
+  const { profile } = useAccount();
+  const [open, setOpen] = useState(false);
+  const [text, setText] = useState('');
+  const [state, setState] = useState('');
+  if (!accountsEnabled) return <span />;
+  if (state === 'sent') return <p className="report-done" role="status">Köszönjük, megkaptuk a jelzést.</p>;
+  if (!open) return <button className="report-btn" onClick={() => setOpen(true)}><Flag size={16} aria-hidden="true" />Hibás a kérdés?</button>;
+  if (!profile?.neptun) return <p className="report-done"><a href={href('fiok')}>Jelentkezz be</a>, és jelezheted a hibát.</p>;
+  const send = async (e) => {
+    e.preventDefault();
+    setState('busy');
+    const message = `Hibás kérdés: ${q.id}\n${q.question.slice(0, 400)}${text.trim() ? `\n\n${text.trim()}` : ''}`;
+    try { await sendTicket({ kind: 'hiba', message }); setState('sent'); }
+    catch (err) { setState(err.message); }
+  };
+  return (
+    <form className="reply-form report-form" onSubmit={send}>
+      <textarea value={text} maxLength={1500} rows={2} autoFocus aria-label="Mi a hiba?"
+        placeholder="Mi a hiba? (nem kötelező)" onChange={(e) => setText(e.target.value)} />
+      <button className="btn sec" disabled={state === 'busy'}><Send size={18} aria-hidden="true" />Küldés</button>
+      {state && state !== 'busy' && <p className="auth-error" role="alert">{state}</p>}
+    </form>
+  );
+}
 
 // One question; the parent remounts it (via key) for each new question.
 // In practice mode it shows feedback after answering; in mock mode it only reports the response.
@@ -36,7 +65,7 @@ export default function QuestionCard({ q, feedback, onAnswer, onNext, nextLabel 
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       const typing = e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT';
       if (e.key === 'Enter') {
-        if (answered && feedback && e.target.tagName !== 'BUTTON') { e.preventDefault(); onNext(); }
+        if (answered && feedback && !['BUTTON', 'TEXTAREA'].includes(e.target.tagName)) { e.preventDefault(); onNext(); }
         return;
       }
       if (answered || typing) return;
@@ -125,6 +154,7 @@ export default function QuestionCard({ q, feedback, onAnswer, onNext, nextLabel 
 
       {answered && feedback && (
         <div className="qnext">
+          <Report q={q} />
           <button ref={nextRef} className="btn pri" onClick={onNext}>{nextLabel}<CornerDownLeft size={18} aria-hidden="true" /></button>
         </div>
       )}
