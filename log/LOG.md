@@ -3,6 +3,17 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.1.0 – 2026-10-19
+
+- **Sign-in prompt:** every time a signed-out visitor opens the site, a pop-up asks them to sign in. It says that
+  progress is then saved on every device, and that Drive access must be requested with the e-mail they register with.
+  It shows once per visit (not on every page change) and not on the account, admin and privacy pages.
+  Requested by the owner so more students register before asking for Drive access.
+- **Bejelentkezve maradok:** a checkbox (on by default) at sign-in, sign-up and Google sign-in. Checked keeps the
+  session on the device; unchecked ends it when the browser closes.
+- **Rules:** RULES.md now says to always use the installed plugins (agent-skills, frontend-design, webapp-testing,
+  ponytail, graphify).
+
 ## 1.0.0 – 2026-10-19
 
 First saved version: everything built so far.

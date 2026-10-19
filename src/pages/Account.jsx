@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { FolderOpen, KeyRound, LogIn, LogOut, ShieldCheck, Trash2, UserPlus } from 'lucide-react';
 import { DRIVE } from './Home.jsx';
 import {
-  completeProfile, deleteAccount, ELTE, EMAIL, NEPTUN, recordDriveClick, sendPasswordReset, setNewPassword,
+  completeProfile, deleteAccount, ELTE, EMAIL, NEPTUN, recordDriveClick, sendPasswordReset, setNewPassword, setRemember,
   signIn, signInWithGoogle, signOut, signUp, useAccount,
 } from '../lib/account.js';
 import { href } from '../lib/route.js';
@@ -19,7 +19,7 @@ const GOOGLE = (
 // One form for every account step; `mode` picks the fields:
 // in = sign in, up = register, reset = ask for a reset e-mail, newpass = set a new password, google = Google user's Neptun code.
 function AuthForm({ mode, setMode }) {
-  const [f, setF] = useState({ neptun: '', password: '', email: '', consent: false });
+  const [f, setF] = useState({ neptun: '', password: '', email: '', consent: false, remember: true });
   const [error, setError] = useState('');
   const [sent, setSent] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -35,6 +35,7 @@ function AuthForm({ mode, setMode }) {
     if (mode === 'up' && ELTE.test(email)) return setError('ELTE-s e-mail-címet ne adj meg. Használd a saját, például gmailes címedet.');
     if (has.consent && !f.consent) return setError('A regisztrációhoz el kell fogadnod az adatkezelést.');
     setError(''); setBusy(true);
+    if (mode === 'in' || mode === 'up') setRemember(f.remember);
     try {
       if (mode === 'in') await signIn({ neptun, password: f.password });
       else if (mode === 'up') await signUp({ neptun, password: f.password, email });
@@ -78,6 +79,12 @@ function AuthForm({ mode, setMode }) {
           <span>Elolvastam az <a href={href('adatkezeles')}>adatkezelési tájékoztatót</a>, és hozzájárulok, hogy az oldal tárolja a Neptun-kódomat, az e-mail-címemet és a haladásomat.</span>
         </label>
       )}
+      {(mode === 'in' || mode === 'up') && (
+        <label className="auth-consent">
+          <input type="checkbox" checked={f.remember} onChange={(e) => setF({ ...f, remember: e.target.checked })} />
+          <span>Bejelentkezve maradok ezen az eszközön</span>
+        </label>
+      )}
       {error && <p className="auth-error" role="alert">{error}</p>}
       {sent && <p className="auth-ok" role="status">Ha van fiók ezzel a címmel, elküldtük a levelet. Nézd meg a spam mappát is.</p>}
       <button className="btn pri" disabled={busy}>
@@ -89,7 +96,7 @@ function AuthForm({ mode, setMode }) {
       {(mode === 'in' || mode === 'up') && (
         <>
           <p className="auth-or"><span>vagy</span></p>
-          <button type="button" className="btn sec" onClick={() => signInWithGoogle().catch((err) => setError(err.message))}>
+          <button type="button" className="btn sec" onClick={() => { setRemember(f.remember); signInWithGoogle().catch((err) => setError(err.message)); }}>
             {GOOGLE}Belépés Google-fiókkal
           </button>
         </>

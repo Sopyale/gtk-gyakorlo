@@ -24,4 +24,12 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Write the project rules to `docs/RULES.md` (English `.md` files, tasks first, keep SPEC/README/log current)
 - [x] Bring SPEC.md and README.md up to date (accounts, admin, Ütemterv); README in English
 
+## 1.1.0
+
+- [x] Ask signed-out visitors to sign in on every visit (pop-up): progress is saved on every device, and Drive access
+      must be requested with the e-mail used to register
+- [x] "Bejelentkezve maradok" (stay signed in) checkbox at sign-in and sign-up
+- [x] Add the rule to always use the installed plugins (agent-skills, frontend-design, webapp-testing, ponytail,
+      graphify) to RULES.md
+
 ## Open

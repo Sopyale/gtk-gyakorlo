@@ -542,3 +542,12 @@ a.card:active { transform: scale(.985); transition-duration: 90ms; }
 .auth-ok { padding: 12px 14px; border-radius: 12px; color: var(--good); background: color-mix(in srgb, var(--good) 10%, transparent); border: 1px solid color-mix(in srgb, var(--good) 40%, transparent); }
 .auth .auth-link { justify-self: center; min-height: 44px; padding: 0 8px; border: 0; background: none; color: var(--acc-text); font-size: 15px; text-decoration: underline; text-underline-offset: 3px; }
 .auth label small strong { color: var(--text); }
+
+/* Sign-in prompt on every visit while signed out */
+.signin-prompt { position: fixed; inset: 0; margin: auto; width: min(460px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); overflow: auto; padding: 28px; color: var(--text); animation: slide-up var(--mid) cubic-bezier(.2, .8, .2, 1); }
+.signin-prompt::backdrop { background: rgba(10, 4, 10, .55); backdrop-filter: blur(6px); animation: fade var(--mid) ease-out; }
+.signin-prompt h2 { margin: 0 44px 12px 0; font: 700 24px/1.2 var(--display); }
+.signin-prompt p { margin: 0 0 8px; color: var(--soft); }
+.signin-prompt .cta { margin-top: 20px; }
+.signin-prompt .btn.ghost { margin-top: 0; }
+.signin-x { position: absolute; top: 14px; right: 14px; }

@@ -2,7 +2,7 @@
 
 Practice website for first-semester ELTE GTK students. Static, Hungarian UI, English code.
 Changes only with the owner's approval; every change follows [docs/RULES.md](docs/RULES.md) and is logged in
-[log/LOG.md](log/LOG.md). Current version: 1.0.0.
+[log/LOG.md](log/LOG.md). Current version: 1.1.0.
 
 ## 1. Objective
 
@@ -77,6 +77,11 @@ Out: own server code, third-party analytics or tracking, any content outside the
   and the student's own e-mail. The e-mail must not be an ELTE address, and one e-mail belongs to one Neptun code
   (both enforced in the database). It receives password-reset mail and is the address used to request Drive access.
 - **Google sign-in** (PKCE); the student then enters their Neptun code once.
+- **Bejelentkezve maradok** checkbox (default on): the session is kept in localStorage; unchecked, in sessionStorage
+  (ends when the browser closes).
+- **Sign-in prompt**: on every visit (page load) a signed-out visitor gets a dialog saying progress is saved on every
+  device after sign-in and that Drive access must be requested with the registered e-mail. "Most nem" closes it; it is
+  not shown on `#/fiok`, `#/admin` and `#/adatkezeles`.
 - **Sign-in with Neptun code**: the `login_email` RPC returns the account's e-mail only after a password check,
   at most 10 misses per code per 15 minutes.
 - **Password reset** by e-mail (needs custom SMTP in Supabase). **Fiók törlése** deletes the account and its data.

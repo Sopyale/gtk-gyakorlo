@@ -26,6 +26,15 @@ add new ones here when he gives them.
 5. **Copy to the laptop.** Copy the changed files to `D:\Claude\School\Weboldal\gtk-gyakorlo` (the `.github`
    folder can't be written there).
 
+## Plugins
+
+Always use the installed plugins where they fit (owner's rule):
+- **agent-skills**: spec, planning, incremental build, testing, code review, security and hardening, shipping.
+- **frontend-design**: every visual change.
+- **webapp-testing**: check every UI change with Playwright at 360 px and 1280 px in both themes before shipping.
+- **ponytail**: smallest complete change, no unneeded code.
+- **graphify**: map the codebase before larger changes and keep the graph current (`graphify-out/`).
+
 ## Content and copyright
 
 - Content comes only from the uploaded note (Zsolnai) and textbook (Andor). Nothing from general knowledge or the web.

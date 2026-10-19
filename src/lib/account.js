@@ -12,10 +12,20 @@ export const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 // Same rule as the database: ELTE addresses are not accepted for the Drive.
 export const ELTE = /@([a-z0-9-]+\.)*elte\.hu$/i;
 
+// "Bejelentkezve maradok": the session goes to localStorage (kept) or sessionStorage (gone when the browser closes).
+const REMEMBER = 'gtk:remember';
+const keep = () => localStorage.getItem(REMEMBER) !== '0';
+const authStorage = {
+  getItem: (k) => localStorage.getItem(k) ?? sessionStorage.getItem(k),
+  setItem: (k, v) => { (keep() ? localStorage : sessionStorage).setItem(k, v); (keep() ? sessionStorage : localStorage).removeItem(k); },
+  removeItem: (k) => { localStorage.removeItem(k); sessionStorage.removeItem(k); },
+};
+export const setRemember = (on) => localStorage.setItem(REMEMBER, on ? '1' : '0');
+
 // The client loads on demand so the first paint does not wait for it.
 let client;
 const getClient = () => (client ??= import('@supabase/supabase-js').then(({ createClient }) =>
-  createClient(URL, KEY, { auth: { flowType: 'pkce', detectSessionInUrl: true, persistSession: true } })));
+  createClient(URL, KEY, { auth: { flowType: 'pkce', detectSessionInUrl: true, persistSession: true, storage: authStorage } })));
 
 // Account state shared by every component: { ready, user, profile }.
 let state = { ready: !accountsEnabled, user: null, profile: null, recovery: false };
