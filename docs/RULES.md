@@ -20,7 +20,8 @@ add new ones here when he gives them.
    - bump `version` in `package.json` (patch `1.0.x` for fixes and small tweaks, minor `1.x.0` for new features,
      major `x.0.0` for redesigns),
    - commit, push to `main`,
-   - tag the commit `vX.Y.Z` and publish a GitHub release with the log entry as its notes.
+   - the Release workflow then tags the commit `vX.Y.Z` and publishes a GitHub release with the log entry as its notes
+     (this session can't create tags itself).
    The footer shows the version and the commit, so the owner can check what is live.
 5. **Copy to the laptop.** Copy the changed files to `D:\Claude\School\Weboldal\gtk-gyakorlo` (the `.github`
    folder can't be written there).

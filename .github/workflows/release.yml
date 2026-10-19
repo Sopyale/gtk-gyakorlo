@@ -1,0 +1,24 @@
+# Saves every new version: when package.json has a version with no tag yet, tag it and publish a GitHub release
+# with that version's entry from log/LOG.md as the notes.
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tag and release a new version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          v=$(node -p "require('./package.json').version")
+          if gh release view "v$v" >/dev/null 2>&1; then echo "v$v already released"; exit 0; fi
+          awk -v h="## $v " 'index($0, h) == 1 { f = 1; next } f && (/^## / || /^Development history/) { exit } f' log/LOG.md > notes.md
+          gh release create "v$v" --target "$GITHUB_SHA" --title "$v" --notes-file notes.md
