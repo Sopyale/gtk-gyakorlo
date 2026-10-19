@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig({
   base: '/gtk-gyakorlo/',
   // Shown in the footer so anyone can tell which deploy their browser is running.
-  define: { __VERSION__: JSON.stringify((process.env.GITHUB_SHA || 'helyi').slice(0, 7)) },
+  define: { __VERSION__: JSON.stringify(`${process.env.npm_package_version} (${(process.env.GITHUB_SHA || 'helyi').slice(0, 7)})`) },
   plugins: [
     react(),
     VitePWA({

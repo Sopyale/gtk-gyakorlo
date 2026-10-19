@@ -1,37 +1,44 @@
 # GTK gyakorló
 
-Gyakorló kérdésbank az ELTE GTK első féléves tárgyaihoz. Jelenleg a Közgazdaságtan 1. ZH anyaga van fent: 294 kérdés, 74 flashcard, 20 perces ZH-szimuláció.
+Practice question bank for first-semester ELTE GTK subjects. Currently it covers the Közgazdaságtan 1. ZH:
+294 questions, 74 flashcards and a 20-minute mock ZH. The site itself is in Hungarian.
 
-Élő oldal: https://sopyale.github.io/gtk-gyakorlo/
+Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 1.0.0 ([change log](log/LOG.md))
 
-> Kizárólag saját felhasználásra, nem terjeszthető. Az oldal az ELTE belső oktatási anyagaira épül; az eredeti anyagok szerzői joga az oktatókat és az ELTE GTK-t illeti. A jegyzetek, a tankönyv és a ZH-anyagok **soha nem kerülnek ebbe a repóba**.
+> For personal use only, not to be distributed. The site is based on ELTE's internal teaching materials; the copyright
+> of the original materials belongs to the lecturers and ELTE GTK. The notes, the textbook and the ZH materials
+> **never go into this repository**.
 
-## Mit tud
+## Features
 
-- **Gyakorlás** fejezet és kérdéstípus szerint szűrve, minden válasz után magyarázattal és forrással (jegyzetfejezet, tankönyvoldal).
-- **Rontott kérdéseim**: a hibás válaszok ide gyűlnek, és két egymás utáni helyes válasz után lekerülnek.
-- **ZH-szimuláció**: 20 perc, 25 kérdés a valódi ZH arányaival (16 igaz–hamis, 5 feleletválasztós, 3 rövid válasz, 1 ábrás), értékelés a végén.
-- **Flashcardok** a jegyzet fogalomtárából.
-- **Ütemterv**: a ZH dátumából napokra bontja a fejezeteket (a kérdések száma szerint), az utolsó nap ismétlés.
-- A haladás csak a böngészőben tárolódik (localStorage). Nincs fiók, nincs szerver, nincs analitika.
-- Telepíthető alkalmazásként (PWA), és offline is működik.
-- Sötét és világos téma, billentyűparancsok (I/H, 1–4, Enter, szóköz).
+- **Gyakorlás** (practice), filtered by chapter and question type, with an explanation and source
+  (note section, textbook page) after every answer.
+- **Rontott kérdéseim** (my wrong answers): wrong answers collect here and leave after two correct answers in a row.
+- **ZH-szimuláció** (mock ZH): 20 minutes, 25 questions in the real ZH mix (16 true/false, 5 multiple choice,
+  3 short answer, 1 figure), scored at the end.
+- **Flashcardok** from the note's glossary.
+- **Ütemterv** (study plan): spreads the chapters over the days until the ZH by question count; the last day is review.
+- **Accounts** (optional): Neptun code + password + own non-ELTE e-mail, or Google sign-in. Progress syncs across
+  devices; the password can be reset by e-mail. The Drive link asks for sign-in, so access requests can be matched to
+  Neptun codes. Details in the privacy notice (`#/adatkezeles`).
+- **Admin tab**, visible to admins only: every account with Neptun code, e-mail, activity and progress.
+- Installable as an app (PWA), works offline, light and dark theme, keyboard shortcuts (I/H, 1–4, Enter, space).
 
-## Helyi futtatás
+## Running locally
 
-Node 20 kell hozzá.
+Needs Node 20.
 
 ```bash
 npm ci
-npm run dev        # fejlesztői szerver: http://localhost:5173/gtk-gyakorlo/
-npm test           # a pontozó logika önellenőrzése
-npm run build      # adatellenőrzés + éles build a dist/ mappába
-npm run preview    # a build megnézése
+npm run dev        # dev server: http://localhost:5173/gtk-gyakorlo/
+npm test           # self-checks: scoring, study plan, progress merge
+npm run build      # data check + production build into dist/
+npm run preview    # serve the build
 ```
 
-## Kérdések szerkesztése
+## Editing questions
 
-A kérdések a `src/data/<tárgy>/ch<N>.json` fájlokban vannak, fejezetenként. Egy kérdés:
+Questions live in `src/data/<subject>/ch<N>.json`, one file per chapter. One question:
 
 ```json
 {
@@ -48,30 +55,49 @@ A kérdések a `src/data/<tárgy>/ch<N>.json` fájlokban vannak, fejezetenként.
 }
 ```
 
-| Típus (`type`) | `answer` | További mezők |
+| Type (`type`) | `answer` | Extra fields |
 |---|---|---|
 | `igaz-hamis` | `true` / `false` | |
-| `feleletvalasztos` | a helyes opció szövege | `options`: 4 opció, a helyes is köztük |
-| `rovid-valasz` | elfogadott válaszok listája, az első a mintaválasz | `keywords`: kulcskifejezések; ha a válasz tartalmaz egyet, helyesnek számít |
-| `parositas` | `[["bal", "jobb"], …]` párok | |
-| `abra` | igaz–hamis vagy feleletválasztós válasz | `figure`: ábra azonosítója a `src/figures/index.js`-ből |
+| `feleletvalasztos` | text of the correct option | `options`: 4 options, including the correct one |
+| `rovid-valasz` | list of accepted answers, the first is the model answer | `keywords`: an answer containing one counts as correct |
+| `parositas` | `[["left", "right"], …]` pairs | |
+| `abra` | a true/false or multiple-choice answer | `figure`: figure id from `src/figures/index.js` |
 
-Az `official: true` a valódi gyakorló ZH-kérdéseket jelöli. A fogalomtár a `glossary.json`-ban van (`term`, `definition`, `section`).
+`official: true` marks the real practice-ZH questions. The glossary is in `glossary.json` (`term`, `definition`,
+`section`).
 
-Build előtt a `npm run check-data` ellenőrzi a mezőket, az ismétlődő azonosítókat és szövegeket, az ábrahivatkozásokat, és hogy a `docs/coverage-plan.md` minden fejezetrészéhez van-e kérdés. Hibás adattal a build nem megy át.
+Before every build, `npm run check-data` checks the fields, duplicate ids and texts, figure references, and that every
+section in `docs/coverage-plan.md` has a question. Bad data fails the build.
 
-Tartalom csak a feltöltött jegyzetből és tankönyvből kerülhet be. Az ábrák saját rajzolású SVG-k (`src/figures/`), a forrásanyagok képei nem.
+Content may only come from the uploaded note and textbook. Figures are our own SVGs (`src/figures/`), never images
+from the sources.
 
-## Új tárgy vagy ZH
+## Adding a subject or a ZH
 
-1. A `src/data/subjects.json`-ban a tárgynál `"active": true`, és töltsd ki a `chapters` és `exams` mezőt.
-2. Hozz létre egy `src/data/<tárgy-id>/` mappát `ch<N>.json` és `glossary.json` fájlokkal. A kód magától felveszi őket.
-3. Egy új ZH-hoz elég az `exams` listában egy új elem a fejezetszámokkal.
+1. In `src/data/subjects.json`, set `"active": true` for the subject and fill in `chapters` and `exams`.
+2. Create `src/data/<subject-id>/` with `ch<N>.json` files and a `glossary.json`. The code picks them up.
+3. For a new ZH, add an item with its chapter numbers to the `exams` list.
 
-## Közzététel
+## Accounts setup
 
-Minden `main`-re pusholt commit után a GitHub Actions (`.github/workflows/deploy.yml`) lefuttatja a teszteket, buildel, és kiteszi az oldalt a GitHub Pagesre. Az oldal minden lapja `noindex`, a keresők nem indexelik.
+Accounts run on Supabase. The schema is in `supabase/schema.sql`; the publishable key and project URL are in
+`src/lib/account.js`. Only the publishable key may be in the code. User data stays in Supabase and never goes into
+this repository. Make someone an admin in the Supabase SQL Editor:
 
-## Technika
+```sql
+update public.profiles set is_admin = true where neptun = 'ABC123';
+```
 
-Vite + React (JavaScript), hash alapú útvonalak, vite-plugin-pwa, lucide-react ikonok, Bricolage Grotesque és Figtree betűk. A specifikáció a [SPEC.md](SPEC.md)-ben van.
+## Deploying and versions
+
+Every push to `main` runs the tests, builds, and publishes to GitHub Pages via GitHub Actions
+(`.github/workflows/deploy.yml`). Every page is `noindex`.
+
+Every shipped change gets a new version in `package.json`, an entry in [log/LOG.md](log/LOG.md), a `vX.Y.Z` git tag and
+a GitHub release. The footer shows the live version. The working rules are in [docs/RULES.md](docs/RULES.md), the task
+list in [docs/TASKS.md](docs/TASKS.md), and the specification in [SPEC.md](SPEC.md).
+
+## Tech
+
+Vite + React (JavaScript), hash routing, vite-plugin-pwa, Supabase, lucide-react icons, Bricolage Grotesque and Figtree
+fonts.

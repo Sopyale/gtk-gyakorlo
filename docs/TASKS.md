@@ -1,42 +1,27 @@
-# Task plan
+# Tasks
 
-Four stages; stop, report in Hungarian and wait for approval after each.
+Every change the owner asks for is added here as a new task before work starts, and ticked off when it ships
+(see [RULES.md](RULES.md)). Newest at the bottom.
 
-## Stage 1 – Analysis and plan ✅ (awaiting approval)
-- [x] Read note (HTML/PDF), textbook, 38 official questions
-- [x] Section list with ★ marks; classify the official questions
-- [x] Coverage plan (`docs/coverage-plan.md`) and figure list
-- [x] Report open key issues (Q4, Q8, Q36, derived keys, source gaps)
-- [x] SPEC.md, this plan
+## Done before 1.0.0
 
-## Stage 2 – Design and skeleton
-- [ ] 2–3 home-page visual directions as screenshots → owner picks one
-- [ ] Vite + React scaffold, base path, hash routing
-- [ ] Menu (top bar / phone drawer) with the six subjects; "Hamarosan" state
-- [ ] Home page: intro, bento subject cards, Drive button + note
-- [ ] Subject page: mode cards, chapter and type filters, progress
-- [ ] Question renderer for all five types; one sample question per type
-- [ ] Gyakorlás, Rontott kérdéseim, ZH-szimuláció, Flashcardok with the samples
-- [ ] Storage wrapper with in-memory fallback; "Haladás törlése"
-- [ ] Legal notice footer + first-visit banner; noindex meta + robots.txt
-- [ ] Light/dark theme with system default and toggle
-- [ ] PWA manifest, icons, service worker
-- [ ] GitHub Actions deploy to Pages
-- [ ] Playwright screenshots at 360/1280 px, both themes; code review; report + live URL
+- [x] Stage 1: analysis, coverage plan, spec
+- [x] Stage 2: design (direction A "Aurora" + live hero curve), skeleton, four practice modes, PWA, Pages deploy
+- [x] Stage 3: 294 questions, 74 glossary terms, 23 SVG figures, `check-data`
+- [x] Stage 4: interaction layer on every panel and button, Lighthouse ≥ 90, README
+- [x] Animate the hero diagram (dot drops onto the optimum); pages float in on navigation
+- [x] Make new deploys show up without a manual cache clear; show the version in the footer
+- [x] Always animate, ignoring the reduced-motion setting
+- [x] Ütemterv (study plan) for the ZH
+- [x] Accounts: Neptun code + password + own non-ELTE e-mail, or Google sign-in; one e-mail per Neptun code;
+      self-service password reset; progress sync; privacy notice
+- [x] Admin tab, visible to admins only, listing every account
 
-## Stage 3 – Question bank
-- [ ] Import 37 official questions (official, derivedKey where needed)
-- [ ] Write ~250 new questions chapter by chapter per the coverage plan
-- [ ] Draw all SVG figures
-- [ ] glossary.json from the Fogalomtár
-- [ ] `check-data` script; passes
-- [ ] Near-duplicate check vs the official questions and each other; rewrite and count
-- [ ] Re-verify every key against its cited section; contradiction check
-- [ ] Report: totals, coverage table, derived keys, rewrites, gaps
+## 1.0.0
 
-## Stage 4 – Polish and release
-- [ ] Click through every mode (desktop + phone) with Playwright; fix layout/a11y
-- [ ] Lighthouse ≥ 90 (performance, accessibility, best practices)
-- [ ] README in Hungarian (add questions, add a subject, deploy)
-- [ ] Copy to D:\Claude\School\Weboldal\gtk-gyakorlo
-- [ ] Final report: URL and manual checks
+- [x] Save the current site as version 1.0.0 (git tag and GitHub release)
+- [x] Add `log/LOG.md` with every change, and version every future change
+- [x] Write the project rules to `docs/RULES.md` (English `.md` files, tasks first, keep SPEC/README/log current)
+- [x] Bring SPEC.md and README.md up to date (accounts, admin, Ütemterv); README in English
+
+## Open

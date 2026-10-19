@@ -1,7 +1,8 @@
 # gtk-gyakorlo – specification
 
 Practice website for first-semester ELTE GTK students. Static, Hungarian UI, English code.
-Stage 1 deliverable; changes only with the owner's approval.
+Changes only with the owner's approval; every change follows [docs/RULES.md](docs/RULES.md) and is logged in
+[log/LOG.md](log/LOG.md). Current version: 1.0.0.
 
 ## 1. Objective
 
@@ -10,7 +11,9 @@ A fast, good-looking static site where a student can:
 1. pick a subject, then practise Közgazdaságtan by chapter or question type with instant feedback, the correct answer, an explanation and the source ("Jegyzet 3.4", "Könyv 37. o.");
 2. sit a timed mock ZH in the real ZH format (20 min, 25 questions);
 3. re-practise questions answered wrong;
-4. revise the glossary with flashcards.
+4. revise the glossary with flashcards;
+5. plan the days until the ZH;
+6. keep progress across devices with an account, which also lets the owner match Drive access requests to Neptun codes.
 
 Accuracy beats volume: a wrong key teaches a classmate the wrong thing.
 
@@ -32,7 +35,9 @@ No fact, example, number or author may come from anywhere else. The source files
 In: six subjects in the menu (Közgazdaságtan, Menedzsment, Marketing, Számvitel, Közösség és egyén, Matematika);
 only Közgazdaságtan has content, the rest show "Hamarosan" and become active by adding data only.
 
-Out: backend, accounts, analytics, server-side storage, any content outside the two sources.
+In since 1.0.0: accounts and progress sync on Supabase (see §4a).
+
+Out: own server code, third-party analytics or tracking, any content outside the two sources.
 
 ## 3. Tech stack
 
@@ -42,7 +47,9 @@ Out: backend, accounts, analytics, server-side storage, any content outside the 
 - PWA: web manifest, icons, service worker caching the app shell and question data (offline after first visit).
 - Icons: Lucide. Fonts: self-hosted, a display grotesk (e.g. Bricolage Grotesque) + a body face (e.g. Figtree).
 - Animation: CSS and the View Transitions API; the `motion` library only if one specific effect needs it.
-- Progress in `localStorage`, behind a tiny wrapper that falls back to memory when storage is unavailable.
+- Progress in `localStorage`, behind a tiny wrapper that falls back to memory when storage is unavailable;
+  signed-in users' progress is also synced to Supabase.
+- `@supabase/supabase-js` (lazy-loaded) for accounts.
 
 ## 4. Pages and modes
 
@@ -58,9 +65,28 @@ Out: backend, accounts, analytics, server-side storage, any content outside the 
 - **ZH-szimuláció**: 20 minutes, 25 questions drawn proportionally from the chapters; mix ≈ 16 igaz-hamis, 5 feleletválasztós,
   3 rövid válasz, 1 ábrás; no feedback until the end; then score, per-chapter breakdown, review of every question.
 - **Flashcardok**: glossary terms (front: term; back: definition + section), "tudtam / nem tudtam", unknown cards repeat.
+- **Ütemterv**: the student sets the ZH date; the chapters are spread over the days by question count, the last day is
+  review when at least three days are left; days can be ticked off; "Újratervezés mától" re-plans from today.
 - **Haladás törlése** button clears all stored progress.
 - **Legal notice** (verbatim, see §7) in every page footer and as a dismissible first-visit banner.
 - `<meta name="robots" content="noindex, nofollow">` on every page; `robots.txt` disallows everything.
+
+## 4a. Accounts, admin, privacy
+
+- **Sign-up**: Neptun code (6 letters/digits, the username), password (≥ 8, stored by Supabase Auth as a bcrypt hash)
+  and the student's own e-mail. The e-mail must not be an ELTE address, and one e-mail belongs to one Neptun code
+  (both enforced in the database). It receives password-reset mail and is the address used to request Drive access.
+- **Google sign-in** (PKCE); the student then enters their Neptun code once.
+- **Sign-in with Neptun code**: the `login_email` RPC returns the account's e-mail only after a password check,
+  at most 10 misses per code per 15 minutes.
+- **Password reset** by e-mail (needs custom SMTP in Supabase). **Fiók törlése** deletes the account and its data.
+- **Drive link**: signed-out visitors are sent to sign in first; clicks are counted per account.
+- **Admin** (`#/admin`, header tab): only for `profiles.is_admin`; stats and a searchable list of every account
+  (Neptun code, e-mail, sign-in method, registered, last seen, Drive clicks, progress). Row-level security keeps
+  every other user to their own row.
+- **Privacy notice** (`#/adatkezeles`, footer link): purpose (Drive access, progress sync), what is stored, where
+  (Supabase, EU), retention and deletion.
+- Schema: `supabase/schema.sql`. User data never goes into the repository.
 
 ## 5. Data format
 
@@ -106,8 +132,8 @@ Dark, futuristic, premium (Linear / Vercel / Raycast polish), built on the exam 
 - Follows the system theme, with a manual toggle.
 - Signature: slow aurora/mesh gradient + grain behind the hero; bento grid with 1 px gradient borders, glass surfaces and a
   cursor-following glow (desktop); View Transitions between pages; answer card slide/flip to feedback; shake on wrong,
-  glow pulse on a correct streak; animated counters and score ring. 150–300 ms, ease-out; all off under
-  `prefers-reduced-motion`.
+  glow pulse on a correct streak; animated counters and score ring. 150–300 ms, ease-out. Animations always run,
+  regardless of `prefers-reduced-motion` (owner's choice, 2026-10-16).
 - The practice view stays calm: no motion behind question text, high contrast.
 - Mobile first, 44 px tap targets, bottom-reachable buttons, no horizontal scroll, WCAG AA in both themes, visible
   accent focus rings, full keyboard use, Lighthouse mobile performance ≥ 90.
@@ -139,12 +165,15 @@ Dark, futuristic, premium (Linear / Vercel / Raycast polish), built on the exam 
 index.html                 noindex meta, manifest link
 public/                    robots.txt, icons, manifest
 src/main.jsx, App.jsx      router + layout
-src/pages/                 Home, Subject, Practice, Mock, Flashcards
+src/pages/                 Home, Hub, Subject, Practice, Mock, Flashcards, Plan, Account, Admin, Privacy
 src/components/            QuestionCard, answer inputs per type, Legal, Menu, ThemeToggle
 src/figures/               one small SVG component per figure id
-src/lib/                   storage wrapper, shuffle/draw, answer normalisation
+src/lib/                   storage wrapper, shuffle/draw, answer normalisation, study plan, accounts
 src/data/                  JSON content (see §5)
 scripts/check-data.mjs     data validator
+supabase/schema.sql        database schema for accounts
+docs/RULES.md              project rules; docs/TASKS.md task list
+log/LOG.md                 change log, one entry per version
 .github/workflows/deploy.yml
 ```
 
@@ -156,6 +185,7 @@ npm run dev          # local dev server
 npm run build        # production build to dist/
 npm run preview      # serve the build
 npm run check-data   # validate question data
+npm test             # self-checks: scoring, study plan, progress merge
 ```
 
 ## 11. Testing
@@ -168,7 +198,8 @@ npm run check-data   # validate question data
 
 - Always: cite a source on every question; keep source files out of git; Hungarian UI text, English code.
 - Ask first: adding any dependency beyond React, Vite, the PWA plugin, Lucide, fonts and (if needed) `motion`.
-- Never: content from outside the two sources; committing the note, textbook, ZH file or q27 image; analytics or tracking.
+- Never: content from outside the two sources; committing the note, textbook, ZH file or q27 image; third-party
+  analytics or tracking; committing user data, secret keys or passwords.
 
 ## 13. Success criteria
 
