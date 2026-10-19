@@ -574,3 +574,16 @@ a.card:active { transform: scale(.985); transition-duration: 90ms; }
 .admin-stats { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
 @media (max-width: 1240px) { .help-btn span { display: none; } }
 @media (max-width: 1120px) { .nav { display: none; } .burger { display: grid; } .bar { justify-content: space-between; } }
+
+/* Ticket replies */
+.replies { list-style: none; margin: 14px 0 0; padding: 0 0 0 14px; border-left: 2px solid var(--line); display: grid; gap: 12px; }
+.replies li.from-admin { border-left: 2px solid var(--acc); margin-left: -16px; padding-left: 14px; }
+.replies p { margin: 4px 0 0; }
+.reply-form { margin-top: 14px; display: flex; gap: 10px; align-items: flex-end; }
+.reply-form textarea { flex: 1; min-width: 0; min-height: 48px; padding: 12px 14px; border-radius: 14px; border: 1px solid var(--line); background: var(--bg2); color: var(--text); font: 500 15px/1.4 var(--body); resize: vertical; transition: border-color var(--fast), box-shadow var(--mid); }
+.reply-form textarea:focus { outline: none; border-color: var(--plum); box-shadow: 0 0 0 4px color-mix(in srgb, var(--plum) 22%, transparent); }
+.reply-form .btn { margin: 0; flex: none; }
+@media (max-width: 760px) { .reply-form { flex-direction: column; align-items: stretch; } }
+@media (max-width: 1360px) { .account-btn:not(.help-btn) span { display: none; } }
+.nav a { flex: none; }
+@media (max-width: 1360px) { .nav a, .nav .soon { padding: 0 8px; } }

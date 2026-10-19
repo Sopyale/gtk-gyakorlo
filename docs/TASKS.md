@@ -44,4 +44,9 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Redraw the 1. ZH card's diagram properly (axes, budget line, tangent indifference curve, optimum)
 - [x] Label the ticket button "Segítség kérése" instead of an icon only
 
+## 1.3.0
+
+- [x] Ticket replies: the admin answers a ticket and the student can answer back (`supabase/ticket-replies.sql`)
+- [x] Shorten the Újdonságok page to the notable changes only
+
 ## Open

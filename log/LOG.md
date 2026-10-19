@@ -3,6 +3,17 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.3.0 – 2026-10-19
+
+- **Ticket replies:** under every ticket the admin and the student can write back and forth, on the Admin page and on
+  the student's Segítség kérése page. The server records who wrote each reply; a student's reply reopens a ticket
+  marked done; at most 20 replies per account per hour. Database: new `supabase/ticket-replies.sql` (run once; it
+  never deletes data). Requested by the owner so he can answer students directly.
+- **Header:** the signed-in Neptun code shows as an icon below 1360 px, and the current subject link never gets cut
+  off, so the header fits with the Admin and Segítség kérése buttons.
+- **Újdonságok:** shortened to one short line per version, only the notable changes (owner's request); the rule is in
+  RULES.md.
+
 ## 1.2.1 – 2026-10-19
 
 - **1. ZH card diagram:** the old decoration (two loose curves, budget line only visible on hover) looked broken.

@@ -3,7 +3,7 @@
 Practice question bank for first-semester ELTE GTK subjects. Currently it covers the Közgazdaságtan 1. ZH:
 294 questions, 74 flashcards and a 20-minute mock ZH. The site itself is in Hungarian.
 
-Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 1.2.1 ([change log](log/LOG.md))
+Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 1.3.0 ([change log](log/LOG.md))
 
 > For personal use only, not to be distributed. The site is based on ELTE's internal teaching materials; the copyright
 > of the original materials belongs to the lecturers and ELTE GTK. The notes, the textbook and the ZH materials
@@ -22,7 +22,8 @@ Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 1.2.1 ([c
   devices; the password can be reset by e-mail; "stay signed in" is optional. Signed-out visitors are asked to sign in
   on every visit. The Drive link asks for sign-in, so access requests can be matched to
   Neptun codes. Details in the privacy notice (`#/adatkezeles`).
-- **Segítség kérése** (ticket) tab: signed-in students send a question, request or bug report to the owner.
+- **Segítség kérése** (ticket) tab: signed-in students send a question, request or bug report to the owner, and the
+  owner and the student can reply back and forth.
 - **Újdonságok**: a short changelog for students.
 - **Admin tab**, visible to admins only: every account with Neptun code, e-mail, activity and progress, plus the
   tickets.
@@ -85,7 +86,7 @@ from the sources.
 ## Accounts setup
 
 Accounts run on Supabase. The schema is in `supabase/schema.sql` (fresh project only: re-running it deletes every
-profile) and `supabase/tickets.sql` (tickets; safe to re-run); the publishable key and project URL are in
+profile) `supabase/tickets.sql` and `supabase/ticket-replies.sql` (tickets and replies; safe to re-run); the publishable key and project URL are in
 `src/lib/account.js`. Only the publishable key may be in the code. User data stays in Supabase and never goes into
 this repository. Make someone an admin in the Supabase SQL Editor:
 

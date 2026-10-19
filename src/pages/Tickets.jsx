@@ -1,10 +1,46 @@
 import { useEffect, useState } from 'react';
 import { CircleUserRound, Send } from 'lucide-react';
-import { listTickets, sendTicket, useAccount } from '../lib/account.js';
+import { listTickets, sendReply, sendTicket, useAccount } from '../lib/account.js';
 import { href } from '../lib/route.js';
 
 export const KINDS = { kerdes: 'Kérdés', keres: 'Kérés', hiba: 'Hibajelentés' };
 export const when = (t) => new Date(t).toLocaleString('hu-HU', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+
+// The back-and-forth under a ticket, with a reply box; used here and in Admin.
+export function Replies({ ticket, admin, onSent }) {
+  const [text, setText] = useState('');
+  const [error, setError] = useState('');
+  const [busy, setBusy] = useState(false);
+  const send = async (e) => {
+    e.preventDefault();
+    if (!text.trim()) return;
+    setBusy(true); setError('');
+    try { await sendReply(ticket.id, text.trim()); setText(''); await onSent(); }
+    catch (err) { setError(err.message); }
+    setBusy(false);
+  };
+  const who = (r) => (r.from_admin === admin ? 'Te' : r.from_admin ? 'Az oldal gazdája' : 'Hallgató');
+  return (
+    <>
+      {ticket.ticket_replies?.length > 0 && (
+        <ol className="replies">
+          {ticket.ticket_replies.map((r) => (
+            <li key={r.id} className={r.from_admin ? 'from-admin' : ''}>
+              <div className="ticket-head"><b>{who(r)}</b><span>{when(r.created_at)}</span></div>
+              <p>{r.message}</p>
+            </li>
+          ))}
+        </ol>
+      )}
+      <form className="reply-form" onSubmit={send}>
+        <textarea value={text} maxLength={2000} rows={2} aria-label="Válasz" placeholder="Válasz…"
+          onChange={(e) => { setError(''); setText(e.target.value); }} />
+        <button className="btn sec" disabled={busy || !text.trim()}><Send size={18} aria-hidden="true" />Válasz</button>
+      </form>
+      {error && <p className="auth-error" role="alert">{error}</p>}
+    </>
+  );
+}
 
 // Segítség kérése: a signed-in student writes to the owner; only the admin sees the tickets.
 export default function Tickets() {
@@ -66,6 +102,7 @@ export default function Tickets() {
               <li key={t.id} className="card">
                 <div className="ticket-head"><b>{KINDS[t.kind]}</b><span>{when(t.created_at)}</span><em className={t.done ? 'done' : ''}>{t.done ? 'Megoldva' : 'Nyitott'}</em></div>
                 <p>{t.message}</p>
+                <Replies ticket={t} admin={false} onSent={reload} />
               </li>
             ))}
           </ul>

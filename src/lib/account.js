@@ -167,8 +167,13 @@ export async function sendTicket({ kind, message }) {
 }
 export async function listTickets() {
   const sb = await getClient();
-  const { data, error } = await sb.from('tickets').select('id, user_id, kind, message, done, created_at').order('created_at', { ascending: false });
+  const { data, error } = await sb.from('tickets')
+    .select('id, user_id, kind, message, done, created_at, ticket_replies(id, from_admin, message, created_at)')
+    .order('created_at', { ascending: false })
+    .order('created_at', { referencedTable: 'ticket_replies', ascending: true });
   if (error) throw new Error(friendly(error));
   return data;
 }
+// The server records whether the admin or the student wrote it (see supabase/ticket-replies.sql).
+export const sendReply = (ticketId, message) => run((sb) => sb.from('ticket_replies').insert({ ticket_id: ticketId, message }));
 export const setTicketDone = (id, done) => run((sb) => sb.from('tickets').update({ done }).eq('id', id));

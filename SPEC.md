@@ -2,7 +2,7 @@
 
 Practice website for first-semester ELTE GTK students. Static, Hungarian UI, English code.
 Changes only with the owner's approval; every change follows [docs/RULES.md](docs/RULES.md) and is logged in
-[log/LOG.md](log/LOG.md). Current version: 1.2.1.
+[log/LOG.md](log/LOG.md). Current version: 1.3.0.
 
 ## 1. Objective
 
@@ -93,8 +93,10 @@ Out: own server code, third-party analytics or tracking, any content outside the
   (Supabase, EU), retention and deletion.
 - **Segítség kérése** (`#/kerdes`, labelled header button; in the menu on phones): signed-in students send a ticket (kind: kérdés, kérés,
   hibajelentés; up to 2000 characters; at most 5 per hour) and see their own tickets' status. The admin sees all
-  tickets in Admin with the sender's Neptun code and e-mail and marks them done.
-- **Újdonságok** (`#/ujdonsagok`, footer and menu link): short Hungarian changelog from `src/data/changelog.json`.
+  tickets in Admin with the sender's Neptun code and e-mail and marks them done. Under each ticket the admin and the
+  student reply back and forth (`supabase/ticket-replies.sql`); a student's reply reopens a done ticket.
+- **Újdonságok** (`#/ujdonsagok`, footer and menu link): short Hungarian changelog from `src/data/changelog.json`,
+  one short line per notable change.
 - Schema: `supabase/schema.sql` (fresh project only; re-running deletes profiles) and `supabase/tickets.sql`.
   User data never goes into the repository.
 
@@ -182,7 +184,8 @@ src/figures/               one small SVG component per figure id
 src/lib/                   storage wrapper, shuffle/draw, answer normalisation, study plan, accounts
 src/data/                  JSON content (see §5)
 scripts/check-data.mjs     data validator
-supabase/schema.sql        database schema for accounts; supabase/tickets.sql tickets table
+supabase/schema.sql        database schema for accounts; supabase/tickets.sql and
+                           ticket-replies.sql tickets and replies
 graphify-out/              graphify knowledge graph of the code
 docs/RULES.md              project rules; docs/TASKS.md task list
 log/LOG.md                 change log, one entry per version

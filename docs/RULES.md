@@ -16,7 +16,8 @@ add new ones here when he gives them.
 2. **Keep the docs current.** If the change affects what the site does, update [SPEC.md](../SPEC.md) and
    [README.md](../README.md) in the same commit.
 3. **Log it.** Add an entry to [log/LOG.md](../log/LOG.md): version, date, what changed and why. If students
-   would notice the change, also add a short Hungarian line to `src/data/changelog.json` (the Újdonságok page).
+   would notice the change, also add a short Hungarian line to `src/data/changelog.json` (the Újdonságok page). Keep it to the notable
+   changes, one short sentence each, no explanations (owner's rule).
 4. **Save a version.** Every shipped change gets a new version number:
    - bump `version` in `package.json` (patch `1.0.x` for fixes and small tweaks, minor `1.x.0` for new features,
      major `x.0.0` for redesigns),

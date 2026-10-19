@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Check } from 'lucide-react';
 import { listProfiles, listTickets, setTicketDone, useAccount } from '../lib/account.js';
 import { getQuestions } from '../lib/data.js';
-import { KINDS } from './Tickets.jsx';
+import { KINDS, Replies } from './Tickets.jsx';
 
 const when = (t) => (t ? new Date(t).toLocaleString('hu-HU', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : '–');
 const DAY = 864e5;
@@ -57,6 +57,7 @@ export default function Admin() {
                   <li key={t.id} className={`card ${t.done ? 'is-done' : ''}`}>
                     <div className="ticket-head"><b>{from?.neptun ?? '?'}</b><span>{from?.drive_email}</span><span>{KINDS[t.kind]}, {when(t.created_at)}</span></div>
                     <p>{t.message}</p>
+                    <Replies ticket={t} admin onSent={() => listTickets().then(setTickets)} />
                     <button className="chip" aria-pressed={t.done} onClick={toggle}><Check size={16} aria-hidden="true" />{t.done ? 'Megoldva' : 'Megoldva?'}</button>
                   </li>
                 );
