@@ -3,6 +3,13 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.5.2 – 2026-10-19
+
+- **Explanations checked:** all 294 explanations compared one by one with the note and the matching textbook pages
+  (owner's request). Six fixed: kg-1-001 (secondary drives do serve the primary ones), kg-2-038 and kg-2-044 (a higher
+  indifference curve does not always hold more of both goods), kg-3-009 and kg-4-014 (wording), kg-5-010 (the real
+  cost of turning up the heating is what the gas money could buy elsewhere). No answer key conflicts with the sources.
+
 ## 1.5.1 – 2026-10-19
 
 - **Explanations:** rewrote 270 of 294 question explanations so they say in plain words why the answer is right (for

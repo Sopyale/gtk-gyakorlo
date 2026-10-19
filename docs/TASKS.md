@@ -67,7 +67,7 @@ Every change the owner asks for is added here as a new task before work starts, 
 
 ## 1.5.2
 
-- [ ] Check every explanation one by one against the note and the textbook; rewrite only the ones that are wrong
+- [x] Check every explanation one by one against the note and the textbook; rewrite only the ones that are wrong
       or clearly odd
 
 ## Open

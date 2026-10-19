@@ -533,7 +533,7 @@
     "section": "2.5",
     "question": "Az origótól távolodva a közömbösségi görbék normál termékek esetén egyre magasabb hasznossági szintet jelentenek.",
     "answer": true,
-    "explanation": "Az origótól távolabbi görbén mindkét jószágból több jut, ezért a fogyasztó ott magasabb hasznossági szintet ér el.",
+    "explanation": "Jobbra-felfelé haladva mindkét jószágból több jut, ezért az origótól távolabbi görbék magasabb hasznossági szintet jelentenek.",
     "source": "Jegyzet 2.5 · Könyv 17–19. o.",
     "official": false,
     "difficulty": 1
@@ -618,7 +618,7 @@
       "mindhárom azonos hasznosságot jelent",
       "U2, a középső görbe"
     ],
-    "explanation": "Az origótól legtávolabbi görbén mindkét jószágból több van, ezért az jelenti a legmagasabb hasznosságot. A görbék csak a sorrendet mutatják, azt nem, mennyivel jobb.",
+    "explanation": "Jobbra-felfelé haladva mindkét jószágból több jut, ezért a hasznossági szint nő: az origótól legtávolabbi U3 a legjobb. A görbék csak a sorrendet mutatják, azt nem, mennyivel jobb.",
     "source": "Jegyzet 2.5 · Könyv 17–19. o.",
     "official": false,
     "difficulty": 1

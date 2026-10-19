@@ -135,7 +135,7 @@
       "a tavalyi gázszámla",
       "a kazán beszerelésének díja"
     ],
-    "explanation": "Most csak az számít költségnek, amiről a feltekeréssel mondunk le: a többletgáz. A kazán és a beszerelés árát, a tavalyi számlát már korábban kifizettük; ezek elsüllyedt költségek, a mostani döntés nem változtat rajtuk.",
+    "explanation": "Most csak a feltekeréssel járó többletgáz ára számít, pontosabban az, amit ezért a pénzért máshol kaphatnánk. A kazán ára, a beszerelés díja és a tavalyi számla már ki van fizetve: ezek elsüllyedt költségek, a mostani döntés nem változtat rajtuk.",
     "source": "Jegyzet 5.2 · Könyv 33–35. o.",
     "official": false,
     "difficulty": 2
