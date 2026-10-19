@@ -1,9 +1,17 @@
 [
   {
+    "version": "1.2.1",
+    "date": "2026-10-19",
+    "items": [
+      "Új, pontos ábra az 1. ZH kártyáján: költségvetési egyenes, közömbösségi görbék és az optimum.",
+      "A fejlécben „Segítség kérése” gomb: innen küldhetsz kérdést, kérést vagy hibajelentést."
+    ]
+  },
+  {
     "version": "1.2.0",
     "date": "2026-10-19",
     "items": [
-      "Új Kérdés fül: bejelentkezve kérdést, kérést vagy hibajelentést küldhetsz az oldal gazdájának.",
+      "Új „Segítség kérése” oldal: bejelentkezve kérdést, kérést vagy hibajelentést küldhetsz az oldal gazdájának.",
       "Új Újdonságok oldal: itt látod, mi változott az oldalon."
     ]
   },

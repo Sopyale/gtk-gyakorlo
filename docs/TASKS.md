@@ -39,4 +39,9 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Ticket tab (Kérdés, `#/kerdes`): signed-in students send a question, request or bug report; only the admin sees
       them, in the Admin page, and can mark them done
 
+## 1.2.1
+
+- [x] Redraw the 1. ZH card's diagram properly (axes, budget line, tangent indifference curve, optimum)
+- [x] Label the ticket button "Segítség kérése" instead of an icon only
+
 ## Open

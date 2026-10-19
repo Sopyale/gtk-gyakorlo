@@ -2,7 +2,7 @@
 
 Practice website for first-semester ELTE GTK students. Static, Hungarian UI, English code.
 Changes only with the owner's approval; every change follows [docs/RULES.md](docs/RULES.md) and is logged in
-[log/LOG.md](log/LOG.md). Current version: 1.2.0.
+[log/LOG.md](log/LOG.md). Current version: 1.2.1.
 
 ## 1. Objective
 
@@ -91,7 +91,7 @@ Out: own server code, third-party analytics or tracking, any content outside the
   every other user to their own row.
 - **Privacy notice** (`#/adatkezeles`, footer link): purpose (Drive access, progress sync), what is stored, where
   (Supabase, EU), retention and deletion.
-- **Kérdés** (`#/kerdes`, header icon; in the menu on phones): signed-in students send a ticket (kind: kérdés, kérés,
+- **Segítség kérése** (`#/kerdes`, labelled header button; in the menu on phones): signed-in students send a ticket (kind: kérdés, kérés,
   hibajelentés; up to 2000 characters; at most 5 per hour) and see their own tickets' status. The admin sees all
   tickets in Admin with the sender's Neptun code and e-mail and marks them done.
 - **Újdonságok** (`#/ujdonsagok`, footer and menu link): short Hungarian changelog from `src/data/changelog.json`.

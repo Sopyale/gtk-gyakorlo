@@ -49,9 +49,9 @@ function AdminLink({ current }) {
 function TicketLink({ current }) {
   if (!accountsEnabled) return null;
   return (
-    <a className={`icon-btn wide-only ${current === 'kerdes' ? 'on' : ''}`} href={href('kerdes')} aria-label="Kérdés küldése" title="Kérdés küldése"
+    <a className={`icon-btn account-btn wide-only help-btn ${current === 'kerdes' ? 'in' : ''}`} href={href('kerdes')} aria-label="Segítség kérése" title="Segítség kérése"
       aria-current={current === 'kerdes' ? 'page' : undefined}>
-      <MessageCircleQuestion size={20} aria-hidden="true" />
+      <MessageCircleQuestion size={20} aria-hidden="true" /><span>Segítség kérése</span>
     </a>
   );
 }
@@ -104,7 +104,7 @@ export default function Layout({ current, calm, children }) {
             <a href="#/" onClick={() => setDrawer(false)}>Főoldal</a>
             <SubjectLinks current={current} onPick={() => setDrawer(false)} />
             <a href={href('ujdonsagok')} onClick={() => setDrawer(false)}>Újdonságok</a>
-            {accountsEnabled && <a href={href('kerdes')} onClick={() => setDrawer(false)}>Kérdés küldése</a>}
+            {accountsEnabled && <a href={href('kerdes')} onClick={() => setDrawer(false)}>Segítség kérése</a>}
             <DrawerAdmin close={() => setDrawer(false)} />
           </nav>
         </div>

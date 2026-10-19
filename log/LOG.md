@@ -3,6 +3,15 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.2.1 – 2026-10-19
+
+- **1. ZH card diagram:** the old decoration (two loose curves, budget line only visible on hover) looked broken.
+  It is now a to-scale consumer optimum: axes, budget line, three indifference curves with the middle one tangent
+  to the budget line, guide lines and the optimum point.
+- **Segítség kérése:** the ticket button in the header now has the text "Segítség kérése" (icon-only below 1240 px,
+  in the menu on phones); the page title matches.
+- **Header:** the subject menu switches to the hamburger menu below 1120 px, so the header never overflows.
+
 ## 1.2.0 – 2026-10-19
 
 - **Újdonságok page** (`#/ujdonsagok`, footer and menu link): a short, Hungarian changelog for students, from

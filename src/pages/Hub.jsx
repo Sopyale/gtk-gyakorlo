@@ -4,6 +4,30 @@ import { getScope, scopeQuestions } from '../lib/data.js';
 import { href } from '../lib/route.js';
 import { load } from '../lib/storage.js';
 
+// Consumer optimum drawn to scale: budget line y = 180 - 0.75x, indifference curves xy = k;
+// k = 10800 touches the budget line at (120, 90). Origin of the plot is at (36, 214) in the SVG.
+const O = [36, 214];
+const pt = (x, y) => `${(O[0] + x).toFixed(1)} ${(O[1] - y).toFixed(1)}`;
+const ic = (k) => {
+  const xs = [];
+  for (let x = k / 196; x <= 268; x += 4) xs.push(x);
+  return 'M' + xs.map((x) => pt(x, k / x)).join('L');
+};
+
+function ExamPlot() {
+  return (
+    <svg className="exam-curve" viewBox="0 0 320 240" aria-hidden="true">
+      <path className="hp-axis" d={`M${pt(0, 204)}V${O[1]}H${O[0] + 276}`} />
+      <path className="hp-ic" d={ic(6000)} />
+      <path className="hp-ic hot" d={ic(10800)} />
+      <path className="hp-ic" d={ic(17000)} />
+      <path className="hp-budget" pathLength="1" d={`M${pt(0, 180)}L${pt(240, 0)}`} />
+      <path className="hp-guide" d={`M${pt(120, 90)}V${O[1]}M${pt(120, 90)}H${O[0]}`} />
+      <circle className="hp-dot" cx={O[0] + 120} cy={O[1] - 90} r="6" />
+    </svg>
+  );
+}
+
 // Subject landing: one card per ZH; each opens the practice modes for that ZH's chapters.
 export default function Hub({ subject }) {
   const answers = load('answers', {});
@@ -32,11 +56,7 @@ export default function Hub({ subject }) {
           const done = qs.filter((q) => answers[q.id]).length;
           return (
             <a key={e.id} className="card exam glow" href={href(scope.path)}>
-              <svg className="exam-curve" viewBox="0 0 320 240" aria-hidden="true">
-                <path className="hp-ic" d="M60 20C80 120 140 180 310 196" />
-                <path className="hp-ic hot" d="M110 14C128 100 180 150 316 160" />
-                <line className="hp-budget" x1="40" y1="60" x2="300" y2="226" />
-              </svg>
+              <ExamPlot />
               <div className="exam-top">
                 <span className="exam-no">{e.name}</span>
                 <Ring value={qs.length ? done / qs.length : 0} size={96} label={`Haladás: ${done} / ${qs.length}`} />

@@ -6,7 +6,7 @@ import { href } from '../lib/route.js';
 export const KINDS = { kerdes: 'Kérdés', keres: 'Kérés', hiba: 'Hibajelentés' };
 export const when = (t) => new Date(t).toLocaleString('hu-HU', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
 
-// Kérdés: a signed-in student writes to the owner; only the admin sees the tickets.
+// Segítség kérése: a signed-in student writes to the owner; only the admin sees the tickets.
 export default function Tickets() {
   const { ready, profile } = useAccount();
   const [kind, setKind] = useState('kerdes');
@@ -23,7 +23,7 @@ export default function Tickets() {
   if (!profile?.neptun) {
     return (
       <div className="wrap page narrow">
-        <h1 className="page-title">Kérdés</h1>
+        <h1 className="page-title">Segítség kérése</h1>
         <p className="lede">Kérdést, kérést vagy hibajelentést bejelentkezve küldhetsz az oldal gazdájának.</p>
         <a className="btn pri" href={href('fiok')}><CircleUserRound size={18} aria-hidden="true" />Belépés vagy regisztráció</a>
       </div>
@@ -41,7 +41,7 @@ export default function Tickets() {
 
   return (
     <div className="wrap page narrow">
-      <h1 className="page-title">Kérdés</h1>
+      <h1 className="page-title">Segítség kérése</h1>
       <p className="lede">Írj az oldal gazdájának. Csak ő látja, amit küldesz, a Neptun-kódoddal és az e-mail-címeddel együtt.</p>
       <form className="card auth" onSubmit={submit} noValidate>
         <div className="auth-tabs" role="radiogroup" aria-label="Típus">
