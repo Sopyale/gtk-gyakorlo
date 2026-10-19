@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Menu, Moon, Sun, X } from 'lucide-react';
+import { CircleUserRound, Menu, Moon, Sun, X } from 'lucide-react';
+import { accountsEnabled, useAccount } from '../lib/account.js';
 import { subjects } from '../lib/data.js';
 import { href } from '../lib/route.js';
 import { load, save } from '../lib/storage.js';
@@ -19,6 +20,16 @@ function ThemeToggle() {
       onClick={() => { save('theme', next); setTheme(next); }}>
       {dark ? <Sun size={20} /> : <Moon size={20} />}
     </button>
+  );
+}
+
+function AccountButton() {
+  const { profile } = useAccount();
+  if (!accountsEnabled) return null;
+  return (
+    <a className={`icon-btn account-btn ${profile?.neptun ? 'in' : ''}`} href={href('fiok')} aria-label={profile?.neptun ? `Fiók: ${profile.neptun}` : 'Belépés'}>
+      <CircleUserRound size={20} aria-hidden="true" />{profile?.neptun && <span>{profile.neptun}</span>}
+    </a>
   );
 }
 
@@ -49,6 +60,7 @@ export default function Layout({ current, calm, children }) {
         <div className="wrap bar">
           <a className="logo" href="#/"><span className="mark" aria-hidden="true" />gyakorló</a>
           <nav className="nav" aria-label="Tárgyak"><SubjectLinks current={current} /></nav>
+          <AccountButton />
           <ThemeToggle />
           <button className="icon-btn burger" aria-label="Menü" aria-expanded={drawer} onClick={() => setDrawer(true)}>
             <Menu size={20} />
@@ -66,6 +78,7 @@ export default function Layout({ current, calm, children }) {
       )}
       <main id="main" tabIndex={-1} className={calm ? 'calm' : ''}>{children}</main>
       <footer className="foot"><div className="wrap"><p>{LEGAL}</p>
+        {accountsEnabled && <p className="ver"><a href={href('adatkezeles')}>Adatkezelési tájékoztató</a></p>}
         <p className="ver">Verzió: {__VERSION__}</p></div></footer>
       <LegalBanner />
     </>

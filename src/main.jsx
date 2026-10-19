@@ -4,8 +4,10 @@ import '@fontsource-variable/figtree';
 import './styles.css';
 import { registerSW } from 'virtual:pwa-register';
 import App from './App.jsx';
+import { startAccounts } from './lib/account.js';
 
 createRoot(document.getElementById('root')).render(<App />);
+startAccounts();
 
 // autoUpdate: a new deploy reloads the page as soon as its service worker takes over,
 // so a refresh never keeps showing the cached old version. Also checks again when the tab regains focus.

@@ -499,3 +499,43 @@ a.card:active { transform: scale(.985); transition-duration: 90ms; }
 .plan-zh b { font: 800 34px/1 var(--display); letter-spacing: -.04em; color: var(--text); }
 .plan-zh::after { content: ""; position: absolute; left: -27px; top: 50%; width: 16px; height: 16px; margin-top: -2px; border-radius: 50%; background: var(--acc); box-shadow: 0 0 16px var(--acc); }
 @media (max-width: 760px) { .plan-left { margin-left: 0; width: 100%; } .plan-when { font-size: 17px; } }
+
+/* Accounts: sign-in form, account page, admin table */
+.account-btn { width: auto; min-width: 44px; padding: 0 10px; gap: 8px; display: inline-flex; align-items: center; justify-content: center; font: 600 14px var(--body); }
+.account-btn.in { color: var(--text); border-color: color-mix(in srgb, var(--plum) 45%, transparent); }
+.auth { display: grid; gap: 16px; margin-top: 24px; padding: 26px; }
+.auth-tabs { display: flex; gap: 8px; }
+.auth-tabs .chip::after { display: none; }
+.auth label { display: grid; gap: 8px; font-weight: 600; font-size: 15px; }
+.auth label small { font-weight: 400; color: var(--muted); font-size: 13.5px; }
+.auth input:not([type=checkbox]), .admin-search input { min-height: 52px; padding: 0 16px; border-radius: 14px; border: 1px solid var(--line); background: var(--bg2); font-size: 17px; font-weight: 500; transition: border-color var(--fast), box-shadow var(--mid); }
+.auth input:not([type=checkbox]):hover, .admin-search input:hover { border-color: color-mix(in srgb, var(--plum) 55%, transparent); }
+.auth input:not([type=checkbox]):focus, .admin-search input:focus { outline: none; border-color: var(--plum); box-shadow: 0 0 0 4px color-mix(in srgb, var(--plum) 22%, transparent); }
+.auth input[autocomplete=username] { letter-spacing: .12em; text-transform: uppercase; }
+.auth .auth-consent { grid-template-columns: 22px 1fr; align-items: start; font-weight: 400; color: var(--soft); }
+.auth-consent input { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--acc); }
+.auth-consent a, .prose a, .foot a { color: var(--acc-text); text-decoration: underline; text-underline-offset: 3px; }
+.auth-error { padding: 12px 14px; border-radius: 12px; color: var(--bad); background: color-mix(in srgb, var(--bad) 10%, transparent); border: 1px solid color-mix(in srgb, var(--bad) 40%, transparent); }
+.auth .btn { width: 100%; }
+.auth-or { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 14px; }
+.auth-or::before, .auth-or::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.account { display: grid; gap: 14px; margin: 24px 0; }
+.account dt { color: var(--muted); font-size: 14px; }
+.account dd { margin: 2px 0 0; font-weight: 600; overflow-wrap: anywhere; }
+.skeleton { height: 220px; margin-top: 40px; border-radius: 22px; background: linear-gradient(100deg, var(--glass) 30%, var(--glass2) 50%, var(--glass) 70%) 0 0 / 300% 100%; animation: skeleton 1.4s linear infinite; }
+@keyframes skeleton { to { background-position: -300% 0; } }
+.prose h2 { font-size: 24px; font-weight: 700; margin-top: 32px; }
+.prose p, .prose ul { margin-top: 12px; color: var(--soft); }
+.prose li + li { margin-top: 6px; }
+.admin-stats { margin-top: 24px; padding-bottom: 0; }
+.admin-search { display: grid; gap: 8px; margin: 28px 0 14px; max-width: 420px; font-weight: 600; font-size: 15px; }
+.admin-table { overflow-x: auto; border-radius: 18px; border: 1px solid var(--line); background: var(--bg2); }
+.admin-table table { width: 100%; border-collapse: collapse; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+.admin-table th, .admin-table td { padding: 12px 14px; text-align: left; white-space: nowrap; border-bottom: 1px solid var(--line); }
+.admin-table th { color: var(--muted); font-weight: 600; font-size: 13px; position: sticky; top: 0; background: var(--bg2); }
+.admin-table tbody tr { transition: background-color var(--fast); }
+.admin-table tbody tr:hover { background: var(--glass2); }
+.admin-table b { letter-spacing: .06em; }
+.admin-bar { display: inline-block; width: 80px; height: 6px; margin-right: 8px; border-radius: 9px; background: var(--glass2); overflow: hidden; vertical-align: middle; }
+.admin-bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--plum), var(--acc)); }
+@media (max-width: 760px) { .account-btn span { display: none; } .auth { padding: 18px; } }

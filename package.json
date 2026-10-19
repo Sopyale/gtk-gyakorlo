@@ -8,11 +8,12 @@
     "build": "npm run check-data && vite build",
     "preview": "vite preview",
     "check-data": "node scripts/check-data.mjs",
-    "test": "node src/lib/quiz.test.mjs && node src/lib/plan.test.mjs"
+    "test": "node src/lib/quiz.test.mjs && node src/lib/plan.test.mjs && node src/lib/account.test.mjs"
   },
   "dependencies": {
     "@fontsource-variable/bricolage-grotesque": "^5.1.0",
     "@fontsource-variable/figtree": "^5.1.1",
+    "@supabase/supabase-js": "2.116.0",
     "lucide-react": "^0.468.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
