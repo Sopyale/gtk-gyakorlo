@@ -5,7 +5,8 @@ const root = new URL('../src/data/', import.meta.url);
 const read = (p) => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
 const subjects = read('subjects.json');
 const TYPES = ['igaz-hamis', 'feleletvalasztos', 'rovid-valasz', 'parositas', 'abra'];
-const figures = readFileSync(new URL('../src/figures/index.js', import.meta.url), 'utf8');
+const figDir = new URL('../src/figures/', import.meta.url);
+const figures = readdirSync(figDir).map((f) => readFileSync(new URL(f, figDir), 'utf8')).join('\n');
 const strict = process.argv.includes('--strict'); // stage 3+: missing sections become errors
 const errors = [], warnings = [];
 const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^\p{L}\p{N} ]/gu, '').replace(/\s+/g, ' ').trim();

@@ -86,13 +86,20 @@ export function apportion(weights, total) {
   return out;
 }
 
-export const MOCK_MIX = { 'igaz-hamis': 16, feleletvalasztos: 5, 'rovid-valasz': 3, abra: 1 };
+// The lecturer: many figure questions, so figures get a bigger share than in the practice ZH.
+export const MOCK_MIX = { 'igaz-hamis': 13, feleletvalasztos: 4, 'rovid-valasz': 3, abra: 5 };
 
-// Mock ZH: the real ZH's type mix, each type spread over the chapters in proportion to the pool.
+// ZH-level: the real practice-ZH questions and the hard ones written to match them.
+export const zhLevel = (q) => q.official || q.difficulty === 3;
+
+// Mock ZH: the real ZH's type mix, each type spread over the chapters in proportion to the pool;
+// ZH-level questions only, unless a type has too few of them.
 export function drawMock(questions) {
   const picked = [];
   for (const [type, quota] of Object.entries(MOCK_MIX)) {
-    const pool = questions.filter((q) => q.type === type);
+    const all = questions.filter((q) => q.type === type);
+    const hard = all.filter(zhLevel);
+    const pool = hard.length >= quota ? hard : all;
     const byChapter = Object.groupBy ? Object.groupBy(pool, (q) => q.chapter) : groupBy(pool);
     const weights = Object.fromEntries(Object.entries(byChapter).map(([c, qs]) => [c, qs.length]));
     const share = apportion(weights, Math.min(quota, pool.length));

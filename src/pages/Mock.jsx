@@ -43,7 +43,7 @@ export default function Mock({ subject }) {
     return (
       <div className="wrap page narrow">{back}
         <div className="empty"><Clock size={36} aria-hidden="true" /><h1>ZH-szimuláció</h1>
-          <p>20 perc, {total} kérdés a valódi ZH arányaival: {MOCK_MIX['igaz-hamis']} igaz–hamis, {MOCK_MIX.feleletvalasztos} feleletválasztós, {MOCK_MIX['rovid-valasz']} rövid válasz és {MOCK_MIX.abra} ábrás. A kérdések a fejezetek arányában jönnek. Visszajelzést csak a végén kapsz.</p>
+          <p>20 perc, {total} ZH-szintű kérdés: {MOCK_MIX['igaz-hamis']} igaz–hamis, {MOCK_MIX.feleletvalasztos} feleletválasztós, {MOCK_MIX['rovid-valasz']} rövid válasz és {MOCK_MIX.abra} ábrás, mert a ZH-n sok lesz az ábrás kérdés. A kérdések a fejezetek arányában jönnek. Visszajelzést csak a végén kapsz.</p>
           <button className="btn pri" onClick={() => { setQs(drawMock(scopeQuestions(subject))); setAnswers([]); setI(0); setLeft(LIMIT); setPhase('run'); }}>Indítás</button>
         </div>
       </div>

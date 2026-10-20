@@ -1,5 +1,8 @@
 import * as c from './charts.jsx';
 import Icc from './Icc.jsx';
+import zh12 from './zh12.jsx';
+import zh34 from './zh34.jsx';
+import zh56 from './zh56.jsx';
 
 // Figure id (used in question data) → component.
 export const figures = {
@@ -26,4 +29,7 @@ export const figures = {
   'wine-ppf': c.WinePpf,
   'wine-trade': c.WineTrade,
   'isoquant-isocost': c.IsoquantIsocost,
+  ...zh12,
+  ...zh34,
+  ...zh56,
 };

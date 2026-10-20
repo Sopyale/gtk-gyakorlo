@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowUpRight, CalendarDays, Layers, Play, Puzzle, Repeat, Ro
 import Ring from '../components/Ring.jsx';
 import { scopeGlossary, scopeQuestions } from '../lib/data.js';
 import { daysBetween, today } from '../lib/plan.js';
-import { due, TYPES } from '../lib/quiz.js';
+import { due, TYPES, zhLevel } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 import { clearProgress, load } from '../lib/storage.js';
 
@@ -13,6 +13,7 @@ export default function Subject({ subject }) {
   const qs = scopeQuestions(subject);
   const [chapters, setChapters] = useState([]);
   const [types, setTypes] = useState([]);
+  const [hard, setHard] = useState(false);
   const [, refresh] = useState(0);
   const answers = load('answers', {});
   const done = qs.filter((q) => answers[q.id]).length;
@@ -21,10 +22,11 @@ export default function Subject({ subject }) {
   const wrong = qs.filter((q) => q.id in wrongIds).length;
   const dueNow = due(qs).length;
   const best = load('match', {})[subject.path];
-  const pool = qs.filter((q) => (!chapters.length || chapters.includes(q.chapter)) && (!types.length || types.includes(q.type)));
+  const pool = qs.filter((q) => (!chapters.length || chapters.includes(q.chapter)) && (!types.length || types.includes(q.type)) && (!hard || zhLevel(q)));
   const query = new URLSearchParams();
   if (chapters.length) query.set('ch', chapters.join(','));
   if (types.length) query.set('t', types.join(','));
+  if (hard) query.set('zh', '1');
   // Weak spots: share of right answers per chapter (latest answer per question), worst first.
   const weak = subject.chapters.map((c) => {
     const seen = qs.filter((q) => q.chapter === c.n && q.id in answers);
@@ -58,6 +60,10 @@ export default function Subject({ subject }) {
             <button key={k} className="chip" aria-pressed={types.includes(k)} onClick={() => setTypes(toggle(types, k))}>{v}</button>
           ))}
         </div>
+        <h2>Nehézség</h2>
+        <div className="chips">
+          <button className="chip" aria-pressed={hard} onClick={() => setHard(!hard)}>Csak ZH-szintű ({qs.filter(zhLevel).length})</button>
+        </div>
       </section>
 
       <div className="bento modes">
@@ -75,7 +81,7 @@ export default function Subject({ subject }) {
         </a>
         <a className="card mode glow" href={href(subject.path, 'szimulacio')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Timer size={24} className="mi" aria-hidden="true" /><h3>ZH-szimuláció</h3>
-          <p>20 perc, 25 kérdés a valódi ZH arányaival. Értékelés csak a végén.</p>
+          <p>20 perc, 25 ZH-szintű kérdés, sok ábrással. Értékelés csak a végén.</p>
         </a>
         <a className="card mode glow" href={href(subject.path, 'flashcard')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Layers size={24} className="mi" aria-hidden="true" /><h3>Flashcardok</h3>

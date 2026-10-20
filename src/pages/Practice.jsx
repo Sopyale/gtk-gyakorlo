@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { ArrowLeft, Flame, PartyPopper } from 'lucide-react';
 import QuestionCard from '../components/QuestionCard.jsx';
 import { scopeQuestions } from '../lib/data.js';
-import { due, record, shuffle } from '../lib/quiz.js';
+import { due, record, shuffle, zhLevel } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 import { load } from '../lib/storage.js';
 
@@ -11,13 +11,14 @@ export default function Practice({ subject, mode, params }) {
   const queue = useMemo(() => {
     const ch = params.get('ch')?.split(',').map(Number);
     const t = params.get('t')?.split(',');
+    const zh = params.get('zh') === '1';
     const all = scopeQuestions(subject);
     if (mode === 'ismetles') return shuffle(due(all));
     if (mode === 'rontott') {
       const wrong = load('wrong', {});
       return shuffle(all.filter((q) => q.id in wrong));
     }
-    return shuffle(all.filter((q) => (!ch || ch.includes(q.chapter)) && (!t || t.includes(q.type))));
+    return shuffle(all.filter((q) => (!ch || ch.includes(q.chapter)) && (!t || t.includes(q.type)) && (!zh || zhLevel(q))));
   }, [subject.path, mode, params]);
   const [i, setI] = useState(0);
   const [score, setScore] = useState(0);
