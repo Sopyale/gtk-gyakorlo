@@ -1,9 +1,9 @@
 # GTK gyakorló
 
 Practice question bank for first-semester ELTE GTK subjects. Currently it covers the Közgazdaságtan 1. ZH:
-294 questions, 74 flashcards and a 20-minute mock ZH. The site itself is in Hungarian.
+422 questions, 74 flashcards and a 20-minute mock ZH. The site itself is in Hungarian.
 
-Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 1.5.2 ([change log](log/LOG.md))
+Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 1.6.0 ([change log](log/LOG.md))
 
 > For personal use only, not to be distributed. The site is based on ELTE's internal teaching materials; the copyright
 > of the original materials belongs to the lecturers and ELTE GTK. The notes, the textbook and the ZH materials
@@ -18,8 +18,9 @@ Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 1.5.2 ([c
 - **Rontott kérdéseim** (my wrong answers): wrong answers collect here and leave after two correct answers in a row.
 - **Ismétlés** (spaced repetition): missed questions come back after 1, 3 and 7 days.
 - **Párosító** (matching game): match 6 terms to their definitions against the clock; the best time is kept.
-- **ZH-szimuláció** (mock ZH): 20 minutes, 25 questions in the real ZH mix (16 true/false, 5 multiple choice,
-  3 short answer, 1 figure), scored at the end.
+- **ZH-szimuláció** (mock ZH): 20 minutes, 25 ZH-level questions (13 true/false, 4 multiple choice, 3 short answer,
+  5 figure, since the lecturer said there will be many figure questions), scored at the end.
+- **ZH-szint** filter: only the real practice-ZH questions and the hard ZH-style ones (`official` or `difficulty: 3`).
 - **Flashcardok** from the note's glossary.
 - **Ütemterv** (study plan): spreads the chapters over the days until the ZH by question count; the last day is review.
 - **Accounts** (optional): Neptun code + password + own non-ELTE e-mail, or Google sign-in. Progress syncs across

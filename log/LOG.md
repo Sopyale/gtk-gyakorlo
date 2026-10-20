@@ -3,6 +3,19 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.6.0 – 2026-10-20
+
+- **ZH-style questions:** 128 new hard questions (`difficulty: 3`), 422 in total, modelled on the practice ZH and the
+  lecturer's ZH description: tricky true/false statements, 4-option multiple choice with close distractors, 1–2 word
+  technical terms, case examples and numeric comparative-advantage and cost-minimisation questions. 37 are figure
+  questions, with 21 new own SVG figures of the book summary's diagrams (`src/figures/zh12.jsx`, `zh34.jsx`,
+  `zh56.jsx`). Only from the note and the textbook; footnotes left out. Requested by the owner because the ZH asks for
+  precise understanding.
+- **Csak ZH-szintű filter** on the 1. ZH page (real practice-ZH questions plus the hard ones).
+- **ZH-szimuláció:** draws ZH-level questions only, with 5 figure questions instead of 1 (13 true/false, 4 multiple
+  choice, 3 short answer), because the lecturer said there will be many figure questions.
+- `check-data` now finds figure ids in every file of `src/figures/`.
+
 ## 1.5.2 – 2026-10-19
 
 - **Explanations checked:** all 294 explanations compared one by one with the note and the matching textbook pages

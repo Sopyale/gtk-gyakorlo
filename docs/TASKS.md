@@ -72,9 +72,9 @@ Every change the owner asks for is added here as a new task before work starts, 
 
 ## 1.6.0
 
-- [ ] ZH-style questions: add harder questions modelled on the practice ZH and the lecturer's ZH description (true/false
+- [x] ZH-style questions: add harder questions modelled on the practice ZH and the lecturer's ZH description (true/false
       traps, 4-option multiple choice, 1–2 word technical-term answers, many figure questions on the book summary's
       figures, case examples), only from the note and the textbook
-- [ ] "ZH-szint" filter on the ZH page, and the mock ZH prefers ZH-level questions
+- [x] "ZH-szint" filter on the ZH page, and the mock ZH prefers ZH-level questions
 
 ## Open

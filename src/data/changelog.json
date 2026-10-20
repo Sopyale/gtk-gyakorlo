@@ -1,4 +1,5 @@
 [
+  { "version": "1.6.0", "date": "2026-10-20", "items": ["128 új, nehezebb, ZH-szerű kérdés sok ábrával, ZH-szint szűrő, és a ZH-szimuláció is ezekből kérdez."] },
   { "version": "1.5.1", "date": "2026-10-19", "items": ["Érthetőbb magyarázatok szinte minden kérdéshez."] },
   { "version": "1.5.0", "date": "2026-10-19", "items": ["Új: Ismétlés mód (az elrontott kérdések napok múlva visszajönnek) és Párosító játék."] },
   { "version": "1.4.0", "date": "2026-10-19", "items": ["Visszaszámlálás a ZH-ig, gyenge pontok fejezetenként, és jelezheted a hibás kérdéseket."] },

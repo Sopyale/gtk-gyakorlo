@@ -1040,5 +1040,378 @@
     "source": "Jegyzet 2.9 · Könyv 23–24. o.",
     "official": false,
     "difficulty": 2
+  },
+  {
+    "id": "kg-2-072",
+    "type": "igaz-hamis",
+    "chapter": 2,
+    "section": "2.7",
+    "question": "A helyettesítési határráta a közömbösségi görbe adott pontjában húzott érintő meredekségének abszolút értéke.",
+    "answer": true,
+    "explanation": "A helyettesítési rátát egyetlen pontra értelmezve az érintő dQb/dQa meredekségét kapjuk: ez a helyettesítési határráta (MRS).",
+    "source": "Jegyzet 2.7 · Könyv 18. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-073",
+    "type": "igaz-hamis",
+    "chapter": 2,
+    "section": "2.7",
+    "question": "A helyettesítési ráta egyetlen pontra értelmezett mutató, a helyettesítési határráta pedig két pont közötti cserearány.",
+    "answer": false,
+    "explanation": "Fordítva: a helyettesítési ráta két pont (A és B) közötti cserearány, a szelő meredeksége; a határráta az egy pontban húzott érintőé.",
+    "source": "Jegyzet 2.7 · Könyv 18. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-074",
+    "type": "igaz-hamis",
+    "chapter": 2,
+    "section": "2.8",
+    "question": "Ha a jövedelem és mindkét jószág ára is pontosan a kétszeresére nő, a költségvetési egyenes helyzete nem változik.",
+    "answer": true,
+    "explanation": "A tengelymetszetek I/Pa és I/Pb: ha a számláló és a nevező is kétszeres, a hányados nem változik, így az egyenes ugyanott marad.",
+    "source": "Jegyzet 2.8 · Könyv 21–22. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-075",
+    "type": "igaz-hamis",
+    "chapter": 2,
+    "section": "2.8",
+    "question": "Ha csak a b jószág ára csökken, a költségvetési egyenes Qa-tengelymetszete nő.",
+    "answer": false,
+    "explanation": "A Qa-tengelymetszet I/Pa, ez nem függ Pb-től. Pb csökkenésekor az I/Pb metszet nő, az egyenes a Qa-metszet körül kifelé fordul.",
+    "source": "Jegyzet 2.8 · Könyv 21–22. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-076",
+    "type": "igaz-hamis",
+    "chapter": 2,
+    "section": "2.9",
+    "question": "Pénzkorlát mellett az optimumban a két jószág határhasznossága akkor is egyenlő, ha az áruk különböző.",
+    "answer": false,
+    "explanation": "Az optimumban MUa/MUb = Pa/Pb, vagyis a pénzegységre jutó határhasznosságok (MU/P) egyenlők. Különböző áraknál a határhasznosságok különböznek.",
+    "source": "Jegyzet 2.9 · Könyv 23–24. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-077",
+    "type": "igaz-hamis",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Pénzkorlát esetén az előnykiegyenlítés elve szerint az egyes termékekre költött utolsó pénzegység határhasznossága minden terméknél azonos.",
+    "answer": true,
+    "explanation": "A jószág határhasznosságát az árához kell viszonyítani: optimumban MUa/Pa = MUb/Pb = … = MUM.",
+    "source": "Jegyzet 2.4 · Könyv 16. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-078",
+    "type": "igaz-hamis",
+    "chapter": 2,
+    "section": "2.3",
+    "question": "Az értékparadoxon feloldása szerint egy jószág árát a teljes készletének hasznossága határozza meg.",
+    "answer": false,
+    "explanation": "Nem a teljes készlet hasznossága számít, hanem az utolsó (vagy következő) egységé. A vízből sok van, ezért a határhasznossága kicsi.",
+    "source": "Jegyzet 2.3 · Könyv 15. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-079",
+    "type": "igaz-hamis",
+    "chapter": 2,
+    "section": "2.2",
+    "question": "A csökkenő határhasznosság elve azt mondja ki, hogy a fogyasztott mennyiség növelésével a teljes hasznosság csökken.",
+    "answer": false,
+    "explanation": "Az elv a határhasznosságról szól: az újabb egységek többlethasznossága egyre kisebb. A teljes hasznosság közben (a telítődésig) nő, csak lassuló ütemben.",
+    "source": "Jegyzet 2.2 · Könyv 14–15. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-080",
+    "type": "feleletvalasztos",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Svédasztalos reggelinél a fogyasztó ingyen válogathat. Mi jellemzi a hasznosságmaximalizáló választás végeredményét?",
+    "answer": "az egyes ételek utolsó falatjainak határhasznossága megegyezik",
+    "options": [
+      "az egyes ételek utolsó falatjainak határhasznossága megegyezik",
+      "minden ételből ugyanannyit eszik",
+      "csak azt az ételt eszi, amelytől a legnagyobb hasznosságot reméli",
+      "az egyes ételek teljes hasznossága megegyezik"
+    ],
+    "explanation": "Ez az előnykiegyenlítés elve: a fogyasztó addig vált ételek között, amíg az utolsó falatok hasznosságnövekménye minden ételnél egyenlő nem lesz.",
+    "source": "Jegyzet 2.4 · Könyv 15–16. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-081",
+    "type": "rovid-valasz",
+    "chapter": 2,
+    "section": "2.8",
+    "question": "Mi a neve annak az egyenesnek, amelyen az I jövedelem teljes elköltésével megvásárolható jószágkombinációk vannak?",
+    "answer": [
+      "költségvetési korlát",
+      "költségvetési egyenes"
+    ],
+    "explanation": "A költségvetési korlát (egyenes) tengelymetszetei I/Pa és I/Pb, meredeksége a Pa/Pb árarány.",
+    "source": "Jegyzet 2.8 · Könyv 21. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-082",
+    "type": "rovid-valasz",
+    "chapter": 2,
+    "section": "2.2",
+    "question": "Mi a neve a TU görbe azon pontjának, amely után a hasznosságérzet már csökkenni kezd?",
+    "answer": [
+      "telítettségi pont",
+      "telítődési pont",
+      "telítési pont"
+    ],
+    "explanation": "A telítettségi pontban a határhasznosság nulla; utána negatív, ezért a teljes hasznosság csökken.",
+    "source": "Jegyzet 2.2 · Könyv 15. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-083",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.7",
+    "question": "Az ábrán az A és B pontot összekötő egyenes meredekségének abszolút értéke (ΔQb/ΔQa) mit fejez ki?",
+    "figure": "zh12-ic-secant",
+    "answer": "a helyettesítési rátát A és B között",
+    "options": [
+      "a helyettesítési rátát A és B között",
+      "a helyettesítési határrátát az A pontban",
+      "a két jószág árának arányát",
+      "a hasznosság növekedését A-ból B-be"
+    ],
+    "explanation": "Két pont közötti cserearány a helyettesítési ráta (a szelő meredeksége). A határráta az egy pontban húzott érintő meredeksége.",
+    "source": "Jegyzet 2.7 · Könyv 18. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-084",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Mi történik a fogyasztó hasznosságával, ha az ábrán A-ból B-be lép?",
+    "figure": "zh12-ic-secant",
+    "answer": "nem változik, mert A és B ugyanazon a közömbösségi görbén van",
+    "options": [
+      "nem változik, mert A és B ugyanazon a közömbösségi görbén van",
+      "nő, mert Qa nő",
+      "csökken, mert Qb csökken",
+      "nő, mert B közelebb van a Qa tengelyhez"
+    ],
+    "explanation": "A közömbösségi görbe azonos hasznosságú kosarakat köt össze: a Qb csökkenését éppen kompenzálja a Qa növekedése.",
+    "source": "Jegyzet 2.5 · Könyv 17–18. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-085",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.7",
+    "question": "Mivel egyenlő az ábrán az A pontban húzott érintő meredekségének abszolút értéke?",
+    "figure": "zh12-ic-tangent",
+    "answer": "MUa/MUb",
+    "options": [
+      "MUa/MUb",
+      "MUb/MUa",
+      "I/Pa",
+      "TUa/TUb"
+    ],
+    "explanation": "Az érintő meredeksége a helyettesítési határráta: MRS = dQb/dQa = MUa/MUb, mert a görbe mentén a hasznosság nem változik.",
+    "source": "Jegyzet 2.7 · Könyv 18–19. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-086",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.7",
+    "question": "Mi történik az érintő meredekségével (az MRS-sel), ha az ábrán az A pontból a görbe mentén jobbra haladunk?",
+    "figure": "zh12-ic-tangent",
+    "answer": "csökken, az érintő egyre laposabb",
+    "options": [
+      "csökken, az érintő egyre laposabb",
+      "nő, az érintő egyre meredekebb",
+      "nem változik",
+      "előbb nő, majd csökken"
+    ],
+    "explanation": "Jobbra haladva a fogyasztó csak egyre több a-ért hajlandó lemondani b-ről, ezért az MRS folyamatosan csökken.",
+    "source": "Jegyzet 2.7 · Könyv 18. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-087",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "Az ábrán emelkedő közömbösségi görbék láthatók. Melyik esetre jellemző ez a közömbösségi térkép?",
+    "figure": "zh12-ic-bad",
+    "answer": "az a jószág fogyasztása negatív hasznosságot okoz",
+    "options": [
+      "az a jószág fogyasztása negatív hasznosságot okoz",
+      "tökéletes kiegészítő termékek",
+      "tökéletes helyettesítő termékek",
+      "mindkét jószág normál jószág"
+    ],
+    "explanation": "Ha a rossz érzést kelt, több a-t csak több b kompenzálhat, ezért a görbék emelkedők.",
+    "source": "Jegyzet 2.6 · Könyv 20. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-088",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.8",
+    "question": "Mit jelöl az ábrán a költségvetési egyenes alatti besraffozott terület?",
+    "figure": "zh12-budget-set",
+    "answer": "a fogyasztó számára elérhető jószágkombinációkat",
+    "options": [
+      "a fogyasztó számára elérhető jószágkombinációkat",
+      "csak a jövedelem teljes elköltésével vásárolható kombinációkat",
+      "az azonos hasznosságú kosarakat",
+      "a fogyasztó számára nem megfizethető kombinációkat"
+    ],
+    "explanation": "A besraffozott rész minden kosara megvehető az I jövedelemből. A jövedelem teljes elköltésével vásárolható kombinációk csak magán az egyenesen vannak.",
+    "source": "Jegyzet 2.8 · Könyv 21. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-089",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.8",
+    "question": "Mit mutat az ábrán a Qa tengelyen jelölt I/Pa pont?",
+    "figure": "zh12-budget-set",
+    "answer": "mennyi a jószágot vehet a fogyasztó, ha teljes jövedelmét arra költi",
+    "options": [
+      "mennyi a jószágot vehet a fogyasztó, ha teljes jövedelmét arra költi",
+      "az a jószág egységárát",
+      "a b jószágból vásárolható legnagyobb mennyiséget",
+      "a fogyasztó optimális a-fogyasztását"
+    ],
+    "explanation": "A tengelymetszet a teljes I jövedelemből vásárolható a mennyiség, amikor b-ből semmit sem vesz.",
+    "source": "Jegyzet 2.8 · Könyv 21. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-090",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.8",
+    "question": "Az ábrán a szaggatott az eredeti költségvetési egyenes. Mindkét tengelymetszet és a meredekség is megváltozott. Mi okozhatta?",
+    "figure": "zh12-budget-general",
+    "answer": "az árarányok változása, ár- és/vagy jövedelemváltozással együtt",
+    "options": [
+      "az árarányok változása, ár- és/vagy jövedelemváltozással együtt",
+      "csak a jövedelem változott",
+      "minden ár ugyanolyan arányban nőtt",
+      "csak az a jószág ára nőtt"
+    ],
+    "explanation": "A meredekség (Pa/Pb) változása árarány-változást jelez; mivel a Qb-metszet is elmozdult, emellett ár- és/vagy jövedelemváltozás is történt.",
+    "source": "Jegyzet 2.8 · Könyv 22–23. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-091",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.8",
+    "question": "Az ábrán a szaggatott az eredeti költségvetési egyenes. Mi NEM változott az elfordulás során?",
+    "figure": "budget-price-rotate",
+    "answer": "az I/Pb tengelymetszet",
+    "options": [
+      "az I/Pb tengelymetszet",
+      "az egyenes meredeksége",
+      "az I/Pa tengelymetszet",
+      "a megvásárolható kombinációk halmaza"
+    ],
+    "explanation": "Csak Pa nőtt, ezért az I/Pa metszet és vele a meredekség változott, az I/Pb metszet változatlan; az elérhető kombinációk halmaza szűkült.",
+    "source": "Jegyzet 2.8 · Könyv 22. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-092",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.9",
+    "question": "Az ábrán az A optimumpontban mi egyenlő a költségvetési egyenes meredekségének abszolút értékével (Pa/Pb)?",
+    "figure": "zh12-optimum",
+    "answer": "a helyettesítési határráta (MRS)",
+    "options": [
+      "a helyettesítési határráta (MRS)",
+      "a fogyasztó jövedelme (I)",
+      "az I/Pb tengelymetszet",
+      "a b jószág határhasznossága"
+    ],
+    "explanation": "Az érintési pontban a közömbösségi görbe meredeksége (MRS) éppen a két jószág árának aránya: MRS = MUa/MUb = Pa/Pb.",
+    "source": "Jegyzet 2.9 · Könyv 23–24. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-093",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Az ábra közömbösségi térképén mennyivel nagyobb hasznosságot jelent az U2 görbe, mint az U1?",
+    "figure": "indifference-map",
+    "answer": "nem tudjuk, a térkép csak a sorrendet mutatja",
+    "options": [
+      "nem tudjuk, a térkép csak a sorrendet mutatja",
+      "kétszer akkorát",
+      "pontosan egy egységgel nagyobbat",
+      "semennyivel, a két görbe azonos hasznosságú"
+    ],
+    "explanation": "A távolabbi görbe magasabb hasznossági szint, de a szintek csak a sorrendet fejezik ki, a hasznosság nagyságáról semmit sem mondanak.",
+    "source": "Jegyzet 2.5 · Könyv 19. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-2-094",
+    "type": "abra",
+    "chapter": 2,
+    "section": "2.2",
+    "question": "Az ábrán a TU görbe a csúcsa után csökken. Mit jelent ez a határhasznosságra (MU)?",
+    "figure": "tu-mu",
+    "answer": "negatív: a telítődés után az újabb egység csökkenti a teljes hasznosságot",
+    "options": [
+      "negatív: a telítődés után az újabb egység csökkenti a teljes hasznosságot",
+      "nulla marad",
+      "újra nőni kezd",
+      "pozitív, csak egyre kisebb"
+    ],
+    "explanation": "Az MU a TU változása. A telítődési pontban MU = 0, utána negatív, ezért a TU csökken.",
+    "source": "Jegyzet 2.2 · Könyv 15. o.",
+    "official": false,
+    "difficulty": 3
   }
 ]

@@ -2,7 +2,7 @@
 
 Practice website for first-semester ELTE GTK students. Static, Hungarian UI, English code.
 Changes only with the owner's approval; every change follows [docs/RULES.md](docs/RULES.md) and is logged in
-[log/LOG.md](log/LOG.md). Current version: 1.5.2.
+[log/LOG.md](log/LOG.md). Current version: 1.6.0.
 
 ## 1. Objective
 
@@ -58,7 +58,7 @@ Out: own server code, third-party analytics or tracking, any content outside the
   "Tananyagok (Google Drive)" button → `https://drive.google.com/drive/folders/15-MBuk89WvQ-HQwPefg7sUawg0LdZi-0?usp=drive_link`
   with a one-line note that access is granted on request. A countdown to each active ZH ("2 nap az 1. ZH-ig") shows in
   the hero and on the ZH card; the date is `date` on the exam in `subjects.json`, or the student's own Ütemterv date.
-- **Subject page**: the four modes as cards, chapter filter (6 chapters), type filter, overall progress.
+- **Subject page**: the modes as cards, chapter filter (6 chapters), type filter, "Csak ZH-szintű" filter (`zh=1`), overall progress.
   "Gyenge pontok": share of right answers per chapter (latest answer per question), worst first, each linking to
   practice of that chapter.
 - **Gyakorlás**: random questions from the selected chapters/types; one at a time; progress bar; feedback after each answer
@@ -71,8 +71,9 @@ Out: own server code, third-party analytics or tracking, any content outside the
   how many are due today.
 - **Párosító** (matching game): 6 random glossary terms and their definitions, shuffled; tap a term, then its
   definition; a wrong pair adds 1 second; the best time per ZH is kept in `match` (synced).
-- **ZH-szimuláció**: 20 minutes, 25 questions drawn proportionally from the chapters; mix ≈ 16 igaz-hamis, 5 feleletválasztós,
-  3 rövid válasz, 1 ábrás; no feedback until the end; then score, per-chapter breakdown, review of every question.
+- **ZH-szimuláció**: 20 minutes, 25 questions drawn proportionally from the chapters; mix 13 igaz-hamis, 4 feleletválasztós,
+  3 rövid válasz, 5 ábrás (the lecturer: many figure questions); only ZH-level questions (`official` or
+  `difficulty: 3`) unless a type has too few; no feedback until the end; then score, per-chapter breakdown, review of every question.
 - **Flashcardok**: glossary terms (front: term; back: definition + section), "tudtam / nem tudtam", unknown cards repeat.
 - **Ütemterv**: the student sets the ZH date; the chapters are spread over the days by question count, the last day is
   review when at least three days are left; days can be ticked off; "Újratervezés mától" re-plans from today.

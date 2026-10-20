@@ -926,5 +926,255 @@
     "source": "Jegyzet 1.10 · Könyv 3. o.",
     "official": false,
     "difficulty": 1
+  },
+  {
+    "id": "kg-1-065",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "A drive-redukciós elmélet szerint a drive csökkenése önmagában örömet is okoz.",
+    "answer": true,
+    "explanation": "A belső feszültség csökkentése már magában is jó érzés: a könyv összefoglalása szerint a drive csökkenése örömet is okoz.",
+    "source": "Jegyzet 1.4 · Könyv 6. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-066",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "Az arousalszint-elmélet szerint minden ember a lehető legalacsonyabb izgalmi szint elérésére törekszik.",
+    "answer": false,
+    "explanation": "Nem a legalacsonyabb (nulla), hanem a számára optimális arousalszint a cél: túl magas szintnél csökkentjük, túl alacsonynál ingereket keresünk.",
+    "source": "Jegyzet 1.4 · Könyv 6. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-067",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "Az evolúciós csökevények olyan viselkedési rutinok, amelyek egykor a túlélést, szaporodást segítették, de a mai körülmények között már aligha.",
+    "answer": true,
+    "explanation": "A természetes kiválasztódás a mai környezettől nagyon eltérő világhoz faragott minket, ezért egyes rutinjaink ma már értelmetlennek tűnnek.",
+    "source": "Jegyzet 1.5 · Könyv 7. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-068",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "A közgazdaságtan a fogyasztó szükségleteit kész tényként fogadja el, és ennek figyelembevételével vizsgálja a választásait.",
+    "answer": true,
+    "explanation": "A szükségleteket adottnak veszi, eredetükkel (a drive-okkal) nem foglalkozik; a kielégítésüket a hasznosság fogalmán keresztül ragadja meg.",
+    "source": "Jegyzet 1.6 · Könyv 8. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-069",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "A homo oeconomicus olyan átlagegyén, aki minden piacon ugyanaz a hipotetikus személy.",
+    "answer": false,
+    "explanation": "Az átlagegyénnek mindig az adott, modellezett helyzethez kell illeszkednie: más a fagylaltpiac és más a tűzifapiac átlagvásárlója.",
+    "source": "Jegyzet 1.7 · Könyv 9–10. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-070",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "A racionális kalkuláció korlátozott informáltságot, de tökéletes matematikai képességeket tételez fel.",
+    "answer": false,
+    "explanation": "A racionális kalkuláció teljes informáltságot, világos preferenciarendezést és tökéletes valószínűség-számítási, matematikai képességeket tételez fel.",
+    "source": "Jegyzet 1.7 · Könyv 11–12. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-071",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "A homo oeconomicusi megközelítés ereje azon múlik, mennyire reálisak a modell feltételezései az adott helyzetben.",
+    "answer": true,
+    "explanation": "Ha az adott esetben a homo oeconomicusi feltételezések viszonylag reálisak, a modell jól használható, ellenkező esetben nem.",
+    "source": "Jegyzet 1.7 · Könyv 12–13. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-072",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Ha valaki azért segít, mert jó érzés jó embernek lenni, az igazi altruizmus.",
+    "answer": false,
+    "explanation": "Ez pszichológiai haszonért tett ál-altruizmus, ami belefér az önzésbe. Igazi altruizmus csak az, ha a másik öröme, jóléte kerül előtérbe.",
+    "source": "Jegyzet 1.8 · Könyv 10–11. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-073",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "A homo oeconomicus tehet megtérülő etikai lépéseket, vagyis hosszabb távú előnyért rövidebb távú hátrányt vállalhat.",
+    "answer": true,
+    "explanation": "A megtérülő etika racionális: rövid távon veszteség, hosszú távon nyereség. Öncélú etikai alapon viszont a homo oeconomicus sosem dönt.",
+    "source": "Jegyzet 1.8 · Könyv 11. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-074",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "A homo oeconomicus etikai okokból lemondhat egy számára előnyös lehetőségről.",
+    "answer": false,
+    "explanation": "A homo oeconomicus nem követ öncélú etikát: etikai okból magának nem árt, magától jót nem tagad meg.",
+    "source": "Jegyzet 1.8 · Könyv 11. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-075",
+    "type": "igaz-hamis",
+    "chapter": 1,
+    "section": "1.9",
+    "question": "„Az alacsony jövedelműeknek kevesebb adót kellene fizetniük.” Ez pozitív állítás, mert adatokkal alátámasztható.",
+    "answer": false,
+    "explanation": "A „kellene” előíró, értékítéletet tartalmazó állítást jelez, ezért normatív. A pozitív állítás leíró, és tényekkel igazolható vagy cáfolható.",
+    "source": "Jegyzet 1.9 · Könyv 14. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-076",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Anna azért segít a szomszédjának költözni, mert számít rá, hogy a szomszéd később neki is segít. Milyen tett ez a könyv szerint?",
+    "answer": "ál-altruista, gazdasági haszonért tett",
+    "options": [
+      "ál-altruista, gazdasági haszonért tett",
+      "igazi altruista tett",
+      "ál-altruista, pszichológiai haszonért tett",
+      "öncélú etikai döntés"
+    ],
+    "explanation": "Ha a segítség később visszajön, a motívum gazdasági haszon: ez ál-altruizmus, ami belefér a homo oeconomicus önzésébe.",
+    "source": "Jegyzet 1.8 · Könyv 10–11. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-077",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "Melyik NEM a racionális kalkuláció feltevése?",
+    "answer": "a döntés utáni vágyigazítás („savanyú a szőlő”)",
+    "options": [
+      "a döntés utáni vágyigazítás („savanyú a szőlő”)",
+      "teljes informáltság",
+      "világos preferenciarendezés",
+      "tökéletes valószínűség-számítási, matematikai képességek"
+    ],
+    "explanation": "A teljes informáltság, a világos preferenciák és a tökéletes matematikai képesség a feltevések. A „savanyú a szőlő” a racionális kalkuláció egyik gyakorlati korlátja.",
+    "source": "Jegyzet 1.7 · Könyv 11–12. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-078",
+    "type": "feleletvalasztos",
+    "chapter": 1,
+    "section": "1.9",
+    "question": "Melyik pozitív állítás?",
+    "answer": "Ha nő a gáz ára, a háztartások kevesebb gázt fogyasztanak.",
+    "options": [
+      "Ha nő a gáz ára, a háztartások kevesebb gázt fogyasztanak.",
+      "A gáz árát alacsonyan kellene tartani.",
+      "Igazságtalan, hogy ilyen drága a gáz.",
+      "Az államnak támogatnia kellene a hőszigetelést."
+    ],
+    "explanation": "A pozitív állítás leíró: azt mondja, milyen a világ, és adatokkal ellenőrizhető. A többi „kellene” vagy értékítélet, ezért normatív.",
+    "source": "Jegyzet 1.9 · Könyv 14. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-079",
+    "type": "rovid-valasz",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "Mi a neve annak a viselkedési rutinnak, amely egykor a túlélést segítette, de ma már alig van értelme?",
+    "answer": [
+      "evolúciós csökevény",
+      "csökevény",
+      "evolúciós csökevények"
+    ],
+    "explanation": "Az evolúciós csökevény a kőkori környezethez kialakult rutin, például a kígyótól való félelem.",
+    "source": "Jegyzet 1.5 · Könyv 7. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-080",
+    "type": "rovid-valasz",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Hogy hívjuk az etikát, amelynél rövid távú hátrányt vállalunk egy hosszabb távú előnyért?",
+    "answer": [
+      "megtérülő etika",
+      "megtérülő"
+    ],
+    "explanation": "A megtérülő etika hosszú távon nyereséget hoz, ezért racionális. Az öncélú etika hosszú távon is árthat.",
+    "source": "Jegyzet 1.8 · Könyv 11. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-081",
+    "type": "rovid-valasz",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "Hogy nevezzük a velünk született, az ön- és fajfenntartással kapcsolatos hajtóerőket?",
+    "answer": [
+      "elsődleges drive",
+      "elsődleges drive-ok",
+      "elsődleges"
+    ],
+    "explanation": "Ilyen például az éhség, a szomjúság, a hőszabályozás vagy a felfedezési vágy. A másodlagos drive-ok tanulással alakulnak ki.",
+    "source": "Jegyzet 1.4 · Könyv 5–6. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-1-082",
+    "type": "rovid-valasz",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "Melyik elmélet szerint törekszik minden ember egy számára optimális izgalmi, éberségi szintre?",
+    "answer": [
+      "arousalszint-elmélet",
+      "arousalszint elmélet",
+      "arousalelmélet",
+      "arousal-elmélet"
+    ],
+    "explanation": "Az arousalszint-elmélet a drive-redukciós elméletet árnyalja: a cél nem a nulla feszültség, hanem az optimális szint.",
+    "source": "Jegyzet 1.4 · Könyv 6. o.",
+    "official": false,
+    "difficulty": 3
   }
 ]
