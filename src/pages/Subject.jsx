@@ -56,7 +56,7 @@ export default function Subject({ subject }) {
         </div>
         <h2>Kérdéstípus</h2>
         <div className="chips">
-          {Object.entries(TYPES).map(([k, v]) => (
+          {Object.entries(TYPES).filter(([k]) => qs.some((q) => q.type === k)).map(([k, v]) => (
             <button key={k} className="chip" aria-pressed={types.includes(k)} onClick={() => setTypes(toggle(types, k))}>{v}</button>
           ))}
         </div>
