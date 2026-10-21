@@ -69,24 +69,6 @@
     "difficulty": 1
   },
   {
-    "id": "kg-5-006",
-    "type": "feleletvalasztos",
-    "chapter": 5,
-    "section": "5.1",
-    "question": "Kik adják a piacon a kínálatot?",
-    "answer": "az eladók",
-    "options": [
-      "az eladók",
-      "a vevők",
-      "az állam",
-      "a fogyasztók"
-    ],
-    "explanation": "A piac két oldala: az eladók adják a kínálatot, a vevők a keresletet. A fogyasztók is vevők, tehát a keresleti oldalhoz tartoznak, nem a kínálathoz.",
-    "source": "Jegyzet 5.1",
-    "official": false,
-    "difficulty": 1
-  },
-  {
     "id": "kg-5-007",
     "type": "igaz-hamis",
     "chapter": 5,
@@ -109,18 +91,6 @@
     "source": "Jegyzet 5.2 · Könyv 33–35. o.",
     "official": false,
     "difficulty": 1
-  },
-  {
-    "id": "kg-5-009",
-    "type": "igaz-hamis",
-    "chapter": 5,
-    "section": "5.2",
-    "question": "A könyv szerint a költség a megszerzett jószághoz tartozik.",
-    "answer": false,
-    "explanation": "A költség az, amiről lemondunk: az elvesztett jószághoz tartozik, nem ahhoz, amit megszerzünk. Ezért költség mindig csak egy konkrét döntésnél, valaki számára, adott helyzetben létezik.",
-    "source": "Jegyzet 5.2 · Könyv 33–35. o.",
-    "official": false,
-    "difficulty": 2
   },
   {
     "id": "kg-5-010",
@@ -208,43 +178,6 @@
     "question": "A piaci kínálati függvény az egyéni kínálati függvényekből áll össze.",
     "answer": true,
     "explanation": "A piaci kínálat az összes eladó együttes kínálata: az egyes eladók egyéni kínálati görbéiből (SA, SB, SC) áll össze a piaci kínálati görbe (S).",
-    "source": "Jegyzet 5.3 · Könyv 35–37. o.",
-    "official": false,
-    "difficulty": 1
-  },
-  {
-    "id": "kg-5-016",
-    "type": "feleletvalasztos",
-    "chapter": 5,
-    "section": "5.3",
-    "question": "Miért emelkedő a kínálati görbe a könyv szögpéldája szerint?",
-    "answer": "mert több szöghöz egyre kevésbé alkalmas erőforrásokat kell bevonni, így nő a határ-alternatívaköltség",
-    "options": [
-      "mert több szöghöz egyre kevésbé alkalmas erőforrásokat kell bevonni, így nő a határ-alternatívaköltség",
-      "mert a vevők magasabb árat fizetnek a több szögért",
-      "mert a technológia romlik",
-      "mert csökken a kereslet"
-    ],
-    "explanation": "Több szöghöz egyre kevésbé alkalmas munkaerőt, ércet és gépet kell bevonni, így minden újabb szög többe kerül (nő a határ-alternatívaköltség). Ezért többet csak magasabb árért kínálnak. A vevők fizetése a keresleti oldalhoz tartozik, nem ez magyarázza a kínálati görbét.",
-    "source": "Jegyzet 5.3 · Könyv 35–37. o.",
-    "official": false,
-    "difficulty": 2
-  },
-  {
-    "id": "kg-5-017",
-    "type": "abra",
-    "chapter": 5,
-    "section": "5.3",
-    "question": "Melyik görbe látható az ábrán?",
-    "figure": "supply-curve",
-    "answer": "kínálati görbe",
-    "options": [
-      "kínálati görbe",
-      "keresleti görbe",
-      "Engel-görbe",
-      "közömbösségi görbe"
-    ],
-    "explanation": "A görbe emelkedik: magasabb ár (P) mellett nagyobb a mennyiség (Q). Ez a pozitív meredekségű kínálati görbe jele, hiszen drágábban többet érdemes előállítani. A keresleti görbe ezzel szemben lejt.",
     "source": "Jegyzet 5.3 · Könyv 35–37. o.",
     "official": false,
     "difficulty": 1
@@ -359,53 +292,6 @@
     "difficulty": 1
   },
   {
-    "id": "kg-5-026",
-    "type": "feleletvalasztos",
-    "chapter": 5,
-    "section": "5.5",
-    "question": "Melyik tolja el a kínálati görbét?",
-    "answer": "a felhasznált erőforrások árának változása",
-    "options": [
-      "a felhasznált erőforrások árának változása",
-      "a termék saját árának változása",
-      "a fogyasztók jövedelmének változása",
-      "a vásárlók ízlésének változása"
-    ],
-    "explanation": "A kínálati görbét a termelés feltételei tolják el: az erőforrások (tényezők) ára, a más termékek ára, a technológia és egyéb hatások (pl. időjárás). A saját ár csak mozgás a görbén, a jövedelem és az ízlés pedig a keresletre hat.",
-    "source": "Jegyzet 5.5 · Könyv 37–38. o.",
-    "official": false,
-    "difficulty": 2
-  },
-  {
-    "id": "kg-5-027",
-    "type": "parositas",
-    "chapter": 5,
-    "section": "5.5",
-    "question": "Melyik görbét tolja el az adott tényező?",
-    "answer": [
-      [
-        "A fogyasztók jövedelme",
-        "keresleti görbe"
-      ],
-      [
-        "A technológia változása",
-        "kínálati görbe"
-      ],
-      [
-        "Vágyak, ízlés",
-        "keresleti görbe"
-      ],
-      [
-        "Tényezőárak",
-        "kínálati görbe"
-      ]
-    ],
-    "explanation": "Ami a vevőkre hat (jövedelem, vágyak, ízlés), az a keresleti görbét tolja el; ami a termelésre (technológia, tényezőárak), az a kínálatit. Tényezőár: a termeléshez felhasznált erőforrások ára.",
-    "source": "Jegyzet 5.5 · Könyv 37–38. o.",
-    "official": false,
-    "difficulty": 2
-  },
-  {
     "id": "kg-5-028",
     "type": "abra",
     "chapter": 5,
@@ -507,35 +393,6 @@
     "source": "Jegyzet 5.6 · Könyv 33, 38. o.",
     "official": false,
     "difficulty": 2
-  },
-  {
-    "id": "kg-5-035",
-    "type": "parositas",
-    "chapter": 5,
-    "section": "5.6",
-    "question": "Családi autók piaca: párosítsd az eseményt a hatásával!",
-    "answer": [
-      [
-        "Az emberek több gyermeket vállalnak",
-        "nő a kereslet"
-      ],
-      [
-        "Emelkedik az acél ára",
-        "csökken a kínálat"
-      ],
-      [
-        "Új automatizált gépek a gyártásban",
-        "nő a kínálat"
-      ],
-      [
-        "Csökken a családosok reáljövedelme",
-        "csökken a kereslet"
-      ]
-    ],
-    "explanation": "Ami a vevőkre hat, az a keresletet tolja el: több gyerek → nagyobb igény, kisebb jövedelem → kevesebb vásárlás (ha a családi autó normál jószág, amelyből nagyobb jövedelemnél többet vesznek). Ami a gyártásra hat (acélár, új gépek), az a kínálatot.",
-    "source": "Jegyzet 5.6 · Könyv 33, 38. o.",
-    "official": false,
-    "difficulty": 3
   },
   {
     "id": "kg-5-036",
@@ -672,18 +529,6 @@
     "question": "Ha a kínálat nő, a kereslet pedig nem változik, az egyensúlyi ár csökken, a keresett mennyiség viszont nő.",
     "answer": true,
     "explanation": "A kínálati görbe jobbra tolódik, és a keresleti görbe mentén lefelé mozdulunk: alacsonyabb árnál többet vásárolnak. A kereslet maga nem változik, csak a keresett mennyiség.",
-    "source": "Jegyzet 5.6 · Könyv 39. o.",
-    "official": false,
-    "difficulty": 3
-  },
-  {
-    "id": "kg-5-047",
-    "type": "igaz-hamis",
-    "chapter": 5,
-    "section": "5.6",
-    "question": "Ha egy termék kereslete nő, a kínálati görbéje is jobbra tolódik, ezért nő a kínált mennyiség.",
-    "answer": false,
-    "explanation": "A kínált mennyiség valóban nő, de azért, mert a magasabb árnál a kínálók a változatlan kínálati görbe mentén többet kínálnak. A kínálat (a görbe) nem tolódik el.",
     "source": "Jegyzet 5.6 · Könyv 39. o.",
     "official": false,
     "difficulty": 3

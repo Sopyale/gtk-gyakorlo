@@ -105,24 +105,6 @@
     "difficulty": 3
   },
   {
-    "id": "kg-6-009",
-    "type": "feleletvalasztos",
-    "chapter": 6,
-    "section": "6.1",
-    "question": "Miért származékos a termelési tényezők kereslete?",
-    "answer": "mert az output termékek keresletéből fakad",
-    "options": [
-      "mert az output termékek keresletéből fakad",
-      "mert a tényezőket a háztartások fogyasztják el",
-      "mert a tényezők ára állandó",
-      "mert a tényezőket csak egyszer lehet felhasználni"
-    ],
-    "explanation": "Származékos = másból fakadó: a tényezőket azért keresik, mert a velük előállított termékeket keresik a vevők. A háztartások a termékeket fogyasztják, nem a tényezőket.",
-    "source": "Jegyzet 6.1 · Könyv 38. o.",
-    "official": false,
-    "difficulty": 1
-  },
-  {
     "id": "kg-6-010",
     "type": "rovid-valasz",
     "chapter": 6,
@@ -164,18 +146,6 @@
     "source": "Jegyzet 6.2 · Könyv 39. o.",
     "official": false,
     "difficulty": 1
-  },
-  {
-    "id": "kg-6-013",
-    "type": "igaz-hamis",
-    "chapter": 6,
-    "section": "6.2",
-    "question": "A könyv szerint a csökkenő határhozadék „előbb-utóbb” mindig érvényesül.",
-    "answer": true,
-    "explanation": "A könyv szerint ez széles körben megfigyelt szabályszerűség, de alacsony termelési szinten lehet kivétel (pl. tapétázáshoz két ember kell, ketten többet tudnak, mint külön). Ha a tényezőből egyre többet alkalmaznak, a határtermék „előbb-utóbb” mégis csökkenni kezd.",
-    "source": "Jegyzet 6.2 · Könyv 39. o.",
-    "official": false,
-    "difficulty": 2
   },
   {
     "id": "kg-6-014",
@@ -328,31 +298,6 @@
     "difficulty": 1
   },
   {
-    "id": "kg-6-024",
-    "type": "parositas",
-    "chapter": 6,
-    "section": "6.4",
-    "question": "Párosítsd a mérethozadék típusát a kibocsátás változásával (minden tényező azonos arányú növelésekor)!",
-    "answer": [
-      [
-        "Állandó mérethozadék",
-        "arányosan nő"
-      ],
-      [
-        "Növekvő mérethozadék",
-        "arányosnál nagyobb mértékben nő"
-      ],
-      [
-        "Csökkenő mérethozadék",
-        "arányaiban kevésbé nő"
-      ]
-    ],
-    "explanation": "Mindhárom típus azt nézi, hogyan nő a kibocsátás, ha minden tényezőt azonos arányban növelünk: állandónál ugyanolyan arányban, növekvőnél jobban, csökkenőnél kevésbé, mint a tényezők.",
-    "source": "Jegyzet 6.4 · Könyv 40. o.",
-    "official": false,
-    "difficulty": 1
-  },
-  {
     "id": "kg-6-025",
     "type": "igaz-hamis",
     "chapter": 6,
@@ -377,18 +322,6 @@
     "difficulty": 2
   },
   {
-    "id": "kg-6-027",
-    "type": "igaz-hamis",
-    "chapter": 6,
-    "section": "6.5",
-    "question": "A könyv szerint az „1 Ft ráfordítás → 3 Ft bevétel” helyzet tartósan fennmarad.",
-    "answer": false,
-    "explanation": "Csak átmeneti: a vállalat addig növeli a tényező használatát, amíg megéri, és közben „az olló bezárul”. Vagy a határtermék-bevétel csökken (csökkenő hozadék vagy eső termékár), vagy a tényező határköltsége nő.",
-    "source": "Jegyzet 6.5 · Könyv 40–41. o.",
-    "official": false,
-    "difficulty": 3
-  },
-  {
     "id": "kg-6-028",
     "type": "feleletvalasztos",
     "chapter": 6,
@@ -405,25 +338,6 @@
     "source": "Jegyzet 6.5 · Könyv 40–41. o.",
     "official": false,
     "difficulty": 2
-  },
-  {
-    "id": "kg-6-029",
-    "type": "rovid-valasz",
-    "chapter": 6,
-    "section": "6.5",
-    "question": "Mit maximalizál a termelő, ahogy a fogyasztó a hasznosságot?",
-    "answer": [
-      "profitot",
-      "a profitot",
-      "profit"
-    ],
-    "keywords": [
-      "profit"
-    ],
-    "explanation": "A profitot. Ahogy a fogyasztói döntések alapelve a hasznosság maximalizálása, úgy a termelői döntéseké a profit maximalizálása: a vállalat minden profitdarabkáért lehajol.",
-    "source": "Jegyzet 6.5 · Könyv 40–41. o.",
-    "official": false,
-    "difficulty": 1
   },
   {
     "id": "kg-6-030",
@@ -445,35 +359,6 @@
     "question": "Ha az A tényező ára nő és a kibocsátás változatlan, a vállalat több A-t és kevesebb B-t alkalmaz.",
     "answer": false,
     "explanation": "Fordítva: ha A drágul, A-t részben B-vel helyettesítik, így A-ból kevesebbet (TA csökken), B-ből többet (TB nő) alkalmaznak. Ugyanannyi termelés így is csak nagyobb összköltséggel érhető el.",
-    "source": "Jegyzet 6.6 · Könyv 41–45. o.",
-    "official": false,
-    "difficulty": 2
-  },
-  {
-    "id": "kg-6-032",
-    "type": "parositas",
-    "chapter": 6,
-    "section": "6.6",
-    "question": "Párosítsd a termelői fogalmakat a fogyasztói megfelelőjükkel!",
-    "answer": [
-      [
-        "Egyenlőtermék-görbe",
-        "közömbösségi görbe"
-      ],
-      [
-        "Egyenlőköltség-egyenes",
-        "költségvetési egyenes"
-      ],
-      [
-        "Csökkenő határhozadék",
-        "csökkenő határhasznosság"
-      ],
-      [
-        "Helyettesítési szabály",
-        "kereslet törvénye"
-      ]
-    ],
-    "explanation": "A termelő ugyanazt a logikát követi, mint a fogyasztó: ugyanannyi termelés ↔ ugyanannyi hasznosság, költségkorlát ↔ jövedelemkorlát, egyre kisebb többlettermék ↔ egyre kisebb többlethaszon, drágulás miatti helyettesítés ↔ kereslet törvénye.",
     "source": "Jegyzet 6.6 · Könyv 41–45. o.",
     "official": false,
     "difficulty": 2
@@ -526,18 +411,6 @@
     "source": "Jegyzet 6.7",
     "official": false,
     "difficulty": 2
-  },
-  {
-    "id": "kg-6-036",
-    "type": "igaz-hamis",
-    "chapter": 6,
-    "section": "6.8",
-    "question": "A „láthatatlan kéz” Adam Smith kifejezése a piaci koordináció erejére.",
-    "answer": true,
-    "explanation": "Adam Smith „láthatatlan kéznek” nevezte, hogy a piac az árakon, a hasznosság- és profitmaximalizáló döntéseken keresztül magától a legjobb felhasználási terület felé tereli az erőforrásokat.",
-    "source": "Jegyzet 6.8 · Könyv 46–47. o.",
-    "official": false,
-    "difficulty": 1
   },
   {
     "id": "kg-6-037",

@@ -229,35 +229,6 @@
     "difficulty": 2
   },
   {
-    "id": "kg-2-018",
-    "type": "parositas",
-    "chapter": 2,
-    "section": "2.1",
-    "question": "Párosítsd az eszközöket az elmélettel!",
-    "answer": [
-      [
-        "Teljes és határhasznosság",
-        "kardinális elmélet"
-      ],
-      [
-        "Közömbösségi térkép",
-        "ordinális elmélet"
-      ],
-      [
-        "Hasznosság mérése számokkal",
-        "kardinális elmélet"
-      ],
-      [
-        "Helyettesítési határráta (MRS)",
-        "ordinális elmélet"
-      ]
-    ],
-    "explanation": "A párosítás logikája: ha az eszköz számmal mért hasznosságot használ, kardinális; ha csak sorrendet mutat, közömbösségi görbékkel, ordinális.",
-    "source": "Jegyzet 2.1 · Könyv 14, 17. o.",
-    "official": false,
-    "difficulty": 2
-  },
-  {
     "id": "kg-2-019",
     "type": "igaz-hamis",
     "chapter": 2,
@@ -330,22 +301,6 @@
     "difficulty": 1
   },
   {
-    "id": "kg-2-024",
-    "type": "rovid-valasz",
-    "chapter": 2,
-    "section": "2.2",
-    "question": "A teljes hasznosság 4 egységnél 28, 5 egységnél 30. Mekkora az 5. egység határhaszna?",
-    "answer": [
-      "2",
-      "ketto",
-      "kettő"
-    ],
-    "explanation": "A határhaszon a teljes hasznosság növekménye: 30 − 28 = 2. Az ötödik egység már csak 2 egységnyi pluszhasznot ad, mert a határhaszon egységről egységre csökken (10, 8, 6, 4, 2).",
-    "source": "Jegyzet 2.2 · Könyv 14–15. o.",
-    "official": false,
-    "difficulty": 1
-  },
-  {
     "id": "kg-2-025",
     "type": "abra",
     "chapter": 2,
@@ -405,21 +360,6 @@
     "source": "Jegyzet 2.3 · Könyv 15. o.",
     "official": false,
     "difficulty": 2
-  },
-  {
-    "id": "kg-2-029",
-    "type": "rovid-valasz",
-    "chapter": 2,
-    "section": "2.3",
-    "question": "Melyik közgazdász nevéhez kötik az értékparadoxont (víz és gyémánt)?",
-    "answer": [
-      "Adam Smith",
-      "Smith"
-    ],
-    "explanation": "Adam Smith vetette fel az értékparadoxont: miért olcsó a létfontosságú víz, és miért drága a gyémánt? A választ a teljes és a határhasznosság megkülönböztetése adja meg.",
-    "source": "Jegyzet 2.3 · Könyv 15. o.",
-    "official": false,
-    "difficulty": 1
   },
   {
     "id": "kg-2-030",
@@ -696,35 +636,6 @@
     "source": "Jegyzet 2.6 · Könyv 19–20. o.",
     "official": false,
     "difficulty": 2
-  },
-  {
-    "id": "kg-2-050",
-    "type": "parositas",
-    "chapter": 2,
-    "section": "2.6",
-    "question": "Párosítsd a közömbösségi görbe alakját a termékek jellegével!",
-    "answer": [
-      [
-        "Egyenes",
-        "tökéletes helyettesítők"
-      ],
-      [
-        "„L” alakú",
-        "tökéletes kiegészítők"
-      ],
-      [
-        "Emelkedő",
-        "az egyik jószág negatív hasznosságú"
-      ],
-      [
-        "Eléri a tengelyt",
-        "nélkülözhető termékek"
-      ]
-    ],
-    "explanation": "Az alakot az dönti el, hogyan viszonyul egymáshoz a két jószág: helyettesíthetők (egyenes), csak együtt jók (L), az egyik árt (emelkedő), vagy bármelyik nélkül meglehetünk (a görbe eléri a tengelyt).",
-    "source": "Jegyzet 2.6 · Könyv 19–20. o.",
-    "official": false,
-    "difficulty": 3
   },
   {
     "id": "kg-2-051",
@@ -1316,25 +1227,6 @@
     ],
     "explanation": "A tengelymetszet a teljes I jövedelemből vásárolható a mennyiség, amikor b-ből semmit sem vesz.",
     "source": "Jegyzet 2.8 · Könyv 21. o.",
-    "official": false,
-    "difficulty": 3
-  },
-  {
-    "id": "kg-2-090",
-    "type": "abra",
-    "chapter": 2,
-    "section": "2.8",
-    "question": "Az ábrán a szaggatott az eredeti költségvetési egyenes. Mindkét tengelymetszet és a meredekség is megváltozott. Mi okozhatta?",
-    "figure": "zh12-budget-general",
-    "answer": "az árarányok változása, ár- és/vagy jövedelemváltozással együtt",
-    "options": [
-      "az árarányok változása, ár- és/vagy jövedelemváltozással együtt",
-      "csak a jövedelem változott",
-      "minden ár ugyanolyan arányban nőtt",
-      "csak az a jószág ára nőtt"
-    ],
-    "explanation": "A meredekség (Pa/Pb) változása árarány-változást jelez; mivel a Qb-metszet is elmozdult, emellett ár- és/vagy jövedelemváltozás is történt.",
-    "source": "Jegyzet 2.8 · Könyv 22–23. o.",
     "official": false,
     "difficulty": 3
   },

@@ -3,6 +3,14 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.7.0 – 2026-10-21
+
+- **Only ZH-like questions:** every question was compared with the practice ZH and the lecturer's ZH description; 54
+  that didn't resemble ZH items were removed (all 14 matching questions, source trivia such as author names and
+  "a könyv szerint" meta questions, giveaways and near-duplicates). 368 questions remain; no practice-ZH question was
+  removed. Note section 1.3 now has no question. Requested by the owner.
+- Question-type chips with no questions are hidden on the ZH page.
+
 ## 1.6.0 – 2026-10-20
 
 - **ZH-style questions:** 128 new hard questions (`difficulty: 3`), 422 in total, modelled on the practice ZH and the

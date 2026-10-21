@@ -79,7 +79,7 @@ Every change the owner asks for is added here as a new task before work starts, 
 
 ## 1.7.0
 
-- [ ] Keep only questions that resemble the real ZH questions (true/false, 4-option multiple choice, 1–2 word
+- [x] Keep only questions that resemble the real ZH questions (true/false, 4-option multiple choice, 1–2 word
       technical terms, figure questions); remove the rest, including the matching-type questions
 
 ## Open

@@ -215,31 +215,6 @@
     "difficulty": 3
   },
   {
-    "id": "kg-4-016",
-    "type": "parositas",
-    "chapter": 4,
-    "section": "4.2",
-    "question": "Párosítsd az előnyfajtákat a jelentésükkel!",
-    "answer": [
-      [
-        "Abszolút előny",
-        "valamiből többet tud előállítani"
-      ],
-      [
-        "Komparatív előny",
-        "kisebb az alternatíva költsége"
-      ],
-      [
-        "Relatív előny",
-        "saját magához képest jobb"
-      ]
-    ],
-    "explanation": "Az abszolút előny a mennyiségről szól (ki tud többet előállítani), a komparatív előny az áldozatról (kinek kisebb az alternatíva költsége), a relatív előny pedig arról, hogy valaki saját magához képest miben jobb.",
-    "source": "Jegyzet 4.2 · Könyv 48. o.",
-    "official": false,
-    "difficulty": 1
-  },
-  {
     "id": "kg-4-017",
     "type": "igaz-hamis",
     "chapter": 4,
@@ -311,36 +286,6 @@
     "source": "Jegyzet 4.4 · Könyv 50. o.",
     "official": false,
     "difficulty": 1
-  },
-  {
-    "id": "kg-4-022",
-    "type": "igaz-hamis",
-    "chapter": 4,
-    "section": "4.4",
-    "question": "Ha az egyik bortermelőnek adódik egy még előnyösebb harmadik borfajta, a „szamorodni vagy kékfrankos?” összehasonlításnak is van értelme.",
-    "answer": false,
-    "explanation": "Ha van egy még jobb harmadik lehetőség, akkor már az kerül a két legjobb közé, és azt kell összevetni. A „szamorodni vagy kékfrankos?” kérdés ekkor értelmét veszti, mert az áldozat mindig a következő legjobb lehetőség.",
-    "source": "Jegyzet 4.4 · Könyv 50. o.",
-    "official": false,
-    "difficulty": 2
-  },
-  {
-    "id": "kg-4-023",
-    "type": "feleletvalasztos",
-    "chapter": 4,
-    "section": "4.4",
-    "question": "Melyik NEM a borászati példa feltétele?",
-    "answer": "a két gazdának eltérő a földterülete",
-    "options": [
-      "a két gazdának eltérő a földterülete",
-      "azonos árak",
-      "azonos minőség",
-      "a két legjobb lehetőség összehasonlítása"
-    ],
-    "explanation": "A példa feltételei: azonos terület, azonos árak, azonos minőség, és nincs más termék, csak a két legjobb lehetőséget vetjük össze. Eltérő földterület tehát nem feltétel, épp az azonos terület az.",
-    "source": "Jegyzet 4.4 · Könyv 50. o.",
-    "official": false,
-    "difficulty": 2
   },
   {
     "id": "kg-4-024",
@@ -599,42 +544,6 @@
     "difficulty": 3
   },
   {
-    "id": "kg-4-043",
-    "type": "feleletvalasztos",
-    "chapter": 4,
-    "section": "4.7",
-    "question": "Zoli óránként 8 inget vagy 4 öltönyt varr, Péter 6 inget vagy 2 öltönyt. Kinek van komparatív előnye az ingvarrásban?",
-    "answer": "Péternek, mert neki 1 ing 1/3 öltönybe, Zolinak 1/2 öltönybe kerül",
-    "options": [
-      "Péternek, mert neki 1 ing 1/3 öltönybe, Zolinak 1/2 öltönybe kerül",
-      "Zolinak, mert óránként több inget varr",
-      "Zolinak, mert neki 1 ing 1/2 öltönybe, Péternek 1/3 öltönybe kerül",
-      "Egyiküknek sem, mert Zolinak mindkettőben abszolút előnye van"
-    ],
-    "explanation": "A komparatív előny a kisebb alternatívaköltségen múlik, nem azon, ki varr többet. Péternek egy ing kevesebb öltönyről való lemondással jár, ezért az ingben ő van komparatív előnyben.",
-    "source": "Jegyzet 4.2 · Könyv 48. o.",
-    "official": false,
-    "difficulty": 3
-  },
-  {
-    "id": "kg-4-044",
-    "type": "feleletvalasztos",
-    "chapter": 4,
-    "section": "4.5",
-    "question": "Mit jelent a könyvben, hogy „a költségek nem adottságok”?",
-    "answer": "Az erőforrások ára a legjobb (illetve második legjobb) felhasználási lehetőségükhöz igazodik.",
-    "options": [
-      "Az erőforrások ára a legjobb (illetve második legjobb) felhasználási lehetőségükhöz igazodik.",
-      "A költségek a megszerzett jószágok beszerzési árával egyeznek meg.",
-      "A kisebb hatékonyságú termelő a legjobb lehetőségén is tartósan drágábban termel, ezért kiszorul.",
-      "A költségeket kizárólag a technológia határozza meg."
-    ],
-    "explanation": "A föld, a munkaerő és a gépek költsége abból adódik, mennyit érnek a legjobb alternatív felhasználásukban. Ezért a legjobb lehetőségén mindenki versenyképes, legfeljebb keveset ér.",
-    "source": "Jegyzet 4.5 · Könyv 51–52. o.",
-    "official": false,
-    "difficulty": 3
-  },
-  {
     "id": "kg-4-045",
     "type": "rovid-valasz",
     "chapter": 4,
@@ -649,25 +558,6 @@
     ],
     "explanation": "Az A gazdaság 100 t kukoricáért 200 t búzáról mond le, így 1 t kukorica 200/100 = 2 t búzába kerül. Ez az alternatívaköltség: a feláldozott másik termék mennyisége.",
     "source": "Jegyzet 4.1 · Könyv 48. o.",
-    "official": false,
-    "difficulty": 3
-  },
-  {
-    "id": "kg-4-046",
-    "type": "rovid-valasz",
-    "chapter": 4,
-    "section": "4.6",
-    "question": "Hogy nevezi a könyv Adam Smith gombostűgyárának azt a szakosodását, amelyben a munkás erőfeszítése kárba vész, ha az előző és következő munkafázisok nem készülnek el időben?",
-    "answer": [
-      "szakosodás és koordináció",
-      "szakosodás-koordináció",
-      "szakosodás és koordinálás"
-    ],
-    "keywords": [
-      "koordináció"
-    ],
-    "explanation": "A gyári munkamegosztás szakosodás és koordináció típusú: a szakosodott munkásnak a többiek munkájára is szüksége van. A koordinációnak és cserének költsége van, ez a tranzakciós költség.",
-    "source": "Jegyzet 4.6 · Könyv 52–53. o.",
     "official": false,
     "difficulty": 3
   },
