@@ -88,4 +88,12 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Accept right short answers written in other words: endings, word order and small typos, plus a
       "Más szavakkal, de ugyanezt írtam" button in practice
 
+## 1.9.0
+
+- [x] Check typed definitions in other words: a key-concept list per glossary term (wordings that count) plus an
+      optional in-browser Hungarian-capable language model that scores the meaning; new "Leírom a definíciót" mode
+      on the flashcards
+- [x] Write `ideas.md`: server-based AI on our own machine, hardware for 200 simultaneous checks within 1 second,
+      and a store of already judged answers
+
 ## Open

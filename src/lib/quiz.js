@@ -144,3 +144,19 @@ function groupBy(list) {
   for (const q of list) (out[q.chapter] ||= []).push(q);
   return out;
 }
+
+// Typed definitions: which key concepts of the glossary entry the reply mentions. A concept is a list of
+// interchangeable wordings; one wording counts when each of its words appears in the reply (endings, typos allowed).
+// shortcut: words of 1–3 letters (like "ár") match any reply word starting with them, so "áru" also counts as "ár";
+// add whole-word rules if students report false hits.
+export function checkDefinition(card, reply) {
+  const r = normalize(reply).split(' ');
+  const hit = (alt) => normalize(alt).split(' ').every((x) => r.some((w) => same(w, x)));
+  const found = card.concepts.map((group) => group.some(hit));
+  return { found, share: found.filter(Boolean).length / found.length };
+}
+
+// Verdict from the concept share and, when the language model ran, the similarity (0–1) to the model definition.
+// shortcut: thresholds are first guesses, not calibrated on real answers; tune them once answers come in.
+export const definitionVerdict = (share, sim) =>
+  share >= 0.75 || (sim >= 0.8 && share >= 0.5) ? 'jo' : share >= 0.4 || sim >= 0.7 ? 'reszben' : 'rossz';

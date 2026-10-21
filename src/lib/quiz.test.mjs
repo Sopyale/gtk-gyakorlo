@@ -1,7 +1,7 @@
 // Self-check for the quiz helpers: node src/lib/quiz.test.mjs
 import assert from 'node:assert/strict';
 globalThis.localStorage = undefined; // exercise the memory fallback
-const { normalize, isCorrect, apportion, record, correctText, schedule, due, drawMock, MOCK_MIX, zhLevel, forgive } = await import('./quiz.js');
+const { normalize, isCorrect, apportion, record, correctText, schedule, due, drawMock, MOCK_MIX, zhLevel, forgive, checkDefinition, definitionVerdict } = await import('./quiz.js');
 const { load } = await import('./storage.js');
 
 assert.equal(normalize('  Ceteris   Páribus! '), 'ceteris paribus');
@@ -47,3 +47,19 @@ schedule('y', true, '2026-10-02'); assert.deepEqual(r(), { step: 1, due: '2026-1
 schedule('y', true, '2026-10-05'); assert.deepEqual(r(), { step: 2, due: '2026-10-12' });
 schedule('y', true, '2026-10-12'); assert.equal(r(), undefined);
 console.log('quiz helpers ok');
+
+// Typed definitions
+{
+  const card = { concepts: [['vágy', 'hiányérzet'], ['jószág', 'termék'], ['cselekvés', 'késztet'], ['fogyasztás', 'kielégít']] };
+  const a = checkDefinition(card, 'Hiányérzet egy termék iránt, ami cselekvésre késztet, és fogyasztással elégül ki.');
+  assert.deepEqual(a.found, [true, true, true, true]);
+  assert.equal(definitionVerdict(a.share, null), 'jo');
+  const b = checkDefinition(card, 'Amikor valami nagyon kell.');
+  assert.equal(b.share, 0);
+  assert.equal(definitionVerdict(b.share, null), 'rossz');
+  assert.equal(definitionVerdict(0.5, 0.85), 'jo');
+  assert.equal(definitionVerdict(0.25, 0.72), 'reszben');
+  const c = checkDefinition({ concepts: [['nem etikus', 'etikátlan']] }, 'önző és etikus');
+  assert.equal(c.share, 0);
+}
+console.log('definition checks ok');

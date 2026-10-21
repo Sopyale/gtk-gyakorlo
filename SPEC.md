@@ -2,7 +2,7 @@
 
 Practice website for first-semester ELTE GTK students. Static, Hungarian UI, English code.
 Changes only with the owner's approval; every change follows [docs/RULES.md](docs/RULES.md) and is logged in
-[log/LOG.md](log/LOG.md). Current version: 1.8.0.
+[log/LOG.md](log/LOG.md). Current version: 1.9.0.
 
 ## 1. Objective
 
@@ -79,6 +79,11 @@ Out: own server code, third-party analytics or tracking, any content outside the
   3 rövid válasz, 5 ábrás (the lecturer: many figure questions); only ZH-level questions (`official` or
   `difficulty: 3`) unless a type has too few; no feedback until the end; then score, per-chapter breakdown, review of every question.
 - **Flashcardok**: glossary terms (front: term; back: definition + section), "tudtam / nem tudtam", unknown cards repeat.
+  "Leírom a definíciót" mode: the student types the definition; `checkDefinition` (quiz.js) marks which of the term's
+  `concepts` (groups of interchangeable wordings, endings and one typo allowed) are present and gives "Jó definíció"
+  (≥ 75 %), "Részben jó" or "Ez még hiányos". "Okos ellenőrzés" (optional, remembered) loads transformers.js from
+  jsDelivr and the multilingual sentence model `Xenova/paraphrase-multilingual-MiniLM-L12-v2` (~120 MB, cached by the
+  browser) and adds a meaning similarity; if it fails to load, only the concepts are used. The student decides.
 - **Ütemterv**: the student sets the ZH date; the chapters are spread over the days by question count, the last day is
   review when at least three days are left; days can be ticked off; "Újratervezés mától" re-plans from today.
 - **Haladás törlése** button clears all stored progress.
@@ -121,7 +126,7 @@ Content lives in data files only; adding a subject = adding files + flipping `ac
 ```
 src/data/subjects.json                 all six subjects: { id, name, active, chapters: [{ n, title }] }
 src/data/kozgazdasagtan/ch1.json … ch6.json   question arrays, one file per chapter
-src/data/kozgazdasagtan/glossary.json  [{ term, definition, section, star }]
+src/data/kozgazdasagtan/glossary.json  [{ term, definition, section, star, concepts }]
 ```
 
 Question object:

@@ -3,6 +3,18 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.9.0 – 2026-10-21
+
+- **Typed definitions:** new "Leírom a definíciót" mode on the flashcards. The student writes the definition in
+  their own words; every glossary term now has a key-concept list (`concepts` in `glossary.json`, the interchangeable
+  wordings that count), and the check shows which concepts are there and which are missing, plus the note's
+  definition. "Okos ellenőrzés" adds a small multilingual sentence model (Hungarian included, ~120 MB, loaded from
+  Hugging Face into the browser only when turned on) that scores how close the meaning is. The student still decides
+  "Tudtam / Nem tudtam". `check-data` requires concepts and that each term's own definition passes them. Requested
+  by the owner so long definitions in other words can be checked.
+- **ideas.md:** server-based AI on our own machine, with a hardware estimate for 200 simultaneous checks within 1
+  second and a store of already judged answers.
+
 ## 1.8.0 – 2026-10-21
 
 - **Other wording accepted:** typed short answers now match with Hungarian endings ("mikroökonómiát"), any word

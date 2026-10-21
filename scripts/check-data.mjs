@@ -1,5 +1,6 @@
 // Validates the question bank: format per type, duplicate ids/texts, section coverage. Exits 1 on errors.
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
+import { checkDefinition } from '../src/lib/quiz.js';
 
 const root = new URL('../src/data/', import.meta.url);
 const read = (p) => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
@@ -53,7 +54,12 @@ for (const s of subjects.filter((x) => x.active)) {
   if (missing.length) (strict ? errors : warnings).push(`${s.id}: ${missing.length} section(s) without questions: ${missing.join(', ')}`);
 
   const glossary = read(`${s.id}/glossary.json`);
-  glossary.forEach((g, k) => { if (!g.term || !g.definition || !g.section) errors.push(`${s.id} glossary #${k}: needs term, definition, section`); });
+  glossary.forEach((g, k) => {
+    if (!g.term || !g.definition || !g.section) errors.push(`${s.id} glossary #${k}: needs term, definition, section`);
+    // The typed-definition check scores against these; the model definition itself must pass.
+    if (!(Array.isArray(g.concepts) && g.concepts.length >= 2 && g.concepts.every((c) => Array.isArray(c) && c.length))) errors.push(`${s.id} glossary ${g.term}: needs 2+ concept groups`);
+    else if (checkDefinition(g, g.definition).share < 0.75) errors.push(`${s.id} glossary ${g.term}: its own definition misses its concepts`);
+  });
 
   console.log(`${s.name}: ${ids.size} questions, ${glossary.length} glossary terms`);
   console.log('  by chapter:', Object.entries(byChapter).map(([k, v]) => `${k}: ${v}`).join(', '));
