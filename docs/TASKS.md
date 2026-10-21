@@ -82,4 +82,10 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Keep only questions that resemble the real ZH questions (true/false, 4-option multiple choice, 1–2 word
       technical terms, figure questions); remove the rest, including the matching-type questions
 
+## 1.8.0
+
+- [x] Write the ZH question-bank workflow into RULES.md so it is applied to every subject automatically
+- [x] Accept right short answers written in other words: endings, word order and small typos, plus a
+      "Más szavakkal, de ugyanezt írtam" button in practice
+
 ## Open

@@ -2,7 +2,7 @@
 
 Practice website for first-semester ELTE GTK students. Static, Hungarian UI, English code.
 Changes only with the owner's approval; every change follows [docs/RULES.md](docs/RULES.md) and is logged in
-[log/LOG.md](log/LOG.md). Current version: 1.7.0.
+[log/LOG.md](log/LOG.md). Current version: 1.8.0.
 
 ## 1. Objective
 
@@ -65,6 +65,10 @@ Out: own server code, third-party analytics or tracking, any content outside the
   (correct/incorrect with icon + text, the correct answer, explanation, source); next button.
   "Hibás a kérdés?" next to it sends a bug-report ticket with the question id and an optional comment (signed in only).
   Keyboard: 1–4 options, I/H true/false, Enter submit/next.
+  Short answers match with Hungarian endings, any word order, ignored articles and one typo outside a word's first
+  4 letters (no extra words, so "határtermék-bevétel" never passes for "határtermék"). When the check says wrong, the
+  student can press "Más szavakkal, de ugyanezt írtam": it counts as right and the question leaves the wrong and
+  Ismétlés lists.
 - **Rontott kérdéseim**: every question answered wrong; leaves the list after two correct answers in a row.
 - **Ismétlés** (spaced repetition): a missed question is due again 1 day later; a right answer on a due day moves it to
   3 days, then 7 days, then off the schedule; a miss starts it over. Stored in `review` (synced). The mode card shows

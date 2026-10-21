@@ -25,12 +25,37 @@ export const normalize = (s) =>
 
 export const isTrueFalse = (q) => typeof q.answer === 'boolean';
 
+// One typo (a letter added, missing or changed) in a word of 5+ letters, not in its first 4 letters,
+// so "makro" never passes for "mikro"; two swapped letters count as one typo.
+const near = (a, b) => {
+  if (a.length < 5 || a.slice(0, 4) !== b.slice(0, 4) || Math.abs(a.length - b.length) > 1) return false;
+  const k = [...a].findIndex((c, i) => c !== b[i]);
+  if (a.length === b.length && a[k] === b[k + 1] && a[k + 1] === b[k] && a.slice(k + 2) === b.slice(k + 2)) return true;
+  let i = 0, j = 0, edits = 0;
+  while (i < a.length && j < b.length) {
+    if (a[i] === b[j]) { i++; j++; continue; }
+    if (++edits > 1) return false;
+    if (a.length > b.length) i++; else if (b.length > a.length) j++; else { i++; j++; }
+  }
+  return edits + (a.length - i) + (b.length - j) <= 1;
+};
+// Hungarian endings: "mikroökonómiát" still matches "mikroökonómia".
+const stem = (w) => (w.length > 5 ? w.slice(0, -2) : w);
+// Same words as an accepted answer in any order, with endings or one typo allowed; articles are ignored, and no
+// extra words, so "határtermék-bevétel" never passes for "határtermék".
+const same = (w, a) => w.startsWith(stem(a)) || near(w, a);
+const covers = (reply, answer) => {
+  const r = reply.split(' ').filter((w) => w.length > 2), a = answer.split(' ').filter((w) => w.length > 2);
+  return a.length > 0 && a.every((x) => r.some((w) => same(w, x))) && r.every((w) => a.some((x) => same(w, x)));
+};
+
 export function isCorrect(q, response) {
   if (response == null) return false;
   if (q.type === 'rovid-valasz') {
     const r = normalize(response);
     // Longer model answers also accept a reply that contains one of the key phrases.
-    return q.answer.some((a) => normalize(a) === r) || (q.keywords ?? []).some((k) => r.includes(normalize(k)));
+    return q.answer.some((a) => normalize(a) === r || (a.split(' ').length <= 4 && covers(r, normalize(a))))
+      || (q.keywords ?? []).some((k) => r.includes(normalize(k)));
   }
   if (q.type === 'parositas') return q.answer.every(([l, r]) => response[l] === r);
   return response === q.answer;
@@ -56,6 +81,12 @@ export function record(q, correct) {
   }
   save('wrong', wrong);
   schedule(q.id, correct);
+}
+
+// "Más szavakkal, de ugyanezt írtam": the student's own answer was right after all, so undo the miss.
+export function forgive(q) {
+  save('answers', { ...load('answers', {}), [q.id]: true });
+  for (const key of ['wrong', 'review']) { const m = load(key, {}); delete m[q.id]; save(key, m); }
 }
 
 // Ismétlés (spaced repetition): a missed question is due again after 1, then 3, then 7 days;

@@ -3,6 +3,15 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.8.0 – 2026-10-21
+
+- **Other wording accepted:** typed short answers now match with Hungarian endings ("mikroökonómiát"), any word
+  order, articles ignored and one typo, but never with a different term ("makroökonómia", "határtermék-bevétel"). If
+  the check still says wrong, the student can press "Más szavakkal, de ugyanezt írtam" in practice to count it as
+  right. Requested by the owner so right answers in other words count.
+- **Rule:** RULES.md now describes the ZH question-bank workflow for every subject (start from the uploaded practice
+  ZH, cover the whole material in its style, keep only ZH-like questions), so it is applied without asking.
+
 ## 1.7.0 – 2026-10-21
 
 - **Only ZH-like questions:** every question was compared with the practice ZH and the lecturer's ZH description; 54

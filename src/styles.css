@@ -263,6 +263,7 @@ kbd { font: 600 12px var(--body); border: 1px solid var(--line); border-radius: 
 .fb.right b { color: var(--good); } .fb.wrong b { color: var(--bad); }
 .fb p { margin-top: 6px; color: var(--soft); }
 .fb-answer span { color: var(--muted); }
+.fb .override { margin-top: 12px; }
 .fb small, .review small { display: block; margin-top: 8px; color: var(--muted); font-size: 13.5px; }
 .qnext { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-top: 16px; }
 .report-btn { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 12px; border: 1px solid transparent; border-radius: 12px; background: none; color: var(--muted); font: 600 14px var(--body); cursor: pointer; transition: color var(--fast), border-color var(--fast), background-color var(--fast); }

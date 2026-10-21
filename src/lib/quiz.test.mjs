@@ -1,7 +1,7 @@
 // Self-check for the quiz helpers: node src/lib/quiz.test.mjs
 import assert from 'node:assert/strict';
 globalThis.localStorage = undefined; // exercise the memory fallback
-const { normalize, isCorrect, apportion, record, correctText, schedule, due, drawMock, MOCK_MIX, zhLevel } = await import('./quiz.js');
+const { normalize, isCorrect, apportion, record, correctText, schedule, due, drawMock, MOCK_MIX, zhLevel, forgive } = await import('./quiz.js');
 const { load } = await import('./storage.js');
 
 assert.equal(normalize('  Ceteris   Páribus! '), 'ceteris paribus');
@@ -9,6 +9,13 @@ assert.ok(isCorrect({ type: 'rovid-valasz', answer: ['ceteris paribus'] }, 'CETE
 assert.ok(!isCorrect({ type: 'rovid-valasz', answer: ['ceteris paribus'] }, 'ceteris'));
 assert.ok(isCorrect({ type: 'rovid-valasz', answer: ['hosszú mintaválasz'], keywords: ['jobb minőség'] }, 'Mert jobb minőségre következtetnek'));
 assert.ok(!isCorrect({ type: 'rovid-valasz', answer: ['hosszú mintaválasz'], keywords: ['jobb minőség'] }, 'mert drága'));
+// Other wording of a term: endings, an article, one typo, extra words.
+const term = { type: 'rovid-valasz', answer: ['mikroökonómia'] };
+for (const ok of ['mikroökonómiát', 'a mikroökonomia', 'mikroökonómai', 'Mikroökonómia.']) assert.ok(isCorrect(term, ok), ok);
+for (const bad of ['makroökonómia', 'mikro', 'közgazdaságtan']) assert.ok(!isCorrect(term, bad), bad);
+assert.ok(isCorrect({ type: 'rovid-valasz', answer: ['evolúciós csökevény'] }, 'csökevények, evolúciós'));
+assert.ok(!isCorrect({ type: 'rovid-valasz', answer: ['evolúciós csökevény'] }, 'evolúció'));
+assert.ok(!isCorrect({ type: 'rovid-valasz', answer: ['határtermék'] }, 'határtermék-bevétel'));
 assert.ok(isCorrect({ type: 'igaz-hamis', answer: false }, false));
 assert.ok(!isCorrect({ type: 'igaz-hamis', answer: false }, null));
 assert.ok(isCorrect({ type: 'parositas', answer: [['a', '1'], ['b', '2']] }, { a: '1', b: '2' }));
@@ -22,6 +29,7 @@ record(q, false); assert.equal(load('wrong', {}).x, 0);
 record(q, true); assert.equal(load('wrong', {}).x, 1);
 record(q, false); assert.equal(load('wrong', {}).x, 0);
 record(q, true); record(q, true); assert.ok(!('x' in load('wrong', {})));
+record(q, false); forgive(q); assert.ok(!('x' in load('wrong', {})) && !('x' in load('review', {})) && load('answers', {}).x);
 
 // Mock ZH: full mix, ZH-level when there are enough, otherwise falls back to the whole pool.
 const bank = Object.keys(MOCK_MIX).flatMap((type) => Array.from({ length: 30 }, (_, k) => ({ id: `${type}${k}`, type, chapter: 1 + (k % 3), difficulty: k < 10 ? 2 : 3 })));

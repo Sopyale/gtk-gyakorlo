@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { ArrowLeft, Flame, PartyPopper } from 'lucide-react';
 import QuestionCard from '../components/QuestionCard.jsx';
 import { scopeQuestions } from '../lib/data.js';
-import { due, record, shuffle, zhLevel } from '../lib/quiz.js';
+import { due, forgive, record, shuffle, zhLevel } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 import { load } from '../lib/storage.js';
 
@@ -60,6 +60,7 @@ export default function Practice({ subject, mode, params }) {
       <p className="count">{title}: {i + 1} / {queue.length}</p>
       <QuestionCard key={i} q={queue[i]} feedback
         onAnswer={(ok) => { record(queue[i], ok); setScore((s) => s + ok); setStreak((s) => (ok ? s + 1 : 0)); }}
+        onOverride={() => { forgive(queue[i]); setScore((s) => s + 1); setStreak((s) => s + 1); }}
         onNext={() => setI(i + 1)} nextLabel={i + 1 < queue.length ? 'Következő' : 'Eredmény'} />
     </div>
   );

@@ -36,7 +36,7 @@ function Report({ q }) {
 
 // One question; the parent remounts it (via key) for each new question.
 // In practice mode it shows feedback after answering; in mock mode it only reports the response.
-export default function QuestionCard({ q, feedback, onAnswer, onNext, nextLabel = 'Következő' }) {
+export default function QuestionCard({ q, feedback, onAnswer, onOverride, onNext, nextLabel = 'Következő' }) {
   const [response, setResponse] = useState(null);
   const [text, setText] = useState('');
   const [pairs, setPairs] = useState({});
@@ -45,7 +45,8 @@ export default function QuestionCard({ q, feedback, onAnswer, onNext, nextLabel 
   const nextRef = useRef(null);
   const stemRef = useRef(null);
   const answered = response !== null;
-  const correct = answered && isCorrect(q, response);
+  const [overridden, setOverridden] = useState(false);
+  const correct = answered && (overridden || isCorrect(q, response));
   const Fig = q.figure && figures[q.figure];
 
   useEffect(() => { if (answered && feedback) nextRef.current?.focus(); }, [answered, feedback]);
@@ -149,6 +150,12 @@ export default function QuestionCard({ q, feedback, onAnswer, onNext, nextLabel 
           )}
           <p>{q.explanation}</p>
           <small>Forrás: {q.source}</small>
+          {/* The check can't know every wording, so the student can count a right answer given in other words. */}
+          {q.type === 'rovid-valasz' && !correct && onOverride && (
+            <button className="btn sec override" onClick={() => { setOverridden(true); onOverride(); }}>
+              <CheckCircle2 size={18} aria-hidden="true" />Más szavakkal, de ugyanezt írtam
+            </button>
+          )}
         </div>
       )}
 
