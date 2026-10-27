@@ -60,6 +60,25 @@ Do this on your own for every subject and every ZH, without being asked again:
    student can mark "Más szavakkal, de ugyanezt írtam". Give every short-answer question its usual alternative
    spellings in `answer`.
 
+## Matematika: task types (owner's rule)
+
+Matematika ZHs are calculation tasks, not the true/false and multiple-choice questions above. For every Matematika ZH:
+1. The bank is built from the owner's `gyakorlo_feladatok.md` (in `D:\Claude\School\Matematika`), which is generated
+   from the practice ZH and the exam note. Put on the site only the tasks in that file, never the original ZH tasks.
+2. Task types are exactly the practice ZH's types (2. ZH: vectors' linear dependence 3 p, inclusion–exclusion for two
+   events 5 p, dice expected value and first success 10 p, two bags with total probability and Bayes 10 p, compound
+   interest 3 p, two-state process 10 p, discrete distribution q / E(X) / D(X) 10 p, licence plates as variations 5 p).
+   Every type has 5 own variants with their own story and wording, not the same text with new numbers.
+3. One task = one `szamolas` question in the chapter of its type: the point value from the ZH, one number field per
+   sub-question with its format ("tizedestört", "tört vagy tizedestört", "egész szám (Ft)" …) and the solution.
+   Every answer is recalculated before it goes in (`npm run check-data` checks each field accepts its own answer).
+4. Answer boxes look like the Moodle ZH: card with number and points, grey fields, green tick or red cross.
+   No partial credit: a task scores only when every field is right.
+5. Accept a decimal comma or point, spaces as thousands separators, fractions only where the format allows them,
+   decimals within ±0.001, whole numbers exactly; a percentage where a decimal is asked is wrong.
+6. The mock ZH draws one task per type with the ZH's points. Content still comes only from the subject's note and
+   practice tasks; new weeks' material for a later ZH is added the same way when the owner sends a new task file.
+
 ## Privacy and secrets
 
 - User data (Neptun codes, e-mail addresses, progress) lives only in Supabase, behind row-level security.

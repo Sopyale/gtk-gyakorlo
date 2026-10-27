@@ -7,6 +7,7 @@ export const TYPES = {
   'rovid-valasz': 'Rövid válasz',
   parositas: 'Párosítás',
   abra: 'Ábrás',
+  szamolas: 'Számolás',
 };
 
 export function shuffle(list) {
@@ -49,8 +50,30 @@ const covers = (reply, answer) => {
   return a.length > 0 && a.every((x) => r.some((w) => same(w, x))) && r.every((w) => a.some((x) => same(w, x)));
 };
 
+// Typed numbers: decimal comma or point, spaces as thousands separators, a/b fractions; null if not a number.
+export function parseNumber(s, fractions = true) {
+  const t = String(s).replace(/[\s\u00a0]/g, '').replace(/−/g, '-').replace(',', '.');
+  const m = t.match(/^(-?\d+(?:\.\d+)?)(?:\/(\d+(?:\.\d+)?))?$/);
+  if (!m || (m[2] && !fractions)) return null;
+  return m[2] ? +m[1] / +m[2] : +m[1];
+}
+
+// One field of a calculation task. accept: int = exact whole number; dec = decimal within 0.001; frac = also a
+// fraction; round = decimal with 2+ decimals that equals the answer rounded to as many decimals (or within 0.001).
+export function fieldCorrect(field, text) {
+  const want = parseNumber(field.answer);
+  const got = parseNumber(text ?? '', field.accept === 'frac');
+  if (got === null) return false;
+  if (field.accept === 'int') return /^-?\d+$/.test(String(text).replace(/[\s\u00a0]/g, '')) && got === want;
+  const decimals = (String(text).replace(',', '.').split('.')[1] ?? '').length;
+  if (field.accept === 'round' && decimals >= 2 && Math.abs(got - +want.toFixed(decimals)) < 1e-9) return true;
+  return Math.abs(got - want) <= 0.001 + 1e-9;
+}
+
 export function isCorrect(q, response) {
   if (response == null) return false;
+  // No partial credit: every field must be right.
+  if (q.type === 'szamolas') return q.fields.every((f) => fieldCorrect(f, response[f.label]));
   if (q.type === 'rovid-valasz') {
     const r = normalize(response);
     // Longer model answers also accept a reply that contains one of the key phrases.
@@ -65,6 +88,7 @@ export function correctText(q) {
   if (isTrueFalse(q)) return q.answer ? 'Igaz' : 'Hamis';
   if (q.type === 'rovid-valasz') return q.answer[0];
   if (q.type === 'parositas') return q.answer.map(([l, r]) => `${l}: ${r}`).join('\n');
+  if (q.type === 'szamolas') return q.fields.map((f) => `${f.label} ${f.answer}`).join('\n');
   return q.answer;
 }
 
@@ -125,7 +149,12 @@ export const zhLevel = (q) => q.official || q.difficulty === 3;
 
 // Mock ZH: the real ZH's type mix, each type spread over the chapters in proportion to the pool;
 // ZH-level questions only, unless a type has too few of them.
-export function drawMock(questions) {
+export function drawMock(questions, mock) {
+  // Calculation ZH (Matematika): a fixed number of tasks from every task type.
+  if (mock?.perChapter) {
+    const byChapter = groupBy(questions);
+    return Object.keys(byChapter).sort((a, b) => a - b).flatMap((c) => shuffle(byChapter[c]).slice(0, mock.perChapter));
+  }
   const picked = [];
   for (const [type, quota] of Object.entries(MOCK_MIX)) {
     const all = questions.filter((q) => q.type === type);

@@ -96,4 +96,12 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Write `ideas.md`: server-based AI on our own machine, hardware for 200 simultaneous checks within 1 second,
       and a store of already judged answers
 
+## 1.10.0
+
+- [x] Open the Matematika tab for the 2. ZH: the 40 practice tasks of `gyakorlo_feladatok.md` (8 task types × 5) as
+      Moodle-style calculation cards (point value in the header, grey number fields, green tick / red cross, no partial
+      credit), practice by task type and a mock ZH that draws one task per type (56 points)
+- [x] Write the Matematika task-type rules into RULES.md
+- [x] ~~Upload the Matematika 2. ZH exam note to the Google Drive study-materials folder~~ (dropped by the owner)
+
 ## Open

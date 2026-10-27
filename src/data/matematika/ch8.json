@@ -1,0 +1,132 @@
+[
+  {
+    "id": "mat-8-001",
+    "chapter": 8,
+    "section": "8.1",
+    "type": "szamolas",
+    "points": 5,
+    "question": "Egy ország új rendszámai 3 betűből és utána 3 számjegyből állnak (26 betűs ábécé, 10 számjegy). a) Hány rendszám lehetséges, ha bármelyik jel ismétlődhet? b) Hány olyan rendszám van, amelyben minden betű és minden számjegy különböző?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "17 576 000",
+        "accept": "int",
+        "format": "egész szám"
+      },
+      {
+        "label": "b)",
+        "answer": "11 232 000",
+        "accept": "int",
+        "format": "egész szám"
+      }
+    ],
+    "explanation": "a) Ismétléses variáció: 26^3·10^3 = 17 576 000. b) Ismétlés nélküli variáció: 26·25·24·10·9·8 = 11 232 000.",
+    "source": "Gyakorló feladatok, RENDSZAM-1",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-8-002",
+    "chapter": 8,
+    "section": "8.2",
+    "type": "szamolas",
+    "points": 5,
+    "question": "Egy cég raktári kódjai 4 betűvel kezdődnek és 2 számjeggyel végződnek (26 betű, 10 számjegy). a) Összesen hány kód adható ki? b) Hány kód adható ki, ha egy kódon belül sem betű, sem számjegy nem szerepelhet kétszer?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "45 697 600",
+        "accept": "int",
+        "format": "egész szám"
+      },
+      {
+        "label": "b)",
+        "answer": "32 292 000",
+        "accept": "int",
+        "format": "egész szám"
+      }
+    ],
+    "explanation": "a) Ismétléses variáció: 26^4·10^2 = 45 697 600. b) Ismétlés nélküli variáció: 26·25·24·23·10·9 = 32 292 000.",
+    "source": "Gyakorló feladatok, RENDSZAM-2",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-8-003",
+    "chapter": 8,
+    "section": "8.3",
+    "type": "szamolas",
+    "points": 5,
+    "question": "Egy egyetem hallgatói azonosítója egy betűből és öt számjegyből áll (pl. K38201); az ábécé 26 betűs. a) Hány különböző azonosító készíthető? b) Hány olyan azonosító van, amelyben az öt számjegy mind különböző?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "2 600 000",
+        "accept": "int",
+        "format": "egész szám"
+      },
+      {
+        "label": "b)",
+        "answer": "786 240",
+        "accept": "int",
+        "format": "egész szám"
+      }
+    ],
+    "explanation": "a) Ismétléses variáció: 26^1·10^5 = 2 600 000. b) Ismétlés nélküli variáció: 26·10·9·8·7·6 = 786 240.",
+    "source": "Gyakorló feladatok, RENDSZAM-3",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-8-004",
+    "chapter": 8,
+    "section": "8.4",
+    "type": "szamolas",
+    "points": 5,
+    "question": "Egy kisváros parkolóbérletein a kód 2 betű, majd 4 számjegy; csak 22 betűt használnak, a könnyen összetéveszthetőket kihagyják. a) Hány kód lehetséges, ha a jelek ismétlődhetnek? b) Hány kód lehetséges ismétlődés nélkül?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "4 840 000",
+        "accept": "int",
+        "format": "egész szám"
+      },
+      {
+        "label": "b)",
+        "answer": "2 328 480",
+        "accept": "int",
+        "format": "egész szám"
+      }
+    ],
+    "explanation": "a) Ismétléses variáció: 22^2·10^4 = 4 840 000. b) Ismétlés nélküli variáció: 22·21·10·9·8·7 = 2 328 480.",
+    "source": "Gyakorló feladatok, RENDSZAM-4",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-8-005",
+    "chapter": 8,
+    "section": "8.5",
+    "type": "szamolas",
+    "points": 5,
+    "question": "Egy autókölcsönző flottájának rendszámai 3 betűt, majd 4 számjegyet tartalmaznak (26 betű, 10 számjegy). a) Hány rendszám készíthető, ha az ismétlődés megengedett? b) Hány rendszám készíthető, ha ugyanaz a betű és ugyanaz a számjegy legfeljebb egyszer szerepelhet?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "175 760 000",
+        "accept": "int",
+        "format": "egész szám"
+      },
+      {
+        "label": "b)",
+        "answer": "78 624 000",
+        "accept": "int",
+        "format": "egész szám"
+      }
+    ],
+    "explanation": "a) Ismétléses variáció: 26^3·10^4 = 175 760 000. b) Ismétlés nélküli variáció: 26·25·24·10·9·8·7 = 78 624 000.",
+    "source": "Gyakorló feladatok, RENDSZAM-5",
+    "official": false,
+    "difficulty": 3
+  }
+]

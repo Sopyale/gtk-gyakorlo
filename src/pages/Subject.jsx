@@ -11,6 +11,9 @@ const toggle = (set, v) => (set.includes(v) ? set.filter((x) => x !== v) : [...s
 
 export default function Subject({ subject }) {
   const qs = scopeQuestions(subject);
+  const cards = scopeGlossary(subject).length;
+  const typeKeys = Object.keys(TYPES).filter((k) => qs.some((q) => q.type === k));
+  const mock = subject.exam.mock;
   const [chapters, setChapters] = useState([]);
   const [types, setTypes] = useState([]);
   const [hard, setHard] = useState(false);
@@ -40,13 +43,13 @@ export default function Subject({ subject }) {
       <div className="subject-head">
         <div>
           <h1>{subject.exam.name}</h1>
-          <p className="lede">{subject.name}, {subject.chapters.length} fejezet, {qs.length} kérdés. {subject.sources}.</p>
+          <p className="lede">{subject.name}, {subject.chapters.length} {mock ? 'feladattípus' : 'fejezet'}, {qs.length} {mock ? 'feladat' : 'kérdés'}. {subject.sources}.</p>
         </div>
         <Ring value={qs.length ? done / qs.length : 0} size={104} label={`Haladás: ${done} / ${qs.length}`} />
       </div>
 
       <section className="filters" aria-label="Szűrők">
-        <h2>Fejezetek</h2>
+        <h2>{subject.chapterLabel ?? 'Fejezetek'}</h2>
         <div className="chips">
           {subject.chapters.map((c) => (
             <button key={c.n} className="chip" aria-pressed={chapters.includes(c.n)} onClick={() => setChapters(toggle(chapters, c.n))}>
@@ -54,22 +57,26 @@ export default function Subject({ subject }) {
             </button>
           ))}
         </div>
-        <h2>Kérdéstípus</h2>
-        <div className="chips">
-          {Object.entries(TYPES).filter(([k]) => qs.some((q) => q.type === k)).map(([k, v]) => (
-            <button key={k} className="chip" aria-pressed={types.includes(k)} onClick={() => setTypes(toggle(types, k))}>{v}</button>
-          ))}
-        </div>
-        <h2>Nehézség</h2>
-        <div className="chips">
-          <button className="chip" aria-pressed={hard} onClick={() => setHard(!hard)}>Csak ZH-szintű ({qs.filter(zhLevel).length})</button>
-        </div>
+        {typeKeys.length > 1 && <>
+          <h2>Kérdéstípus</h2>
+          <div className="chips">
+            {typeKeys.map((k) => (
+              <button key={k} className="chip" aria-pressed={types.includes(k)} onClick={() => setTypes(toggle(types, k))}>{TYPES[k]}</button>
+            ))}
+          </div>
+        </>}
+        {!qs.every(zhLevel) && <>
+          <h2>Nehézség</h2>
+          <div className="chips">
+            <button className="chip" aria-pressed={hard} onClick={() => setHard(!hard)}>Csak ZH-szintű ({qs.filter(zhLevel).length})</button>
+          </div>
+        </>}
       </section>
 
       <div className="bento modes">
         <a className="card mode glow big" href={practiceHref} aria-disabled={!pool.length}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Play size={26} className="mi" aria-hidden="true" /><h3>Gyakorlás</h3>
-          <p>{pool.length} kérdés a kiválasztott fejezetekből és típusokból, visszajelzés minden válasz után.</p>
+          <p>{mock ? `${pool.length} feladat a kiválasztott feladattípusokból, ellenőrzés és megoldás minden feladat után.` : `${pool.length} kérdés a kiválasztott fejezetekből és típusokból, visszajelzés minden válasz után.`}</p>
         </a>
         <a className="card mode glow" href={href(subject.path, 'rontott')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><RotateCcw size={24} className="mi" aria-hidden="true" /><h3>Rontott kérdéseim</h3>
@@ -81,16 +88,18 @@ export default function Subject({ subject }) {
         </a>
         <a className="card mode glow" href={href(subject.path, 'szimulacio')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Timer size={24} className="mi" aria-hidden="true" /><h3>ZH-szimuláció</h3>
-          <p>20 perc, 25 ZH-szintű kérdés, sok ábrással. Értékelés csak a végén.</p>
+          <p>{mock ? `${mock.minutes} perc, típusonként ${mock.perChapter} feladat, ${subject.chapters.length * mock.perChapter} feladat. Értékelés csak a végén.` : '20 perc, 25 ZH-szintű kérdés, sok ábrással. Értékelés csak a végén.'}</p>
         </a>
-        <a className="card mode glow" href={href(subject.path, 'flashcard')}>
+        {cards > 0 && <>
+          <a className="card mode glow" href={href(subject.path, 'flashcard')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Layers size={24} className="mi" aria-hidden="true" /><h3>Flashcardok</h3>
-          <p>{scopeGlossary(subject).length} fogalom a fogalomtárból.</p>
+          <p>{cards} fogalom a fogalomtárból.</p>
         </a>
-        <a className="card mode glow" href={href(subject.path, 'parosito')}>
+          <a className="card mode glow" href={href(subject.path, 'parosito')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Puzzle size={24} className="mi" aria-hidden="true" /><h3>Párosító</h3>
           <p>Párosíts 6 fogalmat a meghatározásával, minél gyorsabban.{best ? ` Legjobb időd: ${(best / 1000).toFixed(1)} mp.` : ''}</p>
         </a>
+        </>}
         <a className="card mode glow wide" href={href(subject.path, 'utemterv')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><CalendarDays size={24} className="mi" aria-hidden="true" /><h3>Ütemterv</h3>
           <p>{plan.date > today() ? `${daysBetween(today(), plan.date)} nap a ZH-ig, napi bontásban.` : 'Add meg a ZH dátumát, és napokra bontjuk az anyagot.'}</p>

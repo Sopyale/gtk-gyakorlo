@@ -1,7 +1,7 @@
 // Self-check for the quiz helpers: node src/lib/quiz.test.mjs
 import assert from 'node:assert/strict';
 globalThis.localStorage = undefined; // exercise the memory fallback
-const { normalize, isCorrect, apportion, record, correctText, schedule, due, drawMock, MOCK_MIX, zhLevel, forgive, checkDefinition, definitionVerdict } = await import('./quiz.js');
+const { normalize, isCorrect, apportion, record, correctText, schedule, due, drawMock, fieldCorrect, MOCK_MIX, zhLevel, forgive, checkDefinition, definitionVerdict } = await import('./quiz.js');
 const { load } = await import('./storage.js');
 
 assert.equal(normalize('  Ceteris   Páribus! '), 'ceteris paribus');
@@ -63,3 +63,25 @@ console.log('quiz helpers ok');
   assert.equal(c.share, 0);
 }
 console.log('definition checks ok');
+
+// Calculation tasks (Matematika)
+{
+  const f = (accept, answer) => ({ label: 'a)', accept, answer });
+  for (const ok of ['13/24', '0,5417', '0.542', ' 0,5417 ']) assert.ok(fieldCorrect(f('frac', '13/24'), ok), ok);
+  for (const bad of ['0,54', '54,17', '', 'abc']) assert.ok(!fieldCorrect(f('frac', '13/24'), bad), bad);
+  assert.ok(fieldCorrect(f('frac', '-21/2'), '−10,5'));
+  assert.ok(fieldCorrect(f('dec', '0,5714'), '0,5714'));
+  assert.ok(!fieldCorrect(f('dec', '0,5714'), '4/7'));
+  assert.ok(!fieldCorrect(f('dec', '0,5714'), '57,14'));
+  assert.ok(fieldCorrect(f('int', '500 000'), '500000'));
+  assert.ok(fieldCorrect(f('int', '17 576 000'), '17 576 000'));
+  assert.ok(!fieldCorrect(f('int', '500 000'), '500000,4'));
+  for (const ok of ['1,11', '1,114', '1,1136']) assert.ok(fieldCorrect(f('round', '1,1136'), ok), ok);
+  for (const bad of ['1,1', '1,12', '1']) assert.ok(!fieldCorrect(f('round', '1,1136'), bad), bad);
+  const q = { type: 'szamolas', fields: [f('dec', '0,23'), { label: 'b)', accept: 'dec', answer: '0,28' }] };
+  assert.ok(isCorrect(q, { 'a)': '0,23', 'b)': '0.28' }));
+  assert.ok(!isCorrect(q, { 'a)': '0,23', 'b)': '0,27' }), 'no partial credit');
+  const mock = drawMock([1, 1, 2, 2, 3].map((chapter, i) => ({ id: i, chapter })), { perChapter: 1 });
+  assert.deepEqual(mock.map((x) => x.chapter), [1, 2, 3]);
+}
+console.log('calculation checks ok');

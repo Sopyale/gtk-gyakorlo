@@ -1,0 +1,132 @@
+[
+  {
+    "id": "mat-6-001",
+    "chapter": 6,
+    "section": "6.1",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy webáruház napi forgalmát két állapottal írjuk le: nő vagy csökken. Növekvő napot 70% eséllyel újabb növekedés követ, csökkenő napot viszont csak 40% eséllyel. a) Ma nőtt a forgalom. Mennyi a valószínűsége, hogy holnapután csökkenni fog? b) Hosszú távon a napok mekkora hányadában nő a forgalom? Tizedestörtként add meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,39",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,5714",
+        "accept": "dec",
+        "format": "tizedestört (nem százalék!)"
+      }
+    ],
+    "explanation": "a) Két lépés, a holnapi állapot szerint összegezve: 0,7·0,3 + 0,3·0,6 = 0,39. b) Hosszú távon p = P(„nő”) teljesíti: p = p·0,7 + (1−p)·0,4 → p = 0,4/(0,3 + 0,4) = 4/7; a kérdezett arány 4/7 ≈ 0,5714.",
+    "source": "Gyakorló feladatok, MARKOV-1",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-6-002",
+    "chapter": 6,
+    "section": "6.2",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy tengerparti város időjárásáról tudjuk: napsütéses napot 0,75 valószínűséggel újabb napos nap követ, esős nap után pedig 0,4 valószínűséggel süt ki a nap. a) Ma esik. Mi az esélye, hogy két nap múlva napos idő lesz? b) Hosszú távon mekkora az esős napok aránya? Tizedestörtként add meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,54",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,3846",
+        "accept": "dec",
+        "format": "tizedestört (nem százalék!)"
+      }
+    ],
+    "explanation": "a) Két lépés, a holnapi állapot szerint összegezve: 0,4·0,75 + 0,6·0,4 = 0,54. b) Hosszú távon p = P(„napos”) teljesíti: p = p·0,75 + (1−p)·0,4 → p = 0,4/(0,25 + 0,4) = 8/13; a kérdezett arány 5/13 ≈ 0,3846.",
+    "source": "Gyakorló feladatok, MARKOV-2",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-6-003",
+    "chapter": 6,
+    "section": "6.3",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy kávézó törzsvendégei havonta vagy az A, vagy a B márkát választják. Aki A-t ivott, 60%-ban a következő hónapban is A-t választ; aki B-t, annak csak 20%-a vált A-ra. a) Egy vendég ebben a hónapban A-t ivott. Mekkora eséllyel választja két hónap múlva is A-t? b) Hosszú távon a hónapok mekkora részében választja B-t? Tizedestörtként add meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,44",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,6667",
+        "accept": "dec",
+        "format": "tizedestört (nem százalék!)"
+      }
+    ],
+    "explanation": "a) Két lépés, a holnapi állapot szerint összegezve: 0,6·0,6 + 0,4·0,2 = 0,44. b) Hosszú távon p = P(„A-t vesz”) teljesíti: p = p·0,6 + (1−p)·0,2 → p = 0,2/(0,4 + 0,2) = 1/3; a kérdezett arány 2/3 ≈ 0,6667.",
+    "source": "Gyakorló feladatok, MARKOV-3",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-6-004",
+    "chapter": 6,
+    "section": "6.4",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy kriptovaluta árfolyamát naponta emelkedőnek vagy csökkenőnek tekintjük. Emelkedés után 55%, csökkenés után 35% a következő napi emelkedés esélye. a) Ma csökkent az árfolyam. Mennyi a valószínűsége, hogy holnapután is csökkenni fog? b) Hosszú távon a napok hányad részében emelkedik? Tizedestörtként add meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,58",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,4375",
+        "accept": "dec",
+        "format": "tizedestört (nem százalék!)"
+      }
+    ],
+    "explanation": "a) Két lépés, a holnapi állapot szerint összegezve: 0,35·0,45 + 0,65·0,65 = 0,58. b) Hosszú távon p = P(„emelkedik”) teljesíti: p = p·0,55 + (1−p)·0,35 → p = 0,35/(0,45 + 0,35) = 7/16; a kérdezett arány 7/16 ≈ 0,4375.",
+    "source": "Gyakorló feladatok, MARKOV-4",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-6-005",
+    "chapter": 6,
+    "section": "6.5",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy gyártósori gép naponta vagy üzemel, vagy javításra vár. Ha ma üzemel, holnap 90% eséllyel szintén üzemel; ha ma áll, a szerelők 60% eséllyel holnapra megjavítják. a) A gép ma áll. Mekkora eséllyel üzemel holnapután? b) Hosszú távon a napok mekkora hányadában áll a gép? Tizedestörtként válaszolj!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,78",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,1429",
+        "accept": "dec",
+        "format": "tizedestört (nem százalék!)"
+      }
+    ],
+    "explanation": "a) Két lépés, a holnapi állapot szerint összegezve: 0,6·0,9 + 0,4·0,6 = 0,78. b) Hosszú távon p = P(„működik”) teljesíti: p = p·0,9 + (1−p)·0,6 → p = 0,6/(0,1 + 0,6) = 6/7; a kérdezett arány 1/7 ≈ 0,1429.",
+    "source": "Gyakorló feladatok, MARKOV-5",
+    "official": false,
+    "difficulty": 3
+  }
+]

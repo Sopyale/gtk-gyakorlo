@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { BadgeCheck, CheckCircle2, CornerDownLeft, Flag, Send, XCircle } from 'lucide-react';
 import { figures } from '../figures/index.js';
 import { accountsEnabled, sendTicket, useAccount } from '../lib/account.js';
-import { correctText, isCorrect, isTrueFalse, shuffle, TYPES } from '../lib/quiz.js';
+import { correctText, fieldCorrect, isCorrect, isTrueFalse, shuffle, TYPES } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 
 const KEY_TF = { i: true, h: false };
@@ -40,6 +40,7 @@ export default function QuestionCard({ q, feedback, onAnswer, onOverride, onNext
   const [response, setResponse] = useState(null);
   const [text, setText] = useState('');
   const [pairs, setPairs] = useState({});
+  const [nums, setNums] = useState({});
   const options = useMemo(() => (q.options ? shuffle(q.options) : null), [q]);
   const rights = useMemo(() => (q.type === 'parositas' ? shuffle(q.answer.map(([, r]) => r)) : null), [q]);
   const nextRef = useRef(null);
@@ -60,6 +61,7 @@ export default function QuestionCard({ q, feedback, onAnswer, onOverride, onNext
   };
 
   const canSubmitPairs = q.type === 'parositas' && q.answer.every(([l]) => pairs[l]);
+  const calc = q.type === 'szamolas';
 
   useEffect(() => {
     const onKey = (e) => {
@@ -87,7 +89,7 @@ export default function QuestionCard({ q, feedback, onAnswer, onOverride, onNext
   return (
     <article className={`qcard ${answered && feedback ? (correct ? 'is-right' : 'is-wrong') : ''}`}>
       <div className="qmeta">
-        <span>{TYPES[q.type]}, {q.section}</span>
+        {calc ? <span className="qpoints">Feladat {q.section}<b>{q.points},00 pont szerezhető</b></span> : <span>{TYPES[q.type]}, {q.section}</span>}
         {q.official && <span className="badge"><BadgeCheck size={15} aria-hidden="true" />Valódi gyakorló ZH-kérdés</span>}
       </div>
       {Fig && <div className="qfig"><Fig /></div>}
@@ -141,14 +143,33 @@ export default function QuestionCard({ q, feedback, onAnswer, onOverride, onNext
         </form>
       )}
 
+      {calc && (
+        <form className="calc" onSubmit={(e) => { e.preventDefault(); submit(nums); }}>
+          {q.fields.map((f) => {
+            const ok = answered && feedback ? fieldCorrect(f, nums[f.label]) : null;
+            return (
+              <label key={f.label} className="calc-row">
+                <span>{f.label}</span>
+                <input value={nums[f.label] ?? ''} disabled={answered} inputMode="decimal" autoComplete="off"
+                  aria-describedby={`fmt-${q.id}-${f.label}`} onChange={(e) => setNums({ ...nums, [f.label]: e.target.value })} />
+                {ok !== null && (ok ? <CheckCircle2 className="tick ok" size={22} aria-label="Helyes" /> : <XCircle className="tick bad" size={22} aria-label="Hibás" />)}
+                {ok === false && <em className="calc-key">Helyes: {f.answer}</em>}
+                <small id={`fmt-${q.id}-${f.label}`}>{f.format}</small>
+              </label>
+            );
+          })}
+          <button className="btn pri" disabled={answered}><CornerDownLeft size={18} aria-hidden="true" />Ellenőrzés</button>
+        </form>
+      )}
+
       {answered && feedback && (
         <div className={`fb ${correct ? 'right' : 'wrong'}`} role="status">
           <b>{correct ? <CheckCircle2 size={20} aria-hidden="true" /> : <XCircle size={20} aria-hidden="true" />}
-            {correct ? 'Helyes válasz' : 'Nem jó válasz'}</b>
-          {(!correct || q.type === 'rovid-valasz') && (
+            {calc ? (correct ? `Helyes, ${q.points} pont` : 'Nem minden mező jó, 0 pont') : correct ? 'Helyes válasz' : 'Nem jó válasz'}</b>
+          {(!correct || q.type === 'rovid-valasz') && !calc && (
             <p className="fb-answer"><span>{q.type === 'rovid-valasz' ? 'Mintaválasz' : 'A helyes válasz'}:</span> {correctText(q)}</p>
           )}
-          <p>{q.explanation}</p>
+          <p>{calc && <strong>Megoldás: </strong>}{q.explanation}</p>
           <small>Forrás: {q.source}</small>
           {/* The check can't know every wording, so the student can count a right answer given in other words. */}
           {q.type === 'rovid-valasz' && !correct && onOverride && (

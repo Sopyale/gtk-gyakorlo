@@ -61,6 +61,9 @@ export default function Home() {
         </DriveLink>
         <a className="card wide stat glow" href={href(main.id, main.exams[0].id, 'rontott')}><ArrowUpRight className="go" size={22} aria-hidden="true" /><b><Count to={wrong} /></b><span>rontott kérdés vár ismétlésre</span></a>
         <div className="soon-row">
+          {subjects.filter((s) => s.active && s !== main).map((s) => (
+            <a key={s.id} className="soon-card live glow" href={href(s.id)}><span>{s.name}</span><small>{getQuestions(s.id).length} gyakorló feladat</small></a>
+          ))}
           {subjects.filter((s) => !s.active).map((s) => (
             <div key={s.id} className="soon-card" aria-disabled="true"><span>{s.name}</span><small>Hamarosan</small></div>
           ))}

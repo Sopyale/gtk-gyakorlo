@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mat-7-001",
+    "chapter": 7,
+    "section": "7.1",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy kaparós sorsjegy nyereménye X ezer forint: 0 ezer Ft 0,2, 1 ezer Ft 0,5, 3 ezer Ft pedig q valószínűséggel; más érték nem lehetséges. a) Mennyi q? b) Mennyi a várható nyeremény? c) Mennyi a nyeremény szórása?",
+    "fields": [
+      {
+        "label": "a) q =",
+        "answer": "0,3",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "1,4",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "c)",
+        "answer": "1,1136",
+        "accept": "round",
+        "format": "tizedestört, 2–4 tizedesjegy"
+      }
+    ],
+    "explanation": "a) A valószínűségek összege 1: q = 0,3. b) E(X) = Σ x·p = 1,4. c) E(X²) = Σ x²·p = 3,2; D²(X) = E(X²) − E(X)² = 3,2 − 1,96 = 1,24; D(X) = √1,24 ≈ 1,1136.",
+    "source": "Gyakorló feladatok, ELOSZLAS-1",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-7-002",
+    "chapter": 7,
+    "section": "7.2",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy befektetés éves hozama X millió forint, ahol X ∈ {−1; 2; 5}. A veszteség (−1) esélye 0,25, a 2 milliós hozamé 0,35, az 5 milliósé q. a) Határozd meg q-t! b) Mennyi a várható hozam? c) Mekkora a hozam szórása?",
+    "fields": [
+      {
+        "label": "a) q =",
+        "answer": "0,4",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "2,45",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "c)",
+        "answer": "2,3764",
+        "accept": "round",
+        "format": "tizedestört, 2–4 tizedesjegy"
+      }
+    ],
+    "explanation": "a) A valószínűségek összege 1: q = 0,4. b) E(X) = Σ x·p = 2,45. c) E(X²) = Σ x²·p = 11,65; D²(X) = E(X²) − E(X)² = 11,65 − 6,0025 = 5,6475; D(X) = √5,6475 ≈ 2,3764.",
+    "source": "Gyakorló feladatok, ELOSZLAS-2",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-7-003",
+    "chapter": 7,
+    "section": "7.3",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy étterem asztalainál X fő ül; X lehetséges értékei 1, 3 és 6. Tudjuk, hogy P(X = 1) = 0,1 és P(X = 6) = 0,4, a 3 fős asztal valószínűsége pedig q. a) Mennyi q? b) Mennyi X várható értéke? c) Mennyi X szórása?",
+    "fields": [
+      {
+        "label": "a) q =",
+        "answer": "0,5",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "4",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "c)",
+        "answer": "1,7321",
+        "accept": "round",
+        "format": "tizedestört, 2–4 tizedesjegy"
+      }
+    ],
+    "explanation": "a) A valószínűségek összege 1: q = 0,5. b) E(X) = Σ x·p = 4. c) E(X²) = Σ x²·p = 19; D²(X) = E(X²) − E(X)² = 19 − 16 = 3; D(X) = √3 ≈ 1,7321.",
+    "source": "Gyakorló feladatok, ELOSZLAS-3",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-7-004",
+    "chapter": 7,
+    "section": "7.4",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy dobójátékban a pontszám (X) 2 pont 0,5, 4 pont 0,25 valószínűséggel, egyébként 8 pont (ennek valószínűsége q). a) Mennyi q? b) Mennyi a várható pontszám? c) Mennyi a pontszám szórása?",
+    "fields": [
+      {
+        "label": "a) q =",
+        "answer": "0,25",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "4",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "c)",
+        "answer": "2,4495",
+        "accept": "round",
+        "format": "tizedestört, 2–4 tizedesjegy"
+      }
+    ],
+    "explanation": "a) A valószínűségek összege 1: q = 0,25. b) E(X) = Σ x·p = 4. c) E(X²) = Σ x²·p = 22; D²(X) = E(X²) − E(X)² = 22 − 16 = 6; D(X) = √6 ≈ 2,4495.",
+    "source": "Gyakorló feladatok, ELOSZLAS-4",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-7-005",
+    "chapter": 7,
+    "section": "7.5",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy webshophoz naponta X visszaküldés érkezik, X ∈ {0; 2; 3; 5}. P(X = 0) = 0,1, P(X = 2) = 0,4, P(X = 3) = 0,3, az 5 visszaküldés valószínűsége q. a) Mennyi q? b) Mennyi E(X)? c) Mennyi D(X)?",
+    "fields": [
+      {
+        "label": "a) q =",
+        "answer": "0,2",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "2,7",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "c)",
+        "answer": "1,4177",
+        "accept": "round",
+        "format": "tizedestört, 2–4 tizedesjegy"
+      }
+    ],
+    "explanation": "a) A valószínűségek összege 1: q = 0,2. b) E(X) = Σ x·p = 2,7. c) E(X²) = Σ x²·p = 9,3; D²(X) = E(X²) − E(X)² = 9,3 − 7,29 = 2,01; D(X) = √2,01 ≈ 1,4177.",
+    "source": "Gyakorló feladatok, ELOSZLAS-5",
+    "official": false,
+    "difficulty": 3
+  }
+]

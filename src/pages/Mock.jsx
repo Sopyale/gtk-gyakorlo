@@ -6,8 +6,9 @@ import { scopeQuestions } from '../lib/data.js';
 import { correctText, drawMock, MOCK_MIX, record } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 
-const LIMIT = 20 * 60;
+const MINUTES = 20;
 const total = Object.values(MOCK_MIX).reduce((a, b) => a + b, 0);
+const maxPoints = (qs) => qs.reduce((s, q) => s + (q.points ?? 1), 0);
 const show = (q, r) => {
   if (r === undefined) return 'nincs válasz';
   if (typeof r === 'boolean') return r ? 'Igaz' : 'Hamis';
@@ -16,6 +17,8 @@ const show = (q, r) => {
 };
 
 export default function Mock({ subject }) {
+  const mock = subject.exam.mock;
+  const LIMIT = (mock?.minutes ?? MINUTES) * 60;
   const [phase, setPhase] = useState('intro');
   const [qs, setQs] = useState([]);
   const [i, setI] = useState(0);
@@ -43,8 +46,10 @@ export default function Mock({ subject }) {
     return (
       <div className="wrap page narrow">{back}
         <div className="empty"><Clock size={36} aria-hidden="true" /><h1>ZH-szimuláció</h1>
-          <p>20 perc, {total} ZH-szintű kérdés: {MOCK_MIX['igaz-hamis']} igaz–hamis, {MOCK_MIX.feleletvalasztos} feleletválasztós, {MOCK_MIX['rovid-valasz']} rövid válasz és {MOCK_MIX.abra} ábrás, mert a ZH-n sok lesz az ábrás kérdés. A kérdések a fejezetek arányában jönnek. Visszajelzést csak a végén kapsz.</p>
-          <button className="btn pri" onClick={() => { setQs(drawMock(scopeQuestions(subject))); setAnswers([]); setI(0); setLeft(LIMIT); setPhase('run'); }}>Indítás</button>
+          {mock
+            ? <p>{mock.minutes} perc, feladattípusonként {mock.perChapter} feladat, összesen {maxPoints(drawMock(scopeQuestions(subject), mock))} pont. Részpont nincs: egy feladat csak akkor ér pontot, ha minden mezője jó. Visszajelzést csak a végén kapsz.</p>
+            : <p>{MINUTES} perc, {total} ZH-szintű kérdés: {MOCK_MIX['igaz-hamis']} igaz–hamis, {MOCK_MIX.feleletvalasztos} feleletválasztós, {MOCK_MIX['rovid-valasz']} rövid válasz és {MOCK_MIX.abra} ábrás, mert a ZH-n sok lesz az ábrás kérdés. A kérdések a fejezetek arányában jönnek. Visszajelzést csak a végén kapsz.</p>}
+          <button className="btn pri" onClick={() => { setQs(drawMock(scopeQuestions(subject), mock)); setAnswers([]); setI(0); setLeft(LIMIT); setPhase('run'); }}>Indítás</button>
         </div>
       </div>
     );
@@ -70,7 +75,9 @@ export default function Mock({ subject }) {
     );
   }
 
-  const ok = answers.filter((a) => a?.ok).length;
+  // Calculation ZH: points of the fully right tasks; otherwise one point per question.
+  const ok = qs.reduce((s, q, k) => s + (answers[k]?.ok ? q.points ?? 1 : 0), 0);
+  const max = maxPoints(qs);
   const chapters = subject.chapters.map((c) => {
     const idx = qs.map((q, k) => [q, k]).filter(([q]) => q.chapter === c.n);
     return { ...c, n: c.n, all: idx.length, ok: idx.filter(([, k]) => answers[k]?.ok).length };
@@ -79,11 +86,11 @@ export default function Mock({ subject }) {
   return (
     <div className="wrap page narrow">{back}
       <div className="result">
-        <Ring value={qs.length ? ok / qs.length : 0} size={132} label={`Eredmény: ${ok} / ${qs.length}`} />
-        <div><h1>{ok} / {qs.length} pont</h1><p className="lede">{left ? 'Beadtad a ZH-t.' : 'Lejárt az idő.'}</p>
+        <Ring value={max ? ok / max : 0} size={132} label={`Eredmény: ${ok} / ${max}`} />
+        <div><h1>{ok} / {max} pont</h1><p className="lede">{left ? 'Beadtad a ZH-t.' : 'Lejárt az idő.'}</p>
           <button className="btn pri" onClick={() => setPhase('intro')}>Új ZH-szimuláció</button></div>
       </div>
-      <h2 className="sub">Fejezetenként</h2>
+      <h2 className="sub">{mock ? 'Feladattípusonként' : 'Fejezetenként'}</h2>
       <ul className="breakdown">
         {chapters.map((c) => (
           <li key={c.n}><span>{c.n}. {c.short}</span><i><b style={{ width: `${(c.ok / c.all) * 100}%` }} /></i><span>{c.ok} / {c.all}</span></li>

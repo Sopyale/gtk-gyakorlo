@@ -54,7 +54,8 @@ Out: own server code, third-party analytics or tracking, any content outside the
 ## 4. Pages and modes
 
 - **Menu**: top bar on desktop, drawer on phones; the six subjects in the order above.
-- **Home**: intro, subject bento cards (Közgazdaságtan active with its question count, others "Hamarosan", not clickable),
+- **Home**: intro, subject bento cards (Közgazdaságtan active with its question count, Matematika as a link with its task
+  count, others "Hamarosan", not clickable),
   "Tananyagok (Google Drive)" button → `https://drive.google.com/drive/folders/15-MBuk89WvQ-HQwPefg7sUawg0LdZi-0?usp=drive_link`
   with a one-line note that access is granted on request. A countdown to each active ZH ("2 nap az 1. ZH-ig") shows in
   the hero and on the ZH card; the date is `date` on the exam in `subjects.json`, or the student's own Ütemterv date.
@@ -119,6 +120,18 @@ Out: own server code, third-party analytics or tracking, any content outside the
 - Schema: `supabase/schema.sql` (fresh project only; re-running deletes profiles) and `supabase/tickets.sql`.
   User data never goes into the repository.
 
+### Matematika (2. ZH)
+
+The 2. ZH is calculation tasks. The bank is the 40 practice tasks of the owner's `gyakorlo_feladatok.md` (8 task types,
+5 own variants each; the original ZH tasks are never published). Each task is a Moodle-style card: "Feladat 4.2" and
+"10,00 pont szerezhető" in the header, the task text, then one grey number field per sub-question (a), b), c) or y =)
+with its format hint. "Ellenőrzés" shows a green tick or red cross per field, the right value for wrong fields, and
+the solution ("Megoldás"). No partial credit: the task's points count only when every field is right. Answers accept a
+decimal comma or point, spaces as thousands separators, and fractions where the format allows (`9/13`); decimals within
+±0.001, whole numbers (year, Ft, count) exactly, "2–4 tizedesjegy" also when rounded to 2–4 decimals, so a percentage
+form fails. The filter is by task type ("Feladattípusok"); the mock ZH draws one task per type (8 tasks, 56 points,
+60 minutes; the real ZH's time limit is not in the sources). No flashcards or matching game (no glossary).
+
 ## 5. Data format
 
 Content lives in data files only; adding a subject = adding files + flipping `active`.
@@ -134,13 +147,14 @@ Question object:
 | field | value |
 |---|---|
 | `id` | `"kg-3-017"` (subject-chapter-number), stable once published |
-| `type` | `"igaz-hamis"` \| `"feleletvalasztos"` \| `"rovid-valasz"` \| `"parositas"` \| `"abra"` |
+| `type` | `"igaz-hamis"` \| `"feleletvalasztos"` \| `"rovid-valasz"` \| `"parositas"` \| `"abra"` \| `"szamolas"` |
 | `chapter` | `3` |
 | `section` | `"3.4"` |
 | `question` | Hungarian text |
 | `answer` | igaz-hamis / abra-as-TF: `true`/`false`; feleletvalasztos / abra-as-choice: the correct option text (also first in `options`); rovid-valasz: array of accepted answers (first = model answer); parositas: array of `[left, right]` pairs (3–5) |
 | `options` | feleletvalasztos and abra-as-choice: exactly 4 strings, correct first, shuffled at runtime |
 | `figure` | abra only: id of an SVG figure component |
+| `points`, `fields` | szamolas only: the task's point value and its number fields `[{ label, answer, accept, format }]` (see README) |
 | `explanation` | 1–3 sentences: why, and the correct version for wrong options / false statements |
 | `source` | `"Jegyzet 3.4"` or `"Jegyzet 3.4 · Könyv 30. o."` |
 | `official` | `true` for the imported Moodle questions (UI badge "Valódi gyakorló ZH-kérdés") |

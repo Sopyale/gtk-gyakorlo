@@ -1,9 +1,10 @@
 # GTK gyakorló
 
-Practice question bank for first-semester ELTE GTK subjects. Currently it covers the Közgazdaságtan 1. ZH:
-368 questions, 74 flashcards and a 20-minute mock ZH. The site itself is in Hungarian.
+Practice question bank for first-semester ELTE GTK subjects. Currently it covers the Közgazdaságtan 1. ZH
+(368 questions, 74 flashcards, a 20-minute mock ZH) and the Matematika 2. ZH (40 calculation tasks in 8 task types, a
+60-minute mock ZH of 8 tasks). The site itself is in Hungarian.
 
-Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 1.9.0 ([change log](log/LOG.md))
+Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 1.10.0 ([change log](log/LOG.md))
 
 > For personal use only, not to be distributed. The site is based on ELTE's internal teaching materials; the copyright
 > of the original materials belongs to the lecturers and ELTE GTK. The notes, the textbook and the ZH materials
@@ -23,6 +24,8 @@ Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 1.9.0 ([c
 - **ZH-szint** filter: only the real practice-ZH questions and the hard ZH-style ones (`official` or `difficulty: 3`).
 - **Flashcardok** from the note's glossary, also with typed definitions checked by key concepts and an optional
   in-browser language model.
+- **Számolás** (Matematika): Moodle-style task cards with the point value, grey number fields and a tick or cross per
+  field; no partial credit. Decimal comma or point, fractions where the format allows, spaces in whole numbers.
 - **Ütemterv** (study plan): spreads the chapters over the days until the ZH by question count; the last day is review.
 - **Accounts** (optional): Neptun code + password + own non-ELTE e-mail, or Google sign-in. Progress syncs across
   devices; the password can be reset by e-mail; "stay signed in" is optional. Signed-out visitors are asked to sign in
@@ -76,6 +79,7 @@ Questions live in `src/data/<subject>/ch<N>.json`, one file per chapter. One que
 | `rovid-valasz` | list of accepted answers, the first is the model answer | `keywords`: an answer containing one counts as correct. Typed answers also match with Hungarian endings, any word order and one typo (not in a word's first 4 letters); in practice the student can mark "Más szavakkal, de ugyanezt írtam" |
 | `parositas` | `[["left", "right"], …]` pairs | |
 | `abra` | a true/false or multiple-choice answer | `figure`: figure id from `src/figures/index.js` |
+| `szamolas` | (none) | `points`; `fields`: `[{ label, answer, accept, format }]`. `accept`: `int` exact whole number, `dec` decimal within 0.001, `frac` also a fraction, `round` decimal with 2+ decimals rounded from the answer. `format` is the hint shown under the field |
 
 `official: true` marks the real practice-ZH questions. The glossary is in `glossary.json` (`term`, `definition`,
 `section`).
@@ -89,8 +93,11 @@ from the sources.
 ## Adding a subject or a ZH
 
 1. In `src/data/subjects.json`, set `"active": true` for the subject and fill in `chapters` and `exams`.
-2. Create `src/data/<subject-id>/` with `ch<N>.json` files and a `glossary.json`. The code picks them up.
-3. For a new ZH, add an item with its chapter numbers to the `exams` list.
+2. Create `src/data/<subject-id>/` with `ch<N>.json` files and, if it has flashcards, a `glossary.json`. The code
+   picks them up; without a glossary the Flashcardok and Párosító modes are hidden.
+3. For a new ZH, add an item with its chapter numbers to the `exams` list. A calculation ZH (Matematika) also gets
+   `"mock": { "minutes", "perChapter" }`: the mock ZH then draws that many tasks from every chapter (task type).
+   `chapterLabel` on the subject renames the "Fejezetek" filter (Matematika: "Feladattípusok").
 
 ## Accounts setup
 

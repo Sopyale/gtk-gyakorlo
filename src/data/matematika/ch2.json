@@ -1,0 +1,132 @@
+[
+  {
+    "id": "mat-2-001",
+    "chapter": 2,
+    "section": "2.1",
+    "type": "szamolas",
+    "points": 5,
+    "question": "Egy kollégiumban minden diák eszik gyümölcsöt reggelire: 72%-uk almát, 51%-uk körtét (van, aki mindkettőt). a) Mekkora eséllyel eszik mindkettőt egy véletlenül kiválasztott diák? b) Mekkora eséllyel eszik csak körtét?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,23",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,28",
+        "accept": "dec",
+        "format": "tizedestört"
+      }
+    ],
+    "explanation": "Mindenki legalább az egyikbe tartozik, ezért P(A∪B) = 1. Szita: P(A∩B) = 0,72 + 0,51 − 1 = 0,23. „Csak” a másik nélkül: 0,51 − 0,23 = 0,28.",
+    "source": "Gyakorló feladatok, SZITA-1",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-2-002",
+    "chapter": 2,
+    "section": "2.2",
+    "type": "szamolas",
+    "points": 5,
+    "question": "Egy multinacionális cégnél minden munkatárs beszél a két nyelv közül legalább egyet: 64%-uk angolul, 58%-uk németül. Véletlenszerűen behívunk egy munkatársat. a) Mi a valószínűsége, hogy mindkét nyelven tud? b) Mi a valószínűsége, hogy angolul nem, csak németül tud?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,22",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,36",
+        "accept": "dec",
+        "format": "tizedestört"
+      }
+    ],
+    "explanation": "Mindenki legalább az egyikbe tartozik, ezért P(A∪B) = 1. Szita: P(A∩B) = 0,64 + 0,58 − 1 = 0,22. „Csak” a másik nélkül: 0,58 − 0,22 = 0,36.",
+    "source": "Gyakorló feladatok, SZITA-2",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-2-003",
+    "chapter": 2,
+    "section": "2.3",
+    "type": "szamolas",
+    "points": 5,
+    "question": "Az irodai konyhában senki sem marad ital nélkül: a dolgozók 81%-a kávézik, 37%-a teázik. Egy dolgozót találomra kiválasztunk. a) Mekkora a valószínűsége, hogy mindkét italt fogyasztja? b) Mekkora a valószínűsége, hogy kizárólag teát iszik? (Tizedestörtként add meg!)",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,18",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,19",
+        "accept": "dec",
+        "format": "tizedestört"
+      }
+    ],
+    "explanation": "Mindenki legalább az egyikbe tartozik, ezért P(A∪B) = 1. Szita: P(A∩B) = 0,81 + 0,37 − 1 = 0,18. „Csak” a másik nélkül: 0,37 − 0,18 = 0,19.",
+    "source": "Gyakorló feladatok, SZITA-3",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-2-004",
+    "chapter": 2,
+    "section": "2.4",
+    "type": "szamolas",
+    "points": 5,
+    "question": "Egy lakótelep minden háztartása előfizet legalább egy streamingszolgáltatásra: a Netflix aránya 55%, az HBO-é 62%. Kisorsolunk egy háztartást. a) Mi az esélye, hogy mindkét szolgáltatásra előfizet? b) Mi az esélye, hogy csak Netflixe van?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,17",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,38",
+        "accept": "dec",
+        "format": "tizedestört"
+      }
+    ],
+    "explanation": "Mindenki legalább az egyikbe tartozik, ezért P(A∪B) = 1. Szita: P(A∩B) = 0,55 + 0,62 − 1 = 0,17. „Csak” a másik nélkül: 0,55 − 0,17 = 0,38.",
+    "source": "Gyakorló feladatok, SZITA-4",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-2-005",
+    "chapter": 2,
+    "section": "2.5",
+    "type": "szamolas",
+    "points": 5,
+    "question": "Egy cégnél mindenki autóval vagy kerékpárral (esetleg felváltva mindkettővel) jár be: autóval 73%, kerékpárral 44%. a) Mennyi a valószínűsége, hogy egy találomra választott dolgozó mindkét közlekedési módot használja? b) És annak, hogy soha nem ül autóba, csak biciklizik?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,17",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,27",
+        "accept": "dec",
+        "format": "tizedestört"
+      }
+    ],
+    "explanation": "Mindenki legalább az egyikbe tartozik, ezért P(A∪B) = 1. Szita: P(A∩B) = 0,73 + 0,44 − 1 = 0,17. „Csak” a másik nélkül: 0,44 − 0,17 = 0,27.",
+    "source": "Gyakorló feladatok, SZITA-5",
+    "official": false,
+    "difficulty": 3
+  }
+]

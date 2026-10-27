@@ -3,6 +3,18 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.10.0 – 2026-10-27
+
+- **Matematika 2. ZH:** the Matematika tab is open. 40 practice tasks from the owner's `gyakorlo_feladatok.md` (8 task
+  types of the practice ZH × 5 own variants; the original ZH tasks are not on the site) as a new `szamolas` type:
+  Moodle-style cards with points, grey number fields, a tick or cross per field and the solution, no partial credit.
+  Decimal comma or point, fractions where allowed, whole numbers exact. Practice by task type, Rontott, Ismétlés,
+  Ütemterv, and a 60-minute mock ZH with one task per type (56 points). No flashcards (no glossary). Requested by the
+  owner.
+- **Rule:** RULES.md has a Matematika section on which task types the bank has and how answers are checked.
+- `check-data` accepts any subject id prefix, checks every calculation field against its own answer and only needs a
+  glossary when a subject has one.
+
 ## 1.9.0 – 2026-10-21
 
 - **Typed definitions:** new "Leírom a definíciót" mode on the flashcards. The student writes the definition in

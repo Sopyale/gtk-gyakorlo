@@ -1,0 +1,132 @@
+[
+  {
+    "id": "mat-3-001",
+    "chapter": 3,
+    "section": "3.1",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy társasjátékban egy játékos 24-szer gurít a dobókockával. a) Átlagosan hány ötöst vár ennyi dobásból (várható érték)? b) Mekkora az esélye, hogy az első hatosa a negyedik gurításra jön ki, előtte három nem-hatossal?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "4",
+        "accept": "frac",
+        "format": "pontos érték"
+      },
+      {
+        "label": "b)",
+        "answer": "125/1296",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "a) Minden dobásnál 1/6 eséllyel jön 5-ös: várható érték n·p = 24·1/6 = 4. b) Az első 3 dobás „nem jó” (5/6 eséllyel), a 4. „jó” (1/6): (5/6)^3·1/6 = 125/1296 ≈ 0,0965.",
+    "source": "Gyakorló feladatok, KOCKA-1",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-3-002",
+    "chapter": 3,
+    "section": "3.2",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Péter 18-szor egymás után feldob egy szabályos dobókockát. a) Mennyi az egyesek számának várható értéke? b) Mi a valószínűsége, hogy az első dobás még nem hatos, de a második már az?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "3",
+        "accept": "frac",
+        "format": "pontos érték"
+      },
+      {
+        "label": "b)",
+        "answer": "5/36",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "a) Minden dobásnál 1/6 eséllyel jön 1-es: várható érték n·p = 18·1/6 = 3. b) Az első 1 dobás „nem jó” (5/6 eséllyel), a 2. „jó” (1/6): (5/6)^1·1/6 = 5/36 ≈ 0,1389.",
+    "source": "Gyakorló feladatok, KOCKA-2",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-3-003",
+    "chapter": 3,
+    "section": "3.3",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy kísérletben egy szabályos kockát 30 alkalommal dobunk fel. a) Várhatóan hányszor lesz az eredmény hármas? b) Mekkora valószínűséggel kell épp öt dobást végezni ahhoz, hogy először hatost lássunk?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "5",
+        "accept": "frac",
+        "format": "pontos érték"
+      },
+      {
+        "label": "b)",
+        "answer": "625/7776",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "a) Minden dobásnál 1/6 eséllyel jön 3-as: várható érték n·p = 30·1/6 = 5. b) Az első 4 dobás „nem jó” (5/6 eséllyel), a 5. „jó” (1/6): (5/6)^4·1/6 = 625/7776 ≈ 0,0804.",
+    "source": "Gyakorló feladatok, KOCKA-3",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-3-004",
+    "chapter": 3,
+    "section": "3.4",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Anna tucatnyi (12) dobást végez egy kockával. a) Mennyi a hatosok számának várható értéke? b) Mi a valószínűsége, hogy az első olyan dobás, amely ötöst vagy hatost mutat, pont a harmadik?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "2",
+        "accept": "frac",
+        "format": "pontos érték"
+      },
+      {
+        "label": "b)",
+        "answer": "4/27",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "a) Minden dobásnál 1/6 eséllyel jön 6-os: várható érték n·p = 12·1/6 = 2. b) Az első 2 dobás „nem jó” (2/3 eséllyel), a 3. „jó” (1/3): (2/3)^2·1/3 = 4/27 ≈ 0,1481.",
+    "source": "Gyakorló feladatok, KOCKA-4",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "mat-3-005",
+    "chapter": 3,
+    "section": "3.5",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy kocka 36 feldobásából álló sorozatot vizsgálunk. a) Mi a várható értéke a négyesek számának? b) Mekkora valószínűséggel lesz az első két dobás páros, a harmadik pedig páratlan (azaz az első páratlan szám a 3. dobásnál jön)?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "6",
+        "accept": "frac",
+        "format": "pontos érték"
+      },
+      {
+        "label": "b)",
+        "answer": "1/8",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "a) Minden dobásnál 1/6 eséllyel jön 4-es: várható érték n·p = 36·1/6 = 6. b) Az első 2 dobás „nem jó” (1/2 eséllyel), a 3. „jó” (1/2): (1/2)^2·1/2 = 1/8 ≈ 0,125.",
+    "source": "Gyakorló feladatok, KOCKA-5",
+    "official": false,
+    "difficulty": 3
+  }
+]

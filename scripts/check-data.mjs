@@ -1,11 +1,12 @@
 // Validates the question bank: format per type, duplicate ids/texts, section coverage. Exits 1 on errors.
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
-import { checkDefinition } from '../src/lib/quiz.js';
+import { checkDefinition, fieldCorrect, parseNumber } from '../src/lib/quiz.js';
 
 const root = new URL('../src/data/', import.meta.url);
 const read = (p) => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
 const subjects = read('subjects.json');
-const TYPES = ['igaz-hamis', 'feleletvalasztos', 'rovid-valasz', 'parositas', 'abra'];
+const TYPES = ['igaz-hamis', 'feleletvalasztos', 'rovid-valasz', 'parositas', 'abra', 'szamolas'];
+const ACCEPT = ['int', 'dec', 'frac', 'round'];
 const figDir = new URL('../src/figures/', import.meta.url);
 const figures = readdirSync(figDir).map((f) => readFileSync(new URL(f, figDir), 'utf8')).join('\n');
 const strict = process.argv.includes('--strict'); // stage 3+: missing sections become errors
@@ -21,8 +22,8 @@ for (const s of subjects.filter((x) => x.active)) {
     for (const q of read(`${s.id}/${f}`)) {
       const at = `${f} ${q.id ?? '?'}`;
       const err = (m) => errors.push(`${at}: ${m}`);
-      if (!/^kg-\d-\d{3}$/.test(q.id ?? '')) err('id must look like kg-3-017');
-      else if (+q.id[3] !== chapter) err('id chapter does not match file');
+      if (!/^[a-z]+-\d-\d{3}$/.test(q.id ?? '')) err('id must look like kg-3-017');
+      else if (+q.id.split('-')[1] !== chapter) err('id chapter does not match file');
       if (ids.has(q.id)) err(`duplicate id (also in ${ids.get(q.id)})`); else ids.set(q.id, f);
       if (!TYPES.includes(q.type)) err(`unknown type ${q.type}`);
       if (q.chapter !== chapter) err('chapter field does not match file');
@@ -39,6 +40,14 @@ for (const s of subjects.filter((x) => x.active)) {
       if (q.type === 'abra' && !figures.includes(`${q.figure}:`) && !figures.includes(`'${q.figure}':`)) err(`unknown figure ${q.figure}`);
       if (q.type === 'rovid-valasz' && !(Array.isArray(q.answer) && q.answer.length && q.answer.every((a) => typeof a === 'string' && a.trim()))) err('short answer must be a list of accepted answers, model answer first');
       if (q.keywords !== undefined && !(Array.isArray(q.keywords) && q.keywords.every((k) => typeof k === 'string' && k.trim().length >= 3))) err('keywords must be strings of 3+ characters');
+      if (q.type === 'szamolas') {
+        if (!Number.isInteger(q.points) || q.points < 1) err('calculation task needs points');
+        if (!(Array.isArray(q.fields) && q.fields.length)) err('calculation task needs fields');
+        else for (const f of q.fields) {
+          if (!f.label || !f.format || !ACCEPT.includes(f.accept)) err(`field ${f.label}: needs label, format, accept (${ACCEPT})`);
+          else if (parseNumber(f.answer) === null || !fieldCorrect(f, f.answer)) err(`field ${f.label}: answer ${f.answer} is not a number it accepts`);
+        }
+      }
       if (q.type === 'parositas' && !(Array.isArray(q.answer) && q.answer.length >= 2 && q.answer.every((p) => p.length === 2))) err('matching needs [[left, right], ...]');
       const t = norm(q.question ?? '');
       if (texts.has(t)) err(`duplicate question text (also ${texts.get(t)})`); else texts.set(t, q.id);
@@ -49,11 +58,11 @@ for (const s of subjects.filter((x) => x.active)) {
   }
   // Every section listed in the coverage plan must have at least one question.
   const plan = new URL('../docs/coverage-plan.md', import.meta.url);
-  const sections = existsSync(plan) ? [...readFileSync(plan, 'utf8').matchAll(/^\| (\d\.\d+) /gm)].map((m) => m[1]) : [];
+  const sections = s.id === 'kozgazdasagtan' && existsSync(plan) ? [...readFileSync(plan, 'utf8').matchAll(/^\| (\d\.\d+) /gm)].map((m) => m[1]) : [];
   const missing = sections.filter((x) => !bySection[x]);
   if (missing.length) (strict ? errors : warnings).push(`${s.id}: ${missing.length} section(s) without questions: ${missing.join(', ')}`);
 
-  const glossary = read(`${s.id}/glossary.json`);
+  const glossary = existsSync(new URL(`${s.id}/glossary.json`, root)) ? read(`${s.id}/glossary.json`) : [];
   glossary.forEach((g, k) => {
     if (!g.term || !g.definition || !g.section) errors.push(`${s.id} glossary #${k}: needs term, definition, section`);
     // The typed-definition check scores against these; the model definition itself must pass.
