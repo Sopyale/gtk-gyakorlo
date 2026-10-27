@@ -26,10 +26,17 @@
         "format": "tizedestört, 2–4 tizedesjegy"
       }
     ],
-    "explanation": "a) A valószínűségek összege 1: q = 0,3. b) E(X) = Σ x·p = 1,4. c) E(X²) = Σ x²·p = 3,2; D²(X) = E(X²) − E(X)² = 3,2 − 1,96 = 1,24; D(X) = √1,24 ≈ 1,1136.",
+    "explanation": "Módszer: Σp = 1; E(X) = Σx·p; D(X) = √(E(X²) − E(X)²). A várható érték és a szórás a gyakorló feladatsorból jön, a 2. ZH jegyzete még nem tárgyalja.",
     "source": "Gyakorló feladatok, ELOSZLAS-1",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "a) A valószínűségek összege 1: q = 1 − (0,2 + 0,5) = 0,3.",
+      "b) Várható érték = értékek szorozva a valószínűségükkel, összeadva: E(X) = 0·0,2 + 1·0,5 + 3·0,3 = 1,4.",
+      "c) Előbb a négyzetek átlaga: E(X²) = 0·0,2 + 1·0,5 + 9·0,3 = 3,2.",
+      "c) Szórásnégyzet: D²(X) = E(X²) − E(X)² = 3,2 − 1,4² = 3,2 − 1,96 = 1,24.",
+      "c) Szórás: D(X) = √1,24 ≈ 1,1136."
+    ]
   },
   {
     "id": "mat-7-002",
@@ -58,10 +65,17 @@
         "format": "tizedestört, 2–4 tizedesjegy"
       }
     ],
-    "explanation": "a) A valószínűségek összege 1: q = 0,4. b) E(X) = Σ x·p = 2,45. c) E(X²) = Σ x²·p = 11,65; D²(X) = E(X²) − E(X)² = 11,65 − 6,0025 = 5,6475; D(X) = √5,6475 ≈ 2,3764.",
+    "explanation": "Módszer: Σp = 1; E(X) = Σx·p; D(X) = √(E(X²) − E(X)²). A várható érték és a szórás a gyakorló feladatsorból jön, a 2. ZH jegyzete még nem tárgyalja.",
     "source": "Gyakorló feladatok, ELOSZLAS-2",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "a) A valószínűségek összege 1: q = 1 − (0,25 + 0,35) = 0,4.",
+      "b) Várható érték = értékek szorozva a valószínűségükkel, összeadva: E(X) = (−1)·0,25 + 2·0,35 + 5·0,4 = 2,45.",
+      "c) Előbb a négyzetek átlaga: E(X²) = 1·0,25 + 4·0,35 + 25·0,4 = 11,65.",
+      "c) Szórásnégyzet: D²(X) = E(X²) − E(X)² = 11,65 − 2,45² = 11,65 − 6,0025 = 5,6475.",
+      "c) Szórás: D(X) = √5,6475 ≈ 2,3764."
+    ]
   },
   {
     "id": "mat-7-003",
@@ -90,10 +104,17 @@
         "format": "tizedestört, 2–4 tizedesjegy"
       }
     ],
-    "explanation": "a) A valószínűségek összege 1: q = 0,5. b) E(X) = Σ x·p = 4. c) E(X²) = Σ x²·p = 19; D²(X) = E(X²) − E(X)² = 19 − 16 = 3; D(X) = √3 ≈ 1,7321.",
+    "explanation": "Módszer: Σp = 1; E(X) = Σx·p; D(X) = √(E(X²) − E(X)²). A várható érték és a szórás a gyakorló feladatsorból jön, a 2. ZH jegyzete még nem tárgyalja.",
     "source": "Gyakorló feladatok, ELOSZLAS-3",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "a) A valószínűségek összege 1: q = 1 − (0,1 + 0,4) = 0,5.",
+      "b) Várható érték = értékek szorozva a valószínűségükkel, összeadva: E(X) = 1·0,1 + 3·0,5 + 6·0,4 = 4.",
+      "c) Előbb a négyzetek átlaga: E(X²) = 1·0,1 + 9·0,5 + 36·0,4 = 19.",
+      "c) Szórásnégyzet: D²(X) = E(X²) − E(X)² = 19 − 4² = 19 − 16 = 3.",
+      "c) Szórás: D(X) = √3 ≈ 1,7321."
+    ]
   },
   {
     "id": "mat-7-004",
@@ -122,10 +143,17 @@
         "format": "tizedestört, 2–4 tizedesjegy"
       }
     ],
-    "explanation": "a) A valószínűségek összege 1: q = 0,25. b) E(X) = Σ x·p = 4. c) E(X²) = Σ x²·p = 22; D²(X) = E(X²) − E(X)² = 22 − 16 = 6; D(X) = √6 ≈ 2,4495.",
+    "explanation": "Módszer: Σp = 1; E(X) = Σx·p; D(X) = √(E(X²) − E(X)²). A várható érték és a szórás a gyakorló feladatsorból jön, a 2. ZH jegyzete még nem tárgyalja.",
     "source": "Gyakorló feladatok, ELOSZLAS-4",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "a) A valószínűségek összege 1: q = 1 − (0,5 + 0,25) = 0,25.",
+      "b) Várható érték = értékek szorozva a valószínűségükkel, összeadva: E(X) = 2·0,5 + 4·0,25 + 8·0,25 = 4.",
+      "c) Előbb a négyzetek átlaga: E(X²) = 4·0,5 + 16·0,25 + 64·0,25 = 22.",
+      "c) Szórásnégyzet: D²(X) = E(X²) − E(X)² = 22 − 4² = 22 − 16 = 6.",
+      "c) Szórás: D(X) = √6 ≈ 2,4495."
+    ]
   },
   {
     "id": "mat-7-005",
@@ -154,9 +182,16 @@
         "format": "tizedestört, 2–4 tizedesjegy"
       }
     ],
-    "explanation": "a) A valószínűségek összege 1: q = 0,2. b) E(X) = Σ x·p = 2,7. c) E(X²) = Σ x²·p = 9,3; D²(X) = E(X²) − E(X)² = 9,3 − 7,29 = 2,01; D(X) = √2,01 ≈ 1,4177.",
+    "explanation": "Módszer: Σp = 1; E(X) = Σx·p; D(X) = √(E(X²) − E(X)²). A várható érték és a szórás a gyakorló feladatsorból jön, a 2. ZH jegyzete még nem tárgyalja.",
     "source": "Gyakorló feladatok, ELOSZLAS-5",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "a) A valószínűségek összege 1: q = 1 − (0,1 + 0,4 + 0,3) = 0,2.",
+      "b) Várható érték = értékek szorozva a valószínűségükkel, összeadva: E(X) = 0·0,1 + 2·0,4 + 3·0,3 + 5·0,2 = 2,7.",
+      "c) Előbb a négyzetek átlaga: E(X²) = 0·0,1 + 4·0,4 + 9·0,3 + 25·0,2 = 9,3.",
+      "c) Szórásnégyzet: D²(X) = E(X²) − E(X)² = 9,3 − 2,7² = 9,3 − 7,29 = 2,01.",
+      "c) Szórás: D(X) = √2,01 ≈ 1,4177."
+    ]
   }
 ]

@@ -125,8 +125,9 @@ Out: own server code, third-party analytics or tracking, any content outside the
 The 2. ZH is calculation tasks. The bank is the 40 practice tasks of the owner's `gyakorlo_feladatok.md` (8 task types,
 5 own variants each; the original ZH tasks are never published). Each task is a Moodle-style card: "Feladat 4.2" and
 "10,00 pont szerezhető" in the header, the task text, then one grey number field per sub-question (a), b), c) or y =)
-with its format hint. "Ellenőrzés" shows a green tick or red cross per field, the right value for wrong fields, and
-the solution ("Megoldás"). No partial credit: the task's points count only when every field is right. Answers accept a
+with its format hint. "Ellenőrzés" shows a green tick or red cross per field, the right value for wrong fields, a
+numbered step-by-step derivation ("Levezetés", `steps`, using only the note's methods) and the one-line method; the mock
+ZH's review shows the same derivation. No partial credit: the task's points count only when every field is right. Answers accept a
 decimal comma or point, spaces as thousands separators, and fractions where the format allows (`9/13`); decimals within
 ±0.001, whole numbers (year, Ft, count) exactly, "2–4 tizedesjegy" also when rounded to 2–4 decimals, so a percentage
 form fails. The filter is by task type ("Feladattípusok"); the mock ZH draws one task per type (8 tasks, 56 points,
@@ -154,7 +155,7 @@ Question object:
 | `answer` | igaz-hamis / abra-as-TF: `true`/`false`; feleletvalasztos / abra-as-choice: the correct option text (also first in `options`); rovid-valasz: array of accepted answers (first = model answer); parositas: array of `[left, right]` pairs (3–5) |
 | `options` | feleletvalasztos and abra-as-choice: exactly 4 strings, correct first, shuffled at runtime |
 | `figure` | abra only: id of an SVG figure component |
-| `points`, `fields` | szamolas only: the task's point value and its number fields `[{ label, answer, accept, format }]` (see README) |
+| `points`, `fields`, `steps` | szamolas only: the task's point value, its derivation steps and its number fields `[{ label, answer, accept, format }]` (see README) |
 | `explanation` | 1–3 sentences: why, and the correct version for wrong options / false statements |
 | `source` | `"Jegyzet 3.4"` or `"Jegyzet 3.4 · Könyv 30. o."` |
 | `official` | `true` for the imported Moodle questions (UI badge "Valódi gyakorló ZH-kérdés") |

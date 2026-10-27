@@ -3,6 +3,15 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 1.11.0 – 2026-10-27
+
+- **Levezetés for every Matematika task:** each of the 40 tasks now shows a numbered step-by-step derivation in the
+  simplest form, with the note's methods (szita formula, tree diagram, compound interest with logarithm, variation)
+  and section references; every number was recomputed by a script against the answer key. Where the note doesn't
+  cover a topic (vectors, expected value and standard deviation) the method line says so. Shown in practice and in
+  the mock ZH review. Requested by the owner so every solution can be understood.
+- **Rule:** RULES.md (Matematika) and the owner's exam-note prompt now require a derivation for every practice task.
+
 ## 1.10.0 – 2026-10-27
 
 - **Matematika 2. ZH:** the Matematika tab is open. 40 practice tasks from the owner's `gyakorlo_feladatok.md` (8 task

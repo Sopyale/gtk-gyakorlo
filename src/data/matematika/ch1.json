@@ -14,10 +14,16 @@
         "format": "pontos érték (tizedes is elfogadható)"
       }
     ],
-    "explanation": "Akkor nem függetlenek, ha az egyik a másik számszorosa: u = λ·v. Az ismert koordinátákból λ = -3/2; ezért y = λ·10 = -15.",
+    "explanation": "Módszer: u = λ·v, vagyis a megfelelő koordináták aránya mindenhol ugyanaz. A vektorok a gyakorló feladatsorból jönnek, a 2. ZH jegyzete nem tárgyalja őket.",
     "source": "Gyakorló feladatok, VEK-1",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Két vektor akkor lineárisan összefüggő (párhuzamos), ha az egyik a másik számszorosa: a = λ·b. Ez koordinátánként is igaz.",
+      "λ egy olyan koordinátából, ahol mindkét szám ismert: 6 = λ·(−4) → λ = 6/(−4) = −3/2.",
+      "Ellenőrzés a másik ismert koordinátával: λ·6 = −3/2·6 = −9. Egyezik, tehát jó a λ.",
+      "A hiányzó koordináta: y = λ·10 = −3/2·10 = −15."
+    ]
   },
   {
     "id": "mat-1-002",
@@ -34,10 +40,16 @@
         "format": "pontos érték (tizedes is elfogadható)"
       }
     ],
-    "explanation": "Akkor nem függetlenek, ha az egyik a másik számszorosa: u = λ·v. Az ismert koordinátákból λ = -4/3; ezért y = λ·15 = -20.",
+    "explanation": "Módszer: u = λ·v, vagyis a megfelelő koordináták aránya mindenhol ugyanaz. A vektorok a gyakorló feladatsorból jönnek, a 2. ZH jegyzete nem tárgyalja őket.",
     "source": "Gyakorló feladatok, VEK-2",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Két vektor akkor lineárisan összefüggő (párhuzamos), ha az egyik a másik számszorosa: u = λ·v. Ez koordinátánként is igaz.",
+      "λ egy olyan koordinátából, ahol mindkét szám ismert: 12 = λ·(−9) → λ = 12/(−9) = −4/3.",
+      "Ellenőrzés a másik ismert koordinátával: λ·6 = −4/3·6 = −8. Egyezik, tehát jó a λ.",
+      "A hiányzó koordináta: y = λ·15 = −4/3·15 = −20."
+    ]
   },
   {
     "id": "mat-1-003",
@@ -54,10 +66,16 @@
         "format": "pontos érték (tizedes is elfogadható)"
       }
     ],
-    "explanation": "Akkor nem függetlenek, ha az egyik a másik számszorosa: u = λ·v. Az ismert koordinátákból λ = -7/4; ezért y = λ·4 = -7.",
+    "explanation": "Módszer: u = λ·v, vagyis a megfelelő koordináták aránya mindenhol ugyanaz. A vektorok a gyakorló feladatsorból jönnek, a 2. ZH jegyzete nem tárgyalja őket.",
     "source": "Gyakorló feladatok, VEK-3",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Két vektor akkor lineárisan összefüggő (párhuzamos), ha az egyik a másik számszorosa: p = λ·q. Ez koordinátánként is igaz.",
+      "λ egy olyan koordinátából, ahol mindkét szám ismert: 14 = λ·(−8) → λ = 14/(−8) = −7/4.",
+      "Ellenőrzés a másik ismert koordinátával: λ·12 = −7/4·12 = −21. Egyezik, tehát jó a λ.",
+      "A hiányzó koordináta: y = λ·4 = −7/4·4 = −7."
+    ]
   },
   {
     "id": "mat-1-004",
@@ -74,10 +92,16 @@
         "format": "pontos érték (tizedes is elfogadható)"
       }
     ],
-    "explanation": "Akkor nem függetlenek, ha az egyik a másik számszorosa: u = λ·v. Az ismert koordinátákból λ = -3/2; ezért y = λ·7 = -10,5.",
+    "explanation": "Módszer: u = λ·v, vagyis a megfelelő koordináták aránya mindenhol ugyanaz. A vektorok a gyakorló feladatsorból jönnek, a 2. ZH jegyzete nem tárgyalja őket.",
     "source": "Gyakorló feladatok, VEK-4",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Két vektor akkor lineárisan összefüggő (párhuzamos), ha az egyik a másik számszorosa: c = λ·d. Ez koordinátánként is igaz.",
+      "λ egy olyan koordinátából, ahol mindkét szám ismert: −15 = λ·10 → λ = −15/10 = −3/2.",
+      "Ellenőrzés a másik ismert koordinátával: λ·(−4) = −3/2·(−4) = 6. Egyezik, tehát jó a λ.",
+      "A hiányzó koordináta: y = λ·7 = −3/2·7 = −21/2 = −10,5."
+    ]
   },
   {
     "id": "mat-1-005",
@@ -94,9 +118,15 @@
         "format": "pontos érték (tizedes is elfogadható)"
       }
     ],
-    "explanation": "Akkor nem függetlenek, ha az egyik a másik számszorosa: u = λ·v. Az ismert koordinátákból λ = -4/3; ezért y = λ·9 = -12.",
+    "explanation": "Módszer: u = λ·v, vagyis a megfelelő koordináták aránya mindenhol ugyanaz. A vektorok a gyakorló feladatsorból jönnek, a 2. ZH jegyzete nem tárgyalja őket.",
     "source": "Gyakorló feladatok, VEK-5",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Két vektor akkor lineárisan összefüggő (párhuzamos), ha az egyik a másik számszorosa: az első vektor = λ·a második. Ez koordinátánként is igaz.",
+      "λ egy olyan koordinátából, ahol mindkét szám ismert: 8 = λ·(−6) → λ = 8/(−6) = −4/3.",
+      "Ellenőrzés a másik ismert koordinátával: λ·(−15) = −4/3·(−15) = 20. Egyezik, tehát jó a λ.",
+      "A hiányzó koordináta: y = λ·9 = −4/3·9 = −12."
+    ]
   }
 ]

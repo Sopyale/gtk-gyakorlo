@@ -20,10 +20,16 @@
         "format": "tizedestört"
       }
     ],
-    "explanation": "Mindenki legalább az egyikbe tartozik, ezért P(A∪B) = 1. Szita: P(A∩B) = 0,72 + 0,51 − 1 = 0,23. „Csak” a másik nélkül: 0,51 − 0,23 = 0,28.",
+    "explanation": "Módszer: szita formula két eseményre (jegyzet 6.7), P(A ∪ B) = 1, mert mindenki legalább az egyikbe tartozik.",
     "source": "Gyakorló feladatok, SZITA-1",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Jelölés: A = „alma”, B = „körte”. P(A) = 0,72, P(B) = 0,51. Mindenki legalább az egyikbe tartozik, ezért P(A ∪ B) = 1.",
+      "Szita formula (jegyzet 6.7): P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Átrendezve: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
+      "a) Mindkettő: P(A ∩ B) = 0,72 + 0,51 − 1 = 0,23.",
+      "b) Csak „körte” = „körte”, de „alma” nem: a(z) körte valószínűségéből levonjuk a közös részt: 0,51 − 0,23 = 0,28."
+    ]
   },
   {
     "id": "mat-2-002",
@@ -46,10 +52,16 @@
         "format": "tizedestört"
       }
     ],
-    "explanation": "Mindenki legalább az egyikbe tartozik, ezért P(A∪B) = 1. Szita: P(A∩B) = 0,64 + 0,58 − 1 = 0,22. „Csak” a másik nélkül: 0,58 − 0,22 = 0,36.",
+    "explanation": "Módszer: szita formula két eseményre (jegyzet 6.7), P(A ∪ B) = 1, mert mindenki legalább az egyikbe tartozik.",
     "source": "Gyakorló feladatok, SZITA-2",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Jelölés: A = „angol”, B = „német”. P(A) = 0,64, P(B) = 0,58. Mindenki legalább az egyikbe tartozik, ezért P(A ∪ B) = 1.",
+      "Szita formula (jegyzet 6.7): P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Átrendezve: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
+      "a) Mindkettő: P(A ∩ B) = 0,64 + 0,58 − 1 = 0,22.",
+      "b) Csak „német” = „német”, de „angol” nem: a(z) német valószínűségéből levonjuk a közös részt: 0,58 − 0,22 = 0,36."
+    ]
   },
   {
     "id": "mat-2-003",
@@ -72,10 +84,16 @@
         "format": "tizedestört"
       }
     ],
-    "explanation": "Mindenki legalább az egyikbe tartozik, ezért P(A∪B) = 1. Szita: P(A∩B) = 0,81 + 0,37 − 1 = 0,18. „Csak” a másik nélkül: 0,37 − 0,18 = 0,19.",
+    "explanation": "Módszer: szita formula két eseményre (jegyzet 6.7), P(A ∪ B) = 1, mert mindenki legalább az egyikbe tartozik.",
     "source": "Gyakorló feladatok, SZITA-3",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Jelölés: A = „kávé”, B = „tea”. P(A) = 0,81, P(B) = 0,37. Mindenki legalább az egyikbe tartozik, ezért P(A ∪ B) = 1.",
+      "Szita formula (jegyzet 6.7): P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Átrendezve: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
+      "a) Mindkettő: P(A ∩ B) = 0,81 + 0,37 − 1 = 0,18.",
+      "b) Csak „tea” = „tea”, de „kávé” nem: a(z) tea valószínűségéből levonjuk a közös részt: 0,37 − 0,18 = 0,19."
+    ]
   },
   {
     "id": "mat-2-004",
@@ -98,10 +116,16 @@
         "format": "tizedestört"
       }
     ],
-    "explanation": "Mindenki legalább az egyikbe tartozik, ezért P(A∪B) = 1. Szita: P(A∩B) = 0,55 + 0,62 − 1 = 0,17. „Csak” a másik nélkül: 0,55 − 0,17 = 0,38.",
+    "explanation": "Módszer: szita formula két eseményre (jegyzet 6.7), P(A ∪ B) = 1, mert mindenki legalább az egyikbe tartozik.",
     "source": "Gyakorló feladatok, SZITA-4",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Jelölés: A = „Netflix”, B = „HBO”. P(A) = 0,55, P(B) = 0,62. Mindenki legalább az egyikbe tartozik, ezért P(A ∪ B) = 1.",
+      "Szita formula (jegyzet 6.7): P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Átrendezve: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
+      "a) Mindkettő: P(A ∩ B) = 0,55 + 0,62 − 1 = 0,17.",
+      "b) Csak „Netflix” = „Netflix”, de „HBO” nem: a(z) Netflix valószínűségéből levonjuk a közös részt: 0,55 − 0,17 = 0,38."
+    ]
   },
   {
     "id": "mat-2-005",
@@ -124,9 +148,15 @@
         "format": "tizedestört"
       }
     ],
-    "explanation": "Mindenki legalább az egyikbe tartozik, ezért P(A∪B) = 1. Szita: P(A∩B) = 0,73 + 0,44 − 1 = 0,17. „Csak” a másik nélkül: 0,44 − 0,17 = 0,27.",
+    "explanation": "Módszer: szita formula két eseményre (jegyzet 6.7), P(A ∪ B) = 1, mert mindenki legalább az egyikbe tartozik.",
     "source": "Gyakorló feladatok, SZITA-5",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Jelölés: A = „autó”, B = „kerékpár”. P(A) = 0,73, P(B) = 0,44. Mindenki legalább az egyikbe tartozik, ezért P(A ∪ B) = 1.",
+      "Szita formula (jegyzet 6.7): P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Átrendezve: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
+      "a) Mindkettő: P(A ∩ B) = 0,73 + 0,44 − 1 = 0,17.",
+      "b) Csak „kerékpár” = „kerékpár”, de „autó” nem: a(z) kerékpár valószínűségéből levonjuk a közös részt: 0,44 − 0,17 = 0,27."
+    ]
   }
 ]

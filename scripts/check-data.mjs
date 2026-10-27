@@ -42,6 +42,7 @@ for (const s of subjects.filter((x) => x.active)) {
       if (q.keywords !== undefined && !(Array.isArray(q.keywords) && q.keywords.every((k) => typeof k === 'string' && k.trim().length >= 3))) err('keywords must be strings of 3+ characters');
       if (q.type === 'szamolas') {
         if (!Number.isInteger(q.points) || q.points < 1) err('calculation task needs points');
+        if (!(Array.isArray(q.steps) && q.steps.length >= 2 && q.steps.every((s) => typeof s === 'string' && s.trim()))) err('calculation task needs a step-by-step derivation (steps)');
         if (!(Array.isArray(q.fields) && q.fields.length)) err('calculation task needs fields');
         else for (const f of q.fields) {
           if (!f.label || !f.format || !ACCEPT.includes(f.accept)) err(`field ${f.label}: needs label, format, accept (${ACCEPT})`);

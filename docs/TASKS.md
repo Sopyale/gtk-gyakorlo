@@ -104,4 +104,9 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Write the Matematika task-type rules into RULES.md
 - [x] ~~Upload the Matematika 2. ZH exam note to the Google Drive study-materials folder~~ (dropped by the owner)
 
+## 1.11.0
+
+- [x] A step-by-step derivation ("Levezetés") for every Matematika task, as simple as possible and using only the
+      note's methods; write the rule into RULES.md and into the owner's exam-note prompt (`vizsgajegyzet-prompt-altalanos.md`)
+
 ## Open

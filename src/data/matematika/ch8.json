@@ -20,10 +20,17 @@
         "format": "egész szám"
       }
     ],
-    "explanation": "a) Ismétléses variáció: 26^3·10^3 = 17 576 000. b) Ismétlés nélküli variáció: 26·25·24·10·9·8 = 11 232 000.",
+    "explanation": "Módszer: ismétléses variáció n^k, ismétlés nélküli variáció n·(n − 1)·…, a két rész szorzata (jegyzet 6.3).",
     "source": "Gyakorló feladatok, RENDSZAM-1",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Minden pozíció egy döntés, és a sorrend számít, ezért variáció (jegyzet 6.3). A betű- és a számrészt külön számoljuk, majd összeszorozzuk (minden betűsorhoz bármelyik számsor jöhet).",
+      "a) Ismétléses variáció, n^k (n = lehetőségek, k = döntések): betűk 26^3 = 17 576, számjegyek 10^3 = 1 000.",
+      "a) Összesen: 17 576·1 000 = 17 576 000.",
+      "b) Ismétlés nélküli variáció, minden döntésnél eggyel kevesebb lehetőség: betűk 26·25·24 = 15 600, számjegyek 10·9·8 = 720.",
+      "b) Összesen: 15 600·720 = 11 232 000."
+    ]
   },
   {
     "id": "mat-8-002",
@@ -46,10 +53,17 @@
         "format": "egész szám"
       }
     ],
-    "explanation": "a) Ismétléses variáció: 26^4·10^2 = 45 697 600. b) Ismétlés nélküli variáció: 26·25·24·23·10·9 = 32 292 000.",
+    "explanation": "Módszer: ismétléses variáció n^k, ismétlés nélküli variáció n·(n − 1)·…, a két rész szorzata (jegyzet 6.3).",
     "source": "Gyakorló feladatok, RENDSZAM-2",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Minden pozíció egy döntés, és a sorrend számít, ezért variáció (jegyzet 6.3). A betű- és a számrészt külön számoljuk, majd összeszorozzuk (minden betűsorhoz bármelyik számsor jöhet).",
+      "a) Ismétléses variáció, n^k (n = lehetőségek, k = döntések): betűk 26^4 = 456 976, számjegyek 10^2 = 100.",
+      "a) Összesen: 456 976·100 = 45 697 600.",
+      "b) Ismétlés nélküli variáció, minden döntésnél eggyel kevesebb lehetőség: betűk 26·25·24·23 = 358 800, számjegyek 10·9 = 90.",
+      "b) Összesen: 358 800·90 = 32 292 000."
+    ]
   },
   {
     "id": "mat-8-003",
@@ -72,10 +86,17 @@
         "format": "egész szám"
       }
     ],
-    "explanation": "a) Ismétléses variáció: 26^1·10^5 = 2 600 000. b) Ismétlés nélküli variáció: 26·10·9·8·7·6 = 786 240.",
+    "explanation": "Módszer: ismétléses variáció n^k, ismétlés nélküli variáció n·(n − 1)·…, a két rész szorzata (jegyzet 6.3).",
     "source": "Gyakorló feladatok, RENDSZAM-3",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Minden pozíció egy döntés, és a sorrend számít, ezért variáció (jegyzet 6.3). A betű- és a számrészt külön számoljuk, majd összeszorozzuk (minden betűsorhoz bármelyik számsor jöhet).",
+      "a) Ismétléses variáció, n^k (n = lehetőségek, k = döntések): betűk 26^1 = 26, számjegyek 10^5 = 100 000.",
+      "a) Összesen: 26·100 000 = 2 600 000.",
+      "b) Ismétlés nélküli variáció, minden döntésnél eggyel kevesebb lehetőség: betűk 26 = 26, számjegyek 10·9·8·7·6 = 30 240.",
+      "b) Összesen: 26·30 240 = 786 240."
+    ]
   },
   {
     "id": "mat-8-004",
@@ -98,10 +119,17 @@
         "format": "egész szám"
       }
     ],
-    "explanation": "a) Ismétléses variáció: 22^2·10^4 = 4 840 000. b) Ismétlés nélküli variáció: 22·21·10·9·8·7 = 2 328 480.",
+    "explanation": "Módszer: ismétléses variáció n^k, ismétlés nélküli variáció n·(n − 1)·…, a két rész szorzata (jegyzet 6.3).",
     "source": "Gyakorló feladatok, RENDSZAM-4",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Minden pozíció egy döntés, és a sorrend számít, ezért variáció (jegyzet 6.3). A betű- és a számrészt külön számoljuk, majd összeszorozzuk (minden betűsorhoz bármelyik számsor jöhet).",
+      "a) Ismétléses variáció, n^k (n = lehetőségek, k = döntések): betűk 22^2 = 484, számjegyek 10^4 = 10 000.",
+      "a) Összesen: 484·10 000 = 4 840 000.",
+      "b) Ismétlés nélküli variáció, minden döntésnél eggyel kevesebb lehetőség: betűk 22·21 = 462, számjegyek 10·9·8·7 = 5 040.",
+      "b) Összesen: 462·5 040 = 2 328 480."
+    ]
   },
   {
     "id": "mat-8-005",
@@ -124,9 +152,16 @@
         "format": "egész szám"
       }
     ],
-    "explanation": "a) Ismétléses variáció: 26^3·10^4 = 175 760 000. b) Ismétlés nélküli variáció: 26·25·24·10·9·8·7 = 78 624 000.",
+    "explanation": "Módszer: ismétléses variáció n^k, ismétlés nélküli variáció n·(n − 1)·…, a két rész szorzata (jegyzet 6.3).",
     "source": "Gyakorló feladatok, RENDSZAM-5",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Minden pozíció egy döntés, és a sorrend számít, ezért variáció (jegyzet 6.3). A betű- és a számrészt külön számoljuk, majd összeszorozzuk (minden betűsorhoz bármelyik számsor jöhet).",
+      "a) Ismétléses variáció, n^k (n = lehetőségek, k = döntések): betűk 26^3 = 17 576, számjegyek 10^4 = 10 000.",
+      "a) Összesen: 17 576·10 000 = 175 760 000.",
+      "b) Ismétlés nélküli variáció, minden döntésnél eggyel kevesebb lehetőség: betűk 26·25·24 = 15 600, számjegyek 10·9·8·7 = 5 040.",
+      "b) Összesen: 15 600·5 040 = 78 624 000."
+    ]
   }
 ]

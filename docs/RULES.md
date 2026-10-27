@@ -72,11 +72,16 @@ Matematika ZHs are calculation tasks, not the true/false and multiple-choice que
 3. One task = one `szamolas` question in the chapter of its type: the point value from the ZH, one number field per
    sub-question with its format ("tizedestört", "tört vagy tizedestört", "egész szám (Ft)" …) and the solution.
    Every answer is recalculated before it goes in (`npm run check-data` checks each field accepts its own answer).
-4. Answer boxes look like the Moodle ZH: card with number and points, grey fields, green tick or red cross.
+4. Every task has a numbered step-by-step derivation (`steps`, shown as "Levezetés"), written in the simplest possible
+   way: the data with notation, the method and the note section it comes from, the numbers substituted, every
+   intermediate result, the final answer in the asked format. Use only the note's methods and notation (e.g. the tree
+   diagram for Bayes); if a task needs something the note doesn't cover, say so in `explanation` (the one-line
+   method). Every number in the derivation is recalculated by a script and must match the answer key.
+5. Answer boxes look like the Moodle ZH: card with number and points, grey fields, green tick or red cross.
    No partial credit: a task scores only when every field is right.
-5. Accept a decimal comma or point, spaces as thousands separators, fractions only where the format allows them,
+6. Accept a decimal comma or point, spaces as thousands separators, fractions only where the format allows them,
    decimals within ±0.001, whole numbers exactly; a percentage where a decimal is asked is wrong.
-6. The mock ZH draws one task per type with the ZH's points. Content still comes only from the subject's note and
+7. The mock ZH draws one task per type with the ZH's points. Content still comes only from the subject's note and
    practice tasks; new weeks' material for a later ZH is added the same way when the owner sends a new task file.
 
 ## Privacy and secrets

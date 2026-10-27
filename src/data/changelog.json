@@ -1,4 +1,5 @@
 [
+  { "version": "1.11.0", "date": "2026-10-27", "items": ["Minden matekfeladathoz lépésenkénti levezetés tartozik."] },
   { "version": "1.10.0", "date": "2026-10-27", "items": ["Megnyílt a Matematika: 40 gyakorló feladat a 2. ZH-ra, ZH-szerű beviteli mezőkkel, és 8 feladatos ZH-szimuláció."] },
   { "version": "1.9.0", "date": "2026-10-21", "items": ["Új a flashcardoknál: leírhatod a definíciót a saját szavaiddal, és az oldal megnézi, mely kulcsfogalmak vannak benne."] },
   { "version": "1.8.0", "date": "2026-10-21", "items": ["A beírós válaszoknál a ragozott, más sorrendű vagy kicsit elgépelt jó válasz is elfogadott, és jelölheted, ha más szavakkal írtad ugyanazt."] },

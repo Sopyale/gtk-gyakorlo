@@ -34,6 +34,11 @@ function Report({ q }) {
   );
 }
 
+// Step-by-step derivation of a calculation task (Matematika).
+export const Steps = ({ q }) => (
+  <div className="steps"><strong>Levezetés</strong><ol>{q.steps.map((s) => <li key={s}>{s}</li>)}</ol></div>
+);
+
 // One question; the parent remounts it (via key) for each new question.
 // In practice mode it shows feedback after answering; in mock mode it only reports the response.
 export default function QuestionCard({ q, feedback, onAnswer, onOverride, onNext, nextLabel = 'Következő' }) {
@@ -169,7 +174,8 @@ export default function QuestionCard({ q, feedback, onAnswer, onOverride, onNext
           {(!correct || q.type === 'rovid-valasz') && !calc && (
             <p className="fb-answer"><span>{q.type === 'rovid-valasz' ? 'Mintaválasz' : 'A helyes válasz'}:</span> {correctText(q)}</p>
           )}
-          <p>{calc && <strong>Megoldás: </strong>}{q.explanation}</p>
+          {calc && <Steps q={q} />}
+          <p>{q.explanation}</p>
           <small>Forrás: {q.source}</small>
           {/* The check can't know every wording, so the student can count a right answer given in other words. */}
           {q.type === 'rovid-valasz' && !correct && onOverride && (

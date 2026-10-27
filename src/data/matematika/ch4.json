@@ -20,10 +20,17 @@
         "format": "tört vagy tizedestört"
       }
     ],
-    "explanation": "Fadiagram. a) Teljes valószínűség: 1/2·1/3 + 1/2·3/4 = 13/24 ≈ 0,5417. b) Bayes: a(z) kék zsák ága 3/8, osztva 13/24-del: 9/13 ≈ 0,6923.",
+    "explanation": "Módszer: fadiagram, ágak mentén szorzás, utak összeadása (teljes valószínűség), kérdezett ág / összeg (Bayes).",
     "source": "Gyakorló feladatok, BAYES-1",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Fadiagram (jegyzet 7.3–7.4). Első szint, a feltételek: piros zsák 1/2, kék zsák 1/2 (összegük 1).",
+      "Második szint, a(z) „fehér” esélye ágonként: piros zsák: 4/12 = 1/3; kék zsák: 9/12 = 3/4.",
+      "Az ágak mentén szorzunk: piros zsák és fehér: 1/2·1/3 = 1/6; kék zsák és fehér: 1/2·3/4 = 3/8.",
+      "a) Teljes valószínűség = a(z) „fehér”-be vezető utak összege: 1/6 + 3/8 = 13/24 ≈ 0,5417.",
+      "b) Bayes = a kérdezett ág / az összeg: (3/8) / (13/24) = 9/13 ≈ 0,6923 (kék zsák)."
+    ]
   },
   {
     "id": "mat-4-002",
@@ -46,10 +53,17 @@
         "format": "tört vagy tizedestört"
       }
     ],
-    "explanation": "Fadiagram. a) Teljes valószínűség: 1/2·1/5 + 1/2·7/10 = 9/20 ≈ 0,45. b) Bayes: a(z) első tál ága 1/10, osztva 9/20-del: 2/9 ≈ 0,2222.",
+    "explanation": "Módszer: fadiagram, ágak mentén szorzás, utak összeadása (teljes valószínűség), kérdezett ág / összeg (Bayes).",
     "source": "Gyakorló feladatok, BAYES-2",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Fadiagram (jegyzet 7.3–7.4). Első szint, a feltételek: első tál 1/2, második tál 1/2 (összegük 1).",
+      "Második szint, a(z) „meggyes” esélye ágonként: első tál: 2/10 = 1/5; második tál: 7/10.",
+      "Az ágak mentén szorzunk: első tál és meggyes: 1/2·1/5 = 1/10; második tál és meggyes: 1/2·7/10 = 7/20.",
+      "a) Teljes valószínűség = a(z) „meggyes”-be vezető utak összege: 1/10 + 7/20 = 9/20 ≈ 0,45.",
+      "b) Bayes = a kérdezett ág / az összeg: (1/10) / (9/20) = 2/9 ≈ 0,2222 (első tál)."
+    ]
   },
   {
     "id": "mat-4-003",
@@ -72,10 +86,17 @@
         "format": "tört vagy tizedestört"
       }
     ],
-    "explanation": "Fadiagram. a) Teljes valószínűség: 1/3·1/2 + 2/3·1/5 = 3/10 ≈ 0,3. b) Bayes: a(z) északi raktár ága 1/6, osztva 3/10-del: 5/9 ≈ 0,5556.",
+    "explanation": "Módszer: fadiagram, ágak mentén szorzás, utak összeadása (teljes valószínűség), kérdezett ág / összeg (Bayes).",
     "source": "Gyakorló feladatok, BAYES-3",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Fadiagram (jegyzet 7.3–7.4). Első szint, a feltételek: északi raktár 1/3, déli raktár 2/3 (összegük 1).",
+      "Második szint, a(z) „sérült” esélye ágonként: északi raktár: 1/2; déli raktár: 20% = 1/5.",
+      "Az ágak mentén szorzunk: északi raktár és sérült: 1/3·1/2 = 1/6; déli raktár és sérült: 2/3·1/5 = 2/15.",
+      "a) Teljes valószínűség = a(z) „sérült”-be vezető utak összege: 1/6 + 2/15 = 3/10 ≈ 0,3.",
+      "b) Bayes = a kérdezett ág / az összeg: (1/6) / (3/10) = 5/9 ≈ 0,5556 (északi raktár)."
+    ]
   },
   {
     "id": "mat-4-004",
@@ -98,10 +119,17 @@
         "format": "tört vagy tizedestört"
       }
     ],
-    "explanation": "Fadiagram. a) Teljes valószínűség: 1/2·1/5 + 1/2·1/20 = 1/8 ≈ 0,125. b) Bayes: a(z) első kemence ága 1/10, osztva 1/8-del: 4/5 ≈ 0,8.",
+    "explanation": "Módszer: fadiagram, ágak mentén szorzás, utak összeadása (teljes valószínűség), kérdezett ág / összeg (Bayes).",
     "source": "Gyakorló feladatok, BAYES-4",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Fadiagram (jegyzet 7.3–7.4). Első szint, a feltételek: első kemence 1/2, második kemence 1/2 (összegük 1).",
+      "Második szint, a(z) „megégett” esélye ágonként: első kemence: 20% = 1/5; második kemence: 5% = 1/20.",
+      "Az ágak mentén szorzunk: első kemence és megégett: 1/2·1/5 = 1/10; második kemence és megégett: 1/2·1/20 = 1/40.",
+      "a) Teljes valószínűség = a(z) „megégett”-be vezető utak összege: 1/10 + 1/40 = 1/8 ≈ 0,125.",
+      "b) Bayes = a kérdezett ág / az összeg: (1/10) / (1/8) = 4/5 ≈ 0,8 (első kemence)."
+    ]
   },
   {
     "id": "mat-4-005",
@@ -124,9 +152,16 @@
         "format": "tört vagy tizedestört"
       }
     ],
-    "explanation": "Fadiagram. a) Teljes valószínűség: 1/2·1/4 + 1/2·3/4 = 1/2 ≈ 0,5. b) Bayes: a(z) alsó fiók ága 3/8, osztva 1/2-del: 3/4 ≈ 0,75.",
+    "explanation": "Módszer: fadiagram, ágak mentén szorzás, utak összeadása (teljes valószínűség), kérdezett ág / összeg (Bayes).",
     "source": "Gyakorló feladatok, BAYES-5",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "Fadiagram (jegyzet 7.3–7.4). Első szint, a feltételek: felső fiók 1/2, alsó fiók 1/2 (összegük 1).",
+      "Második szint, a(z) „kék” esélye ágonként: felső fiók: 4/16 = 1/4; alsó fiók: 12/16 = 3/4.",
+      "Az ágak mentén szorzunk: felső fiók és kék: 1/2·1/4 = 1/8; alsó fiók és kék: 1/2·3/4 = 3/8.",
+      "a) Teljes valószínűség = a(z) „kék”-be vezető utak összege: 1/8 + 3/8 = 1/2 ≈ 0,5.",
+      "b) Bayes = a kérdezett ág / az összeg: (3/8) / (1/2) = 3/4 ≈ 0,75 (alsó fiók)."
+    ]
   }
 ]

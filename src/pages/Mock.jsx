@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ArrowLeft, CheckCircle2, Clock, XCircle } from 'lucide-react';
-import QuestionCard from '../components/QuestionCard.jsx';
+import QuestionCard, { Steps } from '../components/QuestionCard.jsx';
 import Ring from '../components/Ring.jsx';
 import { scopeQuestions } from '../lib/data.js';
 import { correctText, drawMock, MOCK_MIX, record } from '../lib/quiz.js';
@@ -105,6 +105,7 @@ export default function Mock({ subject }) {
               <b>{a?.ok ? <CheckCircle2 size={18} aria-label="Helyes" /> : <XCircle size={18} aria-label="Hibás" />}{q.question}</b>
               <p>Válaszod: <span className="pre">{show(q, a?.r)}</span></p>
               {!a?.ok && <p>Helyes válasz: <span className="pre">{correctText(q)}</span></p>}
+              {q.steps && <Steps q={q} />}
               <p className="muted">{q.explanation} <small>Forrás: {q.source}</small></p>
             </li>
           );

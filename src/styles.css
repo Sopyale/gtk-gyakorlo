@@ -271,6 +271,10 @@ kbd { font: 600 12px var(--body); border: 1px solid var(--line); border-radius: 
 .calc-key { grid-column: 2 / -1; font-style: normal; font-weight: 600; color: var(--good); }
 .calc-row small { grid-column: 2 / -1; color: var(--muted); font-size: 13px; }
 .calc .btn { justify-self: start; margin-top: 4px; }
+.steps { margin-top: 10px; padding: 12px 14px; border-radius: 12px; background: color-mix(in srgb, var(--bg2) 70%, transparent); border: 1px solid var(--line); }
+.steps strong { display: block; font-size: 14px; color: var(--text); }
+.steps ol { margin: 6px 0 0; padding-left: 22px; display: grid; gap: 6px; color: var(--soft); font-variant-numeric: tabular-nums; }
+.steps li::marker { color: var(--acc-text); font-weight: 700; }
 .fb { margin-top: 16px; padding: 16px; border-radius: 16px; font-size: 15.5px; border: 1px solid; animation: fade-in var(--mid) ease-out both; opacity: 0; }
 .fb.right { background: color-mix(in srgb, var(--good) 10%, transparent); border-color: color-mix(in srgb, var(--good) 40%, transparent); }
 .fb.wrong { background: color-mix(in srgb, var(--bad) 9%, transparent); border-color: color-mix(in srgb, var(--bad) 40%, transparent); }

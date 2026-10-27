@@ -20,10 +20,17 @@
         "format": "tört vagy tizedestört"
       }
     ],
-    "explanation": "a) Minden dobásnál 1/6 eséllyel jön 5-ös: várható érték n·p = 24·1/6 = 4. b) Az első 3 dobás „nem jó” (5/6 eséllyel), a 4. „jó” (1/6): (5/6)^3·1/6 = 125/1296 ≈ 0,0965.",
+    "explanation": "Módszer: a) n·p; b) független dobások, ezért a „nem siker, …, nem siker, siker” valószínűségeit összeszorozzuk.",
     "source": "Gyakorló feladatok, KOCKA-1",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "a) Egy dobásnál a ötös esélye 1/6 (klasszikus valószínűség, jegyzet 6.8: 1 kedvező kimenetel a 6 egyformán valószínűből).",
+      "a) 24 dobásnál átlagosan a dobások 1/6 részében jön ötös: várható érték = n·p = 24·1/6 = 4.",
+      "b) Siker = „hatos”: P = 1/6 (1 kedvező kimenetel a 6-ból). Nem siker: 1 − 1/6 = 5/6 (komplementer, jegyzet 6.7).",
+      "b) Az első 3 dobás nem siker, a 4. dobás siker. A dobások függetlenek (jegyzet 7.1), ezért a valószínűségeket összeszorozzuk:",
+      "b) (5/6)^3 · 1/6 = 125/216 · 1/6 = 125/1296 ≈ 0,0965."
+    ]
   },
   {
     "id": "mat-3-002",
@@ -46,10 +53,17 @@
         "format": "tört vagy tizedestört"
       }
     ],
-    "explanation": "a) Minden dobásnál 1/6 eséllyel jön 1-es: várható érték n·p = 18·1/6 = 3. b) Az első 1 dobás „nem jó” (5/6 eséllyel), a 2. „jó” (1/6): (5/6)^1·1/6 = 5/36 ≈ 0,1389.",
+    "explanation": "Módszer: a) n·p; b) független dobások, ezért a „nem siker, …, nem siker, siker” valószínűségeit összeszorozzuk.",
     "source": "Gyakorló feladatok, KOCKA-2",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "a) Egy dobásnál a egyes esélye 1/6 (klasszikus valószínűség, jegyzet 6.8: 1 kedvező kimenetel a 6 egyformán valószínűből).",
+      "a) 18 dobásnál átlagosan a dobások 1/6 részében jön egyes: várható érték = n·p = 18·1/6 = 3.",
+      "b) Siker = „hatos”: P = 1/6 (1 kedvező kimenetel a 6-ból). Nem siker: 1 − 1/6 = 5/6 (komplementer, jegyzet 6.7).",
+      "b) Az első 1 dobás nem siker, a 2. dobás siker. A dobások függetlenek (jegyzet 7.1), ezért a valószínűségeket összeszorozzuk:",
+      "b) (5/6)^1 · 1/6 = 5/6 · 1/6 = 5/36 ≈ 0,1389."
+    ]
   },
   {
     "id": "mat-3-003",
@@ -72,10 +86,17 @@
         "format": "tört vagy tizedestört"
       }
     ],
-    "explanation": "a) Minden dobásnál 1/6 eséllyel jön 3-as: várható érték n·p = 30·1/6 = 5. b) Az első 4 dobás „nem jó” (5/6 eséllyel), a 5. „jó” (1/6): (5/6)^4·1/6 = 625/7776 ≈ 0,0804.",
+    "explanation": "Módszer: a) n·p; b) független dobások, ezért a „nem siker, …, nem siker, siker” valószínűségeit összeszorozzuk.",
     "source": "Gyakorló feladatok, KOCKA-3",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "a) Egy dobásnál a hármas esélye 1/6 (klasszikus valószínűség, jegyzet 6.8: 1 kedvező kimenetel a 6 egyformán valószínűből).",
+      "a) 30 dobásnál átlagosan a dobások 1/6 részében jön hármas: várható érték = n·p = 30·1/6 = 5.",
+      "b) Siker = „hatos”: P = 1/6 (1 kedvező kimenetel a 6-ból). Nem siker: 1 − 1/6 = 5/6 (komplementer, jegyzet 6.7).",
+      "b) Az első 4 dobás nem siker, a 5. dobás siker. A dobások függetlenek (jegyzet 7.1), ezért a valószínűségeket összeszorozzuk:",
+      "b) (5/6)^4 · 1/6 = 625/1296 · 1/6 = 625/7776 ≈ 0,0804."
+    ]
   },
   {
     "id": "mat-3-004",
@@ -98,10 +119,17 @@
         "format": "tört vagy tizedestört"
       }
     ],
-    "explanation": "a) Minden dobásnál 1/6 eséllyel jön 6-os: várható érték n·p = 12·1/6 = 2. b) Az első 2 dobás „nem jó” (2/3 eséllyel), a 3. „jó” (1/3): (2/3)^2·1/3 = 4/27 ≈ 0,1481.",
+    "explanation": "Módszer: a) n·p; b) független dobások, ezért a „nem siker, …, nem siker, siker” valószínűségeit összeszorozzuk.",
     "source": "Gyakorló feladatok, KOCKA-4",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "a) Egy dobásnál a hatos esélye 1/6 (klasszikus valószínűség, jegyzet 6.8: 1 kedvező kimenetel a 6 egyformán valószínűből).",
+      "a) 12 dobásnál átlagosan a dobások 1/6 részében jön hatos: várható érték = n·p = 12·1/6 = 2.",
+      "b) Siker = „ötös vagy hatos”: P = 1/3 (2 kedvező kimenetel a 6-ból: 5 és 6). Nem siker: 1 − 1/3 = 2/3 (komplementer, jegyzet 6.7).",
+      "b) Az első 2 dobás nem siker, a 3. dobás siker. A dobások függetlenek (jegyzet 7.1), ezért a valószínűségeket összeszorozzuk:",
+      "b) (2/3)^2 · 1/3 = 4/9 · 1/3 = 4/27 ≈ 0,1481."
+    ]
   },
   {
     "id": "mat-3-005",
@@ -124,9 +152,16 @@
         "format": "tört vagy tizedestört"
       }
     ],
-    "explanation": "a) Minden dobásnál 1/6 eséllyel jön 4-es: várható érték n·p = 36·1/6 = 6. b) Az első 2 dobás „nem jó” (1/2 eséllyel), a 3. „jó” (1/2): (1/2)^2·1/2 = 1/8 ≈ 0,125.",
+    "explanation": "Módszer: a) n·p; b) független dobások, ezért a „nem siker, …, nem siker, siker” valószínűségeit összeszorozzuk.",
     "source": "Gyakorló feladatok, KOCKA-5",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "steps": [
+      "a) Egy dobásnál a négyes esélye 1/6 (klasszikus valószínűség, jegyzet 6.8: 1 kedvező kimenetel a 6 egyformán valószínűből).",
+      "a) 36 dobásnál átlagosan a dobások 1/6 részében jön négyes: várható érték = n·p = 36·1/6 = 6.",
+      "b) Siker = „páratlan”: P = 1/2 (3 kedvező kimenetel a 6-ból: 1, 3 és 5). Nem siker: 1 − 1/2 = 1/2 (komplementer, jegyzet 6.7).",
+      "b) Az első 2 dobás nem siker, a 3. dobás siker. A dobások függetlenek (jegyzet 7.1), ezért a valószínűségeket összeszorozzuk:",
+      "b) (1/2)^2 · 1/2 = 1/4 · 1/2 = 1/8 ≈ 0,125."
+    ]
   }
 ]
