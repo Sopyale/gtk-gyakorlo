@@ -1,0 +1,132 @@
+[
+  {
+    "id": "mat-1-001",
+    "chapter": 1,
+    "section": "1.1",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Adott az a = (6; y; −9) és a b = (−4; 10; 6) vektor. Határozd meg y értékét úgy, hogy a két vektor párhuzamos legyen, azaz lineárisan összefüggő rendszert alkossanak!",
+    "fields": [
+      {
+        "label": "y =",
+        "answer": "-15",
+        "accept": "frac",
+        "format": "pontos érték (tizedes is elfogadható)"
+      }
+    ],
+    "explanation": "Módszer: u = λ·v, vagyis a megfelelő koordináták aránya mindenhol ugyanaz. A vektorok a gyakorló feladatsorból jönnek, a 2. ZH jegyzete nem tárgyalja őket.",
+    "source": "Gyakorló feladatok, VEK-1",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Két vektor akkor lineárisan összefüggő (párhuzamos), ha az egyik a másik számszorosa: a = λ·b. Ez koordinátánként is igaz.",
+      "λ egy olyan koordinátából, ahol mindkét szám ismert: 6 = λ·(−4) → λ = 6/(−4) = −3/2.",
+      "Ellenőrzés a másik ismert koordinátával: λ·6 = −3/2·6 = −9. Egyezik, tehát jó a λ.",
+      "A hiányzó koordináta: y = λ·10 = −3/2·10 = −15."
+    ]
+  },
+  {
+    "id": "mat-1-002",
+    "chapter": 1,
+    "section": "1.2",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Egy térbeli koordináta-rendszerben az u = (12; −8; y) vektor ugyanarra az egyenesre esik, mint a v = (−9; 6; 15) vektor (u = λ·v valamilyen λ számmal). Mennyi y?",
+    "fields": [
+      {
+        "label": "y =",
+        "answer": "-20",
+        "accept": "frac",
+        "format": "pontos érték (tizedes is elfogadható)"
+      }
+    ],
+    "explanation": "Módszer: u = λ·v, vagyis a megfelelő koordináták aránya mindenhol ugyanaz. A vektorok a gyakorló feladatsorból jönnek, a 2. ZH jegyzete nem tárgyalja őket.",
+    "source": "Gyakorló feladatok, VEK-2",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Két vektor akkor lineárisan összefüggő (párhuzamos), ha az egyik a másik számszorosa: u = λ·v. Ez koordinátánként is igaz.",
+      "λ egy olyan koordinátából, ahol mindkét szám ismert: 12 = λ·(−9) → λ = 12/(−9) = −4/3.",
+      "Ellenőrzés a másik ismert koordinátával: λ·6 = −4/3·6 = −8. Egyezik, tehát jó a λ.",
+      "A hiányzó koordináta: y = λ·15 = −4/3·15 = −20."
+    ]
+  },
+  {
+    "id": "mat-1-003",
+    "chapter": 1,
+    "section": "1.3",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Mekkora legyen a p = (y; 14; −21) vektor első koordinátája, hogy p felírható legyen a q = (4; −8; 12) vektor számszorosaként?",
+    "fields": [
+      {
+        "label": "y =",
+        "answer": "-7",
+        "accept": "frac",
+        "format": "pontos érték (tizedes is elfogadható)"
+      }
+    ],
+    "explanation": "Módszer: u = λ·v, vagyis a megfelelő koordináták aránya mindenhol ugyanaz. A vektorok a gyakorló feladatsorból jönnek, a 2. ZH jegyzete nem tárgyalja őket.",
+    "source": "Gyakorló feladatok, VEK-3",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Két vektor akkor lineárisan összefüggő (párhuzamos), ha az egyik a másik számszorosa: p = λ·q. Ez koordinátánként is igaz.",
+      "λ egy olyan koordinátából, ahol mindkét szám ismert: 14 = λ·(−8) → λ = 14/(−8) = −7/4.",
+      "Ellenőrzés a másik ismert koordinátával: λ·12 = −7/4·12 = −21. Egyezik, tehát jó a λ.",
+      "A hiányzó koordináta: y = λ·4 = −7/4·4 = −7."
+    ]
+  },
+  {
+    "id": "mat-1-004",
+    "chapter": 1,
+    "section": "1.4",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Két termék alapanyag-igényét a c = (−15; 6; y) és a d = (10; −4; 7) vektor írja le. Milyen y mellett lesz a két vektor lineárisan összefüggő?",
+    "fields": [
+      {
+        "label": "y =",
+        "answer": "-21/2",
+        "accept": "frac",
+        "format": "pontos érték (tizedes is elfogadható)"
+      }
+    ],
+    "explanation": "Módszer: u = λ·v, vagyis a megfelelő koordináták aránya mindenhol ugyanaz. A vektorok a gyakorló feladatsorból jönnek, a 2. ZH jegyzete nem tárgyalja őket.",
+    "source": "Gyakorló feladatok, VEK-4",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Két vektor akkor lineárisan összefüggő (párhuzamos), ha az egyik a másik számszorosa: c = λ·d. Ez koordinátánként is igaz.",
+      "λ egy olyan koordinátából, ahol mindkét szám ismert: −15 = λ·10 → λ = −15/10 = −3/2.",
+      "Ellenőrzés a másik ismert koordinátával: λ·(−4) = −3/2·(−4) = 6. Egyezik, tehát jó a λ.",
+      "A hiányzó koordináta: y = λ·7 = −3/2·7 = −21/2 = −10,5."
+    ]
+  },
+  {
+    "id": "mat-1-005",
+    "chapter": 1,
+    "section": "1.5",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Melyik y értéknél lesz a {(8; y; 20), (−6; 9; −15)} vektorrendszer lineárisan összefüggő?",
+    "fields": [
+      {
+        "label": "y =",
+        "answer": "-12",
+        "accept": "frac",
+        "format": "pontos érték (tizedes is elfogadható)"
+      }
+    ],
+    "explanation": "Módszer: u = λ·v, vagyis a megfelelő koordináták aránya mindenhol ugyanaz. A vektorok a gyakorló feladatsorból jönnek, a 2. ZH jegyzete nem tárgyalja őket.",
+    "source": "Gyakorló feladatok, VEK-5",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Két vektor akkor lineárisan összefüggő (párhuzamos), ha az egyik a másik számszorosa: az első vektor = λ·a második. Ez koordinátánként is igaz.",
+      "λ egy olyan koordinátából, ahol mindkét szám ismert: 8 = λ·(−6) → λ = 8/(−6) = −4/3.",
+      "Ellenőrzés a másik ismert koordinátával: λ·(−15) = −4/3·(−15) = 20. Egyezik, tehát jó a λ.",
+      "A hiányzó koordináta: y = λ·9 = −4/3·9 = −12."
+    ]
+  }
+]

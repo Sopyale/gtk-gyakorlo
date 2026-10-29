@@ -1,0 +1,44 @@
+[
+  {
+    "id": "kozgazdasagtan",
+    "name": "Közgazdaságtan",
+    "active": true,
+    "sources": "Zsolnai Alíz jegyzete és Andor György tankönyve alapján",
+    "chapters": [
+      { "n": 1, "title": "Közgazdaságtan, motiváció, homo oeconomicus", "short": "Homo oeconomicus" },
+      { "n": 2, "title": "Fogyasztói döntések: hasznosság és optimum", "short": "Fogyasztói döntések" },
+      { "n": 3, "title": "Jövedelem- és árváltozás, kereslet", "short": "Kereslet" },
+      { "n": 4, "title": "Komparatív előny, szakosodás, csere", "short": "Komparatív előny" },
+      { "n": 5, "title": "Piac: kínálat és piaci egyensúly", "short": "Piac" },
+      { "n": 6, "title": "Termelői döntések, profitmaximálás", "short": "Termelés" }
+    ],
+    "exams": [
+      { "id": "zh1", "name": "1. ZH", "active": false, "date": "2026-10-21", "chapters": [1, 2, 3, 4, 5, 6] },
+      { "id": "zh2", "name": "2. ZH", "active": false, "chapters": [] }
+    ]
+  },
+  { "id": "menedzsment", "name": "Menedzsment", "active": false, "chapters": [] },
+  { "id": "marketing", "name": "Marketing", "active": false, "chapters": [] },
+  { "id": "szamvitel", "name": "Számvitel", "active": false, "chapters": [] },
+  { "id": "kozosseg-es-egyen", "name": "Közösség és egyén", "active": false, "chapters": [] },
+  {
+    "id": "matematika",
+    "name": "Matematika",
+    "active": true,
+    "sources": "A 2. ZH jegyzete és a gyakorló feladatsor alapján",
+    "chapterLabel": "Feladattípusok",
+    "chapters": [
+      { "n": 1, "title": "Vektorok lineáris függősége", "short": "Vektorok" },
+      { "n": 2, "title": "Szita formula (két esemény)", "short": "Szita formula" },
+      { "n": 3, "title": "Kockadobás: várható érték, első siker", "short": "Kockadobás" },
+      { "n": 4, "title": "Két zsák: teljes valószínűség és Bayes-tétel", "short": "Bayes-tétel" },
+      { "n": 5, "title": "Kamatos kamat", "short": "Kamatos kamat" },
+      { "n": 6, "title": "Kétállapotú folyamat (átmenet-valószínűségek)", "short": "Kétállapotú folyamat" },
+      { "n": 7, "title": "Diszkrét eloszlás: q, várható érték, szórás", "short": "Diszkrét eloszlás" },
+      { "n": 8, "title": "Rendszámtábla (variáció)", "short": "Rendszámtábla" }
+    ],
+    "exams": [
+      { "id": "zh2", "name": "2. ZH", "active": true, "chapters": [1, 2, 3, 4, 5, 6, 7, 8], "mock": { "minutes": 60, "perChapter": 1 } }
+    ]
+  }
+]

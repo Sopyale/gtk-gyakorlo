@@ -1,0 +1,713 @@
+[
+  {
+    "id": "kg-5-004",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.1",
+    "question": "A piac adott áru vagy szolgáltatás vevőinek és eladóinak az összessége.",
+    "answer": true,
+    "explanation": "A piac mindkét oldalt magában foglalja: az adott áru összes vevőjét és összes eladóját. A vevők adják a keresletet (mennyit akarnak venni), az eladók a kínálatot (mennyit akarnak eladni).",
+    "source": "Jegyzet 5.1",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-5-005",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.1",
+    "question": "Versenyzői piac: kevés vevő és kevés eladó találkozási helye.",
+    "answer": false,
+    "explanation": "A versenyzői piac éppen sok vevő és sok eladó találkozási helye, nem kevésé. A „versenyzői” jelző arra utal, hogy mindkét oldalon sok szereplő van.",
+    "source": "Jegyzet 5.1",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-5-007",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.2",
+    "question": "Az alternatívaköltség az összes elvesztett lehetőség értékének összege.",
+    "answer": false,
+    "explanation": "Az alternatívaköltség annak az értéke, amiről a döntéssel lemondunk, de csak a legjobb ilyen lehetőségé (a „legjobb más”). A többi elvesztett lehetőséget nem adjuk hozzá, mert helyette úgyis csak egyet választhattunk volna.",
+    "source": "Jegyzet 5.2 · Könyv 33–35. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-008",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.2",
+    "question": "Az elsüllyedt költség az adott döntési helyzetet már nem befolyásolja.",
+    "answer": true,
+    "explanation": "Elsüllyedt költség az a korábbi kiadás, amely a mostani döntéstől függetlenül már elveszett (pl. a tavalyi trágyázás ára). Mivel a döntés ezen semmit nem változtat, a döntésnél nem kell figyelembe venni.",
+    "source": "Jegyzet 5.2 · Könyv 33–35. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-5-010",
+    "type": "feleletvalasztos",
+    "chapter": 5,
+    "section": "5.2",
+    "question": "Feltekerjük a termosztátot. A könyv szerint mi számít a döntésnél költségnek?",
+    "answer": "a többletgáz",
+    "options": [
+      "a többletgáz",
+      "a kazán ára",
+      "a tavalyi gázszámla",
+      "a kazán beszerelésének díja"
+    ],
+    "explanation": "Most csak a feltekeréssel járó többletgáz ára számít, pontosabban az, amit ezért a pénzért máshol kaphatnánk. A kazán ára, a beszerelés díja és a tavalyi számla már ki van fizetve: ezek elsüllyedt költségek, a mostani döntés nem változtat rajtuk.",
+    "source": "Jegyzet 5.2 · Könyv 33–35. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-011",
+    "type": "feleletvalasztos",
+    "chapter": 5,
+    "section": "5.2",
+    "question": "Melyik elsüllyedt költség egy borbirtokos idei döntésénél?",
+    "answer": "a tavalyi trágyázás költsége",
+    "options": [
+      "a tavalyi trágyázás költsége",
+      "a föld bérbeadásából elérhető bevétel",
+      "a kukoricatermesztés hozama",
+      "a golfpályaként való hasznosítás bevétele"
+    ],
+    "explanation": "A tavalyi trágyázásért már fizettek, és idén bármit döntenek, az a pénz nem jön vissza: ez elsüllyedt költség. A bérbeadás, a kukorica és a golfpálya viszont most is választható lehetőségek, ezek közül a legjobb adja az alternatívaköltséget.",
+    "source": "Jegyzet 5.2 · Könyv 33–35. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-012",
+    "type": "rovid-valasz",
+    "chapter": 5,
+    "section": "5.2",
+    "question": "Hogy hívjuk azt a költséget, amely az adott döntési helyzetet már nem befolyásolja?",
+    "answer": [
+      "elsüllyedt költség",
+      "elsullyedt koltseg"
+    ],
+    "keywords": [
+      "elsullyedt"
+    ],
+    "explanation": "Elsüllyedt költség: már korábban felmerült kiadás, amelyen a mostani döntés nem változtat (pl. a tavalyi trágyázás). Ezért a döntésnél nem kell számolni vele.",
+    "source": "Jegyzet 5.2 · Könyv 33–35. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-5-013",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.3",
+    "question": "A kínáló az újabb egység előállításáért hozott áldozatokat (határ-alternatívaköltségeket) árazza be.",
+    "answer": true,
+    "explanation": "A kínáló annyit kér egy újabb egységért, amennyit az előállítása miatt elvesztett legjobb más lehetőség ér: ez a határ-alternatívaköltség. A „határ” azt jelenti, hogy mindig az újabb, utolsó egységről van szó.",
+    "source": "Jegyzet 5.3 · Könyv 35–37. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-014",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.3",
+    "question": "Újdelhiben azért építenek kézi erővel utat, mert ott a munkaerő alternatívaköltsége magas.",
+    "answer": false,
+    "explanation": "Fordítva: a könyv szerint azért dolgoznak kézi erővel, mert ott a munkaerő alternatívaköltsége alacsony. Sok embernek nincs jobban fizető lehetősége, ezért a bérek alacsonyak, és az emberi munka olcsóbban mozgatja a földet, mint a gép.",
+    "source": "Jegyzet 5.3 · Könyv 35–37. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-015",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.3",
+    "question": "A piaci kínálati függvény az egyéni kínálati függvényekből áll össze.",
+    "answer": true,
+    "explanation": "A piaci kínálat az összes eladó együttes kínálata: az egyes eladók egyéni kínálati görbéiből (SA, SB, SC) áll össze a piaci kínálati görbe (S).",
+    "source": "Jegyzet 5.3 · Könyv 35–37. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-5-018",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.4",
+    "question": "A piaci egyensúlyban a keresett és a kínált mennyiség megegyezik.",
+    "answer": true,
+    "explanation": "Az egyensúly a keresleti és a kínálati görbe metszéspontja: ennél az árnál pontosan annyit akarnak venni, amennyit eladni. Nincs se hiány, se felesleg, ezért senkinek nem érdeke változtatni.",
+    "source": "Jegyzet 5.4 · Könyv 45–46. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-5-019",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.4",
+    "question": "Az egyensúlyinál magasabb árnál túlkereslet (áruhiány) van.",
+    "answer": false,
+    "explanation": "Fordítva: az egyensúlyinál magasabb árnál az eladók többet kínálnak, mint amennyit a vevők megvennének, ez túlkínálat (árufelesleg). Túlkereslet (áruhiány) az egyensúlyinál alacsonyabb árnál van.",
+    "source": "Jegyzet 5.4 · Könyv 45–46. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-5-020",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.4",
+    "question": "Szabad reagálásnál az ár az egyensúly felé mozdul.",
+    "answer": true,
+    "explanation": "Ha a szereplők szabadon reagálhatnak, az egyensúlytól eltérő ár magától visszamozdul az egyensúly felé. Magában az egyensúlyban viszont nincs tendencia a kimozdulásra, mert ott senkinek nem érdeke változtatni.",
+    "source": "Jegyzet 5.4 · Könyv 45–46. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-021",
+    "type": "rovid-valasz",
+    "chapter": 5,
+    "section": "5.4",
+    "question": "Hogy hívják a keresleti és a kínálati görbe metszéspontját mutató ábrát?",
+    "answer": [
+      "Marshall-kereszt",
+      "Marshall kereszt"
+    ],
+    "keywords": [
+      "marshall"
+    ],
+    "explanation": "A Marshall-kereszt a piaci egyensúly ábrája: a lejtő keresleti és az emelkedő kínálati görbe keresztezi egymást, és a metszéspont adja az egyensúlyi árat és mennyiséget.",
+    "source": "Jegyzet 5.4 · Könyv 45–46. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-5-022",
+    "type": "abra",
+    "chapter": 5,
+    "section": "5.4",
+    "question": "Mi van az ábrán P2 árnál, ami az egyensúlyi ár (P0) fölött van?",
+    "figure": "market-equilibrium",
+    "answer": "árufelesleg (túlkínálat)",
+    "options": [
+      "árufelesleg (túlkínálat)",
+      "áruhiány (túlkereslet)",
+      "piaci egyensúly",
+      "a kereslet növekedése"
+    ],
+    "explanation": "P2 az egyensúlyi ár fölött van: ezen az áron a kínálati görbe nagyobb mennyiséget mutat, mint a keresleti, vagyis többet kínálnak, mint amennyit megvesznek. Ez az árufelesleg (túlkínálat).",
+    "source": "Jegyzet 5.4 · Könyv 45–46. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-023",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.5",
+    "question": "A termék saját árának emelkedése eltolja a kínálati görbét.",
+    "answer": false,
+    "explanation": "A saját ár változása csak mozgás a meglévő görbén: a kínált mennyiség változik, a kínálat (az egész görbe) nem. A görbét más tényezők tolják el, pl. az erőforrások ára vagy a technológia.",
+    "source": "Jegyzet 5.5 · Könyv 37–38. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-024",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.5",
+    "question": "Ha nő az olaj ára, a kínálat csökken azoknál a termékeknél, amelyekhez olajat használnak fel.",
+    "answer": true,
+    "explanation": "Az olaj ezeknél a termékeknél input, vagyis a termeléshez felhasznált erőforrás. Ha drágul, az előállítás többe kerül, ezért minden áron kevesebbet kínálnak: a kínálat csökken, a görbe befelé tolódik.",
+    "source": "Jegyzet 5.5 · Könyv 37–38. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-5-025",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.5",
+    "question": "A technológia javulása (jobb szervezés, rutin) kifelé tolja a kínálati görbét.",
+    "answer": true,
+    "explanation": "Jobb szervezéssel, rutinnal ugyanazokból az erőforrásokból többet lehet előállítani, így minden áron többet kínálnak. A kínálat nő, vagyis a kínálati görbe kifelé (jobbra) tolódik.",
+    "source": "Jegyzet 5.5 · Könyv 37–38. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-5-028",
+    "type": "abra",
+    "chapter": 5,
+    "section": "5.5",
+    "question": "Az ábrán a kínálati görbe S0-ból S1-be került. Mi okozhatta?",
+    "figure": "supply-shift",
+    "answer": "javult a technológia",
+    "options": [
+      "javult a technológia",
+      "nőtt az erőforrások ára",
+      "nőtt a termék ára",
+      "nőtt a fogyasztók jövedelme"
+    ],
+    "explanation": "S1 jobbra van S0-hoz képest, tehát minden áron többet kínálnak: a kínálat nőtt, ezt okozhatja a technológia javulása. A drágább erőforrás befelé tolná a görbét, a saját ár csak mozgás a görbén, a jövedelem pedig a keresletre hat.",
+    "source": "Jegyzet 5.5 · Könyv 37–38. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-029",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.6",
+    "question": "Ha a kereslet nő, az egyensúlyi ár és mennyiség is nő.",
+    "answer": true,
+    "explanation": "Ha a keresleti görbe jobbra tolódik, az új metszéspont a helyben maradó kínálati görbén feljebb van: az ár P0-ról P1-re, a mennyiség Q0-ról Q1-re nő.",
+    "source": "Jegyzet 5.6 · Könyv 33, 38. o.",
+    "official": false,
+    "difficulty": 1
+  },
+  {
+    "id": "kg-5-030",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.6",
+    "question": "Ha a kínálat nő, az egyensúlyi ár nő, a mennyiség csökken.",
+    "answer": false,
+    "explanation": "Ha a kínálati görbe jobbra tolódik, az új metszéspont a keresleti görbén lejjebb és jobbra van: az egyensúlyi ár csökken, a mennyiség nő.",
+    "source": "Jegyzet 5.6 · Könyv 33, 38. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-031",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.6",
+    "question": "Ha a kereslet és a kínálat is megnő, az egyensúlyi ár biztosan nő.",
+    "answer": false,
+    "explanation": "Mindkét eltolódás növeli a mennyiséget, de az árra ellentétesen hatnak: a keresletnövekedés emelné, a kínálatnövekedés csökkentené. Ezért az ár változása nem tudható, csak a mennyiség növekedése biztos.",
+    "source": "Jegyzet 5.6 · Könyv 33, 38. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-032",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.6",
+    "question": "A számítógépek iránti kereslet növekedésével nő a számítógépekből keresett mennyiség, de nem nő a kínált mennyiség.",
+    "answer": false,
+    "explanation": "A kínált mennyiség is nő. A kínálati görbe helyben marad, de a kereslet miatt nő az ár, és magasabb árnál a kínálók a görbe mentén többet kínálnak. Kínálat = az egész görbe, kínált mennyiség = egy pont rajta.",
+    "source": "Jegyzet 5.6 · Könyv 33, 38. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-033",
+    "type": "feleletvalasztos",
+    "chapter": 5,
+    "section": "5.6",
+    "question": "Mi történik (egyebek változatlansága mellett) az elektromos autók árával, ha nő a benzin ára?",
+    "answer": "nő, mert nő az elektromos autók iránti kereslet",
+    "options": [
+      "nő, mert nő az elektromos autók iránti kereslet",
+      "csökken, mert nő a kínálatuk",
+      "nem változik",
+      "csökken, mert csökken a keresletük"
+    ],
+    "explanation": "A benzines autó az elektromos helyettesítője. Ha a benzin drágul, a benzines autó üzemeltetése drágább lesz, ezért nő az elektromos autók iránti kereslet, és ez végül felviszi az árukat. A benzin ára a vevők döntésére hat, nem a kínálatra.",
+    "source": "Jegyzet 5.6 · Könyv 33, 38. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-034",
+    "type": "feleletvalasztos",
+    "chapter": 5,
+    "section": "5.6",
+    "question": "A családi autók piacán az acélipari munkások sztrájkolnak, emelkedik az acél ára. Mi történik?",
+    "answer": "csökken a kínálat",
+    "options": [
+      "csökken a kínálat",
+      "nő a kínálat",
+      "nő a kereslet",
+      "csökken a kereslet"
+    ],
+    "explanation": "Az acél a családi autó gyártásához felhasznált erőforrás, az ára tehát tényezőár. Ha drágul, a gyártás többe kerül, ezért minden áron kevesebb autót kínálnak: a kínálat csökken.",
+    "source": "Jegyzet 5.6 · Könyv 33, 38. o.",
+    "official": false,
+    "difficulty": 2
+  },
+  {
+    "id": "kg-5-036",
+    "type": "abra",
+    "chapter": 5,
+    "section": "5.6",
+    "question": "Az ábrán a kereslet és a kínálat is megnőtt (0 = eredeti, 1 = új egyensúly). Mi biztos?",
+    "figure": "dd-ss-both",
+    "answer": "a mennyiség nő, az ár változása nem tudható",
+    "options": [
+      "a mennyiség nő, az ár változása nem tudható",
+      "az ár és a mennyiség is nő",
+      "az ár nő, a mennyiség nem változik",
+      "az ár csökken, a mennyiség csökken"
+    ],
+    "explanation": "Mindkét görbe jobbra tolódik, ezért a mennyiség biztosan nő. Az árra a két változás ellentétesen hat (a kereslet emelné, a kínálat csökkentené), így az, hogy nő vagy csökken, az eltolódások nagyságától függ.",
+    "source": "Jegyzet 5.6 · Könyv 33, 38. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-037",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.2",
+    "question": "A könyv szerint a dolgoknak egzakt, objektíven mérhető költségei vannak, függetlenül attól, ki és milyen helyzetben dönt.",
+    "answer": false,
+    "explanation": "Költsége csak egy döntésnek van, valakinek, adott helyzetben: az elvesztett legjobb más lehetőség értékéből fakad. A legjobb alternatíva kiválasztása és értékelése ráadásul szubjektív.",
+    "source": "Jegyzet 5.2 · Könyv 34–35. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-038",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.2",
+    "question": "A gazdasági döntéseket meghatározó releváns költségek mindig határ-alternatívaköltségek.",
+    "answer": true,
+    "explanation": "Az alternatívaköltség csak határköltség lehet, a határköltség pedig csak alternatívaköltség: a következő egységért feláldozott legjobb lehetőség számít.",
+    "source": "Jegyzet 5.2 · Könyv 34–36., 61. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-039",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.2",
+    "question": "A már meglévő egységekért korábban hozott áldozatokat a mostani döntésnél is figyelembe kell venni.",
+    "answer": false,
+    "explanation": "A már meglévő egységekért hozott áldozatok elsüllyedt költségek: a mostani döntés szempontjából irrelevánsak, csak a következő egység áldozata számít.",
+    "source": "Jegyzet 5.2 · Könyv 34–36., 61. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-040",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.3",
+    "question": "A kínálati függvény az újabb egység előállítása miatt elvesztett más termékekről való lemondásért elvárt pénzbeli kárpótlást mutatja.",
+    "answer": true,
+    "explanation": "A kínáló azokat az áldozatokat (határ-alternatívaköltségeket) téríti meg magának az árban, amelyeket az újabb egység előállításáért hoz.",
+    "source": "Jegyzet 5.3 · Könyv 36–38., 61. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-041",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.3",
+    "question": "A keresleti függvény a kínálónak az újabb egység előállításáért hozott áldozatait mutatja.",
+    "answer": false,
+    "explanation": "Ez a kínálati függvény. A keresleti függvény azt a pénzbeli áldozatot mutatja, amelyet az emberek az újabb egység megszerzéséért hajlandók fizetni.",
+    "source": "Jegyzet 5.3 · Könyv 36–38., 61. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-042",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.4",
+    "question": "Az egyensúlyinál magasabb árak esetén több árut kínálnának, mint amennyit megvásárolnának.",
+    "answer": true,
+    "explanation": "Az egyensúlyinál magasabb árnál a kínált mennyiség meghaladja a keresettet: túlkínálat, azaz árufelesleg alakul ki.",
+    "source": "Jegyzet 5.4 · Könyv 46–47., 65–66. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-043",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.4",
+    "question": "Az egyensúlyinál alacsonyabb árnál túlkereslet alakul ki, és a szereplők szabad reagálása esetén az ár csökkenni kezd.",
+    "answer": false,
+    "explanation": "Túlkereslet (áruhiány) valóban kialakul, de szabad reagálásnál az ár mindig az egyensúly felé mozdul, vagyis itt emelkedik.",
+    "source": "Jegyzet 5.4 · Könyv 46–47., 65–66. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-044",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.4",
+    "question": "A könyv szerint a piaci ár azt mutatja, hogy az emberek mennyire értékelik a termék átlagos egységét.",
+    "answer": false,
+    "explanation": "Az ár azt mutatja, mennyire értékelik az emberek a termék utolsó egységét, nem az átlagosat.",
+    "source": "Jegyzet 5.4 · Könyv 47. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-045",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.5",
+    "question": "Ha egy ugyanazzal a termelési folyamattal előállítható másik termék ára emelkedik, az növeli a vizsgált termék előállításának alternatívaköltségét.",
+    "answer": true,
+    "explanation": "A közös erőforrások így a másik termék előállításában értékesebbek lesznek, ezért a vizsgált termék előállításáért nagyobb áldozatot kell hozni.",
+    "source": "Jegyzet 5.5 · Könyv 38–39., 61–62. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-046",
+    "type": "igaz-hamis",
+    "chapter": 5,
+    "section": "5.6",
+    "question": "Ha a kínálat nő, a kereslet pedig nem változik, az egyensúlyi ár csökken, a keresett mennyiség viszont nő.",
+    "answer": true,
+    "explanation": "A kínálati görbe jobbra tolódik, és a keresleti görbe mentén lefelé mozdulunk: alacsonyabb árnál többet vásárolnak. A kereslet maga nem változik, csak a keresett mennyiség.",
+    "source": "Jegyzet 5.6 · Könyv 39. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-048",
+    "type": "feleletvalasztos",
+    "chapter": 5,
+    "section": "5.2",
+    "question": "Egy borbirtokos a szőlőültetvényét idén is szőlőtermesztésre használja. Mi ennek a költsége a könyv szerint?",
+    "answer": "a legjobb egyéb felhasználás (pl. bérbeadás, kukorica, golfpálya közül a legértékesebb) értéke",
+    "options": [
+      "a legjobb egyéb felhasználás (pl. bérbeadás, kukorica, golfpálya közül a legértékesebb) értéke",
+      "az ültetvény telepítésének és korábbi trágyázásának kiadásai",
+      "az összes szóba jöhető egyéb felhasználás értékének összege",
+      "a megtermelt bor várható eladási ára"
+    ],
+    "explanation": "A költség a feláldozott legjobb egyéb lehetőség értéke. A telepítés és a korábbi trágyázás elsüllyedt költség, az összes lehetőség összege pedig túlzás: csak a legjobb számít.",
+    "source": "Jegyzet 5.2 · Könyv 34–36., 61. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-049",
+    "type": "feleletvalasztos",
+    "chapter": 5,
+    "section": "5.3",
+    "question": "Mi magyarázza a könyv összefoglalása szerint a kínálati görbe pozitív meredekségét?",
+    "answer": "csak egyre magasabb ár veszi rá az erőforrás-tulajdonosokat, hogy más lehetőségektől elvonják erőforrásaikat",
+    "options": [
+      "csak egyre magasabb ár veszi rá az erőforrás-tulajdonosokat, hogy más lehetőségektől elvonják erőforrásaikat",
+      "a csökkenő határhasznosság elve",
+      "a növekvő mérethozadék, amely nagyobb mennyiségnél csökkenti az egységköltséget",
+      "magasabb árnál a termelőknek kevesebb erőforrásra van szükségük"
+    ],
+    "explanation": "Az elvonás miatt az erőforrások más felhasználása egyre értékesebb, így a határ-alternatívaköltség nő. Emellett a nagyobb mennyiséghez egyre kevésbé alkalmas erőforrásokat kell bevonni.",
+    "source": "Jegyzet 5.3 · Könyv 36–38., 61. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-050",
+    "type": "feleletvalasztos",
+    "chapter": 5,
+    "section": "5.5",
+    "question": "Az alábbiak közül önmagában mi NEM tolja el egy termék kínálati görbéjét?",
+    "answer": "a termék saját árának emelkedése",
+    "options": [
+      "a termék saját árának emelkedése",
+      "a felhasznált nyersanyag árának emelkedése",
+      "a termelési technológia javulása",
+      "kedvezőtlen időjárás a mezőgazdaságban"
+    ],
+    "explanation": "A saját ár emelkedése csak a kínált mennyiséget változtatja, ez mozgás a görbén. Az inputárak, a technológia és az időjárás viszont az egész kínálati görbét tolja el.",
+    "source": "Jegyzet 5.5 · Könyv 38–39., 61–62. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-051",
+    "type": "rovid-valasz",
+    "chapter": 5,
+    "section": "5.4",
+    "question": "Mi alakul ki, ha az ár az egyensúlyi ár alatt van, és a keresett mennyiség meghaladja a kínáltat?",
+    "answer": [
+      "túlkereslet",
+      "áruhiány",
+      "tulkereslet",
+      "aruhiany",
+      "túlkereslet (áruhiány)"
+    ],
+    "explanation": "Az egyensúlyinál alacsonyabb árnál túlkereslet, más néven áruhiány van; magasabb árnál túlkínálat (árufelesleg).",
+    "source": "Jegyzet 5.4 · Könyv 46–47., 65–66. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-052",
+    "type": "rovid-valasz",
+    "chapter": 5,
+    "section": "5.2",
+    "question": "Hogy nevezzük a döntés miatt elvesztett legjobb egyéb lehetőség értékét?",
+    "answer": [
+      "alternatívaköltség",
+      "alternatíva-költség",
+      "alternatíva költség",
+      "alternativakoltseg",
+      "alternativa koltseg"
+    ],
+    "explanation": "Ez az alternatívaköltség: nem az összes, hanem a legjobb feláldozott lehetőség értéke.",
+    "source": "Jegyzet 5.2 · Könyv 34–36., 61. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-053",
+    "type": "rovid-valasz",
+    "chapter": 5,
+    "section": "5.3",
+    "question": "Milyen költséget áraz be a kínáló az újabb egység előállításakor?",
+    "answer": [
+      "határ-alternatívaköltséget",
+      "határ-alternatívaköltség",
+      "határalternatívaköltség",
+      "hatar-alternativakoltseg",
+      "hatar alternativakoltseg"
+    ],
+    "explanation": "A kínáló az újabb egység előállítása miatt elvesztett legjobb más lehetőség értékét, a határ-alternatívaköltséget térítteti meg az árban.",
+    "source": "Jegyzet 5.3 · Könyv 36–38., 61. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-054",
+    "type": "abra",
+    "chapter": 5,
+    "section": "5.4",
+    "question": "Az ábrán P1 az egyensúlyi ár (P0) alatt van. Mi igaz P1 árnál?",
+    "figure": "market-equilibrium",
+    "answer": "a keresett mennyiség nagyobb a kínáltnál (áruhiány)",
+    "options": [
+      "a keresett mennyiség nagyobb a kínáltnál (áruhiány)",
+      "a kínált mennyiség nagyobb a keresettnél (árufelesleg)",
+      "a kínálat csökken, mert alacsony az ár",
+      "a keresett és a kínált mennyiség megegyezik"
+    ],
+    "explanation": "P1 árnál a keresleti görbe a kínálatitól jobbra van: többet szeretnének venni, mint amennyit kínálnak, ez túlkereslet. Az alacsony ár a kínált mennyiséget csökkenti, a kínálati görbét nem.",
+    "source": "Jegyzet 5.4 · Könyv 46–47., 65–66. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-055",
+    "type": "abra",
+    "chapter": 5,
+    "section": "5.6",
+    "question": "Az ábrán a kereslet D0-ról D1-re nőtt, a kínálati görbe (S) helyben maradt. Melyik állítás igaz?",
+    "figure": "zh56-demand-rise",
+    "answer": "a kínált mennyiség Q0-ról Q1-re nőtt, a kínálat nem változott",
+    "options": [
+      "a kínált mennyiség Q0-ról Q1-re nőtt, a kínálat nem változott",
+      "a kínálat is nőtt, ezért nőtt a kínált mennyiség",
+      "a kínált mennyiség nem változott, csak a keresett mennyiség nőtt",
+      "az ár P1-re nőtt, ezért a kereslet visszaesik D0-ra"
+    ],
+    "explanation": "A magasabb P1 árnál a kínálók a változatlan S görbe mentén többet kínálnak. Ez a kínált mennyiség növekedése; a kínálat (az egész görbe) ugyanaz maradt.",
+    "source": "Jegyzet 5.6 · Könyv 39. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-056",
+    "type": "abra",
+    "chapter": 5,
+    "section": "5.6",
+    "question": "Az ábrán a kínálat S0-ról S1-re nőtt, a kereslet (D) nem változott. Mi történt az egyensúlyban?",
+    "figure": "zh56-supply-rise",
+    "answer": "az ár P0-ról P1-re csökkent, a mennyiség Q0-ról Q1-re nőtt",
+    "options": [
+      "az ár P0-ról P1-re csökkent, a mennyiség Q0-ról Q1-re nőtt",
+      "az ár és a mennyiség is nőtt",
+      "az ár nőtt, a mennyiség csökkent",
+      "nőtt a kereslet, mert olcsóbb lett a termék"
+    ],
+    "explanation": "A kínálati görbe jobbra tolódott, az új metszéspont lejjebb és jobbra van: az ár csökken, a mennyiség nő. Az olcsóbb ár a keresett mennyiséget növeli, a keresletet nem.",
+    "source": "Jegyzet 5.6 · Könyv 39. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-057",
+    "type": "abra",
+    "chapter": 5,
+    "section": "5.3",
+    "question": "Az ábrán két vállalat kínálati görbéje (SA, SB) és a piaci kínálati görbe (S) látható. 60-as árnál A 30, B 60 egységet kínál. Mekkora ezen az áron a piaci kínált mennyiség?",
+    "figure": "zh56-market-supply-sum",
+    "answer": "90",
+    "options": [
+      "90",
+      "60",
+      "30",
+      "45"
+    ],
+    "explanation": "A piaci kínálati függvény az egyéni kínálati függvények összegződése: adott árnál a vállalatok kínált mennyiségei összeadódnak, 30 + 60 = 90.",
+    "source": "Jegyzet 5.3 · Könyv 37–38. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-058",
+    "type": "abra",
+    "chapter": 5,
+    "section": "5.5",
+    "question": "Az ábrán a kínálati görbe S0-ból S1-be tolódott. Az alábbiak közül mi NEM okozhatta ezt?",
+    "figure": "supply-shift",
+    "answer": "a termék saját árának csökkenése",
+    "options": [
+      "a termék saját árának csökkenése",
+      "olcsóbb lett egy felhasznált nyersanyag",
+      "javult a termelési technológia",
+      "rutinosabban alkalmazzák a meglévő technológiát"
+    ],
+    "explanation": "A saját ár változása csak a kínált mennyiséget módosítja, ez mozgás a görbén. A görbe eltolódását pl. a technológia javulása vagy egy input olcsóbbá válása okozhatja.",
+    "source": "Jegyzet 5.5 · Könyv 38–39., 61–62. o.",
+    "official": false,
+    "difficulty": 3
+  },
+  {
+    "id": "kg-5-059",
+    "type": "abra",
+    "chapter": 5,
+    "section": "5.3",
+    "question": "Az ábrán egy kínálati görbe látható. Mit mutat a könyv szerint a görbe egy pontja?",
+    "figure": "supply-curve",
+    "answer": "az adott mennyiségnél az újabb egység előállításának határ-alternatívaköltségét",
+    "options": [
+      "az adott mennyiségnél az újabb egység előállításának határ-alternatívaköltségét",
+      "az eddig előállított összes egység átlagos költségét",
+      "azt az árat, amelyet a fogyasztók az újabb egységért fizetni hajlandók",
+      "a termelés elsüllyedt költségeit"
+    ],
+    "explanation": "A kínálati függvény a kínált mennyiségekhez az újabb egység előállításának határ-alternatívaköltségét rendeli. A fizetési hajlandóságot a keresleti görbe mutatja.",
+    "source": "Jegyzet 5.3 · Könyv 36–38., 61. o.",
+    "official": false,
+    "difficulty": 3
+  }
+]

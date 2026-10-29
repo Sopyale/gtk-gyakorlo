@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Course materials are ELTE-internal and copyrighted: never commit them.
+kuldendo/
+private/
+*.pdf
+
+# graphify: keep the graph and report, not the local interpreter path or cache
+graphify-out/.graphify_*
+graphify-out/cache/
+graphify-out/cost.json
+graphify-out/manifest.json

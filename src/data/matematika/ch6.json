@@ -1,0 +1,172 @@
+[
+  {
+    "id": "mat-6-001",
+    "chapter": 6,
+    "section": "6.1",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy webáruház napi forgalmát két állapottal írjuk le: nő vagy csökken. Növekvő napot 70% eséllyel újabb növekedés követ, csökkenő napot viszont csak 40% eséllyel. a) Ma nőtt a forgalom. Mennyi a valószínűsége, hogy holnapután csökkenni fog? b) Hosszú távon a napok mekkora hányadában nő a forgalom? Tizedestörtként add meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,39",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,5714",
+        "accept": "dec",
+        "format": "tizedestört (nem százalék!)"
+      }
+    ],
+    "explanation": "Módszer: a) kétlépéses fadiagram; b) hosszú távon az arány állandó, p = p·P(marad) + (1 − p)·P(átvált).",
+    "source": "Gyakorló feladatok, MARKOV-1",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Az átmenetek: „nő” után „nő” 0,7, „csökken” 0,3; „csökken” után „nő” 0,4, „csökken” 0,6 (egy állapotból az esélyek összege 1).",
+      "a) Fadiagram két lépésre (jegyzet 7.4): ma „nő”, holnap „nő” vagy „csökken”, holnapután „csökken”.",
+      "a) Ágak mentén szorzunk, az utakat összeadjuk: 0,7·0,3 + 0,3·0,6 = 0,21 + 0,18 = 0,39.",
+      "b) Hosszú távon a(z) „nő” napok aránya p már nem változik, ezért holnap is p: p = p·0,7 + (1 − p)·0,4 (teljes valószínűség).",
+      "b) Rendezve: p·(1 − 0,7 + 0,4) = 0,4 → p = 0,4 / 0,7 = 4/7.",
+      "b) Tizedestörtként: 4/7 ≈ 0,5714."
+    ]
+  },
+  {
+    "id": "mat-6-002",
+    "chapter": 6,
+    "section": "6.2",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy tengerparti város időjárásáról tudjuk: napsütéses napot 0,75 valószínűséggel újabb napos nap követ, esős nap után pedig 0,4 valószínűséggel süt ki a nap. a) Ma esik. Mi az esélye, hogy két nap múlva napos idő lesz? b) Hosszú távon mekkora az esős napok aránya? Tizedestörtként add meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,54",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,3846",
+        "accept": "dec",
+        "format": "tizedestört (nem százalék!)"
+      }
+    ],
+    "explanation": "Módszer: a) kétlépéses fadiagram; b) hosszú távon az arány állandó, p = p·P(marad) + (1 − p)·P(átvált).",
+    "source": "Gyakorló feladatok, MARKOV-2",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Az átmenetek: „napos” után „napos” 0,75, „esős” 0,25; „esős” után „napos” 0,4, „esős” 0,6 (egy állapotból az esélyek összege 1).",
+      "a) Fadiagram két lépésre (jegyzet 7.4): ma „esős”, holnap „napos” vagy „esős”, holnapután „napos”.",
+      "a) Ágak mentén szorzunk, az utakat összeadjuk: 0,4·0,75 + 0,6·0,4 = 0,3 + 0,24 = 0,54.",
+      "b) Hosszú távon a(z) „napos” napok aránya p már nem változik, ezért holnap is p: p = p·0,75 + (1 − p)·0,4 (teljes valószínűség).",
+      "b) Rendezve: p·(1 − 0,75 + 0,4) = 0,4 → p = 0,4 / 0,65 = 8/13. A kérdés a(z) „esős” aránya: 1 − 8/13 = 5/13.",
+      "b) Tizedestörtként: 5/13 ≈ 0,3846."
+    ]
+  },
+  {
+    "id": "mat-6-003",
+    "chapter": 6,
+    "section": "6.3",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy kávézó törzsvendégei havonta vagy az A, vagy a B márkát választják. Aki A-t ivott, 60%-ban a következő hónapban is A-t választ; aki B-t, annak csak 20%-a vált A-ra. a) Egy vendég ebben a hónapban A-t ivott. Mekkora eséllyel választja két hónap múlva is A-t? b) Hosszú távon a hónapok mekkora részében választja B-t? Tizedestörtként add meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,44",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,6667",
+        "accept": "dec",
+        "format": "tizedestört (nem százalék!)"
+      }
+    ],
+    "explanation": "Módszer: a) kétlépéses fadiagram; b) hosszú távon az arány állandó, p = p·P(marad) + (1 − p)·P(átvált).",
+    "source": "Gyakorló feladatok, MARKOV-3",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Az átmenetek: „A” után „A” 0,6, „B” 0,4; „B” után „A” 0,2, „B” 0,8 (egy állapotból az esélyek összege 1).",
+      "a) Fadiagram két lépésre (jegyzet 7.4): ma „A”, holnap „A” vagy „B”, holnapután „A”.",
+      "a) Ágak mentén szorzunk, az utakat összeadjuk: 0,6·0,6 + 0,4·0,2 = 0,36 + 0,08 = 0,44.",
+      "b) Hosszú távon a(z) „A” napok aránya p már nem változik, ezért holnap is p: p = p·0,6 + (1 − p)·0,2 (teljes valószínűség).",
+      "b) Rendezve: p·(1 − 0,6 + 0,2) = 0,2 → p = 0,2 / 0,6 = 1/3. A kérdés a(z) „B” aránya: 1 − 1/3 = 2/3.",
+      "b) Tizedestörtként: 2/3 ≈ 0,6667."
+    ]
+  },
+  {
+    "id": "mat-6-004",
+    "chapter": 6,
+    "section": "6.4",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy kriptovaluta árfolyamát naponta emelkedőnek vagy csökkenőnek tekintjük. Emelkedés után 55%, csökkenés után 35% a következő napi emelkedés esélye. a) Ma csökkent az árfolyam. Mennyi a valószínűsége, hogy holnapután is csökkenni fog? b) Hosszú távon a napok hányad részében emelkedik? Tizedestörtként add meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,58",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,4375",
+        "accept": "dec",
+        "format": "tizedestört (nem százalék!)"
+      }
+    ],
+    "explanation": "Módszer: a) kétlépéses fadiagram; b) hosszú távon az arány állandó, p = p·P(marad) + (1 − p)·P(átvált).",
+    "source": "Gyakorló feladatok, MARKOV-4",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Az átmenetek: „emelkedik” után „emelkedik” 0,55, „csökken” 0,45; „csökken” után „emelkedik” 0,35, „csökken” 0,65 (egy állapotból az esélyek összege 1).",
+      "a) Fadiagram két lépésre (jegyzet 7.4): ma „csökken”, holnap „emelkedik” vagy „csökken”, holnapután „csökken”.",
+      "a) Ágak mentén szorzunk, az utakat összeadjuk: 0,35·0,45 + 0,65·0,65 = 0,1575 + 0,4225 = 0,58.",
+      "b) Hosszú távon a(z) „emelkedik” napok aránya p már nem változik, ezért holnap is p: p = p·0,55 + (1 − p)·0,35 (teljes valószínűség).",
+      "b) Rendezve: p·(1 − 0,55 + 0,35) = 0,35 → p = 0,35 / 0,8 = 7/16.",
+      "b) Tizedestörtként: 7/16 ≈ 0,4375."
+    ]
+  },
+  {
+    "id": "mat-6-005",
+    "chapter": 6,
+    "section": "6.5",
+    "type": "szamolas",
+    "points": 10,
+    "question": "Egy gyártósori gép naponta vagy üzemel, vagy javításra vár. Ha ma üzemel, holnap 90% eséllyel szintén üzemel; ha ma áll, a szerelők 60% eséllyel holnapra megjavítják. a) A gép ma áll. Mekkora eséllyel üzemel holnapután? b) Hosszú távon a napok mekkora hányadában áll a gép? Tizedestörtként válaszolj!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "0,78",
+        "accept": "dec",
+        "format": "tizedestört"
+      },
+      {
+        "label": "b)",
+        "answer": "0,1429",
+        "accept": "dec",
+        "format": "tizedestört (nem százalék!)"
+      }
+    ],
+    "explanation": "Módszer: a) kétlépéses fadiagram; b) hosszú távon az arány állandó, p = p·P(marad) + (1 − p)·P(átvált).",
+    "source": "Gyakorló feladatok, MARKOV-5",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Az átmenetek: „üzemel” után „üzemel” 0,9, „áll” 0,1; „áll” után „üzemel” 0,6, „áll” 0,4 (egy állapotból az esélyek összege 1).",
+      "a) Fadiagram két lépésre (jegyzet 7.4): ma „áll”, holnap „üzemel” vagy „áll”, holnapután „üzemel”.",
+      "a) Ágak mentén szorzunk, az utakat összeadjuk: 0,6·0,9 + 0,4·0,6 = 0,54 + 0,24 = 0,78.",
+      "b) Hosszú távon a(z) „üzemel” napok aránya p már nem változik, ezért holnap is p: p = p·0,9 + (1 − p)·0,6 (teljes valószínűség).",
+      "b) Rendezve: p·(1 − 0,9 + 0,6) = 0,6 → p = 0,6 / 0,7 = 6/7. A kérdés a(z) „áll” aránya: 1 − 6/7 = 1/7.",
+      "b) Tizedestörtként: 1/7 ≈ 0,1429."
+    ]
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "mat-5-001",
+    "chapter": 5,
+    "section": "5.1",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Lili 800 000 Ft-ot köt le évi 4%-os kamatos kamatra. a) Legkevesebb hány teljes év elteltével lesz a számláján több mint 1 000 000 Ft? b) Lili húga ugyanilyen feltételekkel 3 évre tett be pénzt, és a végén 562 432 Ft-ot kapott. Mekkora összeget tett be?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "6",
+        "accept": "int",
+        "format": "egész szám (év)"
+      },
+      {
+        "label": "b)",
+        "answer": "500 000",
+        "accept": "int",
+        "format": "egész szám (Ft)"
+      }
+    ],
+    "explanation": "Módszer: V = A·(1 + r)^t (jegyzet 5.9); ismeretlen évszámnál logaritmus (jegyzet 5.8), visszafelé osztás.",
+    "source": "Gyakorló feladatok, KAMAT-1",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Kamatos kamat évi egyszeri tőkésítéssel (jegyzet 5.9, n = 1): V = A·(1 + r)^t, itt 1 + r = 1,04.",
+      "a) 800 000·1,04^t > 1 000 000 → osztunk 800 000-rel: 1,04^t > 1,25.",
+      "a) Az ismeretlen kitevőhöz logaritmus kell (jegyzet 5.8): t > ln 1,25 / ln 1,04 ≈ 5,69.",
+      "a) Egész évre felfelé kerekítünk: 6 év. Ellenőrzés: 5 év után 973 322 Ft (még nem elég), 6 év után 1 012 255 Ft.",
+      "b) Visszafelé számolunk: A = V / (1 + r)^t = 562 432 / 1,04^3 = 562 432 / 1,124864 = 500 000 Ft."
+    ]
+  },
+  {
+    "id": "mat-5-002",
+    "chapter": 5,
+    "section": "5.2",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Egy vállalkozás 2 500 000 Ft tartalékot fektet be évi 6%-os, évente tőkésedő kamattal. a) Hány év kell (egész évre felfelé kerekítve), amíg a tartalék 4 000 000 Ft fölé nő? b) Egy másik befektetés 2 év alatt ugyanekkora kamat mellett 2 247 200 Ft-ra nőtt. Mennyi volt a kezdőtőke?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "9",
+        "accept": "int",
+        "format": "egész szám (év)"
+      },
+      {
+        "label": "b)",
+        "answer": "2 000 000",
+        "accept": "int",
+        "format": "egész szám (Ft)"
+      }
+    ],
+    "explanation": "Módszer: V = A·(1 + r)^t (jegyzet 5.9); ismeretlen évszámnál logaritmus (jegyzet 5.8), visszafelé osztás.",
+    "source": "Gyakorló feladatok, KAMAT-2",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Kamatos kamat évi egyszeri tőkésítéssel (jegyzet 5.9, n = 1): V = A·(1 + r)^t, itt 1 + r = 1,06.",
+      "a) 2 500 000·1,06^t > 4 000 000 → osztunk 2 500 000-rel: 1,06^t > 1,6.",
+      "a) Az ismeretlen kitevőhöz logaritmus kell (jegyzet 5.8): t > ln 1,6 / ln 1,06 ≈ 8,07.",
+      "a) Egész évre felfelé kerekítünk: 9 év. Ellenőrzés: 8 év után 3 984 620 Ft (még nem elég), 9 év után 4 223 697 Ft.",
+      "b) Visszafelé számolunk: A = V / (1 + r)^t = 2 247 200 / 1,06^2 = 2 247 200 / 1,1236 = 2 000 000 Ft."
+    ]
+  },
+  {
+    "id": "mat-5-003",
+    "chapter": 5,
+    "section": "5.3",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Nagyszülők 1 500 000 Ft-ot helyeznek el unokájuk számára 3%-os éves kamatra. a) Hányadik év végén haladja meg először a betét a 2 000 000 Ft-ot? b) Mekkora összeget kellene betenni, hogy ugyanilyen kamat mellett 2 év múlva pontosan 636 540 Ft legyen a számlán?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "10",
+        "accept": "int",
+        "format": "egész szám (év)"
+      },
+      {
+        "label": "b)",
+        "answer": "600 000",
+        "accept": "int",
+        "format": "egész szám (Ft)"
+      }
+    ],
+    "explanation": "Módszer: V = A·(1 + r)^t (jegyzet 5.9); ismeretlen évszámnál logaritmus (jegyzet 5.8), visszafelé osztás.",
+    "source": "Gyakorló feladatok, KAMAT-3",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Kamatos kamat évi egyszeri tőkésítéssel (jegyzet 5.9, n = 1): V = A·(1 + r)^t, itt 1 + r = 1,03.",
+      "a) 1 500 000·1,03^t > 2 000 000 → osztunk 1 500 000-rel: 1,03^t > 1,3333.",
+      "a) Az ismeretlen kitevőhöz logaritmus kell (jegyzet 5.8): t > ln 1,3333 / ln 1,03 ≈ 9,73.",
+      "a) Egész évre felfelé kerekítünk: 10 év. Ellenőrzés: 9 év után 1 957 160 Ft (még nem elég), 10 év után 2 015 875 Ft.",
+      "b) Visszafelé számolunk: A = V / (1 + r)^t = 636 540 / 1,03^2 = 636 540 / 1,0609 = 600 000 Ft."
+    ]
+  },
+  {
+    "id": "mat-5-004",
+    "chapter": 5,
+    "section": "5.4",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Egy alapítvány 600 000 Ft-ot fektet be 8%-os éves kamatozású betétbe. a) Legalább hány év alatt nő az összeg 1 000 000 Ft fölé? (Egész évre felfelé kerekíts!) b) Ugyanez a bank 3 év után 314 928 Ft-ot fizetett ki egy ügyfélnek. Mekkora volt a betét?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "7",
+        "accept": "int",
+        "format": "egész szám (év)"
+      },
+      {
+        "label": "b)",
+        "answer": "250 000",
+        "accept": "int",
+        "format": "egész szám (Ft)"
+      }
+    ],
+    "explanation": "Módszer: V = A·(1 + r)^t (jegyzet 5.9); ismeretlen évszámnál logaritmus (jegyzet 5.8), visszafelé osztás.",
+    "source": "Gyakorló feladatok, KAMAT-4",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Kamatos kamat évi egyszeri tőkésítéssel (jegyzet 5.9, n = 1): V = A·(1 + r)^t, itt 1 + r = 1,08.",
+      "a) 600 000·1,08^t > 1 000 000 → osztunk 600 000-rel: 1,08^t > 1,6667.",
+      "a) Az ismeretlen kitevőhöz logaritmus kell (jegyzet 5.8): t > ln 1,6667 / ln 1,08 ≈ 6,64.",
+      "a) Egész évre felfelé kerekítünk: 7 év. Ellenőrzés: 6 év után 952 125 Ft (még nem elég), 7 év után 1 028 295 Ft.",
+      "b) Visszafelé számolunk: A = V / (1 + r)^t = 314 928 / 1,08^3 = 314 928 / 1,259712 = 250 000 Ft."
+    ]
+  },
+  {
+    "id": "mat-5-005",
+    "chapter": 5,
+    "section": "5.5",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Gábor a 3 000 000 Ft-ját egy évi 2%-ot fizető megtakarítási számlára teszi. a) Hány teljes év után lesz az egyenlege először 3 500 000 Ft felett? b) Gábor barátja évi 10%-os kamatot kapott, és 3 év alatt 1 331 000 Ft-ra nőtt a pénze. Mennyit tett be?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "8",
+        "accept": "int",
+        "format": "egész szám (év)"
+      },
+      {
+        "label": "b)",
+        "answer": "1 000 000",
+        "accept": "int",
+        "format": "egész szám (Ft)"
+      }
+    ],
+    "explanation": "Módszer: V = A·(1 + r)^t (jegyzet 5.9); ismeretlen évszámnál logaritmus (jegyzet 5.8), visszafelé osztás.",
+    "source": "Gyakorló feladatok, KAMAT-5",
+    "official": false,
+    "difficulty": 3,
+    "steps": [
+      "Kamatos kamat évi egyszeri tőkésítéssel (jegyzet 5.9, n = 1): V = A·(1 + r)^t, itt 1 + r = 1,02.",
+      "a) 3 000 000·1,02^t > 3 500 000 → osztunk 3 000 000-rel: 1,02^t > 1,1667.",
+      "a) Az ismeretlen kitevőhöz logaritmus kell (jegyzet 5.8): t > ln 1,1667 / ln 1,02 ≈ 7,78.",
+      "a) Egész évre felfelé kerekítünk: 8 év. Ellenőrzés: 7 év után 3 446 057 Ft (még nem elég), 8 év után 3 514 978 Ft.",
+      "b) Visszafelé számolunk: A = V / (1 + r)^t = 1 331 000 / 1,1^3 = 1 331 000 / 1,331 = 1 000 000 Ft."
+    ]
+  }
+]
