@@ -52,6 +52,7 @@ export default function Hub({ subject }) {
               <div key={e.id} className="card exam soon-exam" aria-disabled="true">
                 <span className="exam-no">{e.name}</span>
                 <p><Clock size={18} aria-hidden="true" />Hamarosan. Az anyaga később kerül fel.</p>
+                <Countdown subject={subject} exam={e} />
               </div>
             );
           }

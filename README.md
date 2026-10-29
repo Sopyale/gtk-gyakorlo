@@ -26,7 +26,8 @@ Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 2.0.0 ([c
   in-browser language model.
 - **Számolás** (Matematika): Moodle-style task cards with the point value, grey number fields, a tick or cross per
   field and a step-by-step derivation (Levezetés); no partial credit. Decimal comma or point, fractions where the format allows, spaces in whole numbers.
-- **Ütemterv** (study plan): spreads the chapters over the days until the ZH by question count; the last day is review.
+- **Ütemterv** (study plan): the ZH date is prefilled from `subjects.json`, the student picks the start day; spreads the
+  chapters over the days until the ZH by question count; the last day is review.
 - **Accounts** (optional): Neptun code + password + own non-ELTE e-mail, or Google sign-in. Progress syncs across
   devices; the password can be reset by e-mail; "stay signed in" is optional. Signed-out visitors are asked to sign in
   on every visit. The Drive link asks for sign-in, so access requests can be matched to

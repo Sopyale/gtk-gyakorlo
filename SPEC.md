@@ -59,7 +59,7 @@ Out: own server code, third-party analytics or tracking, any content outside the
   "Tananyagok (Google Drive)" button → `https://drive.google.com/drive/folders/15-MBuk89WvQ-HQwPefg7sUawg0LdZi-0?usp=drive_link`
   with a one-line note that access is granted on request. A countdown to each active ZH ("2 nap az 1. ZH-ig") shows in
   the hero and on the ZH card; the date is `date` on the exam in `subjects.json`, or the student's own Ütemterv date.
-- **Subject hub**: one card per ZH. An inactive ZH shows "Hamarosan"; an inactive ZH whose `date` has passed (already
+- **Subject hub**: one card per ZH. An inactive ZH shows "Hamarosan" and its countdown; an inactive ZH whose `date` has passed (already
   written) is not shown.
 - **Subject page**: the modes as cards, chapter filter (6 chapters), type filter, "Csak ZH-szintű" filter (`zh=1`), overall progress.
   "Gyenge pontok": share of right answers per chapter (latest answer per question), worst first, each linking to
@@ -87,7 +87,8 @@ Out: own server code, third-party analytics or tracking, any content outside the
   (≥ 75 %), "Részben jó" or "Ez még hiányos". "Okos ellenőrzés" (optional, remembered) loads transformers.js from
   jsDelivr and the multilingual sentence model `Xenova/paraphrase-multilingual-MiniLM-L12-v2` (~120 MB, cached by the
   browser) and adds a meaning similarity; if it fails to load, only the concepts are used. The student decides.
-- **Ütemterv**: the student sets the ZH date; the chapters are spread over the days by question count, the last day is
+- **Ütemterv**: the ZH date is prefilled from `date` in `subjects.json` (the owner's calendar; the student can change
+  it) and the student picks the day they start studying (default: today); the chapters are spread over the days by question count, the last day is
   review when at least three days are left; days can be ticked off; "Újratervezés mától" re-plans from today.
 - **Haladás törlése** button clears all stored progress.
 - **Legal notice** (verbatim, see §7) in every page footer and as a dismissible first-visit banner.

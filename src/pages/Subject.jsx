@@ -21,7 +21,7 @@ export default function Subject({ subject }) {
   const answers = load('answers', {});
   const done = qs.filter((q) => answers[q.id]).length;
   const wrongIds = load('wrong', {});
-  const plan = load(`plan:${subject.path}`, {});
+  const zhDate = load(`plan:${subject.path}`, {}).date || subject.exam.date;
   const wrong = qs.filter((q) => q.id in wrongIds).length;
   const dueNow = due(qs).length;
   const best = load('match', {})[subject.path];
@@ -102,7 +102,7 @@ export default function Subject({ subject }) {
         </>}
         <a className="card mode glow wide" href={href(subject.path, 'utemterv')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><CalendarDays size={24} className="mi" aria-hidden="true" /><h3>Ütemterv</h3>
-          <p>{plan.date > today() ? `${daysBetween(today(), plan.date)} nap a ZH-ig, napi bontásban.` : 'Add meg a ZH dátumát, és napokra bontjuk az anyagot.'}</p>
+          <p>{zhDate > today() ? `${daysBetween(today(), zhDate)} nap a ZH-ig. Add meg, mikor kezdesz tanulni, és napokra bontjuk az anyagot.` : 'Add meg a ZH dátumát, és napokra bontjuk az anyagot.'}</p>
         </a>
       </div>
 

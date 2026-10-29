@@ -14,13 +14,24 @@
     ],
     "exams": [
       { "id": "zh1", "name": "1. ZH", "active": false, "date": "2026-10-21", "chapters": [1, 2, 3, 4, 5, 6] },
-      { "id": "zh2", "name": "2. ZH", "active": false, "chapters": [] }
+      { "id": "zh2", "name": "2. ZH", "active": false, "date": "2026-12-07", "chapters": [] }
     ]
   },
-  { "id": "menedzsment", "name": "Menedzsment", "active": false, "chapters": [] },
-  { "id": "marketing", "name": "Marketing", "active": false, "chapters": [] },
-  { "id": "szamvitel", "name": "Számvitel", "active": false, "chapters": [] },
-  { "id": "kozosseg-es-egyen", "name": "Közösség és egyén", "active": false, "chapters": [] },
+  { "id": "menedzsment", "name": "Menedzsment", "active": false, "chapters": [], "exams": [
+      { "id": "zh2", "name": "2. ZH", "active": false, "date": "2026-11-11", "chapters": [] },
+      { "id": "zh3", "name": "3. ZH", "active": false, "date": "2026-12-02", "chapters": [] }
+    ] },
+  { "id": "marketing", "name": "Marketing", "active": false, "chapters": [], "exams": [
+      { "id": "zh2", "name": "2. ZH", "active": false, "date": "2026-11-09", "chapters": [] },
+      { "id": "zh3", "name": "3. ZH", "active": false, "date": "2026-12-09", "chapters": [] }
+    ] },
+  { "id": "szamvitel", "name": "Számvitel", "active": false, "chapters": [], "exams": [
+      { "id": "zh2", "name": "2. ZH", "active": false, "date": "2026-11-16", "chapters": [] },
+      { "id": "zh3", "name": "3. ZH", "active": false, "date": "2026-12-14", "chapters": [] }
+    ] },
+  { "id": "kozosseg-es-egyen", "name": "Közösség és egyén", "active": false, "chapters": [], "exams": [
+      { "id": "zh2", "name": "2. ZH", "active": false, "date": "2026-11-25", "chapters": [] }
+    ] },
   {
     "id": "matematika",
     "name": "Matematika",
@@ -38,7 +49,8 @@
       { "n": 8, "title": "Rendszámtábla (variáció)", "short": "Rendszámtábla" }
     ],
     "exams": [
-      { "id": "zh2", "name": "2. ZH", "active": true, "chapters": [1, 2, 3, 4, 5, 6, 7, 8], "mock": { "minutes": 60, "perChapter": 1 } }
+      { "id": "zh2", "name": "2. ZH", "active": true, "date": "2026-11-04", "chapters": [1, 2, 3, 4, 5, 6, 7, 8], "mock": { "minutes": 60, "perChapter": 1 } },
+      { "id": "zh3", "name": "3. ZH", "active": false, "date": "2026-11-23", "chapters": [] }
     ]
   }
 ]

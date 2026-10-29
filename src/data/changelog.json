@@ -1,4 +1,5 @@
 [
+  { "version": "2.0.2", "date": "2026-10-29", "items": ["Minden ZH dátuma fent van, és az ütemtervben kiválaszthatod, mikor kezdesz tanulni."] },
   { "version": "2.0.1", "date": "2026-10-29", "items": ["A már megírt ZH-k nem jelennek meg a tárgy oldalán."] },
   { "version": "2.0.0", "date": "2026-10-29", "items": ["Mostantól a jegyzetek feltöltése automatikus."] },
   { "version": "1.13.0", "date": "2026-10-29", "items": ["A Közgazdaságtan 1. ZH lekerült (már megírtuk); a 2. ZH kérdései az új anyaggal jönnek."] },

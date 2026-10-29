@@ -7,17 +7,19 @@ import { load, save } from '../lib/storage.js';
 
 const label = (iso) => new Date(iso + 'T12:00:00').toLocaleDateString('hu-HU', { weekday: 'long', month: 'long', day: 'numeric' });
 
-// Ütemterv: the student sets the ZH date; the days until then get the chapters, the last day is review.
+// Ütemterv: the ZH date comes from subjects.json (the student can change it) and the student picks the day they start;
+// the days in between get the chapters, the last day is review.
 export default function Plan({ subject }) {
   const key = `plan:${subject.path}`;
-  const [plan, setPlan] = useState(() => load(key, { date: '', start: '', done: {} }));
+  const [stored, setPlan] = useState(() => load(key, { date: '', start: '', done: {} }));
   const update = (next) => { save(key, next); setPlan(next); };
   const now = today();
+  const plan = { ...stored, date: stored.date || subject.exam.date || '', start: stored.start || now };
   const qs = scopeQuestions(subject);
   const answers = load('answers', {});
   const back = <a className="back" href={href(subject.path)}><ArrowLeft size={18} aria-hidden="true" />{subject.title}</a>;
 
-  const days = plan.date && plan.start ? daysBetween(plan.start, plan.date) : 0;
+  const days = plan.date ? Math.max(0, daysBetween(plan.start, plan.date)) : 0;
   const review = days >= 3; // with only two days left, both go to new material
   const weights = subject.chapters.map((c) => ({ n: c.n, weight: qs.filter((q) => q.chapter === c.n).length }));
   const slots = days > 0 ? planDays(weights, review ? days - 1 : days) : [];
@@ -33,19 +35,23 @@ export default function Plan({ subject }) {
     <div className="wrap page narrow">
       {back}
       <h1 className="page-title">Ütemterv</h1>
-      <p className="lede">Add meg, mikor írod a ZH-t, és a hátralévő napokra szétosztjuk a fejezeteket a kérdések száma szerint. Ha legalább három nap van hátra, az utolsó nap ismétlés.</p>
+      <p className="lede">Válaszd ki, mikor kezdesz tanulni, és a ZH napjáig szétosztjuk a fejezeteket a kérdések száma szerint. Ha legalább három napod van, az utolsó nap ismétlés.</p>
 
       <form className="card plan-date" onSubmit={(e) => e.preventDefault()}>
         <label htmlFor="zh-date"><CalendarDays size={20} aria-hidden="true" />A ZH napja</label>
         <input id="zh-date" type="date" min={addDays(now, 1)} value={plan.date}
-          onChange={(e) => update({ date: e.target.value, start: now, done: {} })} />
+          onChange={(e) => update({ ...plan, date: e.target.value, done: {} })} />
+        <label htmlFor="start-date"><Play size={20} aria-hidden="true" />Ekkor kezdek tanulni</label>
+        <input id="start-date" type="date" max={plan.date && addDays(plan.date, -1)} value={plan.start}
+          onChange={(e) => e.target.value && update({ ...plan, start: e.target.value, done: {} })} />
         {left > 0 && <p className="plan-left"><b>{left}</b> nap van hátra</p>}
       </form>
 
       {plan.date && left <= 0 && (
         <p className="note">{left === 0 ? 'Ma van a ZH. Sok sikert!' : 'Ez a dátum már elmúlt. Adj meg egy újat.'}</p>
       )}
-      {plan.start && plan.start < now && left > 0 && (
+      {plan.start >= plan.date && left > 0 && <p className="note">A kezdés napja legyen a ZH előtt.</p>}
+      {plan.start < now && left > 0 && (
         <button className="btn sec plan-reset" onClick={() => update({ ...plan, start: now, done: {} })}>
           <RefreshCw size={18} aria-hidden="true" />Újratervezés mától
         </button>

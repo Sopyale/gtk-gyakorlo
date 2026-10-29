@@ -134,6 +134,12 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Hide a ZH that was already written (inactive with a past `date`) from the subject page instead of showing
       "Hamarosan. Az anyaga később kerül fel." (Közgazdaságtan 1. ZH)
 
+## 2.0.2
+
+- [x] Every upcoming ZH's date (from the owner's Google Calendar, checked against `zh-anyagok.md`) on its exam in
+      `subjects.json`, for every subject; a countdown on the "Hamarosan" cards too
+- [x] Ütemterv: ZH date prefilled from `subjects.json`, the student picks the day they start studying
+
 ## Open
 
 - [ ] 2.1.0: full redesign of the site (see ideas.md, section "2.1.0 – redesign")

@@ -3,6 +3,17 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 2.0.2 – 2026-10-29
+
+- **ZH dates:** every upcoming ZH has its `date` in `subjects.json`, taken from the owner's Google Calendar ("ZH – …"
+  events) and checked against his ZH list: Matematika 2. ZH 11-04, 3. ZH 11-23; Marketing 11-09, 12-09; Menedzsment
+  11-11, 12-02; Számvitel 11-16, 12-14; Közösség és egyén 11-25; Közgazdaságtan 2. ZH 12-07. The calendar has no
+  times, so only dates. The not-yet-open subjects get their exams too, so opening one only means `active: true`. The
+  "Hamarosan" ZH cards show the countdown.
+- **Ütemterv start day:** the ZH date is prefilled from `subjects.json` and the student picks the day they start
+  studying ("Ekkor kezdek tanulni", default today); the plan runs from that day to the ZH. Changing the ZH date keeps
+  the start day. Requested by the owner. Kept as a patch so 2.1.0 stays the redesign.
+
 ## 2.0.1 – 2026-10-29
 
 - **Written ZHs disappear:** the subject page showed the Közgazdaságtan 1. ZH as "Hamarosan. Az anyaga később kerül
