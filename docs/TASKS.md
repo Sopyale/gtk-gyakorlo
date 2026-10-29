@@ -129,6 +129,11 @@ Every change the owner asks for is added here as a new task before work starts, 
       old tags and releases deleted)
 - [x] Record the 2.1.0 redesign plan in ideas.md; from now on every idea of the owner goes into ideas.md
 
+## 2.0.1
+
+- [x] Hide a ZH that was already written (inactive with a past `date`) from the subject page instead of showing
+      "Hamarosan. Az anyaga később kerül fel." (Közgazdaságtan 1. ZH)
+
 ## Open
 
 - [ ] 2.1.0: full redesign of the site (see ideas.md, section "2.1.0 – redesign")

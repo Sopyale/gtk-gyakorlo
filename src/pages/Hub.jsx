@@ -2,6 +2,7 @@ import { ArrowRight, Clock } from 'lucide-react';
 import Countdown from '../components/Countdown.jsx';
 import Ring from '../components/Ring.jsx';
 import { getScope, scopeQuestions } from '../lib/data.js';
+import { today } from '../lib/plan.js';
 import { href } from '../lib/route.js';
 import { load } from '../lib/storage.js';
 
@@ -44,6 +45,8 @@ export default function Hub({ subject }) {
       </section>
       <div className="wrap exams">
         {subject.exams.map((e) => {
+          // A ZH that was already written disappears; one still to come shows "Hamarosan".
+          if (!e.active && e.date && e.date < today()) return null;
           if (!e.active) {
             return (
               <div key={e.id} className="card exam soon-exam" aria-disabled="true">

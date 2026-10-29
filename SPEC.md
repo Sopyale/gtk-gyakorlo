@@ -59,6 +59,8 @@ Out: own server code, third-party analytics or tracking, any content outside the
   "Tananyagok (Google Drive)" button → `https://drive.google.com/drive/folders/15-MBuk89WvQ-HQwPefg7sUawg0LdZi-0?usp=drive_link`
   with a one-line note that access is granted on request. A countdown to each active ZH ("2 nap az 1. ZH-ig") shows in
   the hero and on the ZH card; the date is `date` on the exam in `subjects.json`, or the student's own Ütemterv date.
+- **Subject hub**: one card per ZH. An inactive ZH shows "Hamarosan"; an inactive ZH whose `date` has passed (already
+  written) is not shown.
 - **Subject page**: the modes as cards, chapter filter (6 chapters), type filter, "Csak ZH-szintű" filter (`zh=1`), overall progress.
   "Gyenge pontok": share of right answers per chapter (latest answer per question), worst first, each linking to
   practice of that chapter.

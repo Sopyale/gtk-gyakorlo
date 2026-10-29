@@ -3,6 +3,12 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 2.0.1 – 2026-10-29
+
+- **Written ZHs disappear:** the subject page showed the Közgazdaságtan 1. ZH as "Hamarosan. Az anyaga később kerül
+  fel." although it was written on 2026-10-21. An inactive exam whose `date` has passed is now hidden; an inactive
+  exam without a past date (an upcoming ZH) still shows "Hamarosan". Requested by the owner.
+
 ## 2.0.0 – 2026-10-29
 
 - **Version 2:** the site is now fed by the owner's daily automation. New Moodle material goes into the exam notes, the
