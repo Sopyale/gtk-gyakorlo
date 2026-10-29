@@ -14,6 +14,7 @@ export default function Privacy() {
         <li>a jelszavadat, de csak visszafejthetetlen formában (bcrypt-hash), így azt senki nem látja;</li>
         <li>a haladásodat: melyik kérdést találtad el, a rontott kérdéseidet, a flashcardokat és az ütemtervedet;</li>
         <li>a „Segítség kérése” oldalon elküldött üzeneteidet és a rájuk írt válaszokat;</li>
+        <li>a 3 naponta kért visszajelzéseidet (értékelés és szöveg); bejelentkezés nélkül a fiókod helyett egy véletlenszerű eszközazonosítóval;</li>
         <li>mikor regisztráltál, mikor jártál az oldalon utoljára, és hányszor nyitottad meg a Drive-linket. Ebből az üzemeltető összesítve látja, hányan használják az oldalt.</li>
       </ul>
       <h2>Ki látja, és hol van</h2>

@@ -10,3 +10,13 @@ assert.deepEqual(mergeProgress(remote, local), {
 });
 assert.deepEqual(mergeProgress({}, {}), {});
 console.log('account merge ok');
+
+// Feedback every 3 days from the anchor (registration or first visit).
+const { feedbackDue } = await import('./account.js');
+const D = 864e5;
+assert.equal(feedbackDue(0, 0, 2.9 * D), false);         // first 3 days: nothing
+assert.equal(feedbackDue(0, 0, 3 * D), true);            // day 3: due
+assert.equal(feedbackDue(0, 3.5 * D, 4 * D), false);     // answered in this period
+assert.equal(feedbackDue(0, 3.5 * D, 6.1 * D), true);    // next period
+assert.equal(feedbackDue(0, 2 * D, 10 * D), true);       // long away: asked once
+console.log('feedback schedule ok');

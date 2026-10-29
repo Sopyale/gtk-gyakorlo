@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { CircleUserRound, X } from 'lucide-react';
-import { accountsEnabled, useAccount } from '../lib/account.js';
+import { accountsEnabled, deviceFeedbackDue, useAccount } from '../lib/account.js';
 import { href } from '../lib/route.js';
 
 // Pages where the prompt would only be in the way.
@@ -14,6 +14,7 @@ export default function SignInPrompt() {
 
   useEffect(() => {
     if (!accountsEnabled || !ready || user || shown || QUIET.some((p) => location.hash.startsWith(p))) return;
+    if (deviceFeedbackDue()) return; // the mandatory feedback comes first on this visit
     shown = true;
     ref.current?.showModal();
   }, [ready, user]);

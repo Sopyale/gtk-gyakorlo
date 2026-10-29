@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Check } from 'lucide-react';
-import { listProfiles, listTickets, setTicketDone, useAccount } from '../lib/account.js';
+import { listFeedback, listProfiles, listTickets, setTicketDone, useAccount } from '../lib/account.js';
 import { getQuestions } from '../lib/data.js';
 import { KINDS, Replies } from './Tickets.jsx';
 
@@ -14,12 +14,16 @@ export default function Admin() {
   const [error, setError] = useState('');
   const [q, setQ] = useState('');
   const [tickets, setTickets] = useState(null);
+  const [feedback, setFeedback] = useState(null);
+  const [tab, setTab] = useState('kerdesek');
   const total = getQuestions('kozgazdasagtan').length;
 
   useEffect(() => {
     if (!profile?.is_admin) return;
     listProfiles().then(setRows, (e) => setError(e.message));
     listTickets().then(setTickets, (e) => setError(e.message));
+    // Before supabase/feedback.sql is run there is no table: the tab just says so.
+    listFeedback().then(setFeedback, () => setFeedback([]));
   }, [profile?.is_admin]);
 
   const shown = useMemo(() => (rows ?? []).filter((r) =>
@@ -46,24 +50,45 @@ export default function Admin() {
       {stats && (
         <>
           <div className="bento admin-stats">{stats.map(([n, l]) => <div key={l} className="card stat"><b>{n}</b><span>{l}</span></div>)}</div>
-          <h2 className="tickets-title">Kérdések</h2>
-          {tickets?.length ? (
+          <div className="auth-tabs admin-tabs" role="tablist" aria-label="Beérkezett">
+            {[['kerdesek', 'Kérdések', tickets?.length], ['visszajelzesek', 'Visszajelzések', feedback?.length]].map(([k, l, n]) => (
+              <button key={k} role="tab" className="chip" aria-selected={tab === k} aria-pressed={tab === k} onClick={() => setTab(k)}>{l}{n ? ` (${n})` : ''}</button>
+            ))}
+          </div>
+          {tab === 'kerdesek' ? (
+            <>
+            {tickets?.length ? (
+              <ul className="tickets">
+                {tickets.map((t) => {
+                  const from = rows.find((r) => r.id === t.user_id);
+                  const toggle = () => setTicketDone(t.id, !t.done).then(
+                    () => setTickets(tickets.map((x) => (x.id === t.id ? { ...x, done: !t.done } : x))), (e) => setError(e.message));
+                  return (
+                    <li key={t.id} className={`card ${t.done ? 'is-done' : ''}`}>
+                      <div className="ticket-head"><b>{from?.neptun ?? '?'}</b><span>{from?.drive_email}</span><span>{KINDS[t.kind]}, {when(t.created_at)}</span></div>
+                      <p>{t.message}</p>
+                      <Replies ticket={t} admin onSent={() => listTickets().then(setTickets)} />
+                      <button className="chip" aria-pressed={t.done} onClick={toggle}><Check size={16} aria-hidden="true" />{t.done ? 'Megoldva' : 'Megoldva?'}</button>
+                    </li>
+                  );
+                })}
+              </ul>
+            ) : <p className="lede">Még nem jött kérdés.</p>}
+            </>
+          ) : feedback?.length ? (
             <ul className="tickets">
-              {tickets.map((t) => {
-                const from = rows.find((r) => r.id === t.user_id);
-                const toggle = () => setTicketDone(t.id, !t.done).then(
-                  () => setTickets(tickets.map((x) => (x.id === t.id ? { ...x, done: !t.done } : x))), (e) => setError(e.message));
+              {feedback.map((f) => {
+                const from = f.user_id && rows.find((r) => r.id === f.user_id);
                 return (
-                  <li key={t.id} className={`card ${t.done ? 'is-done' : ''}`}>
-                    <div className="ticket-head"><b>{from?.neptun ?? '?'}</b><span>{from?.drive_email}</span><span>{KINDS[t.kind]}, {when(t.created_at)}</span></div>
-                    <p>{t.message}</p>
-                    <Replies ticket={t} admin onSent={() => listTickets().then(setTickets)} />
-                    <button className="chip" aria-pressed={t.done} onClick={toggle}><Check size={16} aria-hidden="true" />{t.done ? 'Megoldva' : 'Megoldva?'}</button>
+                  <li key={f.id} className="card">
+                    <div className="ticket-head"><b>{from?.neptun ?? 'Nem regisztrált'}</b><span>{from?.drive_email ?? `eszköz ${f.device_id.slice(0, 8)}`}</span>
+                      <span><span className="stars" aria-label={`${f.rating} az 5-ből`}>{'★'.repeat(f.rating)}{'☆'.repeat(5 - f.rating)}</span>, {when(f.created_at)}</span></div>
+                    <p>{f.message}</p>
                   </li>
                 );
               })}
             </ul>
-          ) : <p className="lede">Még nem jött kérdés.</p>}
+          ) : <p className="lede">Még nem jött visszajelzés.</p>}
           <h2 className="tickets-title">Felhasználók</h2>
           <label className="admin-search">Keresés Neptun-kódra vagy e-mailre
             <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="pl. gmail.com" spellCheck="false" />

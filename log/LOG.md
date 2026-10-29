@@ -3,6 +3,16 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 2.0.3 – 2026-10-29
+
+- **Mandatory feedback (Visszajelzés):** every 3 days counted from registration, the first time the site is opened in
+  the new period a dialog asks for a 1–5 rating and a short text ("A válaszadás kötelező"); it cannot be closed until
+  it is sent. Signed-out visitors get the same per device, counted from the device's first visit (random device id
+  in localStorage). Admins are not asked. A failed send (server problem) offers "tovább", so nobody is locked out.
+  New table `feedback` with row-level security in `supabase/feedback.sql` (anyone sends only as themselves, rate
+  limited; only the admin reads all). Admin shows them in a "Visszajelzések" tab next to "Kérdések". The privacy
+  notice lists the feedback. Requested by the owner. Kept as a patch so 2.1.0 stays the redesign.
+
 ## 2.0.2 – 2026-10-29
 
 - **ZH dates:** every upcoming ZH has its `date` in `subjects.json`, taken from the owner's Google Calendar ("ZH – …"

@@ -118,9 +118,16 @@ Out: own server code, third-party analytics or tracking, any content outside the
   hibajelentés; up to 2000 characters; at most 5 per hour) and see their own tickets' status. The admin sees all
   tickets in Admin with the sender's Neptun code and e-mail and marks them done. Under each ticket the admin and the
   student reply back and forth (`supabase/ticket-replies.sql`); a student's reply reopens a done ticket.
+- **Visszajelzés** (mandatory feedback): every 3 days counted from registration (signed out: from the device's first
+  visit, `gtk:firstVisit`), the first page load of the new period opens a dialog that cannot be closed ("A válaszadás
+  kötelező"): a 1–5 rating and a text, then the student goes on. Signed in, the last answer comes from the server, so
+  it counts on every device; signed out, it is kept on the device with a random device id (`gtk:device`). Admins are
+  never asked. If sending fails for a server reason, a "tovább" button lets the student go on (nobody is locked out).
+  Stored in `feedback` (`supabase/feedback.sql`): anyone inserts only as themselves, at most 3 per device and 300 in
+  total per hour; only the admin reads all. The Admin page shows them in a "Visszajelzések" tab next to "Kérdések".
 - **Újdonságok** (`#/ujdonsagok`, footer and menu link): short Hungarian changelog from `src/data/changelog.json`,
   one short line per notable change.
-- Schema: `supabase/schema.sql` (fresh project only; re-running deletes profiles) and `supabase/tickets.sql`.
+- Schema: `supabase/schema.sql` (fresh project only; re-running deletes profiles) `supabase/tickets.sql`, `supabase/ticket-replies.sql` and `supabase/feedback.sql`.
   User data never goes into the repository.
 
 ### Matematika (2. ZH)

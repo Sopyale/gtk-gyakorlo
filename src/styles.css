@@ -678,3 +678,17 @@ a.card:active { transform: scale(.985); transition-duration: 90ms; }
 .def-concepts li { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 999px; font-size: 14px; background: var(--glass2); transition: transform var(--fast); }
 .def-concepts li:hover { transform: translateY(-1px); }
 .def-concepts .hit { color: var(--good); } .def-concepts .miss { color: var(--bad); }
+
+/* Mandatory feedback every 3 days */
+.feedback-prompt { width: min(520px, calc(100vw - 32px)); }
+.feedback-prompt h2 { margin-right: 0; }
+.feedback-prompt p strong { color: var(--text); }
+.feedback-form { margin-top: 18px; padding: 0; }
+.rating { display: grid; gap: 10px; margin: 0; padding: 0; border: 0; min-width: 0; }
+.rating legend { padding: 0; margin-bottom: 10px; font-weight: 600; font-size: 15px; }
+.rating .auth-tabs .chip { flex: 1; justify-content: center; text-align: center; font: 700 17px var(--display); }
+.rating small { color: var(--muted); font-size: 13.5px; }
+.feedback-form textarea { min-height: 120px; }
+.admin-tabs { margin: 40px 0 14px; }
+.admin-tabs .chip { font-weight: 600; }
+.stars { color: var(--acc-text); letter-spacing: .1em; }

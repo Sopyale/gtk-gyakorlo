@@ -177,3 +177,32 @@ export async function listTickets() {
 // The server records whether the admin or the student wrote it (see supabase/ticket-replies.sql).
 export const sendReply = (ticketId, message) => run((sb) => sb.from('ticket_replies').insert({ ticket_id: ticketId, message }));
 export const setTicketDone = (id, done) => run((sb) => sb.from('tickets').update({ done }).eq('id', id));
+
+// Visszajelzés: every 3 days counted from registration (signed out: from this device's first visit) the site asks
+// once for mandatory feedback (see supabase/feedback.sql).
+const PERIOD = 3 * 864e5;
+export const feedbackDue = (anchor, last, now) => {
+  const n = Math.floor((now - anchor) / PERIOD);
+  return n >= 1 && last < anchor + n * PERIOD;
+};
+const once = (key, make) => { let v = load(key, null); if (!v) save(key, (v = make())); return v; };
+export const deviceFeedbackDue = () => feedbackDue(once('firstVisit', Date.now), load('feedbackAt', 0), Date.now());
+export async function accountFeedbackDue() {
+  const sb = await getClient();
+  const { data, error } = await sb.from('feedback').select('created_at').eq('user_id', state.user.id)
+    .order('created_at', { ascending: false }).limit(1);
+  // No table yet or no connection: never lock anyone out.
+  if (error) return false;
+  return feedbackDue(Date.parse(state.profile.created_at), data[0] ? Date.parse(data[0].created_at) : 0, Date.now());
+}
+export async function sendFeedback({ rating, message }) {
+  await run((sb) => sb.from('feedback').insert({ rating, message, device_id: once('device', () => crypto.randomUUID()) }));
+  save('feedbackAt', Date.now());
+}
+export async function listFeedback() {
+  const sb = await getClient();
+  const { data, error } = await sb.from('feedback').select('id, user_id, device_id, rating, message, created_at')
+    .order('created_at', { ascending: false });
+  if (error) throw new Error(friendly(error));
+  return data;
+}

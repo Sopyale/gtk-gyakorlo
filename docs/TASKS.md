@@ -140,6 +140,12 @@ Every change the owner asks for is added here as a new task before work starts, 
       `subjects.json`, for every subject; a countdown on the "Hamarosan" cards too
 - [x] Ütemterv: ZH date prefilled from `subjects.json`, the student picks the day they start studying
 
+## 2.0.3
+
+- [x] Mandatory feedback dialog every 3 days from registration (signed out: from the device's first visit), shown when
+      the site is opened; the student goes on only after answering; the admin reads them in a "Visszajelzések" tab
+      next to "Kérdések" (`supabase/feedback.sql`)
+
 ## Open
 
 - [ ] 2.1.0: full redesign of the site (see ideas.md, section "2.1.0 – redesign")

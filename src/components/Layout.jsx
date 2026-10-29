@@ -5,6 +5,7 @@ import { subjects } from '../lib/data.js';
 import { href } from '../lib/route.js';
 import { load, save } from '../lib/storage.js';
 import { LEGAL, LegalBanner } from './Legal.jsx';
+import FeedbackPrompt from './FeedbackPrompt.jsx';
 import SignInPrompt from './SignInPrompt.jsx';
 
 const systemDark = () => matchMedia('(prefers-color-scheme: dark)').matches;
@@ -114,6 +115,7 @@ export default function Layout({ current, calm, children }) {
         <p className="ver links"><a href={href('ujdonsagok')}>Újdonságok</a>{accountsEnabled && <a href={href('adatkezeles')}>Adatkezelési tájékoztató</a>}</p>
         <p className="ver">Verzió: {__VERSION__}</p></div></footer>
       <LegalBanner />
+      <FeedbackPrompt />
       <SignInPrompt />
     </>
   );

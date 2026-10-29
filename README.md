@@ -34,9 +34,11 @@ Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 2.0.0 ([c
   Neptun codes. Details in the privacy notice (`#/adatkezeles`).
 - **Segítség kérése** (ticket) tab: signed-in students send a question, request or bug report to the owner, and the
   owner and the student can reply back and forth.
+- **Visszajelzés**: every 3 days from registration (or a device's first visit) a mandatory feedback dialog
+  (rating + text); the owner reads them in the Admin tab.
 - **Újdonságok**: a short changelog for students.
 - **Admin tab**, visible to admins only: every account with Neptun code, e-mail, activity and progress, plus the
-  tickets.
+  tickets and the feedback.
 - Installable as an app (PWA), works offline, light and dark theme, keyboard shortcuts (I/H, 1–4, Enter, space).
 
 ## Running locally
@@ -109,7 +111,7 @@ from the sources.
 ## Accounts setup
 
 Accounts run on Supabase. The schema is in `supabase/schema.sql` (fresh project only: re-running it deletes every
-profile) `supabase/tickets.sql` and `supabase/ticket-replies.sql` (tickets and replies; safe to re-run); the publishable key and project URL are in
+profile) `supabase/tickets.sql` and `supabase/ticket-replies.sql` (tickets and replies) and `supabase/feedback.sql` (feedback; all three safe to re-run); the publishable key and project URL are in
 `src/lib/account.js`. Only the publishable key may be in the code. User data stays in Supabase and never goes into
 this repository. Make someone an admin in the Supabase SQL Editor:
 
