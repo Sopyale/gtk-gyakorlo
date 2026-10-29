@@ -7,6 +7,18 @@ dist/
 kuldendo/
 private/
 *.pdf
+# Notes and course material stay on the laptop / Drive only (owner's rule, 2026-10-29)
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.xls
+*.xlsx
+*vizsgajegyzet*
+*jegyzet*
+gyakorlo_feladatok.md
+osszefoglalo.md
+gyakorlo_forras/
 
 # graphify: keep the graph and report, not the local interpreter path or cache
 graphify-out/.graphify_*
