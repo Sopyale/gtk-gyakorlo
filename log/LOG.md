@@ -3,7 +3,7 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
-## 2.0.3 – 2026-10-29
+## 2.0.3 – 2026-10-30
 
 - **Mandatory feedback (Visszajelzés):** every 3 days counted from registration, the first time the site is opened in
   the new period a dialog asks for a 1–5 rating and a short text ("A válaszadás kötelező"); it cannot be closed until
