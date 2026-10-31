@@ -21,6 +21,8 @@ add new ones here when he gives them.
 4. **Save a version.** Every shipped change gets a new version number:
    - bump `version` in `package.json` (patch `1.0.x` for fixes and small tweaks, minor `1.x.0` for new features,
      major `x.0.0` for redesigns),
+   - **until the 2.1.0 redesign ships, every change is a `2.0.x` patch**, even a new course, ZH or question bank
+     (owner's rule; this overrides "minor" in `.claude\agents\weboldal.md` and `Moodle\moodle-figyelo.md`),
    - commit, push to `main`,
    - the Release workflow then tags the commit `vX.Y.Z` and publishes a GitHub release with the log entry as its notes
      (this session can't create tags itself).
