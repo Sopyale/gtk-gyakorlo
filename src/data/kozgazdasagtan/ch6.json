@@ -106,7 +106,12 @@
     "explanation": "Mindkettő azt mondja: ugyanabból egyre többet használva az újabb egység egyre kevesebbet ad. A fogyasztónál egyre kisebb hasznosságot, a termelésben egyre kevesebb többletterméket. Az előnykiegyenlítés a költségminimalizálás alapszabályának párja.",
     "source": "Jegyzet 6.2 · Könyv 39. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "az előnykiegyenlítés elvéhez": "Az előnykiegyenlítés elvének a költségminimalizálás alapszabálya a párja.",
+      "a kereslet törvényéhez": "A kereslet törvényének a helyettesítési szabály a párja.",
+      "Gossen II. törvényéhez": "Gossen II. a pénzegységre jutó határhasznok kiegyenlítése, ennek a költségminimalizálás alapszabálya a párja."
+    }
   },
   {
     "id": "kg-6-015",
@@ -172,7 +177,9 @@
     "official": false,
     "difficulty": 3,
     "why": {
-      "A-t részben B-vel helyettesíteni": "Fordítva kell helyettesíteni."
+      "A-t részben B-vel helyettesíteni": "Fordítva kell helyettesíteni.",
+      "mindkettő alkalmazását csökkenteni": "Adott mennyiség olcsóbb előállításához a tényezők arányát kell átrendezni, nem mindkettőt csökkenteni.",
+      "semmit, ez már a költségminimum": "Költségminimumban a hányadosok egyenlők, itt viszont eltérnek."
     }
   },
   {
@@ -191,7 +198,12 @@
     "explanation": "Mindkettő azt mondja, hogy az utolsó elköltött forint mindenhol ugyanannyit hozzon. A fogyasztónál ez az egy forintra jutó határhaszon (MUa/Pa = MUb/Pb), a termelőnél az egy forintra jutó határtermék-bevétel (MRPA/PA = MRPB/PB).",
     "source": "Jegyzet 6.3 · Könyv 39–40. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "a csökkenő határhasznosság elve": "A csökkenő határhasznosság elvének a csökkenő határhozadék a párja.",
+      "a kereslet törvénye": "A kereslet törvényének a helyettesítési szabály a párja.",
+      "az értékparadoxon": "Az értékparadoxon a víz és a gyémánt árkülönbségét magyarázza, nem a költségminimalizálás párja."
+    }
   },
   {
     "id": "kg-6-020",
@@ -292,7 +304,12 @@
     "explanation": "Amíg egy újabb egység több bevételt hoz, mint amennyibe kerül, növeli a profitot, ezért tovább fokozzák a használatot. Ott állnak meg, ahol a határköltség (az újabb egység költsége) egyenlő a határbevétellel (az általa hozott bevétellel).",
     "source": "Jegyzet 6.5 · Könyv 40–41. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "amíg a teljes költség minimális": "A vállalat a profitot maximalizálja, nem a teljes költséget minimalizálja.",
+      "amíg a határtermék nullára nem csökken": "Már ott megállnak, ahol a tényező határköltsége eléri a határtermék-bevételét, nem a nulla határterméknél.",
+      "amíg az átlagköltség nem nő": "A döntés határértékeken múlik (határköltség = határbevétel), nem az átlagköltségen."
+    }
   },
   {
     "id": "kg-6-030",
@@ -338,6 +355,7 @@
     "difficulty": 3,
     "why": {
       "ott a két görbe metszi egymást": "A metszéspont nem költségminimum, onnan van olcsóbb kombináció.",
+      "ott az A tényezőből a legtöbbet alkalmazzák": "A költségminimumot az érintés jelöli ki, nem az, hogy melyik tényezőből használnak a legtöbbet.",
       "ott a kibocsátás nulla": "A költségminimumnál nem nulla a kibocsátás."
     }
   },
@@ -399,7 +417,11 @@
     "explanation": "Technológiai hatékonyság: a verseny rákényszeríti a vállalatokat, hogy a legjobb technológiát és a legalacsonyabb egységköltségű (legolcsóbb darabonkénti) méretet válasszák. A „mindenhol azonos határtermék-bevétel” az allokációs hatékonyság.",
     "source": "Jegyzet 6.8 · Könyv 46–47. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "minden tényezőt mindenhol azonos határtermék-bevétellel alkalmaznak": "A mindenhol azonos határtermék-bevétel az allokációs hatékonyság, nem a technológiai.",
+      "a kormány határozza meg a technológiát": "A technológiai hatékonyságra a verseny, a piaci koordináció kényszerít, nem a kormány."
+    }
   },
   {
     "id": "kg-6-039",
@@ -563,7 +585,7 @@
     "difficulty": 3,
     "why": {
       "nem veszi fel, mert a bére (5000 Ft) nagyobb a határterméknél (20 db)": "A bér pénz, a 20 db nem hasonlítható hozzá, a bevétellel kell összevetni.",
-      "nem veszi fel, mert a termék ára (300 Ft) kisebb a bérnél": "A termék ára és a bér nem közvetlenül összevethető.",
+      "nem veszi fel, mert a termék ára (300 Ft) kisebb a bérnél": "A bért a határtermék-bevétellel (20 × 300 = 6000 Ft) kell összevetni, nem egy darab árával.",
       "közömbös, mert a határtermék-bevétel éppen egyenlő a bérrel": "A határtermék-bevétel (6000) nem egyenlő a bérrel (5000)."
     }
   },
@@ -583,7 +605,11 @@
     "explanation": "A kibocsátás sokféle tényező kombinációjának eredménye, és egy ilyen kombinációt nevezünk technológiának. A teljes termelt mennyiség a kibocsátás.",
     "source": "Jegyzet 6.1 · Könyv 39–40., 62. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "a vállalat gépeinek és berendezéseinek összességét": "A gépek és berendezések a tőkejavak, a technológia a tényezők kombinációja.",
+      "a teljes termelt mennyiséget (kibocsátást)": "A teljes termelt mennyiség a kibocsátás, nem a technológia."
+    }
   },
   {
     "id": "kg-6-052",
@@ -701,6 +727,7 @@
     "difficulty": 3,
     "why": {
       "a két tényező határtermék-bevételének arányát": "A határtermék-bevételek arányának egyenlősége a költségminimum feltétele, nem a meredekség.",
+      "a tényezők helyettesítési határrátáját": "A tényezők helyettesítési határrátája az egyenlőtermék-görbe meredeksége, nem az egyenlőköltség-egyenesé.",
       "a mérethozadék típusát": "A mérethozadék típusa nem a meredekség."
     }
   },
@@ -721,7 +748,12 @@
     "explanation": "Az egyenes csak B-ből 30 egységet enged: az összköltség 30 × 4000 = 120 000 Ft. Ugyanebből csak A-ból 60 egység jön ki, így PA = 120 000 / 60 = 2000 Ft.",
     "source": "Jegyzet 6.6 · Könyv 42–46., 63–65. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "8000 Ft": "8000 Ft-os A-árnál a 120 000 Ft-ból csak 15 egység A jönne ki, az ábrán viszont 60.",
+      "4000 Ft": "Azonos áraknál a két tengelymetszet egyenlő lenne, az ábrán viszont 30 és 60.",
+      "1000 Ft": "1000 Ft-os A-árnál a 120 000 Ft-ból 120 egység A jönne ki, az ábrán viszont 60."
+    }
   },
   {
     "id": "kg-6-059",
@@ -740,7 +772,12 @@
     "explanation": "A drágulás miatt az egyenlőköltség-egyenes meredekebb lesz, és kifelé kell tolni, hogy ugyanannyit termeljenek: nő a költség. A-t részben B-vel helyettesítik, ezért TA csökken, TB nő.",
     "source": "Jegyzet 6.6 · Könyv 42–46., 63–65. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "TA nőtt, TB csökkent, az összköltség változatlan": "A drágult A-ból kevesebbet használnak, és ugyanannyi termeléshez nő az összköltség.",
+      "TA és TB is csökkent": "A kibocsátás változatlan, ezért A-t részben B-vel pótolják: TB nő.",
+      "TA csökkent, TB és az összköltség változatlan": "Ugyanannyi termeléshez TB-nek nőnie kell, és az összköltség is nő."
+    }
   },
   {
     "id": "kg-6-060",
@@ -759,7 +796,12 @@
     "explanation": "Ha nő a tényező ára, a termelők kevesebbet használnak fel belőle. Az ár és a felhasznált (keresett) mennyiség kapcsolata a tényező keresleti függvénye.",
     "source": "Jegyzet 6.6 · Könyv 42–46., 63–65. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "a termék kínálati függvénye": "A kínálati görbe emelkedik és a termék árát mutatja, itt csökkenő görbe és a tényező ára áll.",
+      "egyenlőtermék-görbe": "Az egyenlőtermék-görbe a TA–TB síkon fut, nem a PA–TA síkon.",
+      "egyenlőköltség-egyenes": "Az egyenlőköltség-egyenes is a TA–TB síkon van, itt a függőleges tengelyen ár áll."
+    }
   },
   {
     "id": "kg-6-061",
@@ -781,7 +823,8 @@
     "difficulty": 3,
     "why": {
       "a csökkenő mérethozadékot": "A mérethozadék az összes tényező együttes növelésére vonatkozik.",
-      "a csökkenő határhasznosság elvét": "A határhasznosság a fogyasztói oldali elv."
+      "a csökkenő határhasznosság elvét": "A határhasznosság a fogyasztói oldali elv.",
+      "a helyettesítési szabályt": "A helyettesítési szabály a tényezőár emelkedésére adott válasz, itt csak egy tényező mennyisége nő."
     }
   },
   {
@@ -804,7 +847,8 @@
     "difficulty": 3,
     "why": {
       "az ár–fogyasztás görbe": "Az ár–fogyasztás görbe árváltozásból keletkezik.",
-      "az Engel-görbe": "Az Engel-görbe jövedelem és mennyiség kapcsolata."
+      "az Engel-görbe": "Az Engel-görbe jövedelem és mennyiség kapcsolata.",
+      "az egyéni keresleti görbe": "Az egyéni keresleti görbe párja a tényező keresleti függvénye, amely tényezőár-változásból jön."
     }
   }
 ]

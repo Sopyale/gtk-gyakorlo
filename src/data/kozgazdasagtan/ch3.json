@@ -64,7 +64,12 @@
     "explanation": "A tengelyeken a jövedelem (I) és egy jószág fogyasztott mennyisége (Qa) áll, ez az Engel-görbe. A keresleti görbe tengelyein az ár és a mennyiség lenne, az ICC pedig két jószág mennyiségének síkján fut.",
     "source": "Jegyzet 3.1 · Könyv 24–26. o.",
     "official": false,
-    "difficulty": 1
+    "difficulty": 1,
+    "why": {
+      "egyéni keresleti görbe": "A keresleti görbe tengelyein az ár és a mennyiség áll, itt a jövedelem és a mennyiség.",
+      "jövedelem-fogyasztás görbe": "A jövedelem-fogyasztás görbe a két jószág mennyiségének (Qa–Qb) síkján fut, nem a jövedelem tengelyén.",
+      "kínálati görbe": "A kínálati görbe az ár és a kínált mennyiség kapcsolata, itt a függőleges tengelyen a jövedelem áll."
+    }
   },
   {
     "id": "kg-3-017",
@@ -122,7 +127,8 @@
     "difficulty": 2,
     "why": {
       "normál jószág": "Normál jószágnál az Engel-görbe végig emelkedik.",
-      "luxusjószág": "Luxusjószágnál a fogyasztás a jövedelemnél gyorsabban nő."
+      "luxusjószág": "Luxusjószágnál a fogyasztás a jövedelemmel egyre gyorsabban nő, nem fordul vissza.",
+      "Giffen-jószág csak, inferior nem": "Minden Giffen-jószág inferior, ezért nem lehet Giffen és közben nem inferior."
     }
   },
   {
@@ -145,8 +151,8 @@
     "difficulty": 2,
     "why": {
       "inferior jószág": "Inferior jószágnál egy szint fölött a fogyasztás csökken.",
-      "normál jószág, amelyből a jövedelemmel arányosan fogyasztanak": "Az arányos fogyasztás normál jószág, nem luxus.",
-      "a jószágot a jövedelemtől függetlenül fogyasztják": "A jövedelemtől független fogyasztás vízszintes Engel-görbét adna."
+      "normál jószág, amelyből a jövedelemmel arányosan fogyasztanak": "Normál jószágot már alacsony jövedelemnél is vesznek, az ábrán viszont egy jövedelemszint alatt nulla a fogyasztás.",
+      "a jószágot a jövedelemtől függetlenül fogyasztják": "Ha a fogyasztás nem függne a jövedelemtől, minden jövedelemnél ugyanannyit vennének, az ábrán viszont nő."
     }
   },
   {
@@ -312,7 +318,8 @@
     "difficulty": 3,
     "why": {
       "csökkenti, mert drágább lett": "Ez a helyettesítési hatás iránya; a jövedelmi hatás inferior jószágnál ellentétes.",
-      "nem változtat rajta": "A jövedelmi hatás nem nulla."
+      "nem változtat rajta": "Az áremelés csökkenti a reáljövedelmet, ezért a jövedelmi hatás nem nulla.",
+      "csak a kínált mennyiséget változtatja": "A jövedelmi hatás a fogyasztó keresett mennyiségére hat, nem a kínálatra."
     }
   },
   {
@@ -335,7 +342,7 @@
     "why": {
       "ha egy normál jószág ára csökken": "Normál jószág árcsökkenésekor a kereslet nő, ez nem Giffen-hatás.",
       "ha a fogyasztók a magasabb árból jobb minőségre következtetnek": "A magasabb árból a minőségre következtetés a Veblen-hatás.",
-      "ha a piaci kereslet nő": "A piaci kereslet növekedése nem Giffen-hatás."
+      "ha a piaci kereslet nő": "A piaci kereslet hatása az egyénire extern hatás (nyáj, sznob), nem Giffen-hatás."
     }
   },
   {
@@ -358,7 +365,8 @@
     "difficulty": 3,
     "why": {
       "a jövedelmi hatást": "A jövedelmi hatás a B → C szakasz.",
-      "a teljes hatást": "A teljes hatás az A → C mozgás."
+      "a teljes hatást": "A teljes hatás az A → C mozgás.",
+      "a kínálati hatást": "Az árváltozás helyettesítési és jövedelmi hatásra bontható, kínálati hatás nincs benne."
     }
   },
   {
@@ -664,7 +672,12 @@
     "explanation": "A példa a görbe végére vonatkozik: ha valami nagyon olcsó, egyre több mindent helyettesítünk vele, ezért kis árcsökkenés is sokkal nagyobb keresett mennyiséget hoz, a görbe lapos.",
     "source": "Jegyzet 3.5 · Könyv 32. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "hogy a piaci keresleti görbe magas áraknál meredek": "A meredek, drága szakaszt a jószágot nagyon fontosnak tartók adják, a só a görbe olcsó végét mutatja.",
+      "a Giffen-hatást, mert az olcsó só inferior jószág": "A só példája az olcsó jószággal való helyettesítésről szól, a Giffen-hatás nagy kosárrészesedésű inferior jószághoz kötődik.",
+      "a nyájhatást, mert mindenki ugyanazt teszi télen": "A nyájhatás a többiek vásárlásától függő egyéni kereslet, a só példája az olcsó jószág sokféle felhasználásáról szól."
+    }
   },
   {
     "id": "kg-3-064",
@@ -685,6 +698,7 @@
     "difficulty": 3,
     "why": {
       "Az ICC-nél az egyik jószág ára változik (az egyenes elfordul), a PCC-nél a jövedelem (az egyenes párhuzamosan tolódik).": "Fordítva: az ICC-nél a jövedelem, a PCC-nél az ár változik.",
+      "Az ICC-nél mindkét jószág ára változik, a PCC-nél csak a jövedelem.": "Az ICC-nél a jövedelem, a PCC-nél csak az egyik jószág ára változik.",
       "Nincs érdemi különbség: mindkettő a jövedelem változását mutatja, csak más tengelyeken.": "Az ICC és a PCC nem ugyanazt a változást mutatja."
     }
   },
@@ -772,7 +786,8 @@
     "difficulty": 3,
     "why": {
       "az 1-es: végig emelkedik, a jövedelemmel együtt nő a fogyasztás": "Az 1-es végig emelkedő, de nem gyorsuló görbe, normál jószágé.",
-      "a 3-as: egy jövedelemszint fölött csökken a fogyasztás": "A 3-as visszahajló görbe inferior jószágot jelent."
+      "a 3-as: egy jövedelemszint fölött csökken a fogyasztás": "A 3-as visszahajló görbe inferior jószágot jelent.",
+      "egyik sem: luxusjószágnak nincs Engel-görbéje": "A luxusjószágnak is van Engel-görbéje: alacsony jövedelemnél nulla, utána gyorsan nő."
     }
   },
   {
@@ -819,7 +834,8 @@
     "difficulty": 3,
     "why": {
       "A b jószág egy jövedelemszint fölött inferior, az a normál.": "Fordítva: a vízszintes tengelyen lévő a jószág az inferior.",
-      "Ez ár–fogyasztás görbe: az a jószág ára nő, ezért vesznek belőle kevesebbet.": "A vastag görbe jövedelemváltozást mutat, nem árváltozást."
+      "Ez ár–fogyasztás görbe: az a jószág ára nő, ezért vesznek belőle kevesebbet.": "A vastag görbe jövedelemváltozást mutat, nem árváltozást.",
+      "Mindkét jószág normál, mert a görbe végig fölfelé halad.": "A görbe egy ponttól balra fordul, vagyis a jövedelem növekedésével Qa csökken, így az a jószág ott nem normál."
     }
   },
   {
@@ -842,7 +858,7 @@
     "difficulty": 3,
     "why": {
       "normál jószág": "Normál jószágnál az áremelkedés csökkenti a fogyasztást.",
-      "luxusjószág": "Luxusjószágnál sem nő a fogyasztás az ár emelkedésével.",
+      "luxusjószág": "Luxusjószágból több jövedelemből többet vesznek, így drágulásnál mindkét hatás csökkenti a fogyasztást.",
       "olyan inferior jószág, amelynél a helyettesítési hatás nagyobb a jövedelmi hatásnál": "Ha a helyettesítési hatás nagyobb, a fogyasztás csökken."
     }
   },
