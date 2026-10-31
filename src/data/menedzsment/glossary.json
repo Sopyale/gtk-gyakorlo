@@ -1,0 +1,613 @@
+[
+ {
+  "term": "Szükséghelyzeti terv",
+  "definition": "Egy azonosított, valószínű és jelentős eseményre előre elkészített terv, amelyet a jelző mutatók riasztása után hajtanak végre.",
+  "section": "1.2",
+  "star": true,
+  "concepts": [
+   [
+    "előre elkészített",
+    "előre készül",
+    "előre megtervezett"
+   ],
+   [
+    "valószínű és jelentős",
+    "valószínű és jelentős esemény"
+   ],
+   [
+    "jelző mutató",
+    "mutatók riasztása"
+   ]
+  ]
+ },
+ {
+  "term": "Válságmenedzsment",
+  "definition": "Azon eljárások összessége, amelyeket a szervezet katasztrófa vagy más váratlan szerencsétlenség esetén alkalmaz.",
+  "section": "1.3",
+  "star": true,
+  "concepts": [
+   [
+    "katasztrófa",
+    "váratlan szerencsétlenség"
+   ],
+   [
+    "eljárások",
+    "eljárások összessége"
+   ]
+  ]
+ },
+ {
+  "term": "Szervezés",
+  "definition": "Feladatok, emberek és egyéb erőforrások csoportosítása, elrendezése és összekapcsolása a legeredményesebb munkához.",
+  "section": "2.1",
+  "star": true,
+  "concepts": [
+   [
+    "csoportosítás"
+   ],
+   [
+    "elrendezés"
+   ],
+   [
+    "összekapcsolás"
+   ]
+  ]
+ },
+ {
+  "term": "Strukturális jellemzők",
+  "definition": "Munkamegosztás, hatáskörmegosztás, koordinációs eszközök; másodlagosan centralizáció-decentralizáció és a hierarchia nagysága.",
+  "section": "2.3",
+  "star": true,
+  "concepts": [
+   [
+    "munkamegosztás"
+   ],
+   [
+    "hatáskör"
+   ],
+   [
+    "koordináció"
+   ]
+  ]
+ },
+ {
+  "term": "Munkamegosztás",
+  "definition": "Nagyobb folyamat részfeladatokra bontása és a részfeladatok szervezeti egységekhez telepítése.",
+  "section": "2.4",
+  "star": true,
+  "concepts": [
+   [
+    "részfeladatokra bontás"
+   ],
+   [
+    "telepítés egységekhez"
+   ]
+  ]
+ },
+ {
+  "term": "Hatáskör",
+  "definition": "Döntési, utasítási, beszámoltatási és egyéb olyan jogok, amelyek a feladat elvégzéséhez szükségesek.",
+  "section": "2.6",
+  "star": true,
+  "concepts": [
+   [
+    "döntési jog"
+   ],
+   [
+    "utasítási jog"
+   ],
+   [
+    "beszámoltatás"
+   ]
+  ]
+ },
+ {
+  "term": "Delegálás",
+  "definition": "Az a folyamat, amelyben a menedzser a munkaterhelése egy részét másokra osztja.",
+  "section": "2.6",
+  "star": false,
+  "concepts": [
+   [
+    "munkaterhelés egy részét",
+    "munkaterhelés átadása",
+    "feladat átadása"
+   ],
+   [
+    "másokra",
+    "beosztottakra"
+   ],
+   [
+    "menedzser",
+    "vezető"
+   ]
+  ]
+ },
+ {
+  "term": "Egyvonalas / többvonalas irányítás",
+  "definition": "Egyvonalas: egy egységet csak egy felettes utasíthat; többvonalas: több felettes is utasíthat.",
+  "section": "2.6",
+  "star": true,
+  "concepts": [
+   [
+    "egy felettes",
+    "egy egységet csak egy felettes"
+   ],
+   [
+    "több felettes"
+   ],
+   [
+    "utasíthat",
+    "utasítás"
+   ]
+  ]
+ },
+ {
+  "term": "Centralizáció",
+  "definition": "A hatalom és hatáskör szisztematikus megtartása a magasabb szintű menedzsereknél.",
+  "section": "2.7",
+  "star": true,
+  "concepts": [
+   [
+    "hatalom és hatáskör",
+    "hatáskör"
+   ],
+   [
+    "megtartása",
+    "megtartás"
+   ],
+   [
+    "magasabb szintű menedzserek",
+    "magasabb szint"
+   ]
+  ]
+ },
+ {
+  "term": "Decentralizáció",
+  "definition": "A hatalom és hatáskör szisztematikus átruházása az alsóbb menedzseri szintekre.",
+  "section": "2.7",
+  "star": true,
+  "concepts": [
+   [
+    "hatalom és hatáskör",
+    "hatáskör"
+   ],
+   [
+    "átruházása",
+    "átruházás"
+   ],
+   [
+    "alsóbb menedzseri szintek",
+    "alsóbb szint"
+   ]
+  ]
+ },
+ {
+  "term": "Lapos / hierarchikus szervezet",
+  "definition": "Lapos: legfeljebb 4 szint, könnyen decentralizálható; hierarchikus: 4-nél több szint, könnyen centralizálható.",
+  "section": "2.7",
+  "star": true,
+  "concepts": [
+   [
+    "4 szint",
+    "legfeljebb 4 szint"
+   ],
+   [
+    "4-nél több szint",
+    "négynél több szint"
+   ],
+   [
+    "decentralizálható",
+    "centralizálható"
+   ]
+  ]
+ },
+ {
+  "term": "Koordináció",
+  "definition": "Az egységek összehangolása a szervezeti célok megvalósítása érdekében; három eszközcsoport: technokratikus, strukturális, személyorientált.",
+  "section": "2.8",
+  "star": true,
+  "concepts": [
+   [
+    "összehangolás"
+   ],
+   [
+    "technokratikus"
+   ],
+   [
+    "strukturális"
+   ],
+   [
+    "személyorientált"
+   ]
+  ]
+ },
+ {
+  "term": "Lineáris szervezet",
+  "definition": "Kis, homogén kínálatú szervezet egyvonalas, centralizált irányítással, szolgálati úton.",
+  "section": "2.10",
+  "star": true,
+  "concepts": [
+   [
+    "egyvonalas"
+   ],
+   [
+    "centralizált"
+   ],
+   [
+    "szolgálati út"
+   ]
+  ]
+ },
+ {
+  "term": "Törzsegység",
+  "definition": "A lineáris szervezetet kiegészítő szakértői egység, amely döntést készít elő és információt gyűjt, utasítási jog nélkül.",
+  "section": "2.10",
+  "star": true,
+  "concepts": [
+   [
+    "szakértői egység",
+    "szakértő"
+   ],
+   [
+    "döntést készít elő",
+    "döntéselőkészítés"
+   ],
+   [
+    "információt gyűjt",
+    "információgyűjtés"
+   ],
+   [
+    "utasítási jog nélkül",
+    "nincs utasítási jog"
+   ]
+  ]
+ },
+ {
+  "term": "Funkcionális szervezet",
+  "definition": "Funkciók szerinti munkamegosztás, stabil környezet, többvonalas irányítás, szabályozott működés.",
+  "section": "2.11",
+  "star": true,
+  "concepts": [
+   [
+    "funkciók szerint"
+   ],
+   [
+    "stabil környezet"
+   ],
+   [
+    "többvonalas"
+   ]
+  ]
+ },
+ {
+  "term": "Divizionális szervezet",
+  "definition": "Tárgyi elvű (termék, piac, terület) divíziók önálló üzletágakként; a stratégiai irányítás a központban.",
+  "section": "2.12",
+  "star": true,
+  "concepts": [
+   [
+    "divíziók",
+    "divízió"
+   ],
+   [
+    "tárgyi elv",
+    "tárgyi elvű"
+   ],
+   [
+    "önálló üzletág",
+    "önálló üzletágak"
+   ],
+   [
+    "stratégiai irányítás a központban",
+    "központ"
+   ]
+  ]
+ },
+ {
+  "term": "Divízióegoizmus",
+  "definition": "A divíziók közötti hatalmi harc és túlzott önállóság a divizionális szervezet hátránya.",
+  "section": "2.12",
+  "star": false,
+  "concepts": [
+   [
+    "túlzott önállóság"
+   ],
+   [
+    "hatalmi harc"
+   ]
+  ]
+ },
+ {
+  "term": "Mátrix szervezet",
+  "definition": "Legalább két munkamegosztási elv egyenrangú alkalmazása; egy beosztott, két főnök; dinamikus környezet.",
+  "section": "2.13",
+  "star": true,
+  "concepts": [
+   [
+    "két munkamegosztási elv",
+    "két dimenzió"
+   ],
+   [
+    "egy beosztott, két főnök",
+    "két főnök"
+   ],
+   [
+    "dinamikus környezet",
+    "dinamikus"
+   ]
+  ]
+ },
+ {
+  "term": "Irányítás",
+  "definition": "A szervezeti célok lebontása, megvalósulásuk ellenőrzése, az eredmények értékelése és a korrekciók végrehajtása.",
+  "section": "4.1",
+  "star": true,
+  "concepts": [
+   [
+    "célok lebontása"
+   ],
+   [
+    "ellenőrzés"
+   ],
+   [
+    "értékelés"
+   ],
+   [
+    "korrekció"
+   ]
+  ]
+ },
+ {
+  "term": "Kontrolling / kontroller",
+  "definition": "Kontrolling: az irányítást támogató alrendszer; a kontroller az átláthatóságért felel, információt és javaslatot ad, nem irányít.",
+  "section": "4.3",
+  "star": true,
+  "concepts": [
+   [
+    "támogató alrendszer"
+   ],
+   [
+    "átláthatóság"
+   ],
+   [
+    "nem irányít"
+   ]
+  ]
+ },
+ {
+  "term": "Irányítási folyamat",
+  "definition": "Követelmények meghatározása → teljesítmény mérése → összehasonlítás → értékelés (status quo, korrekció, követelményszint-változtatás).",
+  "section": "4.4",
+  "star": true,
+  "concepts": [
+   [
+    "követelmények meghatározása",
+    "követelmények"
+   ],
+   [
+    "teljesítmény mérése",
+    "mérés"
+   ],
+   [
+    "összehasonlítás"
+   ],
+   [
+    "értékelés"
+   ]
+  ]
+ },
+ {
+  "term": "Előzetes / közbenső / utólagos ellenőrzés",
+  "definition": "Az input, a transzformáció és az output szakaszhoz kapcsolódó ellenőrzési típusok.",
+  "section": "4.6",
+  "star": true,
+  "concepts": [
+   [
+    "input",
+    "előzetes"
+   ],
+   [
+    "transzformáció",
+    "közbenső"
+   ],
+   [
+    "output",
+    "utólagos"
+   ]
+  ]
+ },
+ {
+  "term": "Stratégiai irányítás",
+  "definition": "A hosszú távú (jellemzően 5+ év) célok megvalósulását biztosítja; módszerei: előfeltevések vizsgálata, eredményesség értékelése, stratégiai felügyelet, rendkívüli helyzetek irányítása.",
+  "section": "4.7",
+  "star": true,
+  "concepts": [
+   [
+    "hosszú távú",
+    "hosszú táv"
+   ],
+   [
+    "célok megvalósulása",
+    "célok"
+   ],
+   [
+    "előfeltevések vizsgálata",
+    "előfeltevések"
+   ],
+   [
+    "stratégiai felügyelet"
+   ]
+  ]
+ },
+ {
+  "term": "Operatív irányítás",
+  "definition": "Rövid és középtávú (1 hónap–1 év) célokra koncentrál; pillérei: költségvetés, ütemterv, kritikus sikertényezők.",
+  "section": "4.7",
+  "star": true,
+  "concepts": [
+   [
+    "rövid és középtávú",
+    "rövid-középtáv"
+   ],
+   [
+    "költségvetés"
+   ],
+   [
+    "ütemterv"
+   ],
+   [
+    "kritikus sikertényezők"
+   ]
+  ]
+ },
+ {
+  "term": "Belső ellenőrzés / könyvvizsgálat",
+  "definition": "Belső: a szervezet saját, független munkatársai; könyvvizsgálat: külső szakértők, az éves beszámoló hitelességét állapítják meg.",
+  "section": "4.9",
+  "star": false,
+  "concepts": [
+   [
+    "saját munkatárs"
+   ],
+   [
+    "külső szakértő"
+   ],
+   [
+    "beszámoló hitelessége"
+   ]
+  ]
+ },
+ {
+  "term": "Eredményes irányítási rendszer",
+  "definition": "Tervvel összekapcsolt, rugalmas, megbízható, naprakész és objektív.",
+  "section": "4.10",
+  "star": true,
+  "concepts": [
+   [
+    "tervvel összekapcsolt"
+   ],
+   [
+    "rugalmas"
+   ],
+   [
+    "megbízható"
+   ],
+   [
+    "naprakész"
+   ],
+   [
+    "objektív"
+   ]
+  ]
+ },
+ {
+  "term": "Vezetés",
+  "definition": "A szervezeti tagok viselkedésének tudatos befolyásolása a célokért, a motiváció kialakításán és fenntartásán keresztül.",
+  "section": "5.1",
+  "star": true,
+  "concepts": [
+   [
+    "tudatos befolyásolás"
+   ],
+   [
+    "célok"
+   ],
+   [
+    "motiváció"
+   ]
+  ]
+ },
+ {
+  "term": "Hatalom",
+  "definition": "A képesség mások viselkedésének megváltoztatására; öt típusa: legitim, jutalmazáson alapuló, fenyegetésen alapuló, szakértői, referens.",
+  "section": "5.3",
+  "star": true,
+  "concepts": [
+   [
+    "viselkedés megváltoztatása"
+   ],
+   [
+    "öt típus"
+   ]
+  ]
+ },
+ {
+  "term": "Autokratikus / demokratikus / laissez-faire",
+  "definition": "Lewin–Lipitt–White három vezetési stílusa: a vezető egyedül dönt / bevonja a beosztottakat / szabad kezet ad.",
+  "section": "5.6",
+  "star": true,
+  "concepts": [
+   [
+    "egyedül dönt"
+   ],
+   [
+    "bevonás"
+   ],
+   [
+    "szabad kéz"
+   ]
+  ]
+ },
+ {
+  "term": "Blake–Mouton-rács",
+  "definition": "Termelés- és emberközpontúság kétdimenziós skálája: 1,1 · 1,9 · 5,5 · 9,1 · 9,9.",
+  "section": "5.9",
+  "star": true,
+  "concepts": [
+   [
+    "termelés",
+    "termelésközpontúság"
+   ],
+   [
+    "emberközpontúság",
+    "emberközpontú"
+   ],
+   [
+    "kétdimenziós skála",
+    "skála"
+   ]
+  ]
+ },
+ {
+  "term": "Fiedler-modell",
+  "definition": "Kontingenciamodell: 8 helyzet, a vezető stílusa adott (feladat- vagy kapcsolatorientált).",
+  "section": "5.10",
+  "star": true,
+  "concepts": [
+   [
+    "8 helyzet"
+   ],
+   [
+    "adott stílus"
+   ],
+   [
+    "kontingencia"
+   ]
+  ]
+ },
+ {
+  "term": "Út-cél elmélet",
+  "definition": "Evans–House: előíró, támogató, bevonó, eredményorientált stílus; a vezető alkalmazkodik a követők és a körülmények jellemzőihez.",
+  "section": "5.11",
+  "star": true,
+  "concepts": [
+   [
+    "előíró",
+    "előíró stílus"
+   ],
+   [
+    "támogató"
+   ],
+   [
+    "bevonó"
+   ],
+   [
+    "eredményorientált"
+   ],
+   [
+    "alkalmazkodik",
+    "alkalmazkodó vezető"
+   ]
+  ]
+ }
+]

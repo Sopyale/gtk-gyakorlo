@@ -1,0 +1,399 @@
+[
+ {
+  "id": "mk-1-001",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "igaz-hamis",
+  "question": "A stratégiai tervezés azt a folyamatot jelenti, amelyben a szervezet céljai és képességei és a változó marketinglehetőségek között kialakítják, majd fenn is tartják az illeszkedést.",
+  "answer": true,
+  "explanation": "Ez a definíció lényege: a „stratégiai illeszkedés” kialakítása és fenntartása a belső (célok, képességek) és a külső (lehetőségek) oldal között.",
+  "source": "Jegyzet 1.2",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mk-1-002",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "feleletvalasztos",
+  "question": "Melyik a stratégiai tervezés lépéseinek helyes sorrendje?",
+  "options": [
+   "küldetésnyilatkozat → vállalati célok → stratégiai üzletágak és erőforrás-elosztás → marketing- és más funkcionális stratégiák",
+   "vállalati célok → küldetésnyilatkozat → funkcionális stratégiák → stratégiai üzletágak",
+   "stratégiai üzletágak kialakítása → küldetésnyilatkozat → marketingstratégia → vállalati célok",
+   "marketingstratégia → vállalati célok → küldetésnyilatkozat → erőforrás-elosztás"
+  ],
+  "answer": "küldetésnyilatkozat → vállalati célok → stratégiai üzletágak és erőforrás-elosztás → marketing- és más funkcionális stratégiák",
+  "explanation": "A küldetésből jönnek a célok, a célokból az üzletágak és az erőforrások, és csak ezek után készül az egyes üzletágak marketingstratégiája.",
+  "source": "Jegyzet 1.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-1-003",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "igaz-hamis",
+  "question": "A stratégiai tervezés négy lépéséből az első három a divíziók és a piacok szintjén zajlik, a negyedik pedig a felső vezetés vállalati szintű feladata.",
+  "answer": false,
+  "explanation": "Fordítva: az első három lépés a vállalati szint (felső vezetés), a negyedik, a marketing- és funkcionális stratégiák kialakítása a divíziók és piacok szintje.",
+  "source": "Jegyzet 1.2",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-1-004",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelöld meg az igaz állításokat. Egy jól megfogalmazott küldetésnyilatkozat…",
+  "statements": [
+   {
+    "text": "korlátozott számú célra összpontosít.",
+    "answer": true
+   },
+   {
+    "text": "kijelöli a vállalat működési terét képező versenyszférát.",
+    "answer": true
+   },
+   {
+    "text": "a vállalat fő irányvonalait és értékeit emeli ki.",
+    "answer": true
+   },
+   {
+    "text": "minél részletesebb és hosszabb, annál jobb.",
+    "answer": false
+   },
+   {
+    "text": "rövid távú szemléletű.",
+    "answer": false
+   }
+  ],
+  "explanation": "A küldetés rövid, könnyen megjegyezhető és hosszú távú szemléletű; a hosszú, részletes szöveg és a rövid távú gondolkodás éppen ellentéte ennek.",
+  "source": "Jegyzet 1.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-1-005",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "rovid-valasz",
+  "question": "Hogyan nevezzük a vállalat üzletágainak és termékeinek az összességét?",
+  "answer": [
+   "üzleti portfólió",
+   "portfólió",
+   "a vállalat üzleti portfóliója"
+  ],
+  "explanation": "A portfólióelemzés során a menedzsment ezt értékeli, és növekedési vagy leépítési stratégiákkal alakítja a jövőbeli portfóliót.",
+  "source": "Jegyzet 1.3",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mk-1-006",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "igaz-hamis",
+  "question": "A BCG-mátrixban a vízszintes tengely a piac növekedési ütemét, a függőleges tengely a cég piaci részesedését mutatja.",
+  "answer": false,
+  "explanation": "Fordítva van: a függőleges tengely a piaci növekedés üteme (a piacé), a vízszintes a piaci részesedés mértéke (a miénk). A két tengely felcserélése a tipikus csapda.",
+  "source": "Jegyzet 1.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-1-007",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "feleletvalasztos",
+  "question": "Egy elektromos rolleres cég terméke gyorsan növekvő piacon van, de a cég részesedése ezen a piacon kicsi. A BCG-mátrix melyik mezőjébe tartozik az üzletág?",
+  "options": [
+   "kérdőjel",
+   "csillag",
+   "fejős tehén",
+   "döglött kutya"
+  ],
+  "answer": "kérdőjel",
+  "explanation": "Magas piaci növekedés + alacsony részesedés = kérdőjel. Sok befektetést igényel, és dönteni kell: csillaggá fejlesztik, vagy fokozatosan megszüntetik.",
+  "source": "Jegyzet 1.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-1-008",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "feleletvalasztos",
+  "question": "Melyik üzletágra igaz, hogy a piaci részesedésének megtartásához kevés beruházás kell, ezért sok pénzt termel, amit a cég más üzletágak támogatására fordít?",
+  "options": [
+   "fejős tehén",
+   "csillag",
+   "kérdőjel",
+   "döglött kutya"
+  ],
+  "answer": "fejős tehén",
+  "explanation": "Alacsony növekedésű piacon magas részesedés: a sikeres üzletág „pénzforrás”. A csillag és a kérdőjel pénzt igényel, a döglött kutya nem kecsegtet pénzforrásként.",
+  "source": "Jegyzet 1.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-1-009",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "parositas",
+  "question": "Párosítsd a BCG-mezőt a helyzetével!",
+  "answer": [
+   [
+    "csillag",
+    "magas piaci növekedés, magas piaci részesedés"
+   ],
+   [
+    "fejős tehén",
+    "alacsony piaci növekedés, magas piaci részesedés"
+   ],
+   [
+    "kérdőjel",
+    "magas piaci növekedés, alacsony piaci részesedés"
+   ],
+   [
+    "döglött kutya",
+    "alacsony piaci növekedés, alacsony piaci részesedés"
+   ]
+  ],
+  "explanation": "Az első szó (magas/alacsony) a piac növekedésére, a második a cég részesedésére vonatkozik.",
+  "source": "Jegyzet 1.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-1-010",
+  "chapter": 1,
+  "section": "1.5",
+  "type": "rovid-valasz",
+  "question": "Egy könyvesbolt-lánc a meglévő vásárlóinak ugyanazokat a könyveket kínálja, de gyakoribb kuponokkal és nagyobb reklámtámogatással, hogy többet vásároljanak. Az Ansoff-mátrix melyik stratégiáját követi?",
+  "answer": [
+   "intenzív piacfejlesztés",
+   "piacbehatolás",
+   "market penetration",
+   "intenzív piacfejlesztési stratégia"
+  ],
+  "explanation": "Meglévő termék, meglévő piac: a cél a nagyobb részesedés a jelenlegi piacon.",
+  "source": "Jegyzet 1.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-1-011",
+  "chapter": 1,
+  "section": "1.5",
+  "type": "feleletvalasztos",
+  "question": "Egy győri pékség eddig csak a városban árulta kenyerét, most ugyanazt a kenyeret kocsival elviszi egy másik megyeszékhelyre is. Mit csinál az Ansoff-mátrix szerint?",
+  "options": [
+   "piacfejlesztés",
+   "intenzív piacfejlesztés",
+   "termékfejlesztés",
+   "diverzifikáció"
+  ],
+  "answer": "piacfejlesztés",
+  "explanation": "A termék a régi, az új elem a piac: új vevőkör, új terület. Intenzív piacfejlesztésnél a jelenlegi piacon nőne az eladás.",
+  "source": "Jegyzet 1.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-1-012",
+  "chapter": 1,
+  "section": "1.5",
+  "type": "igaz-hamis",
+  "question": "Ha egy ruhagyártó ugyanabból a pólóból új színeket és mintákat vezet be a meglévő vevőinek, az Ansoff szerint termékfejlesztés.",
+  "answer": false,
+  "explanation": "A több szín ugyanannak a terméknek a változata, a vevők és a piac sem új: intenzív piacfejlesztés, amelynek célja a nagyobb részesedés a meglévő piacon.",
+  "source": "Jegyzet 1.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-1-013",
+  "chapter": 1,
+  "section": "1.5",
+  "type": "feleletvalasztos",
+  "question": "Egy lakberendezési cég megvásárol egy teljesen más iparágban működő okosóra-gyártót. Melyik Ansoff-stratégiát követi?",
+  "options": [
+   "diverzifikáció",
+   "termékfejlesztés",
+   "piacfejlesztés",
+   "intenzív piacfejlesztés"
+  ],
+  "answer": "diverzifikáció",
+  "explanation": "Új üzletág indítása vagy vásárlása a jelenlegi termékein és piacán kívül: új termék és új piac is.",
+  "source": "Jegyzet 1.5",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-1-014",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "feleletvalasztos",
+  "question": "Egy edzőterem-lánc környezetében hamarosan megnyílik egy jóval olcsóbb, nagy kapacitású konkurens. A SWOT-elemzés melyik elemébe tartozik ez?",
+  "options": [
+   "fenyegetés",
+   "gyengeség",
+   "lehetőség",
+   "erősség"
+  ],
+  "answer": "fenyegetés",
+  "explanation": "Külső (nem kontrollálható) és a cégnek káros tényező: fenyegetés.",
+  "source": "Jegyzet 1.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-1-015",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "igaz-hamis",
+  "question": "Egy gyorsan bővülő piac a SWOT-ban a cég erőssége, mert kedvező a cégnek.",
+  "answer": false,
+  "explanation": "Ami a piacon (a környezetben) történik, az mindig lehetőség vagy fenyegetés. Erősség csak a cégen belüli, kedvező tényező lehet.",
+  "source": "Jegyzet 1.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-1-016",
+  "chapter": 1,
+  "section": "1.8",
+  "type": "feleletvalasztos",
+  "question": "Melyik állítás igaz a marketingmixre?",
+  "options": [
+   "A célpiac igényeinek megfelelő érték közvetítésére szolgáló, kontrollálható, taktikai eszközök halmaza.",
+   "A cégen kívüli, nem kontrollálható tényezők összessége.",
+   "A vevők homogén csoportjainak meghatározása.",
+   "A cég hosszú távú céljainak és értékeinek írásos rögzítése."
+  ],
+  "answer": "A célpiac igényeinek megfelelő érték közvetítésére szolgáló, kontrollálható, taktikai eszközök halmaza.",
+  "explanation": "A „kontrollálható” a SWOT külső tényezőitől, a „taktikai” a stratégiától (STP) különbözteti meg.",
+  "source": "Jegyzet 1.8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-1-017",
+  "chapter": 1,
+  "section": "1.8",
+  "type": "parositas",
+  "question": "Párosítsd a marketingmix-elemet a hozzá tartozó tételhez!",
+  "answer": [
+   [
+    "termék",
+    "csomagolás"
+   ],
+   [
+    "ár",
+    "hitelfeltételek"
+   ],
+   [
+    "hely",
+    "hálózatsűrűség"
+   ],
+   [
+    "promóció",
+    "public relations"
+   ]
+  ],
+  "explanation": "A „választék” a termék és a hely között is szerepel, de az itt szereplő tételek egyértelműen egy-egy P-hez tartoznak.",
+  "source": "Jegyzet 1.8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-1-018",
+  "chapter": 1,
+  "section": "1.8",
+  "type": "igaz-hamis",
+  "question": "Az STP a megvalósítás eszköze, a marketingmix (4P) pedig a tervezés része.",
+  "answer": false,
+  "explanation": "Fordítva: az STP az értékvezérelt marketingstratégia, a tervezés része; a marketingmix a megvalósítás taktikai eszköze.",
+  "source": "Jegyzet 1.8",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-1-019",
+  "chapter": 1,
+  "section": "1.6",
+  "type": "feleletvalasztos",
+  "question": "Melyik NEM része a marketingtervnek?",
+  "options": [
+   "a termelési sor gépeinek üzemeltetési terve",
+   "vezetői összefoglaló és tartalomjegyzék",
+   "helyzetelemzés",
+   "a megvalósítás ellenőrzése"
+  ],
+  "answer": "a termelési sor gépeinek üzemeltetési terve",
+  "explanation": "A marketingterv öt része: vezetői összefoglaló, helyzetelemzés, marketingstratégia, pénzügyi előrejelzések, a megvalósítás ellenőrzése.",
+  "source": "Jegyzet 1.6",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-1-020",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "feleletvalasztos",
+  "question": "Melyik jelenti a stratégiai üzletág (SBU) egy lehetséges formáját?",
+  "options": [
+   "egy márka vagy egy termék",
+   "egy beszállítói szerződés",
+   "egy marketingterv egyik fejezete",
+   "egy szegmentálási kritérium"
+  ],
+  "answer": "egy márka vagy egy termék",
+  "explanation": "Az SBU lehet vállalati divízió, üzleti egység, illetve termék vagy márka.",
+  "source": "Jegyzet 1.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-1-021",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "rovid-valasz",
+  "question": "Egy cukrászda szeretné eldönteni, hogy egy gyorsan növekvő, de általa alig ismert tortapiacról mit tegyen. A BCG-mátrix szerint milyen döntés előtt áll az ilyen alacsony részesedésű, de magas növekedésű üzletág menedzsmentje? (Egy mondat.)",
+  "answer": [
+   "Dönteni kell, hogy befektetnek, és csillagot csinálnak belőle, vagy fokozatosan megszüntetik.",
+   "befektetés vagy megszüntetés",
+   "csillagba repíteni vagy fokozatosan megszüntetni",
+   "befektet vagy kivon"
+  ],
+  "explanation": "A kérdőjelnél a kulcskérdés: melyeket érdemes a csillagok közé „repíteni”, és melyeket kell fokozatosan megszüntetni.",
+  "source": "Jegyzet 1.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-1-022",
+  "chapter": 1,
+  "section": "1.5",
+  "type": "kifejtos",
+  "points": 10,
+  "question": "Mutasd be az Ansoff-mátrixot: mi a két tengelye, melyik a négy stratégia, és hozz egy saját példát két stratégiára.",
+  "answer": [
+   "Definíció: az Ansoff-mátrix a növekedési lehetőségeket mérlegeli termék (meglévő/új) × piac (meglévő/új) szerint.",
+   "Intenzív piacfejlesztés: meglévő termék, meglévő piac; célja a nagyobb részesedés.",
+   "Piacfejlesztés: meglévő termék, új piac.",
+   "Termékfejlesztés: új vagy módosított termék a jelenlegi piacnak.",
+   "Diverzifikáció: új üzletág indítása vagy vásárlása a jelenlegi termékeken és piacon kívül.",
+   "Példa (saját): egy pékség ugyanazt a kenyeret új városba viszi (piacfejlesztés); süteményt kezd sütni a régi vevőknek (termékfejlesztés).",
+   "Kapcsolódás: ez a növekedési stratégiák része a portfólióelemzés után; a BCG és az Ansoff együtt adja a portfólió- és növekedési döntéseket."
+  ],
+  "explanation": "Pontozás: tengelyek 2 pont, négy stratégia 4 pont, példa 2 pont, szerkezet 2 pont.",
+  "source": "Jegyzet 1.5",
+  "official": false,
+  "difficulty": 3
+ }
+]

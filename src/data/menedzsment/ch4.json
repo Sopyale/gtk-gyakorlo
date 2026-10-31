@@ -1,0 +1,691 @@
+[
+ {
+  "id": "mn-4-001",
+  "chapter": 4,
+  "section": "4.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik meghatározás írja le az irányítást menedzsmentfunkcióként?",
+  "options": [
+   "A szervezeti célok lebontása, megvalósulásuk ellenőrzése, az eredmények értékelése és a szükséges korrekciók végrehajtása",
+   "A munkakörök kialakítása és az erőforrások hozzárendelése",
+   "A szervezeti tagok viselkedésének tudatos befolyásolása a motiváción keresztül",
+   "A jövőbeli célok kijelölése és a hozzájuk vezető lépések meghatározása"
+  ],
+  "answer": "A szervezeti célok lebontása, megvalósulásuk ellenőrzése, az eredmények értékelése és a szükséges korrekciók végrehajtása",
+  "explanation": "Az irányítás (to control) többet jelent ellenőrzésnél: be is avatkozik, ha az eltérés ezt kívánja.",
+  "source": "Jegyzet 4.1",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mn-4-002",
+  "chapter": 4,
+  "section": "4.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Miért nem azonos az irányítás az ellenőrzéssel?",
+  "options": [
+   "Az irányítás az ellenőrzésen túl szabályozást, beavatkozást is tartalmaz",
+   "Az irányítás kizárólag a stratégiai szintre vonatkozik",
+   "Az ellenőrzés a jövőre, az irányítás a múltra irányul",
+   "Az irányítás csak a pénzügyi mutatókat vizsgálja"
+  ],
+  "answer": "Az irányítás az ellenőrzésen túl szabályozást, beavatkozást is tartalmaz",
+  "explanation": "Az ellenőrzés csak megnézi, mi történt; az irányítás az eltérés esetén be is avatkozik.",
+  "source": "Jegyzet 4.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-003",
+  "chapter": 4,
+  "section": "4.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik NEM az irányítás feladata?",
+  "options": [
+   "A beosztottak motivációjának kialakítása és fenntartása",
+   "A folyamatok megerősítése, ha a tervek szerint zajlanak",
+   "Az eltérések jelzése",
+   "Időben történő beavatkozás"
+  ],
+  "answer": "A beosztottak motivációjának kialakítása és fenntartása",
+  "explanation": "A motiváción keresztüli befolyásolás a vezetés feladata. Az irányítás megerősít, jelez eltérést és beavatkozik.",
+  "source": "Jegyzet 4.1 · 5.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-004",
+  "chapter": 4,
+  "section": "4.4",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik az irányítási folyamat helyes sorrendje?",
+  "options": [
+   "Követelmények meghatározása → teljesítmény mérése → összehasonlítás (terv/tény) → értékelés, beavatkozás",
+   "Teljesítmény mérése → követelmények meghatározása → összehasonlítás → értékelés",
+   "Követelmények meghatározása → összehasonlítás → teljesítmény mérése → értékelés",
+   "Értékelés → követelmények meghatározása → mérés → összehasonlítás"
+  ],
+  "answer": "Követelmények meghatározása → teljesítmény mérése → összehasonlítás (terv/tény) → értékelés, beavatkozás",
+  "explanation": "Előbb kell a mérce (követelmény), utána a mérés, aztán a terv-tény összevetés, végül az értékelés.",
+  "source": "Jegyzet 4.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-005",
+  "chapter": 4,
+  "section": "4.4",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik hármas adja az irányítási folyamat értékelő lépésének lehetséges reakcióit?",
+  "options": [
+   "A status quo megőrzése, beavatkozás az eltérés korrigálására, a követelményszint megváltoztatása",
+   "Előzetes, közbenső és utólagos ellenőrzés",
+   "Stratégiai, taktikai és operatív beavatkozás",
+   "Mérés, jelzés és jutalmazás"
+  ],
+  "answer": "A status quo megőrzése, beavatkozás az eltérés korrigálására, a követelményszint megváltoztatása",
+  "explanation": "A „ne csináljunk semmit” (status quo) is tudatos döntés.",
+  "source": "Jegyzet 4.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-006",
+  "chapter": 4,
+  "section": "4.4",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy futárcég célja: átlagosan 25 perces kiszállítás. A mérés átlag 31 percet mutat. A vezetés belátja, hogy a belvárosi forgalom miatt a 25 perc irreális, ezért 30 percre módosítja a célt. Melyik reakciót választotta?",
+  "options": [
+   "A követelményszint megváltoztatását",
+   "A status quo megőrzését",
+   "Az eltérés korrekcióját",
+   "A mérés megismétlését"
+  ],
+  "answer": "A követelményszint megváltoztatását",
+  "explanation": "A cél (követelményszint) módosul, az eltérésre ható beavatkozás nélkül. A korrekciónál a teljesítményt javítanák.",
+  "source": "Jegyzet 4.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-007",
+  "chapter": 4,
+  "section": "4.3",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik állítás igaz a menedzser és a kontroller szerepére?",
+  "options": [
+   "A menedzser felel az eredményért, a kontroller az átláthatóságért és az információellátásért",
+   "A kontroller felel az eredményért, a menedzser az átláthatóságért",
+   "A kontroller dönt a tervek tartalmáról, a menedzser csak végrehajt",
+   "A két szerep teljesen azonos, csak a megnevezés különbözik"
+  ],
+  "answer": "A menedzser felel az eredményért, a kontroller az átláthatóságért és az információellátásért",
+  "explanation": "A menedzser tervez, szervez, irányít, vezet; a kontroller a „révkalauz”, aki adatot, információt és javaslatot ad.",
+  "source": "Jegyzet 4.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-008",
+  "chapter": 4,
+  "section": "4.3",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mit fejez ki a „A kontrollernek nem feladata az irányítás” mondat?",
+  "options": [
+   "A kontroller információt és javaslatot ad, de az irányítás a menedzser felelőssége",
+   "A kontroller feladata kizárólag az utólagos ellenőrzés",
+   "A kontroller a pénzügyi tervezést is a menedzserre bízza",
+   "A kontroller csak a külső beszámolókkal foglalkozik"
+  ],
+  "answer": "A kontroller információt és javaslatot ad, de az irányítás a menedzser felelőssége",
+  "explanation": "A rallynavigátor-kép: a navigátor (kontroller) szól, ha letértek az útról, de a kormány a sofőré (menedzseré).",
+  "source": "Jegyzet 4.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-009",
+  "chapter": 4,
+  "section": "4.5",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik az irányítás egyik célja a jegyzet szerint?",
+  "options": [
+   "Megakadályozza a kritikus hibák felhalmozódását",
+   "Növeli a beosztottak hatalmát",
+   "Megszünteti a szervezeti komplexitást",
+   "Kizárja a környezeti változásokhoz való alkalmazkodást"
+  ],
+  "answer": "Megakadályozza a kritikus hibák felhalmozódását",
+  "explanation": "Az irányítás célja még: költségek alacsony szinten tartása, a komplexitás kezelése és a környezeti változásokhoz való alkalmazkodás.",
+  "source": "Jegyzet 4.5",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mn-4-010",
+  "chapter": 4,
+  "section": "4.6",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik ellenőrzési típusra jellemző, hogy a lezajlott folyamaton már nem lehet változtatni, mégis nélkülözhetetlen információ a jövőbeli döntésekhez?",
+  "options": [
+   "Utólagos",
+   "Előzetes",
+   "Közbenső",
+   "Folyamatos stratégiai"
+  ],
+  "answer": "Utólagos",
+  "explanation": "Az utólagos ellenőrzés az output szakaszhoz tartozik, a végeredményre fókuszál.",
+  "source": "Jegyzet 4.6",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-011",
+  "chapter": 4,
+  "section": "4.7",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik időtávot fogja át az operatív irányítás a jegyzet szerint?",
+  "options": [
+   "Egy hónaptól egy évig",
+   "Öt évtől tíz évig",
+   "Egy naptól egy hétig",
+   "Három évtől tizenöt évig"
+  ],
+  "answer": "Egy hónaptól egy évig",
+  "explanation": "Stratégiai: jellemzően öt év vagy hosszabb; operatív: rövid és középtáv (egy hónaptól egy évig).",
+  "source": "Jegyzet 4.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-012",
+  "chapter": 4,
+  "section": "4.7",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy vállalat három éve azzal tervez, hogy a nyersanyag ára alacsony marad. A vezetés rendszeresen ellenőrzi, érvényes-e még ez a feltevés. Melyik stratégiai irányítási módszer ez?",
+  "options": [
+   "Előfeltevések vizsgálata",
+   "A stratégia eredményességének értékelése",
+   "Stratégiai szempontú felügyelet",
+   "Rendkívüli helyzetek irányítása"
+  ],
+  "answer": "Előfeltevések vizsgálata",
+  "explanation": "Az előfeltevések vizsgálata szisztematikusan figyeli, hogy a stratégiát megalapozó feltételezések érvényesek-e még.",
+  "source": "Jegyzet 4.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-013",
+  "chapter": 4,
+  "section": "4.7",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik NEM az operatív irányítás három pillére közé tartozik?",
+  "options": [
+   "Stratégiai szempontú felügyelet",
+   "Költségvetések",
+   "Ütemtervek",
+   "A kritikus sikertényezők azonosítása"
+  ],
+  "answer": "Stratégiai szempontú felügyelet",
+  "explanation": "Az operatív pillérek: költségvetés, ütemterv, kritikus sikertényezők. A stratégiai felügyelet a stratégiai irányítás módszere.",
+  "source": "Jegyzet 4.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-014",
+  "chapter": 4,
+  "section": "4.8",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi a minőségellenőrzés és a minőségbiztosítás közötti fő különbség?",
+  "options": [
+   "A minőségellenőrzés a hibás elemeket szűri ki (gyakran túl későn), a minőségbiztosítás a hibákat előzi meg",
+   "A minőségellenőrzés megelőz, a minőségbiztosítás utólag szűr",
+   "A minőségellenőrzés a stratégiai, a minőségbiztosítás az operatív irányítás része",
+   "Nincs különbség, a két fogalom szinonima"
+  ],
+  "answer": "A minőségellenőrzés a hibás elemeket szűri ki (gyakran túl későn), a minőségbiztosítás a hibákat előzi meg",
+  "explanation": "A hangsúly az utólagos ellenőrzésről az előzetesre és a közbenső ellenőrzésre tolódik: olcsóbb megelőzni, mint kiszűrni.",
+  "source": "Jegyzet 4.8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-015",
+  "chapter": 4,
+  "section": "4.9",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi a pénzforgalmi terv (pénzügyi költségvetés)?",
+  "options": [
+   "A következő időszak várható pénzbevételeinek és pénzkiadásainak terve",
+   "A tervezett termékmennyiség és az ehhez szükséges erőforrások terve",
+   "Az éves beszámoló egyik melléklete",
+   "A kontrolling havi eltérés-elemzése"
+  ],
+  "answer": "A következő időszak várható pénzbevételeinek és pénzkiadásainak terve",
+  "explanation": "Az első válasz a működési költségvetés meghatározása. A pénzforgalmi tervből látszik, mikor kell külső forrás.",
+  "source": "Jegyzet 4.9",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-016",
+  "chapter": 4,
+  "section": "4.9",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik állítás igaz a könyvvizsgálatra a belső ellenőrzéssel szemben?",
+  "options": [
+   "A szervezettől független külső szakértők végzik, és az éves beszámoló hitelességét állapítják meg",
+   "A szervezet saját, funkcionálisan független munkatársai végzik",
+   "A szervezet kockázatait és hibáit a vezetés megbízásából belül tárja fel",
+   "A könyvvizsgálat célja a termelési folyamatok ütemezése"
+  ],
+  "answer": "A szervezettől független külső szakértők végzik, és az éves beszámoló hitelességét állapítják meg",
+  "explanation": "Belső ellenőrzés: saját munkatársak, hibák és kockázatok kiküszöbölése. Könyvvizsgálat: külső szakértők, a beszámoló törvényessége és valós képe.",
+  "source": "Jegyzet 4.9",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-017",
+  "chapter": 4,
+  "section": "4.9",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Miért nem elég az éves beszámoló a folyamatos menedzseri döntéstámogatáshoz?",
+  "options": [
+   "Kifelé szól, és az adatai nagy késéssel érkeznek",
+   "Nem tartalmaz pénzügyi adatokat",
+   "Kizárólag a belső ellenőrök számára készül",
+   "Csak a stratégiai terv részleteit tartalmazza"
+  ],
+  "answer": "Kifelé szól, és az adatai nagy késéssel érkeznek",
+  "explanation": "Ezért készítenek a kontrollerek havi, negyedéves, féléves beszámolókat a menedzsmentnek.",
+  "source": "Jegyzet 4.9",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-018",
+  "chapter": 4,
+  "section": "4.10",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik NEM ismérve az eredményes irányítási rendszernek?",
+  "options": [
+   "Minden részletre kiterjed, a lehető legnagyobb költséggel kiépített",
+   "Rugalmas",
+   "Megbízható",
+   "Naprakész"
+  ],
+  "answer": "Minden részletre kiterjed, a lehető legnagyobb költséggel kiépített",
+  "explanation": "Az eredményes rendszer tervvel összekapcsolt, rugalmas, megbízható, naprakész és objektív. A költség a hatékonysághoz tartozik.",
+  "source": "Jegyzet 4.10",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-019",
+  "chapter": 4,
+  "section": "4.10",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mikor hatékony az irányítási rendszer kiépítése?",
+  "options": [
+   "Ha a hasznai (kevesebb menedzseri tévedés) meghaladják a kiépítési és működtetési költségeit",
+   "Ha a lehető legtöbb ellenőrzési pontot tartalmazza",
+   "Ha költsége nulla",
+   "Ha csak számszerű mutatókra támaszkodik"
+  ],
+  "answer": "Ha a hasznai (kevesebb menedzseri tévedés) meghaladják a kiépítési és működtetési költségeit",
+  "explanation": "Az összköltség görbéje U alakú: kevés irányítás mellett drága a tévedés, túl sok irányítás mellett drága a rendszer.",
+  "source": "Jegyzet 4.10",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-020",
+  "chapter": 4,
+  "section": "4.11",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy cégnél a dolgozók minden mozdulatát mérik, ezért a rendszert értelmetlennek érzik, és nem működnek együtt. Mi az ellenállás oka?",
+  "options": [
+   "Túlzott kontroll",
+   "Elszámoltathatóság hiánya",
+   "A hatékony munkavégzés jutalmazása",
+   "Túl kevés mérőszám"
+  ],
+  "answer": "Túlzott kontroll",
+  "explanation": "A túlzott kontroll, ami értelmetlennek tűnik, az ellenállás egyik oka. További okok: rossz fókusz, nem hatékony munka jutalmazása, elszámoltathatóság.",
+  "source": "Jegyzet 4.11",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-021",
+  "chapter": 4,
+  "section": "4.11",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi csökkenti a legnagyobb valószínűséggel a dolgozók ellenállását egy új irányítási rendszerrel szemben?",
+  "options": [
+   "Ha a dolgozókat bevonják a rendszer tervezésébe és bevezetésébe",
+   "Ha a mutatókat titokban tartják",
+   "Ha csak a számszerűsíthető változókat mérik",
+   "Ha a kontroll szigorúbb lesz"
+  ],
+  "answer": "Ha a dolgozókat bevonják a rendszer tervezésébe és bevezetésébe",
+  "explanation": "A jegyzet három kezelést nevez meg: eredményes rendszer, bevonás, ellenőrizhető teljesítménymutatók.",
+  "source": "Jegyzet 4.11",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-022",
+  "chapter": 4,
+  "section": "4.4",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az IGAZ állításokat az irányítási folyamatról! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "A követelményszintnek mérhetőnek kell lennie, és illeszkednie kell a szervezeti célokhoz.",
+    "answer": true
+   },
+   {
+    "text": "Minden munkakörben közvetlenül lehet mérni a teljesítményt.",
+    "answer": false
+   },
+   {
+    "text": "Az összehasonlításból kiderül, hogy a teljesítmény meghaladja, eléri vagy elmarad a követelményszinttől.",
+    "answer": true
+   },
+   {
+    "text": "A status quo megőrzése is tudatos döntés lehet.",
+    "answer": true
+   },
+   {
+    "text": "A követelményszint megváltoztatása nem lehetséges reakció.",
+    "answer": false
+   }
+  ],
+  "explanation": "Sok munkakörben a direkt mérés nem lehetséges. A követelményszint módosítása a három reakció egyike.",
+  "source": "Jegyzet 4.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-023",
+  "chapter": 4,
+  "section": "4.6",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az IGAZ állításokat az ellenőrzés időbeli típusairól! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "Az előzetes ellenőrzés célja a hibák megelőzése.",
+    "answer": true
+   },
+   {
+    "text": "A közbenső ellenőrzés a végrehajtással párhuzamos.",
+    "answer": true
+   },
+   {
+    "text": "Az utólagos ellenőrzés a transzformációs szakaszhoz kapcsolódik.",
+    "answer": false
+   },
+   {
+    "text": "Jól működő rendszerben mindhárom típusra szükség lehet egyszerre.",
+    "answer": true
+   },
+   {
+    "text": "Az utólagos ellenőrzés információja nem hasznos, mert a folyamaton már nem lehet változtatni.",
+    "answer": false
+   }
+  ],
+  "explanation": "Az utólagos ellenőrzés az output szakaszhoz tartozik, és értékes információ a jövőbeli döntésekhez.",
+  "source": "Jegyzet 4.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-024",
+  "chapter": 4,
+  "section": "4.9",
+  "type": "tobbszoros",
+  "points": 4,
+  "question": "Jelölje meg az IGAZ állításokat a pénzügyi irányításról! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "A működési költségvetés merev alkalmazása akadályozhatja az innovációt.",
+    "answer": true
+   },
+   {
+    "text": "Az éves beszámoló jól használható folyamatos menedzseri döntéstámogatásra.",
+    "answer": false
+   },
+   {
+    "text": "A kontrollerek havi, negyedéves és féléves beszámolókat készítenek a menedzsmentnek.",
+    "answer": true
+   },
+   {
+    "text": "A könyvvizsgálatot a szervezet saját, funkcionálisan független munkatársai végzik.",
+    "answer": false
+   },
+   {
+    "text": "A nem mérlegképes erőforrások közé tartozik az információ és a kompetencia.",
+    "answer": true
+   }
+  ],
+  "explanation": "A könyvvizsgálat külső, független szakértők munkája; az éves beszámoló kifelé szól és késik.",
+  "source": "Jegyzet 4.9",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-025",
+  "chapter": 4,
+  "section": "4.7",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az IGAZ állításokat a stratégiai és az operatív irányításról! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "A stratégiai irányítás jellemzően öt éves vagy hosszabb távra szól.",
+    "answer": true
+   },
+   {
+    "text": "Az operatív irányítás a mérés–értékelés–beavatkozás hármasával tartja pályán a működést.",
+    "answer": true
+   },
+   {
+    "text": "A stratégiai irányítás egyik módszere a költségvetés.",
+    "answer": false
+   },
+   {
+    "text": "A rendkívüli helyzetek irányítása hirtelen, váratlan eseményeket kezel.",
+    "answer": true
+   },
+   {
+    "text": "Az operatív irányítás a hosszú távú célokat kérdőjelezi meg.",
+    "answer": false
+   }
+  ],
+  "explanation": "A költségvetés az operatív pillér. Az operatív irányítás a hosszú távú célokból levezetett rövid és középtávú célokra koncentrál.",
+  "source": "Jegyzet 4.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-026",
+  "chapter": 4,
+  "section": "4.6",
+  "type": "parositas",
+  "points": 3,
+  "question": "Párosítsa az eseteket az ellenőrzés időbeli típusával!",
+  "answer": [
+   [
+    "A cukrászda a beérkező tojás frissességét ellenőrzi átvétel előtt",
+    "előzetes ellenőrzés"
+   ],
+   [
+    "A webshop csomagolás közben minden tizedik csomagot átnéz",
+    "közbenső ellenőrzés"
+   ],
+   [
+    "A bútorgyár a kész asztalokat a szállítás előtt teszteli",
+    "utólagos ellenőrzés"
+   ]
+  ],
+  "explanation": "Input → előzetes, transzformáció → közbenső, output → utólagos.",
+  "source": "Jegyzet 4.6",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-027",
+  "chapter": 4,
+  "section": "4.7",
+  "type": "parositas",
+  "points": 5,
+  "question": "Párosítsa a helyzeteket a stratégiai irányítás módszereivel!",
+  "answer": [
+   [
+    "A cég rendszeresen ellenőrzi, hogy az iparági előrejelzés még helytálló-e",
+    "előfeltevések vizsgálata"
+   ],
+   [
+    "Hosszú távú célokhoz mérföldköveket rendelnek, és ellenőrzik, teljesültek-e",
+    "a stratégia eredményességének értékelése"
+   ],
+   [
+    "Időben észrevesznek egy előre nem látott szabályozási változást",
+    "stratégiai szempontú felügyelet"
+   ],
+   [
+    "Egy gyárat tönkretevő árvíz után azonnal stratégiai beavatkozás kell",
+    "rendkívüli helyzetek irányítása"
+   ]
+  ],
+  "explanation": "Mind a négy módszer a stratégiai irányítás része.",
+  "source": "Jegyzet 4.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-028",
+  "chapter": 4,
+  "section": "4.11",
+  "type": "parositas",
+  "points": 3,
+  "question": "Párosítsa az ellenállás okait a kezelésükkel!",
+  "answer": [
+   [
+    "Túlzott kontroll, rossz fókusz",
+    "eredményes, jól célzott irányítási rendszer"
+   ],
+   [
+    "Az új rendszer kényszerként jelenik meg",
+    "a dolgozók bevonása a tervezésbe"
+   ],
+   [
+    "Bizalmatlanság a mérés pontosságában",
+    "ellenőrizhető teljesítménymutatók"
+   ]
+  ],
+  "explanation": "A három kezelés: eredményes rendszer, bevonás, ellenőrizhető mutatók.",
+  "source": "Jegyzet 4.11",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-4-029",
+  "chapter": 4,
+  "section": "4.3",
+  "type": "kifejtos",
+  "points": 4,
+  "question": "Egy kereskedelmi cég pénzügyi munkatársa havonta összeállítja a terv-tény eltéréseket, és javaslatot ad a vezetésnek, de a beavatkozásról a területvezető dönt. Melyik szerepet tölti be? Indokolja egy mondatban!",
+  "answer": [
+   "Fogalom (2 p): Kontroller.",
+   "Indoklás (2 p): A kontroller biztosítja az adatokat, működteti a kontrollingrendszert és intézkedési javaslatot ad, de az irányítás a menedzser felelőssége."
+  ],
+  "explanation": "Kontroller: az átláthatóságért felel, a tervezés moderálója; a menedzser felel az eredményért. Kulcsszavak az indoklásban: adat / információ · javaslat · nem irányít",
+  "source": "Jegyzet 4.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-030",
+  "chapter": 4,
+  "section": "4.11",
+  "type": "kifejtos",
+  "points": 4,
+  "question": "Egy gyárban a dolgozók ellenállnak az új teljesítménymérésnek, mert csak a darabszámot nézi, a minőséget nem, és úgy érzik, ez értelmetlen. Melyik fogalom magyarázza az ellenállásukat? Indokolja egy mondatban!",
+  "answer": [
+   "Fogalom (2 p): Nem megfelelő fókusz (a rendszer túl szűkkörű).",
+   "Indoklás (2 p): A rendszer túlságosan a számszerűsíthető változókra összpontosít, ezért a munkavállaló értelmetlennek érzi."
+  ],
+  "explanation": "Kezelése: eredményes, jól célzott rendszer és a dolgozók bevonása. Kulcsszavak az indoklásban: szűk fókusz · számszerűsíthető változók · értelmetlennek tűnik",
+  "source": "Jegyzet 4.11",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-031",
+  "chapter": 4,
+  "section": "4.7",
+  "type": "kifejtos",
+  "points": 9,
+  "question": "Hasonlítsa össze a stratégiai és az operatív irányítást! (5–8 mondat)",
+  "answer": [
+   "Definíció/időtáv: a stratégiai a hosszú távú célok megvalósulását biztosítja (jellemzően öt év vagy hosszabb); az operatív a hosszú távú célokból levezetett rövid és középtávú célokra (egy hónaptól egy évig) koncentrál.",
+   "Tartalom: a stratégiai a stratégiák sikerességét vizsgálja, és feltárja a belső és külső fenyegetéseket; az operatív a mérés–értékelés–beavatkozás hármasával a működési folyamatokat tartja pályán.",
+   "Stratégiai módszerek: előfeltevések vizsgálata, a stratégia eredményességének értékelése, stratégiai szempontú felügyelet, rendkívüli helyzetek irányítása.",
+   "Operatív pillérek: költségvetések, ütemtervek, kritikus sikertényezők azonosítása.",
+   "Példa: két projekt profitgörbéje – rövid távon az egyik, hosszú távon a másik a jobb; ezért kell mindkét szint.",
+   "Kapcsolódás: a stratégiai és operatív irányítás elválása a divizionális szervezetre is jellemző."
+  ],
+  "explanation": "Pontozás (saját becslés, nem hivatalos): időtáv 2 p · tartalom 2 p · stratégiai módszerek 2 p · operatív pillérek 2 p · példa/kapcsolat 1 p.",
+  "source": "Jegyzet 4.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-4-032",
+  "chapter": 4,
+  "section": "4.11",
+  "type": "kifejtos",
+  "points": 9,
+  "question": "Mutassa be az irányítással szembeni ellenállás okait és kezelési lehetőségeit! (5–8 mondat)",
+  "answer": [
+   "Az irányítás láthatóvá teszi a teljesítményt, ezért a munkavállalók ellenállhatnak neki.",
+   "Okok: túlzott kontroll, ami értelmetlennek tűnik; nem megfelelő fókusz (túl szűk, csak a számszerűsíthető változókra); a nem hatékony munkavégzés jutalmazása; elszámoltathatóság (az alacsonyabb teljesítmény napvilágra kerül).",
+   "Kezelés: valóban eredményes irányítási rendszer kialakítása.",
+   "A munkavállalók bevonása a rendszer tervezésébe és végrehajtásába.",
+   "Megfelelő követelményszintek, mutatók és információs rendszer, amely lehetővé teszi a mutatók pontosságának ellenőrzését.",
+   "Összegzés: a rossz rendszer is ellenállást szül, ezért a javítás kétirányú: jobb rendszer és elfogadtatás."
+  ],
+  "explanation": "Pontozás (saját becslés, nem hivatalos): 4 ok 4 p · 3 kezelés 3 p · összefüggés/magyarázat 2 p.",
+  "source": "Jegyzet 4.11",
+  "official": false,
+  "difficulty": 3
+ }
+]

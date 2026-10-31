@@ -1,0 +1,197 @@
+[
+ {
+  "id": "mat-22-001",
+  "chapter": 22,
+  "section": "22.1",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Mennyi log_5(1/25)? b) Melyik x-re igaz, hogy log_3(x + 2) − 1 = 2? c) Egy baktériumtenyészet óránként megduplázódik. Legalább hány teljes óra múlva haladja meg a kezdeti érték 500-szorosát?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "-2",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b) x =",
+    "answer": "25",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "9",
+    "accept": "int",
+    "format": "egész szám (felfelé kerekítve)"
+   }
+  ],
+  "explanation": "Módszer: Logaritmus és logaritmikus egyenlet. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, LOG-1",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "log_a x = y ⇔ x = a^y (Jegyzet 5.8).",
+   "a) 5^y = 1/25 → y = −2, mert 5^(−2) = 1/25.",
+   "b) log_3(x + 2) − 1 = 2 → log_3(x + 2) = 3 → x + 2 = 3^3 = 27 → x = 25 (az argumentum 27 pozitív, tehát jó).",
+   "c) 2^n > 500 → n > ln(500) / ln(2) ≈ 8,97 → n = 9 óra.",
+   "Eredmény: a) -2; b) x = 25; c) 9."
+  ]
+ },
+ {
+  "id": "mat-22-002",
+  "chapter": 22,
+  "section": "22.2",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Mennyi log_4(64)? b) Melyik x-re igaz, hogy log_2(x − 3) + 2 = 5? c) Egy hír megosztásainak száma naponta megháromszorozódik. Legalább hány teljes nap múlva haladja meg a kezdeti érték 100-szorosát?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "3",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b) x =",
+    "answer": "11",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "5",
+    "accept": "int",
+    "format": "egész szám (felfelé kerekítve)"
+   }
+  ],
+  "explanation": "Módszer: Logaritmus és logaritmikus egyenlet. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, LOG-2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "log_a x = y ⇔ x = a^y (Jegyzet 5.8).",
+   "a) 4^y = 64 → y = 3, mert 4^3 = 64.",
+   "b) log_2(x − 3) + 2 = 5 → log_2(x − 3) = 3 → x − 3 = 2^3 = 8 → x = 11 (az argumentum 8 pozitív, tehát jó).",
+   "c) 3^n > 100 → n > ln(100) / ln(3) ≈ 4,19 → n = 5 nap.",
+   "Eredmény: a) 3; b) x = 11; c) 5."
+  ]
+ },
+ {
+  "id": "mat-22-003",
+  "chapter": 22,
+  "section": "22.3",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Mennyi log_10(1/1000)? b) Melyik x-re igaz, hogy log_5(x + 4) + 3 = 5? c) Egy videó nézőinek száma naponta megduplázódik. Legalább hány teljes nap múlva haladja meg a kezdeti érték 1 000-szorosát?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "-3",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b) x =",
+    "answer": "21",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "10",
+    "accept": "int",
+    "format": "egész szám (felfelé kerekítve)"
+   }
+  ],
+  "explanation": "Módszer: Logaritmus és logaritmikus egyenlet. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, LOG-3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "log_a x = y ⇔ x = a^y (Jegyzet 5.8).",
+   "a) 10^y = 1/1000 → y = −3, mert 10^(−3) = 1/1000.",
+   "b) log_5(x + 4) + 3 = 5 → log_5(x + 4) = 2 → x + 4 = 5^2 = 25 → x = 21 (az argumentum 25 pozitív, tehát jó).",
+   "c) 2^n > 1 000 → n > ln(1 000) / ln(2) ≈ 9,97 → n = 10 nap.",
+   "Eredmény: a) -3; b) x = 21; c) 10."
+  ]
+ },
+ {
+  "id": "mat-22-004",
+  "chapter": 22,
+  "section": "22.4",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Mennyi log_2(1/16)? b) Melyik x-re igaz, hogy log_4(x − 2) − 3 = −1? c) Egy lánclevél minden körben ötszörös számú emberhez jut el. Legalább hány teljes kör múlva haladja meg a kezdeti érték 10 000-szorosát?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "-4",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b) x =",
+    "answer": "18",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "6",
+    "accept": "int",
+    "format": "egész szám (felfelé kerekítve)"
+   }
+  ],
+  "explanation": "Módszer: Logaritmus és logaritmikus egyenlet. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, LOG-4",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "log_a x = y ⇔ x = a^y (Jegyzet 5.8).",
+   "a) 2^y = 1/16 → y = −4, mert 2^(−4) = 1/16.",
+   "b) log_4(x − 2) − 3 = −1 → log_4(x − 2) = 2 → x − 2 = 4^2 = 16 → x = 18 (az argumentum 16 pozitív, tehát jó).",
+   "c) 5^n > 10 000 → n > ln(10 000) / ln(5) ≈ 5,72 → n = 6 kör.",
+   "Eredmény: a) -4; b) x = 18; c) 6."
+  ]
+ },
+ {
+  "id": "mat-22-005",
+  "chapter": 22,
+  "section": "22.5",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Mennyi log_3(243)? b) Melyik x-re igaz, hogy log_2(x + 6) + 4 = 9? c) Egy cég ügyfélszáma évente másfélszeresére nő. Legalább hány teljes év múlva haladja meg a kezdeti érték 20-szorosát?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "5",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b) x =",
+    "answer": "26",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "8",
+    "accept": "int",
+    "format": "egész szám (felfelé kerekítve)"
+   }
+  ],
+  "explanation": "Módszer: Logaritmus és logaritmikus egyenlet. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, LOG-5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "log_a x = y ⇔ x = a^y (Jegyzet 5.8).",
+   "a) 3^y = 243 → y = 5, mert 3^5 = 243.",
+   "b) log_2(x + 6) + 4 = 9 → log_2(x + 6) = 5 → x + 6 = 2^5 = 32 → x = 26 (az argumentum 32 pozitív, tehát jó).",
+   "c) (3/2)^n > 20 → n > ln(20) / ln(3/2) ≈ 7,39 → n = 8 év.",
+   "Eredmény: a) 5; b) x = 26; c) 8."
+  ]
+ }
+]

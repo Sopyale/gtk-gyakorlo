@@ -1,0 +1,197 @@
+[
+ {
+  "id": "mat-21-001",
+  "chapter": 21,
+  "section": "21.1",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Egy tenyészet egyedszáma óránként 20%-kal nő, kezdetben 6 250 egyed van. Mennyi lesz 3 lépés múlva? b) Egy anyag mennyisége naponta a 40%-át elveszíti, kezdetben 20 000 gramm. Mennyi marad 3 lépés után? c) Egy honlap napi látogatószáma 2 000, és naponta 5%-kal nő. Legkevesebb hány lépés után lesz az érték nagyobb, mint 3 000 (egész számra felfelé kerekítve)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "10800",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "4320",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "9",
+    "accept": "int",
+    "format": "egész szám (felfelé kerekítve)"
+   }
+  ],
+  "explanation": "Módszer: Exponenciális növekedés és csökkenés. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, EXP-1",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Exponenciális változás: kezdőérték · (változási tényező)^(lépések száma) (Jegyzet 5.7).",
+   "a) tényező 1,2: 6 250·1,2^3 = 10 800.",
+   "b) tényező 0,6: 20 000·0,6^3 = 4 320.",
+   "c) 2 000·1,05^n > 3 000 → 1,05^n > 1,5 → n > ln(1,5) / ln(1,05) ≈ 8,31 → n = 9.",
+   "Eredmény: a) 10800; b) 4320; c) 9."
+  ]
+ },
+ {
+  "id": "mat-21-002",
+  "chapter": 21,
+  "section": "21.2",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Egy közösségi oldal 10 000 fős csoportja hetente 10%-kal bővül. Mennyi lesz 4 lépés múlva? b) Egy gép értéke 50 000 eFt, évente 20%-ot veszít az előző évi értékéből. Mennyi marad 2 lépés után? c) Egy kis cég havi bevétele 40 eFt, havonta 12%-kal emelkedik. Legkevesebb hány lépés után lesz az érték nagyobb, mint 100 (egész számra felfelé kerekítve)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "14641",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "32000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "9",
+    "accept": "int",
+    "format": "egész szám (felfelé kerekítve)"
+   }
+  ],
+  "explanation": "Módszer: Exponenciális növekedés és csökkenés. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, EXP-2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Exponenciális változás: kezdőérték · (változási tényező)^(lépések száma) (Jegyzet 5.7).",
+   "a) tényező 1,1: 10 000·1,1^4 = 14 641.",
+   "b) tényező 0,8: 50 000·0,8^2 = 32 000.",
+   "c) 40·1,12^n > 100 → 1,12^n > 2,5 → n > ln(2,5) / ln(1,12) ≈ 8,09 → n = 9.",
+   "Eredmény: a) 14641; b) 32000; c) 9."
+  ]
+ },
+ {
+  "id": "mat-21-003",
+  "chapter": 21,
+  "section": "21.3",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Egy alap 2 500 eFt értékű, negyedévente 4%-kal gyarapszik. Mennyi lesz 2 lépés múlva? b) Egy tartály 160 000 liter vizet tartalmaz, óránként a 25%-át leengedik (a maradék mennyiség arányosan csökken). Mennyi marad 3 lépés után? c) Egy befektetés 500 eFt, évente 8%-kal nő. Legkevesebb hány lépés után lesz az érték nagyobb, mint 1 500 (egész számra felfelé kerekítve)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "2704",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "67500",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "15",
+    "accept": "int",
+    "format": "egész szám (felfelé kerekítve)"
+   }
+  ],
+  "explanation": "Módszer: Exponenciális növekedés és csökkenés. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, EXP-3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Exponenciális változás: kezdőérték · (változási tényező)^(lépések száma) (Jegyzet 5.7).",
+   "a) tényező 1,04: 2 500·1,04^2 = 2 704.",
+   "b) tényező 0,75: 160 000·0,75^3 = 67 500.",
+   "c) 500·1,08^n > 1 500 → 1,08^n > 3 → n > ln(3) / ln(1,08) ≈ 14,27 → n = 15.",
+   "Eredmény: a) 2704; b) 67500; c) 15."
+  ]
+ },
+ {
+  "id": "mat-21-004",
+  "chapter": 21,
+  "section": "21.4",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Egy hírlevél 32 olvasóval indul, olvasóinak száma minden héten 50%-kal nő. Mennyi lesz 4 lépés múlva? b) Egy gyógyszerhatóanyag 12 000 mg, minden órában a felére csökken. Mennyi marad 4 lépés után? c) Egy webshop forgalma 3 000 eFt, havonta 15%-kal nő. Legkevesebb hány lépés után lesz az érték nagyobb, mint 6 000 (egész számra felfelé kerekítve)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "162",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "750",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "5",
+    "accept": "int",
+    "format": "egész szám (felfelé kerekítve)"
+   }
+  ],
+  "explanation": "Módszer: Exponenciális növekedés és csökkenés. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, EXP-4",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Exponenciális változás: kezdőérték · (változási tényező)^(lépések száma) (Jegyzet 5.7).",
+   "a) tényező 1,5: 32·1,5^4 = 162.",
+   "b) tényező 0,5: 12 000·0,5^4 = 750.",
+   "c) 3 000·1,15^n > 6 000 → 1,15^n > 2 → n > ln(2) / ln(1,15) ≈ 4,96 → n = 5.",
+   "Eredmény: a) 162; b) 750; c) 5."
+  ]
+ },
+ {
+  "id": "mat-21-005",
+  "chapter": 21,
+  "section": "21.5",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Egy játékalkalmazás 512 felhasználóval indul, számuk percenként 25%-kal nő. Mennyi lesz 3 lépés múlva? b) Egy autó értéke 90 000 eFt, évente 10%-ot veszít az előző évi értékéből. Mennyi marad 3 lépés után? c) Egy település internethasználóinak száma 100, és évente 30%-kal nő. Legkevesebb hány lépés után lesz az érték nagyobb, mint 1 000 (egész számra felfelé kerekítve)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "1000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "65610",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "9",
+    "accept": "int",
+    "format": "egész szám (felfelé kerekítve)"
+   }
+  ],
+  "explanation": "Módszer: Exponenciális növekedés és csökkenés. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, EXP-5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Exponenciális változás: kezdőérték · (változási tényező)^(lépések száma) (Jegyzet 5.7).",
+   "a) tényező 1,25: 512·1,25^3 = 1 000.",
+   "b) tényező 0,9: 90 000·0,9^3 = 65 610.",
+   "c) 100·1,3^n > 1 000 → 1,3^n > 10 → n > ln(10) / ln(1,3) ≈ 8,78 → n = 9.",
+   "Eredmény: a) 1000; b) 65610; c) 9."
+  ]
+ }
+]

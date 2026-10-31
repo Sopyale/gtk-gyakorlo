@@ -1,0 +1,3099 @@
+[
+ {
+  "id": "szv-3-001",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "igaz-hamis",
+  "question": "A számviteli beszámoló a gazdálkodó vagyoni, pénzügyi és jövedelmi helyzetét hitelt érdemlően igazoló okmány.",
+  "answer": true,
+  "explanation": "Ez a jegyzet 3.1 szerinti meghatározás.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "szv-3-002",
+  "chapter": 3,
+  "section": "3.2",
+  "type": "igaz-hamis",
+  "question": "Az éves beszámolóval együtt készített üzleti jelentés a beszámoló része.",
+  "answer": false,
+  "explanation": "Az üzleti jelentést a beszámolóval egyidejűleg kell készíteni, de nem része a beszámolónak.",
+  "source": "Jegyzet 3.2 Vizsgatipp",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-003",
+  "chapter": 3,
+  "section": "3.2",
+  "type": "igaz-hamis",
+  "question": "Az éves beszámoló mérlege a vagyoni, az eredménykimutatás a jövedelmi helyzetet mutatja.",
+  "answer": true,
+  "explanation": "Mérleg – vagyoni, eredménykimutatás – jövedelmi, kiegészítő melléklet (cash-flow) – pénzügyi helyzet.",
+  "source": "Jegyzet 3.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-004",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "igaz-hamis",
+  "question": "A beszámolót a gazdálkodó az üzleti év könyveinek lezárása előtt köteles elkészíteni.",
+  "answer": false,
+  "explanation": "A beszámolót az üzleti év könyveinek zárását követően kell elkészíteni (magyar nyelven).",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-3-005",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "igaz-hamis",
+  "question": "Új vállalkozásnál a számviteli politikát a megalakulástól számított 90 napon belül el kell készíteni.",
+  "answer": true,
+  "explanation": "Változásnál (pl. átalakulás) a módosításokat szintén 90 napon belül kell átvezetni.",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-006",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "igaz-hamis",
+  "question": "Az önköltségszámítási szabályzat minden vállalkozásnak kötelező.",
+  "answer": false,
+  "explanation": "Csak akkor kell, ha az éves nettó árbevétel − ELÁBÉ − közvetített szolgáltatások meghaladja a 4 milliárd Ft-ot, vagy az összes költség a 2 milliárd Ft-ot.",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-3-007",
+  "chapter": 3,
+  "section": "3.3",
+  "type": "igaz-hamis",
+  "question": "A mikrogazdálkodói egyszerűsített éves beszámoló határértékei: mérlegfőösszeg 180 millió Ft, nettó árbevétel 360 millió Ft, átlagos létszám 10 fő.",
+  "answer": true,
+  "explanation": "A feltétel: két egymást követő évben a három mutatóból bármelyik kettő nem haladja meg a határt.",
+  "source": "Jegyzet 3.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-008",
+  "chapter": 3,
+  "section": "3.6",
+  "type": "igaz-hamis",
+  "question": "A vállalkozás folytatásának elve a számviteli alapelvek egyike.",
+  "answer": true,
+  "explanation": "A dia 14 alapelvet sorol fel; az első a vállalkozás folytatásának elve.",
+  "source": "Jegyzet 3.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-3-009",
+  "chapter": 3,
+  "section": "3.7",
+  "type": "igaz-hamis",
+  "question": "A kamat kiszámításakor a törlesztés előtti hitelállományt vesszük alapul, és a törlesztés maga nem eredményhatású.",
+  "answer": true,
+  "explanation": "Kamat = hitelállomány × kamatláb / 12 × hónapok; a tőketörlesztés eredménye nulla.",
+  "source": "Jegyzet 3.7 Értelmezés",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-010",
+  "chapter": 3,
+  "section": "3.9",
+  "type": "igaz-hamis",
+  "question": "Ha az adózott eredmény veszteség, a nyitás utáni rendező tétel T Adózott eredmény – K Eredménytartalék.",
+  "answer": false,
+  "explanation": "Veszteségnél fordítva: T Eredménytartalék – K Adózott eredmény.",
+  "source": "Jegyzet 3.9 Értelmezés",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-011",
+  "chapter": 3,
+  "section": "3.2",
+  "type": "feleletvalasztos",
+  "question": "Melyik NEM része a (magyar) éves beszámolónak?",
+  "options": [
+   "Üzleti jelentés",
+   "Mérleg",
+   "Eredménykimutatás",
+   "Kiegészítő melléklet"
+  ],
+  "answer": "Üzleti jelentés",
+  "explanation": "Az üzleti jelentés a beszámolóval együtt készül, de nem része.",
+  "source": "Jegyzet 3.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-012",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "feleletvalasztos",
+  "question": "Melyik szabályzat NEM tartozik a számviteli politika négy dia szerinti szabályzata közé?",
+  "options": [
+   "Bérszámfejtési szabályzat",
+   "Pénzkezelési szabályzat",
+   "Leltárkészítési, leltározási szabályzat",
+   "Önköltségszámítási szabályzat"
+  ],
+  "answer": "Bérszámfejtési szabályzat",
+  "explanation": "A diák négy szabályzatot említenek: értékelési, leltározási, pénzkezelési és önköltségszámítási.",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-013",
+  "chapter": 3,
+  "section": "3.3",
+  "type": "feleletvalasztos",
+  "question": "Melyik beszámolót készítheti az a kettős könyvvitelt vezető vállalkozó, amelynek két egymást követő évben legfeljebb 2 000 millió Ft a mérlegfőösszege, legfeljebb 4 000 millió Ft a nettó árbevétele és legfeljebb 50 fő az átlagos létszáma (két mutatóra teljesül a feltétel)?",
+  "options": [
+   "Egyszerűsített éves beszámolót",
+   "Mikrogazdálkodói egyszerűsített éves beszámolót",
+   "Konszolidált éves beszámolót",
+   "IFRS szerinti pénzügyi kimutatást kizárólag"
+  ],
+  "answer": "Egyszerűsített éves beszámolót",
+  "explanation": "Az egyszerűsített éves beszámoló határai 2 000 / 4 000 millió Ft / 50 fő; a mikro 180 / 360 / 10.",
+  "source": "Jegyzet 3.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-014",
+  "chapter": 3,
+  "section": "3.2",
+  "type": "feleletvalasztos",
+  "question": "A beszámoló melyik része mutatja a gazdálkodó jövedelmi helyzetét?",
+  "options": [
+   "Eredménykimutatás",
+   "Mérleg",
+   "Kiegészítő melléklet",
+   "Üzleti jelentés"
+  ],
+  "answer": "Eredménykimutatás",
+  "explanation": "Mérleg – vagyoni; eredménykimutatás – jövedelmi; kiegészítő melléklet (cash-flow) – pénzügyi helyzet.",
+  "source": "Jegyzet 3.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-015",
+  "chapter": 3,
+  "section": "3.4",
+  "type": "feleletvalasztos",
+  "question": "Mely tétel NEM része az IFRS szerinti pénzügyi kimutatásoknak?",
+  "options": [
+   "Üzleti jelentés",
+   "Pénzügyi helyzet kimutatás",
+   "Cash flow kimutatás",
+   "Saját tőke változások"
+  ],
+  "answer": "Üzleti jelentés",
+  "explanation": "Az IFRS-részek: pénzügyi helyzet kimutatás, átfogó jövedelem kimutatás, saját tőke változások, cash flow, megjegyzések.",
+  "source": "Jegyzet 3.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-016",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "rovid-valasz",
+  "question": "Hány napon belül kell elkészíteni egy újonnan alakult vállalkozás számviteli politikáját a megalakulástól számítva?",
+  "answer": [
+   "90 nap",
+   "90",
+   "kilencven nap",
+   "90 napon belül"
+  ],
+  "explanation": "A dia szerint 90 napon belül; változásnál is 90 napon belül kell átvezetni.",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "szv-3-017",
+  "chapter": 3,
+  "section": "3.6",
+  "type": "rovid-valasz",
+  "question": "Hány számviteli alapelvet sorol fel a szeminárium diasora?",
+  "answer": [
+   "14",
+   "tizennégy",
+   "14 alapelv"
+  ],
+  "explanation": "A diasor 14 alapelvet nevez meg (vállalkozás folytatása, teljesség, valódiság, …, következetesség); a tartalmukat nem magyarázza.",
+  "source": "Jegyzet 3.6",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-018",
+  "chapter": 3,
+  "section": "3.2",
+  "type": "parositas",
+  "question": "Párosítsa a beszámoló részét azzal a helyzettel, amelyet bemutat!",
+  "answer": [
+   [
+    "Mérleg",
+    "vagyoni helyzet"
+   ],
+   [
+    "Eredménykimutatás",
+    "jövedelmi helyzet"
+   ],
+   [
+    "Kiegészítő melléklet",
+    "pénzügyi helyzet (cash-flow)"
+   ]
+  ],
+  "explanation": "Három rész – három helyzet: a mérleg vagyoni, az eredménykimutatás jövedelmi, a kiegészítő melléklet (cash-flow-val) pénzügyi helyzetet mutat.",
+  "source": "Jegyzet 3.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-019",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "parositas",
+  "question": "Párosítsa a szabályzatot a céljával!",
+  "answer": [
+   [
+    "Eszközök és források értékelési szabályzata",
+    "a mérlegben szereplő eszközök és kötelezettségek értékelésének megalapozása"
+   ],
+   [
+    "Leltárkészítési, leltározási szabályzat",
+    "a mérlegvalódiság biztosítása"
+   ],
+   [
+    "Pénzkezelési szabályzat",
+    "a pénz- és értékkezelés vállalkozáson belüli szabályai"
+   ],
+   [
+    "Önköltségszámítási szabályzat",
+    "a tevékenység egysége előállítási értékének megállapítása (vezetői számvitel)"
+   ]
+  ],
+  "explanation": "A négy szabályzat célja a diák szerint: értékelés – mérleg tételeinek értékelése; leltározás – mérlegvalódiság; pénzkezelés – pénz- és értékkezelés szabályai; önköltség – a tevékenység egységének előállítási értéke (vezetői számvitel).",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-020",
+  "chapter": 3,
+  "section": "3.6",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg, melyik állítás igaz a számviteli alapelvekre! (Minden állítás külön pontot ér.)",
+  "statements": [
+   {
+    "text": "Az óvatosság elve a számviteli alapelvek közé tartozik.",
+    "answer": true
+   },
+   {
+    "text": "A bruttó elszámolás elve a számviteli alapelvek közé tartozik.",
+    "answer": true
+   },
+   {
+    "text": "A pénzforgalmi elv a diák felsorolásában 14 alapelv egyike.",
+    "answer": false
+   },
+   {
+    "text": "A lényegesség elve a számviteli alapelvek közé tartozik.",
+    "answer": true
+   },
+   {
+    "text": "A dia 12 számviteli alapelvet sorol fel.",
+    "answer": false
+   }
+  ],
+  "explanation": "A 14 alapelv között szerepel az óvatosság, az összemérés, a bruttó elszámolás, a lényegesség, a folytonosság és a következetesség elve.",
+  "source": "Jegyzet 3.6",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-3-021",
+  "chapter": 3,
+  "section": "3.9",
+  "type": "szamolas",
+  "points": 15,
+  "question": "A Stúdió Kft. tárgyidőszaki nyitó adatai: 1. Egyéb tartósan adott kölcsönök: 2 400; 3. Vevők: 650; 3. Pénztár: 500; 3. Bankbetétek: 2 000; 4. Jegyzett tőke: 3 500; 4. Hosszú lejáratú hitelek: 1 500; 4. Adótartozások: 250 (eFt). Számítsa ki az adózott eredmény nagyságát, majd könyvelje idősorosan az eseményeket!\n\nEsemények:\n1. Az adózott eredmény átvezetése az eredménytartalékba.\n2. Anyagot vásárolt készpénzért 800 + 25% ÁFA értékben.\n3. A vásárolt anyag 25%-át hibás teljesítés miatt visszaküldte, a pénzt visszakapta.\n4. Eladott a készletből anyagot: bekerülési értéke 280, eladási ára 440 + 25% ÁFA, a vevő készpénzben fizetett.\n5. Tartósan adott kölcsönből törlesztés 600 és kamat 130 érkezett a bankszámlára.\n6. Leltárhiány az anyagkészletben: 40 bekerülési értéken.\n\n(A bankszámla neve a rácsban: 3. Elszámolási betét.) Töltse ki a rácsot: sorszám, T számla, K számla, összeg (eFt), és adja meg a mezőket is.",
+  "fields": [
+   {
+    "label": "1. esemény: T számla",
+    "answer": "4. Adózott eredmény",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Adózott eredmény"
+    ]
+   },
+   {
+    "label": "1. esemény: K számla",
+    "answer": "4. Eredménytartalék",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Eredménytartalék"
+    ]
+   },
+   {
+    "label": "1. esemény: összeg",
+    "answer": "300",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "800",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "200"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "800"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: K számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: összeg",
+    "answer": "200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "50"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: K számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: összeg",
+    "answer": "50",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "200"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: T számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Pénztár",
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: K számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: összeg",
+    "answer": "280",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "440",
+     "110"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: K számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Anyagok",
+     "Anyagok",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: összeg",
+    "answer": "440",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "280",
+     "110"
+    ]
+   },
+   {
+    "label": "4. esemény, 3. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "4. esemény, 3. tétel: K számla",
+    "answer": "4. Fizetendő ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Fizetendő ÁFA",
+     "2. Anyagok",
+     "Anyagok",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "4. esemény, 3. tétel: összeg",
+    "answer": "110",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "280",
+     "440"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: T számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: K számla",
+    "answer": "1. Egyéb tartósan adott kölcsönök",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Egyéb tartósan adott kölcsönök",
+     "9. Pénzügyi műveletek bevétele",
+     "Pénzügyi műveletek bevétele"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: összeg",
+    "answer": "600",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "130"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: T számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: K számla",
+    "answer": "9. Pénzügyi műveletek bevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénzügyi műveletek bevétele",
+     "1. Egyéb tartósan adott kölcsönök",
+     "Egyéb tartósan adott kölcsönök"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: összeg",
+    "answer": "130",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "600"
+    ]
+   },
+   {
+    "label": "6. esemény: T számla",
+    "answer": "8. Egyéb ráfordítás",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Egyéb ráfordítás"
+    ]
+   },
+   {
+    "label": "6. esemény: K számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "6. esemény: összeg",
+    "answer": "40",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "Nyitó adózott eredmény (eFt, veszteség negatív)",
+    "answer": "300",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Az időszak eredménye (eFt)",
+    "answer": "250",
+    "accept": "int",
+    "format": "egész szám, veszteség negatív"
+   },
+   {
+    "label": "A Pénztár záró egyenlege (eFt)",
+    "answer": "300",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Az adózott eredmény a nyitó mérleg egyensúlyából adódik: eszközök − (a többi forrás). Veszteségnél az átvezetés fordított. Az időszaki eredmény csak az eredményszámlák egyenlege: az ÁFA, a visszaküldés és a törlesztés nem eredményhatású tételek.",
+  "source": "Jegyzet 3.9 · 1.4 · 5.8 · Minta Kft. típus",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Adózott eredmény = eszközök − források = 5 550 − 5 250 = 300.",
+   "esemény: nyereség (300): T Adózott eredmény – K Eredménytartalék. Tétel(ek): T 4. Adózott eredmény – K 4. Eredménytartalék: 300.",
+   "esemény: nettó 800 → T 2. Anyagok; ÁFA = 800 × 0,25 = 200 → T Előzetes ÁFA; pénztár K bruttó 1 000. Tétel(ek): T 2. Anyagok – K 3. Pénztár: 800; T 4. Előzetes ÁFA – K 3. Pénztár: 200.",
+   "esemény: a visszaküldött rész: 800 × 25% = 200 (K Anyagok); ÁFA 200 × 0,25 = 50 (K Előzetes ÁFA); mindkét tétel fordított irányú. Tétel(ek): T 3. Pénztár – K 2. Anyagok: 200; T 3. Pénztár – K 4. Előzetes ÁFA: 50.",
+   "esemény: kivezetés 280 (T ELÁBÉ – K Anyagok); bevétel 440; ÁFA 440 × 0,25 = 110; készpénz bruttó 550. Tétel(ek): T 8. ELÁBÉ – K 2. Anyagok: 280; T 3. Pénztár – K 9. Értékesítés nettó árbevétele: 440; T 3. Pénztár – K 4. Fizetendő ÁFA: 110.",
+   "esemény: törlesztés 600 (eszközcsere, nincs eredményhatás) + kapott kamat 130 (pénzügyi bevétel). Tétel(ek): T 3. Elszámolási betét – K 1. Egyéb tartósan adott kölcsönök: 600; T 3. Elszámolási betét – K 9. Pénzügyi műveletek bevétele: 130.",
+   "esemény: a hiány egyéb ráfordítás: T 8. Egyéb ráfordítás – K 2. Anyagok 40. Tétel(ek): T 8. Egyéb ráfordítás – K 2. Anyagok: 40.",
+   "→ Eredmény = 440 − 280 + 130 − 40 = 250."
+  ]
+ },
+ {
+  "id": "szv-3-022",
+  "chapter": 3,
+  "section": "3.9",
+  "type": "szamolas",
+  "points": 15,
+  "question": "A Pillangó Kft. tárgyidőszaki nyitó adatai: 1. Egyéb tartósan adott kölcsönök: 1 500; 3. Vevők: 900; 3. Pénztár: 300; 3. Bankbetétek: 1 800; 4. Jegyzett tőke: 3 000; 4. Hosszú lejáratú hitelek: 1 200; 4. Adótartozások: 150 (eFt). Számítsa ki az adózott eredmény nagyságát, majd könyvelje idősorosan az eseményeket!\n\nEsemények:\n1. Az adózott eredmény átvezetése az eredménytartalékba.\n2. Anyagot vásárolt készpénzért 1 200 + 25% ÁFA értékben.\n3. A vásárolt anyag 10%-át hibás teljesítés miatt visszaküldte, a pénzt visszakapta.\n4. Eladott a készletből anyagot: bekerülési értéke 500, eladási ára 800 + 25% ÁFA, a vevő készpénzben fizetett.\n5. Tartósan adott kölcsönből törlesztés 400 és kamat 90 érkezett a bankszámlára.\n6. Leltárhiány az anyagkészletben: 60 bekerülési értéken.\n\n(A bankszámla neve a rácsban: 3. Elszámolási betét.) Töltse ki a rácsot: sorszám, T számla, K számla, összeg (eFt), és adja meg a mezőket is.",
+  "fields": [
+   {
+    "label": "1. esemény: T számla",
+    "answer": "4. Adózott eredmény",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Adózott eredmény"
+    ]
+   },
+   {
+    "label": "1. esemény: K számla",
+    "answer": "4. Eredménytartalék",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Eredménytartalék"
+    ]
+   },
+   {
+    "label": "1. esemény: összeg",
+    "answer": "150",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "1200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1 200",
+     "300"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "300",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1200",
+     "1 200"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: K számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: összeg",
+    "answer": "120",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "30"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: K számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: összeg",
+    "answer": "30",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "120"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: T számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Pénztár",
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: K számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: összeg",
+    "answer": "500",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "800",
+     "200"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: K számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Anyagok",
+     "Anyagok",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: összeg",
+    "answer": "800",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "500",
+     "200"
+    ]
+   },
+   {
+    "label": "4. esemény, 3. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "4. esemény, 3. tétel: K számla",
+    "answer": "4. Fizetendő ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Fizetendő ÁFA",
+     "2. Anyagok",
+     "Anyagok",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "4. esemény, 3. tétel: összeg",
+    "answer": "200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "500",
+     "800"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: T számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: K számla",
+    "answer": "1. Egyéb tartósan adott kölcsönök",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Egyéb tartósan adott kölcsönök",
+     "9. Pénzügyi műveletek bevétele",
+     "Pénzügyi műveletek bevétele"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: összeg",
+    "answer": "400",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "90"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: T számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: K számla",
+    "answer": "9. Pénzügyi műveletek bevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénzügyi műveletek bevétele",
+     "1. Egyéb tartósan adott kölcsönök",
+     "Egyéb tartósan adott kölcsönök"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: összeg",
+    "answer": "90",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "400"
+    ]
+   },
+   {
+    "label": "6. esemény: T számla",
+    "answer": "8. Egyéb ráfordítás",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Egyéb ráfordítás"
+    ]
+   },
+   {
+    "label": "6. esemény: K számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "6. esemény: összeg",
+    "answer": "60",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "Nyitó adózott eredmény (eFt, veszteség negatív)",
+    "answer": "150",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Az időszak eredménye (eFt)",
+    "answer": "330",
+    "accept": "int",
+    "format": "egész szám, veszteség negatív"
+   },
+   {
+    "label": "A Pénztár záró egyenlege (eFt)",
+    "answer": "-50",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Az adózott eredmény a nyitó mérleg egyensúlyából adódik: eszközök − (a többi forrás). Veszteségnél az átvezetés fordított. Az időszaki eredmény csak az eredményszámlák egyenlege: az ÁFA, a visszaküldés és a törlesztés nem eredményhatású tételek.",
+  "source": "Jegyzet 3.9 · 1.4 · 5.8 · Minta Kft. típus",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Adózott eredmény = eszközök − források = 4 500 − 4 350 = 150.",
+   "esemény: nyereség (150): T Adózott eredmény – K Eredménytartalék. Tétel(ek): T 4. Adózott eredmény – K 4. Eredménytartalék: 150.",
+   "esemény: nettó 1 200 → T 2. Anyagok; ÁFA = 1 200 × 0,25 = 300 → T Előzetes ÁFA; pénztár K bruttó 1 500. Tétel(ek): T 2. Anyagok – K 3. Pénztár: 1 200; T 4. Előzetes ÁFA – K 3. Pénztár: 300.",
+   "esemény: a visszaküldött rész: 1 200 × 10% = 120 (K Anyagok); ÁFA 120 × 0,25 = 30 (K Előzetes ÁFA); mindkét tétel fordított irányú. Tétel(ek): T 3. Pénztár – K 2. Anyagok: 120; T 3. Pénztár – K 4. Előzetes ÁFA: 30.",
+   "esemény: kivezetés 500 (T ELÁBÉ – K Anyagok); bevétel 800; ÁFA 800 × 0,25 = 200; készpénz bruttó 1 000. Tétel(ek): T 8. ELÁBÉ – K 2. Anyagok: 500; T 3. Pénztár – K 9. Értékesítés nettó árbevétele: 800; T 3. Pénztár – K 4. Fizetendő ÁFA: 200.",
+   "esemény: törlesztés 400 (eszközcsere, nincs eredményhatás) + kapott kamat 90 (pénzügyi bevétel). Tétel(ek): T 3. Elszámolási betét – K 1. Egyéb tartósan adott kölcsönök: 400; T 3. Elszámolási betét – K 9. Pénzügyi műveletek bevétele: 90.",
+   "esemény: a hiány egyéb ráfordítás: T 8. Egyéb ráfordítás – K 2. Anyagok 60. Tétel(ek): T 8. Egyéb ráfordítás – K 2. Anyagok: 60.",
+   "→ Eredmény = 800 − 500 + 90 − 60 = 330."
+  ]
+ },
+ {
+  "id": "szv-3-023",
+  "chapter": 3,
+  "section": "3.9",
+  "type": "szamolas",
+  "points": 15,
+  "question": "A Gyöngy Zrt. tárgyidőszaki nyitó adatai: 1. Egyéb tartósan adott kölcsönök: 1 800; 3. Vevők: 450; 3. Pénztár: 600; 3. Bankbetétek: 2 100; 4. Jegyzett tőke: 3 200; 4. Hosszú lejáratú hitelek: 1 800; 4. Adótartozások: 300 (eFt). Számítsa ki az adózott eredmény nagyságát, majd könyvelje idősorosan az eseményeket!\n\nEsemények:\n1. Az adózott eredmény átvezetése az eredménytartalékba.\n2. Anyagot vásárolt készpénzért 400 + 25% ÁFA értékben.\n3. A vásárolt anyag 50%-át hibás teljesítés miatt visszaküldte, a pénzt visszakapta.\n4. Eladott a készletből anyagot: bekerülési értéke 120, eladási ára 240 + 25% ÁFA, a vevő készpénzben fizetett.\n5. Tartósan adott kölcsönből törlesztés 500 és kamat 75 érkezett a bankszámlára.\n6. Leltárhiány az anyagkészletben: 30 bekerülési értéken.\n\n(A bankszámla neve a rácsban: 3. Elszámolási betét.) Töltse ki a rácsot: sorszám, T számla, K számla, összeg (eFt), és adja meg a mezőket is.",
+  "fields": [
+   {
+    "label": "1. esemény: T számla",
+    "answer": "4. Eredménytartalék",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Eredménytartalék"
+    ]
+   },
+   {
+    "label": "1. esemény: K számla",
+    "answer": "4. Adózott eredmény",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Adózott eredmény"
+    ]
+   },
+   {
+    "label": "1. esemény: összeg",
+    "answer": "350",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "400",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "100"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "100",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "400"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: K számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: összeg",
+    "answer": "200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "50"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: K számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: összeg",
+    "answer": "50",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "200"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: T számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Pénztár",
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: K számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: összeg",
+    "answer": "120",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "240",
+     "60"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: K számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Anyagok",
+     "Anyagok",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: összeg",
+    "answer": "240",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "120",
+     "60"
+    ]
+   },
+   {
+    "label": "4. esemény, 3. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "4. esemény, 3. tétel: K számla",
+    "answer": "4. Fizetendő ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Fizetendő ÁFA",
+     "2. Anyagok",
+     "Anyagok",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "4. esemény, 3. tétel: összeg",
+    "answer": "60",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "120",
+     "240"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: T számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: K számla",
+    "answer": "1. Egyéb tartósan adott kölcsönök",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Egyéb tartósan adott kölcsönök",
+     "9. Pénzügyi műveletek bevétele",
+     "Pénzügyi műveletek bevétele"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: összeg",
+    "answer": "500",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "75"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: T számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: K számla",
+    "answer": "9. Pénzügyi műveletek bevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénzügyi műveletek bevétele",
+     "1. Egyéb tartósan adott kölcsönök",
+     "Egyéb tartósan adott kölcsönök"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: összeg",
+    "answer": "75",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "500"
+    ]
+   },
+   {
+    "label": "6. esemény: T számla",
+    "answer": "8. Egyéb ráfordítás",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Egyéb ráfordítás"
+    ]
+   },
+   {
+    "label": "6. esemény: K számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "6. esemény: összeg",
+    "answer": "30",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "Nyitó adózott eredmény (eFt, veszteség negatív)",
+    "answer": "-350",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Az időszak eredménye (eFt)",
+    "answer": "165",
+    "accept": "int",
+    "format": "egész szám, veszteség negatív"
+   },
+   {
+    "label": "A Pénztár záró egyenlege (eFt)",
+    "answer": "650",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Az adózott eredmény a nyitó mérleg egyensúlyából adódik: eszközök − (a többi forrás). Veszteségnél az átvezetés fordított. Az időszaki eredmény csak az eredményszámlák egyenlege: az ÁFA, a visszaküldés és a törlesztés nem eredményhatású tételek.",
+  "source": "Jegyzet 3.9 · 1.4 · 5.8 · Minta Kft. típus",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Adózott eredmény = eszközök − források = 4 950 − 5 300 = -350.",
+   "esemény: veszteség (-350): fordított tétel, T Eredménytartalék – K Adózott eredmény 350. Tétel(ek): T 4. Eredménytartalék – K 4. Adózott eredmény: 350.",
+   "esemény: nettó 400 → T 2. Anyagok; ÁFA = 400 × 0,25 = 100 → T Előzetes ÁFA; pénztár K bruttó 500. Tétel(ek): T 2. Anyagok – K 3. Pénztár: 400; T 4. Előzetes ÁFA – K 3. Pénztár: 100.",
+   "esemény: a visszaküldött rész: 400 × 50% = 200 (K Anyagok); ÁFA 200 × 0,25 = 50 (K Előzetes ÁFA); mindkét tétel fordított irányú. Tétel(ek): T 3. Pénztár – K 2. Anyagok: 200; T 3. Pénztár – K 4. Előzetes ÁFA: 50.",
+   "esemény: kivezetés 120 (T ELÁBÉ – K Anyagok); bevétel 240; ÁFA 240 × 0,25 = 60; készpénz bruttó 300. Tétel(ek): T 8. ELÁBÉ – K 2. Anyagok: 120; T 3. Pénztár – K 9. Értékesítés nettó árbevétele: 240; T 3. Pénztár – K 4. Fizetendő ÁFA: 60.",
+   "esemény: törlesztés 500 (eszközcsere, nincs eredményhatás) + kapott kamat 75 (pénzügyi bevétel). Tétel(ek): T 3. Elszámolási betét – K 1. Egyéb tartósan adott kölcsönök: 500; T 3. Elszámolási betét – K 9. Pénzügyi műveletek bevétele: 75.",
+   "esemény: a hiány egyéb ráfordítás: T 8. Egyéb ráfordítás – K 2. Anyagok 30. Tétel(ek): T 8. Egyéb ráfordítás – K 2. Anyagok: 30.",
+   "→ Eredmény = 240 − 120 + 75 − 30 = 165."
+  ]
+ },
+ {
+  "id": "szv-3-024",
+  "chapter": 3,
+  "section": "3.7",
+  "type": "szamolas",
+  "points": 4,
+  "question": "A Aranyág Kft. hosszú lejáratú hitelének állománya az időszak elején 4 800 eFt, kamatlába évi 5%. A kamatot a bank az időszak végén, 4 hónapra terheli meg a törlesztés előtti állományra számítva; az időszakban 600 eFt tőketörlesztés is történt. Mekkora a fizetendő kamat, és melyik két tételt könyvelnénk (a számlák nevével)?",
+  "fields": [
+   {
+    "label": "Fizetendő kamat (eFt)",
+    "answer": "80",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A kamat könyvelése: T számla",
+    "answer": "8. Fizetett kamat",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható); elfogadott: Pénzügyi műveletek ráfordításai",
+    "alts": [
+     "Fizetett kamat",
+     "Pénzügyi műveletek ráfordításai",
+     "8. Pénzügyi műveletek ráfordításai",
+     "Pénzügyi ráfordítás",
+     "8. Pénzügyi ráfordítás"
+    ]
+   },
+   {
+    "label": "A kamat könyvelése: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "A tőketörlesztés eredményhatása (eFt)",
+    "answer": "0",
+    "accept": "dec",
+    "format": "szám"
+   }
+  ],
+  "explanation": "Kamat = hitelállomány × kamatláb / 12 × hónapok. A tőketörlesztés nem eredményhatású, csak a kamat ráfordítás.",
+  "source": "Jegyzet 3.7 · 3.9",
+  "official": false,
+  "difficulty": 2,
+  "steps": [
+   "Kamat = 4 800 × 5% / 12 × 4 = 80.",
+   "T 8. Fizetett kamat (pénzügyi ráfordítás) – K 3. Elszámolási betét: 80.",
+   "A 600 törlesztés: T Hosszú lejáratú hitel – K Elszámolási betét; eredményhatás nincs."
+  ]
+ },
+ {
+  "id": "szv-3-025",
+  "chapter": 3,
+  "section": "3.7",
+  "type": "szamolas",
+  "points": 4,
+  "question": "A Szélmalom Bt. hosszú lejáratú hitelének állománya az időszak elején 3 600 eFt, kamatlába évi 8%. A kamatot a bank az időszak végén, 9 hónapra terheli meg a törlesztés előtti állományra számítva; az időszakban 400 eFt tőketörlesztés is történt. Mekkora a fizetendő kamat, és melyik két tételt könyvelnénk (a számlák nevével)?",
+  "fields": [
+   {
+    "label": "Fizetendő kamat (eFt)",
+    "answer": "216",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A kamat könyvelése: T számla",
+    "answer": "8. Fizetett kamat",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható); elfogadott: Pénzügyi műveletek ráfordításai",
+    "alts": [
+     "Fizetett kamat",
+     "Pénzügyi műveletek ráfordításai",
+     "8. Pénzügyi műveletek ráfordításai",
+     "Pénzügyi ráfordítás",
+     "8. Pénzügyi ráfordítás"
+    ]
+   },
+   {
+    "label": "A kamat könyvelése: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "A tőketörlesztés eredményhatása (eFt)",
+    "answer": "0",
+    "accept": "dec",
+    "format": "szám"
+   }
+  ],
+  "explanation": "Kamat = hitelállomány × kamatláb / 12 × hónapok. A tőketörlesztés nem eredményhatású, csak a kamat ráfordítás.",
+  "source": "Jegyzet 3.7 · 3.9",
+  "official": false,
+  "difficulty": 2,
+  "steps": [
+   "Kamat = 3 600 × 8% / 12 × 9 = 216.",
+   "T 8. Fizetett kamat (pénzügyi ráfordítás) – K 3. Elszámolási betét: 216.",
+   "A 400 törlesztés: T Hosszú lejáratú hitel – K Elszámolási betét; eredményhatás nincs."
+  ]
+ },
+ {
+  "id": "szv-3-026",
+  "chapter": 3,
+  "section": "3.7",
+  "type": "szamolas",
+  "points": 4,
+  "question": "A Orgona Zrt. hosszú lejáratú hitelének állománya az időszak elején 6 000 eFt, kamatlába évi 6%. A kamatot a bank az időszak végén, 5 hónapra terheli meg a törlesztés előtti állományra számítva; az időszakban 1 000 eFt tőketörlesztés is történt. Mekkora a fizetendő kamat, és melyik két tételt könyvelnénk (a számlák nevével)?",
+  "fields": [
+   {
+    "label": "Fizetendő kamat (eFt)",
+    "answer": "150",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A kamat könyvelése: T számla",
+    "answer": "8. Fizetett kamat",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható); elfogadott: Pénzügyi műveletek ráfordításai",
+    "alts": [
+     "Fizetett kamat",
+     "Pénzügyi műveletek ráfordításai",
+     "8. Pénzügyi műveletek ráfordításai",
+     "Pénzügyi ráfordítás",
+     "8. Pénzügyi ráfordítás"
+    ]
+   },
+   {
+    "label": "A kamat könyvelése: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "A tőketörlesztés eredményhatása (eFt)",
+    "answer": "0",
+    "accept": "dec",
+    "format": "szám"
+   }
+  ],
+  "explanation": "Kamat = hitelállomány × kamatláb / 12 × hónapok. A tőketörlesztés nem eredményhatású, csak a kamat ráfordítás.",
+  "source": "Jegyzet 3.7 · 3.9",
+  "official": false,
+  "difficulty": 2,
+  "steps": [
+   "Kamat = 6 000 × 6% / 12 × 5 = 150.",
+   "T 8. Fizetett kamat (pénzügyi ráfordítás) – K 3. Elszámolási betét: 150.",
+   "A 1 000 törlesztés: T Hosszú lejáratú hitel – K Elszámolási betét; eredményhatás nincs."
+  ]
+ },
+ {
+  "id": "szv-3-027",
+  "chapter": 3,
+  "section": "3.7",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy kereskedő áruértékesítésről 5 000 eFt végösszegű (25% ÁFA-t tartalmazó) számlát állított ki; az eladott áru bekerülési értéke 1 800 eFt. A vevő később az áru 20%-át visszaküldte. Mekkora a nettó árbevétel, az ÁFA, a visszáru árbevétele, ÁFA-ja és az ELÁBÉ-ból visszakerülő összeg?",
+  "fields": [
+   {
+    "label": "Nettó árbevétel (eFt)",
+    "answer": "4000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "ÁFA (eFt)",
+    "answer": "1000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Visszáru árbevétele (T ÉNÁ, eFt)",
+    "answer": "800",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Visszáru ÁFA-ja (T Fizetendő ÁFA, eFt)",
+    "answer": "200",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Visszakerülő bekerülési érték (K ELÁBÉ, eFt)",
+    "answer": "360",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "A számla végösszege bruttó: nettó = végösszeg / 1,25. Visszárunál mindhárom érték (árbevétel, ÁFA, bekerülési érték) arányosan, fordítva könyvelendő.",
+  "source": "Jegyzet 3.7 Értelmezés",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Nettó = 5 000 / 1,25 = 4 000; ÁFA = 4 000 × 0,25 = 1 000.",
+   "Visszáru 20%: árbevétel 4 000 × 20% = 800; ÁFA 1 000 × 20% = 200; bekerülési érték 1 800 × 20% = 360.",
+   "Tételek: T ÉNÁ – K Vevők 800; T Fizetendő ÁFA – K Vevők 200; T Áruk – K ELÁBÉ 360."
+  ]
+ },
+ {
+  "id": "szv-3-028",
+  "chapter": 3,
+  "section": "3.7",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy kereskedő áruértékesítésről 3 750 eFt végösszegű (25% ÁFA-t tartalmazó) számlát állított ki; az eladott áru bekerülési értéke 1 200 eFt. A vevő később az áru 10%-át visszaküldte. Mekkora a nettó árbevétel, az ÁFA, a visszáru árbevétele, ÁFA-ja és az ELÁBÉ-ból visszakerülő összeg?",
+  "fields": [
+   {
+    "label": "Nettó árbevétel (eFt)",
+    "answer": "3000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "ÁFA (eFt)",
+    "answer": "750",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Visszáru árbevétele (T ÉNÁ, eFt)",
+    "answer": "300",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Visszáru ÁFA-ja (T Fizetendő ÁFA, eFt)",
+    "answer": "75",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Visszakerülő bekerülési érték (K ELÁBÉ, eFt)",
+    "answer": "120",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "A számla végösszege bruttó: nettó = végösszeg / 1,25. Visszárunál mindhárom érték (árbevétel, ÁFA, bekerülési érték) arányosan, fordítva könyvelendő.",
+  "source": "Jegyzet 3.7 Értelmezés",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Nettó = 3 750 / 1,25 = 3 000; ÁFA = 3 000 × 0,25 = 750.",
+   "Visszáru 10%: árbevétel 3 000 × 10% = 300; ÁFA 750 × 10% = 75; bekerülési érték 1 200 × 10% = 120.",
+   "Tételek: T ÉNÁ – K Vevők 300; T Fizetendő ÁFA – K Vevők 75; T Áruk – K ELÁBÉ 120."
+  ]
+ },
+ {
+  "id": "szv-3-029",
+  "chapter": 3,
+  "section": "3.7",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy kereskedő áruértékesítésről 6 250 eFt végösszegű (25% ÁFA-t tartalmazó) számlát állított ki; az eladott áru bekerülési értéke 2 000 eFt. A vevő később az áru 40%-át visszaküldte. Mekkora a nettó árbevétel, az ÁFA, a visszáru árbevétele, ÁFA-ja és az ELÁBÉ-ból visszakerülő összeg?",
+  "fields": [
+   {
+    "label": "Nettó árbevétel (eFt)",
+    "answer": "5000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "ÁFA (eFt)",
+    "answer": "1250",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Visszáru árbevétele (T ÉNÁ, eFt)",
+    "answer": "2000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Visszáru ÁFA-ja (T Fizetendő ÁFA, eFt)",
+    "answer": "500",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Visszakerülő bekerülési érték (K ELÁBÉ, eFt)",
+    "answer": "800",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "A számla végösszege bruttó: nettó = végösszeg / 1,25. Visszárunál mindhárom érték (árbevétel, ÁFA, bekerülési érték) arányosan, fordítva könyvelendő.",
+  "source": "Jegyzet 3.7 Értelmezés",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Nettó = 6 250 / 1,25 = 5 000; ÁFA = 5 000 × 0,25 = 1 250.",
+   "Visszáru 40%: árbevétel 5 000 × 40% = 2 000; ÁFA 1 250 × 40% = 500; bekerülési érték 2 000 × 40% = 800.",
+   "Tételek: T ÉNÁ – K Vevők 2 000; T Fizetendő ÁFA – K Vevők 500; T Áruk – K ELÁBÉ 800."
+  ]
+ },
+ {
+  "id": "szv-3-030",
+  "chapter": 3,
+  "section": "3.8",
+  "type": "szamolas",
+  "points": 3,
+  "question": "Egy vállalkozás időszaki eredményszámlái: Értékesítés nettó árbevétele 4 536; ELÁBÉ 3 100; Fizetett kamat 36; Anyagköltség 140; Bérköltség 820; Bérjárulék 140 (eFt). Adóalap-korrekciós tétel nincs, a társasági adó 10%. Mekkora az adózás előtti eredmény, a társasági adó és az adózott eredmény?",
+  "fields": [
+   {
+    "label": "Adózás előtti eredmény (eFt)",
+    "answer": "300",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Társasági adó (eFt)",
+    "answer": "30",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Adózott eredmény (eFt)",
+    "answer": "270",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Adózás előtti eredmény = bevétel − ráfordítás − költség; társasági adó = adóalap × 10%; adózott eredmény = adózás előtti eredmény − adó.",
+  "source": "Jegyzet 3.8",
+  "official": false,
+  "difficulty": 2,
+  "steps": [
+   "Adózás előtti eredmény = 4 536 − 3 100 − 36 − 140 − 820 − 140 = 300.",
+   "Társasági adó = 300 × 0,1 = 30.",
+   "Adózott eredmény = 300 − 30 = 270."
+  ]
+ },
+ {
+  "id": "szv-3-031",
+  "chapter": 3,
+  "section": "3.8",
+  "type": "szamolas",
+  "points": 3,
+  "question": "Egy vállalkozás időszaki eredményszámlái: Értékesítés nettó árbevétele 5 584; ELÁBÉ 3 900; Fizetett kamat 24; Anyagköltség 210; Bérköltség 760; Értékcsökkenési leírás 90 (eFt). Adóalap-korrekciós tétel nincs, a társasági adó 10%. Mekkora az adózás előtti eredmény, a társasági adó és az adózott eredmény?",
+  "fields": [
+   {
+    "label": "Adózás előtti eredmény (eFt)",
+    "answer": "600",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Társasági adó (eFt)",
+    "answer": "60",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Adózott eredmény (eFt)",
+    "answer": "540",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Adózás előtti eredmény = bevétel − ráfordítás − költség; társasági adó = adóalap × 10%; adózott eredmény = adózás előtti eredmény − adó.",
+  "source": "Jegyzet 3.8",
+  "official": false,
+  "difficulty": 2,
+  "steps": [
+   "Adózás előtti eredmény = 5 584 − 3 900 − 24 − 210 − 760 − 90 = 600.",
+   "Társasági adó = 600 × 0,1 = 60.",
+   "Adózott eredmény = 600 − 60 = 540."
+  ]
+ },
+ {
+  "id": "szv-3-032",
+  "chapter": 3,
+  "section": "3.8",
+  "type": "szamolas",
+  "points": 3,
+  "question": "Egy vállalkozás időszaki eredményszámlái: Értékesítés nettó árbevétele 3 418; ELÁBÉ 2 100; Fizetett kamat 18; Anyagköltség 80; Bérköltség 540; Igénybe vett szolgáltatás 60 (eFt). Adóalap-korrekciós tétel nincs, a társasági adó 10%. Mekkora az adózás előtti eredmény, a társasági adó és az adózott eredmény?",
+  "fields": [
+   {
+    "label": "Adózás előtti eredmény (eFt)",
+    "answer": "620",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Társasági adó (eFt)",
+    "answer": "62",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Adózott eredmény (eFt)",
+    "answer": "558",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Adózás előtti eredmény = bevétel − ráfordítás − költség; társasági adó = adóalap × 10%; adózott eredmény = adózás előtti eredmény − adó.",
+  "source": "Jegyzet 3.8",
+  "official": false,
+  "difficulty": 2,
+  "steps": [
+   "Adózás előtti eredmény = 3 418 − 2 100 − 18 − 80 − 540 − 60 = 620.",
+   "Társasági adó = 620 × 0,1 = 62.",
+   "Adózott eredmény = 620 − 62 = 558."
+  ]
+ },
+ {
+  "id": "szv-3-033",
+  "chapter": 3,
+  "section": "3.7",
+  "type": "szamolas",
+  "points": 20,
+  "question": "A Hársfa Kft. eseményeit négyszámlasoros módszerrel, ÁFÁ-val könyveljük (eFt, 25% ÁFA; a társasági adó 10%, adóalap-korrekció nincs).\n\nTartozik (T) oldali nyitó egyenlegek: 1. Szellemi termék 800; 1. Gépek 1 600; 2. Áruk 1 200; 3. Vevők 900; 3. Elszámolási betét 3 000. Követel (K) oldali nyitó egyenlegek: 4. Jegyzett tőke 5 000; 4. Hosszú lejáratú hitel 2 000; 4. Szállítók 300; 4. Eredménytartalék 200.\n\nEsemények:\n1. Árubeszerzés szállítótól 1 600 + 25% ÁFA értékben.\n2. Áru értékesítése vevőnek; a számla végösszege 5 000 eFt (25% ÁFA-val), az áru bekerülési értéke 2 000 eFt.\n3. A vevő az áru 10%-át visszaküldte.\n4. Hitelkamat: a hitel 2 000 eFt-os állományára 6%-os éves kamat 3 hónapra, átutalva a bankszámláról.\n5. Bérköltség elszámolása: bruttó 600 eFt, SZJA 15%, TB-járulék 18,5%, a munkáltató bérjárulék-terhe 13%.\n6. Értékcsökkenés elszámolása: gépek 160 eFt, szellemi termék 82 eFt.\n\nKönyvelje az eseményeket a rácsban, majd határozza meg a mezőkben kért értékeket (a három ÁFA-számlát vonja össze: Fizetendő − Előzetes)!",
+  "fields": [
+   {
+    "label": "1. esemény, 1. tétel: T számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: összeg",
+    "answer": "1600",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1 600",
+     "400"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: összeg",
+    "answer": "400",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1600",
+     "1 600"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Vevők",
+     "Vevők"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "2000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "2 000",
+     "4000",
+     "4 000",
+     "1000",
+     "1 000"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Áruk",
+     "Áruk",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "4000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "4 000",
+     "2000",
+     "2 000",
+     "1000",
+     "1 000"
+    ]
+   },
+   {
+    "label": "2. esemény, 3. tétel: T számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "2. esemény, 3. tétel: K számla",
+    "answer": "4. Fizetendő ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Fizetendő ÁFA",
+     "2. Áruk",
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "2. esemény, 3. tétel: összeg",
+    "answer": "1000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1 000",
+     "2000",
+     "2 000",
+     "4000",
+     "4 000"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: T számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: K számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: összeg",
+    "answer": "400",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "100",
+     "200"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: T számla",
+    "answer": "4. Fizetendő ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Fizetendő ÁFA",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: K számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: összeg",
+    "answer": "100",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "400",
+     "200"
+    ]
+   },
+   {
+    "label": "3. esemény, 3. tétel: T számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 3. tétel: K számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Vevők",
+     "Vevők"
+    ]
+   },
+   {
+    "label": "3. esemény, 3. tétel: összeg",
+    "answer": "200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "400",
+     "100"
+    ]
+   },
+   {
+    "label": "4. esemény: T számla",
+    "answer": "8. Pénzügyi műveletek ráfordításai",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénzügyi műveletek ráfordításai",
+     "Fizetett kamat",
+     "8. Fizetett kamat",
+     "Pénzügyi ráfordítás",
+     "8. Pénzügyi ráfordítás"
+    ]
+   },
+   {
+    "label": "4. esemény: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "4. esemény: összeg",
+    "answer": "30",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "5. esemény, 1. tétel: T számla",
+    "answer": "5. Bérköltség",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Bérköltség",
+     "4. Jövedelemelszámolási számla",
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "5. Bérjárulékok",
+     "Bérjárulékok"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: K számla",
+    "answer": "4. Jövedelemelszámolási számla",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "4. SZJA kötelezettség",
+     "SZJA kötelezettség",
+     "4. KBK",
+     "KBK"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: összeg",
+    "answer": "600",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "90",
+     "111",
+     "78"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: T számla",
+    "answer": "4. Jövedelemelszámolási számla",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "5. Bérköltség",
+     "Bérköltség",
+     "5. Bérjárulékok",
+     "Bérjárulékok"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: K számla",
+    "answer": "4. SZJA kötelezettség",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "SZJA kötelezettség",
+     "4. Jövedelemelszámolási számla",
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "4. KBK",
+     "KBK"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: összeg",
+    "answer": "90",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "600",
+     "111",
+     "78"
+    ]
+   },
+   {
+    "label": "5. esemény, 3. tétel: T számla",
+    "answer": "4. Jövedelemelszámolási számla",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "5. Bérköltség",
+     "Bérköltség",
+     "5. Bérjárulékok",
+     "Bérjárulékok"
+    ]
+   },
+   {
+    "label": "5. esemény, 3. tétel: K számla",
+    "answer": "4. KBK",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "KBK",
+     "4. Jövedelemelszámolási számla",
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "4. SZJA kötelezettség",
+     "SZJA kötelezettség"
+    ]
+   },
+   {
+    "label": "5. esemény, 3. tétel: összeg",
+    "answer": "111",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "600",
+     "90",
+     "78"
+    ]
+   },
+   {
+    "label": "5. esemény, 4. tétel: T számla",
+    "answer": "5. Bérjárulékok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Bérjárulékok",
+     "5. Bérköltség",
+     "Bérköltség",
+     "4. Jövedelemelszámolási számla",
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség"
+    ]
+   },
+   {
+    "label": "5. esemény, 4. tétel: K számla",
+    "answer": "4. KBK",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "KBK",
+     "4. Jövedelemelszámolási számla",
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "4. SZJA kötelezettség",
+     "SZJA kötelezettség"
+    ]
+   },
+   {
+    "label": "5. esemény, 4. tétel: összeg",
+    "answer": "78",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "600",
+     "90",
+     "111"
+    ]
+   },
+   {
+    "label": "6. esemény, 1. tétel: T számla",
+    "answer": "5. Értékcsökkenési leírás",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékcsökkenési leírás"
+    ]
+   },
+   {
+    "label": "6. esemény, 1. tétel: K számla",
+    "answer": "1. Gépek",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Gépek",
+     "1. Szellemi termék",
+     "Szellemi termék"
+    ]
+   },
+   {
+    "label": "6. esemény, 1. tétel: összeg",
+    "answer": "160",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "82"
+    ]
+   },
+   {
+    "label": "6. esemény, 2. tétel: T számla",
+    "answer": "5. Értékcsökkenési leírás",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékcsökkenési leírás"
+    ]
+   },
+   {
+    "label": "6. esemény, 2. tétel: K számla",
+    "answer": "1. Szellemi termék",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szellemi termék",
+     "1. Gépek",
+     "Gépek"
+    ]
+   },
+   {
+    "label": "6. esemény, 2. tétel: összeg",
+    "answer": "82",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "160"
+    ]
+   },
+   {
+    "label": "Adózás előtti eredmény (eFt)",
+    "answer": "850",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Társasági adó (eFt)",
+    "answer": "85",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Adózott eredmény (eFt)",
+    "answer": "765",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "ÁFA-kötelezettség a záráskor (Fizetendő − Előzetes, eFt)",
+    "answer": "500",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Záró mérlegfőösszeg (eFt)",
+    "answer": "11528",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Sorrend: nyitás → események (minden ÁFA-s eseménynél 2–3 tétel) → eredményszámlák → adózás előtti eredmény → társasági adó → adózott eredmény → mérleg. Ellenőrzés: eszközök = források.",
+  "source": "Jegyzet 3.7 · 3.8 · Pt4/7 szerkezete",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "esemény: nettó 1 600 → T 2. Áruk; ÁFA = 1 600 × 0,25 = 400 → T Előzetes ÁFA; Szállítók K bruttó 2 000. Tétel(ek): T 2. Áruk – K 4. Szállítók: 1 600; T 4. Előzetes ÁFA – K 4. Szállítók: 400.",
+   "esemény: bruttó 5 000 → nettó 5 000 / 1,25 = 4 000; ÁFA 1 000; kivezetés 2 000. Tétel(ek): T 8. ELÁBÉ – K 2. Áruk: 2 000; T 3. Vevők – K 9. Értékesítés nettó árbevétele: 4 000; T 3. Vevők – K 4. Fizetendő ÁFA: 1 000.",
+   "esemény: visszáru 10%: árbevétel 4 000 × 10% = 400 (T ÁNÁ), ÁFA 100 (T Fizetendő ÁFA), bekerülési érték 2 000 × 10% = 200 visszakerül: T Áruk – K ELÁBÉ. Tétel(ek): T 9. Értékesítés nettó árbevétele – K 3. Vevők: 400; T 4. Fizetendő ÁFA – K 3. Vevők: 100; T 2. Áruk – K 8. ELÁBÉ: 200.",
+   "esemény: kamat = 2 000 × 6% / 12 × 3 = 30 (pénzügyi ráfordítás). Tétel(ek): T 8. Pénzügyi műveletek ráfordításai – K 3. Elszámolási betét: 30.",
+   "esemény: bruttó 600 (T Bérköltség – K Jövedelemelszámolás); SZJA 600 × 15% = 90; TB 600 × 18,5% = 111; bérjárulék 600 × 13% = 78 (T Bérjárulékok – K KBK). Tétel(ek): T 5. Bérköltség – K 4. Jövedelemelszámolási számla: 600; T 4. Jövedelemelszámolási számla – K 4. SZJA kötelezettség: 90; T 4. Jövedelemelszámolási számla – K 4. KBK: 111; T 5. Bérjárulékok – K 4. KBK: 78.",
+   "esemény: T Értékcsökkenési leírás – K az eszköz: 160 + 82. Tétel(ek): T 5. Értékcsökkenési leírás – K 1. Gépek: 160; T 5. Értékcsökkenési leírás – K 1. Szellemi termék: 82.",
+   "→ Eredményszámlák egyenlege: bevétel − ráfordítás − költség = 850; adó = 850 × 0,1 = 85; adózott eredmény = 765.",
+   "→ ÁFA-kötelezettség = Fizetendő 900 − Előzetes 400 = 500.",
+   "→ Mérlegfőösszeg (az eszközszámlák záró egyenlege) = 11 528 = források (10 678 a 4. számlaosztály nettó egyenlege + 850 az időszak eredménye)."
+  ]
+ },
+ {
+  "id": "szv-3-034",
+  "chapter": 3,
+  "section": "3.7",
+  "type": "szamolas",
+  "points": 20,
+  "question": "A Gyertyános Kft. eseményeit négyszámlasoros módszerrel, ÁFÁ-val könyveljük (eFt, 25% ÁFA; a társasági adó 10%, adóalap-korrekció nincs).\n\nTartozik (T) oldali nyitó egyenlegek: 1. Gépek 2 000; 2. Áruk 1 800; 3. Vevők 600; 3. Pénztár 200; 3. Elszámolási betét 2 400. Követel (K) oldali nyitó egyenlegek: 4. Jegyzett tőke 4 000; 4. Hosszú lejáratú hitel 1 800; 4. Szállítók 1 200.\n\nEsemények:\n1. Áruértékesítés vevőnek 6 000 + 25% ÁFA értékben; az áru bekerülési értéke 3 200 eFt.\n2. Árubeszerzés szállítótól 2 000 + 25% ÁFA értékben.\n3. Utólagos 5% árengedmény a vevőnek (helyesbítő számla a nettó értékre).\n4. Hitelkamat: 1 800 eFt hitelállomány, évi 10%, 5 hónap, bankszámláról.\n5. Munkabér: bruttó 500 eFt, SZJA 15%, TB-járulék 18,5%, bérjárulék 13%.\n6. Készpénzes nyomtatványvásárlás: kifizetve 125 eFt bruttó (25% ÁFA).\n7. A szállítói tartozás kiegyenlítése bankszámláról: 1 200 eFt.\n\nKönyvelje az eseményeket a rácsban, majd határozza meg a mezőkben kért értékeket (a három ÁFA-számlát vonja össze: Fizetendő − Előzetes)!",
+  "fields": [
+   {
+    "label": "1. esemény, 1. tétel: T számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Vevők",
+     "Vevők"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: K számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: összeg",
+    "answer": "3200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "3 200",
+     "6000",
+     "6 000",
+     "1500",
+     "1 500"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: T számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: K számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Áruk",
+     "Áruk",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: összeg",
+    "answer": "6000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "6 000",
+     "3200",
+     "3 200",
+     "1500",
+     "1 500"
+    ]
+   },
+   {
+    "label": "1. esemény, 3. tétel: T számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "1. esemény, 3. tétel: K számla",
+    "answer": "4. Fizetendő ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Fizetendő ÁFA",
+     "2. Áruk",
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "1. esemény, 3. tétel: összeg",
+    "answer": "1500",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1 500",
+     "3200",
+     "3 200",
+     "6000",
+     "6 000"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "2000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "2 000",
+     "500"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "500",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "2000",
+     "2 000"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: T számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: K számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: összeg",
+    "answer": "300",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "75"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: T számla",
+    "answer": "4. Fizetendő ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Fizetendő ÁFA",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: K számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: összeg",
+    "answer": "75",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "300"
+    ]
+   },
+   {
+    "label": "4. esemény: T számla",
+    "answer": "8. Pénzügyi műveletek ráfordításai",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénzügyi műveletek ráfordításai",
+     "Fizetett kamat",
+     "8. Fizetett kamat",
+     "Pénzügyi ráfordítás",
+     "8. Pénzügyi ráfordítás"
+    ]
+   },
+   {
+    "label": "4. esemény: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "4. esemény: összeg",
+    "answer": "75",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "5. esemény, 1. tétel: T számla",
+    "answer": "5. Bérköltség",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Bérköltség",
+     "4. Jövedelemelszámolási számla",
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "5. Bérjárulékok",
+     "Bérjárulékok"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: K számla",
+    "answer": "4. Jövedelemelszámolási számla",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "4. SZJA kötelezettség",
+     "SZJA kötelezettség",
+     "4. KBK",
+     "KBK"
+    ]
+   },
+   {
+    "label": "5. esemény, 1. tétel: összeg",
+    "answer": "500",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "75",
+     "92.5",
+     "65"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: T számla",
+    "answer": "4. Jövedelemelszámolási számla",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "5. Bérköltség",
+     "Bérköltség",
+     "5. Bérjárulékok",
+     "Bérjárulékok"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: K számla",
+    "answer": "4. SZJA kötelezettség",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "SZJA kötelezettség",
+     "4. Jövedelemelszámolási számla",
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "4. KBK",
+     "KBK"
+    ]
+   },
+   {
+    "label": "5. esemény, 2. tétel: összeg",
+    "answer": "75",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "500",
+     "92.5",
+     "65"
+    ]
+   },
+   {
+    "label": "5. esemény, 3. tétel: T számla",
+    "answer": "4. Jövedelemelszámolási számla",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "5. Bérköltség",
+     "Bérköltség",
+     "5. Bérjárulékok",
+     "Bérjárulékok"
+    ]
+   },
+   {
+    "label": "5. esemény, 3. tétel: K számla",
+    "answer": "4. KBK",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "KBK",
+     "4. Jövedelemelszámolási számla",
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "4. SZJA kötelezettség",
+     "SZJA kötelezettség"
+    ]
+   },
+   {
+    "label": "5. esemény, 3. tétel: összeg",
+    "answer": "92.5",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "500",
+     "75",
+     "65"
+    ]
+   },
+   {
+    "label": "5. esemény, 4. tétel: T számla",
+    "answer": "5. Bérjárulékok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Bérjárulékok",
+     "5. Bérköltség",
+     "Bérköltség",
+     "4. Jövedelemelszámolási számla",
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség"
+    ]
+   },
+   {
+    "label": "5. esemény, 4. tétel: K számla",
+    "answer": "4. KBK",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "KBK",
+     "4. Jövedelemelszámolási számla",
+     "Jövedelemelszámolási számla",
+     "Munkavállalókkal szembeni kötelezettség",
+     "4. Munkavállalókkal szembeni kötelezettség",
+     "4. SZJA kötelezettség",
+     "SZJA kötelezettség"
+    ]
+   },
+   {
+    "label": "5. esemény, 4. tétel: összeg",
+    "answer": "65",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "500",
+     "75",
+     "92.5"
+    ]
+   },
+   {
+    "label": "6. esemény, 1. tétel: T számla",
+    "answer": "5. Anyagköltség",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagköltség",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "6. esemény, 1. tétel: K számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "6. esemény, 1. tétel: összeg",
+    "answer": "100",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "25"
+    ]
+   },
+   {
+    "label": "6. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "5. Anyagköltség",
+     "Anyagköltség"
+    ]
+   },
+   {
+    "label": "6. esemény, 2. tétel: K számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "6. esemény, 2. tétel: összeg",
+    "answer": "25",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "100"
+    ]
+   },
+   {
+    "label": "7. esemény: T számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "7. esemény: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "7. esemény: összeg",
+    "answer": "1200",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "Adózás előtti eredmény (eFt)",
+    "answer": "1760",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Társasági adó (eFt)",
+    "answer": "176",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Adózott eredmény (eFt)",
+    "answer": "1584",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "ÁFA-kötelezettség a záráskor (Fizetendő − Előzetes, eFt)",
+    "answer": "900",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Záró mérlegfőösszeg (eFt)",
+    "answer": "11525",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Sorrend: nyitás → események (minden ÁFA-s eseménynél 2–3 tétel) → eredményszámlák → adózás előtti eredmény → társasági adó → adózott eredmény → mérleg. Ellenőrzés: eszközök = források.",
+  "source": "Jegyzet 3.7 · 3.8 · Pt4/7 szerkezete",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "esemény: készletkivezetés 3 200: T ELÁBÉ – K Áruk; nettó árbevétel 6 000; ÁFA = 6 000 × 0,25 = 1 500 → K Fizetendő ÁFA; vevő T bruttó 7 500. Tétel(ek): T 8. ELÁBÉ – K 2. Áruk: 3 200; T 3. Vevők – K 9. Értékesítés nettó árbevétele: 6 000; T 3. Vevők – K 4. Fizetendő ÁFA: 1 500.",
+   "esemény: nettó 2 000 → T 2. Áruk; ÁFA = 2 000 × 0,25 = 500 → T Előzetes ÁFA; Szállítók K bruttó 2 500. Tétel(ek): T 2. Áruk – K 4. Szállítók: 2 000; T 4. Előzetes ÁFA – K 4. Szállítók: 500.",
+   "esemény: engedmény 6 000 × 5% = 300 (T ÁNÁ), ÁFA 75 (T Fizetendő ÁFA), vevő K bruttó 375. Tétel(ek): T 9. Értékesítés nettó árbevétele – K 3. Vevők: 300; T 4. Fizetendő ÁFA – K 3. Vevők: 75.",
+   "esemény: kamat = 1 800 × 10% / 12 × 5 = 75. Tétel(ek): T 8. Pénzügyi műveletek ráfordításai – K 3. Elszámolási betét: 75.",
+   "esemény: bruttó 500; SZJA 75; TB 92,5; bérjárulék 65. Tétel(ek): T 5. Bérköltség – K 4. Jövedelemelszámolási számla: 500; T 4. Jövedelemelszámolási számla – K 4. SZJA kötelezettség: 75; T 4. Jövedelemelszámolási számla – K 4. KBK: 92,5; T 5. Bérjárulékok – K 4. KBK: 65.",
+   "esemény: bruttó 125 → nettó 100, ÁFA 25. Tétel(ek): T 5. Anyagköltség – K 3. Pénztár: 100; T 4. Előzetes ÁFA – K 3. Pénztár: 25.",
+   "esemény: a tartozás és a pénz csökken; eredményhatás nincs. Tétel(ek): T 4. Szállítók – K 3. Elszámolási betét: 1 200.",
+   "→ Eredményszámlák egyenlege: bevétel − ráfordítás − költség = 1 760; adó = 1 760 × 0,1 = 176; adózott eredmény = 1 584.",
+   "→ ÁFA-kötelezettség = Fizetendő 1 425 − Előzetes 525 = 900.",
+   "→ Mérlegfőösszeg (az eszközszámlák záró egyenlege) = 11 525 = források (9 765 a 4. számlaosztály nettó egyenlege + 1 760 az időszak eredménye)."
+  ]
+ }
+]

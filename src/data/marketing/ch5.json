@@ -1,0 +1,489 @@
+[
+ {
+  "id": "mk-5-001",
+  "chapter": 5,
+  "section": "5.1",
+  "type": "igaz-hamis",
+  "question": "A versenyelőny a vállalatnak az a képessége, amely lehetővé teszi, hogy egy vagy több területen a versenytársak ne tudják vagy ne akarják követni.",
+  "answer": true,
+  "explanation": "Az 5. szeminárium megfogalmazása. A 2.8 szerint a versenyelőny a fogyasztóknak kínált nagyobb érték is (alacsonyabb ár vagy a magasabb árat igazoló többletelőny); a kettő együtt adja a teljes képet.",
+  "source": "Jegyzet 5.1 · 2.8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-5-002",
+  "chapter": 5,
+  "section": "5.2",
+  "type": "feleletvalasztos",
+  "question": "Melyik a versenytárs-elemzés három lépésének helyes sorrendje?",
+  "options": [
+   "a versenytársak azonosítása → céljaik, stratégiáik, erősségeik és gyengeségeik értékelése → a megtámadni vagy elkerülni kívánt versenytársak kiválasztása",
+   "a támadni kívánt versenytársak kiválasztása → azonosításuk → értékelésük",
+   "erősségeik és gyengeségeik értékelése → azonosításuk → a stratégiájuk lemásolása",
+   "a versenytársak kiválasztása → lépéseik becslése → azonosításuk"
+  ],
+  "answer": "a versenytársak azonosítása → céljaik, stratégiáik, erősségeik és gyengeségeik értékelése → a megtámadni vagy elkerülni kívánt versenytársak kiválasztása",
+  "explanation": "Azonosít, elemez (értékel), kiválaszt: ugyanaz a három ige, mint a versenytárs-elemzés definíciójában.",
+  "source": "Jegyzet 5.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-5-003",
+  "chapter": 5,
+  "section": "5.2",
+  "type": "igaz-hamis",
+  "question": "A szemináriumi definíció szerint csak azok a cégek számítanak versenytársnak, amelyek ugyanazt a terméket vagy termékkategóriát gyártják.",
+  "answer": false,
+  "explanation": "A szűk definíció hasonló terméket kínál ugyanazon fogyasztóknak hasonló áron, de versenytárs lehet az is, amelynek terméke ugyanazt a szolgáltatást nyújtja, vagy aki ugyanazért a fogyasztói pénztárcáért versenyez.",
+  "source": "Jegyzet 5.2",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-004",
+  "chapter": 5,
+  "section": "5.2",
+  "type": "feleletvalasztos",
+  "question": "Egy mozi tulajdonosa észreveszi, hogy a péntek esti vendégeit elveszíti egy közeli étterem, mert a vevők ugyanazt az esti költőpénzt költik el. A versenytársak melyik tágabb köre ez?",
+  "options": [
+   "akik ugyanazért a fogyasztói pénztárcáért versenyeznek",
+   "akik ugyanazt a terméket vagy termékkategóriát gyártják",
+   "akik ugyanazt a szolgáltatást nyújtó, de más termékeket gyártanak",
+   "akik ugyanabban a stratégiai csoportban vannak"
+  ],
+  "answer": "akik ugyanazért a fogyasztói pénztárcáért versenyeznek",
+  "explanation": "A három egyre tágabb kör: ugyanaz a termék, ugyanaz a szolgáltatás más termékkel, ugyanaz a pénztárca. A mozi és az étterem utóbbi.",
+  "source": "Jegyzet 5.2",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-005",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "parositas",
+  "question": "Párosítsd a versenytársak értékelésének szempontját a kérdésével!",
+  "answer": [
+   [
+    "a versenytársak céljai",
+    "Mit akarnak elérni (pl. nyereségesség, piaci részesedés növelése)?"
+   ],
+   [
+    "a versenytárs stratégiája",
+    "Hogyan versenyeznek, melyik stratégiai csoportba tartoznak?"
+   ],
+   [
+    "erősségek / gyengeségek",
+    "Mit tudnak a versenytársak (benchmarking)?"
+   ],
+   [
+    "lépéseik becslése",
+    "Mit fognak tenni a versenytársak?"
+   ]
+  ],
+  "explanation": "Az első három a versenytárs jelenlegi helyzetét írja le, a negyedik ezekből a jövőre következtet.",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-5-006",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelöld meg azokat az állításokat, amelyek a versenytársak lehetséges céljai közé tartoznak!",
+  "statements": [
+   {
+    "text": "nyereségesség",
+    "answer": true
+   },
+   {
+    "text": "piaci részesedés növelése",
+    "answer": true
+   },
+   {
+    "text": "cash flow",
+    "answer": true
+   },
+   {
+    "text": "technológiai vezető szerep",
+    "answer": true
+   },
+   {
+    "text": "a stratégiai csoportok megszüntetése",
+    "answer": false
+   }
+  ],
+  "explanation": "A céloszlop elemei: nyereségesség, piaci részesedés növelése, cash flow, technológiai és szolgáltatói vezető szerep. A stratégiai csoport a versenytárs stratégiájához kapcsolódó fogalom, nem cél.",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-007",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "rovid-valasz",
+  "question": "Három luxus-sportautó-gyártó hasonló stratégiával ugyanarra a célpiacra pályázik ugyanabban az iparágban. Hogyan nevezzük az ilyen cégek csoportját?",
+  "answer": [
+   "stratégiai csoport",
+   "stratégiai csoportok",
+   "strategic group"
+  ],
+  "explanation": "A stratégiai csoport az egy iparágban működő, ugyanazt vagy hasonló stratégiát követő, ugyanarra a célpiacra pályázó vállalkozások csoportja.",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-008",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "igaz-hamis",
+  "question": "A diák szerint egy cég számára a saját stratégiai csoportján kívüli versenytársak jelentenek nagyobb versenyt, mint a csoporton belüliek.",
+  "answer": false,
+  "explanation": "Fordítva: a stratégiai csoportok nagyobb versenyt jelentenek. A csoporton belüli cégek hasonló stratégiával ugyanarra a célpiacra törnek.",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-009",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "feleletvalasztos",
+  "question": "Mit mutat meg a benchmarking?",
+  "options": [
+   "hol áll a cég a többi cég (iparág, ország vagy régió) teljesítményéhez képest",
+   "hogy melyik versenytárs a legnagyobb a piacon",
+   "hogy hány vevő hagyta el a céget",
+   "hogy melyik márkaelem a legvédhetőbb"
+  ],
+  "answer": "hol áll a cég a többi cég (iparág, ország vagy régió) teljesítményéhez képest",
+  "explanation": "A versenytársak erősségeinek és gyengeségeinek értékelésénél használt összehasonlítás; alapja lehet az iparág, egy ország vagy egy régió.",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-5-010",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "feleletvalasztos",
+  "question": "Egy benchmark-skála értékei: alsó 10% határa 48, alsó harmadé 60, átlag 70, felső harmadé 80, felső 10%-é 92. Egy cég indexe 74. Hova esik a cég?",
+  "options": [
+   "az átlag fölé, de a felső harmad határa alá",
+   "a felső harmadba",
+   "az alsó harmad alá",
+   "a felső 10%-ba"
+  ],
+  "answer": "az átlag fölé, de a felső harmad határa alá",
+  "explanation": "70 < 74 < 80: átlag fölötti, de még nincs a felső harmadban (az 80 fölött kezdődne). A jegyzet ábra-olvasata: a 81-es cég a 78-as határ fölött a felső harmadba esik.",
+  "source": "Jegyzet 5.3 (derivedKey: a dia nem magyarázza az ábrát, az olvasat a jegyzet Értelmezés doboza)",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-011",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "igaz-hamis",
+  "question": "Az ügyfélérték-elemzés azt vizsgálja, milyen előnyöket tartanak értéknek a vevők, és hogyan értékelik a különböző versenytársak ajánlatait.",
+  "answer": true,
+  "explanation": "Az erős vagy gyenge versenytársak megkülönböztetésére szolgál; két lépése van: a vevők által értékelt kulcsjellemzők azonosítása, majd a cég és a versenytársak teljesítményének értékelése ezek mentén.",
+  "source": "Jegyzet 5.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-5-012",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "igaz-hamis",
+  "question": "Az ügyfélérték-elemzés első lépése a vállalat és a versenytársak teljesítményének értékelése, és csak ezután azonosítják a vevők által fontosnak tartott jellemzőket.",
+  "answer": false,
+  "explanation": "Fordított a sorrend: előbb azonosítják a vevők által értékelt kulcsjellemzőket és fontosságukat, utána értékelik a teljesítményeket ezek mentén.",
+  "source": "Jegyzet 5.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-013",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "rovid-valasz",
+  "question": "Egy startup olyan, ma még nem létező iparágat teremt, ahol nincs verseny, és a kereslet szinte végtelen. Hogyan nevezi a diasor ezt a stratégiát?",
+  "answer": [
+   "kék óceán stratégia",
+   "kék óceán",
+   "blue ocean",
+   "blue-ocean strategy"
+  ],
+  "explanation": "Az ismeretlen piacok világa: nem megtámadja vagy elkerüli a versenytársakat, hanem olyan piacot keres, ahol még nincsenek.",
+  "source": "Jegyzet 5.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-5-014",
+  "chapter": 5,
+  "section": "5.5",
+  "type": "feleletvalasztos",
+  "question": "Melyik NEM Porter négy vállalati versenystratégiájának egyike?",
+  "options": [
+   "piackövető stratégia",
+   "költségdiktáló stratégia",
+   "koncentráló stratégia",
+   "differenciáló stratégia"
+  ],
+  "answer": "piackövető stratégia",
+  "explanation": "Porter négy stratégiája: költségdiktáló, differenciáló, koncentráló, harmadikutas. A piackövető a piaci helyzet szerinti szerepek egyike.",
+  "source": "Jegyzet 5.5 · 5.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-015",
+  "chapter": 5,
+  "section": "5.5",
+  "type": "feleletvalasztos",
+  "question": "Egy gyártócég nagyfokú termelési hatékonysággal és fegyelmezett költséggazdálkodással az iparág legolcsóbb szereplője. Melyik Porter-stratégiát követi?",
+  "options": [
+   "költségdiktáló",
+   "differenciáló",
+   "koncentráló",
+   "harmadikutas"
+  ],
+  "answer": "költségdiktáló",
+  "explanation": "Kulcsszó: termelési hatékonyság és költségfegyelem.",
+  "source": "Jegyzet 5.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-016",
+  "chapter": 5,
+  "section": "5.5",
+  "type": "feleletvalasztos",
+  "question": "Egy szállodalánc a piac túlnyomó része által nagyra értékelt területen, a vendégélményben kíván kimagasló teljesítményt nyújtani. Melyik Porter-stratégia ez?",
+  "options": [
+   "differenciáló",
+   "költségdiktáló",
+   "koncentráló",
+   "harmadikutas"
+  ],
+  "answer": "differenciáló",
+  "explanation": "A differenciáló stratégia a piac nagy része által értékelt, lényeges területen ér el kimagasló teljesítményt. A koncentráló egy-egy szegmensre szabott.",
+  "source": "Jegyzet 5.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-017",
+  "chapter": 5,
+  "section": "5.5",
+  "type": "feleletvalasztos",
+  "question": "Egy kávépörkölő kizárólag a speciális, bio kávét kedvelő szegmens igényeire fejleszti a termékeit. Melyik Porter-stratégia ez?",
+  "options": [
+   "koncentráló",
+   "differenciáló",
+   "költségdiktáló",
+   "harmadikutas"
+  ],
+  "answer": "koncentráló",
+  "explanation": "Az erősség egy-egy piaci szegmentum igényeinek kielégítésében és az ennek megfelelő termékfejlesztésben rejlik.",
+  "source": "Jegyzet 5.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-018",
+  "chapter": 5,
+  "section": "5.5",
+  "type": "igaz-hamis",
+  "question": "A diasor szerint a „harmadikutas” (middle of the road) a sikeres negyedik versenystratégia a másik három mellett.",
+  "answer": false,
+  "explanation": "Csak a világos stratégiát követő vállalat tud kiváló teljesítményt nyújtani; a világos stratégia nélküli „harmadikutas” nem fog sikerülni.",
+  "source": "Jegyzet 5.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-019",
+  "chapter": 5,
+  "section": "5.5",
+  "type": "igaz-hamis",
+  "question": "A Porter-féle koncentráló stratégia és a koncentrált (niche) marketing mint célpiac-stratégia ugyanannak a modellnek két neve.",
+  "answer": false,
+  "explanation": "Rokon fogalmak, de más modell részei: Porter versenystratégiái (5.5), illetve a célpiac-stratégiák (2.7). A kérdés szóhasználatából derül ki, melyik modell szerint kell válaszolni.",
+  "source": "Jegyzet 5.5 · 2.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-020",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "parositas",
+  "question": "Párosítsd a piaci szerepet a hozzá tartozó stratégiával!",
+  "answer": [
+   [
+    "piacvezető",
+    "a piaci kereslet bővítése"
+   ],
+   [
+    "piackihívó",
+    "teljes letámadás"
+   ],
+   [
+    "piackövető",
+    "kövesd távolról"
+   ],
+   [
+    "piaci niche",
+    "specializáció (piac, vevő, termék, marketingmix)"
+   ]
+  ],
+  "explanation": "A vezető védekezik és bővít, a kihívó támad, a követő követ, a niche specializálódik.",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-021",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelöld meg az igaz állításokat a piacvezető stratégiáiról!",
+  "statements": [
+   {
+    "text": "Új felhasználók és új használati módok keresésével bővítheti a piaci keresletet.",
+    "answer": true
+   },
+   {
+    "text": "A részesedése megvédéséhez védekező marketinget, konzisztens árazást és erős fogyasztói elkötelezettséget alkalmazhat.",
+    "answer": true
+   },
+   {
+    "text": "A részesedése növelhető kiváló minőségű termékekkel és jó szolgáltatási élményekkel.",
+    "answer": true
+   },
+   {
+    "text": "Jellemző stratégiája a másodiknak lépő előnye, azaz a vezető sikeres megoldásainak jobb verzióban való kínálása.",
+    "answer": false
+   },
+   {
+    "text": "Kulcsa a szűk specializáció egy piaci résre.",
+    "answer": false
+   }
+  ],
+  "explanation": "A másodiknak lépő előnye a kihívó stratégiáinál szerepel, a specializáció a niche-é.",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-022",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "feleletvalasztos",
+  "question": "Egy cég a piac legnagyobb szereplője, és azon dolgozik, hogy új felhasználók és új használati módok révén nőjön a teljes kereslet. Melyik piaci szerepet tölti be?",
+  "options": [
+   "piacvezető",
+   "piackihívó",
+   "piackövető",
+   "piaci niche"
+  ],
+  "answer": "piacvezető",
+  "explanation": "A vezető első feladata a piaci kereslet bővítése (új felhasználók, új használati módok, több használat).",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-023",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "rovid-valasz",
+  "question": "Egy cég a piacvezetőt támadja, mert megfigyelte, miben sikeres a vezető, és ugyanazt jobb változatban kínálja. Melyik piaci szerepű cég, és melyik előnyét használja ki?",
+  "answer": [
+   "piackihívó; a másodiknak lépő előnyét",
+   "piackihívó",
+   "kihívó",
+   "másodiknak lépő előnye",
+   "second mover advantage"
+  ],
+  "explanation": "A „másodiknak lépő előnye” a kihívó stratégiáinál szerepel, nem a követőnél: a kihívó jobb verziót kínál, a követő a vezető termékeit másolja vagy javítja kevesebb befektetéssel.",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-024",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "igaz-hamis",
+  "question": "A piackövető stratégiája, hogy a vezető termékeit és szolgáltatásait kevesebb befektetéssel másolja vagy javítja, és alacsony költségeket és árakat vagy magas minőséget kínál.",
+  "answer": true,
+  "explanation": "A követő két módon követhet: „kövesd szorosan” vagy „kövesd távolról”; megkülönböztető előnyöket is kínálhat.",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-025",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "feleletvalasztos",
+  "question": "Melyik leírja a diasor szerinti ideális piaci rést (niche)?",
+  "options": [
+   "elég nagy ahhoz, hogy nyereséges legyen, magas növekedési potenciálú, és a versenytársak kevés érdeklődést mutatnak iránta",
+   "kicsi és gyorsan zsugorodó, ezért a nagy szereplők elkerülik",
+   "nagy, ezért a nagy versenytársak is aktívan harcolnak érte",
+   "olyan piac, amelyen még nincs semmilyen verseny és a kereslet végtelen"
+  ],
+  "answer": "elég nagy ahhoz, hogy nyereséges legyen, magas növekedési potenciálú, és a versenytársak kevés érdeklődést mutatnak iránta",
+  "explanation": "Az utolsó leírás a kék óceán stratégia, nem a niche.",
+  "source": "Jegyzet 5.6 · 5.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-5-026",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "igaz-hamis",
+  "question": "A diasor szerint a piackihívó megtámadhatja a piacvezetőt, ami kockázatos, de nagy haszonnal kecsegtető stratégia.",
+  "answer": true,
+  "explanation": "A kihívó támadhat még hasonló méretű, gyengén működő cégeket és kisebb helyi vagy regionális cégeket is.",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mk-5-027",
+  "chapter": 5,
+  "section": "5.5",
+  "type": "kifejtos",
+  "points": 10,
+  "question": "Mutasd be Porter négy vállalati versenystratégiáját, és mondd el, miben különbözik a differenciáló és a koncentráló stratégia!",
+  "answer": [
+   "Három világos stratégia: költségdiktáló, differenciáló, koncentráló; negyedik: „harmadikutas” (middle of the road), világos stratégia nélkül.",
+   "Költségdiktáló: nagyfokú termelési hatékonyság és fegyelmezett költséggazdálkodás.",
+   "Differenciáló: a piac túlnyomó része által nagyra értékelt, lényeges területen kimagasló teljesítmény.",
+   "Koncentráló: egy-egy piaci szegmentum igényeinek kielégítése és az ennek megfelelő termékfejlesztés.",
+   "Különbség: a differenciáló a piac nagy részét célozza, a koncentráló egy szegmenst.",
+   "Harmadikutas: a dia szerint nem fog sikerülni; csak a világos stratégia vezet kiváló teljesítményhez.",
+   "Példa (saját): egy diszkont kiskereskedő (költség), egy prémium szálloda (differenciáló), egy bio kávépörkölő (koncentráló).",
+   "Kapcsolódás: ne keverd a differenciált marketinggel (2.7) és a termék differenciálásával (2.8)."
+  ],
+  "explanation": "Pontozás: négy stratégia 4 pont, differenciáló–koncentráló különbség 2 pont, példa 2 pont, szerkezet 2 pont.",
+  "source": "Jegyzet 5.5",
+  "official": false,
+  "difficulty": 3
+ }
+]

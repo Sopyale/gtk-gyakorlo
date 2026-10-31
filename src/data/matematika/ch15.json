@@ -1,0 +1,227 @@
+[
+ {
+  "id": "mat-15-001",
+  "chapter": 15,
+  "section": "15.1",
+  "type": "szamolas",
+  "points": 10,
+  "question": "a) Egy könyvtáros 8 különböző könyvet állít sorba a polcon. Hányféle sorrend lehetséges? b) A „MATEMATIKA” szó betűit összekeverjük. Hányféle különböző betűsor állhat elő? c) Egy 12 fős tanulócsoportból 4 főt választanak egy szemináriumi csapatba. Hányféleképpen tehető ez meg? d) Egy büfében 6-féle üdítő kapható, és 4 üveget vásárolunk (egy fajtából többet is lehet). Hányféleképpen választhatunk?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "40320",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "151200",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "495",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "d)",
+    "answer": "126",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Módszer: Kombinatorika: permutáció, ismétléses permutáció, kombináció. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KOMB-1",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) 8 különböző elem összes sorrendje (permutáció): 8! = 40 320.",
+   "b) Ismétléses permutáció: 10!/(2!·3!·2!·1!·1!·1!) = 151 200.",
+   "c) Sorrend nem számít, nincs ismétlés (kombináció): C(12, 4) = 495.",
+   "d) Sorrend nem számít, ismétlés lehet (ismétléses kombináció): 6 fajta, 4 darab → C(6 + 4 − 1, 4) = C(9, 4) = 126.",
+   "Eredmény: a) 40320; b) 151200; c) 495; d) 126."
+  ]
+ },
+ {
+  "id": "mat-15-002",
+  "chapter": 15,
+  "section": "15.2",
+  "type": "szamolas",
+  "points": 10,
+  "question": "a) Hét gyerek áll sorba a büfénél. Hányféle sorrend lehetséges? b) Egy sorban 2 piros, 4 kék és 1 zöld lámpa van egymás mellett. Hányféle színsorrend lehetséges? c) 15 pályázóból 3 nyertest sorsolnak ki, a nyeremények egyformák. Hányféleképpen tehető ez meg? d) Egy cukrászda 4-féle süteményt kínál, és 5 darabot rendelünk (fajtánként többet is lehet). Hányféleképpen választhatunk?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "5040",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "105",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "455",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "d)",
+    "answer": "56",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Módszer: Kombinatorika: permutáció, ismétléses permutáció, kombináció. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KOMB-2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) 7 különböző elem összes sorrendje (permutáció): 7! = 5 040.",
+   "b) Ismétléses permutáció: 7!/(2!·4!·1!) = 105.",
+   "c) Sorrend nem számít, nincs ismétlés (kombináció): C(15, 3) = 455.",
+   "d) Sorrend nem számít, ismétlés lehet (ismétléses kombináció): 4 fajta, 5 darab → C(4 + 5 − 1, 5) = C(8, 5) = 56.",
+   "Eredmény: a) 5040; b) 105; c) 455; d) 56."
+  ]
+ },
+ {
+  "id": "mat-15-003",
+  "chapter": 15,
+  "section": "15.3",
+  "type": "szamolas",
+  "points": 10,
+  "question": "a) Kilenc különböző színű tollat tennek egymás mellé az asztalra. Hányféle sorrend lehetséges? b) Az 1, 1, 1, 2, 2, 5, 5 számjegyekből hétjegyű számokat írunk. Hányféle különböző szám jön ki? c) 20 hallgatóból 5 főt választanak a kari tanácsba. Hányféleképpen tehető ez meg? d) Egy pizzéria 3-féle pizzát kínál, és 6 szeletet kérünk (egy fajtából többet is). Hányféleképpen választhatunk?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "362880",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "210",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "15504",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "d)",
+    "answer": "28",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Módszer: Kombinatorika: permutáció, ismétléses permutáció, kombináció. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KOMB-3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) 9 különböző elem összes sorrendje (permutáció): 9! = 362 880.",
+   "b) Ismétléses permutáció: 7!/(3!·2!·2!) = 210.",
+   "c) Sorrend nem számít, nincs ismétlés (kombináció): C(20, 5) = 15 504.",
+   "d) Sorrend nem számít, ismétlés lehet (ismétléses kombináció): 3 fajta, 6 darab → C(3 + 6 − 1, 6) = C(8, 6) = 28.",
+   "Eredmény: a) 362880; b) 210; c) 15504; d) 28."
+  ]
+ },
+ {
+  "id": "mat-15-004",
+  "chapter": 15,
+  "section": "15.4",
+  "type": "szamolas",
+  "points": 10,
+  "question": "a) Öt vendég ül le egy hosszú pad egy-egy helyére. Hányféle sorrend lehetséges? b) Egy lámpafüzéren 3 piros és 5 sárga izzó van sorban. Hányféle színsorrend lehetséges? c) 10 jelentkezőből 6 főt vesznek fel. Hányféleképpen tehető ez meg? d) Egy virágbolt 7-féle virágot árul, és 3 szálas csokrot kötünk (egy fajtából több szál is lehet). Hányféleképpen választhatunk?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "120",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "56",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "210",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "d)",
+    "answer": "84",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Módszer: Kombinatorika: permutáció, ismétléses permutáció, kombináció. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KOMB-4",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) 5 különböző elem összes sorrendje (permutáció): 5! = 120.",
+   "b) Ismétléses permutáció: 8!/(3!·5!) = 56.",
+   "c) Sorrend nem számít, nincs ismétlés (kombináció): C(10, 6) = 210.",
+   "d) Sorrend nem számít, ismétlés lehet (ismétléses kombináció): 7 fajta, 3 darab → C(7 + 3 − 1, 3) = C(9, 3) = 84.",
+   "Eredmény: a) 120; b) 56; c) 210; d) 84."
+  ]
+ },
+ {
+  "id": "mat-15-005",
+  "chapter": 15,
+  "section": "15.5",
+  "type": "szamolas",
+  "points": 10,
+  "question": "a) Tíz versenyző halad át a célvonalon egymás után. Hányféle sorrend lehetséges? b) A „BANANA” betűit véletlenül összekeverjük. Hányféle különböző betűsor állhat elő? c) 25 diákból kiválasztanak 2 fős küldöttséget. Hányféleképpen tehető ez meg? d) Egy boltban 5-féle ásványvíz kapható, és 5 palackot viszünk haza (egy fajtából több is lehet). Hányféleképpen választhatunk?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "3628800",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "60",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "300",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "d)",
+    "answer": "126",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Módszer: Kombinatorika: permutáció, ismétléses permutáció, kombináció. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KOMB-5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) 10 különböző elem összes sorrendje (permutáció): 10! = 3 628 800.",
+   "b) Ismétléses permutáció: 6!/(3!·2!·1!) = 60.",
+   "c) Sorrend nem számít, nincs ismétlés (kombináció): C(25, 2) = 300.",
+   "d) Sorrend nem számít, ismétlés lehet (ismétléses kombináció): 5 fajta, 5 darab → C(5 + 5 − 1, 5) = C(9, 5) = 126.",
+   "Eredmény: a) 3628800; b) 60; c) 300; d) 126."
+  ]
+ }
+]

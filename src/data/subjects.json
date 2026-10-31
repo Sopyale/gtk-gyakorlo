@@ -5,33 +5,286 @@
     "active": true,
     "sources": "Zsolnai Alíz jegyzete és Andor György tankönyve alapján",
     "chapters": [
-      { "n": 1, "title": "Közgazdaságtan, motiváció, homo oeconomicus", "short": "Homo oeconomicus" },
-      { "n": 2, "title": "Fogyasztói döntések: hasznosság és optimum", "short": "Fogyasztói döntések" },
-      { "n": 3, "title": "Jövedelem- és árváltozás, kereslet", "short": "Kereslet" },
-      { "n": 4, "title": "Komparatív előny, szakosodás, csere", "short": "Komparatív előny" },
-      { "n": 5, "title": "Piac: kínálat és piaci egyensúly", "short": "Piac" },
-      { "n": 6, "title": "Termelői döntések, profitmaximálás", "short": "Termelés" }
+      {
+        "n": 1,
+        "title": "Közgazdaságtan, motiváció, homo oeconomicus",
+        "short": "Homo oeconomicus"
+      },
+      {
+        "n": 2,
+        "title": "Fogyasztói döntések: hasznosság és optimum",
+        "short": "Fogyasztói döntések"
+      },
+      {
+        "n": 3,
+        "title": "Jövedelem- és árváltozás, kereslet",
+        "short": "Kereslet"
+      },
+      {
+        "n": 4,
+        "title": "Komparatív előny, szakosodás, csere",
+        "short": "Komparatív előny"
+      },
+      {
+        "n": 5,
+        "title": "Piac: kínálat és piaci egyensúly",
+        "short": "Piac"
+      },
+      {
+        "n": 6,
+        "title": "Termelői döntések, profitmaximálás",
+        "short": "Termelés"
+      }
     ],
     "exams": [
-      { "id": "zh1", "name": "1. ZH", "active": false, "date": "2026-10-21", "chapters": [1, 2, 3, 4, 5, 6] },
-      { "id": "zh2", "name": "2. ZH", "active": false, "date": "2026-12-07", "chapters": [] }
+      {
+        "id": "zh1",
+        "name": "1. ZH",
+        "active": false,
+        "date": "2026-10-21",
+        "chapters": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "id": "zh2",
+        "name": "2. ZH",
+        "active": false,
+        "chapters": [],
+        "date": "2026-12-07"
+      }
     ]
   },
-  { "id": "menedzsment", "name": "Menedzsment", "active": false, "chapters": [], "exams": [
-      { "id": "zh2", "name": "2. ZH", "active": false, "date": "2026-11-11", "chapters": [] },
-      { "id": "zh3", "name": "3. ZH", "active": false, "date": "2026-12-02", "chapters": [] }
-    ] },
-  { "id": "marketing", "name": "Marketing", "active": false, "chapters": [], "exams": [
-      { "id": "zh2", "name": "2. ZH", "active": false, "date": "2026-11-09", "chapters": [] },
-      { "id": "zh3", "name": "3. ZH", "active": false, "date": "2026-12-09", "chapters": [] }
-    ] },
-  { "id": "szamvitel", "name": "Számvitel", "active": false, "chapters": [], "exams": [
-      { "id": "zh2", "name": "2. ZH", "active": false, "date": "2026-11-16", "chapters": [] },
-      { "id": "zh3", "name": "3. ZH", "active": false, "date": "2026-12-14", "chapters": [] }
-    ] },
-  { "id": "kozosseg-es-egyen", "name": "Közösség és egyén", "active": false, "chapters": [], "exams": [
-      { "id": "zh2", "name": "2. ZH", "active": false, "date": "2026-11-25", "chapters": [] }
-    ] },
+  {
+    "id": "menedzsment",
+    "name": "Menedzsment",
+    "active": true,
+    "chapters": [
+      {
+        "n": 1,
+        "title": "Szükséghelyzeti tervek és válságmenedzsment",
+        "short": "Válságmenedzsment"
+      },
+      {
+        "n": 2,
+        "title": "Szervezés, szervezeti struktúra",
+        "short": "Szervezés"
+      },
+      {
+        "n": 3,
+        "title": "Szervezeti formák a gyakorlatban",
+        "short": "Szervezeti formák"
+      },
+      {
+        "n": 4,
+        "title": "Irányítás",
+        "short": "Irányítás"
+      },
+      {
+        "n": 5,
+        "title": "Vezetés",
+        "short": "Vezetés"
+      }
+    ],
+    "sources": "A 2. ZH jegyzete alapján",
+    "exams": [
+      {
+        "id": "zh2",
+        "name": "2. ZH",
+        "active": true,
+        "date": "2026-11-11",
+        "chapters": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "mock": {
+          "minutes": 25,
+          "mix": {
+            "tobbszoros": 2,
+            "feleletvalasztos": 6,
+            "parositas": 1,
+            "kifejtos": 2
+          }
+        }
+      },
+      {
+        "id": "zh3",
+        "name": "3. ZH",
+        "active": false,
+        "date": "2026-12-02",
+        "chapters": []
+      }
+    ]
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing",
+    "active": true,
+    "chapters": [
+      {
+        "n": 1,
+        "title": "Marketingstratégia",
+        "short": "Marketingstratégia"
+      },
+      {
+        "n": 2,
+        "title": "Szegmentálás, targetálás, pozicionálás",
+        "short": "STP"
+      },
+      {
+        "n": 3,
+        "title": "Marketingmix – Termék I.",
+        "short": "Termék I."
+      },
+      {
+        "n": 4,
+        "title": "Márkázás",
+        "short": "Márkázás"
+      },
+      {
+        "n": 5,
+        "title": "Versenytárs-elemzés és versenystratégiák",
+        "short": "Versenytárs-elemzés"
+      }
+    ],
+    "sources": "A 2. ZH jegyzete alapján",
+    "exams": [
+      {
+        "id": "zh2",
+        "name": "2. ZH",
+        "active": true,
+        "date": "2026-11-09",
+        "chapters": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "mock": {
+          "minutes": 30,
+          "mix": {
+            "igaz-hamis": 6,
+            "feleletvalasztos": 6,
+            "tobbszoros": 2,
+            "parositas": 2,
+            "rovid-valasz": 3,
+            "kifejtos": 1
+          }
+        }
+      },
+      {
+        "id": "zh3",
+        "name": "3. ZH",
+        "active": false,
+        "date": "2026-12-09",
+        "chapters": []
+      }
+    ]
+  },
+  {
+    "id": "szamvitel",
+    "name": "Számvitel",
+    "active": true,
+    "chapters": [
+      {
+        "n": 1,
+        "title": "A négyszámlasoros könyvelés bevezetése, összetett gazdasági események",
+        "short": "Négyszámlasoros bevezetés"
+      },
+      {
+        "n": 2,
+        "title": "Négyszámlasoros könyvelés gyakorlása, általános forgalmi adó",
+        "short": "ÁFA"
+      },
+      {
+        "n": 3,
+        "title": "Nyitástól a zárásig: beszámoló, számviteli politika, alapelvek, idősoros könyvelés",
+        "short": "Nyitástól a zárásig"
+      },
+      {
+        "n": 4,
+        "title": "Költségelszámolás",
+        "short": "Költségelszámolás"
+      },
+      {
+        "n": 5,
+        "title": "Készletértékelési módszerek",
+        "short": "Készletértékelés"
+      }
+    ],
+    "sources": "A 2. ZH jegyzete alapján",
+    "exams": [
+      {
+        "id": "zh2",
+        "name": "2. ZH",
+        "active": true,
+        "date": "2026-11-16",
+        "chapters": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "mock": {
+          "minutes": 60,
+          "mix": {
+            "igaz-hamis": 6,
+            "feleletvalasztos": 5,
+            "szamolas": 5
+          }
+        }
+      },
+      {
+        "id": "zh3",
+        "name": "3. ZH",
+        "active": false,
+        "date": "2026-12-14",
+        "chapters": []
+      }
+    ]
+  },
+  {
+    "id": "kozosseg-es-egyen",
+    "name": "Közösség és egyén",
+    "active": true,
+    "chapters": [
+      {
+        "n": 1,
+        "title": "A nem verbális kommunikáció",
+        "short": "Nem verbális kommunikáció"
+      }
+    ],
+    "sources": "A 2. ZH jegyzete alapján",
+    "exams": [
+      {
+        "id": "zh2",
+        "name": "2. ZH",
+        "active": true,
+        "date": "2026-11-25",
+        "chapters": [
+          1
+        ],
+        "mock": {
+          "minutes": 20,
+          "mix": {
+            "feleletvalasztos": 11,
+            "relacio": 4,
+            "rovid-valasz": 5
+          }
+        }
+      }
+    ]
+  },
   {
     "id": "matematika",
     "name": "Matematika",
@@ -39,18 +292,175 @@
     "sources": "A 2. ZH jegyzete és a gyakorló feladatsor alapján",
     "chapterLabel": "Feladattípusok",
     "chapters": [
-      { "n": 1, "title": "Vektorok lineáris függősége", "short": "Vektorok" },
-      { "n": 2, "title": "Szita formula (két esemény)", "short": "Szita formula" },
-      { "n": 3, "title": "Kockadobás: várható érték, első siker", "short": "Kockadobás" },
-      { "n": 4, "title": "Két zsák: teljes valószínűség és Bayes-tétel", "short": "Bayes-tétel" },
-      { "n": 5, "title": "Kamatos kamat", "short": "Kamatos kamat" },
-      { "n": 6, "title": "Kétállapotú folyamat (átmenet-valószínűségek)", "short": "Kétállapotú folyamat" },
-      { "n": 7, "title": "Diszkrét eloszlás: q, várható érték, szórás", "short": "Diszkrét eloszlás" },
-      { "n": 8, "title": "Rendszámtábla (variáció)", "short": "Rendszámtábla" }
+      {
+        "n": 1,
+        "title": "Vektorok lineáris függősége",
+        "short": "Vektorok"
+      },
+      {
+        "n": 2,
+        "title": "Szita formula (két esemény)",
+        "short": "Szita formula"
+      },
+      {
+        "n": 3,
+        "title": "Kockadobás: várható érték, első siker",
+        "short": "Kockadobás"
+      },
+      {
+        "n": 4,
+        "title": "Két zsák: teljes valószínűség és Bayes-tétel",
+        "short": "Bayes-tétel"
+      },
+      {
+        "n": 5,
+        "title": "Kamatos kamat",
+        "short": "Kamatos kamat"
+      },
+      {
+        "n": 6,
+        "title": "Kétállapotú folyamat (átmenet-valószínűségek)",
+        "short": "Kétállapotú folyamat"
+      },
+      {
+        "n": 7,
+        "title": "Diszkrét eloszlás: q, várható érték, szórás",
+        "short": "Diszkrét eloszlás"
+      },
+      {
+        "n": 8,
+        "title": "Rendszámtábla (variáció)",
+        "short": "Rendszámtábla"
+      },
+      {
+        "n": 9,
+        "title": "Determináns, lineáris függetlenség paraméterrel",
+        "short": "Determináns"
+      },
+      {
+        "n": 10,
+        "title": "2×2-es mátrix sajátértékei, sajátvektora",
+        "short": "Sajátérték"
+      },
+      {
+        "n": 11,
+        "title": "Függvényműveletek és kompozíció",
+        "short": "Kompozíció"
+      },
+      {
+        "n": 12,
+        "title": "Transzformált parabola csúcsa",
+        "short": "Parabola csúcsa"
+      },
+      {
+        "n": 13,
+        "title": "Másodfokú függvény gyökeiből és egy pontból",
+        "short": "Másodfokú függvény"
+      },
+      {
+        "n": 14,
+        "title": "Költség, bevétel, profit, profitmaximum",
+        "short": "Profit"
+      },
+      {
+        "n": 15,
+        "title": "Kombinatorika: permutáció, ismétléses permutáció, kombináció",
+        "short": "Kombinatorika"
+      },
+      {
+        "n": 16,
+        "title": "Húzás dobozból (hipergeometrikus jellegű klasszikus valószínűség)",
+        "short": "Húzás dobozból"
+      },
+      {
+        "n": 17,
+        "title": "Független események",
+        "short": "Független események"
+      },
+      {
+        "n": 18,
+        "title": "Két kocka: események, feltételes valószínűség",
+        "short": "Két kocka"
+      },
+      {
+        "n": 19,
+        "title": "Függvény fogalma, helyettesítés",
+        "short": "Függvény fogalma"
+      },
+      {
+        "n": 20,
+        "title": "Sorozatok: számtani és mértani",
+        "short": "Sorozatok"
+      },
+      {
+        "n": 21,
+        "title": "Exponenciális növekedés és csökkenés",
+        "short": "Exponenciális"
+      },
+      {
+        "n": 22,
+        "title": "Logaritmus és logaritmikus egyenlet",
+        "short": "Logaritmus"
+      },
+      {
+        "n": 23,
+        "title": "Események és műveleteik (unió, metszet, komplementer, különbség)",
+        "short": "Események"
+      }
     ],
     "exams": [
-      { "id": "zh2", "name": "2. ZH", "active": true, "date": "2026-11-04", "chapters": [1, 2, 3, 4, 5, 6, 7, 8], "mock": { "minutes": 60, "perChapter": 1 } },
-      { "id": "zh3", "name": "3. ZH", "active": false, "date": "2026-11-23", "chapters": [] }
+      {
+        "id": "zh2",
+        "name": "2. ZH",
+        "active": true,
+        "chapters": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "mock": {
+          "minutes": 60,
+          "perChapter": 1,
+          "chapters": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "date": "2026-11-04"
+      },
+      {
+        "id": "zh3",
+        "name": "3. ZH",
+        "active": false,
+        "date": "2026-11-23",
+        "chapters": []
+      }
     ]
   }
 ]

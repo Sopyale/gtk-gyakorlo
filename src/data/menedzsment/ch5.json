@@ -1,0 +1,829 @@
+[
+ {
+  "id": "mn-5-001",
+  "chapter": 5,
+  "section": "5.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik meghatározás írja le a vezetést?",
+  "options": [
+   "A szervezeti tagok viselkedésének tudatos befolyásolása a meghatározott célok eléréséért, a motiváció kialakításán és fenntartásán keresztül",
+   "A feladatok és erőforrások csoportosítása és összekapcsolása",
+   "A célok megvalósulásának ellenőrzése és a korrekciók végrehajtása",
+   "A szervezet jövőbeli állapotának kijelölése"
+  ],
+  "answer": "A szervezeti tagok viselkedésének tudatos befolyásolása a meghatározott célok eléréséért, a motiváció kialakításán és fenntartásán keresztül",
+  "explanation": "A vezetés tárgya az ember; a szervezés a feladatokkal és egységekkel, az irányítás az ellenőrzéssel foglalkozik.",
+  "source": "Jegyzet 5.1",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mn-5-002",
+  "chapter": 5,
+  "section": "5.2",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Kotter szerint melyik állítás jellemzi a vezetőt a menedzserrel szemben?",
+  "options": [
+   "A helyes dolgokat csinálja, a jövőre koncentrál, felvállalja a kockázatot",
+   "A dolgokat helyesen csinálja, a jelenre koncentrál, kerüli a kockázatot",
+   "A helyes dolgokat csinálja, a szabályokra és az ellenőrzésre épít, kerüli a kockázatot",
+   "A dolgokat helyesen csinálja, a hosszú távot nézi, felvállalja a kockázatot"
+  ],
+  "answer": "A helyes dolgokat csinálja, a jövőre koncentrál, felvállalja a kockázatot",
+  "explanation": "A menedzser a dolgokat helyesen, rövid távon, rendszerben gondolkodva csinálja; a vezető a helyes dolgokat, hosszú távon.",
+  "source": "Jegyzet 5.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-003",
+  "chapter": 5,
+  "section": "5.2",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mit állít Kotter 1990-es megállapítása?",
+  "options": [
+   "A vezetés a változással, a menedzselés a bonyolultsággal való megbirkózásról szól",
+   "A vezetés a bonyolultsággal, a menedzselés a változással való megbirkózásról szól",
+   "A vezetők építészek, a menedzserek építésvezetők",
+   "A vezetők a dolgokat helyesen, a menedzserek a helyes dolgokat csinálják"
+  ],
+  "answer": "A vezetés a változással, a menedzselés a bonyolultsággal való megbirkózásról szól",
+  "explanation": "A harmadik válasz Mariotti idézete, a negyedik pedig Bennis és Nannus idézetének (a vezetők a helyes dolgokat csinálják) vezetőre-menedzserre felcserélt, hamis változata. Figyelj a szórendre!",
+  "source": "Jegyzet 5.2",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-004",
+  "chapter": 5,
+  "section": "5.2",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik állítást fogalmazta meg Covey a menedzselés és a vezetés viszonyáról?",
+  "options": [
+   "Mindkettő létfontosságú: az embereket vezetni, a dolgokat menedzselni kell",
+   "A vezetés elegendő, a menedzselés felesleges",
+   "A raktárkészletet és a költségeket vezetéssel lehet rendben tartani",
+   "A menedzselés fontosabb, mert a dolgoknak nincs szabadságuk"
+  ],
+  "answer": "Mindkettő létfontosságú: az embereket vezetni, a dolgokat menedzselni kell",
+  "explanation": "Covey „DE!” gondolata: egyik sem elég a másik nélkül; a dolgoknak nincs hatalmuk dönteni, ezért az embereket felhatalmazni, a dolgokat menedzselni kell.",
+  "source": "Jegyzet 5.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-005",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi a hatalom a diák szerint?",
+  "options": [
+   "A képesség mások viselkedésének megváltoztatására",
+   "A pozíció, amelyet a vezető másoktól kap",
+   "A szervezeti szabályok összessége",
+   "Az a jog, hogy a vezető jutalmazzon és büntessen"
+  ],
+  "answer": "A képesség mások viselkedésének megváltoztatására",
+  "explanation": "A hatalomnak öt forrása van: legitim, jutalmazáson alapuló, fenyegetésen alapuló, szakértői és referens.",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mn-5-006",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy csapat tagjai Péter tanácsát követik, pedig nem főnök, mert a legjobban ért az adatbázisokhoz. Melyik hatalomtípus ez?",
+  "options": [
+   "Szakértői hatalom",
+   "Legitim hatalom",
+   "Referens hatalom",
+   "Jutalmazáson alapuló hatalom"
+  ],
+  "answer": "Szakértői hatalom",
+  "explanation": "A szakértői hatalom forrása a tudás. A legitim a pozícióból, a referens a személyiségből fakad.",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-007",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy műszakvezetőre azért hallgatnak a kollégák, mert felnéznek rá, és követni akarják. Melyik hatalomtípus ez?",
+  "options": [
+   "Személyiségjegyeken alapuló (referens) hatalom",
+   "Legitim hatalom",
+   "Szakértői hatalom",
+   "Fenyegetésen alapuló hatalom"
+  ],
+  "answer": "Személyiségjegyeken alapuló (referens) hatalom",
+  "explanation": "A referens hatalom a személyiségen, a követők azonosulásán alapul; a pozíció nem számít.",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-008",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik a vezetéselméleti megközelítések helyes időrendje?",
+  "options": [
+   "Tulajdonságelméleti → magatartástudományi → szituatív (kontingencia) → modern",
+   "Magatartástudományi → tulajdonságelméleti → szituatív → modern",
+   "Szituatív → magatartástudományi → tulajdonságelméleti → modern",
+   "Tulajdonságelméleti → szituatív → magatartástudományi → modern"
+  ],
+  "answer": "Tulajdonságelméleti → magatartástudományi → szituatív (kontingencia) → modern",
+  "explanation": "A sor logikája: a vezető személye → viselkedése → a helyzet → újabb megközelítések. Az újabb nem váltja le a régit, hanem mellé lép.",
+  "source": "Jegyzet 5.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-009",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik modell tartozik a kontingenciaelméleti megközelítésbe?",
+  "options": [
+   "Fiedler modellje",
+   "Blake–Mouton rács",
+   "Ohio State University modell",
+   "Lewin–Lipitt–White skála"
+  ],
+  "answer": "Fiedler modellje",
+  "explanation": "A magatartástudományi csoport: Lewin–Lipitt–White, Tannenbaum–Schmidt, Ohio State, Blake–Mouton. Kontingencia: Fiedler és az út-cél elmélet.",
+  "source": "Jegyzet 5.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-010",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik állítás igaz a Lewin–Lipitt–White-féle autokratikus stílusra?",
+  "options": [
+   "Nagyobb a mennyiségi teljesítmény, de állandó ellenőrzést igényel, és sürgős helyzetben eredményes lehet",
+   "Nagyobb a munkával való elégedettség és kreatívabb a csoport",
+   "A legeredménytelenebb stílus, ezért kerülendő",
+   "A beosztottak szabad kezet kapnak a munkafolyamatok alakításában"
+  ],
+  "answer": "Nagyobb a mennyiségi teljesítmény, de állandó ellenőrzést igényel, és sürgős helyzetben eredményes lehet",
+  "explanation": "Az autokratikus csoport mennyiségben jobb, de elidegenít; a demokratikus minőségben és elégedettségben, a laissez-faire a legeredménytelenebb.",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-011",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik vezetési stílust nevezi a dia a legeredménytelenebbnek?",
+  "options": [
+   "Laissez-faire",
+   "Autokratikus",
+   "Demokratikus",
+   "Átalakító"
+  ],
+  "answer": "Laissez-faire",
+  "explanation": "A laissez-faire kevés és rossz minőségű munkát eredményez.",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-012",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy hajó tűz után menekül, a parancsnok mindenkinek azonnal, magyarázat nélkül kioszt feladatot. Melyik Lewin-féle stílus lehet itt eredményes?",
+  "options": [
+   "Autokratikus",
+   "Demokratikus",
+   "Laissez-faire",
+   "Egyik sem"
+  ],
+  "answer": "Autokratikus",
+  "explanation": "Az autokratikus stílus sürgős és veszélyes helyzetekben eredményes lehet, vagy ha a beosztottak ezt várják el.",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-013",
+  "chapter": 5,
+  "section": "5.7",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi a Tannenbaum–Schmidt-féle kontinuum egyik végpontja?",
+  "options": [
+   "A vezető döntést hoz és kihirdeti",
+   "A vezető a csoporttal közösen szavaz",
+   "A vezető minden döntést kiad a kezéből, utasítást nem ad",
+   "A vezető kizárólag a barátságos légkörre törekszik"
+  ],
+  "answer": "A vezető döntést hoz és kihirdeti",
+  "explanation": "A skála egyik végén a főnökközpontú vezetés áll (döntést hoz és kihirdeti), a másik végén a beosztottközpontú (önálló működés az előírásokon belül).",
+  "source": "Jegyzet 5.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-014",
+  "chapter": 5,
+  "section": "5.7",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "A Tannenbaum–Schmidt-modell szerint mely tényezők határozzák meg a vezető által választott pontot a kontinuumon?",
+  "options": [
+   "A vezető, a beosztott és a helyzet jellemzői",
+   "Csak a vezető személyisége",
+   "Csak a feladat sürgőssége",
+   "A termelés- és az emberközpontúság"
+  ],
+  "answer": "A vezető, a beosztott és a helyzet jellemzői",
+  "explanation": "A modell a szituációs modellek előfutára, de a szituációs tényezőkre csak spekulatívan mutat rá.",
+  "source": "Jegyzet 5.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-015",
+  "chapter": 5,
+  "section": "5.8",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mely két dimenzió alkotja az Ohio State University modell tengelyeit?",
+  "options": [
+   "A feladatok strukturálása és a pozitív emberi kapcsolatok",
+   "A termelésközpontúság és az emberközpontúság",
+   "A feladatstrukturáltság és a vezető hatalmi helyzete",
+   "Az autokratikus és a demokratikus stílus"
+  ],
+  "answer": "A feladatok strukturálása és a pozitív emberi kapcsolatok",
+  "explanation": "Az Ohio-modell a feladatstrukturálás × emberi kapcsolatok mátrixa; a C mezőben mindkettő magas.",
+  "source": "Jegyzet 5.8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-016",
+  "chapter": 5,
+  "section": "5.8",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Az Ohio-modell ábráján melyik mezőt jellemzi az erős feladatstrukturálás és a gyenge emberi kapcsolatok?",
+  "options": [
+   "B",
+   "A",
+   "C",
+   "D"
+  ],
+  "answer": "B",
+  "explanation": "A = mindkettő alacsony, B = erős strukturálás + gyenge kapcsolat, C = mindkettő magas, D = erős kapcsolatok + gyenge strukturálás.",
+  "source": "Jegyzet 5.8",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-017",
+  "chapter": 5,
+  "section": "5.9",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy vezető barátságos légkört tart fenn, de a teljesítmény alig érdekli. Melyik Blake–Mouton-stílus ez?",
+  "options": [
+   "Klub stílusú vezetés (1,9)",
+   "Tekintélyelvű vezetés (9,1)",
+   "Szervezeti ember (5,5)",
+   "Beavatkozást kerülő vezetés (1,1)"
+  ],
+  "answer": "Klub stílusú vezetés (1,9)",
+  "explanation": "A számpár első száma a termelés-, a második az emberközpontúság: 1,9 = kevés termelés, sok ember.",
+  "source": "Jegyzet 5.9",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-018",
+  "chapter": 5,
+  "section": "5.9",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik Blake–Mouton-stílust tartja a modell minden helyzetben a legmegfelelőbbnek?",
+  "options": [
+   "Team menedzsment (9,9)",
+   "Szervezeti ember (5,5)",
+   "Tekintélyelvű vezetés (9,1)",
+   "Klub stílusú vezetés (1,9)"
+  ],
+  "answer": "Team menedzsment (9,9)",
+  "explanation": "A 9,9 a maximális teljesítményre és az elégedettségre egyaránt törekszik; a helyzetfüggést a kontingenciaelméletek hozzák.",
+  "source": "Jegyzet 5.9",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-019",
+  "chapter": 5,
+  "section": "5.10",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Hány helyzetet különböztet meg Fiedler modellje?",
+  "options": [
+   "8 (a vezető–beosztott kapcsolat, a feladat strukturáltsága és a hatalmi helyzet 2×2×2 kombinációja)",
+   "4",
+   "6",
+   "9"
+  ],
+  "answer": "8 (a vezető–beosztott kapcsolat, a feladat strukturáltsága és a hatalmi helyzet 2×2×2 kombinációja)",
+  "explanation": "Három kétértékű tényező 2 × 2 × 2 = 8 helyzetet ad.",
+  "source": "Jegyzet 5.10",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-020",
+  "chapter": 5,
+  "section": "5.10",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Fiedler modellje szerint melyik helyzetben teljesít jól a kapcsolatorientált vezető?",
+  "options": [
+   "A stresszel terhelt (közbülső, 4–6. számú) helyzetekben",
+   "A kedvező és a kedvezőtlen helyzetekben is",
+   "Csak a kedvező helyzetekben",
+   "Csak a kedvezőtlen helyzetekben"
+  ],
+  "answer": "A stresszel terhelt (közbülső, 4–6. számú) helyzetekben",
+  "explanation": "A feladatorientált vezető a kedvező és a kedvezőtlen, a kapcsolatorientált a közbülső (stresszel terhelt) helyzetben jobb.",
+  "source": "Jegyzet 5.10",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-021",
+  "chapter": 5,
+  "section": "5.11",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi a lényegi különbség Fiedler modellje és az út-cél elmélet között?",
+  "options": [
+   "Fiedlernél a vezető stílusa adott, az út-cél elmélet szerint a vezető alkalmazkodik a helyzethez",
+   "Az út-cél elmélet nem helyzetfüggő, Fiedler modellje igen",
+   "Fiedlernél a vezető mindig megváltoztatja a stílusát, az út-célnál soha",
+   "Fiedler négy stílust különböztet meg, az út-cél elmélet kettőt"
+  ],
+  "answer": "Fiedlernél a vezető stílusa adott, az út-cél elmélet szerint a vezető alkalmazkodik a helyzethez",
+  "explanation": "Mindkettő kontingenciamodell; a stílus rugalmassága az eltérés.",
+  "source": "Jegyzet 5.11",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-022",
+  "chapter": 5,
+  "section": "5.11",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Új, tapasztalatlan munkatársak alacsony képességgel, strukturálatlan feladattal, és irányítást várnak. Melyik út-cél vezetési stílus illik hozzájuk?",
+  "options": [
+   "Előíró",
+   "Támogató",
+   "Bevonó",
+   "Eredményorientált"
+  ],
+  "answer": "Előíró",
+  "explanation": "Az előíró vezetés tiszta elvárásokat és iránymutatást ad. A bevonó stílus képes, önálló követőkhöz illik.",
+  "source": "Jegyzet 5.11",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-023",
+  "chapter": 5,
+  "section": "5.11",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy képes, belső kontrollos munkatárs strukturálatlan feladaton dolgozik, nem akarja, hogy megmondják neki, mit tegyen. Melyik út-cél stílus illik hozzá?",
+  "options": [
+   "Bevonó",
+   "Előíró",
+   "Támogató",
+   "Eredményorientált"
+  ],
+  "answer": "Bevonó",
+  "explanation": "A bevonó vezető kikéri a beosztottak véleményét, közös döntést hoz; az előíró stílus kezdőknek való.",
+  "source": "Jegyzet 5.11",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-024",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi a tulajdonságelméleti megközelítés fő kérdése?",
+  "options": [
+   "Milyen tulajdonságai vannak a jó vezetőnek?",
+   "Hogyan viselkedik, milyen stílusú a vezető?",
+   "Melyik stílus eredményes egy adott helyzetben?",
+   "Hogyan hat a jutalmazási rendszer a követőkre?"
+  ],
+  "answer": "Milyen tulajdonságai vannak a jó vezetőnek?",
+  "explanation": "A tulajdonságelmélet a vezető személyét vizsgálja, a magatartástudományi a viselkedését, a kontingencia a helyzetet.",
+  "source": "Jegyzet 5.4–5.5",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-025",
+  "chapter": 5,
+  "section": "5.2",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az IGAZ állításokat a menedzser és a vezető különbségéről (Kotter)! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "A menedzserek a dolgokat helyesen csinálják.",
+    "answer": true
+   },
+   {
+    "text": "A vezetők a változásra serkentik az embereket.",
+    "answer": true
+   },
+   {
+    "text": "A vezetők rövid távon gondolkodnak, és kerülik a kockázatot.",
+    "answer": false
+   },
+   {
+    "text": "A menedzserek az ellenőrzésre alapoznak.",
+    "answer": true
+   },
+   {
+    "text": "A vezetők a pozíciójukat másoktól kapják.",
+    "answer": false
+   }
+  ],
+  "explanation": "A vezető a hosszú távot nézi, vállalja a kockázatot, és a szerepét maga vívja ki; a pozíciót a menedzser kapja.",
+  "source": "Jegyzet 5.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-026",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az IGAZ állításokat a Lewin–Lipitt–White-féle stílusokról! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "A demokratikus csoportban nagyobb a munkával való elégedettség.",
+    "answer": true
+   },
+   {
+    "text": "Az autokratikus stílus mindig eredménytelen.",
+    "answer": false
+   },
+   {
+    "text": "A laissez-faire stílusnál a vezető nem ad előírásokat, szabad kezet ad.",
+    "answer": true
+   },
+   {
+    "text": "Az autokratikus csoportban nagyobb a mennyiségi teljesítmény.",
+    "answer": true
+   },
+   {
+    "text": "A demokratikus stílust a mennyiségi teljesítmény miatt tartották a legjobbnak.",
+    "answer": false
+   }
+  ],
+  "explanation": "A demokratikus stílus minőségben és elégedettségben erős; az autokratikus sürgős helyzetben eredményes lehet.",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-027",
+  "chapter": 5,
+  "section": "5.10",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az IGAZ állításokat a kontingenciaelméletekről! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "Fiedler szerint a vezető stílusa adott, nem változik.",
+    "answer": true
+   },
+   {
+    "text": "Az út-cél elméletben a vezető a helyzethez illő stílust tud választani.",
+    "answer": true
+   },
+   {
+    "text": "Fiedler modellje 4 helyzetet különböztet meg.",
+    "answer": false
+   },
+   {
+    "text": "Az út-cél elmélet négy vezetési stílusa az előíró, támogató, bevonó és eredményorientált.",
+    "answer": true
+   },
+   {
+    "text": "Fiedler modelljének kritikája szerint a vezetői viselkedés rugalmatlansága reális feltevés.",
+    "answer": false
+   }
+  ],
+  "explanation": "Fiedlernél 8 helyzet van; a kritika éppen a rugalmatlanság feltételezését irreálisnak tartja.",
+  "source": "Jegyzet 5.10–5.11",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-028",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "tobbszoros",
+  "points": 4,
+  "question": "Jelölje meg az IGAZ állításokat a vezetéselméleti megközelítésekről! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "A tulajdonságelmélet a vezető tulajdonságait vizsgálja.",
+    "answer": true
+   },
+   {
+    "text": "A Blake–Mouton-rács a magatartástudományi megközelítéshez tartozik.",
+    "answer": true
+   },
+   {
+    "text": "A szituatív megközelítés a vezetők tulajdonságait kutatja.",
+    "answer": false
+   },
+   {
+    "text": "A hiteles vezető saját meggyőződéséből vezet.",
+    "answer": true
+   },
+   {
+    "text": "A transzformációs vezetés a kötelességen belüli teljesítményre épít.",
+    "answer": false
+   }
+  ],
+  "explanation": "A szituatív megközelítés a helyzetet vizsgálja; az átalakító vezetés nagy változásokat hajt végre, jövőképet fest.",
+  "source": "Jegyzet 5.4 · 5.9 · 5.12",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-029",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "parositas",
+  "points": 5,
+  "question": "Párosítsa a hatalomtípusokat a példákkal!",
+  "answer": [
+   [
+    "Legitim",
+    "az osztályvezető a kinevezése alapján dönt a szabadságokról"
+   ],
+   [
+    "Jutalmazáson alapuló",
+    "a vezető prémiumot adhat a jó teljesítményért"
+   ],
+   [
+    "Fenyegetésen alapuló",
+    "a vezető büntetéssel élhet a szabályszegőkkel szemben"
+   ],
+   [
+    "Szakértői",
+    "a csapat a legjobb szakember szavára ad"
+   ],
+   [
+    "Referens",
+    "a követők felnéznek a vezetőre, és azonosulnak vele"
+   ]
+  ],
+  "explanation": "A hatalom forrása pozíció, jutalom, fenyegetés, tudás vagy személyiség lehet.",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-030",
+  "chapter": 5,
+  "section": "5.9",
+  "type": "parositas",
+  "points": 5,
+  "question": "Párosítsa a Blake–Mouton-rács számpárjait az elnevezésekkel! (Termelés, ember sorrend.)",
+  "answer": [
+   [
+    "1,1",
+    "Beavatkozást kerülő vezetés"
+   ],
+   [
+    "1,9",
+    "Klub stílusú vezetés"
+   ],
+   [
+    "5,5",
+    "Szervezeti ember"
+   ],
+   [
+    "9,1",
+    "Tekintélyelvű vezetés"
+   ],
+   [
+    "9,9",
+    "Team menedzsment"
+   ]
+  ],
+  "explanation": "Az első szám a termelés-, a második az emberközpontúság. A 9,1 és az 1,9 felcserélése a tipikus hiba.",
+  "source": "Jegyzet 5.9",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-031",
+  "chapter": 5,
+  "section": "5.11",
+  "type": "parositas",
+  "points": 4,
+  "question": "Párosítsa az út-cél elmélet vezetési stílusait a jellemzőjükkel!",
+  "answer": [
+   [
+    "Előíró",
+    "tiszta elvárások, iránymutatás, munkabeosztás"
+   ],
+   [
+    "Támogató",
+    "barátságos, törődő, partnerként kezeli a beosztottakat"
+   ],
+   [
+    "Bevonó",
+    "konzultál, javaslatokat kér, közös döntést hoz"
+   ],
+   [
+    "Eredményorientált",
+    "kihívást jelentő célok, magas elvárás, bizalom a képességekben"
+   ]
+  ],
+  "explanation": "A négy stílus az út-cél elmélet vezetési stílusai.",
+  "source": "Jegyzet 5.11",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-032",
+  "chapter": 5,
+  "section": "5.12",
+  "type": "parositas",
+  "points": 4,
+  "question": "Párosítsa az újabb vezetési megközelítéseket a kulcsszóval!",
+  "answer": [
+   [
+    "Karizmatikus vezetés",
+    "lángra lobbantja a követők energiáját és elkötelezettségét"
+   ],
+   [
+    "Szolgáló vezetés",
+    "túllép az önérdeken, mások szükségleteit szolgálja"
+   ],
+   [
+    "Átalakító vezetés",
+    "különleges jövőképet fest, nagy változásokat hajt végre"
+   ],
+   [
+    "Hiteles vezetés",
+    "saját meggyőződésére támaszkodik"
+   ]
+  ],
+  "explanation": "A diák felsorolják még az etikus vezetést is, de nem fejtik ki.",
+  "source": "Jegyzet 5.12",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-5-033",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "kifejtos",
+  "points": 4,
+  "question": "Egy cégnél Anna azért követi a csoportvezetőt, mert az a beosztása alapján jogosult a feladatok kiadására. Melyik hatalomtípusról van szó? Indokolja egy mondatban!",
+  "answer": [
+   "Fogalom (2 p): Legitim (törvényes) hatalom.",
+   "Indoklás (2 p): A hatalom forrása a formális pozíció, vagyis a felhatalmazás, nem a tudás vagy a személyiség."
+  ],
+  "explanation": "Esetfeladatban a „mert ő a főnök” utal a legitim hatalomra. Kulcsszavak az indoklásban: pozíció · felhatalmazás · formális",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-034",
+  "chapter": 5,
+  "section": "5.12",
+  "type": "kifejtos",
+  "points": 4,
+  "question": "Egy csoportvezető a csoportja előtt új, hosszú távú jövőképet fest, és a követők az eszméin keresztül lelkesednek a nagy változásért. Melyik újabb vezetési megközelítést írja le az eset? Indokolja egy mondatban!",
+  "answer": [
+   "Fogalom (2 p): Átalakító (transzformációs) vezetés.",
+   "Indoklás (2 p): A vezető különleges jövőképet fest, magasabb rendű eszméket ragad meg, és nagy változásokat hajt végre."
+  ],
+  "explanation": "Közel áll Kotter „vezetőjéhez”: jövőképet ad és változásra serkent. Kulcsszavak az indoklásban: jövőkép · nagy változás · magasabb rendű eszmék",
+  "source": "Jegyzet 5.12",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-035",
+  "chapter": 5,
+  "section": "5.11",
+  "type": "kifejtos",
+  "points": 4,
+  "question": "Egy új, képzetlen kisegítő első napján nem tudja, mit és hogyan kell csinálnia; a vezető pontos utasításokat és munkabeosztást ad neki. Melyik út-cél stílus ez? Indokolja egy mondatban!",
+  "answer": [
+   "Fogalom (2 p): Előíró vezetési stílus.",
+   "Indoklás (2 p): A követő alacsony képességű, a feladat strukturálatlan, ezért tiszta elvárások és iránymutatás kell."
+  ],
+  "explanation": "A bevonó stílus képes, önálló követőhöz illik. Kulcsszavak az indoklásban: alacsony képesség · strukturálatlan feladat · iránymutatás",
+  "source": "Jegyzet 5.11",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-036",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "kifejtos",
+  "points": 9,
+  "question": "Mutassa be a Lewin–Lipitt–White-féle vezetési stílusokat és hatásukat a csoportra! (5–8 mondat)",
+  "answer": [
+   "Magatartástudományi megközelítés: a vezető stílusát vizsgálja; három stílus: autokratikus, demokratikus, laissez-faire.",
+   "Autokratikus: a vezető maga jelöli ki a feladatokat, dönt, ellenőriz, jutalmaz és büntet mások meghallgatása nélkül; nagyobb mennyiségi teljesítmény, állandó ellenőrzés kell, elidegenít, agresszívabb viselkedés.",
+   "Sürgős, veszélyes helyzetben vagy ha a beosztottak elvárják, az autokratikus stílus eredményes lehet.",
+   "Demokratikus: a beosztottak akarata is érvényesül (széles skála); nagyobb elégedettség, kreatívabb munka, jobb minőség; legjobbnak tartották.",
+   "Laissez-faire: nem ad előírásokat, szabad kezet ad; a legeredménytelenebb (kevés és rossz minőségű munka), kerülendő.",
+   "Kapcsolódás: a skála két végpontját Tannenbaum és Schmidt bontja ki."
+  ],
+  "explanation": "Pontozás (saját becslés, nem hivatalos): 3 stílus 3 p · hatások 3 p · autokratikus sürgős helyzet 1 p · kapcsolódás/példa 2 p.",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-037",
+  "chapter": 5,
+  "section": "5.10",
+  "type": "kifejtos",
+  "points": 9,
+  "question": "Hasonlítsa össze Fiedler modelljét és az út-cél elméletet! (5–8 mondat)",
+  "answer": [
+   "Közös: mindkettő kontingenciaelmélet, tehát a helyzettől függ, melyik vezetői stílus eredményes; mindkettőben szerepel a feladat strukturáltsága és a vezető hatalma.",
+   "Fiedler: három tényező (vezető–beosztott kapcsolat, feladat strukturáltsága, vezető hatalmi helyzete) → 8 helyzet; feladat- vagy kapcsolatorientált vezető.",
+   "Fiedlernél a vezető stílusa adott, nem változik, ezért a vezetőt kell a hozzá illő helyzetbe tenni.",
+   "Út-cél (Evans–House): a vezető jutalmazási rendszere és az út tisztázottsága számít; négy stílus: előíró, támogató, bevonó, eredményorientált.",
+   "Szituációs tényezők: a követők jellemzői (autoritáshoz fűződő viszony, önirányítás, képesség) és a körülmények (feladat, vezető hatalma, csoport); a vezető képes alkalmazkodni.",
+   "Kritika: Fiedlernél a kutatások nem mindig támasztják alá, az LKM teszt validitása kérdéses; az út-cél elmélet nagyon összetett, nehezen tesztelhető."
+  ],
+  "explanation": "Pontozás (saját becslés, nem hivatalos): közös vonás 1 p · Fiedler 3 p · út-cél 3 p · különbség 1 p · kritika 1 p.",
+  "source": "Jegyzet 5.10–5.11",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-5-038",
+  "chapter": 5,
+  "section": "5.2",
+  "type": "kifejtos",
+  "points": 9,
+  "question": "Mutassa be a menedzser és a vezető közötti különbséget Kotter alapján, és Covey megjegyzését! (5–8 mondat)",
+  "answer": [
+   "A menedzserek a dolgokat helyesen csinálják, a hatékonyság érdekli őket, adminisztrálnak, fenntartják a rendszert, rövid távon gondolkodnak, kerülik a kockázatot.",
+   "A vezetők a helyes dolgokat csinálják, a hatás érdekli őket, újítanak, jövőképet adnak, hosszú távon gondolkodnak, vállalják a kockázatot.",
+   "Kotter: a vezetés a változással, a menedzselés a bonyolultsággal való megbirkózásról szól.",
+   "A menedzser a pozícióját másoktól kapja, a vezető a szerepét maga vívja ki.",
+   "Covey: mindkettő létfontosságú; a dolgokat (raktárkészlet, pénzmozgás) menedzselni, az embereket vezetni kell."
+  ],
+  "explanation": "Pontozás (saját becslés, nem hivatalos): menedzser 2 p · vezető 2 p · Kotter 2 p · pozíció/szerep 1 p · Covey 2 p.",
+  "source": "Jegyzet 5.2",
+  "official": false,
+  "difficulty": 3
+ }
+]

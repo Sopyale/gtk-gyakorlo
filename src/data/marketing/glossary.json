@@ -1,0 +1,728 @@
+[
+ {
+  "term": "stratégiai tervezés",
+  "definition": "a szervezet céljai és képességei, valamint a változó marketinglehetőségek közötti stratégiai illeszkedés kialakításának és fenntartásának folyamata",
+  "section": "1.2",
+  "star": true,
+  "concepts": [
+   [
+    "célok",
+    "képességek"
+   ],
+   [
+    "marketinglehetőségek"
+   ],
+   [
+    "illeszkedés"
+   ],
+   [
+    "kialakítás",
+    "fenntartás"
+   ]
+  ]
+ },
+ {
+  "term": "üzleti portfólió",
+  "definition": "a vállalat üzletágainak és termékeinek az összessége",
+  "section": "1.3",
+  "star": false,
+  "concepts": [
+   [
+    "üzletág"
+   ],
+   [
+    "termék"
+   ],
+   [
+    "összesség"
+   ]
+  ]
+ },
+ {
+  "term": "BCG-mátrix",
+  "definition": "üzletágak besorolása piaci növekedés × piaci részesedés szerint: csillag, fejős tehén, kérdőjel, döglött kutya",
+  "section": "1.4",
+  "star": true,
+  "concepts": [
+   [
+    "piaci növekedés"
+   ],
+   [
+    "piaci részesedés"
+   ],
+   [
+    "csillag",
+    "fejős tehén",
+    "kérdőjel",
+    "döglött kutya"
+   ]
+  ]
+ },
+ {
+  "term": "Ansoff-mátrix",
+  "definition": "növekedési lehetőségek termék × piac (meglévő/új) szerint",
+  "section": "1.5",
+  "star": true,
+  "concepts": [
+   [
+    "termék"
+   ],
+   [
+    "piac"
+   ],
+   [
+    "meglévő",
+    "új"
+   ]
+  ]
+ },
+ {
+  "term": "SWOT-elemzés",
+  "definition": "erősségek, gyengeségek (belső) és lehetőségek, fenyegetések (külső)",
+  "section": "1.7",
+  "star": true,
+  "concepts": [
+   [
+    "erősség",
+    "gyengeség"
+   ],
+   [
+    "lehetőség",
+    "fenyegetés"
+   ],
+   [
+    "belső",
+    "külső"
+   ]
+  ]
+ },
+ {
+  "term": "marketingmix",
+  "definition": "a taktikai marketingeszközök kontrollálható halmaza (termék, ár, hely, promóció)",
+  "section": "1.8",
+  "star": true,
+  "concepts": [
+   [
+    "kontrollálható"
+   ],
+   [
+    "taktikai"
+   ],
+   [
+    "termék",
+    "ár",
+    "hely",
+    "promóció"
+   ]
+  ]
+ },
+ {
+  "term": "tömegmarketing",
+  "definition": "nem szegmentál, ugyanazt a terméket ugyanazokon a csatornákon adja el mindenkinek",
+  "section": "2.1",
+  "star": false,
+  "concepts": [
+   [
+    "nem szegmentál"
+   ],
+   [
+    "ugyanaz"
+   ],
+   [
+    "mindenki"
+   ]
+  ]
+ },
+ {
+  "term": "szegmentálás",
+  "definition": "a vevők kisebb, homogén csoportjainak meghatározása bizonyos kritériumok szerint",
+  "section": "2.3",
+  "star": true,
+  "concepts": [
+   [
+    "vevők"
+   ],
+   [
+    "homogén"
+   ],
+   [
+    "kritériumok"
+   ]
+  ]
+ },
+ {
+  "term": "szegmentálási kritériumok",
+  "definition": "földrajzi, demográfiai, pszichográfiai, magatartási",
+  "section": "2.4",
+  "star": true,
+  "concepts": [
+   [
+    "földrajzi"
+   ],
+   [
+    "demográfiai"
+   ],
+   [
+    "pszichográfiai"
+   ],
+   [
+    "magatartási"
+   ]
+  ]
+ },
+ {
+  "term": "hatékony szegmentáció kritériumai",
+  "definition": "mérhetőség, elérhetőség, méret, megkülönböztethetőség, kezelhetőség",
+  "section": "2.5",
+  "star": true,
+  "concepts": [
+   [
+    "mérhető"
+   ],
+   [
+    "elérhető"
+   ],
+   [
+    "méret"
+   ],
+   [
+    "megkülönböztethető"
+   ],
+   [
+    "kezelhető"
+   ]
+  ]
+ },
+ {
+  "term": "célpiac",
+  "definition": "olyan vásárlók halmaza, akiknek azonos szükségleteik vagy jellemzőik vannak, és a vállalat kiszolgálja őket",
+  "section": "2.6",
+  "star": false,
+  "concepts": [
+   [
+    "vásárlók"
+   ],
+   [
+    "azonos szükséglet"
+   ],
+   [
+    "kiszolgál"
+   ]
+  ]
+ },
+ {
+  "term": "termékszakosodás",
+  "definition": "egy termék több szegmensnek",
+  "section": "2.7",
+  "star": true,
+  "concepts": [
+   [
+    "egy termék"
+   ],
+   [
+    "több szegmens"
+   ]
+  ]
+ },
+ {
+  "term": "piacszakosodás",
+  "definition": "több termék egyetlen szegmensnek",
+  "section": "2.7",
+  "star": true,
+  "concepts": [
+   [
+    "több termék"
+   ],
+   [
+    "egy szegmens"
+   ]
+  ]
+ },
+ {
+  "term": "pozicionálás",
+  "definition": "a versenytársakhoz képest a cég helyének meghatározása, egyedi kép kialakítása a célcsoport fejében",
+  "section": "2.8",
+  "star": true,
+  "concepts": [
+   [
+    "versenytársakhoz képest"
+   ],
+   [
+    "hely"
+   ],
+   [
+    "egyedi kép"
+   ],
+   [
+    "célcsoport"
+   ]
+  ]
+ },
+ {
+  "term": "POD / POP",
+  "definition": "points of difference: egyedi megkülönböztető elem; points of parity: nem egyedi, azonos elem",
+  "section": "2.8",
+  "star": true,
+  "concepts": [
+   [
+    "megkülönböztető"
+   ],
+   [
+    "egyedi"
+   ],
+   [
+    "azonos"
+   ],
+   [
+    "nem egyedi"
+   ]
+  ]
+ },
+ {
+  "term": "értékajánlat",
+  "definition": "az előnyök és hasznok halmaza, amelyre a márkát pozicionálták",
+  "section": "2.8",
+  "star": false,
+  "concepts": [
+   [
+    "előnyök"
+   ],
+   [
+    "hasznok"
+   ],
+   [
+    "márka pozicionálás"
+   ]
+  ]
+ },
+ {
+  "term": "termék",
+  "definition": "mindaz, amit a piacon felkínálnak, ami szükségletet elégít ki és csere tárgya lehet",
+  "section": "3.1",
+  "star": true,
+  "concepts": [
+   [
+    "felkínálnak"
+   ],
+   [
+    "szükséglet"
+   ],
+   [
+    "csere"
+   ]
+  ]
+ },
+ {
+  "term": "szolgáltatás",
+  "definition": "tevékenység vagy teljesítmény, amelyet egyik fél nyújt a másiknak; nem tárgyiasult, nincs tulajdonjog",
+  "section": "3.1",
+  "star": true,
+  "concepts": [
+   [
+    "tevékenység",
+    "teljesítmény"
+   ],
+   [
+    "nem tárgyiasult"
+   ],
+   [
+    "nincs tulajdonjog"
+   ]
+  ]
+ },
+ {
+  "term": "termékhagyma",
+  "definition": "alaphasznosság, tényleges termék, kiterjesztett termék",
+  "section": "3.2",
+  "star": true,
+  "concepts": [
+   [
+    "alaphasznosság"
+   ],
+   [
+    "tényleges"
+   ],
+   [
+    "kiterjesztett"
+   ]
+  ]
+ },
+ {
+  "term": "bevásárlási jószág",
+  "definition": "olyan termék, amelyek között a fogyasztók megfelelőség, minőség, ár és stílus alapján válogatnak",
+  "section": "3.3",
+  "star": true,
+  "concepts": [
+   [
+    "válogat",
+    "válogatnak"
+   ],
+   [
+    "megfelelőség"
+   ],
+   [
+    "minőség"
+   ],
+   [
+    "ár"
+   ],
+   [
+    "stílus"
+   ]
+  ]
+ },
+ {
+  "term": "speciális termék",
+  "definition": "egyedi jellemzőkkel vagy márkatulajdonsággal bír, a vevők rendkívüli erőfeszítést tesznek érte; nincs összehasonlítás",
+  "section": "3.3",
+  "star": true,
+  "concepts": [
+   [
+    "egyedi"
+   ],
+   [
+    "rendkívüli erőfeszítés"
+   ],
+   [
+    "nincs összehasonlítás"
+   ]
+  ]
+ },
+ {
+  "term": "társadalmi marketing",
+  "definition": "társadalmilag fontos, a társadalom jóllétét szolgáló célok elérésére irányuló marketing",
+  "section": "3.4",
+  "star": false,
+  "concepts": [
+   [
+    "társadalom",
+    "társadalmi"
+   ],
+   [
+    "jóllét",
+    "jólét"
+   ],
+   [
+    "célok elérése",
+    "célok"
+   ],
+   [
+    "marketing"
+   ]
+  ]
+ },
+ {
+  "term": "címke",
+  "definition": "funkciói: azonosít, osztályoz, leír, reklámoz",
+  "section": "3.5",
+  "star": true,
+  "concepts": [
+   [
+    "azonosít"
+   ],
+   [
+    "osztályoz"
+   ],
+   [
+    "leír"
+   ],
+   [
+    "reklámoz"
+   ]
+  ]
+ },
+ {
+  "term": "jótállás",
+  "definition": "a gyártó formális nyilatkozata a termék elvárható teljesítményéről",
+  "section": "3.5",
+  "star": false,
+  "concepts": [
+   [
+    "gyártó"
+   ],
+   [
+    "formális nyilatkozat"
+   ],
+   [
+    "teljesítmény"
+   ]
+  ]
+ },
+ {
+  "term": "márka",
+  "definition": "név, kifejezés, jel, szimbólum, dizájn vagy ezek kombinációja, amely azonosítja és megkülönbözteti a termékeket",
+  "section": "4.1",
+  "star": true,
+  "concepts": [
+   [
+    "azonosít"
+   ],
+   [
+    "megkülönböztet"
+   ],
+   [
+    "név",
+    "jel",
+    "szimbólum"
+   ]
+  ]
+ },
+ {
+  "term": "márkaelemek",
+  "definition": "név, logó, szimbólum, karakter, szlogen, csomagolás, URL",
+  "section": "4.2",
+  "star": true,
+  "concepts": [
+   [
+    "név"
+   ],
+   [
+    "logó"
+   ],
+   [
+    "szimbólum"
+   ],
+   [
+    "karakter"
+   ],
+   [
+    "szlogen"
+   ],
+   [
+    "csomagolás"
+   ],
+   [
+    "URL"
+   ]
+  ]
+ },
+ {
+  "term": "márkaérték (brand equity)",
+  "definition": "a márka által hozzáadott érték a vevők gondolataiban, érzéseiben, cselekedeteiben",
+  "section": "4.3",
+  "star": true,
+  "concepts": [
+   [
+    "hozzáadott érték"
+   ],
+   [
+    "vevők"
+   ],
+   [
+    "gondolat",
+    "érzés",
+    "cselekedet"
+   ]
+  ]
+ },
+ {
+  "term": "márkaértékelés (brand valuation)",
+  "definition": "a márka teljes pénzügyi értékének becslése",
+  "section": "4.3",
+  "star": true,
+  "concepts": [
+   [
+    "pénzügyi érték"
+   ],
+   [
+    "becslés"
+   ]
+  ]
+ },
+ {
+  "term": "BAV-modell",
+  "definition": "különbözőség, relevancia (márkaerősség); elismertség, ismertség (márkatekintély)",
+  "section": "4.3",
+  "star": true,
+  "concepts": [
+   [
+    "különbözőség"
+   ],
+   [
+    "relevancia"
+   ],
+   [
+    "elismertség"
+   ],
+   [
+    "ismertség"
+   ]
+  ]
+ },
+ {
+  "term": "márkaismertség",
+  "definition": "a vevők képessége a márka felismerésére különböző helyzetekben; dimenziói: felidézés és felismerés",
+  "section": "4.4",
+  "star": true,
+  "concepts": [
+   [
+    "felidézés"
+   ],
+   [
+    "felismerés"
+   ]
+  ]
+ },
+ {
+  "term": "márkaimázs",
+  "definition": "az emberben vagy csoportban az adott márkáról kialakuló elképzelések és benyomások összessége",
+  "section": "4.4",
+  "star": false,
+  "concepts": [
+   [
+    "elképzelések"
+   ],
+   [
+    "benyomások"
+   ],
+   [
+    "összesség"
+   ]
+  ]
+ },
+ {
+  "term": "márkakiterjesztés",
+  "definition": "meglévő márkanév felhasználása új termék bevezetésére (termékcsalád- és termékkategória-bővítés)",
+  "section": "4.5",
+  "star": true,
+  "concepts": [
+   [
+    "meglévő márka"
+   ],
+   [
+    "új termék"
+   ]
+  ]
+ },
+ {
+  "term": "versenyelőny",
+  "definition": "a vállalat azon képessége, hogy egy vagy több területen a versenytársak ne tudják vagy ne akarják követni",
+  "section": "5.1",
+  "star": true,
+  "concepts": [
+   [
+    "képesség"
+   ],
+   [
+    "versenytársak",
+    "versenytárs"
+   ],
+   [
+    "ne tudják",
+    "nem tudják"
+   ],
+   [
+    "ne akarják követni",
+    "nem akarják követni"
+   ]
+  ]
+ },
+ {
+  "term": "versenytárs-elemzés",
+  "definition": "folyamat, amelyben a vállalat azonosítja, elemzi és kiválasztja a kulcsfontosságú versenytársakat",
+  "section": "5.1",
+  "star": true,
+  "concepts": [
+   [
+    "azonosít"
+   ],
+   [
+    "elemez"
+   ],
+   [
+    "kiválaszt"
+   ]
+  ]
+ },
+ {
+  "term": "stratégiai csoport",
+  "definition": "egy iparág azon vállalkozásai, amelyek ugyanazt vagy hasonló stratégiát követnek egy célpiacon",
+  "section": "5.3",
+  "star": true,
+  "concepts": [
+   [
+    "iparág"
+   ],
+   [
+    "hasonló stratégia"
+   ],
+   [
+    "célpiac"
+   ]
+  ]
+ },
+ {
+  "term": "ügyfélérték-elemzés",
+  "definition": "meghatározza a vevők által értéknek tartott előnyöket és azt, hogyan értékelik a versenytársak ajánlatait",
+  "section": "5.4",
+  "star": false,
+  "concepts": [
+   [
+    "vevők"
+   ],
+   [
+    "előnyök"
+   ],
+   [
+    "versenytársak ajánlata"
+   ]
+  ]
+ },
+ {
+  "term": "kék óceán stratégia",
+  "definition": "ismeretlen piacok, új iparágak világa, ahol nincs verseny és a kereslet szinte végtelen",
+  "section": "5.4",
+  "star": false,
+  "concepts": [
+   [
+    "új iparág"
+   ],
+   [
+    "nincs verseny"
+   ]
+  ]
+ },
+ {
+  "term": "Porter versenystratégiái",
+  "definition": "költségdiktáló, differenciáló, koncentráló, harmadikutas (nem sikeres)",
+  "section": "5.5",
+  "star": true,
+  "concepts": [
+   [
+    "költségdiktáló"
+   ],
+   [
+    "differenciáló"
+   ],
+   [
+    "koncentráló"
+   ],
+   [
+    "harmadikutas"
+   ]
+  ]
+ },
+ {
+  "term": "piaci szerepek",
+  "definition": "piacvezető, piackihívó, piackövető, piaci niche",
+  "section": "5.6",
+  "star": true,
+  "concepts": [
+   [
+    "piacvezető",
+    "vezető"
+   ],
+   [
+    "piackihívó",
+    "kihívó"
+   ],
+   [
+    "piackövető",
+    "követő"
+   ],
+   [
+    "niche"
+   ]
+  ]
+ }
+]

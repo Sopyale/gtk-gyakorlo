@@ -197,7 +197,7 @@ export default function QuestionCard({ q, feedback, onAnswer, onOverride, onNext
       )}
 
       {calc && (
-        <form className="calc" onSubmit={(e) => { e.preventDefault(); submit(nums); }}>
+        <form className={`calc${q.fields.some((f) => f.label.length > 8) ? ' long' : ''}`} onSubmit={(e) => { e.preventDefault(); submit(nums); }}>
           {q.fields.map((f) => {
             const ok = answered && feedback ? fieldCorrect(f, nums[f.label]) : null;
             return (

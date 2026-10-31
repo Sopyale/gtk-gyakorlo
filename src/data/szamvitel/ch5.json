@@ -1,0 +1,1710 @@
+[
+ {
+  "id": "szv-5-001",
+  "chapter": 5,
+  "section": "5.1",
+  "type": "igaz-hamis",
+  "question": "A vásárolt készletek a vállalkozási tevékenységet általában egy évnél rövidebb ideig szolgálják, és a tenyészállatok is ide tartoznak.",
+  "answer": false,
+  "explanation": "A tenyészállatok nem sorolhatók a készletek közé (a készletekre adott előleg viszont igen).",
+  "source": "Jegyzet 5.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-5-002",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "igaz-hamis",
+  "question": "A készlet bekerülési értékébe a beszerzéshez kapcsolódó szállítási és rakodási költség is beletartozik.",
+  "answer": true,
+  "explanation": "A bekerülési érték a raktárba szállításig felmerülő, a készlethez hozzárendelhető tételeket tartalmazza.",
+  "source": "Jegyzet 5.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-5-003",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "igaz-hamis",
+  "question": "A bekerülési értékbe beletartozik az előzetesen felszámított ÁFA levonható része.",
+  "answer": false,
+  "explanation": "A levonható ÁFA külön számlán (Előzetes ÁFA) szerepel, nem része a bekerülési értéknek.",
+  "source": "Jegyzet 5.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-5-004",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "igaz-hamis",
+  "question": "Csúsztatott átlagár alkalmazásakor minden beszerzés után újraszámolják az átlagárat.",
+  "answer": true,
+  "explanation": "Az új átlagár = (meglévő készlet értéke + új beszerzés értéke) / új mennyiség.",
+  "source": "Jegyzet 5.6 · 5.10",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-5-005",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "igaz-hamis",
+  "question": "FIFO módszernél a legkorábban beszerzett készletek árán értékeljük a készletcsökkenést, így a záró készlet a legutolsó beszerzések árán marad.",
+  "answer": true,
+  "explanation": "First in – first out: a legrégebbi rétegből fogyunk először.",
+  "source": "Jegyzet 5.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-5-006",
+  "chapter": 5,
+  "section": "5.8",
+  "type": "igaz-hamis",
+  "question": "A leltárhiány egyéb bevétel, a leltártöbblet egyéb ráfordítás.",
+  "answer": false,
+  "explanation": "Fordítva: a hiány egyéb ráfordítás (8.), a többlet egyéb bevétel (9.).",
+  "source": "Jegyzet 5.8",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-5-007",
+  "chapter": 5,
+  "section": "5.8",
+  "type": "igaz-hamis",
+  "question": "Ha a piaci ár magasabb a könyv szerinti árnál, a készlet mérlegértéke a piaci ár.",
+  "answer": false,
+  "explanation": "A mérlegérték az alacsonyabb: ha a piaci ár a magasabb, a könyv szerinti érték marad, felfelé nem igazítunk.",
+  "source": "Jegyzet 5.8 Vizsgatipp",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-5-008",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "igaz-hamis",
+  "question": "Az áruk között a változatlan állapotban továbbértékesített közvetített szolgáltatások is szerepelnek.",
+  "answer": true,
+  "explanation": "Áruk: áruk, göngyölegek és közvetített szolgáltatások.",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-5-009",
+  "chapter": 5,
+  "section": "5.9",
+  "type": "feleletvalasztos",
+  "question": "A raktárba vett késztermék könyvelése helyesen:",
+  "options": [
+   "T 2. Késztermék – K 5. STKÁV",
+   "T 5. STKÁV – K 2. Késztermék",
+   "T 2. Késztermék – K 8. ELÁBÉ",
+   "T 8. ELÁBÉ – K 2. Késztermék"
+  ],
+  "answer": "T 2. Késztermék – K 5. STKÁV",
+  "explanation": "A saját termelésű készlet növekedése az 5. STKÁV számla K oldalán jelenik meg; kivezetéskor T oldalon csökken. Késztermék nem ELÁBÉ-val megy ki.",
+  "source": "Jegyzet 5.9",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-5-010",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "feleletvalasztos",
+  "question": "Melyik NEM része a készlet bekerülési értékének?",
+  "options": [
+   "A levonható ÁFA",
+   "A szállítási költség",
+   "A rakodási költség",
+   "A számla szerinti vételár"
+  ],
+  "answer": "A levonható ÁFA",
+  "explanation": "A levonható ÁFA külön, Előzetes ÁFA számlán szerepel, nem része a bekerülési értéknek.",
+  "source": "Jegyzet 5.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-5-011",
+  "chapter": 5,
+  "section": "5.3",
+  "type": "feleletvalasztos",
+  "question": "Mi az anyagok és az áruk közötti lényegi különbség?",
+  "options": [
+   "Az árut változatlan állapotban értékesítik, az anyagot felhasználják",
+   "Az anyagot mindig készpénzért vásárolják",
+   "Az árut mindig saját maga állítja elő a vállalkozás",
+   "Az anyagot nem kell készletként nyilvántartani"
+  ],
+  "answer": "Az árut változatlan állapotban értékesítik, az anyagot felhasználják",
+  "explanation": "Az áru értékesítési céllal beszerzett, változatlan állapotban maradó készlet; az anyagot a termékek előállításához vagy szolgáltatáshoz használják fel.",
+  "source": "Jegyzet 5.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-5-012",
+  "chapter": 5,
+  "section": "5.8",
+  "type": "feleletvalasztos",
+  "question": "Egy vállalkozás készletében 6 db hiányzik a leltár szerint, a leltári érték 120 eFt. Melyik tétel a helyes könyvelés?",
+  "options": [
+   "T 8. Egyéb ráfordítások – K 2. Anyagok",
+   "T 9. Egyéb bevétel – K 2. Anyagok",
+   "T 2. Anyagok – K 8. Egyéb ráfordítások",
+   "T 5. Anyagköltség – K 4. Szállítók"
+  ],
+  "answer": "T 8. Egyéb ráfordítások – K 2. Anyagok",
+  "explanation": "A leltárhiány egyéb ráfordítás; a készlet csökken, tehát K oldalon szerepel.",
+  "source": "Jegyzet 5.8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-5-013",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg a készletértékeléssel kapcsolatos igaz állításokat! (Minden állítás külön pontot ér.)",
+  "statements": [
+   {
+    "text": "FIFO módszernél a felhasználás a legrégebbi beszerzés árán értékelendő.",
+    "answer": true
+   },
+   {
+    "text": "A leltárhiány egyéb ráfordítás.",
+    "answer": true
+   },
+   {
+    "text": "A raktárból kivezetett késztermék értékét az ELÁBÉ számlán mutatjuk ki.",
+    "answer": false
+   },
+   {
+    "text": "A bekerülési érték része a levonható ÁFA.",
+    "answer": false
+   },
+   {
+    "text": "Nyilvántartás nélkül a beszerzés azonnal költség, és a megmaradt készletet év végén leltár alapján visszavezetik.",
+    "answer": true
+   }
+  ],
+  "explanation": "A bekerülési érték ÁFA nélküli, a FIFO a legrégebbi árat használja, a leltárhiány egyéb ráfordítás, a késztermék kivezetése STKÁV számlával történik.",
+  "source": "Jegyzet 5.4–5.9",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-5-014",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "relacio",
+  "question": "Relációanalízis, 3. tétel: mi a két állítás viszonya?",
+  "statements": [
+   "A készlet bekerülési értékében a szállítási díj szerepel, az ÁFA levonható része viszont nem.",
+   "A levonható ÁFA külön, az Előzetes ÁFA számlán szerepel, és az államtól visszaigényelhető."
+  ],
+  "answer": "A",
+  "explanation": "Mindkét állítás igaz, és a B megindokolja az A-t: a levonható ÁFA nem a készlet költsége, hanem az állammal szembeni követelés.",
+  "source": "Jegyzet 5.4 · 2.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-5-015",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy vállalkozás 2 000 db anyagot vásárol (Ft-ban számolunk): vételár 1 800 Ft/db + 25% ÁFA, szállítási díj 300 000 Ft + 25% ÁFA, rakodási költség 60 000 Ft + 25% ÁFA. A beszerzéseket szállítói tartozásra könyveli, folyamatos mennyiségi és értéknyilvántartást vezet. Később a készlet 50%-át felhasználja. Töltse ki a rácsot a beszerzés tételeivel, és adja meg a kért értékeket!",
+  "fields": [
+   {
+    "label": "1. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: összeg",
+    "answer": "3600000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "3 600 000",
+     "900000",
+     "900 000"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: összeg",
+    "answer": "900000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "900 000",
+     "3600000",
+     "3 600 000"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "300000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "300 000",
+     "75000",
+     "75 000"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "75000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "75 000",
+     "300000",
+     "300 000"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: összeg",
+    "answer": "60000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "60 000",
+     "15000",
+     "15 000"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: összeg",
+    "answer": "15000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "15 000",
+     "60000",
+     "60 000"
+    ]
+   },
+   {
+    "label": "A bekerülési érték összesen (Ft)",
+    "answer": "3960000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Egységnyi bekerülési érték (Ft/db)",
+    "answer": "1980",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Az Előzetes ÁFA összesen (Ft)",
+    "answer": "990000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A szállítókkal szembeni tartozás összesen (Ft)",
+    "answer": "4950000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A készlet 50%-ának felhasználása: anyagköltség (Ft)",
+    "answer": "1980000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "A bekerülési érték minden, ami a raktárig felmerül (vételár, szállítás, rakodás), az ÁFA nélkül. A levonható ÁFA külön, Előzetes ÁFA számlán szerepel.",
+  "source": "Jegyzet 5.4 · 5.5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "esemény: nettó 3 600 000 → T 2. Anyagok; ÁFA = 3 600 000 × 0,25 = 900 000 → T Előzetes ÁFA; Szállítók K bruttó 4 500 000. Tétel(ek): T 2. Anyagok – K 4. Szállítók: 3 600 000; T 4. Előzetes ÁFA – K 4. Szállítók: 900 000.",
+   "esemény: nettó 300 000 → T 2. Anyagok; ÁFA = 300 000 × 0,25 = 75 000 → T Előzetes ÁFA; Szállítók K bruttó 375 000. Tétel(ek): T 2. Anyagok – K 4. Szállítók: 300 000; T 4. Előzetes ÁFA – K 4. Szállítók: 75 000.",
+   "esemény: nettó 60 000 → T 2. Anyagok; ÁFA = 60 000 × 0,25 = 15 000 → T Előzetes ÁFA; Szállítók K bruttó 75 000. Tétel(ek): T 2. Anyagok – K 4. Szállítók: 60 000; T 4. Előzetes ÁFA – K 4. Szállítók: 15 000.",
+   "→ Bekerülési érték = 3 600 000 + 300 000 + 60 000 = 3 960 000 (ÁFA nélkül).",
+   "→ Egységár = 3 960 000 / 2 000 = 1 980 Ft/db.",
+   "→ Felhasználás 50%: 1 000 db × 1 980 = 1 980 000 (T 5. Anyagköltség – K 2. Anyagok)."
+  ]
+ },
+ {
+  "id": "szv-5-016",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy vállalkozás 800 db anyagot vásárol (Ft-ban számolunk): vételár 4 500 Ft/db + 25% ÁFA, szállítási díj 120 000 Ft + 25% ÁFA, rakodási költség 80 000 Ft + 25% ÁFA. A beszerzéseket szállítói tartozásra könyveli, folyamatos mennyiségi és értéknyilvántartást vezet. Töltse ki a rácsot a beszerzés tételeivel, és adja meg a kért értékeket!",
+  "fields": [
+   {
+    "label": "1. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: összeg",
+    "answer": "3600000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "3 600 000",
+     "900000",
+     "900 000"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: összeg",
+    "answer": "900000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "900 000",
+     "3600000",
+     "3 600 000"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "120000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "120 000",
+     "30000",
+     "30 000"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "30000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "30 000",
+     "120000",
+     "120 000"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: összeg",
+    "answer": "80000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "80 000",
+     "20000",
+     "20 000"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: összeg",
+    "answer": "20000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "20 000",
+     "80000",
+     "80 000"
+    ]
+   },
+   {
+    "label": "A bekerülési érték összesen (Ft)",
+    "answer": "3800000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Egységnyi bekerülési érték (Ft/db)",
+    "answer": "4750",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Az Előzetes ÁFA összesen (Ft)",
+    "answer": "950000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A szállítókkal szembeni tartozás összesen (Ft)",
+    "answer": "4750000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "A bekerülési érték minden, ami a raktárig felmerül (vételár, szállítás, rakodás), az ÁFA nélkül. A levonható ÁFA külön, Előzetes ÁFA számlán szerepel.",
+  "source": "Jegyzet 5.4 · 5.5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "esemény: nettó 3 600 000 → T 2. Anyagok; ÁFA = 3 600 000 × 0,25 = 900 000 → T Előzetes ÁFA; Szállítók K bruttó 4 500 000. Tétel(ek): T 2. Anyagok – K 4. Szállítók: 3 600 000; T 4. Előzetes ÁFA – K 4. Szállítók: 900 000.",
+   "esemény: nettó 120 000 → T 2. Anyagok; ÁFA = 120 000 × 0,25 = 30 000 → T Előzetes ÁFA; Szállítók K bruttó 150 000. Tétel(ek): T 2. Anyagok – K 4. Szállítók: 120 000; T 4. Előzetes ÁFA – K 4. Szállítók: 30 000.",
+   "esemény: nettó 80 000 → T 2. Anyagok; ÁFA = 80 000 × 0,25 = 20 000 → T Előzetes ÁFA; Szállítók K bruttó 100 000. Tétel(ek): T 2. Anyagok – K 4. Szállítók: 80 000; T 4. Előzetes ÁFA – K 4. Szállítók: 20 000.",
+   "→ Bekerülési érték = 3 600 000 + 120 000 + 80 000 = 3 800 000 (ÁFA nélkül).",
+   "→ Egységár = 3 800 000 / 800 = 4 750 Ft/db."
+  ]
+ },
+ {
+  "id": "szv-5-017",
+  "chapter": 5,
+  "section": "5.4",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy vállalkozás 1 200 db anyagot vásárol (Ft-ban számolunk): vételár 2 500 Ft/db + 25% ÁFA, szállítási díj 90 000 Ft + 25% ÁFA, rakodási költség 30 000 Ft + 25% ÁFA. A beszerzéseket szállítói tartozásra könyveli, folyamatos mennyiségi és értéknyilvántartást vezet. Később a készlet 25%-át felhasználja. Töltse ki a rácsot a beszerzés tételeivel, és adja meg a kért értékeket!",
+  "fields": [
+   {
+    "label": "1. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: összeg",
+    "answer": "3000000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "3 000 000",
+     "750000",
+     "750 000"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: összeg",
+    "answer": "750000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "750 000",
+     "3000000",
+     "3 000 000"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "90000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "90 000",
+     "22500",
+     "22 500"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "22500",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "22 500",
+     "90000",
+     "90 000"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: összeg",
+    "answer": "30000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "30 000",
+     "7500",
+     "7 500"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: összeg",
+    "answer": "7500",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "7 500",
+     "30000",
+     "30 000"
+    ]
+   },
+   {
+    "label": "A bekerülési érték összesen (Ft)",
+    "answer": "3120000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Egységnyi bekerülési érték (Ft/db)",
+    "answer": "2600",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Az Előzetes ÁFA összesen (Ft)",
+    "answer": "780000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A szállítókkal szembeni tartozás összesen (Ft)",
+    "answer": "3900000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A készlet 25%-ának felhasználása: anyagköltség (Ft)",
+    "answer": "780000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "A bekerülési érték minden, ami a raktárig felmerül (vételár, szállítás, rakodás), az ÁFA nélkül. A levonható ÁFA külön, Előzetes ÁFA számlán szerepel.",
+  "source": "Jegyzet 5.4 · 5.5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "esemény: nettó 3 000 000 → T 2. Anyagok; ÁFA = 3 000 000 × 0,25 = 750 000 → T Előzetes ÁFA; Szállítók K bruttó 3 750 000. Tétel(ek): T 2. Anyagok – K 4. Szállítók: 3 000 000; T 4. Előzetes ÁFA – K 4. Szállítók: 750 000.",
+   "esemény: nettó 90 000 → T 2. Anyagok; ÁFA = 90 000 × 0,25 = 22 500 → T Előzetes ÁFA; Szállítók K bruttó 112 500. Tétel(ek): T 2. Anyagok – K 4. Szállítók: 90 000; T 4. Előzetes ÁFA – K 4. Szállítók: 22 500.",
+   "esemény: nettó 30 000 → T 2. Anyagok; ÁFA = 30 000 × 0,25 = 7 500 → T Előzetes ÁFA; Szállítók K bruttó 37 500. Tétel(ek): T 2. Anyagok – K 4. Szállítók: 30 000; T 4. Előzetes ÁFA – K 4. Szállítók: 7 500.",
+   "→ Bekerülési érték = 3 000 000 + 90 000 + 30 000 = 3 120 000 (ÁFA nélkül).",
+   "→ Egységár = 3 120 000 / 1 200 = 2 600 Ft/db.",
+   "→ Felhasználás 25%: 300 db × 2 600 = 780 000 (T 5. Anyagköltség – K 2. Anyagok)."
+  ]
+ },
+ {
+  "id": "szv-5-018",
+  "chapter": 5,
+  "section": "5.5",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy vállalkozás az évközi mennyiségi és értéknyilvántartást nem vezeti, ezért a készletbeszerzéseket azonnal költségként számolja el (Ft, ÁFA nélküli értékek): 1. beszerzés 300 db × 2 000 Ft/db; 2. beszerzés 500 db × 2 200 Ft/db. Az éves leltár szerint 150 db anyag van a raktárban, amelynek értékét az utolsó beszerzési áron (FIFO) határozzák meg. Mekkora az év során azonnal költségként elszámolt összeg, mekkora a záró készlet értéke, és mekkora a végleges anyagköltség?",
+  "fields": [
+   {
+    "label": "Az évközben elszámolt anyagköltség (Ft)",
+    "answer": "1700000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A záró készlet értéke (Ft)",
+    "answer": "330000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A végleges anyagköltség (Ft)",
+    "answer": "1370000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A zárókészlet visszavezetése: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév",
+    "alts": [
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "A zárókészlet visszavezetése: K számla",
+    "answer": "5. Anyagköltség",
+    "accept": "text",
+    "format": "számlanév",
+    "alts": [
+     "Anyagköltség"
+    ]
+   }
+  ],
+  "explanation": "Nyilvántartás nélkül a beszerzés azonnal költség (T Anyagköltség – K Szállítók); év végén a megmaradt készletet a leltár alapján visszavezetjük (T Anyagok – K Anyagköltség), így a költség csak a felhasznált rész lesz.",
+  "source": "Jegyzet 5.5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Évközi anyagköltség = 600 000 + 1 100 000 = 1 700 000.",
+   "Záró készlet = 150 × 2 200 = 330 000 (az utolsó beszerzési ár).",
+   "Visszavezetés: T 2. Anyagok – K 5. Anyagköltség 330 000.",
+   "Végleges anyagköltség = 1 700 000 − 330 000 = 1 370 000."
+  ]
+ },
+ {
+  "id": "szv-5-019",
+  "chapter": 5,
+  "section": "5.5",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy vállalkozás az évközi mennyiségi és értéknyilvántartást nem vezeti, ezért a készletbeszerzéseket azonnal költségként számolja el (Ft, ÁFA nélküli értékek): 1. beszerzés 400 db × 1 500 Ft/db; 2. beszerzés 200 db × 1 650 Ft/db. Az éves leltár szerint 100 db anyag van a raktárban, amelynek értékét az utolsó beszerzési áron (FIFO) határozzák meg. Mekkora az év során azonnal költségként elszámolt összeg, mekkora a záró készlet értéke, és mekkora a végleges anyagköltség?",
+  "fields": [
+   {
+    "label": "Az évközben elszámolt anyagköltség (Ft)",
+    "answer": "930000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A záró készlet értéke (Ft)",
+    "answer": "165000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A végleges anyagköltség (Ft)",
+    "answer": "765000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A zárókészlet visszavezetése: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév",
+    "alts": [
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "A zárókészlet visszavezetése: K számla",
+    "answer": "5. Anyagköltség",
+    "accept": "text",
+    "format": "számlanév",
+    "alts": [
+     "Anyagköltség"
+    ]
+   }
+  ],
+  "explanation": "Nyilvántartás nélkül a beszerzés azonnal költség (T Anyagköltség – K Szállítók); év végén a megmaradt készletet a leltár alapján visszavezetjük (T Anyagok – K Anyagköltség), így a költség csak a felhasznált rész lesz.",
+  "source": "Jegyzet 5.5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Évközi anyagköltség = 600 000 + 330 000 = 930 000.",
+   "Záró készlet = 100 × 1 650 = 165 000 (az utolsó beszerzési ár).",
+   "Visszavezetés: T 2. Anyagok – K 5. Anyagköltség 165 000.",
+   "Végleges anyagköltség = 930 000 − 165 000 = 765 000."
+  ]
+ },
+ {
+  "id": "szv-5-020",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy vállalkozás anyagkészletének mozgása (a nyitókészlet 0; Ft-ban számolunk, a felhasználást FIFO módszerrel értékelik):\n1. beszerzés (szállítóval szemben, 25% ÁFA): 5 000 db × 400 Ft/db\n2. beszerzés (szállítóval szemben, 25% ÁFA): 8 000 db × 420 Ft/db\n3. felhasználás: 9 000 db\n4. beszerzés (szállítóval szemben, 25% ÁFA): 6 000 db × 450 Ft/db\n5. felhasználás: 7 000 db\nMekkora az egyes felhasználások értéke, és mennyi a záró készlet mennyisége és értéke?",
+  "fields": [
+   {
+    "label": "1. felhasználás értéke (Ft)",
+    "answer": "3680000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "2. felhasználás értéke (Ft)",
+    "answer": "3030000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A záró készlet mennyisége (db)",
+    "answer": "3000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A záró készlet értéke (Ft)",
+    "answer": "1350000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "FIFO: a legrégebbi beszerzés árán fogy először; sorban elfogyasztjuk a rétegeket. A felhasználás és a záró készlet együtt a beszerzések összege.",
+  "source": "Jegyzet 5.6 · 5.10 B)",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "felhasználás FIFO-val: 5 000 × 400 + 4 000 × 420 = 3 680 000.",
+   "felhasználás FIFO-val: 4 000 × 420 + 3 000 × 450 = 3 030 000.",
+   "→ Záró készlet: 3 000 db, értéke 1 350 000 Ft; ellenőrzés: összes beszerzés 8 060 000 − felhasználás 6 710 000 = 1 350 000."
+  ]
+ },
+ {
+  "id": "szv-5-021",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy vállalkozás anyagkészletének mozgása (a nyitókészlet 0; Ft-ban számolunk, a felhasználást FIFO módszerrel értékelik):\n1. beszerzés (szállítóval szemben, 25% ÁFA): 3 000 db × 800 Ft/db\n2. beszerzés (szállítóval szemben, 25% ÁFA): 4 000 db × 760 Ft/db\n3. felhasználás: 5 000 db\n4. beszerzés (szállítóval szemben, 25% ÁFA): 5 000 db × 820 Ft/db\n5. felhasználás: 6 000 db\nMekkora az egyes felhasználások értéke, és mennyi a záró készlet mennyisége és értéke?",
+  "fields": [
+   {
+    "label": "1. felhasználás értéke (Ft)",
+    "answer": "3920000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "2. felhasználás értéke (Ft)",
+    "answer": "4800000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A záró készlet mennyisége (db)",
+    "answer": "1000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A záró készlet értéke (Ft)",
+    "answer": "820000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "FIFO: a legrégebbi beszerzés árán fogy először; sorban elfogyasztjuk a rétegeket. A felhasználás és a záró készlet együtt a beszerzések összege.",
+  "source": "Jegyzet 5.6 · 5.10 B)",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "felhasználás FIFO-val: 3 000 × 800 + 2 000 × 760 = 3 920 000.",
+   "felhasználás FIFO-val: 2 000 × 760 + 4 000 × 820 = 4 800 000.",
+   "→ Záró készlet: 1 000 db, értéke 820 000 Ft; ellenőrzés: összes beszerzés 9 540 000 − felhasználás 8 720 000 = 820 000."
+  ]
+ },
+ {
+  "id": "szv-5-022",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy vállalkozás anyagkészletének mozgása (a nyitókészlet 0; Ft-ban számolunk, a felhasználást FIFO módszerrel értékelik):\n1. beszerzés (szállítóval szemben, 25% ÁFA): 2 000 db × 1 500 Ft/db\n2. beszerzés (szállítóval szemben, 25% ÁFA): 3 000 db × 1 560 Ft/db\n3. beszerzés (szállítóval szemben, 25% ÁFA): 2 500 db × 1 600 Ft/db\n4. felhasználás: 4 000 db\n5. felhasználás: 2 500 db\nMekkora az egyes felhasználások értéke, és mennyi a záró készlet mennyisége és értéke?",
+  "fields": [
+   {
+    "label": "1. felhasználás értéke (Ft)",
+    "answer": "6120000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "2. felhasználás értéke (Ft)",
+    "answer": "3960000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A záró készlet mennyisége (db)",
+    "answer": "1000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A záró készlet értéke (Ft)",
+    "answer": "1600000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "FIFO: a legrégebbi beszerzés árán fogy először; sorban elfogyasztjuk a rétegeket. A felhasználás és a záró készlet együtt a beszerzések összege.",
+  "source": "Jegyzet 5.6 · 5.10 B)",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "felhasználás FIFO-val: 2 000 × 1 500 + 2 000 × 1 560 = 6 120 000.",
+   "felhasználás FIFO-val: 1 000 × 1 560 + 1 500 × 1 600 = 3 960 000.",
+   "→ Záró készlet: 1 000 db, értéke 1 600 000 Ft; ellenőrzés: összes beszerzés 11 680 000 − felhasználás 10 080 000 = 1 600 000."
+  ]
+ },
+ {
+  "id": "szv-5-023",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy vállalkozás anyagkészletét csúsztatott átlagárral értékeli (minden beszerzés után új átlagárat számol; Ft-ban számolunk):\n1. Nyitókészlet: 2 000 db × 160 Ft/db\n2. Beszerzés (szállítóval szemben): 3 000 db × 130 Ft/db\n3. Felhasználás: 2 000 db\n4. Beszerzés (szállítóval szemben): 3 000 db × 180 Ft/db\n5. Felhasználás: 4 500 db\nMekkora az egyes felhasználások értéke és a záró készlet értéke?",
+  "fields": [
+   {
+    "label": "1. felhasználás értéke (Ft)",
+    "answer": "284000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "2. felhasználás értéke (Ft)",
+    "answer": "724500",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A záró készlet értéke (Ft)",
+    "answer": "241500",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A záró készlet átlagára (Ft/db)",
+    "answer": "161",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Csúsztatott átlagár: a kész készlet értékét az új beszerzéssel együtt elosztjuk az új mennyiséggel; a felhasználás az aktuális átlagáron történik. A felhasználás után az átlagár változatlan.",
+  "source": "Jegyzet 5.6 · 5.10 A)",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "→ Nyitás: készlet 2 000 db, értéke 320 000 Ft, új átlagár 320 000 / 2 000 = 160 Ft/db.",
+   "→ Beszerzés: készlet 5 000 db, értéke 710 000 Ft, új átlagár 710 000 / 5 000 = 142 Ft/db.",
+   "felhasználás: 2 000 × 142 = 284 000 Ft.",
+   "→ Beszerzés: készlet 6 000 db, értéke 966 000 Ft, új átlagár 966 000 / 6 000 = 161 Ft/db.",
+   "felhasználás: 4 500 × 161 = 724 500 Ft.",
+   "→ Záró készlet: 1 500 db × 161 Ft/db = 241 500 Ft."
+  ]
+ },
+ {
+  "id": "szv-5-024",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy vállalkozás anyagkészletét csúsztatott átlagárral értékeli (minden beszerzés után új átlagárat számol; Ft-ban számolunk):\n1. Nyitókészlet: 2 000 db × 140 Ft/db\n2. Beszerzés (szállítóval szemben): 4 000 db × 170 Ft/db\n3. Felhasználás: 4 000 db\n4. Beszerzés (szállítóval szemben): 3 000 db × 140 Ft/db\n5. Felhasználás: 4 500 db\nMekkora az egyes felhasználások értéke és a záró készlet értéke?",
+  "fields": [
+   {
+    "label": "1. felhasználás értéke (Ft)",
+    "answer": "640000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "2. felhasználás értéke (Ft)",
+    "answer": "666000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A záró készlet értéke (Ft)",
+    "answer": "74000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A záró készlet átlagára (Ft/db)",
+    "answer": "148",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Csúsztatott átlagár: a kész készlet értékét az új beszerzéssel együtt elosztjuk az új mennyiséggel; a felhasználás az aktuális átlagáron történik. A felhasználás után az átlagár változatlan.",
+  "source": "Jegyzet 5.6 · 5.10 A)",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "→ Nyitás: készlet 2 000 db, értéke 280 000 Ft, új átlagár 280 000 / 2 000 = 140 Ft/db.",
+   "→ Beszerzés: készlet 6 000 db, értéke 960 000 Ft, új átlagár 960 000 / 6 000 = 160 Ft/db.",
+   "felhasználás: 4 000 × 160 = 640 000 Ft.",
+   "→ Beszerzés: készlet 5 000 db, értéke 740 000 Ft, új átlagár 740 000 / 5 000 = 148 Ft/db.",
+   "felhasználás: 4 500 × 148 = 666 000 Ft.",
+   "→ Záró készlet: 500 db × 148 Ft/db = 74 000 Ft."
+  ]
+ },
+ {
+  "id": "szv-5-025",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy vállalkozás anyagkészletét csúsztatott átlagárral értékeli (minden beszerzés után új átlagárat számol; Ft-ban számolunk):\n1. Nyitókészlet: 2 000 db × 140 Ft/db\n2. Beszerzés (szállítóval szemben): 3 000 db × 170 Ft/db\n3. Felhasználás: 3 000 db\n4. Beszerzés (szállítóval szemben): 3 000 db × 160 Ft/db\n5. Felhasználás: 3 500 db\nMekkora az egyes felhasználások értéke és a záró készlet értéke?",
+  "fields": [
+   {
+    "label": "1. felhasználás értéke (Ft)",
+    "answer": "474000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "2. felhasználás értéke (Ft)",
+    "answer": "557200",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A záró készlet értéke (Ft)",
+    "answer": "238800",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A záró készlet átlagára (Ft/db)",
+    "answer": "159.2",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Csúsztatott átlagár: a kész készlet értékét az új beszerzéssel együtt elosztjuk az új mennyiséggel; a felhasználás az aktuális átlagáron történik. A felhasználás után az átlagár változatlan.",
+  "source": "Jegyzet 5.6 · 5.10 A)",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "→ Nyitás: készlet 2 000 db, értéke 280 000 Ft, új átlagár 280 000 / 2 000 = 140 Ft/db.",
+   "→ Beszerzés: készlet 5 000 db, értéke 790 000 Ft, új átlagár 790 000 / 5 000 = 158 Ft/db.",
+   "felhasználás: 3 000 × 158 = 474 000 Ft.",
+   "→ Beszerzés: készlet 5 000 db, értéke 796 000 Ft, új átlagár 796 000 / 5 000 = 159,2 Ft/db.",
+   "felhasználás: 3 500 × 159,2 = 557 200 Ft.",
+   "→ Záró készlet: 1 500 db × 159,2 Ft/db = 238 800 Ft."
+  ]
+ },
+ {
+  "id": "szv-5-026",
+  "chapter": 5,
+  "section": "5.8",
+  "type": "szamolas",
+  "points": 12,
+  "question": "Egy vállalkozás anyagkészletét csúsztatott átlagárral értékeli (Ft):\n1. Nyitókészlet: 1 000 db × 160 Ft/db\n2. Beszerzés: 4 000 db × 170 Ft/db\n3. Felhasználás: 4 000 db\n4. Beszerzés: 2 000 db × 180 Ft/db\n5. Felhasználás: 2 500 db\nA fordulónapi leltár szerint a raktárban 400 db anyag van, a könyv szerinti mennyiség 500 db. A hiányt a záró átlagáron értékelik. Mekkora a leltárhiány értéke, melyik számlán könyveljük, és mekkora a leltár szerinti záróérték?",
+  "fields": [
+   {
+    "label": "A leltárhiány mennyisége (db)",
+    "answer": "100",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A leltárhiány értéke (Ft)",
+    "answer": "17600",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A hiány könyvelése: T számla",
+    "answer": "8. Egyéb ráfordítások",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Egyéb ráfordítások"
+    ]
+   },
+   {
+    "label": "A hiány könyvelése: K számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév",
+    "alts": [
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "A leltár szerinti záróérték (Ft)",
+    "answer": "70400",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "A leltárhiány a könyv szerinti és a tényleges mennyiség különbsége a záró egységáron; egyéb ráfordítás (T 8. Egyéb ráfordítások – K 2. Anyagok). A mérlegben a leltár szerinti érték szerepel.",
+  "source": "Jegyzet 5.8 · 5.10",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Könyv szerinti záró készlet: 500 db × 176 Ft/db = 88 000 Ft.",
+   "Hiány = 500 − 400 = 100 db; értéke 100 × 176 = 17 600 Ft.",
+   "T 8. Egyéb ráfordítások – K 2. Anyagok 17 600.",
+   "Leltár szerinti záróérték = 88 000 − 17 600 = 70 400 Ft."
+  ]
+ },
+ {
+  "id": "szv-5-027",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy kereskedő áruból az alábbi két tételt vásárolta szállítótól (Ft/db, nettó): 1. 300 db × 900 Ft/db; 2. 200 db × 950 Ft/db. Később 400 db árut ad el vevőnek FIFO-értékeléssel, 100%-os haszonkulccsal (eladási ár = beszerzési érték × (1 + haszonkulcs)) és 25% ÁFA-val; a vevő tartozásként szerepel. Mekkora az ELÁBÉ, a nettó árbevétel, az ÁFA, a vevők bruttó összege és a záró áruk értéke?",
+  "fields": [
+   {
+    "label": "ELÁBÉ (Ft)",
+    "answer": "365000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Nettó árbevétel (Ft)",
+    "answer": "730000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Fizetendő ÁFA (Ft)",
+    "answer": "182500",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Vevők (T, bruttó, Ft)",
+    "answer": "912500",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A záró áruk értéke (Ft)",
+    "answer": "95000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "A kivezetés (ELÁBÉ) a beszerzési áron, az eladási ár a haszonkulccsal növelt érték; az ÁFA az eladási ár negyede. Tipikus hiba: az eladási árat a beszerzési áron könyvelni.",
+  "source": "Jegyzet 5.6 · 5.11",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "FIFO: 300 × 900 + 100 × 950 = 365 000 (T 8. ELÁBÉ – K 2. Áruk).",
+   "Eladási ár = 365 000 × 2 = 730 000 (T 3. Vevők – K 9. ÉNÁ).",
+   "ÁFA = 730 000 × 0,25 = 182 500 (T 3. Vevők – K 4. Fizetendő ÁFA); vevő bruttó = 912 500.",
+   "Záró áruk = 95 000 Ft."
+  ]
+ },
+ {
+  "id": "szv-5-028",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy kereskedő áruból az alábbi két tételt vásárolta szállítótól (Ft/db, nettó): 1. 400 db × 600 Ft/db; 2. 300 db × 640 Ft/db. Később 600 db árut ad el vevőnek FIFO-értékeléssel, 50%-os haszonkulccsal (eladási ár = beszerzési érték × (1 + haszonkulcs)) és 25% ÁFA-val; a vevő tartozásként szerepel. Mekkora az ELÁBÉ, a nettó árbevétel, az ÁFA, a vevők bruttó összege és a záró áruk értéke?",
+  "fields": [
+   {
+    "label": "ELÁBÉ (Ft)",
+    "answer": "368000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Nettó árbevétel (Ft)",
+    "answer": "552000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Fizetendő ÁFA (Ft)",
+    "answer": "138000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Vevők (T, bruttó, Ft)",
+    "answer": "690000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A záró áruk értéke (Ft)",
+    "answer": "64000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "A kivezetés (ELÁBÉ) a beszerzési áron, az eladási ár a haszonkulccsal növelt érték; az ÁFA az eladási ár negyede. Tipikus hiba: az eladási árat a beszerzési áron könyvelni.",
+  "source": "Jegyzet 5.6 · 5.11",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "FIFO: 400 × 600 + 200 × 640 = 368 000 (T 8. ELÁBÉ – K 2. Áruk).",
+   "Eladási ár = 368 000 × 1,5 = 552 000 (T 3. Vevők – K 9. ÉNÁ).",
+   "ÁFA = 552 000 × 0,25 = 138 000 (T 3. Vevők – K 4. Fizetendő ÁFA); vevő bruttó = 690 000.",
+   "Záró áruk = 64 000 Ft."
+  ]
+ },
+ {
+  "id": "szv-5-029",
+  "chapter": 5,
+  "section": "5.6",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy kereskedő áruból az alábbi két tételt vásárolta szállítótól (Ft/db, nettó): 1. 500 db × 480 Ft/db; 2. 300 db × 520 Ft/db. Később 700 db árut ad el vevőnek FIFO-értékeléssel, 80%-os haszonkulccsal (eladási ár = beszerzési érték × (1 + haszonkulcs)) és 25% ÁFA-val; a vevő tartozásként szerepel. Mekkora az ELÁBÉ, a nettó árbevétel, az ÁFA, a vevők bruttó összege és a záró áruk értéke?",
+  "fields": [
+   {
+    "label": "ELÁBÉ (Ft)",
+    "answer": "344000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Nettó árbevétel (Ft)",
+    "answer": "619200",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Fizetendő ÁFA (Ft)",
+    "answer": "154800",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Vevők (T, bruttó, Ft)",
+    "answer": "774000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "A záró áruk értéke (Ft)",
+    "answer": "52000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "A kivezetés (ELÁBÉ) a beszerzési áron, az eladási ár a haszonkulccsal növelt érték; az ÁFA az eladási ár negyede. Tipikus hiba: az eladási árat a beszerzési áron könyvelni.",
+  "source": "Jegyzet 5.6 · 5.11",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "FIFO: 500 × 480 + 200 × 520 = 344 000 (T 8. ELÁBÉ – K 2. Áruk).",
+   "Eladási ár = 344 000 × 1,8 = 619 200 (T 3. Vevők – K 9. ÉNÁ).",
+   "ÁFA = 619 200 × 0,25 = 154 800 (T 3. Vevők – K 4. Fizetendő ÁFA); vevő bruttó = 774 000.",
+   "Záró áruk = 52 000 Ft."
+  ]
+ },
+ {
+  "id": "szv-5-030",
+  "chapter": 5,
+  "section": "5.8",
+  "type": "szamolas",
+  "points": 2,
+  "question": "Egy vállalkozás készletének könyv szerinti egységára 1 200 Ft/db, a fordulónapi piaci egységára 950 Ft/db, a készlet 40 db. Mekkora a készlet mérlegértéke, és mekkora értékvesztést kell elszámolni (0, ha nem kell)?",
+  "fields": [
+   {
+    "label": "A mérlegérték (Ft)",
+    "answer": "38000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Az értékvesztés (Ft)",
+    "answer": "10000",
+    "accept": "int",
+    "format": "egész szám, nincs = 0"
+   }
+  ],
+  "explanation": "A mérlegérték a könyv szerinti és a piaci érték közül az alacsonyabb: lefelé igazítunk (értékvesztés, egyéb ráfordítás), felfelé nem.",
+  "source": "Jegyzet 5.8 Vizsgatipp",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Könyv szerinti érték = 1 200 × 40 = 48 000; piaci érték = 950 × 40 = 38 000.",
+   "Az alacsonyabb: 38 000; értékvesztés = 10 000. (T 8. Egyéb ráfordítások – K értékvesztés/készlet)"
+  ]
+ },
+ {
+  "id": "szv-5-031",
+  "chapter": 5,
+  "section": "5.8",
+  "type": "szamolas",
+  "points": 2,
+  "question": "Egy vállalkozás készletének könyv szerinti egységára 800 Ft/db, a fordulónapi piaci egységára 900 Ft/db, a készlet 50 db. Mekkora a készlet mérlegértéke, és mekkora értékvesztést kell elszámolni (0, ha nem kell)?",
+  "fields": [
+   {
+    "label": "A mérlegérték (Ft)",
+    "answer": "40000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Az értékvesztés (Ft)",
+    "answer": "0",
+    "accept": "int",
+    "format": "egész szám, nincs = 0"
+   }
+  ],
+  "explanation": "A mérlegérték a könyv szerinti és a piaci érték közül az alacsonyabb: lefelé igazítunk (értékvesztés, egyéb ráfordítás), felfelé nem.",
+  "source": "Jegyzet 5.8 Vizsgatipp",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Könyv szerinti érték = 800 × 50 = 40 000; piaci érték = 900 × 50 = 45 000.",
+   "Az alacsonyabb: 40 000; értékvesztés = 0. Piaci > könyv: a mérlegérték a könyv szerinti érték, nincs elszámolás."
+  ]
+ },
+ {
+  "id": "szv-5-032",
+  "chapter": 5,
+  "section": "5.8",
+  "type": "szamolas",
+  "points": 2,
+  "question": "Egy vállalkozás készletének könyv szerinti egységára 2 100 Ft/db, a fordulónapi piaci egységára 1 500 Ft/db, a készlet 20 db. Mekkora a készlet mérlegértéke, és mekkora értékvesztést kell elszámolni (0, ha nem kell)?",
+  "fields": [
+   {
+    "label": "A mérlegérték (Ft)",
+    "answer": "30000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Az értékvesztés (Ft)",
+    "answer": "12000",
+    "accept": "int",
+    "format": "egész szám, nincs = 0"
+   }
+  ],
+  "explanation": "A mérlegérték a könyv szerinti és a piaci érték közül az alacsonyabb: lefelé igazítunk (értékvesztés, egyéb ráfordítás), felfelé nem.",
+  "source": "Jegyzet 5.8 Vizsgatipp",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Könyv szerinti érték = 2 100 × 20 = 42 000; piaci érték = 1 500 × 20 = 30 000.",
+   "Az alacsonyabb: 30 000; értékvesztés = 12 000. (T 8. Egyéb ráfordítások – K értékvesztés/készlet)"
+  ]
+ },
+ {
+  "id": "szv-5-033",
+  "chapter": 5,
+  "section": "5.9",
+  "type": "szamolas",
+  "points": 3,
+  "question": "Egy termékcsoport adatai (eFt): befejezetlen termelés nyitó értéke 8 200; tárgyidőszaki közvetlen költségek 190 000; a termelés során keletkezett hasznosítható hulladék 6 400; a termékcsoportra osztott közvetett költségek 41 000; záró befejezetlen termelés 12 300; elkészült késztermék 2 100 db. Mekkora a befejezett termelés értéke, és mennyi egy késztermék önköltsége (eFt/db és Ft/db)?",
+  "fields": [
+   {
+    "label": "A befejezett termelés értéke (eFt)",
+    "answer": "220500",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Egy késztermék önköltsége (eFt/db)",
+    "answer": "105",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Egy késztermék önköltsége (Ft/db)",
+    "answer": "105000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Befejezett termelés = nyitó befejezetlen + közvetlen költségek + felosztott költségek − hulladékmegtérülés − záró befejezetlen termelés. Az egységár ennek és a darabszámnak a hányadosa. Az eFt-ot ezerrel szorozva kapjuk a Ft-ot.",
+  "source": "Jegyzet 5.9",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Befejezett termelés = 8 200 + 190 000 + 41 000 − 6 400 − 12 300 = 220 500 eFt.",
+   "Önköltség = 220 500 / 2 100 = 105 eFt/db = 105 000 Ft/db."
+  ]
+ },
+ {
+  "id": "szv-5-034",
+  "chapter": 5,
+  "section": "5.9",
+  "type": "szamolas",
+  "points": 3,
+  "question": "Egy termékcsoport adatai (eFt): befejezetlen termelés nyitó értéke 5 000; tárgyidőszaki közvetlen költségek 120 000; a termelés során keletkezett hasznosítható hulladék 3 000; a termékcsoportra osztott közvetett költségek 24 000; záró befejezetlen termelés 7 000; elkészült késztermék 1 000 db. Mekkora a befejezett termelés értéke, és mennyi egy késztermék önköltsége (eFt/db és Ft/db)?",
+  "fields": [
+   {
+    "label": "A befejezett termelés értéke (eFt)",
+    "answer": "139000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Egy késztermék önköltsége (eFt/db)",
+    "answer": "139",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Egy késztermék önköltsége (Ft/db)",
+    "answer": "139000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Befejezett termelés = nyitó befejezetlen + közvetlen költségek + felosztott költségek − hulladékmegtérülés − záró befejezetlen termelés. Az egységár ennek és a darabszámnak a hányadosa. Az eFt-ot ezerrel szorozva kapjuk a Ft-ot.",
+  "source": "Jegyzet 5.9",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Befejezett termelés = 5 000 + 120 000 + 24 000 − 3 000 − 7 000 = 139 000 eFt.",
+   "Önköltség = 139 000 / 1 000 = 139 eFt/db = 139 000 Ft/db."
+  ]
+ },
+ {
+  "id": "szv-5-035",
+  "chapter": 5,
+  "section": "5.9",
+  "type": "szamolas",
+  "points": 3,
+  "question": "Egy termékcsoport adatai (eFt): befejezetlen termelés nyitó értéke 11 000; tárgyidőszaki közvetlen költségek 260 000; a termelés során keletkezett hasznosítható hulladék 9 000; a termékcsoportra osztott közvetett költségek 55 000; záró befejezetlen termelés 17 000; elkészült késztermék 3 200 db. Mekkora a befejezett termelés értéke, és mennyi egy késztermék önköltsége (eFt/db és Ft/db)?",
+  "fields": [
+   {
+    "label": "A befejezett termelés értéke (eFt)",
+    "answer": "300000",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Egy késztermék önköltsége (eFt/db)",
+    "answer": "93.75",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Egy késztermék önköltsége (Ft/db)",
+    "answer": "93750",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Befejezett termelés = nyitó befejezetlen + közvetlen költségek + felosztott költségek − hulladékmegtérülés − záró befejezetlen termelés. Az egységár ennek és a darabszámnak a hányadosa. Az eFt-ot ezerrel szorozva kapjuk a Ft-ot.",
+  "source": "Jegyzet 5.9",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Befejezett termelés = 11 000 + 260 000 + 55 000 − 9 000 − 17 000 = 300 000 eFt.",
+   "Önköltség = 300 000 / 3 200 = 93,75 eFt/db = 93 750 Ft/db."
+  ]
+ }
+]

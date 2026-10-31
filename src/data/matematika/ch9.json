@@ -1,0 +1,157 @@
+[
+ {
+  "id": "mat-9-001",
+  "chapter": 9,
+  "section": "9.1",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Mennyi annak a 2×2-es mátrixnak a determinánsa, amelynek oszlopai a p = (3; 5) és a q = (−2; 4) vektorok? b) Melyik t értéknél lesz lineárisan összefüggő a w₁ = (2; 1; 0), w₂ = (0; 3; 1), w₃ = (1; t; 4) vektorrendszer?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "22",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b) t =",
+    "answer": "25/2",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Determináns, lineáris függetlenség paraméterrel. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, DET-1",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) det = p₁·q₂ − q₁·p₂ = 3·4 − (−2)·5 = 22 ≠ 0 → p és q lineárisan független.",
+   "b) A vektorokat oszlopba írva (sorok: (2  0  1) | (1  3  t) | (0  1  4)) az első sor szerinti kifejtés: det = (2)·(−t + 12) − (0)·(4) + (1)·(1) = −2t + 25. Összefüggők, ha det = 0 → t = 25/2.",
+   "Eredmény: a) 22; b) t = 25/2."
+  ]
+ },
+ {
+  "id": "mat-9-002",
+  "chapter": 9,
+  "section": "9.2",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy tábla két oszlopvektorát a p = (6; −9) és a q = (−4; 6) számpár adja. a) Mennyi a belőlük (oszlopként) alkotott 2×2-es mátrix determinánsa? b) Három vektor: w₁ = (1; 2; 3), w₂ = (0; 1; t), w₃ = (2; 5; 1). Mekkora t esetén nem lesznek lineárisan függetlenek?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "0",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b) t =",
+    "answer": "-5",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Determináns, lineáris függetlenség paraméterrel. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, DET-2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) det = p₁·q₂ − q₁·p₂ = 6·6 − (−4)·(−9) = 0 → p és q összefüggő (az egyik a másik számszorosa).",
+   "b) A vektorokat oszlopba írva (sorok: (1  0  2) | (2  1  5) | (3  t  1)) az első sor szerinti kifejtés: det = (1)·(−5t + 1) − (0)·(−13) + (2)·(2t − 3) = −t − 5. Összefüggők, ha det = 0 → t = −5.",
+   "Eredmény: a) 0; b) t = -5."
+  ]
+ },
+ {
+  "id": "mat-9-003",
+  "chapter": 9,
+  "section": "9.3",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Legyen p = (7; 2) és q = (1; 3). a) Számítsd ki a p, q oszlopvektorokból képzett mátrix determinánsát! b) Határozd meg azt a t paramétert, amelyre a (4; 1; 0), (t; 2; 1), (1; 0; 3) vektorok lineárisan összefüggők!",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "19",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b) t =",
+    "answer": "25/3",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Determináns, lineáris függetlenség paraméterrel. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, DET-3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) det = p₁·q₂ − q₁·p₂ = 7·3 − 1·2 = 19 ≠ 0 → p és q lineárisan független.",
+   "b) A vektorokat oszlopba írva (sorok: (4  t  1) | (1  2  0) | (0  1  3)) az első sor szerinti kifejtés: det = (4)·(6) − (t)·(3) + (1)·(1) = −3t + 25. Összefüggők, ha det = 0 → t = 25/3.",
+   "Eredmény: a) 19; b) t = 25/3."
+  ]
+ },
+ {
+  "id": "mat-9-004",
+  "chapter": 9,
+  "section": "9.4",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Az alábbi két vektor egy-egy adatsor: p = (−5; 4), q = (10; −8). a) Mennyi a determináns, ha p és q a mátrix két oszlopa? b) Mely t-re igaz, hogy a (2; −1; 1), (3; 0; 2), (t; 4; 5) vektorok között van olyan, amely kifejezhető a másik kettő lineáris kombinációjaként?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "0",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b) t =",
+    "answer": "11/2",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Determináns, lineáris függetlenség paraméterrel. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, DET-4",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) det = p₁·q₂ − q₁·p₂ = (−5)·(−8) − 10·4 = 0 → p és q összefüggő (az egyik a másik számszorosa).",
+   "b) A vektorokat oszlopba írva (sorok: (2  3  t) | (−1  0  4) | (1  2  5)) az első sor szerinti kifejtés: det = (2)·(−8) − (3)·(−9) + (t)·(−2) = −2t + 11. Összefüggők, ha det = 0 → t = 11/2.",
+   "Eredmény: a) 0; b) t = 11/2."
+  ]
+ },
+ {
+  "id": "mat-9-005",
+  "chapter": 9,
+  "section": "9.5",
+  "type": "szamolas",
+  "points": 5,
+  "question": "a) Írd fel a p = (2; −1), q = (5; 3) vektorokból mint oszlopokból álló mátrixot, és számold ki a determinánsát! b) A w₁ = (1; 0; 2), w₂ = (2; 3; 1), w₃ = (0; 4; t) vektorok t = ? esetén alkotnak lineárisan összefüggő rendszert?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "11",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b) t =",
+    "answer": "-4",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Determináns, lineáris függetlenség paraméterrel. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, DET-5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) det = p₁·q₂ − q₁·p₂ = 2·3 − 5·(−1) = 11 ≠ 0 → p és q lineárisan független.",
+   "b) A vektorokat oszlopba írva (sorok: (1  2  0) | (0  3  4) | (2  1  t)) az első sor szerinti kifejtés: det = (1)·(3t − 4) − (2)·(−8) + (0)·(−6) = 3t + 12. Összefüggők, ha det = 0 → t = −4.",
+   "Eredmény: a) 11; b) t = -4."
+  ]
+ }
+]

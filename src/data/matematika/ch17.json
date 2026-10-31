@@ -1,0 +1,197 @@
+[
+ {
+  "id": "mat-17-001",
+  "chapter": 17,
+  "section": "17.1",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy cég két szervere egymástól függetlenül működik: az első az idő 80%-ában, a második 90%-ában elérhető. Egy véletlen pillanatban a) mekkora annak a valószínűsége, hogy mindkettő elérhető? b) mekkora a valószínűsége, hogy legalább az egyik elérhető? c) mekkora a valószínűsége, hogy pontosan az egyik elérhető?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "0.72",
+    "accept": "dec",
+    "format": "tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "0.98",
+    "accept": "dec",
+    "format": "tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "0.26",
+    "accept": "dec",
+    "format": "tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Független események. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, FUGG-1",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Függetlenek, ezért P(A∩B) = P(A)·P(B).",
+   "a) 0,8·0,9 = 0,72.",
+   "b) P(A∪B) = 0,8 + 0,9 − 0,72 = 0,98 (másképp: 1 − 0,2·0,1).",
+   "c) 0,8·0,1 + 0,2·0,9 = 0,26 (másképp: a legalább egy mínusz mindkettő: 0,98 − 0,72).",
+   "Eredmény: a) 0.72; b) 0.98; c) 0.26."
+  ]
+ },
+ {
+  "id": "mat-17-002",
+  "chapter": 17,
+  "section": "17.2",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy diák két egymástól független tárgyból vizsgázik: az elsőből 0,35, a másodikból 0,6 eséllyel jelest kap. a) Mi a valószínűsége, hogy mindkettőből jelest kap? b) Mi a valószínűsége, hogy legalább az egyikből jelest kap? c) Mi a valószínűsége, hogy csak az egyikből kap jelest?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "0.21",
+    "accept": "dec",
+    "format": "tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "0.74",
+    "accept": "dec",
+    "format": "tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "0.53",
+    "accept": "dec",
+    "format": "tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Független események. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, FUGG-2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Függetlenek, ezért P(A∩B) = P(A)·P(B).",
+   "a) 0,35·0,6 = 0,21.",
+   "b) P(A∪B) = 0,35 + 0,6 − 0,21 = 0,74 (másképp: 1 − 0,65·0,4).",
+   "c) 0,35·0,4 + 0,65·0,6 = 0,53 (másképp: a legalább egy mínusz mindkettő: 0,74 − 0,21).",
+   "Eredmény: a) 0.21; b) 0.74; c) 0.53."
+  ]
+ },
+ {
+  "id": "mat-17-003",
+  "chapter": 17,
+  "section": "17.3",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Két gép egymástól függetlenül hibásodhat meg egy héten: az egyik 0,5, a másik 0,4 eséllyel. Egy hét során a) mekkora eséllyel hibásodik meg mindkettő? b) mekkora eséllyel hibásodik meg legalább az egyik? c) mekkora eséllyel hibásodik meg pontosan az egyik?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "0.2",
+    "accept": "dec",
+    "format": "tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "0.7",
+    "accept": "dec",
+    "format": "tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "0.5",
+    "accept": "dec",
+    "format": "tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Független események. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, FUGG-3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Függetlenek, ezért P(A∩B) = P(A)·P(B).",
+   "a) 0,5·0,4 = 0,2.",
+   "b) P(A∪B) = 0,5 + 0,4 − 0,2 = 0,7 (másképp: 1 − 0,5·0,6).",
+   "c) 0,5·0,6 + 0,5·0,4 = 0,5 (másképp: a legalább egy mínusz mindkettő: 0,7 − 0,2).",
+   "Eredmény: a) 0.2; b) 0.7; c) 0.5."
+  ]
+ },
+ {
+  "id": "mat-17-004",
+  "chapter": 17,
+  "section": "17.4",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy futár két független ügyfélnél jár: az elsőnél 0,25, a másodiknál 0,8 eséllyel találja otthon a megrendelőt. a) Mekkora eséllyel találja otthon mindkettőjüket? b) Mekkora eséllyel találja otthon legalább az egyiküket? c) Mekkora eséllyel találja otthon pontosan az egyiküket?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "0.2",
+    "accept": "dec",
+    "format": "tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "0.85",
+    "accept": "dec",
+    "format": "tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "0.65",
+    "accept": "dec",
+    "format": "tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Független események. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, FUGG-4",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Függetlenek, ezért P(A∩B) = P(A)·P(B).",
+   "a) 0,25·0,8 = 0,2.",
+   "b) P(A∪B) = 0,25 + 0,8 − 0,2 = 0,85 (másképp: 1 − 0,75·0,2).",
+   "c) 0,25·0,2 + 0,75·0,8 = 0,65 (másképp: a legalább egy mínusz mindkettő: 0,85 − 0,2).",
+   "Eredmény: a) 0.2; b) 0.85; c) 0.65."
+  ]
+ },
+ {
+  "id": "mat-17-005",
+  "chapter": 17,
+  "section": "17.5",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Két egymástól független riasztórendszer közül az egyik 0,9, a másik 0,15 eséllyel szólal meg egy betöréskor. a) Mekkora a valószínűsége, hogy mindkettő megszólal? b) Mekkora a valószínűsége, hogy legalább az egyik megszólal? c) Mekkora a valószínűsége, hogy csak az egyik szólal meg?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "0.135",
+    "accept": "dec",
+    "format": "tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "0.915",
+    "accept": "dec",
+    "format": "tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "0.78",
+    "accept": "dec",
+    "format": "tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Független események. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, FUGG-5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Függetlenek, ezért P(A∩B) = P(A)·P(B).",
+   "a) 0,9·0,15 = 0,135.",
+   "b) P(A∪B) = 0,9 + 0,15 − 0,135 = 0,915 (másképp: 1 − 0,1·0,85).",
+   "c) 0,9·0,85 + 0,1·0,15 = 0,78 (másképp: a legalább egy mínusz mindkettő: 0,915 − 0,135).",
+   "Eredmény: a) 0.135; b) 0.915; c) 0.78."
+  ]
+ }
+]

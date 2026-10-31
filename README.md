@@ -1,10 +1,11 @@
 # GTK gyakorló
 
-Practice question bank for first-semester ELTE GTK subjects. Currently it covers the Matematika 2. ZH
-(40 calculation tasks in 8 task types, a 60-minute mock ZH of 8 tasks); the Közgazdaságtan 1. ZH is written and off the
-site (1.13.0), and the other subjects' ZHs are added by the owner's daily automation as their material arrives. The site itself is in Hungarian.
+Practice question bank for first-semester ELTE GTK subjects. Currently it covers the 2. ZH of Matematika (115
+calculation tasks in 23 task types, a 60-minute mock ZH of 8 tasks), Menedzsment, Marketing, Számvitel and Közösség
+és egyén; the Közgazdaságtan 1. ZH is written and off the site (1.13.0), and further ZHs are added by the owner's
+daily automation as their material arrives. The site itself is in Hungarian.
 
-Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 2.0.0 ([change log](log/LOG.md))
+Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 2.0.4 ([change log](log/LOG.md))
 
 > For personal use only, not to be distributed. The site is based on ELTE's internal teaching materials; the copyright
 > of the original materials belongs to the lecturers and ELTE GTK. The notes, the textbook and the ZH materials
@@ -102,7 +103,8 @@ from the sources.
 2. Create `src/data/<subject-id>/` with `ch<N>.json` files and, if it has flashcards, a `glossary.json`. The code
    picks them up; without a glossary the Flashcardok and Párosító modes are hidden.
 3. For a new ZH, add an item with its chapter numbers to the `exams` list. A calculation ZH (Matematika) also gets
-   `"mock": { "minutes", "perChapter" }`: the mock ZH then draws that many tasks from every chapter (task type).
+   `"mock": { "minutes", "perChapter" }`: the mock ZH then draws that many tasks from every chapter (task type);
+   `"chapters": [1, …, 8]` in `mock` limits the draw to those task types.
    A ZH with its own question mix (e.g. Menedzsment: többszörös választás, párosítás, kifejtős) sets
    `"mock": { "minutes", "mix": { "<type>": <count>, … } }`. Kakukktojás is a `feleletvalasztos`, an esettörténet a
    `rovid-valasz`.

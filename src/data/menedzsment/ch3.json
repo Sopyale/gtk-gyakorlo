@@ -1,0 +1,253 @@
+[
+ {
+  "id": "mn-3-001",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "A Campus Pizza lineáris szervezetéből a törzskari felé az indította el a változást, hogy…",
+  "options": [
+   "az ügyvezető egyre túlterheltebb lett",
+   "az egyik telephelyen megszűnt a kiszállítás",
+   "a futárszolgálat külső megrendelőknek is dolgozni kezdett",
+   "hulladékcsökkentési projekt indult"
+  ],
+  "answer": "az ügyvezető egyre túlterheltebb lett",
+  "explanation": "A két telephely és a kiszállítás miatt az ügyvezető túlterhelt lett; a törzsegység (könyvelő, marketinges, informatikus, beszerzési és HR-tanácsadó) tehermentesítette.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-3-002",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi indokolta a Campus Pizzánál a divizionális szervezetre való áttérést?",
+  "options": [
+   "A futárszolgálat már nem csak a saját ételeket szállítja, ezért önálló üzletággá vált",
+   "Az ügyvezető túlterheltségét törzsegységgel kellett enyhíteni",
+   "Hulladékcsökkentési projektet indítottak a telephelyeken át",
+   "A pizzéria egyetlen telephelyről indult, és nem volt kiszállítás"
+  ],
+  "answer": "A futárszolgálat már nem csak a saját ételeket szállítja, ezért önálló üzletággá vált",
+  "explanation": "A külső megrendelőknek is dolgozó futárszolgálat önálló üzletág; minden pizzériának saját funkcionális területei lettek.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-3-003",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik a Campus Pizza mátrix szervezetének egyik dimenziója a jegyzet szerint?",
+  "options": [
+   "A telephelyek és a futárszolgálat vezetői",
+   "A törzsegység tanácsadói",
+   "Az ügyvezetőnek közvetlenül alárendelt műszakvezetők",
+   "A külső beszállítók"
+  ],
+  "answer": "A telephelyek és a futárszolgálat vezetői",
+  "explanation": "Az egyik dimenzió a pizzériavezetők és a futárszolgálat üzletágvezetője, a másik a szolgáltatásokért felelős igazgató alatti funkcionális területek.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-3-004",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik állítás igaz a Campus Pizza törzskari szakaszára?",
+  "options": [
+   "A törzsegység tanácsad, információt gyűjt és döntést készít elő, de nincs utasítási joga",
+   "A törzsegység tagjai utasíthatják a műszakvezetőket",
+   "A törzsegység átveszi az ügyvezető stratégiai döntéseit",
+   "A szervezet átlép a divizionális formára"
+  ],
+  "answer": "A törzsegység tanácsad, információt gyűjt és döntést készít elő, de nincs utasítási joga",
+  "explanation": "Az alapműködés lineáris marad; a törzsegység javítja a döntések színvonalát és csökkenti az ügyvezető terheit.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-3-005",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi volt a Campus Pizza funkcionális szakaszának fő feszültsége?",
+  "options": [
+   "A stratégiai és az operatív döntések is az ügyvezetőnél maradtak, ezért túlterhelt volt, a döntéshozatal lassú",
+   "Divíziók közötti versengés az erőforrásokért",
+   "Két főnök utasításainak ütközése a műszakvezetőknél",
+   "Az utasítási jog nélküli törzsegység tekintélyvesztése"
+  ],
+  "answer": "A stratégiai és az operatív döntések is az ügyvezetőnél maradtak, ezért túlterhelt volt, a döntéshozatal lassú",
+  "explanation": "A funkcionális formánál centralizált, szabályozott a működés, a döntéseket az ügyvezető hozza.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-3-006",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik a Campus Pizza szervezeti formáinak helyes sorrendje a jegyzet szerint?",
+  "options": [
+   "Lineáris → törzskari → funkcionális → divizionális → mátrix",
+   "Lineáris → funkcionális → törzskari → mátrix → divizionális",
+   "Lineáris → divizionális → funkcionális → törzskari → mátrix",
+   "Törzskari → lineáris → funkcionális → mátrix → divizionális"
+  ],
+  "answer": "Lineáris → törzskari → funkcionális → divizionális → mátrix",
+  "explanation": "A váltásokat sorra a túlterhelt ügyvezető, az új telephely, a külső kiszállítási üzletág és a telephelyeken átívelő projekt indította.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-3-007",
+  "chapter": 3,
+  "section": "3.2",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Hány hierarchikus szintje van a John Jersey szállodaláncnak az ábra szerint?",
+  "options": [
+   "4",
+   "3",
+   "5",
+   "6"
+  ],
+  "answer": "4",
+  "explanation": "Elnökség – igazgatói – menedzseri – alkalmazotti szint, ez a lapos szervezet határa (legfeljebb 4 szint).",
+  "source": "Jegyzet 3.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-3-008",
+  "chapter": 3,
+  "section": "3.2",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy szálloda személyügyi menedzsere egyszerre felel a hoteligazgatónak és a központi személyügyi alelnöknek. Hatáskör szempontjából milyen ez az irányítás?",
+  "options": [
+   "Többvonalas, mátrixjellegű",
+   "Egyvonalas",
+   "Kizárólag decentralizált",
+   "Törzskari"
+  ],
+  "answer": "Többvonalas, mátrixjellegű",
+  "explanation": "Ha egy beosztottat két felettes is utasíthat, az többvonalas irányítás, amely a mátrixra jellemző.",
+  "source": "Jegyzet 3.2 · 2.6",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-3-009",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az IGAZ állításokat a Campus Pizza fejlődéséről! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "Az induló lineáris pizzériában nem volt kiszállítás.",
+    "answer": true
+   },
+   {
+    "text": "A törzsegység tagjai utasíthatták a futárokat.",
+    "answer": false
+   },
+   {
+    "text": "A divizionális szakaszban minden pizzériának saját funkcionális területei vannak.",
+    "answer": true
+   },
+   {
+    "text": "A mátrixban a műszakvezetők a pizzériához és egy funkcionális területhez is tartoznak.",
+    "answer": true
+   },
+   {
+    "text": "A funkcionális szakaszban a stratégiai döntések már a pizzériavezetőknél voltak.",
+    "answer": false
+   }
+  ],
+  "explanation": "A törzsegységnek nincs utasítási joga, a funkcionális szakaszban pedig az ügyvezető kezében maradt a stratégiai és operatív döntés is.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-3-010",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "parositas",
+  "points": 5,
+  "question": "Párosítsa a Campus Pizza szakaszait a jellemzőkkel!",
+  "answer": [
+   [
+    "Törzskari",
+    "szakértői tanácsadók utasítási jog nélkül"
+   ],
+   [
+    "Funkcionális",
+    "az ügyvezető kezében a stratégiai és operatív döntés"
+   ],
+   [
+    "Divizionális",
+    "önálló üzletág, minden pizzériának saját funkcionális területe"
+   ],
+   [
+    "Mátrix",
+    "pizzériavezetők és funkcionális igazgatók két dimenziója, projekt"
+   ]
+  ],
+  "explanation": "A szakaszok sorrendje: törzskari → funkcionális → divizionális → mátrix.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-3-011",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "kifejtos",
+  "points": 4,
+  "question": "Egy könyvelőiroda ügyvezetője minden döntést maga hoz, így túlterhelt. Segítőket vesz fel, akik anyagot gyűjtenek és javaslatot írnak neki, de az ügyfelekkel dolgozó munkatársaknak nem adhatnak utasítást. Melyik fogalom írja le ezt a változtatást? Indokolja egy mondatban!",
+  "answer": [
+   "Fogalom (2 p): Törzsegység (törzskari szervezet).",
+   "Indoklás (2 p): A szakértők döntéselőkészítést és információgyűjtést végeznek utasítási jog nélkül, így csökken az ügyvezető túlterheltsége."
+  ],
+  "explanation": "A Campus Pizza törzskari szakaszát tükrözi. Kulcsszavak az indoklásban: döntéselőkészítés · nincs utasítási jog · tehermentesítés",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-3-012",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "kifejtos",
+  "points": 9,
+  "question": "Mutassa be, hogyan változott a Campus Pizza szervezeti formája a vállalkozás növekedésével, és mi indította az egyes váltásokat! (5–8 mondat)",
+  "answer": [
+   "Induló lineáris: egy pizzéria, tulajdonos + 5 beosztott, nincs kiszállítás.",
+   "Bővített lineáris: két telephely és kiszállítás, egyre túlterheltebb ügyvezető → törzskari forma törzsegységgel (nincs utasítási jog).",
+   "Új telephely: funkcionális szervezet; az ügyvezetőnél maradó stratégiai és operatív döntések miatt lassú a működés.",
+   "Futárszolgálat külső megrendelőknek is dolgozik, önálló üzletág → divizionális forma, 3 szint (összvállalati, divíziók, funkciók).",
+   "Telephelyeken átívelő feladatok és hulladékcsökkentési projekt → mátrix (pizzériák × funkciók)."
+  ],
+  "explanation": "Pontozás (saját becslés, nem hivatalos): 5 forma 3 p · a váltás okai 4 p · a törzsegység és a mátrix lényege 2 p.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 3
+ }
+]

@@ -14,6 +14,7 @@ export default function Subject({ subject }) {
   const cards = scopeGlossary(subject).length;
   const typeKeys = Object.keys(TYPES).filter((k) => qs.some((q) => q.type === k));
   const mock = subject.exam.mock;
+  const calc = !!mock?.perChapter; // Matematika-style ZH of calculation tasks; other mocks use mock.mix
   const [chapters, setChapters] = useState([]);
   const [types, setTypes] = useState([]);
   const [hard, setHard] = useState(false);
@@ -43,7 +44,7 @@ export default function Subject({ subject }) {
       <div className="subject-head">
         <div>
           <h1>{subject.exam.name}</h1>
-          <p className="lede">{subject.name}, {subject.chapters.length} {mock ? 'feladattípus' : 'fejezet'}, {qs.length} {mock ? 'feladat' : 'kérdés'}. {subject.sources}.</p>
+          <p className="lede">{subject.name}, {subject.chapters.length} {calc ? 'feladattípus' : 'fejezet'}, {qs.length} {calc ? 'feladat' : 'kérdés'}. {subject.sources}.</p>
         </div>
         <Ring value={qs.length ? done / qs.length : 0} size={104} label={`Haladás: ${done} / ${qs.length}`} />
       </div>
@@ -76,7 +77,7 @@ export default function Subject({ subject }) {
       <div className="bento modes">
         <a className="card mode glow big" href={practiceHref} aria-disabled={!pool.length}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Play size={26} className="mi" aria-hidden="true" /><h3>Gyakorlás</h3>
-          <p>{mock ? `${pool.length} feladat a kiválasztott feladattípusokból, ellenőrzés és megoldás minden feladat után.` : `${pool.length} kérdés a kiválasztott fejezetekből és típusokból, visszajelzés minden válasz után.`}</p>
+          <p>{calc ? `${pool.length} feladat a kiválasztott feladattípusokból, ellenőrzés és megoldás minden feladat után.` : `${pool.length} kérdés a kiválasztott fejezetekből és típusokból, visszajelzés minden válasz után.`}</p>
         </a>
         <a className="card mode glow" href={href(subject.path, 'rontott')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><RotateCcw size={24} className="mi" aria-hidden="true" /><h3>Rontott kérdéseim</h3>
@@ -88,7 +89,7 @@ export default function Subject({ subject }) {
         </a>
         <a className="card mode glow" href={href(subject.path, 'szimulacio')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Timer size={24} className="mi" aria-hidden="true" /><h3>ZH-szimuláció</h3>
-          <p>{mock ? `${mock.minutes} perc, típusonként ${mock.perChapter} feladat, ${subject.chapters.length * mock.perChapter} feladat. Értékelés csak a végén.` : '20 perc, 25 ZH-szintű kérdés, sok ábrással. Értékelés csak a végén.'}</p>
+          <p>{calc ? `${mock.minutes} perc, típusonként ${mock.perChapter} feladat, ${(mock.chapters ?? subject.chapters).length * mock.perChapter} feladat. Értékelés csak a végén.` : mock?.mix ? `${mock.minutes} perc, ${Object.values(mock.mix).reduce((a, b) => a + b, 0)} ZH-szintű kérdés. Értékelés csak a végén.` : '20 perc, 25 ZH-szintű kérdés, sok ábrással. Értékelés csak a végén.'}</p>
         </a>
         {cards > 0 && <>
           <a className="card mode glow" href={href(subject.path, 'flashcard')}>

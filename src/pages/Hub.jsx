@@ -66,7 +66,7 @@ export default function Hub({ subject }) {
                 <span className="exam-no">{e.name}</span>
                 <Ring value={qs.length ? done / qs.length : 0} size={96} label={`Haladás: ${done} / ${qs.length}`} />
               </div>
-              <p className="exam-sum">{e.mock ? `${scope.chapters.length} feladattípus, ${qs.length} gyakorló feladat.` : `${scope.chapters.length} fejezet, ${qs.length} kérdés.`}</p>
+              <p className="exam-sum">{e.mock?.perChapter ? `${scope.chapters.length} feladattípus, ${qs.length} gyakorló feladat.` : `${scope.chapters.length} fejezet, ${qs.length} kérdés.`}</p>
               <Countdown subject={subject} exam={e} />
               <ol className="exam-ch">
                 {scope.chapters.map((c) => {
