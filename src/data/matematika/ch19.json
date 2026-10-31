@@ -1,0 +1,192 @@
+[
+ {
+  "id": "mat-19-001",
+  "chapter": 19,
+  "section": "19.1",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Adott az f(x) = x³ − 2x² + 5 függvény (f: ℝ → ℝ). a) Mennyi f(4)? b) Mennyi f(−1)? c) Mennyi f(2t), ha t = 3?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "37",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "2",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "149",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Módszer: Függvény fogalma, helyettesítés. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, FGV-1",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) f(4) = 4³ − 2·4² + 5 = 37.",
+   "b) f(−1) = (−1)³ − 2·(−1)² + 5 = 2.",
+   "c) f(2t) = f(2·3) = f(6) = 6³ − 2·6² + 5 = 149.",
+   "Eredmény: a) 37; b) 2; c) 149."
+  ]
+ },
+ {
+  "id": "mat-19-002",
+  "chapter": 19,
+  "section": "19.2",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Legyen f(x) = x² + 2x − 3. a) Mennyi f(5)? b) Mennyi f(−3)? c) Mennyi f(a + h), ha a = 2 és h = 1?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "32",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "0",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "12",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Módszer: Függvény fogalma, helyettesítés. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, FGV-2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) f(5) = 5² + 2·5 − 3 = 32.",
+   "b) f(−3) = (−3)² + 2·(−3) − 3 = 0.",
+   "c) f(a + h) = f(2 + 1) = f(3) = 3² + 2·3 − 3 = 12 (a teljes összeget helyettesítjük, nem csak az a-t).",
+   "Eredmény: a) 32; b) 0; c) 12."
+  ]
+ },
+ {
+  "id": "mat-19-003",
+  "chapter": 19,
+  "section": "19.3",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy hozzárendelést az f(x) = x³ − 4x utasítás ad meg. a) Mennyi f(3)? b) Mennyi f(−2)? c) Mennyi f(5) − f(−5)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "15",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "0",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "210",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Módszer: Függvény fogalma, helyettesítés. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, FGV-3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) f(3) = 3³ − 4·3 = 15.",
+   "b) f(−2) = (−2)³ − 4·(−2) = 0.",
+   "c) f(5) = 5³ − 4·5 = 105, f(−5) = (−5)³ − 4·(−5) = −105, a különbség 105 − (−105) = 210.",
+   "Eredmény: a) 15; b) 0; c) 210."
+  ]
+ },
+ {
+  "id": "mat-19-004",
+  "chapter": 19,
+  "section": "19.4",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Vizsgáljuk az f: ℝ → ℝ, f(x) = 3x² + 10 függvényt. a) Mennyi f(−4)? b) Mennyi f(6)? c) Mennyi f(7) − f(−7)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "58",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "118",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "0",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Módszer: Függvény fogalma, helyettesítés. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, FGV-4",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) f(−4) = 3·(−4)² + 10 = 58.",
+   "b) f(6) = 3·6² + 10 = 118.",
+   "c) f(7) = 3·7² + 10 = 157, f(−7) = 3·(−7)² + 10 = 157, a különbség 157 − 157 = 0.",
+   "Eredmény: a) 58; b) 118; c) 0."
+  ]
+ },
+ {
+  "id": "mat-19-005",
+  "chapter": 19,
+  "section": "19.5",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Az f függvényt az x ↦ x³ − x² + 3x + 2 szabály definiálja. a) Mennyi f(2)? b) Mennyi f(−2)? c) Mennyi f(3t), ha t = 2?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "12",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "b)",
+    "answer": "-16",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "c)",
+    "answer": "200",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Módszer: Függvény fogalma, helyettesítés. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, FGV-5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) f(2) = 2³ − 2² + 3·2 + 2 = 12.",
+   "b) f(−2) = (−2)³ − (−2)² + 3·(−2) + 2 = −16.",
+   "c) f(3t) = f(3·2) = f(6) = 6³ − 6² + 3·6 + 2 = 200.",
+   "Eredmény: a) 12; b) -16; c) 200."
+  ]
+ }
+]

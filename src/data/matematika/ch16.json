@@ -1,0 +1,190 @@
+[
+ {
+  "id": "mat-16-001",
+  "chapter": 16,
+  "section": "16.1",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy dobozban 7 piros és 4 fehér golyó van. Találomra, egyszerre kihúzunk 3 golyót. a) Mi a valószínűsége, hogy nincs közte fehér? b) Mi a valószínűsége, hogy pontosan 2 fehér van közte? c) Mi a valószínűsége, hogy legalább 1 fehér van közte?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "7/33",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "14/55",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "26/33",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Húzás dobozból (hipergeometrikus jellegű klasszikus valószínűség). A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, HUZAS-1",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Az összes eset száma (a sorrend nem számít): C(11,3) = 165. A „fehér” elemekből k darabot és a többiből 3−k darabot választunk: kedvező = C(4,k)·C(7,3−k).",
+   "a) C(4,0)·C(7,3) = 1·35 = 35 kedvező eset → 35/165 = 7/33; b) C(4,2)·C(7,1) = 6·7 = 42 kedvező eset → 42/165 = 14/55; c) C(4,1)·C(7,2) = 4·21 + C(4,2)·C(7,1) = 6·7 + C(4,3)·C(7,0) = 4·1 = 130 kedvező eset → 130/165 = 26/33.",
+   "(Ellenőrzés: a k = 0…3 valószínűségek összege 1.)",
+   "Eredmény: a) 7/33; b) 14/55; c) 26/33."
+  ]
+ },
+ {
+  "id": "mat-16-002",
+  "chapter": 16,
+  "section": "16.2",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy ládában 6 érett és 3 éretlen alma van. Egyszerre 4 almát veszünk ki véletlenszerűen. a) Mi a valószínűsége, hogy pontosan 1 éretlen? b) Mi a valószínűsége, hogy pontosan 2 éretlen? c) Mi a valószínűsége, hogy nincs éretlen?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "10/21",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "5/14",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "5/42",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Húzás dobozból (hipergeometrikus jellegű klasszikus valószínűség). A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, HUZAS-2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Az összes eset száma (a sorrend nem számít): C(9,4) = 126. A „éretlen” elemekből k darabot és a többiből 4−k darabot választunk: kedvező = C(3,k)·C(6,4−k).",
+   "a) C(3,1)·C(6,3) = 3·20 = 60 kedvező eset → 60/126 = 10/21; b) C(3,2)·C(6,2) = 3·15 = 45 kedvező eset → 45/126 = 5/14; c) C(3,0)·C(6,4) = 1·15 = 15 kedvező eset → 15/126 = 5/42. (Ellenőrzés: a k = 0…3 valószínűségek összege 1.)",
+   "Eredmény: a) 10/21; b) 5/14; c) 5/42."
+  ]
+ },
+ {
+  "id": "mat-16-003",
+  "chapter": 16,
+  "section": "16.3",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy urnában 7 kék és 5 piros golyó van. Visszatevés nélkül, egyszerre 3-at húzunk ki. a) Mi a valószínűsége, hogy mind a három piros? b) Mi a valószínűsége, hogy pontosan 2 piros? c) Mi a valószínűsége, hogy legfeljebb 1 piros?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "1/22",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "7/22",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "7/11",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Húzás dobozból (hipergeometrikus jellegű klasszikus valószínűség). A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, HUZAS-3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Az összes eset száma (a sorrend nem számít): C(12,3) = 220. A „piros” elemekből k darabot és a többiből 3−k darabot választunk: kedvező = C(5,k)·C(7,3−k).",
+   "a) C(5,3)·C(7,0) = 10·1 = 10 kedvező eset → 10/220 = 1/22; b) C(5,2)·C(7,1) = 10·7 = 70 kedvező eset → 70/220 = 7/22; c) C(5,0)·C(7,3) = 1·35 + C(5,1)·C(7,2) = 5·21 = 140 kedvező eset → 140/220 = 7/11.",
+   "(Ellenőrzés: a k = 0…3 valószínűségek összege 1.)",
+   "Eredmény: a) 1/22; b) 7/22; c) 7/11."
+  ]
+ },
+ {
+  "id": "mat-16-004",
+  "chapter": 16,
+  "section": "16.4",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy szállítmányban 10 termék van, ebből 2 hibás. Ellenőrzéskor találomra kiválasztanak 3 terméket (egyszerre). a) Mi a valószínűsége, hogy nincs hibás a mintában? b) Mi a valószínűsége, hogy pontosan 1 hibás van? c) Mi a valószínűsége, hogy legalább 1 hibás van?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "7/15",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "7/15",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "8/15",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Húzás dobozból (hipergeometrikus jellegű klasszikus valószínűség). A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, HUZAS-4",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Az összes eset száma (a sorrend nem számít): C(10,3) = 120. A „hibás” elemekből k darabot és a többiből 3−k darabot választunk: kedvező = C(2,k)·C(8,3−k).",
+   "a) C(2,0)·C(8,3) = 1·56 = 56 kedvező eset → 56/120 = 7/15; b) C(2,1)·C(8,2) = 2·28 = 56 kedvező eset → 56/120 = 7/15; c) C(2,1)·C(8,2) = 2·28 + C(2,2)·C(8,1) = 1·8 = 64 kedvező eset → 64/120 = 8/15.",
+   "(Ellenőrzés: a k = 0…2 valószínűségek összege 1.)",
+   "Eredmény: a) 7/15; b) 7/15; c) 8/15."
+  ]
+ },
+ {
+  "id": "mat-16-005",
+  "chapter": 16,
+  "section": "16.5",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Egy zsákban 3 fekete és 6 fehér kavics van. Egy gyerek egyszerre 4 kavicsot vesz ki találomra. a) Mi a valószínűsége, hogy pontosan 2 fekete? b) Mi a valószínűsége, hogy pontosan 3 fekete? c) Mi a valószínűsége, hogy legalább 3 fekete?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "5/14",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "1/21",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "1/21",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Húzás dobozból (hipergeometrikus jellegű klasszikus valószínűség). A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, HUZAS-5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Az összes eset száma (a sorrend nem számít): C(9,4) = 126. A „fekete” elemekből k darabot és a többiből 4−k darabot választunk: kedvező = C(3,k)·C(6,4−k).",
+   "a) C(3,2)·C(6,2) = 3·15 = 45 kedvező eset → 45/126 = 5/14; b) C(3,3)·C(6,1) = 1·6 = 6 kedvező eset → 6/126 = 1/21; c) C(3,3)·C(6,1) = 1·6 = 6 kedvező eset → 6/126 = 1/21. (Ellenőrzés: a k = 0…3 valószínűségek összege 1.)",
+   "Eredmény: a) 5/14; b) 1/21; c) 1/21."
+  ]
+ }
+]

@@ -75,8 +75,10 @@ export function parseNumber(s, fractions = true) {
 // text = typed text (e.g. an account name in Számvitel) equal to the answer or one of `alts`, case and accents ignored.
 export function fieldCorrect(field, text) {
   if (field.accept === 'text') {
-    const r = normalize(text ?? '');
-    return !!r && [field.answer, ...(field.alts ?? [])].some((a) => normalize(String(a)) === r);
+    // Signs matter in typed effects like "Eszk+ Erd-", so keep them before normalizing.
+    const norm = (s) => normalize(String(s).replace(/\+/g, ' plusz ').replace(/[-−–](?=\s|$)/g, ' minusz '));
+    const r = norm(text ?? '');
+    return !!r && [field.answer, ...(field.alts ?? [])].some((a) => norm(a) === r);
   }
   const want = parseNumber(field.answer);
   const got = parseNumber(text ?? '', field.accept === 'frac');
@@ -188,7 +190,7 @@ export function drawMock(questions, mock) {
   const mix = mock?.mix ?? MOCK_MIX;
   // Calculation ZH (Matematika): a fixed number of tasks from every task type.
   if (mock?.perChapter) {
-    const byChapter = groupBy(questions);
+    const byChapter = groupBy(mock.chapters ? questions.filter((q) => mock.chapters.includes(q.chapter)) : questions);
     return Object.keys(byChapter).sort((a, b) => a - b).flatMap((c) => shuffle(byChapter[c]).slice(0, mock.perChapter));
   }
   const picked = [];

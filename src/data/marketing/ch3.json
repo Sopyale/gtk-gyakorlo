@@ -1,0 +1,410 @@
+[
+ {
+  "id": "mk-3-001",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "igaz-hamis",
+  "question": "Termék csak az, ami fizikai formában létezik és a boltban megvásárolható.",
+  "answer": false,
+  "explanation": "Termék mindaz, amit a piacon felkínálnak, szükségletet elégít ki és csere tárgya lehet: áru, szolgáltatás, élmény, esemény, személy, hely, szervezet, információ, ötlet is.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mk-3-002",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "igaz-hamis",
+  "question": "A szolgáltatás alapjában véve nem tárgyiasult, és a vevő nem szerez tulajdonjogot semmi fölött.",
+  "answer": true,
+  "explanation": "Ez a szolgáltatás definíciója: tevékenység vagy teljesítmény, amelyet egyik fél nyújt a másiknak.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-3-003",
+  "chapter": 3,
+  "section": "3.2",
+  "type": "feleletvalasztos",
+  "question": "Melyik a termékhagyma szintjeinek sorrendje belülről kifelé?",
+  "options": [
+   "alaphasznosság → tényleges termék → kiterjesztett termék",
+   "tényleges termék → alaphasznosság → kiterjesztett termék",
+   "kiterjesztett termék → tényleges termék → alaphasznosság",
+   "alaphasznosság → kiterjesztett termék → tényleges termék"
+  ],
+  "answer": "alaphasznosság → tényleges termék → kiterjesztett termék",
+  "explanation": "A mag az, amiért a vevő valójában vásárol; a tényleges termék az, amit kézbe kap; a kiterjesztett a körítés.",
+  "source": "Jegyzet 3.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-3-004",
+  "chapter": 3,
+  "section": "3.2",
+  "type": "parositas",
+  "question": "Párosítsd a termékhagyma szintjét a hozzá tartozó elemmel!",
+  "answer": [
+   [
+    "alaphasznosság",
+    "az ok, amiért a vevő a terméket valójában megveszi (pl. kapcsolattartás egy telefonnál)"
+   ],
+   [
+    "tényleges termék",
+    "márkanév és csomagolás"
+   ],
+   [
+    "kiterjesztett termék",
+    "garancia és szállítás"
+   ]
+  ],
+  "explanation": "Tényleges termék: márkanév, jellemzők, minőség, design, csomagolás. Kiterjesztett termék: szállítás és hitel, szolgáltatások, terméktámogatás, garancia.",
+  "source": "Jegyzet 3.2",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-005",
+  "chapter": 3,
+  "section": "3.2",
+  "type": "rovid-valasz",
+  "question": "Egy webshop a megvásárolt laptophoz három év jótállást és ingyenes házhozszállítást ad. A termékhagyma melyik szintjét bővíti ez?",
+  "answer": [
+   "kiterjesztett termék",
+   "a kiterjesztett termék szintjét",
+   "kiterjesztett termék szintje"
+  ],
+  "explanation": "A szállítás, a szolgáltatások, a terméktámogatás és a garancia mind a kiterjesztett termékhez tartoznak.",
+  "source": "Jegyzet 3.2",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-006",
+  "chapter": 3,
+  "section": "3.3",
+  "type": "feleletvalasztos",
+  "question": "Egy kiránduló hirtelen jött zápor miatt útközben ernyőt vesz a legközelebbi boltban. A fogyasztási cikkek melyik fajtájába tartozik ez a vásárlás?",
+  "options": [
+   "kényelmi termék (vészhelyzettermék)",
+   "bevásárlási jószág",
+   "speciális termék",
+   "nem keresett termék"
+  ],
+  "answer": "kényelmi termék (vészhelyzettermék)",
+  "explanation": "A kényelmi termékeket gyakran, minimális erőfeszítéssel vásárolják; a vészhelyzettermékeket a szükséglet hirtelen felmerülésekor.",
+  "source": "Jegyzet 3.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-007",
+  "chapter": 3,
+  "section": "3.3",
+  "type": "feleletvalasztos",
+  "question": "Valaki három hétig járja az üzleteket, hogy kanapét válasszon, és az árat, a minőséget és a stílust hasonlítgatja. Milyen termék ez?",
+  "options": [
+   "bevásárlási jószág",
+   "kényelmi termék",
+   "speciális termék",
+   "nem keresett termék"
+  ],
+  "answer": "bevásárlási jószág",
+  "explanation": "Bevásárlási javaknál a megfelelőség, minőség, ár és stílus szerinti válogatás a lényeg.",
+  "source": "Jegyzet 3.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-008",
+  "chapter": 3,
+  "section": "3.3",
+  "type": "igaz-hamis",
+  "question": "A speciális termékeknél a vevők hosszan összehasonlítják a különböző alternatívákat, mielőtt döntenek.",
+  "answer": false,
+  "explanation": "A speciális terméknél nincs szükség összehasonlításra: a vevő nagy erőfeszítést tesz, de egy konkrét márkát akar megszerezni.",
+  "source": "Jegyzet 3.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-009",
+  "chapter": 3,
+  "section": "3.3",
+  "type": "feleletvalasztos",
+  "question": "Melyik fogyasztási cikk-kategóriába tartoznak az innovációk addig, amíg a fogyasztók nem ismerik meg őket?",
+  "options": [
+   "nem keresett termékek",
+   "kényelmi termékek",
+   "bevásárlási javak",
+   "speciális termékek"
+  ],
+  "answer": "nem keresett termékek",
+  "explanation": "A nem keresett termékről a fogyasztó nem tud, vagy magától nem gondol a megvásárlására (pl. életbiztosítás, füstérzékelő).",
+  "source": "Jegyzet 3.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-3-010",
+  "chapter": 3,
+  "section": "3.3",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelöld meg az igaz állításokat a termelőeszközökről!",
+  "statements": [
+   {
+    "text": "Az alapanyagok és alkatrészek teljes egészében beépülnek a gyártó termékébe.",
+    "answer": true
+   },
+   {
+    "text": "A beruházási eszközök a késztermék előállítását lehetővé tevő tartós termékek.",
+    "answer": true
+   },
+   {
+    "text": "A segédanyagok és üzleti szolgáltatások rövid élettartamúak (pl. karbantartás, tanácsadás).",
+    "answer": true
+   },
+   {
+    "text": "A beruházási eszközök rövid élettartamú árucikkek.",
+    "answer": false
+   },
+   {
+    "text": "A nyersanyag nem tartozik az alapanyagok és alkatrészek csoportjába.",
+    "answer": false
+   }
+  ],
+  "explanation": "Az alapanyagok két csoportja a nyersanyagok, valamint a megmunkált anyagok és alkatrészek; a beruházási eszköz tartós.",
+  "source": "Jegyzet 3.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-011",
+  "chapter": 3,
+  "section": "3.4",
+  "type": "parositas",
+  "question": "Párosítsd a marketingfajtát azzal, amire a célja irányul!",
+  "answer": [
+   [
+    "vállalati marketing",
+    "bizonyos vállalatok megítélése"
+   ],
+   [
+    "személymarketing",
+    "bizonyos emberek hírneve, reputációja"
+   ],
+   [
+    "desztinációmarketing",
+    "bizonyos helyek megítélése"
+   ],
+   [
+    "társadalmi marketing",
+    "a társadalom jóléte"
+   ]
+  ],
+  "explanation": "Az első három definíciója szinte azonos (attitűd vagy magatartás kialakítása, fenntartása, megváltoztatása), csak a tárgy különbözik. A társadalmi marketing a társadalom jóllétét szolgáló célokat követ.",
+  "source": "Jegyzet 3.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-3-012",
+  "chapter": 3,
+  "section": "3.4",
+  "type": "rovid-valasz",
+  "question": "Egy kisváros turisztikai kampányt indít, hogy a fiatalok kedvezőbb képet alakítsanak ki róla. Melyik marketingfajta ez?",
+  "answer": [
+   "desztinációmarketing",
+   "helymarketing",
+   "place marketing",
+   "városmarketing"
+  ],
+  "explanation": "A célzott fogyasztók attitűdjének alakítása bizonyos helyek felé: desztinációmarketing.",
+  "source": "Jegyzet 3.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-3-013",
+  "chapter": 3,
+  "section": "3.4",
+  "type": "igaz-hamis",
+  "question": "A társadalmi marketing célja egy konkrét vállalat imázsának javítása.",
+  "answer": false,
+  "explanation": "Az a vállalati marketing. A társadalmi marketing olyan társadalmilag fontos célokat szolgál, amelyek a társadalom jóllétét előmozdítják.",
+  "source": "Jegyzet 3.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-014",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "feleletvalasztos",
+  "question": "Melyik NEM tartozik az egyedi termékkel kapcsolatos öt döntés közé?",
+  "options": [
+   "árazás",
+   "termékjellemzők",
+   "csomagolás",
+   "terméktámogatás"
+  ],
+  "answer": "árazás",
+  "explanation": "Az öt döntés: termékjellemzők, márkázás, csomagolás, címkézés és logók, terméktámogatás. Az ár a marketingmix másik eleme.",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-3-015",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "feleletvalasztos",
+  "question": "Egy mobiltelefon minden ígért funkciót tud, de a gyártósoron minden századik darab hibás. A minőség melyik dimenziója sérül?",
+  "options": [
+   "a megfelelőség minősége",
+   "a teljesítmény minősége",
+   "a forma minősége",
+   "a dizájn minősége"
+  ],
+  "answer": "a megfelelőség minősége",
+  "explanation": "A minőség két dimenziója: a teljesítmény minősége (ellátja-e a funkcióit) és a megfelelőség minősége (hibamentesség).",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-016",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "igaz-hamis",
+  "question": "A dizájn kizárólag esztétikai előnyöket kínál, a funkcionális előnyök a termékminőséghez tartoznak.",
+  "answer": false,
+  "explanation": "A dizájn mindazon jellemzők összessége, amelyek a termék megjelenését, kialakítását és működését befolyásolják: funkcionális és esztétikai előnyt is kínál.",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-3-017",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelöld meg az igaz állításokat a csomagolásról!",
+  "statements": [
+   {
+    "text": "Három szintje van: elsődleges, másodlagos és szállítási csomagolás.",
+    "answer": true
+   },
+   {
+    "text": "Egyik funkciója a termék védelme.",
+    "answer": true
+   },
+   {
+    "text": "Egyik funkciója, hogy a terméket felismerhetővé teszi.",
+    "answer": true
+   },
+   {
+    "text": "Egyik funkciója, hogy első- és másodosztályba sorolja a terméket.",
+    "answer": false
+   },
+   {
+    "text": "Három szintje: címke, logó és doboz.",
+    "answer": false
+   }
+  ],
+  "explanation": "Az osztályozás a címke funkciója. A csomagolás négy funkciója: szállítás/tárolás/használat segítése, védelem, felismerhetővé tétel, vásárlásra ösztönzés.",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-018",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "feleletvalasztos",
+  "question": "Melyik NEM a címke funkciója?",
+  "options": [
+   "megvédi a terméket a töréstől szállítás közben",
+   "azonosítja a terméket vagy a márkát",
+   "leírja a terméket (gyártó, összetevők)",
+   "reklámozhatja a terméket"
+  ],
+  "answer": "megvédi a terméket a töréstől szállítás közben",
+  "explanation": "A védelem a csomagolás funkciója. A címke négy funkciója: azonosít, osztályoz, leír, reklámoz.",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-019",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "rovid-valasz",
+  "question": "Egy lekvár üvegén szerepel a gyártó neve, a gyártás helye és az összetevők listája. A címke melyik funkcióját látja el ez?",
+  "answer": [
+   "leírja a terméket",
+   "leírás",
+   "leíró funkció",
+   "termékleírás"
+  ],
+  "explanation": "A gyártó, a gyártás helye és az összetevők megadása a leíró funkció.",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-020",
+  "chapter": 3,
+  "section": "3.5",
+  "type": "igaz-hamis",
+  "question": "A jótállás a gyártó formális nyilatkozata a termék elvárható teljesítményéről, és lehet kötelező vagy önként vállalt.",
+  "answer": true,
+  "explanation": "A terméktámogatás az alaptermék kiegészítése (pl. vevőszolgálat), a jótállás pedig a formális teljesítménynyilatkozat.",
+  "source": "Jegyzet 3.5",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-3-021",
+  "chapter": 3,
+  "section": "3.1",
+  "type": "feleletvalasztos",
+  "question": "A szolgáltatások és termékek értékelhetősége szerint melyik jellemző az orvosi diagnózisra?",
+  "options": [
+   "a vevő utólag sem tudja igazán megítélni a minőséget, bíznia kell (magas bizalmi minőség)",
+   "vásárlás előtt megnézhető és összehasonlítható (magas keresési minőség)",
+   "csak kipróbálás után ítélhető meg (magas tapasztalati minőség)",
+   "minősége a címke alapján eldönthető"
+  ],
+  "answer": "a vevő utólag sem tudja igazán megítélni a minőséget, bíznia kell (magas bizalmi minőség)",
+  "explanation": "A termékek zöme balra (keresési minőség), a szolgáltatások zöme jobbra esik; az orvosi diagnózis a skála bizalmi végén van.",
+  "source": "Jegyzet 3.1",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-3-022",
+  "chapter": 3,
+  "section": "3.2",
+  "type": "kifejtos",
+  "points": 10,
+  "question": "Mutasd be a „termékhagymát”: mi a három szintje, mi tartozik az egyikbe, és hogyan kapcsolódik a termékdifferenciálás döntéseihez?",
+  "answer": [
+   "Definíció: a termékhagyma azt mutatja, hogy a termék több szinten nyújt értéket a vevőnek.",
+   "Alaphasznosság (mag): az, amiért a vevő valójában vásárol, az alapvető haszon.",
+   "Tényleges termék: márkanév, jellemzők, minőség, design, csomagolás.",
+   "Kiterjesztett termék: szállítás és hitel, szolgáltatások, terméktámogatás, garancia.",
+   "Példa (saját): mobiltelefon: mag a kapcsolattartás; tényleges a márkás, adott designú készülék; kiterjesztett a garancia és a szerviz.",
+   "Kapcsolódás: a termékdifferenciálás első négy döntése (jellemzők, márkázás, csomagolás, címke) a tényleges termék szintjén, a terméktámogatás a kiterjesztett szinten alakítja a terméket."
+  ],
+  "explanation": "Pontozás: három szint 3 pont, elemek 2 pont, példa 2 pont, kapcsolódás 2 pont, szerkezet 1 pont.",
+  "source": "Jegyzet 3.2 · 3.5",
+  "official": false,
+  "difficulty": 3
+ }
+]

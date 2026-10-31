@@ -1,0 +1,272 @@
+[
+ {
+  "id": "mn-1-001",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mit jelent a válságmenedzsment a jegyzet szerint?",
+  "options": [
+   "Azoknak az eljárásoknak az összessége, amelyeket a szervezet katasztrófa vagy más váratlan szerencsétlenség esetén alkalmaz",
+   "A lehetséges szükséghelyzetek előzetes végiggondolása, még a bekövetkezésük előtt, kizárólag papíron",
+   "A hosszú távú célok megvalósulásának éves ellenőrzése a stratégiai irányítás keretében",
+   "A jelző mutatók meghatározása és a hozzájuk tartozó határértékek kijelölése"
+  ],
+  "answer": "Azoknak az eljárásoknak az összessége, amelyeket a szervezet katasztrófa vagy más váratlan szerencsétlenség esetén alkalmaz",
+  "explanation": "A válságmenedzsment a bekövetkezett katasztrófa vagy váratlan szerencsétlenség kezelése. A tervek előzetes végiggondolása a szükséghelyzeti tervezés dolga.",
+  "source": "Jegyzet 1.3",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mn-1-002",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik a szükséghelyzeti tervezés folyamatának helyes sorrendje?",
+  "options": [
+   "Tervezés és a szükséghelyzetek végiggondolása → azonosítás (valószínű és jelentős események, mutatók, tervek) → akcióba lendítés → figyelés",
+   "Azonosítás → tervezés és végiggondolás → figyelés → akcióba lendítés",
+   "Akcióba lendítés → tervezés és végiggondolás → azonosítás → figyelés",
+   "Figyelés → azonosítás → tervezés és végiggondolás → akcióba lendítés"
+  ],
+  "answer": "Tervezés és a szükséghelyzetek végiggondolása → azonosítás (valószínű és jelentős események, mutatók, tervek) → akcióba lendítés → figyelés",
+  "explanation": "A folyamat a tervezéssel és a lehetséges szükséghelyzetek végiggondolásával indul, majd azonosítás, akcióba lendítés és figyelés következik.",
+  "source": "Jegyzet 1.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-1-003",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Milyen szükséghelyzetekre érdemes szükséghelyzeti tervet készíteni?",
+  "options": [
+   "Azokra, amelyek egyszerre valószínűek és jelentősek",
+   "Mindegyikre, amely elméletileg bekövetkezhet, a valószínűségüktől függetlenül",
+   "Csak azokra, amelyek már legalább egyszer bekövetkeztek a szervezetben",
+   "Csak azokra, amelyeknek a költsége a legalacsonyabb"
+  ],
+  "answer": "Azokra, amelyek egyszerre valószínűek és jelentősek",
+  "explanation": "A „valószínű és jelentős” kettős szűrő: csak azokra az eseményekre készül terv, amelyek elég valószínűek és elég nagy hatásúak.",
+  "source": "Jegyzet 1.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-1-004",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy kisbolt tulajdonosa előre rögzítette: ha a fő beszállító egy hónapon belül kétszer késik, átvált a másik szállítóval megkötött tervre. Mi a késések számának szerepe a szükséghelyzeti tervezésben?",
+  "options": [
+   "Jelző mutató, amely riaszt, hogy át kell váltani a szükséghelyzeti tervre",
+   "Az azonosított szükséghelyzet maga, amelyre a terv készült",
+   "A terv sikeres végrehajtásának eredménye",
+   "A válságmenedzsment ad hoc eleme"
+  ],
+  "answer": "Jelző mutató, amely riaszt, hogy át kell váltani a szükséghelyzeti tervre",
+  "explanation": "A mutató figyelése jelzi, mikor kell élesíteni a szükséghelyzeti tervet. A szükséghelyzet maga a szállítási zavar, nem a késések száma.",
+  "source": "Jegyzet 1.2",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-1-005",
+  "chapter": 1,
+  "section": "1.1",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az IGAZ állításokat a COVID-19 példa alapján! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "A 2020-as felmérés szerint az amerikai vállalkozásoknak valamivel több mint a fele rendelkezett pandémiás tervvel.",
+    "answer": true
+   },
+   {
+    "text": "A pandémiás kockázat 2019 előtt még teljesen ismeretlen volt a tudomány számára.",
+    "answer": false
+   },
+   {
+    "text": "2019-re több, egymást részben átfedő globális korai jelző- és megfigyelőrendszer működött.",
+    "answer": true
+   },
+   {
+    "text": "Az eset legfőbb tanulsága, hogy a jövőt pontosan meg kell jósolni.",
+    "answer": false
+   },
+   {
+    "text": "Tervek híján sok vállalkozásnak az események sodrában kellett sürgősen döntenie.",
+    "answer": true
+   }
+  ],
+  "explanation": "A kockázat ismert volt (tudományos eredmények, jelzőrendszerek), mégsem készült fel mindenki. A tanulság nem a jóslás, hanem a valószínű és jelentős események előzetes végiggondolása.",
+  "source": "Jegyzet 1.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-1-006",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik céggel szemlélteti a jegyzet, hogy egy másik veszélyre készült terv elemei egy váratlan válságban is felhasználhatók?",
+  "options": [
+   "Disney",
+   "General Electric",
+   "Campus Pizza",
+   "Apple"
+  ],
+  "answer": "Disney",
+  "explanation": "A Disney az időjárás-alapú szükséghelyzeti terveit használta, amikor 2020-ban szisztematikusan bezárta a parkjait, majd az üdülőhelyeit.",
+  "source": "Jegyzet 1.3",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mn-1-007",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik NEM tartozik a szükséghelyzeti tervezés folyamatának lépései közé?",
+  "options": [
+   "A teljesítmény mérése és a terv/tény összehasonlítás",
+   "Az akcióba lendítés",
+   "A jelző mutatók figyelése",
+   "A lehetséges szükséghelyzetek végiggondolása"
+  ],
+  "answer": "A teljesítmény mérése és a terv/tény összehasonlítás",
+  "explanation": "A mérés és az összehasonlítás az irányítási folyamat (4.4) lépése; a szükséghelyzeti tervezés lépései: tervezés + végiggondolás, azonosítás, akcióba lendítés, figyelés.",
+  "source": "Jegyzet 1.2 · 4.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-1-008",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "parositas",
+  "points": 5,
+  "question": "Párosítsa a szükséghelyzeti tervezés lépéseit a tartalmukkal!",
+  "answer": [
+   [
+    "Azonosítás",
+    "A valószínű és jelentős szükséghelyzetek kiválasztása, a mutatók és a tervek elkészítése"
+   ],
+   [
+    "Akcióba lendítés",
+    "A tervek végrehajtása"
+   ],
+   [
+    "Figyelés",
+    "A mutatók figyelemmel kísérése, szükség esetén a szükséghelyzeti terv végrehajtása"
+   ],
+   [
+    "Tervezés (az első lépés)",
+    "A fő terv készítése és vele párhuzamosan a lehetséges szükséghelyzetek végiggondolása"
+   ]
+  ],
+  "explanation": "A négy lépés külön tartalmat kap; az azonosításnál dől el, mire készül terv, a figyelésnél a mutatók jeleznek.",
+  "source": "Jegyzet 1.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-1-009",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "kifejtos",
+  "points": 4,
+  "question": "Egy kerékpárbolt tulajdonosa egy tavalyi áradásra kidolgozott tervének egy részét (készlet felpakolása, vevők értesítése) használja fel, amikor a váratlan fagyok miatt kell hirtelen bezárnia. A többi lépésről menet közben dönt. Melyik fogalom írja le ezt a helyzetet? Indokolja egy mondatban!",
+  "answer": [
+   "Fogalom (2 p): Válságmenedzsment.",
+   "Indoklás (2 p): Katasztrófa vagy váratlan szerencsétlenség esetén alkalmazott eljárások, amelyek részben tervszerűek (meglévő tervekből), részben ad hoc jellegűek (az események sodrában alakulnak ki)."
+  ],
+  "explanation": "A Disney-példához hasonlóan egy másik veszélyre készült terv elemei is segíthetnek; a hiányzó részeket ad hoc döntések pótolják. Kulcsszavak az indoklásban: váratlan esemény · tervszerű + ad hoc elem · meglévő terv felhasználása",
+  "source": "Jegyzet 1.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-1-010",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik állítás igaz a szükséghelyzeti terv és a válságmenedzsment viszonyára?",
+  "options": [
+   "A szükséghelyzeti terv egy azonosított eseményre előre készül, a válságmenedzsment a bekövetkezett katasztrófa kezelése",
+   "A válságmenedzsment mindig teljesen tervszerű, ad hoc elemet nem tartalmaz",
+   "A szükséghelyzeti terv a bekövetkezett katasztrófa kezelésére szolgáló ad hoc döntések összessége",
+   "A két fogalom azonos, csak a jelző mutatók használatában különböznek"
+  ],
+  "answer": "A szükséghelyzeti terv egy azonosított eseményre előre készül, a válságmenedzsment a bekövetkezett katasztrófa kezelése",
+  "explanation": "A terv előre készül; a válságmenedzsment a bekövetkezés utáni kezelés, amelynek egy része tervszerű, más része ad hoc.",
+  "source": "Jegyzet 1.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-1-011",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi a szükséghelyzeti tervezés folyamatának eredménye a jegyzet ábrája szerint?",
+  "options": [
+   "A tervek vagy a szükséghelyzeti terv sikeres végrehajtása",
+   "A szervezet teljes kockázatmentessége",
+   "A jelző mutatók megszüntetése",
+   "Egy új stratégiai irányítási rendszer"
+  ],
+  "answer": "A tervek vagy a szükséghelyzeti terv sikeres végrehajtása",
+  "explanation": "Az ábra végén az eredmény a tervek vagy a szükséghelyzeti terv sikeres végrehajtása.",
+  "source": "Jegyzet 1.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-1-012",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mit jelent a „tervszerű” és az „ad hoc” a válságkezelés elemeire?",
+  "options": [
+   "Tervszerű: előre végiggondolt, kész tervből jön; ad hoc: a helyzet hozza, azonnal kell dönteni",
+   "Tervszerű: a külső partnerek döntik el; ad hoc: a belső munkatársak döntik el",
+   "Tervszerű: a hosszú távú célokhoz kötött; ad hoc: a rövid távú célokhoz kötött",
+   "Tervszerű: a mutatók figyelése; ad hoc: a mutatók meghatározása"
+  ],
+  "answer": "Tervszerű: előre végiggondolt, kész tervből jön; ad hoc: a helyzet hozza, azonnal kell dönteni",
+  "explanation": "A válságkezelés egyes elemei szisztematikusak, tervszerűek, mások az események sodrában, ad hoc alakulnak ki.",
+  "source": "Jegyzet 1.3",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mn-1-013",
+  "chapter": 1,
+  "section": "1.1",
+  "type": "kifejtos",
+  "points": 9,
+  "question": "Mutassa be a szükséghelyzeti tervezés folyamatát és szerepét a COVID-19 példa tanulságai alapján! (5–8 mondat)",
+  "answer": [
+   "Definíció/kiindulás: 2020-ban az amerikai vállalkozásoknak csak 57%-a rendelkezett pandémiás tervvel, pedig a kockázat ismert volt (tudományos eredmények, jelzőrendszerek).",
+   "Lépések: tervezés és a szükséghelyzetek végiggondolása → azonosítás (valószínű és jelentős események, jelző mutatók, tervek) → akcióba lendítés → figyelés.",
+   "A mutatók jeleznek: ha riasztanak, a szervezet átvált a szükséghelyzeti tervre.",
+   "Példa: Disney időjárás-alapú tervei a parkok, majd üdülőhelyek bezárásánál.",
+   "Kapcsolódás: a válságmenedzsment tervszerű és ad hoc elemekből áll; minél több a terv, annál kevesebb a kapkodás."
+  ],
+  "explanation": "Pontozás (saját becslés, nem hivatalos): kiindulás/tanulság 2 p · 4 lépés 3 p · mutató szerepe 1 p · példa 1 p · válságmenedzsment kapcsolat 2 p.",
+  "source": "Jegyzet 1.1–1.3",
+  "official": false,
+  "difficulty": 3
+ }
+]

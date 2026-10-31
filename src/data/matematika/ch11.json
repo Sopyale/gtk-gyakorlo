@@ -1,0 +1,189 @@
+[
+ {
+  "id": "mat-11-001",
+  "chapter": 11,
+  "section": "11.1",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Adott az f(x) = 2x² − 1 és a g(x) = x + 4 függvény. a) Mennyi (f∘g)(1)? b) Mennyi (g∘f)(1)? c) Mennyi (f·g)(−2)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "49",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "5",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "14",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Függvényműveletek és kompozíció. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KOMP-1",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "A belső függvényt számoljuk először.",
+   "a) f(g(1)): g(1) = 5, ezután f(5) = 49.",
+   "b) g(f(1)): f(1) = 1, ezután g(1) = 5.",
+   "c) f(−2)·g(−2) = 7 · 2 = 14.",
+   "Eredmény: a) 49; b) 5; c) 14."
+  ]
+ },
+ {
+  "id": "mat-11-002",
+  "chapter": 11,
+  "section": "11.2",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Legyen f(x) = 3x − 5 és g(x) = x² + 2. a) Határozd meg az (f∘g)(−1) értéket! b) Határozd meg a (g∘f)(−1) értéket! c) Mennyi az (f/g)(2)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "4",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "66",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "1/6",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Függvényműveletek és kompozíció. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KOMP-2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "A belső függvényt számoljuk először.",
+   "a) f(g(−1)): g(−1) = 3, ezután f(3) = 4.",
+   "b) g(f(−1)): f(−1) = −8, ezután g(−8) = 66.",
+   "c) f(2)/g(2) = 1 / 6 = 1/6.",
+   "Eredmény: a) 4; b) 66; c) 1/6."
+  ]
+ },
+ {
+  "id": "mat-11-003",
+  "chapter": 11,
+  "section": "11.3",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Két függvény: f(x) = x² − 3x és g(x) = 2x + 1. a) (f∘g)(3) = ? b) (g∘f)(3) = ? c) (f + g)(−1) = ?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "28",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "1",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "3",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Függvényműveletek és kompozíció. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KOMP-3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "A belső függvényt számoljuk először.",
+   "a) f(g(3)): g(3) = 7, ezután f(7) = 28.",
+   "b) g(f(3)): f(3) = 0, ezután g(0) = 1.",
+   "c) f(−1) + g(−1) = 4 + (−1) = 3.",
+   "Eredmény: a) 28; b) 1; c) 3."
+  ]
+ },
+ {
+  "id": "mat-11-004",
+  "chapter": 11,
+  "section": "11.4",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy webshop napi látogatóinak száma a kampány d-edik napján v(d) = 120 + 5d², a napi bevétel pedig a látogatószámtól függ: B(v) = 0,4·v − 10 (ezer Ft). a) Mekkora a bevétel a kampány 4. napján, azaz mennyi B(v(4))? b) A kampány hányadik napján lesz a bevétel 110 ezer Ft? (A negatív megoldás nem jó.)",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "70",
+    "accept": "int",
+    "format": "egész szám (ezer Ft)"
+   },
+   {
+    "label": "b)",
+    "answer": "6",
+    "accept": "int",
+    "format": "egész szám (nap)"
+   }
+  ],
+  "explanation": "Módszer: Függvényműveletek és kompozíció. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KOMP-4",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "a) v(4) = 120 + 5·16 = 200 látogató, B(200) = 0,4·200 − 10 = 70 ezer Ft.",
+   "b) B(v(d)) = 0,4·(120 + 5d²) − 10 = 38 + 2d² = 110 → 2d² = 72 → d² = 36 → d = 6 (d = −6 kiesik, mert a nap nem lehet negatív).",
+   "Eredmény: a) 70; b) 6."
+  ]
+ },
+ {
+  "id": "mat-11-005",
+  "chapter": 11,
+  "section": "11.5",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Legyen f(x) = 4 − x² és g(x) = 3x + 2. a) Mennyi g(f(−2))? b) Mennyi f(g(−2))? c) Mennyi (f − g)(5)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "2",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "-12",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "-38",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Függvényműveletek és kompozíció. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KOMP-5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "A belső függvényt számoljuk először.",
+   "a) g(f(−2)): f(−2) = 0, ezután g(0) = 2.",
+   "b) f(g(−2)): g(−2) = −4, ezután f(−4) = −12.",
+   "c) f(5) − g(5) = (−21) − 17 = −38.",
+   "Eredmény: a) 2; b) -12; c) -38."
+  ]
+ }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "id": "mat-13-001",
+  "chapter": 13,
+  "section": "13.1",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy q másodfokú függvény zérushelyei x = 1 és x = 5, és q(0) = −10. a) Mennyi a q(x) = a(x − 1)(x − 5) alakban az a? b) Hol van a csúcs (x-koordináta)? c) Mekkora a q szélsőértéke?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "-2",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "3",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "8",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Másodfokú függvény gyökeiből és egy pontból. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, MASOD-1",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "A gyöktényezős alak a(x − 1)(x − 5). Az x = 0 helyen: −10 = a·(−1)·(−5) = a·5 → a = −2. A csúcs a két gyök számtani közepénél van: (1 + 5)/2 = 3; ott q = −2·2·(−2) = 8 (maximum, mert a < 0).",
+   "Eredmény: a) -2; b) 3; c) 8."
+  ]
+ },
+ {
+  "id": "mat-13-002",
+  "chapter": 13,
+  "section": "13.2",
+  "type": "szamolas",
+  "points": 5,
+  "question": "A másodfokú r függvény grafikonja az x tengelyt a −4 és a 2 pontban metszi, az x = 1 helyen pedig r(1) = 15. a) Határozd meg az r(x) = a(x + 4)(x − 2) alak a együtthatóját! b) Hányadik x-nél van a szélsőérték? c) Mennyi a szélsőérték?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "-3",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "-1",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "27",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Másodfokú függvény gyökeiből és egy pontból. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, MASOD-2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "A gyöktényezős alak a(x + 4)(x − 2). Az x = 1 helyen: 15 = a·5·(−1) = a·(−5) → a = −3. A csúcs a két gyök számtani közepénél van: ((−4) + 2)/2 = −1; ott q = −3·3·(−3) = 27 (maximum, mert a < 0).",
+   "Eredmény: a) -3; b) -1; c) 27."
+  ]
+ },
+ {
+  "id": "mat-13-003",
+  "chapter": 13,
+  "section": "13.3",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Valamely s másodfokú függvényre s(0) = s(8) = 0 és s(2) = −24. a) Mekkora az a főegyüttható a gyöktényezős alakban? b) Milyen x-nél veszi fel a legnagyobb vagy legkisebb értékét? c) Mekkora ez az érték?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "2",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "4",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "-32",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Másodfokú függvény gyökeiből és egy pontból. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, MASOD-3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "A gyöktényezős alak a(x − 0)(x − 8). Az x = 2 helyen: −24 = a·2·(−6) = a·(−12) → a = 2. A csúcs a két gyök számtani közepénél van: (0 + 8)/2 = 4; ott q = 2·4·(−4) = −32 (minimum, mert a > 0).",
+   "Eredmény: a) 2; b) 4; c) -32."
+  ]
+ },
+ {
+  "id": "mat-13-004",
+  "chapter": 13,
+  "section": "13.4",
+  "type": "szamolas",
+  "points": 5,
+  "question": "A parabola alakú m függvény két zérushelye −3 és −1, a grafikonja pedig átmegy a (0; 6) ponton. a) Mennyi a gyöktényezős alak a tényezője? b) Mi a csúcs x-koordinátája? c) Mi a csúcs y-koordinátája?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "2",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "-2",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "-2",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Másodfokú függvény gyökeiből és egy pontból. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, MASOD-4",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "A gyöktényezős alak a(x + 3)(x + 1). Az x = 0 helyen: 6 = a·3·1 = a·3 → a = 2. A csúcs a két gyök számtani közepénél van: ((−3) + (−1))/2 = −2; ott q = 2·1·(−1) = −2 (minimum, mert a > 0).",
+   "Eredmény: a) 2; b) -2; c) -2."
+  ]
+ },
+ {
+  "id": "mat-13-005",
+  "chapter": 13,
+  "section": "13.5",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Egy u másodfokú függvény gyökei 2 és 10, u(4) = −12. a) Határozd meg a-t az u(x) = a(x − 2)(x − 10) felírásban! b) Add meg a szélsőérték helyét! c) Add meg a szélsőérték értékét!",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "1",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "6",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "-16",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Másodfokú függvény gyökeiből és egy pontból. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, MASOD-5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "A gyöktényezős alak a(x − 2)(x − 10). Az x = 4 helyen: −12 = a·2·(−6) = a·(−12) → a = 1. A csúcs a két gyök számtani közepénél van: (2 + 10)/2 = 6; ott q = 1·4·(−4) = −16 (minimum, mert a > 0).",
+   "Eredmény: a) 1; b) 6; c) -16."
+  ]
+ }
+]

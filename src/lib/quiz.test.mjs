@@ -83,6 +83,12 @@ console.log('definition checks ok');
   assert.ok(!isCorrect(q, { 'a)': '0,23', 'b)': '0,27' }), 'no partial credit');
   const mock = drawMock([1, 1, 2, 2, 3].map((chapter, i) => ({ id: i, chapter })), { perChapter: 1 });
   assert.deepEqual(mock.map((x) => x.chapter), [1, 2, 3]);
+  const some = drawMock([1, 1, 2, 2, 3].map((chapter, i) => ({ id: i, chapter })), { perChapter: 1, chapters: [1, 3] });
+  assert.deepEqual(some.map((x) => x.chapter).sort(), [1, 3]);
+  // Typed effects keep their signs: Eszk+ Erd- is not Eszk- Erd-.
+  const eff = { accept: 'text', answer: 'Eszk+ Erd-', alts: ['Erd- Eszk+'] };
+  assert.ok(fieldCorrect(eff, 'erd- eszk+') && fieldCorrect(eff, 'Eszk+ Erd-'));
+  assert.ok(!fieldCorrect(eff, 'Eszk- Erd-') && !fieldCorrect(eff, 'Eszk+ Erd+'));
 }
 console.log('calculation checks ok');
 

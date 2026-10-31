@@ -1,0 +1,249 @@
+[
+ {
+  "term": "Nem verbális kommunikáció",
+  "definition": "a verbálisnál régebbi, gyorsabb, kevésbé tudatos; főként attitűdök, érzelmek közvetítésére",
+  "section": "1.1",
+  "star": true,
+  "concepts": [
+   [
+    "régebbi"
+   ],
+   [
+    "gyorsabb"
+   ],
+   [
+    "kevésbé tudatos"
+   ],
+   [
+    "attitűd"
+   ]
+  ]
+ },
+ {
+  "term": "Csatornák",
+  "definition": "vokalitás, „testbeszéd”, proxemika, fizikai jellemzők",
+  "section": "1.3",
+  "star": true,
+  "concepts": [
+   [
+    "vokalitás"
+   ],
+   [
+    "testbeszéd"
+   ],
+   [
+    "proxemika"
+   ],
+   [
+    "fizikai jellemzők"
+   ]
+  ]
+ },
+ {
+  "term": "Vokalitás",
+  "definition": "hangminőség (paralingvisztika), intonáció (prozódia), csend",
+  "section": "1.3",
+  "star": true,
+  "concepts": [
+   [
+    "hangminőség"
+   ],
+   [
+    "intonáció"
+   ],
+   [
+    "csend"
+   ]
+  ]
+ },
+ {
+  "term": "Proxemika",
+  "definition": "térköz és érintés; zónák: intim 0,5 m, személyes 1,2 m, társas 3 m, nyilvános",
+  "section": "1.4",
+  "star": false,
+  "concepts": [
+   [
+    "térköz"
+   ],
+   [
+    "zónák"
+   ],
+   [
+    "0,5"
+   ],
+   [
+    "1,2"
+   ],
+   [
+    "3"
+   ]
+  ]
+ },
+ {
+  "term": "Dramaturgiai modell",
+  "definition": "a hétköznapi interakciók leírása a színház metaforájával: szerepek, homlokzat, kooperáció",
+  "section": "1.7",
+  "star": true,
+  "concepts": [
+   [
+    "színház"
+   ],
+   [
+    "szerep"
+   ],
+   [
+    "homlokzat"
+   ]
+  ]
+ },
+ {
+  "term": "Homlokzat",
+  "definition": "állandó jellegű kifejezéskészlet, amelyet az egyén az alakítás során szándékosan vagy szándéktalanul felhasznál; része a környezet és a személyes homlokzat",
+  "section": "1.7",
+  "star": true,
+  "concepts": [
+   [
+    "kifejezéskészlet"
+   ],
+   [
+    "szándékosan vagy szándéktalanul"
+   ],
+   [
+    "környezet"
+   ],
+   [
+    "személyes homlokzat"
+   ]
+  ]
+ },
+ {
+  "term": "Homlokzat-összeomlás",
+  "definition": "a homlokzat nem működik: zavarodottság (erőltetett viccelődés, ideges nevetés, kínos csend), majd közös helyreállítás",
+  "section": "1.7",
+  "star": true,
+  "concepts": [
+   [
+    "zavarodottság"
+   ],
+   [
+    "közös helyreállítás"
+   ]
+  ]
+ },
+ {
+  "term": "A hazugság legfontosabb jele",
+  "definition": "a különböző csatornák közötti ellentmondás",
+  "section": "1.8",
+  "star": true,
+  "concepts": [
+   [
+    "ellentmondás"
+   ],
+   [
+    "csatornák"
+   ]
+  ]
+ },
+ {
+  "term": "Alapérzelmek",
+  "definition": "hét: öröm, meglepetés, félelem, szomorúság, harag, megvetés, undor; arckifejezésük univerzális",
+  "section": "1.9",
+  "star": true,
+  "concepts": [
+   [
+    "hét"
+   ],
+   [
+    "univerzális"
+   ],
+   [
+    "öröm"
+   ],
+   [
+    "undor"
+   ]
+  ]
+ },
+ {
+  "term": "Mikro-arckifejezés",
+  "definition": "szándékosan vagy tudattalanul elnyomott érzelem villanásnyi (kb. 1/5 mp) megjelenése",
+  "section": "1.10",
+  "star": true,
+  "concepts": [
+   [
+    "elnyomott érzelem"
+   ],
+   [
+    "1/5 mp"
+   ],
+   [
+    "villanásnyi"
+   ]
+  ]
+ },
+ {
+  "term": "Gyenge arckifejezés",
+  "definition": "kezdeti, gyenge, csökkenő vagy titkolt",
+  "section": "1.10",
+  "star": true,
+  "concepts": [
+   [
+    "kezdeti"
+   ],
+   [
+    "gyenge"
+   ],
+   [
+    "titkolt"
+   ]
+  ]
+ },
+ {
+  "term": "Részleges arckifejezés",
+  "definition": "enyhe, csökkenő, titkolt",
+  "section": "1.10",
+  "star": true,
+  "concepts": [
+   [
+    "enyhe"
+   ],
+   [
+    "csökkenő"
+   ],
+   [
+    "titkolt"
+   ]
+  ]
+ },
+ {
+  "term": "Megjátszott érzelem jele",
+  "definition": "enyhe aszimmetria, nem gördülékeny megjelenés és eltűnés",
+  "section": "1.10",
+  "star": true,
+  "concepts": [
+   [
+    "aszimmetria"
+   ],
+   [
+    "gördülékeny"
+   ]
+  ]
+ },
+ {
+  "term": "Érzelemkimutatási szabályok",
+  "definition": "kultúrafüggők: ki, kinek, mikor fejezheti ki; egyedül veleszületett, nyilvánosan szabályozott",
+  "section": "1.9",
+  "star": true,
+  "concepts": [
+   [
+    "kultúrafüggő"
+   ],
+   [
+    "szabályozott"
+   ],
+   [
+    "veleszületett"
+   ]
+  ]
+ }
+]

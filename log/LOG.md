@@ -3,6 +3,23 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 2.0.4 – 2026-10-31
+
+- **2. ZH question banks:** Menedzsment (126 questions, 32 glossary terms), Számvitel (166; `szv-4-002` is left out, it was a Moodle practice item word for word), Marketing (117, 39 terms),
+  Közösség és egyén (52, 14 terms) go live, each subject with a 2. ZH exam card (dates from the owner's calendar:
+  Menedzsment 2026-11-11, Számvitel 2026-11-16, Marketing 2026-11-09, Közösség és egyén 2026-11-25) and a mock ZH mix
+  (`mock.mix`). Matematika gets 75 more tasks in chapters 9-23 (15 new task types; the first 40 tasks were already
+  there), date 2026-11-04; Közgazdaságtan 2. ZH only gets its date (2026-12-07). All questions are our own wording.
+- **Code:** `mock.chapters` limits a task-type mock to some chapters (Matematika keeps its 8-task mock);
+  `check-data` accepts a digit in the id prefix (`ke2-1-001`); typed text fields keep `+` and `-`, so `Eszk+ Erd-`
+  differs from `Eszk- Erd-`; question text keeps its line breaks; calculation fields with long labels (Számvitel
+  accounts) show the label above the input.
+- **Fix:** a ZH with `mock.mix` no longer shows "típusonként undefined feladat" on the subject page and the exam
+  card (`Subject.jsx`, `Hub.jsx` treat only `mock.perChapter` as a calculation mock). SPEC.md and README describe the
+  115 Matematika tasks and `mock.chapters`.
+- **Not checked in a browser:** the UI at 360 and 1280 px (light and dark) still has to be looked at.
+- Merged by hand on 2026-10-31 after the upload stopped on a git conflict with 2.0.2/2.0.3; renumbered from 2.1.0
+  to 2.0.4, because 2.1.0 stays the redesign.
 ## 2.0.3 – 2026-10-30
 
 - **Mandatory feedback (Visszajelzés):** every 3 days counted from registration, the first time the site is opened in

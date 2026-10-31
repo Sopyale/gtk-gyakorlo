@@ -22,7 +22,7 @@ for (const s of subjects.filter((x) => x.active)) {
     for (const q of read(`${s.id}/${f}`)) {
       const at = `${f} ${q.id ?? '?'}`;
       const err = (m) => errors.push(`${at}: ${m}`);
-      if (!/^[a-z]+-\d+-\d{3}$/.test(q.id ?? '')) err('id must look like kg-3-017');
+      if (!/^[a-z][a-z0-9]*-\d+-\d{3}$/.test(q.id ?? '')) err('id must look like kg-3-017');
       else if (+q.id.split('-')[1] !== chapter) err('id chapter does not match file');
       if (ids.has(q.id)) err(`duplicate id (also in ${ids.get(q.id)})`); else ids.set(q.id, f);
       if (!TYPES.includes(q.type)) err(`unknown type ${q.type}`);

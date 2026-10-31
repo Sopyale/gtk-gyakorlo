@@ -1,0 +1,441 @@
+[
+ {
+  "id": "mk-4-001",
+  "chapter": 4,
+  "section": "4.1",
+  "type": "igaz-hamis",
+  "question": "Kotler és Armstrong szerint a márka a fogyasztók elméjében is létezik: kifejezi az észleléseiket és érzéseiket a termékkel kapcsolatban.",
+  "answer": true,
+  "explanation": "A márka több, mint azonosító jel: kulcseleme a vállalat és a vevő közötti kapcsolatnak, és a fogyasztók elméjében létezik.",
+  "source": "Jegyzet 4.1",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mk-4-002",
+  "chapter": 4,
+  "section": "4.1",
+  "type": "feleletvalasztos",
+  "question": "Egy kisvállalkozás a márkanevek alapján követi nyomon a készleteit és szervezi a számviteli nyilvántartását. A márkázás melyik szerepe ez?",
+  "options": [
+   "a vállalat számára: azonosítási eszköz",
+   "a fogyasztó számára: a döntés leegyszerűsítése",
+   "a fogyasztó számára: önkifejezés eszköze",
+   "a vállalat számára: csökkenti a versenytársak általi sebezhetőséget"
+  ],
+  "answer": "a vállalat számára: azonosítási eszköz",
+  "explanation": "Az „azonosítás” a vállalati lista eleme, és belső nyilvántartást (készlet, számvitel) jelent, nem a vevő döntését.",
+  "source": "Jegyzet 4.1",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-003",
+  "chapter": 4,
+  "section": "4.1",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelöld meg azokat az állításokat, amelyek a márkázás szerepét helyesen a fogyasztó oldalán írják le!",
+  "statements": [
+   {
+    "text": "Csökkenti a keresési költségeket, leegyszerűsíti a döntést.",
+    "answer": true
+   },
+   {
+    "text": "Jelzi a termék minőségét, így csökkenti a kockázatot.",
+    "answer": true
+   },
+   {
+    "text": "Önkifejezés és státuszszimbólum lehet.",
+    "answer": true
+   },
+   {
+    "text": "Kiszámítható és biztos keresletet eredményez.",
+    "answer": false
+   },
+   {
+    "text": "Jogi védelmet nyújt a másolókkal szemben.",
+    "answer": false
+   }
+  ],
+  "explanation": "A fogyasztónak 3 szerep jut (döntés, kockázat, önkifejezés); a biztos kereslet, a jogi védelem és a licenc a vállalat szempontjai.",
+  "source": "Jegyzet 4.1",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-004",
+  "chapter": 4,
+  "section": "4.2",
+  "type": "parositas",
+  "question": "Párosítsd a márkaelemet a példával!",
+  "answer": [
+   [
+    "márkanév",
+    "Nike"
+   ],
+   [
+    "szimbólum",
+    "a Nike „swoosh”-a"
+   ],
+   [
+    "karakter",
+    "az M&M’s figurák"
+   ],
+   [
+    "szlogen",
+    "„A legkisebb is számít” (Tesco)"
+   ]
+  ],
+  "explanation": "A hét márkaelem: név, logó, szimbólum, karakter, szlogen, csomagolás, URL.",
+  "source": "Jegyzet 4.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-4-005",
+  "chapter": 4,
+  "section": "4.2",
+  "type": "igaz-hamis",
+  "question": "Egy márkának mind a hét márkaelemmel rendelkeznie kell.",
+  "answer": false,
+  "explanation": "A márkának nem szükséges mindegyikkel rendelkeznie.",
+  "source": "Jegyzet 4.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-4-006",
+  "chapter": 4,
+  "section": "4.2",
+  "type": "feleletvalasztos",
+  "question": "Melyik NEM a márkaelemek kiválasztásának kritériuma?",
+  "options": [
+   "olcsó",
+   "emlékezetes",
+   "adaptálható",
+   "védhető"
+  ],
+  "answer": "olcsó",
+  "explanation": "A hat kritérium: emlékezetes, ésszerű, rokonszenves, átvihető, adaptálható, védhető.",
+  "source": "Jegyzet 4.2",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-007",
+  "chapter": 4,
+  "section": "4.2",
+  "type": "rovid-valasz",
+  "question": "Egy sportruházati márka logóját több országban, több termékkategóriában is használhatják, anélkül hogy a márkaérték csökkenne. A márkaelem-kiválasztás melyik kritériumát teljesíti?",
+  "answer": [
+   "átvihető",
+   "átvihetőség",
+   "az átvihetőség kritériuma"
+  ],
+  "explanation": "Az átvihetőség azt kérdezi: használható-e új termékek bevezetésére ugyanabban vagy másik kategóriában, földrajzi határokon és piaci szegmenseken át.",
+  "source": "Jegyzet 4.2",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-008",
+  "chapter": 4,
+  "section": "4.3",
+  "type": "igaz-hamis",
+  "question": "A márkaérték (brand equity) a márka teljes pénzügyi értékének becslése.",
+  "answer": false,
+  "explanation": "Ez a márkaértékelés (brand valuation). A márkaérték a márka miatti hozzáadott érték a vevők gondolataiban, érzéseiben és cselekedeteiben.",
+  "source": "Jegyzet 4.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-009",
+  "chapter": 4,
+  "section": "4.3",
+  "type": "feleletvalasztos",
+  "question": "A BAV-modellben melyik két összetevő alkotja a márkaerősséget?",
+  "options": [
+   "az erőt adó különbözőség és a relevancia",
+   "az elismertség és az ismertség",
+   "a különbözőség és az ismertség",
+   "a relevancia és az elismertség"
+  ],
+  "answer": "az erőt adó különbözőség és a relevancia",
+  "explanation": "A márkaerősség a jövőbeli növekedés értékét mutatja; az elismertség és az ismertség a márkatekintély, a jelenlegi helyzet.",
+  "source": "Jegyzet 4.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-4-010",
+  "chapter": 4,
+  "section": "4.3",
+  "type": "feleletvalasztos",
+  "question": "Egy új kávézólánc márkája különleges és sokaknak fontos, de még alig ismerik és tisztelik. A márkaerő-értékelő mátrix melyik negyedébe tartozik?",
+  "options": [
+   "piaci rés / fel nem ismert potenciál",
+   "vezető pozíció",
+   "pusztuló / csökkenő",
+   "új / fókuszálatlan"
+  ],
+  "answer": "piaci rés / fel nem ismert potenciál",
+  "explanation": "Magas márkaerősség, alacsony tekintély: növekedhet. Pusztuló az, amelyik ismert és tisztelt, de már nem elég különleges.",
+  "source": "Jegyzet 4.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-011",
+  "chapter": 4,
+  "section": "4.3",
+  "type": "igaz-hamis",
+  "question": "A BAV-mátrixban a „pusztuló / csökkenő” márka magas tekintélyű, de alacsony erősségű.",
+  "answer": true,
+  "explanation": "Ismerik és tisztelik, de a különbözősége és a relevanciája már gyenge.",
+  "source": "Jegyzet 4.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-012",
+  "chapter": 4,
+  "section": "4.4",
+  "type": "feleletvalasztos",
+  "question": "Egy kérdezőbiztos megkéri a válaszadót, hogy mondjon egy tisztítószermárkát. Melyik márkaismertségi dimenziót méri ez?",
+  "options": [
+   "márkafelidézés (recall)",
+   "márkafelismerés (recognition)",
+   "márkaimázs",
+   "márkaszemélyiség"
+  ],
+  "answer": "márkafelidézés (recall)",
+  "explanation": "Felidézés: a kategória hallatán magától jut eszembe a márka, nincs előttem. Felismerésnél látom a márkát, és tudom, hogy találkoztam vele.",
+  "source": "Jegyzet 4.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-013",
+  "chapter": 4,
+  "section": "4.4",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelöld meg az igaz állításokat a márkaismertség szerepéről!",
+  "statements": [
+   {
+    "text": "Növeli annak a valószínűségét, hogy a márka bekerül a tekintetbe vett márkák halmazába.",
+    "answer": true
+   },
+   {
+    "text": "Befolyásolja a döntést a tekintetbe vett halmazon belül, főleg kis súlyú vagy hirtelen vásárlásnál.",
+    "answer": true
+   },
+   {
+    "text": "Szükséges feltétele a márkaimázs és az asszociációk kialakulásának.",
+    "answer": true
+   },
+   {
+    "text": "A márkaimázs kialakulásához nincs szükség ismertségre.",
+    "answer": false
+   },
+   {
+    "text": "Csak a nagy értékű vásárlásokra hat.",
+    "answer": false
+   }
+  ],
+  "explanation": "Amit nem ismerek, arról nem lehet képem; a hatás a kis súlyú, gyors döntéseknél különösen erős.",
+  "source": "Jegyzet 4.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-014",
+  "chapter": 4,
+  "section": "4.4",
+  "type": "parositas",
+  "question": "Párosítsd az Aaker-féle márkaszemélyiség-dimenziót a jellemzőivel!",
+  "answer": [
+   [
+    "őszinteség",
+    "realisztikus, tisztességes, egészséges, vidám"
+   ],
+   [
+    "izgalmasság",
+    "merész, lendületes, fantáziadús, korszerű"
+   ],
+   [
+    "kompetencia",
+    "megbízható, intelligens, sikeres"
+   ],
+   [
+    "kifinomultság",
+    "előkelő, elragadó"
+   ]
+  ],
+  "explanation": "Az ötödik dimenzió a durvaság (természetkedvelő, kemény).",
+  "source": "Jegyzet 4.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-015",
+  "chapter": 4,
+  "section": "4.4",
+  "type": "rovid-valasz",
+  "question": "Egy túraruházati márkát „természetkedvelőnek és keménynek” érzékelnek a vevők. Az Aaker-féle márkaszemélyiség melyik dimenziója ez?",
+  "answer": [
+   "durvaság",
+   "a durvaság dimenziója",
+   "ruggedness"
+  ],
+  "explanation": "A durvaság jellemzői: természetkedvelő és kemény.",
+  "source": "Jegyzet 4.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-4-016",
+  "chapter": 4,
+  "section": "4.5",
+  "type": "igaz-hamis",
+  "question": "A márka pozicionálásának három szintje: terméktulajdonságok, előnyök, értékek.",
+  "answer": true,
+  "explanation": "A márkastratégiai döntések első lépése a márka elhelyezése a vevő tudatában ezen a három szinten.",
+  "source": "Jegyzet 4.5",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-4-017",
+  "chapter": 4,
+  "section": "4.5",
+  "type": "feleletvalasztos",
+  "question": "Melyik NEM követelmény a jó márkanévvel szemben?",
+  "options": [
+   "minél hosszabb és leírőbb legyen",
+   "könnyen kimondható és megjegyezhető legyen",
+   "jogilag védhető legyen",
+   "idegen nyelvre lefordítható legyen"
+  ],
+  "answer": "minél hosszabb és leírőbb legyen",
+  "explanation": "A jó név utal az előnyökre, könnyen kimondható és megjegyezhető, megkülönböztető, bővíthető, lefordítható és jogilag védhető.",
+  "source": "Jegyzet 4.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-018",
+  "chapter": 4,
+  "section": "4.5",
+  "type": "parositas",
+  "question": "Párosítsd a márka-meghatározás fajtáját a helyzettel!",
+  "answer": [
+   [
+    "gyártói márka",
+    "a gyártó a saját nevén forgalmazza a termékeit"
+   ],
+   [
+    "kereskedelmi márka",
+    "a termék a viszonteladó (pl. egy diszkontlánc) saját neve alatt kerül forgalomba"
+   ],
+   [
+    "licencmárka",
+    "rajzfilmfigura neve van egy pólón"
+   ],
+   [
+    "közös márka",
+    "két vállalat márkaneve egy termékben szerepel"
+   ]
+  ],
+  "explanation": "A négy fajta: gyártói, kereskedelmi, licenc, közös márka.",
+  "source": "Jegyzet 4.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-019",
+  "chapter": 4,
+  "section": "4.5",
+  "type": "rovid-valasz",
+  "question": "Egy ismert joghurtmárka ugyanazon a néven, ugyanabban a termékkategóriában új, mangós ízt dob piacra. Melyik márkafejlesztési stratégia ez?",
+  "answer": [
+   "termékcsalád-bővítés",
+   "termékcsaládbővítés",
+   "line extension"
+  ],
+  "explanation": "Meglévő márkanév, meglévő termékkategória: új íz, forma, szín vagy kiszerelés.",
+  "source": "Jegyzet 4.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-020",
+  "chapter": 4,
+  "section": "4.5",
+  "type": "feleletvalasztos",
+  "question": "Egy autógyártó a luxuskategóriába lépve nem a meglévő nevét használja, hanem teljesen új márkát indít. Melyik stratégia ez?",
+  "options": [
+   "új márka",
+   "multimárka",
+   "termékkategória-bővítés",
+   "termékcsalád-bővítés"
+  ],
+  "answer": "új márka",
+  "explanation": "Új márkanév + új termékkategória. Multimárkánál új név jelenik meg, de meglévő kategóriában.",
+  "source": "Jegyzet 4.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-021",
+  "chapter": 4,
+  "section": "4.5",
+  "type": "igaz-hamis",
+  "question": "A márkakiterjesztés fogalmába a multimárka is beletartozik.",
+  "answer": false,
+  "explanation": "A márkakiterjesztés csak a meglévő márkanevet használó felső sor: termékcsalád-bővítés és termékkategória-bővítés. A multimárka új nevet jelent.",
+  "source": "Jegyzet 4.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-022",
+  "chapter": 4,
+  "section": "4.5",
+  "type": "feleletvalasztos",
+  "question": "Mi a termékkategória-bővítés jellemző hátránya?",
+  "options": [
+   "összezavarhatja az anyamárka imázsát",
+   "a „túlterhelt” márkanév zavart okoz a vevőkben",
+   "az erőforrások elaprózódnak a sok kis részesedésű márka között",
+   "mindig drágább az új márkánál"
+  ],
+  "answer": "összezavarhatja az anyamárka imázsát",
+  "explanation": "A termékcsalád-bővítés hátránya a túlterhelt márkanév miatti vevői zavar, a multimárkáé a kis részesedés és az elaprózott erőforrás.",
+  "source": "Jegyzet 4.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-4-023",
+  "chapter": 4,
+  "section": "4.3",
+  "type": "kifejtos",
+  "points": 10,
+  "question": "Magyarázd el a márkaérték (brand equity) és a márkaértékelés (brand valuation) különbségét, majd mutasd be a Young és Rubicam-féle BAV-modell négy összetevőjét!",
+  "answer": [
+   "Márkaérték (equity): a termékekhez a márka által hozzáadott érték, amely a vevők gondolataiban, érzéseiben és cselekedeteiben fejeződik ki.",
+   "Márkaértékelés (valuation): a márka teljes pénzügyi értékének becslése.",
+   "BAV négy összetevője: különbözőség, relevancia, elismertség, ismertség.",
+   "Márkaerősség = különbözőség + relevancia (jövőbeli növekedés); márkatekintély = elismertség + ismertség (jelenlegi helyzet).",
+   "Példa (saját): egy új, különleges, de alig ismert kávézólánc magas erősségű, alacsony tekintélyű: fel nem ismert potenciál.",
+   "Kapcsolódás: az erősség × tekintély mátrix négy negyedet ad: vezető pozíció, piaci rés, új/fókuszálatlan, pusztuló."
+  ],
+  "explanation": "Pontozás: equity–valuation különbség 3 pont, négy összetevő 3 pont, két csoport 2 pont, példa/kapcsolódás 2 pont.",
+  "source": "Jegyzet 4.3",
+  "official": false,
+  "difficulty": 3
+ }
+]

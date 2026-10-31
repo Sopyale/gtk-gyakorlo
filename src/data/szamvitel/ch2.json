@@ -1,0 +1,1960 @@
+[
+ {
+  "id": "szv-2-001",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "igaz-hamis",
+  "question": "Az általános forgalmi adó az értékesítőt terheli, aki az adót átterheli a vevőre.",
+  "answer": true,
+  "explanation": "A vevőtől az ÁFÁ-val növelt (bruttó) összeget követeljük.",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "szv-2-002",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "igaz-hamis",
+  "question": "Az ÁFA az eladónál bevételnek számít, ezért az Értékesítés nettó árbevétele számlán szerepel.",
+  "answer": false,
+  "explanation": "Az ÁFA soha nem bevétel: a Fizetendő ÁFA számlán szerepel (K), az árbevétel a nettó összeg.",
+  "source": "Jegyzet 2.4 Értelmezés",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-003",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "igaz-hamis",
+  "question": "Az Előzetes ÁFA számla beszerzéskor a Tartozik oldalon növekszik.",
+  "answer": true,
+  "explanation": "Az Előzetes ÁFA az államtól visszaigényelhető összeg, az eszközhöz hasonlóan viselkedik.",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-004",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "igaz-hamis",
+  "question": "Ha egy időszakban a Fizetendő ÁFA kisebb, mint az Előzetes ÁFA, a különbözet a mérlegben a követelések között jelenik meg.",
+  "answer": true,
+  "explanation": "Adótúlfizetés keletkezett: követelés az állammal szemben.",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-2-005",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "igaz-hamis",
+  "question": "A beszerzett áru bekerülési értékébe a levonható ÁFA is beletartozik.",
+  "answer": false,
+  "explanation": "A levonható ÁFA külön, Előzetes ÁFA számlára kerül; a készlet nettó értéken szerepel.",
+  "source": "Jegyzet 2.4 · 5.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-2-006",
+  "chapter": 2,
+  "section": "2.5",
+  "type": "igaz-hamis",
+  "question": "A hozzáadott érték adójánál minden szereplő a saját beszerzési és eladási ára közötti különbség (többletérték) utáni adót fizeti be az államnak.",
+  "answer": true,
+  "explanation": "Fizetendő ÁFA − Előzetes ÁFA = többletérték × 25%.",
+  "source": "Jegyzet 2.5",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-007",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "igaz-hamis",
+  "question": "Vevői árengedménynél (helyesbítő számla) az eladó Fizetendő ÁFA számlán a Követel oldalon rögzíti az engedmény ÁFA-ját.",
+  "answer": false,
+  "explanation": "Az engedmény csökkenti a tartozást: a Fizetendő ÁFA T oldalra kerül.",
+  "source": "Jegyzet 2.3 ábra · 2.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-2-008",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "igaz-hamis",
+  "question": "A nettó 4 800 eFt értékű számla ÁFA-ja 960 eFt.",
+  "answer": false,
+  "explanation": "Az ÁFA a nettó negyede: 4 800 × 0,25 = 1 200 (a 960 a 4 800 × 0,2 hibás használata).",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-009",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "feleletvalasztos",
+  "question": "Egy vállalkozás 20x2. március 5-én anyagot vásárol 1 600 eFt + 25% ÁFA értékben, fizetési határidő március 19. Melyik ÁFA-számlán, melyik oldalon könyvel március 5-én?",
+  "options": [
+   "Előzetes ÁFA (T)",
+   "Előzetes ÁFA (K)",
+   "Fizetendő ÁFA (T)",
+   "Fizetendő ÁFA (K)"
+  ],
+  "answer": "Előzetes ÁFA (T)",
+  "explanation": "Beszerzéskor az ÁFA visszaigényelhető: Előzetes ÁFA, és az eszközhöz hasonlóan T oldalon nő.",
+  "source": "Jegyzet 2.3 · 2.4 · 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-010",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "feleletvalasztos",
+  "question": "Egy cég június 12-én 4 000 eFt + 25% ÁFA értékben értékesít árut. Melyik ÁFA-számlán, melyik oldalon könyvel?",
+  "options": [
+   "Fizetendő ÁFA (K)",
+   "Előzetes ÁFA (T)",
+   "Előzetes ÁFA (K)",
+   "Fizetendő ÁFA (T)"
+  ],
+  "answer": "Fizetendő ÁFA (K)",
+  "explanation": "Értékesítéskor a megfizetendő adó tartozás az állam felé: K oldalon nő.",
+  "source": "Jegyzet 2.3 · 2.4 · 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-011",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "feleletvalasztos",
+  "question": "A vállalkozás szeptember 30-án 1 250 eFt ÁFA-tartozást utal át az adóhatóságnak. Melyik ÁFA-számlán, melyik oldalon könyvel?",
+  "options": [
+   "ÁFA pénzügyi elszámolási számla (T)",
+   "Előzetes ÁFA (T)",
+   "Előzetes ÁFA (K)",
+   "Fizetendő ÁFA (T)"
+  ],
+  "answer": "ÁFA pénzügyi elszámolási számla (T)",
+  "explanation": "Az adóhivatallal szembeni pénzmozgás számlája a pénzügyi elszámolási számla; befizetéskor T oldal.",
+  "source": "Jegyzet 2.3 · 2.4 · 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-012",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "feleletvalasztos",
+  "question": "Az adóhatóság visszautal egy korábbi ÁFA-túlfizetést, 600 eFt-ot a bankszámlánkra. Melyik ÁFA-számlán, melyik oldalon könyvelünk?",
+  "options": [
+   "ÁFA pénzügyi elszámolási számla (K)",
+   "Előzetes ÁFA (T)",
+   "Előzetes ÁFA (K)",
+   "Fizetendő ÁFA (T)"
+  ],
+  "answer": "ÁFA pénzügyi elszámolási számla (K)",
+  "explanation": "Visszatérítéskor a pénzügyi elszámolási számla K oldalon szerepel (a befizetés T, a visszatérítés K).",
+  "source": "Jegyzet 2.3 · 2.4 · 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-013",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "feleletvalasztos",
+  "question": "A vállalkozás a május 8-án vásárolt áru 20%-át hibás teljesítés miatt visszaküldte a szállítónak (a vásárlás 3 000 eFt + 25% ÁFA volt). Melyik ÁFA-számlán, melyik oldalon könyvel a visszaküldéskor?",
+  "options": [
+   "Előzetes ÁFA (K)",
+   "Előzetes ÁFA (T)",
+   "Fizetendő ÁFA (T)",
+   "Fizetendő ÁFA (K)"
+  ],
+  "answer": "Előzetes ÁFA (K)",
+  "explanation": "A visszaküldés a beszerzés fordítottja: az Előzetes ÁFA csökken, tehát K oldalon szerepel (3 000 × 20% × 25% = 150).",
+  "source": "Jegyzet 2.3 · 2.4 · 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-014",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "feleletvalasztos",
+  "question": "Egy vevő 10% árengedményt kapott egy korábbi, 2 000 eFt + 25% ÁFA értékű számlából (helyesbítő számla). Melyik ÁFA-számlán, melyik oldalon könyvel az eladó?",
+  "options": [
+   "Fizetendő ÁFA (T)",
+   "Előzetes ÁFA (T)",
+   "Előzetes ÁFA (K)",
+   "Fizetendő ÁFA (K)"
+  ],
+  "answer": "Fizetendő ÁFA (T)",
+  "explanation": "Az engedmény csökkenti az ÁFA-tartozást, ezért a Fizetendő ÁFA T oldalra kerül (2 000 × 10% × 25% = 50).",
+  "source": "Jegyzet 2.3 · 2.4 · 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-015",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "feleletvalasztos",
+  "question": "Egy vállalkozás április 2-án árut vásárol 800 eFt + 25% ÁFA értékben, a számla kiegyenlítésének határideje április 16. Melyik számlán könyveljük a bruttó összeget?",
+  "options": [
+   "Szállítók",
+   "Előzetes ÁFA",
+   "Áruk",
+   "Fizetendő ÁFA"
+  ],
+  "answer": "Szállítók",
+  "explanation": "A szállítókkal szembeni kötelezettség az ÁFÁ-val növelt (bruttó) összeg.",
+  "source": "Jegyzet 2.4 · 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-016",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "feleletvalasztos",
+  "question": "Egy cég november 9-én 2 400 eFt + 25% ÁFA értékben értékesít késztermékét, fizetési határidő november 23. Melyik számlán könyveljük a bruttó összeget?",
+  "options": [
+   "Vevők",
+   "Fizetendő ÁFA",
+   "Értékesítés nettó árbevétele",
+   "Szállítók"
+  ],
+  "answer": "Vevők",
+  "explanation": "A vevőtől az ÁFÁ-val növelt összeget követeljük: a Vevők számla T oldalon a bruttó összegre nő.",
+  "source": "Jegyzet 2.4 · 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-017",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "feleletvalasztos",
+  "question": "A vállalkozás készpénzért vásárol irodaszert 100 eFt bruttó értékben (25% ÁFA-val). Melyik számlán könyveljük a bruttó összeget?",
+  "options": [
+   "Pénztár",
+   "Szállítók",
+   "Előzetes ÁFA",
+   "Anyagköltség"
+  ],
+  "answer": "Pénztár",
+  "explanation": "Készpénzes fizetésnél nincs szállító: a Pénztár K oldalán a teljes bruttó összeg szerepel (80 nettó + 20 ÁFA).",
+  "source": "Jegyzet 2.4 · 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-018",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "feleletvalasztos",
+  "question": "Egy vállalkozás június 3-án 2 000 eFt + 25% ÁFA értékű árukészletét 5 000 eFt + 25% ÁFA-ért adja el. Melyik a hozamszámla?",
+  "options": [
+   "Értékesítés nettó árbevétele",
+   "Eladott áruk beszerzési értéke",
+   "Fizetendő ÁFA",
+   "Vevők"
+  ],
+  "answer": "Értékesítés nettó árbevétele",
+  "explanation": "A hozam a nettó eladási ár (5 000), az ÁFA nem bevétel, az ELÁBÉ ráfordítás.",
+  "source": "Jegyzet 2.4 · 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-019",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az igaz állításokat! (Minden állítás külön pontot ér.)",
+  "statements": [
+   {
+    "text": "A számla bruttó összege a nettó összeg 125%-a.",
+    "answer": true
+   },
+   {
+    "text": "Bruttó összegből az ÁFA a bruttó negyede.",
+    "answer": false
+   },
+   {
+    "text": "Az ÁFA adóhatóságnak történő befizetése az ÁFA pénzügyi elszámolási számla Tartozik oldalán szerepel.",
+    "answer": true
+   },
+   {
+    "text": "Értékesítéskor a Fizetendő ÁFA a Követel oldalon növekszik.",
+    "answer": true
+   },
+   {
+    "text": "A vevői visszáru ÁFA-ja a Fizetendő ÁFA Követel oldalára kerül.",
+    "answer": false
+   }
+  ],
+  "explanation": "A bruttó = nettó × 1,25; ÁFA = nettó × 0,25 = bruttó × 0,2; befizetéskor a pénzügyi elszámolási számla T oldalon szerepel; az értékesítéskor a Fizetendő ÁFA K oldalon nő.",
+  "source": "Jegyzet 2.3 · 2.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-020",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "relacio",
+  "question": "Relációanalízis, 1. tétel: mi a két állítás viszonya?",
+  "statements": [
+   "A beszerzés ÁFÁ-ját az Előzetes ÁFA számlán, a Tartozik oldalon könyveljük.",
+   "A vállalkozás az ÁFÁ-t levonhatja, így az az állammal szembeni követelés."
+  ],
+  "answer": "A",
+  "explanation": "Mindkét állítás igaz, és a B megindokolja az A-t: az Előzetes ÁFA követelésjellegű, ezért T oldalon nő.",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-2-021",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "relacio",
+  "question": "Relációanalízis, 2. tétel: mi a két állítás viszonya?",
+  "statements": [
+   "Az Előzetes ÁFA számla K oldalán rögzítjük a szállítótól kapott árengedmény ÁFA-ját.",
+   "Az engedmény a beszerzés fordítottja, és az Előzetes ÁFA a beszerzéskor T oldalon nő."
+  ],
+  "answer": "A",
+  "explanation": "Mindkét állítás igaz és összefügg: ami a beszerzésnél T, az az engedménynél/visszaküldésnél K oldalra kerül.",
+  "source": "Jegyzet 2.3 ábra",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-2-022",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "szamolas",
+  "points": 3,
+  "question": "Egy számla bruttó összege 3 750 eFt (25%-os ÁFA-kulcs). Mekkora a számla nettó összege, az ÁFA és a bruttó összeg?",
+  "fields": [
+   {
+    "label": "Nettó (eFt)",
+    "answer": "3000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "ÁFA (eFt)",
+    "answer": "750",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Bruttó (eFt)",
+    "answer": "3750",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Az ÁFA alapja a nettó összeg (100%), a bruttó 125%. Bruttóból az ÁFA a bruttó ötöde, nem a 25%-a.",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 2,
+  "steps": [
+   "Bruttó = 125%: nettó = bruttó / 1,25 = 3 750 / 1,25 = 3 000.",
+   "ÁFA = bruttó × 0,2 = 750 (vagy nettó × 0,25 = 750)."
+  ]
+ },
+ {
+  "id": "szv-2-023",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "szamolas",
+  "points": 3,
+  "question": "Egy számla nettó összege 2 800 eFt (25%-os ÁFA-kulcs). Mekkora a számla nettó összege, az ÁFA és a bruttó összeg?",
+  "fields": [
+   {
+    "label": "Nettó (eFt)",
+    "answer": "2800",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "ÁFA (eFt)",
+    "answer": "700",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Bruttó (eFt)",
+    "answer": "3500",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Az ÁFA alapja a nettó összeg (100%), a bruttó 125%. Bruttóból az ÁFA a bruttó ötöde, nem a 25%-a.",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 1,
+  "steps": [
+   "ÁFA = nettó × 0,25 = 2 800 × 0,25 = 700.",
+   "Bruttó = nettó × 1,25 = 3 500."
+  ]
+ },
+ {
+  "id": "szv-2-024",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "szamolas",
+  "points": 3,
+  "question": "Egy számla bruttó összege 1 875 eFt (25%-os ÁFA-kulcs). Mekkora a számla nettó összege, az ÁFA és a bruttó összeg?",
+  "fields": [
+   {
+    "label": "Nettó (eFt)",
+    "answer": "1500",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "ÁFA (eFt)",
+    "answer": "375",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Bruttó (eFt)",
+    "answer": "1875",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Az ÁFA alapja a nettó összeg (100%), a bruttó 125%. Bruttóból az ÁFA a bruttó ötöde, nem a 25%-a.",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 2,
+  "steps": [
+   "Bruttó = 125%: nettó = bruttó / 1,25 = 1 875 / 1,25 = 1 500.",
+   "ÁFA = bruttó × 0,2 = 375 (vagy nettó × 0,25 = 375)."
+  ]
+ },
+ {
+  "id": "szv-2-025",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "szamolas",
+  "points": 3,
+  "question": "Egy számla nettó összege 640 eFt (25%-os ÁFA-kulcs). Mekkora a számla nettó összege, az ÁFA és a bruttó összeg?",
+  "fields": [
+   {
+    "label": "Nettó (eFt)",
+    "answer": "640",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "ÁFA (eFt)",
+    "answer": "160",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Bruttó (eFt)",
+    "answer": "800",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Az ÁFA alapja a nettó összeg (100%), a bruttó 125%. Bruttóból az ÁFA a bruttó ötöde, nem a 25%-a.",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 1,
+  "steps": [
+   "ÁFA = nettó × 0,25 = 640 × 0,25 = 160.",
+   "Bruttó = nettó × 1,25 = 800."
+  ]
+ },
+ {
+  "id": "szv-2-026",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "szamolas",
+  "points": 3,
+  "question": "Egy számla bruttó összege 5 000 eFt (25%-os ÁFA-kulcs). Mekkora a számla nettó összege, az ÁFA és a bruttó összeg?",
+  "fields": [
+   {
+    "label": "Nettó (eFt)",
+    "answer": "4000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "ÁFA (eFt)",
+    "answer": "1000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Bruttó (eFt)",
+    "answer": "5000",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   }
+  ],
+  "explanation": "Az ÁFA alapja a nettó összeg (100%), a bruttó 125%. Bruttóból az ÁFA a bruttó ötöde, nem a 25%-a.",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 2,
+  "steps": [
+   "Bruttó = 125%: nettó = bruttó / 1,25 = 5 000 / 1,25 = 4 000.",
+   "ÁFA = bruttó × 0,2 = 1 000 (vagy nettó × 0,25 = 1 000)."
+  ]
+ },
+ {
+  "id": "szv-2-027",
+  "chapter": 2,
+  "section": "2.7",
+  "type": "szamolas",
+  "points": 10,
+  "question": "A Pagony Kft. egyik hónapjának eseményei (eFt):\n\n1. Árut vásárolt belföldi partnertől 2 000 + 25% ÁFA értékben.\n2. Az áru 15%-át minőségi hiba miatt visszaküldte a szállítónak.\n3. Késztermék értékesítése belföldi vevőnek 3 600 + 25% ÁFA értékben.\n4. Megérkezett a reklámszolgáltatás számlája 240 + 25% ÁFA összeggel.\n\nMelyik ÁFA-számla melyik oldalára kerül az egyes események ÁFA-ja, és mekkora összeggel (eFt)? Adja meg az oldalankénti összes forgalmat is, majd az időszak ÁFA-egyenlegét: pozitív, ha befizetési kötelezettség (tartozás) keletkezik, negatív, ha követelés.",
+  "fields": [
+   {
+    "label": "1. esemény: számla és oldal",
+    "answer": "Előzetes ÁFA (T)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "1. esemény: ÁFA (eFt)",
+    "answer": "500",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "2. esemény: számla és oldal",
+    "answer": "Előzetes ÁFA (K)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "2. esemény: ÁFA (eFt)",
+    "answer": "75",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "3. esemény: számla és oldal",
+    "answer": "Fizetendő ÁFA (K)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "3. esemény: ÁFA (eFt)",
+    "answer": "900",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "4. esemény: számla és oldal",
+    "answer": "Előzetes ÁFA (T)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "4. esemény: ÁFA (eFt)",
+    "answer": "60",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Előzetes ÁFA T összesen",
+    "answer": "560",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Előzetes ÁFA K összesen",
+    "answer": "75",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Fizetendő ÁFA T összesen",
+    "answer": "0",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Fizetendő ÁFA K összesen",
+    "answer": "900",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Időszaki ÁFA-egyenleg (Fizetendő − Előzetes, eFt)",
+    "answer": "415",
+    "accept": "dec",
+    "format": "szám; pozitív = befizetendő, negatív = követelés"
+   }
+  ],
+  "explanation": "Beszerzéskor Előzetes ÁFA T, értékesítéskor Fizetendő ÁFA K; visszaküldés és engedmény fordított oldal. Az ÁFA mindig a nettó összeg negyede.",
+  "source": "Jegyzet 2.7",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Árut vásárolt belföldi partnertől 2 000 + 25% ÁFA értékben. → Előzetes ÁFA (T): 2 000 × 0,25 = 500.",
+   "Az áru 15%-át minőségi hiba miatt visszaküldte a szállítónak. → Előzetes ÁFA (K): 2 000 × 15% × 0,25 = 75.",
+   "Késztermék értékesítése belföldi vevőnek 3 600 + 25% ÁFA értékben. → Fizetendő ÁFA (K): 3 600 × 0,25 = 900.",
+   "Megérkezett a reklámszolgáltatás számlája 240 + 25% ÁFA összeggel. → Előzetes ÁFA (T): 240 × 0,25 = 60.",
+   "→ Összesen: Előzetes T 560, K 75; Fizetendő T 0, K 900.",
+   "→ Egyenleg = Fizetendő nettó 900 − Előzetes nettó 485 = 415."
+  ]
+ },
+ {
+  "id": "szv-2-028",
+  "chapter": 2,
+  "section": "2.7",
+  "type": "szamolas",
+  "points": 10,
+  "question": "A Szilvia Bt. egyik negyedéves eseményei (eFt):\n\n1. Anyagot vásárolt 1 600 + 25% ÁFA értékben.\n2. Árut értékesített vevőnek 2 400 + 25% ÁFA értékben.\n3. A vevő a szállított áru 25%-át visszaküldte.\n4. Megérkezett a szállítmányozó számlája 400 + 25% ÁFA összeggel.\n\nMelyik ÁFA-számla melyik oldalára kerül az egyes események ÁFA-ja, és mekkora összeggel (eFt)? Adja meg az oldalankénti összes forgalmat is, majd az időszak ÁFA-egyenlegét: pozitív, ha befizetési kötelezettség (tartozás) keletkezik, negatív, ha követelés.",
+  "fields": [
+   {
+    "label": "1. esemény: számla és oldal",
+    "answer": "Előzetes ÁFA (T)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "1. esemény: ÁFA (eFt)",
+    "answer": "400",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "2. esemény: számla és oldal",
+    "answer": "Fizetendő ÁFA (K)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "2. esemény: ÁFA (eFt)",
+    "answer": "600",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "3. esemény: számla és oldal",
+    "answer": "Fizetendő ÁFA (T)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "3. esemény: ÁFA (eFt)",
+    "answer": "150",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "4. esemény: számla és oldal",
+    "answer": "Előzetes ÁFA (T)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "4. esemény: ÁFA (eFt)",
+    "answer": "100",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Előzetes ÁFA T összesen",
+    "answer": "500",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Előzetes ÁFA K összesen",
+    "answer": "0",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Fizetendő ÁFA T összesen",
+    "answer": "150",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Fizetendő ÁFA K összesen",
+    "answer": "600",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Időszaki ÁFA-egyenleg (Fizetendő − Előzetes, eFt)",
+    "answer": "-50",
+    "accept": "dec",
+    "format": "szám; pozitív = befizetendő, negatív = követelés"
+   }
+  ],
+  "explanation": "Beszerzéskor Előzetes ÁFA T, értékesítéskor Fizetendő ÁFA K; visszaküldés és engedmény fordított oldal. Az ÁFA mindig a nettó összeg negyede.",
+  "source": "Jegyzet 2.7",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Anyagot vásárolt 1 600 + 25% ÁFA értékben. → Előzetes ÁFA (T): 1 600 × 0,25 = 400.",
+   "Árut értékesített vevőnek 2 400 + 25% ÁFA értékben. → Fizetendő ÁFA (K): 2 400 × 0,25 = 600.",
+   "A vevő a szállított áru 25%-át visszaküldte. → Fizetendő ÁFA (T): 2 400 × 25% × 0,25 = 150.",
+   "Megérkezett a szállítmányozó számlája 400 + 25% ÁFA összeggel. → Előzetes ÁFA (T): 400 × 0,25 = 100.",
+   "→ Összesen: Előzetes T 500, K 0; Fizetendő T 150, K 600.",
+   "→ Egyenleg = Fizetendő nettó 450 − Előzetes nettó 500 = -50."
+  ]
+ },
+ {
+  "id": "szv-2-029",
+  "chapter": 2,
+  "section": "2.7",
+  "type": "szamolas",
+  "points": 10,
+  "question": "A Lombik Zrt. havi eseményei (eFt):\n\n1. Szolgáltatást számlázott ki belföldi megrendelőnek 5 200 + 25% ÁFA értékben.\n2. Alapanyagot vásárolt 3 200 + 25% ÁFA értékben.\n3. A beszállító helyesbítő számlában 10% engedményt adott az alapanyag árából.\n4. Beérkezett a jogi szolgáltatás számlája 480 + 25% ÁFA összeggel.\n\nMelyik ÁFA-számla melyik oldalára kerül az egyes események ÁFA-ja, és mekkora összeggel (eFt)? Adja meg az oldalankénti összes forgalmat is, majd az időszak ÁFA-egyenlegét: pozitív, ha befizetési kötelezettség (tartozás) keletkezik, negatív, ha követelés.",
+  "fields": [
+   {
+    "label": "1. esemény: számla és oldal",
+    "answer": "Fizetendő ÁFA (K)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "1. esemény: ÁFA (eFt)",
+    "answer": "1300",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "2. esemény: számla és oldal",
+    "answer": "Előzetes ÁFA (T)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "2. esemény: ÁFA (eFt)",
+    "answer": "800",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "3. esemény: számla és oldal",
+    "answer": "Előzetes ÁFA (K)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "3. esemény: ÁFA (eFt)",
+    "answer": "80",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "4. esemény: számla és oldal",
+    "answer": "Előzetes ÁFA (T)",
+    "accept": "text",
+    "format": "pl. Előzetes ÁFA (T)"
+   },
+   {
+    "label": "4. esemény: ÁFA (eFt)",
+    "answer": "120",
+    "accept": "dec",
+    "format": "egész vagy tizedes"
+   },
+   {
+    "label": "Előzetes ÁFA T összesen",
+    "answer": "920",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Előzetes ÁFA K összesen",
+    "answer": "80",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Fizetendő ÁFA T összesen",
+    "answer": "0",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Fizetendő ÁFA K összesen",
+    "answer": "1300",
+    "accept": "dec",
+    "format": "szám, üres = 0"
+   },
+   {
+    "label": "Időszaki ÁFA-egyenleg (Fizetendő − Előzetes, eFt)",
+    "answer": "460",
+    "accept": "dec",
+    "format": "szám; pozitív = befizetendő, negatív = követelés"
+   }
+  ],
+  "explanation": "Beszerzéskor Előzetes ÁFA T, értékesítéskor Fizetendő ÁFA K; visszaküldés és engedmény fordított oldal. Az ÁFA mindig a nettó összeg negyede.",
+  "source": "Jegyzet 2.7",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Szolgáltatást számlázott ki belföldi megrendelőnek 5 200 + 25% ÁFA értékben. → Fizetendő ÁFA (K): 5 200 × 0,25 = 1 300.",
+   "Alapanyagot vásárolt 3 200 + 25% ÁFA értékben. → Előzetes ÁFA (T): 3 200 × 0,25 = 800.",
+   "A beszállító helyesbítő számlában 10% engedményt adott az alapanyag árából. → Előzetes ÁFA (K): 3 200 × 10% × 0,25 = 80.",
+   "Beérkezett a jogi szolgáltatás számlája 480 + 25% ÁFA összeggel. → Előzetes ÁFA (T): 480 × 0,25 = 120.",
+   "→ Összesen: Előzetes T 920, K 80; Fizetendő T 0, K 1 300.",
+   "→ Egyenleg = Fizetendő nettó 1 300 − Előzetes nettó 840 = 460."
+  ]
+ },
+ {
+  "id": "szv-2-030",
+  "chapter": 2,
+  "section": "2.5",
+  "type": "szamolas",
+  "points": 8,
+  "question": "Egy termékláncban három vállalkozás szerepel (nettó eladási árak, eFt): Kertész (nincs beszerzése) → Savanyító: 80; Savanyító → Nagykereskedő: 140; Nagykereskedő → végső fogyasztó: 260. Mindenki 25%-os ÁFA-val számláz. Mekkora az egyes vállalkozások adóhivatalnak befizetendő ÁFA-ja (Fizetendő ÁFA − Előzetes ÁFA), mennyi ÁFA-t fizet be összesen a három vállalkozás, és mekkora a végső fogyasztónak kiszámlázott ÁFA?",
+  "fields": [
+   {
+    "label": "Kertész befizetendő ÁFA (eFt)",
+    "answer": "20",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Savanyító befizetendő ÁFA (eFt)",
+    "answer": "15",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Nagykereskedő befizetendő ÁFA (eFt)",
+    "answer": "30",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A három vállalkozás összes befizetése (eFt)",
+    "answer": "65",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A végső fogyasztónak kiszámlázott ÁFA (eFt)",
+    "answer": "65",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Mindenki csak a saját többletértéke (eladási ár − beszerzési ár) utáni adót fizeti be; a befizetések összege a végső fogyasztó ÁFA-ja.",
+  "source": "Jegyzet 2.5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "→ Kertész: Fizetendő 80 × 0,25 = 20; Előzetes 0 × 0,25 = 0; befizetendő 20 − 0 = 20 (= többletérték 80 × 0,25).",
+   "→ Savanyító: Fizetendő 140 × 0,25 = 35; Előzetes 80 × 0,25 = 20; befizetendő 35 − 20 = 15 (= többletérték 60 × 0,25).",
+   "→ Nagykereskedő: Fizetendő 260 × 0,25 = 65; Előzetes 140 × 0,25 = 35; befizetendő 65 − 35 = 30 (= többletérték 120 × 0,25).",
+   "→ Összesen 65 = a végső fogyasztónak kiszámlázott 260 × 0,25 = 65: az adót végül a végső fogyasztó viseli."
+  ]
+ },
+ {
+  "id": "szv-2-031",
+  "chapter": 2,
+  "section": "2.5",
+  "type": "szamolas",
+  "points": 8,
+  "question": "Egy termékláncban három vállalkozás szerepel (nettó eladási árak, eFt): Fűrészüzem (nincs beszerzése) → Asztalos: 200; Asztalos → Bútorbolt: 360; Bútorbolt → végső fogyasztó: 500. Mindenki 25%-os ÁFA-val számláz. Mekkora az egyes vállalkozások adóhivatalnak befizetendő ÁFA-ja (Fizetendő ÁFA − Előzetes ÁFA), mennyi ÁFA-t fizet be összesen a három vállalkozás, és mekkora a végső fogyasztónak kiszámlázott ÁFA?",
+  "fields": [
+   {
+    "label": "Fűrészüzem befizetendő ÁFA (eFt)",
+    "answer": "50",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Asztalos befizetendő ÁFA (eFt)",
+    "answer": "40",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Bútorbolt befizetendő ÁFA (eFt)",
+    "answer": "35",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A három vállalkozás összes befizetése (eFt)",
+    "answer": "125",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A végső fogyasztónak kiszámlázott ÁFA (eFt)",
+    "answer": "125",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Mindenki csak a saját többletértéke (eladási ár − beszerzési ár) utáni adót fizeti be; a befizetések összege a végső fogyasztó ÁFA-ja.",
+  "source": "Jegyzet 2.5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "→ Fűrészüzem: Fizetendő 200 × 0,25 = 50; Előzetes 0 × 0,25 = 0; befizetendő 50 − 0 = 50 (= többletérték 200 × 0,25).",
+   "→ Asztalos: Fizetendő 360 × 0,25 = 90; Előzetes 200 × 0,25 = 50; befizetendő 90 − 50 = 40 (= többletérték 160 × 0,25).",
+   "→ Bútorbolt: Fizetendő 500 × 0,25 = 125; Előzetes 360 × 0,25 = 90; befizetendő 125 − 90 = 35 (= többletérték 140 × 0,25).",
+   "→ Összesen 125 = a végső fogyasztónak kiszámlázott 500 × 0,25 = 125: az adót végül a végső fogyasztó viseli."
+  ]
+ },
+ {
+  "id": "szv-2-032",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "szamolas",
+  "points": 2,
+  "question": "Egy vállalkozás előző év végi ÁFA-tartozása 400 eFt, amelyet januárban kiegyenlít; az év során a Fizetendő ÁFA K oldali forgalma 1 200 eFt, az Előzetes ÁFA T oldali forgalma 1 750 eFt, év közben 300 eFt ÁFA-t fizetett be az adóhatóságnak. Mekkora a záró ÁFA számla értéke (pozitív, ha kötelezettség, negatív, ha követelés), és a mérlegben hol szerepel?",
+  "fields": [
+   {
+    "label": "Záró ÁFA (eFt, + kötelezettség / − követelés)",
+    "answer": "-850",
+    "accept": "dec",
+    "format": "egész vagy tizedes, előjellel"
+   },
+   {
+    "label": "Hol szerepel a mérlegben?",
+    "answer": "Követelések",
+    "accept": "text",
+    "format": "Rövid lejáratú kötelezettségek / Követelések"
+   }
+  ],
+  "explanation": "Az ÁFA-számlák összevezetése: ami a Fizetendő ÁFA-ból az Előzetes ÁFA-val és a már befizetett összeggel nem rendeződött, az a záró ÁFA számlán marad.",
+  "source": "Jegyzet 2.3 · 2.6",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Az előző évi tartozás rendezése (T ÁFA nyitó – K Elszámolási betét 400) külön tétel, a záró ÁFA-t nem érinti.",
+   "Fizetendő − Előzetes − év közbeni befizetés = 1 200 − 1 750 − 300 = -850.",
+   "Negatív érték → ÁFA-követelés; a mérlegben: Követelések."
+  ]
+ },
+ {
+  "id": "szv-2-033",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "szamolas",
+  "points": 2,
+  "question": "Egy vállalkozás az év során a Fizetendő ÁFA K oldali forgalma 2 600 eFt, az Előzetes ÁFA T oldali forgalma 900 eFt, év közben 1 200 eFt ÁFA-t fizetett be az adóhatóságnak. Mekkora a záró ÁFA számla értéke (pozitív, ha kötelezettség, negatív, ha követelés), és a mérlegben hol szerepel?",
+  "fields": [
+   {
+    "label": "Záró ÁFA (eFt, + kötelezettség / − követelés)",
+    "answer": "500",
+    "accept": "dec",
+    "format": "egész vagy tizedes, előjellel"
+   },
+   {
+    "label": "Hol szerepel a mérlegben?",
+    "answer": "Rövid lejáratú kötelezettségek",
+    "accept": "text",
+    "format": "Rövid lejáratú kötelezettségek / Követelések"
+   }
+  ],
+  "explanation": "Az ÁFA-számlák összevezetése: ami a Fizetendő ÁFA-ból az Előzetes ÁFA-val és a már befizetett összeggel nem rendeződött, az a záró ÁFA számlán marad.",
+  "source": "Jegyzet 2.3 · 2.6",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Fizetendő − Előzetes − év közbeni befizetés = 2 600 − 900 − 1 200 = 500.",
+   "Pozitív érték → ÁFA-kötelezettség; a mérlegben: Rövid lejáratú kötelezettségek."
+  ]
+ },
+ {
+  "id": "szv-2-034",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "szamolas",
+  "points": 2,
+  "question": "Egy vállalkozás előző év végi ÁFA-tartozása 250 eFt, amelyet januárban kiegyenlít; az év során a Fizetendő ÁFA K oldali forgalma 3 100 eFt, az Előzetes ÁFA T oldali forgalma 3 350 eFt, év közben 0 eFt ÁFA-t fizetett be az adóhatóságnak. Mekkora a záró ÁFA számla értéke (pozitív, ha kötelezettség, negatív, ha követelés), és a mérlegben hol szerepel?",
+  "fields": [
+   {
+    "label": "Záró ÁFA (eFt, + kötelezettség / − követelés)",
+    "answer": "-250",
+    "accept": "dec",
+    "format": "egész vagy tizedes, előjellel"
+   },
+   {
+    "label": "Hol szerepel a mérlegben?",
+    "answer": "Követelések",
+    "accept": "text",
+    "format": "Rövid lejáratú kötelezettségek / Követelések"
+   }
+  ],
+  "explanation": "Az ÁFA-számlák összevezetése: ami a Fizetendő ÁFA-ból az Előzetes ÁFA-val és a már befizetett összeggel nem rendeződött, az a záró ÁFA számlán marad.",
+  "source": "Jegyzet 2.3 · 2.6",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Az előző évi tartozás rendezése (T ÁFA nyitó – K Elszámolási betét 250) külön tétel, a záró ÁFA-t nem érinti.",
+   "Fizetendő − Előzetes − év közbeni befizetés = 3 100 − 3 350 − 0 = -250.",
+   "Negatív érték → ÁFA-követelés; a mérlegben: Követelések."
+  ]
+ },
+ {
+  "id": "szv-2-035",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "szamolas",
+  "points": 15,
+  "question": "A Boróka Kft. eseményeit négyszámlasoros módszerrel, ÁFÁ-val könyveljük (eFt, 25% ÁFA).\n\nTartozik (T) oldali nyitó egyenlegek: 2. Áruk 1 200; 3. Vevők 700; 3. Elszámolási betét 1 500. Követel (K) oldali nyitó egyenlegek: 4. Jegyzett tőke 2 500; 4. Szállítók 900.\n\nEsemények:\n1. Árubeszerzés szállítótól 2 000 + 25% ÁFA értékben.\n2. A beszerzett áru 10%-át visszaküldtük a szállítónak (helyesbítő számla).\n3. Áruértékesítés vevőnek 3 200 + 25% ÁFA értékben; az eladott áru bekerülési értéke 1 400 eFt.\n4. A tárgyhavi ÁFA-tartozás egy részének befizetése a bankszámláról: 300 eFt.\n\nTöltse ki a rácsot: tételenként adja meg a Tartozik (T) és a Követel (K) számlát és az összeget (eFt vagy a feladat egysége); egy eseményhez több tétel is tartozhat.",
+  "fields": [
+   {
+    "label": "1. esemény, 1. tétel: T számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: összeg",
+    "answer": "2000",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "2 000",
+     "500"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: összeg",
+    "answer": "500",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "2000",
+     "2 000"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "50"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "50",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "200"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: T számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Vevők",
+     "Vevők"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: K számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: összeg",
+    "answer": "1400",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1 400",
+     "3200",
+     "3 200",
+     "800"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: T számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: K számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Áruk",
+     "Áruk",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: összeg",
+    "answer": "3200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "3 200",
+     "1400",
+     "1 400",
+     "800"
+    ]
+   },
+   {
+    "label": "3. esemény, 3. tétel: T számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "3. esemény, 3. tétel: K számla",
+    "answer": "4. Fizetendő ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Fizetendő ÁFA",
+     "2. Áruk",
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "3. esemény, 3. tétel: összeg",
+    "answer": "800",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1400",
+     "1 400",
+     "3200",
+     "3 200"
+    ]
+   },
+   {
+    "label": "4. esemény: T számla",
+    "answer": "4. ÁFA pénzügyi elszámolási számla",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ÁFA pénzügyi elszámolási számla",
+     "ÁFA pénzügyi elsz. szla",
+     "4. ÁFA pénzügyi elsz. szla"
+    ]
+   },
+   {
+    "label": "4. esemény: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "4. esemény: összeg",
+    "answer": "300",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "Az időszak eredménye (eFt)",
+    "answer": "1800",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Az Előzetes ÁFA egyenlege (eFt)",
+    "answer": "450",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A Szállítók záró egyenlege (K, eFt)",
+    "answer": "3150",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A Vevők záró egyenlege (T, eFt)",
+    "answer": "4700",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Az ÁFA külön tételbe kerül: készlet és bevétel nettó, szállító és vevő bruttó összeggel változik. Visszaküldésnél minden tétel fordítva.",
+  "source": "Jegyzet 2.4 · 2.6 · Pt4/4 szerkezete",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "esemény: nettó 2 000 → T 2. Áruk; ÁFA = 2 000 × 0,25 = 500 → T Előzetes ÁFA; Szállítók K bruttó 2 500. Tétel(ek): T 2. Áruk – K 4. Szállítók: 2 000; T 4. Előzetes ÁFA – K 4. Szállítók: 500.",
+   "esemény: a visszaküldött rész: 2 000 × 10% = 200 (K Áruk); ÁFA 200 × 0,25 = 50 (K Előzetes ÁFA); mindkét tétel fordított irányú. Tétel(ek): T 4. Szállítók – K 2. Áruk: 200; T 4. Szállítók – K 4. Előzetes ÁFA: 50.",
+   "esemény: készletkivezetés 1 400: T ELÁBÉ – K Áruk; nettó árbevétel 3 200; ÁFA = 3 200 × 0,25 = 800 → K Fizetendő ÁFA; vevő T bruttó 4 000. Tétel(ek): T 8. ELÁBÉ – K 2. Áruk: 1 400; T 3. Vevők – K 9. Értékesítés nettó árbevétele: 3 200; T 3. Vevők – K 4. Fizetendő ÁFA: 800.",
+   "esemény: befizetés: T ÁFA pénzügyi elszámolási számla – K Elszámolási betét. Tétel(ek): T 4. ÁFA pénzügyi elszámolási számla – K 3. Elszámolási betét: 300."
+  ]
+ },
+ {
+  "id": "szv-2-036",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "szamolas",
+  "points": 15,
+  "question": "A Kalászos Kft. eseményeit négyszámlasoros módszerrel, ÁFÁ-val könyveljük (eFt, 25% ÁFA).\n\nTartozik (T) oldali nyitó egyenlegek: 2. Áruk 2 000; 3. Vevők 400; 3. Pénztár 200; 3. Elszámolási betét 1 000. Követel (K) oldali nyitó egyenlegek: 4. Jegyzett tőke 3 000; 4. Szállítók 600.\n\nEsemények:\n1. Áru eladása vevőnek 2 800 + 25% ÁFA értékben (bekerülési érték 1 600 eFt).\n2. A vevő a szállított áru negyedét visszaküldte.\n3. Árubeszerzés szállítótól 1 200 + 25% ÁFA értékben.\n4. A vevő a számla nettó értékére 5% utólagos engedményt kapott (helyesbítő számla).\n\nTöltse ki a rácsot: tételenként adja meg a Tartozik (T) és a Követel (K) számlát és az összeget (eFt vagy a feladat egysége); egy eseményhez több tétel is tartozhat.",
+  "fields": [
+   {
+    "label": "1. esemény, 1. tétel: T számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Vevők",
+     "Vevők"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: K számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: összeg",
+    "answer": "1600",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1 600",
+     "2800",
+     "2 800",
+     "700"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: T számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: K számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Áruk",
+     "Áruk",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: összeg",
+    "answer": "2800",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "2 800",
+     "1600",
+     "1 600",
+     "700"
+    ]
+   },
+   {
+    "label": "1. esemény, 3. tétel: T számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "1. esemény, 3. tétel: K számla",
+    "answer": "4. Fizetendő ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Fizetendő ÁFA",
+     "2. Áruk",
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "1. esemény, 3. tétel: összeg",
+    "answer": "700",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1600",
+     "1 600",
+     "2800",
+     "2 800"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "700",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "175",
+     "400"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "4. Fizetendő ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Fizetendő ÁFA",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "175",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "700",
+     "400"
+    ]
+   },
+   {
+    "label": "2. esemény, 3. tétel: T számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 3. tétel: K számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Vevők",
+     "Vevők"
+    ]
+   },
+   {
+    "label": "2. esemény, 3. tétel: összeg",
+    "answer": "400",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "700",
+     "175"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: T számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: összeg",
+    "answer": "1200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1 200",
+     "300"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: összeg",
+    "answer": "300",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1200",
+     "1 200"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: T számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "4. Fizetendő ÁFA",
+     "Fizetendő ÁFA"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: K számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: összeg",
+    "answer": "140",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "35"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: T számla",
+    "answer": "4. Fizetendő ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Fizetendő ÁFA",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: K számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: összeg",
+    "answer": "35",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "140"
+    ]
+   },
+   {
+    "label": "Az időszak eredménye (eFt)",
+    "answer": "760",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A Fizetendő ÁFA záró egyenlege (K, eFt)",
+    "answer": "490",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A Vevők záró egyenlege (T, eFt)",
+    "answer": "2850",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Az Áruk záró egyenlege (eFt)",
+    "answer": "2000",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Az ÁFA külön tételbe kerül: készlet és bevétel nettó, szállító és vevő bruttó összeggel változik. Visszaküldésnél minden tétel fordítva.",
+  "source": "Jegyzet 2.4 · 2.6 · Pt4/4 szerkezete",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "esemény: készletkivezetés 1 600: T ELÁBÉ – K Áruk; nettó árbevétel 2 800; ÁFA = 2 800 × 0,25 = 700 → K Fizetendő ÁFA; vevő T bruttó 3 500. Tétel(ek): T 8. ELÁBÉ – K 2. Áruk: 1 600; T 3. Vevők – K 9. Értékesítés nettó árbevétele: 2 800; T 3. Vevők – K 4. Fizetendő ÁFA: 700.",
+   "esemény: visszáru 25%: árbevétel 2 800 × 25% = 700 (T ÁNÁ), ÁFA 175 (T Fizetendő ÁFA), bekerülési érték 1 600 × 25% = 400 visszakerül: T Áruk – K ELÁBÉ. Tétel(ek): T 9. Értékesítés nettó árbevétele – K 3. Vevők: 700; T 4. Fizetendő ÁFA – K 3. Vevők: 175; T 2. Áruk – K 8. ELÁBÉ: 400.",
+   "esemény: nettó 1 200 → T 2. Áruk; ÁFA = 1 200 × 0,25 = 300 → T Előzetes ÁFA; Szállítók K bruttó 1 500. Tétel(ek): T 2. Áruk – K 4. Szállítók: 1 200; T 4. Előzetes ÁFA – K 4. Szállítók: 300.",
+   "esemény: engedmény 2 800 × 5% = 140 (T ÁNÁ), ÁFA 35 (T Fizetendő ÁFA), vevő K bruttó 175. Tétel(ek): T 9. Értékesítés nettó árbevétele – K 3. Vevők: 140; T 4. Fizetendő ÁFA – K 3. Vevők: 35."
+  ]
+ },
+ {
+  "id": "szv-2-037",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "szamolas",
+  "points": 15,
+  "question": "A Tavirózsa Bt. eseményeit négyszámlasoros módszerrel, ÁFÁ-val könyveljük (eFt, 25% ÁFA).\n\nTartozik (T) oldali nyitó egyenlegek: 3. Pénztár 500; 2. Anyagok 900; 3. Elszámolási betét 1 800. Követel (K) oldali nyitó egyenlegek: 4. Jegyzett tőke 2 600; 4. Szállítók 600.\n\nEsemények:\n1. Anyagbeszerzés szállítótól 800 + 25% ÁFA értékben.\n2. Készpénzes irodaszer-vásárlás: a kifizetett bruttó összeg 150 eFt.\n3. A szállított anyag negyedét hibás teljesítés miatt visszaküldtük.\n4. A szállítói tartozás egy részének kiegyenlítése a bankszámláról: 700 eFt.\n\nTöltse ki a rácsot: tételenként adja meg a Tartozik (T) és a Követel (K) számlát és az összeget (eFt vagy a feladat egysége); egy eseményhez több tétel is tartozhat.",
+  "fields": [
+   {
+    "label": "1. esemény, 1. tétel: T számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: összeg",
+    "answer": "800",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "200"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: összeg",
+    "answer": "200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "800"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "5. Anyagköltség",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagköltség",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "120",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "30"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "5. Anyagköltség",
+     "Anyagköltség"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "30",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "120"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: T számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: K számla",
+    "answer": "2. Anyagok",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Anyagok",
+     "4. Előzetes ÁFA",
+     "Előzetes ÁFA"
+    ]
+   },
+   {
+    "label": "3. esemény, 1. tétel: összeg",
+    "answer": "200",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "50"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: T számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: K számla",
+    "answer": "4. Előzetes ÁFA",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Előzetes ÁFA",
+     "2. Anyagok",
+     "Anyagok"
+    ]
+   },
+   {
+    "label": "3. esemény, 2. tétel: összeg",
+    "answer": "50",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "200"
+    ]
+   },
+   {
+    "label": "4. esemény: T számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "4. esemény: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "4. esemény: összeg",
+    "answer": "700",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "Az időszak eredménye (eFt)",
+    "answer": "-120",
+    "accept": "int",
+    "format": "egész szám, veszteség negatív"
+   },
+   {
+    "label": "Az Előzetes ÁFA egyenlege (T, eFt)",
+    "answer": "180",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A Szállítók záró egyenlege (K, eFt)",
+    "answer": "650",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A Pénztár záró egyenlege (eFt)",
+    "answer": "350",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Az ÁFA külön tételbe kerül: készlet és bevétel nettó, szállító és vevő bruttó összeggel változik. Visszaküldésnél minden tétel fordítva.",
+  "source": "Jegyzet 2.4 · 2.6 · Pt4/4 szerkezete",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "esemény: nettó 800 → T 2. Anyagok; ÁFA = 800 × 0,25 = 200 → T Előzetes ÁFA; Szállítók K bruttó 1 000. Tétel(ek): T 2. Anyagok – K 4. Szállítók: 800; T 4. Előzetes ÁFA – K 4. Szállítók: 200.",
+   "esemény: bruttó 150 → nettó 150 / 1,25 = 120 (T Anyagköltség); ÁFA 150 × 0,2 = 30 (T Előzetes ÁFA); K Pénztár 150. Tétel(ek): T 5. Anyagköltség – K 3. Pénztár: 120; T 4. Előzetes ÁFA – K 3. Pénztár: 30.",
+   "esemény: a visszaküldött rész: 800 × 25% = 200 (K Anyagok); ÁFA 200 × 0,25 = 50 (K Előzetes ÁFA); mindkét tétel fordított irányú. Tétel(ek): T 4. Szállítók – K 2. Anyagok: 200; T 4. Szállítók – K 4. Előzetes ÁFA: 50.",
+   "esemény: a tartozás és a pénz csökken; eredményhatás nincs. Tétel(ek): T 4. Szállítók – K 3. Elszámolási betét: 700."
+  ]
+ }
+]

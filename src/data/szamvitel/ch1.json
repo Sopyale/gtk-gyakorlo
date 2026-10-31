@@ -1,0 +1,1384 @@
+[
+ {
+  "id": "szv-1-001",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "igaz-hamis",
+  "question": "Az 5. számlaosztály költségszámlái a Tartozik oldalon növekednek.",
+  "answer": true,
+  "explanation": "A költség- és ráfordításszámla úgy viselkedik, mint az eszköz: T-n nő, K-n csökken.",
+  "source": "Jegyzet 1.2",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "szv-1-002",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "igaz-hamis",
+  "question": "A bevételszámla csökkenése a Követel oldalon jelenik meg.",
+  "answer": false,
+  "explanation": "A bevételszámla K oldalon nő, T oldalon csökken (úgy viselkedik, mint a forrás).",
+  "source": "Jegyzet 1.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-003",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "igaz-hamis",
+  "question": "Ha egy vevő megrendeli az árut, de még nem szállítottuk le, a Vevők és az Értékesítés nettó árbevétele számlán kell könyvelnünk.",
+  "answer": false,
+  "explanation": "A megrendelés nem gazdasági esemény: a vagyon nem változik, nincs tétel.",
+  "source": "Jegyzet 1.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-004",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "igaz-hamis",
+  "question": "A hitel tőketörlesztő részlete csökkenti az eredményt, a kamata nem.",
+  "answer": false,
+  "explanation": "Fordítva: a törlesztés (tőke) nem eredményhatású, csak a kamat ráfordítás.",
+  "source": "Jegyzet 1.7 Értelmezés",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-005",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "igaz-hamis",
+  "question": "Negatív eredménytartalék esetén az eredménytartalék a nyitáskor az eszközökkel együtt a Tartozik oldalon nyit.",
+  "answer": true,
+  "explanation": "A negatív eredménytartalék a saját tőkét csökkenti, ezért T oldalon nyit; így lesz a nyitó forgalom T és K oldala egyenlő.",
+  "source": "Jegyzet 1.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-1-006",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "igaz-hamis",
+  "question": "Áruértékesítésnél az eladott áru bekerülési értékét T 8. ELÁBÉ – K 2. Áruk tétellel vezetjük ki.",
+  "answer": true,
+  "explanation": "Az értékesítés két tétel: az eladási ár (bevétel) és a bekerülési érték kivezetése (ráfordítás).",
+  "source": "Jegyzet 1.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-007",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "igaz-hamis",
+  "question": "A beruházás használatba vételekor (aktiváláskor) a vállalkozás eredménye csökken.",
+  "answer": false,
+  "explanation": "Az aktiválás csak átsorolás (T 1. Egyéb berendezések – K 1. Beruházások), eredményhatás nincs.",
+  "source": "Jegyzet 1.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-008",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "igaz-hamis",
+  "question": "A vevőnek adott kedvezménnyel csökkentett számlaár az árbevétel, és az áru kivezetése az eladási ártól függetlenül a bekerülési értéken történik.",
+  "answer": true,
+  "explanation": "Pl. lista szerinti ár − kedvezmény = árbevétel; az ELÁBÉ a bekerülési érték.",
+  "source": "Jegyzet 1.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-1-009",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "igaz-hamis",
+  "question": "A fizetett kamat költségnem, ezért az 5. számlaosztályban könyveljük.",
+  "answer": false,
+  "explanation": "A kamat ráfordítás (8. számlaosztály), az ELÁBÉ-hoz hasonlóan nincs költségszámlája.",
+  "source": "Jegyzet 1.4 · 4.2",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "szv-1-010",
+  "chapter": 1,
+  "section": "1.6",
+  "type": "feleletvalasztos",
+  "question": "Milyen gazdasági esemény típus a megadott esemény? Az ügyfél által kifizetett számla a bankszámlán megérkezik (a követelés megszűnik).",
+  "options": [
+   "Alapvető gazdasági esemény",
+   "Összetett gazdasági esemény"
+  ],
+  "answer": "Alapvető gazdasági esemény",
+  "explanation": "Összetett az, amelyik az eredményt is érinti; alapvető, amelyik nem. Itt: eszközcsere: a vevőkövetelés pénzzé válik, eredményhatás nincs.",
+  "source": "Jegyzet 1.6 · 2.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-011",
+  "chapter": 1,
+  "section": "1.6",
+  "type": "feleletvalasztos",
+  "question": "Milyen gazdasági esemény típus a megadott esemény? A vállalkozás belföldi vevőnek szolgáltatást számláz ki.",
+  "options": [
+   "Összetett gazdasági esemény",
+   "Alapvető gazdasági esemény"
+  ],
+  "answer": "Összetett gazdasági esemény",
+  "explanation": "Összetett az, amelyik az eredményt is érinti; alapvető, amelyik nem. Itt: árbevétel keletkezik: az eredmény is változik.",
+  "source": "Jegyzet 1.6 · 2.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-012",
+  "chapter": 1,
+  "section": "1.6",
+  "type": "feleletvalasztos",
+  "question": "Milyen gazdasági esemény típus a megadott esemény? A vállalkozás tartozását hitelből egyenlíti ki.",
+  "options": [
+   "Alapvető gazdasági esemény",
+   "Összetett gazdasági esemény"
+  ],
+  "answer": "Alapvető gazdasági esemény",
+  "explanation": "Összetett az, amelyik az eredményt is érinti; alapvető, amelyik nem. Itt: csak források cserélődnek (szállító ↔ hitel), eredményhatás nincs.",
+  "source": "Jegyzet 1.6 · 2.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-013",
+  "chapter": 1,
+  "section": "1.6",
+  "type": "feleletvalasztos",
+  "question": "Milyen gazdasági esemény típus a megadott esemény? A vállalkozás kifizeti a hitel kamatát.",
+  "options": [
+   "Összetett gazdasági esemény",
+   "Alapvető gazdasági esemény"
+  ],
+  "answer": "Összetett gazdasági esemény",
+  "explanation": "Összetett az, amelyik az eredményt is érinti; alapvető, amelyik nem. Itt: a kamat ráfordítás: pénz is csökken és az eredmény is.",
+  "source": "Jegyzet 1.6 · 2.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-014",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "feleletvalasztos",
+  "question": "Egy vállalkozás bankszámláján késedelmi kamatot írtak jóvá egy késve fizető vevő után. Melyik számlán könyveljük a kamatot?",
+  "options": [
+   "9. Egyéb bevétel",
+   "9. Pénzügyi műveletek bevétele",
+   "9. Értékesítés nettó árbevétele",
+   "3. Vevők"
+  ],
+  "answer": "9. Egyéb bevétel",
+  "explanation": "A késedelmi kamat egyéb bevétel; a kölcsönkamat és az osztalék a pénzügyi műveletek bevétele.",
+  "source": "Jegyzet 1.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-015",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "feleletvalasztos",
+  "question": "Osztalék érkezett a befektetési célú részvényeinkre. Melyik számla követel?",
+  "options": [
+   "9. Pénzügyi műveletek bevétele",
+   "9. Egyéb bevétel",
+   "9. Értékesítés nettó árbevétele",
+   "8. Pénzügyi műveletek ráfordításai"
+  ],
+  "answer": "9. Pénzügyi műveletek bevétele",
+  "explanation": "Az osztalék pénzügyi műveletek bevétele (T 3. Elszámolási betét – K 9. Pénzügyi műveletek bevétele).",
+  "source": "Jegyzet 1.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-016",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "feleletvalasztos",
+  "question": "A vállalkozás késedelmi kamatot fizetett a szállítójának. Melyik számlán, melyik oldalon könyveljük az eredményhatást?",
+  "options": [
+   "8. Egyéb ráfordítás (T)",
+   "8. Pénzügyi műveletek ráfordításai (T)",
+   "9. Egyéb bevétel (K)",
+   "8. Egyéb ráfordítás (K)"
+  ],
+  "answer": "8. Egyéb ráfordítás (T)",
+  "explanation": "A fizetett késedelmi kamat egyéb ráfordítás, a ráfordítás pedig T oldalon nő. A hitelkamat lenne pénzügyi ráfordítás.",
+  "source": "Jegyzet 1.7 Vizsgatipp",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-017",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "feleletvalasztos",
+  "question": "Melyik számlán könyveljük a bankhitel után fizetett kamatot?",
+  "options": [
+   "8. Pénzügyi műveletek ráfordításai",
+   "8. Egyéb ráfordítás",
+   "5. Igénybe vett szolgáltatás",
+   "8. ELÁBÉ"
+  ],
+  "answer": "8. Pénzügyi műveletek ráfordításai",
+  "explanation": "A hitelkamat pénzügyi ráfordítás; a késedelmi kamat lenne egyéb ráfordítás.",
+  "source": "Jegyzet 1.7 Vizsgatipp",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "szv-1-018",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "feleletvalasztos",
+  "question": "Mit jelent az ELÁBÉ rövidítés?",
+  "options": [
+   "Eladott áruk beszerzési értéke",
+   "Egyéb ráfordítások és bevételek egyenlege",
+   "Elszámolt ár és bruttó érték",
+   "Elhatárolt árbevétel"
+  ],
+  "answer": "Eladott áruk beszerzési értéke",
+  "explanation": "Az ELÁBÉ az értékesített áru bekerülési értékének kivezetése; 8. ráfordítás, nem költségnem.",
+  "source": "Jegyzet 1.4 · Fogalomtár",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "szv-1-019",
+  "chapter": 1,
+  "section": "1.6",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Határozza meg, hogyan hatnak az alábbi események a vállalkozás vagyonára (eszközök, források) és eredményére! Minden eseményhez pontosan két hatást adjon meg (az Erd+ az eredmény növekedése, az Erd- a csökkenése).\n\n1. Késedelmi kamat kifizetése a bankszámláról.\n2. A szállító elengedte a tartozásunk egy részét.\n3. Kötbér kifizetése a bankszámláról.\n4. Számítógépet vásárolunk, a vételárat azonnal kifizetjük a pénztárból.\n5. Szállítói tartozás kiegyenlítése hitelfelvételből (a bank közvetlenül a szállítónak utal).",
+  "fields": [
+   {
+    "label": "1. esemény hatása",
+    "answer": "Eszk- Erd-",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd- Eszk-"
+    ]
+   },
+   {
+    "label": "2. esemény hatása",
+    "answer": "Forr- Erd+",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd+ Forr-"
+    ]
+   },
+   {
+    "label": "3. esemény hatása",
+    "answer": "Eszk- Erd-",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd- Eszk-"
+    ]
+   },
+   {
+    "label": "4. esemény hatása",
+    "answer": "Eszk+ Eszk-",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Eszk- Eszk+"
+    ]
+   },
+   {
+    "label": "5. esemény hatása",
+    "answer": "Forr+ Forr-",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Forr- Forr+"
+    ]
+   }
+  ],
+  "explanation": "Két kérdés dönt: (1) változik-e az eredmény? (2) mi a párja: pénz vagy követelés (eszköz), illetve tartozás (forrás)?",
+  "source": "Jegyzet 1.6 · 2.2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Késedelmi kamat kifizetése a bankszámláról. → Eszk- Erd-: a pénz csökken, egyéb ráfordítás.",
+   "A szállító elengedte a tartozásunk egy részét. → Forr- Erd+: a tartozás csökken (forrás −), bevétel keletkezik (eredmény +).",
+   "Kötbér kifizetése a bankszámláról. → Eszk- Erd-: a pénz csökken, ráfordítás keletkezik.",
+   "Számítógépet vásárolunk, a vételárat azonnal kifizetjük a pénztárból. → Eszk+ Eszk-: eszközcsere: a gép nő, a pénz csökken; eredményhatás nincs.",
+   "Szállítói tartozás kiegyenlítése hitelfelvételből (a bank közvetlenül a szállítónak utal). → Forr+ Forr-: az egyik tartozás (szállító) csökken, a másik (hitel) nő: csak források változnak."
+  ]
+ },
+ {
+  "id": "szv-1-020",
+  "chapter": 1,
+  "section": "1.6",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Határozza meg, hogyan hatnak az alábbi események a vállalkozás vagyonára (eszközök, források) és eredményére! Minden eseményhez pontosan két hatást adjon meg (az Erd+ az eredmény növekedése, az Erd- a csökkenése).\n\n1. Hitelkamat átutalása a bankszámláról.\n2. Céltartalék képzése.\n3. A munkáltatót terhelő járulékok hónapvégi elszámolása.\n4. Belföldi megrendelőnek szolgáltatást számláztunk ki.\n5. Kártérítés érkezett a pénztárba.",
+  "fields": [
+   {
+    "label": "1. esemény hatása",
+    "answer": "Eszk- Erd-",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd- Eszk-"
+    ]
+   },
+   {
+    "label": "2. esemény hatása",
+    "answer": "Forr+ Erd-",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd- Forr+"
+    ]
+   },
+   {
+    "label": "3. esemény hatása",
+    "answer": "Forr+ Erd-",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd- Forr+"
+    ]
+   },
+   {
+    "label": "4. esemény hatása",
+    "answer": "Eszk+ Erd+",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd+ Eszk+"
+    ]
+   },
+   {
+    "label": "5. esemény hatása",
+    "answer": "Eszk+ Erd+",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd+ Eszk+"
+    ]
+   }
+  ],
+  "explanation": "Két kérdés dönt: (1) változik-e az eredmény? (2) mi a párja: pénz vagy követelés (eszköz), illetve tartozás (forrás)?",
+  "source": "Jegyzet 1.6 · 2.2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Hitelkamat átutalása a bankszámláról. → Eszk- Erd-: a pénz csökken (eszköz −), pénzügyi ráfordítás (eredmény −).",
+   "Céltartalék képzése. → Forr+ Erd-: forrás nő, ráfordítás (eredmény −).",
+   "A munkáltatót terhelő járulékok hónapvégi elszámolása. → Forr+ Erd-: tartozás keletkezik (forrás +), költség (eredmény −), pénz nem mozdul.",
+   "Belföldi megrendelőnek szolgáltatást számláztunk ki. → Eszk+ Erd+: követelés keletkezik (eszköz +), árbevétel (eredmény +).",
+   "Kártérítés érkezett a pénztárba. → Eszk+ Erd+: a pénz nő, egyéb bevétel."
+  ]
+ },
+ {
+  "id": "szv-1-021",
+  "chapter": 1,
+  "section": "1.6",
+  "type": "szamolas",
+  "points": 5,
+  "question": "Határozza meg, hogyan hatnak az alábbi események a vállalkozás vagyonára (eszközök, források) és eredményére! Minden eseményhez pontosan két hatást adjon meg (az Erd+ az eredmény növekedése, az Erd- a csökkenése).\n\n1. Osztalék érkezett a bankszámlánkra.\n2. Beérkezett a heti takarítószolgáltatás számlája.\n3. A bank jóváírta a lekötött betét kamatát a számlánkon.\n4. A vevő átutalta a korábban kiszámlázott összeget.\n5. Alapanyag kivezetése a raktárból a gyártáshoz.",
+  "fields": [
+   {
+    "label": "1. esemény hatása",
+    "answer": "Eszk+ Erd+",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd+ Eszk+"
+    ]
+   },
+   {
+    "label": "2. esemény hatása",
+    "answer": "Forr+ Erd-",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd- Forr+"
+    ]
+   },
+   {
+    "label": "3. esemény hatása",
+    "answer": "Eszk+ Erd+",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd+ Eszk+"
+    ]
+   },
+   {
+    "label": "4. esemény hatása",
+    "answer": "Eszk+ Eszk-",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Eszk- Eszk+"
+    ]
+   },
+   {
+    "label": "5. esemény hatása",
+    "answer": "Eszk- Erd-",
+    "accept": "text",
+    "format": "Eszk+/Eszk-/Forr+/Forr-/Erd+/Erd- közül pontosan kettő, szóközzel elválasztva (sorrend mindegy)",
+    "alts": [
+     "Erd- Eszk-"
+    ]
+   }
+  ],
+  "explanation": "Két kérdés dönt: (1) változik-e az eredmény? (2) mi a párja: pénz vagy követelés (eszköz), illetve tartozás (forrás)?",
+  "source": "Jegyzet 1.6 · 2.2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Osztalék érkezett a bankszámlánkra. → Eszk+ Erd+: a pénz nő, pénzügyi bevétel.",
+   "Beérkezett a heti takarítószolgáltatás számlája. → Forr+ Erd-: számla alapján: szállítói tartozás (forrás +) és költség (eredmény −).",
+   "A bank jóváírta a lekötött betét kamatát a számlánkon. → Eszk+ Erd+: kapott kamat: a pénz nő (eszköz +), bevétel (eredmény +).",
+   "A vevő átutalta a korábban kiszámlázott összeget. → Eszk+ Eszk-: a követelés csökken, a pénz nő: eszközcsere.",
+   "Alapanyag kivezetése a raktárból a gyártáshoz. → Eszk- Erd-: a készlet csökken (eszköz −), a felhasználás költség (eredmény −)."
+  ]
+ },
+ {
+  "id": "szv-1-022",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "szamolas",
+  "points": 4,
+  "question": "A Rét Bt. tárgyidőszaki nyitó adatai (eFt): 1. Egyéb tartósan adott kölcsönök: 1 800; Vevők: 650; Pénztár: 120; Bankbetétek: 1 430; Jegyzett tőke: 2 600; Hosszú lejáratú hitelek: 1 500; Adótartozások: 220. Az adózott eredmény értéke nem szerepel az adatok között. Számítsa ki, mekkora volt az előző időszak adózott eredménye (a veszteséget negatív előjellel adja meg), majd adja meg az átvezetés tételét az eredménytartalékba!",
+  "fields": [
+   {
+    "label": "Nyitó adózott eredmény (eFt)",
+    "answer": "-320",
+    "accept": "int",
+    "format": "egész szám, veszteség negatív előjellel"
+   },
+   {
+    "label": "Átvezetés T számla",
+    "answer": "4. Eredménytartalék",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Eredménytartalék"
+    ]
+   },
+   {
+    "label": "Átvezetés K számla",
+    "answer": "4. Adózott eredmény",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Adózott eredmény"
+    ]
+   },
+   {
+    "label": "Átvezetett összeg (eFt)",
+    "answer": "320",
+    "accept": "int",
+    "format": "pozitív egész szám"
+   }
+  ],
+  "explanation": "Az adózott eredmény a mérleg egyensúlyából adódik: eszközök − (a többi forrás). Nyereséget T Adózott eredmény – K Eredménytartalék, veszteséget T Eredménytartalék – K Adózott eredmény tétellel vezetünk át.",
+  "source": "Jegyzet 1.3 · 3.7 · 3.9",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Eszközök: 1800 + 650 + 120 + 1430 = 4 000.",
+   "Az adózott eredményen kívüli források: 2600 + 1500 + 220 = 4 320.",
+   "Adózott eredmény = 4 000 − 4 320 = -320 (veszteség).",
+   "Átvezetés: T 4. Eredménytartalék – K 4. Adózott eredmény: 320."
+  ]
+ },
+ {
+  "id": "szv-1-023",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "szamolas",
+  "points": 4,
+  "question": "A Kékfény Kft. tárgyidőszaki nyitó adatai (eFt): Szellemi termékek: 900; Áruk: 1 100; Vevők: 480; Elszámolási betét: 920; Jegyzett tőke: 2 500; Szállítók: 630; Rövid lejáratú hitel: 400. Az adózott eredmény értéke nem szerepel az adatok között. Számítsa ki, mekkora volt az előző időszak adózott eredménye (a veszteséget negatív előjellel adja meg), majd adja meg az átvezetés tételét az eredménytartalékba!",
+  "fields": [
+   {
+    "label": "Nyitó adózott eredmény (eFt)",
+    "answer": "-130",
+    "accept": "int",
+    "format": "egész szám, veszteség negatív előjellel"
+   },
+   {
+    "label": "Átvezetés T számla",
+    "answer": "4. Eredménytartalék",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Eredménytartalék"
+    ]
+   },
+   {
+    "label": "Átvezetés K számla",
+    "answer": "4. Adózott eredmény",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Adózott eredmény"
+    ]
+   },
+   {
+    "label": "Átvezetett összeg (eFt)",
+    "answer": "130",
+    "accept": "int",
+    "format": "pozitív egész szám"
+   }
+  ],
+  "explanation": "Az adózott eredmény a mérleg egyensúlyából adódik: eszközök − (a többi forrás). Nyereséget T Adózott eredmény – K Eredménytartalék, veszteséget T Eredménytartalék – K Adózott eredmény tétellel vezetünk át.",
+  "source": "Jegyzet 1.3 · 3.7 · 3.9",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Eszközök: 900 + 1100 + 480 + 920 = 3 400.",
+   "Az adózott eredményen kívüli források: 2500 + 630 + 400 = 3 530.",
+   "Adózott eredmény = 3 400 − 3 530 = -130 (veszteség).",
+   "Átvezetés: T 4. Eredménytartalék – K 4. Adózott eredmény: 130."
+  ]
+ },
+ {
+  "id": "szv-1-024",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "szamolas",
+  "points": 4,
+  "question": "A Napsugár Zrt. tárgyidőszaki nyitó adatai (eFt): Számítógépek: 1 400; Anyagok: 700; Pénztár: 90; Bankbetétek: 1 810; Jegyzett tőke: 2 200; Hosszú lejáratú hitelek: 1 200; Szállítók: 520. Az adózott eredmény értéke nem szerepel az adatok között. Számítsa ki, mekkora volt az előző időszak adózott eredménye (a veszteséget negatív előjellel adja meg), majd adja meg az átvezetés tételét az eredménytartalékba!",
+  "fields": [
+   {
+    "label": "Nyitó adózott eredmény (eFt)",
+    "answer": "80",
+    "accept": "int",
+    "format": "egész szám, veszteség negatív előjellel"
+   },
+   {
+    "label": "Átvezetés T számla",
+    "answer": "4. Adózott eredmény",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Adózott eredmény"
+    ]
+   },
+   {
+    "label": "Átvezetés K számla",
+    "answer": "4. Eredménytartalék",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Eredménytartalék"
+    ]
+   },
+   {
+    "label": "Átvezetett összeg (eFt)",
+    "answer": "80",
+    "accept": "int",
+    "format": "pozitív egész szám"
+   }
+  ],
+  "explanation": "Az adózott eredmény a mérleg egyensúlyából adódik: eszközök − (a többi forrás). Nyereséget T Adózott eredmény – K Eredménytartalék, veszteséget T Eredménytartalék – K Adózott eredmény tétellel vezetünk át.",
+  "source": "Jegyzet 1.3 · 3.7 · 3.9",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Eszközök: 1400 + 700 + 90 + 1810 = 4 000.",
+   "Az adózott eredményen kívüli források: 2200 + 1200 + 520 = 3 920.",
+   "Adózott eredmény = 4 000 − 3 920 = 80 (nyereség).",
+   "Átvezetés: T 4. Adózott eredmény – K 4. Eredménytartalék: 80."
+  ]
+ },
+ {
+  "id": "szv-1-025",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "szamolas",
+  "points": 2,
+  "question": "A Vadrózsa Kft. nyitó adatai (eFt): Áruk: 900; Vevők: 700; Elszámolási betét: 1 500; források: Jegyzett tőke: 3 000; Szállítók: 450; Eredménytartalék: -350 (negatív, tehát a saját tőkét csökkenti). A nyitást technikai számla nélkül, egyetlen összetett tétellel végezzük. Mekkora a nyitó forgalom Tartozik oldali összege, és melyik oldalon nyit az eredménytartalék?",
+  "fields": [
+   {
+    "label": "Nyitó forgalom T oldali összege (eFt)",
+    "answer": "3450",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Az eredménytartalék nyitó oldala",
+    "answer": "Tartozik",
+    "accept": "text",
+    "format": "T vagy K (Tartozik / Követel)",
+    "alts": [
+     "T"
+    ]
+   }
+  ],
+  "explanation": "Technikai számla nélkül minden eszközszámla T, minden forrásszámla K oldalon nyit; a negatív eredménytartalék az eszközökkel együtt T oldalon. Ellenőrzés: nyitó T forgalom = K forgalom.",
+  "source": "Jegyzet 1.3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "T oldal: eszközök 3 100 + negatív eredménytartalék 350 = 3 450.",
+   "K oldal: 3000 + 450 = 3 450 (egyezik).",
+   "A negatív eredménytartalék T oldalon nyit."
+  ]
+ },
+ {
+  "id": "szv-1-026",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "szamolas",
+  "points": 2,
+  "question": "A Tölgy Bt. nyitó adatai (eFt): Gépek: 2 200; Pénztár: 80; Vevők: 540; források: Jegyzett tőke: 2 440; Rövid lejáratú hitel: 800; Eredménytartalék: -420 (negatív, tehát a saját tőkét csökkenti). A nyitást technikai számla nélkül, egyetlen összetett tétellel végezzük. Mekkora a nyitó forgalom Tartozik oldali összege, és melyik oldalon nyit az eredménytartalék?",
+  "fields": [
+   {
+    "label": "Nyitó forgalom T oldali összege (eFt)",
+    "answer": "3240",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "Az eredménytartalék nyitó oldala",
+    "answer": "Tartozik",
+    "accept": "text",
+    "format": "T vagy K (Tartozik / Követel)",
+    "alts": [
+     "T"
+    ]
+   }
+  ],
+  "explanation": "Technikai számla nélkül minden eszközszámla T, minden forrásszámla K oldalon nyit; a negatív eredménytartalék az eszközökkel együtt T oldalon. Ellenőrzés: nyitó T forgalom = K forgalom.",
+  "source": "Jegyzet 1.3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "T oldal: eszközök 2 820 + negatív eredménytartalék 420 = 3 240.",
+   "K oldal: 2440 + 800 = 3 240 (egyezik).",
+   "A negatív eredménytartalék T oldalon nyit."
+  ]
+ },
+ {
+  "id": "szv-1-027",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "szamolas",
+  "points": 15,
+  "question": "A Délibáb Kft. januári eseményeit négyszámlasoros módszerrel könyveljük (eFt, ÁFA nélkül).\n\nTartozik (T) oldali nyitó egyenlegek: 2. Áruk 800; 3. Vevők 500; 3. Pénztár 150; 3. Elszámolási betét 1 200. Követel (K) oldali nyitó egyenlegek: 4. Jegyzett tőke 1 800; 4. Szállítók 850.\n\nEsemények:\n1. Árubeszerzés szállítótól, 600 eFt, számla megérkezett.\n2. Áru értékesítése vevőnek 900 eFt-ért, az áru bekerülési értéke 500 eFt.\n3. Hitelkamat átutalása a bankszámláról, 45 eFt.\n4. Osztalék érkezett a bankszámlára, 120 eFt.\n5. Szállítói tartozás kiegyenlítése bankszámláról, 700 eFt.\n\nTöltse ki a rácsot: tételenként adja meg a Tartozik (T) és a Követel (K) számlát és az összeget (eFt vagy a feladat egysége); egy eseményhez több tétel is tartozhat.",
+  "fields": [
+   {
+    "label": "1. esemény: T számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk"
+    ]
+   },
+   {
+    "label": "1. esemény: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény: összeg",
+    "answer": "600",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "900",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "500"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Vevők",
+     "Vevők"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "500",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "900"
+    ]
+   },
+   {
+    "label": "3. esemény: T számla",
+    "answer": "8. Pénzügyi műveletek ráfordításai",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénzügyi műveletek ráfordításai",
+     "Fizetett kamat",
+     "8. Fizetett kamat",
+     "Pénzügyi ráfordítás",
+     "8. Pénzügyi ráfordítás"
+    ]
+   },
+   {
+    "label": "3. esemény: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "3. esemény: összeg",
+    "answer": "45",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "4. esemény: T számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "4. esemény: K számla",
+    "answer": "9. Pénzügyi műveletek bevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénzügyi műveletek bevétele"
+    ]
+   },
+   {
+    "label": "4. esemény: összeg",
+    "answer": "120",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "5. esemény: T számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "5. esemény: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "5. esemény: összeg",
+    "answer": "700",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "Az időszak eredménye (eFt)",
+    "answer": "475",
+    "accept": "int",
+    "format": "egész szám, veszteség negatív"
+   },
+   {
+    "label": "Az Elszámolási betét záró egyenlege (eFt)",
+    "answer": "575",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A záró mérlegfőösszeg (eFt)",
+    "answer": "3025",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Eredmény = bevételek − ráfordítások: az eredményszámlák egyenlege. A mérlegfőösszeg az eszközök összege, ami egyenlő a forrásokkal (a keletkezett eredménnyel együtt).",
+  "source": "Jegyzet 1.3–1.5 · Pt3/7 szerkezete",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "esemény: az áru készletként nő (T Áruk), a tartozás K Szállítók. Tétel(ek): T 2. Áruk – K 4. Szállítók: 600.",
+   "esemény: eladási ár 900 (T Vevők – K ÉNÁ) és a bekerülési érték kivezetése 500 (T ELÁBÉ – K Áruk). Tétel(ek): T 3. Vevők – K 9. Értékesítés nettó árbevétele: 900; T 8. ELÁBÉ – K 2. Áruk: 500.",
+   "esemény: a kamat pénzügyi ráfordítás. Tétel(ek): T 8. Pénzügyi műveletek ráfordításai – K 3. Elszámolási betét: 45.",
+   "esemény: az osztalék pénzügyi műveletek bevétele. Tétel(ek): T 3. Elszámolási betét – K 9. Pénzügyi műveletek bevétele: 120.",
+   "esemény: a tartozás és a pénz csökken, nincs eredményhatás. Tétel(ek): T 4. Szállítók – K 3. Elszámolási betét: 700.",
+   "→ Eredmény = bevételek − ráfordítások = 475; záró eszközök = záró források = 3 025; Elszámolási betét = 575."
+  ]
+ },
+ {
+  "id": "szv-1-028",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "szamolas",
+  "points": 15,
+  "question": "A Mézes Bt. januári eseményeit négyszámlasoros módszerrel könyveljük (eFt, ÁFA nélkül).\n\nTartozik (T) oldali nyitó egyenlegek: 3. Vevők 600; 2. Áruk 1 400; 3. Elszámolási betét 900; 3. Pénztár 100. Követel (K) oldali nyitó egyenlegek: 4. Jegyzett tőke 2 500; 4. Rövid lejáratú hitel 500.\n\nEsemények:\n1. Áru értékesítése készpénzért 1 100 eFt-ért (kapott összeg), az áru bekerülési értéke 700 eFt.\n2. A vevő 400 eFt-ot átutalt a bankszámlára.\n3. A késve fizető vevő után 30 eFt késedelmi kamat került jóváírásra a bankszámlán.\n4. Hiteltörlesztés bankszámláról, 200 eFt tőke.\n5. Hitelkamat fizetése bankszámláról, 36 eFt.\n\nTöltse ki a rácsot: tételenként adja meg a Tartozik (T) és a Követel (K) számlát és az összeget (eFt vagy a feladat egysége); egy eseményhez több tétel is tartozhat.",
+  "fields": [
+   {
+    "label": "1. esemény, 1. tétel: T számla",
+    "answer": "3. Pénztár",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénztár",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: K számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "1. esemény, 1. tétel: összeg",
+    "answer": "1100",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1 100",
+     "700"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: T számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Pénztár",
+     "Pénztár"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: K számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "1. esemény, 2. tétel: összeg",
+    "answer": "700",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1100",
+     "1 100"
+    ]
+   },
+   {
+    "label": "2. esemény: T számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "2. esemény: K számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők"
+    ]
+   },
+   {
+    "label": "2. esemény: összeg",
+    "answer": "400",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "3. esemény: T számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "3. esemény: K számla",
+    "answer": "9. Egyéb bevétel",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Egyéb bevétel"
+    ]
+   },
+   {
+    "label": "3. esemény: összeg",
+    "answer": "30",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "4. esemény: T számla",
+    "answer": "4. Rövid lejáratú hitel",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Rövid lejáratú hitel"
+    ]
+   },
+   {
+    "label": "4. esemény: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "4. esemény: összeg",
+    "answer": "200",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "5. esemény: T számla",
+    "answer": "8. Pénzügyi műveletek ráfordításai",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénzügyi műveletek ráfordításai",
+     "Fizetett kamat",
+     "8. Fizetett kamat",
+     "Pénzügyi ráfordítás",
+     "8. Pénzügyi ráfordítás"
+    ]
+   },
+   {
+    "label": "5. esemény: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "5. esemény: összeg",
+    "answer": "36",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "Az időszak eredménye (eFt)",
+    "answer": "394",
+    "accept": "int",
+    "format": "egész szám, veszteség negatív"
+   },
+   {
+    "label": "Az Elszámolási betét záró egyenlege (eFt)",
+    "answer": "1094",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A záró mérlegfőösszeg (eFt)",
+    "answer": "3194",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Eredmény = bevételek − ráfordítások: az eredményszámlák egyenlege. A mérlegfőösszeg az eszközök összege, ami egyenlő a forrásokkal (a keletkezett eredménnyel együtt).",
+  "source": "Jegyzet 1.3–1.5 · Pt3/7 szerkezete",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "esemény: készpénzes bevétel 1 100 (T Pénztár – K ÉNÁ), kivezetés 700 (T ELÁBÉ – K Áruk). Tétel(ek): T 3. Pénztár – K 9. Értékesítés nettó árbevétele: 1 100; T 8. ELÁBÉ – K 2. Áruk: 700.",
+   "esemény: követelés csökken, pénz nő: nincs eredményhatás. Tétel(ek): T 3. Elszámolási betét – K 3. Vevők: 400.",
+   "esemény: a késedelmi kamat egyéb bevétel. Tétel(ek): T 3. Elszámolási betét – K 9. Egyéb bevétel: 30.",
+   "esemény: a tőketörlesztés nem eredményhatású. Tétel(ek): T 4. Rövid lejáratú hitel – K 3. Elszámolási betét: 200.",
+   "esemény: pénzügyi ráfordítás. Tétel(ek): T 8. Pénzügyi műveletek ráfordításai – K 3. Elszámolási betét: 36.",
+   "→ Eredmény = bevételek − ráfordítások = 394; záró eszközök = záró források = 3 194; Elszámolási betét = 1 094."
+  ]
+ },
+ {
+  "id": "szv-1-029",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "szamolas",
+  "points": 15,
+  "question": "A Kisfaludy Kft. januári eseményeit négyszámlasoros módszerrel könyveljük (eFt, ÁFA nélkül).\n\nTartozik (T) oldali nyitó egyenlegek: 3. Elszámolási betét 1 000; 2. Áruk 1 000; 3. Vevők 300. Követel (K) oldali nyitó egyenlegek: 4. Jegyzett tőke 2 000; 4. Szállítók 300.\n\nEsemények:\n1. Árubeszerzés szállítótól, 500 eFt.\n2. Kedvezménnyel értékesített áru: a lista szerinti ár 1 200 eFt, a vevő 150 eFt kedvezményt kapott; az áru bekerülési értéke 600 eFt.\n3. Késedelmi kamatot fizettünk a szállítónak a bankszámláról, 25 eFt.\n4. Irodabútor beszerzése szállítótól 400 eFt-ért, majd azonnali használatba vétele.\n5. Kapott kamat a betétre, 18 eFt a bankszámlán.\n\nTöltse ki a rácsot: tételenként adja meg a Tartozik (T) és a Követel (K) számlát és az összeget (eFt vagy a feladat egysége); egy eseményhez több tétel is tartozhat.",
+  "fields": [
+   {
+    "label": "1. esemény: T számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk"
+    ]
+   },
+   {
+    "label": "1. esemény: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "1. esemény: összeg",
+    "answer": "500",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "2. esemény, 1. tétel: T számla",
+    "answer": "3. Vevők",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Vevők",
+     "8. ELÁBÉ",
+     "ELÁBÉ"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: K számla",
+    "answer": "9. Értékesítés nettó árbevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ",
+     "2. Áruk",
+     "Áruk"
+    ]
+   },
+   {
+    "label": "2. esemény, 1. tétel: összeg",
+    "answer": "1050",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1 050",
+     "600"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: T számla",
+    "answer": "8. ELÁBÉ",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "ELÁBÉ",
+     "3. Vevők",
+     "Vevők"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: K számla",
+    "answer": "2. Áruk",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Áruk",
+     "9. Értékesítés nettó árbevétele",
+     "Értékesítés nettó árbevétele",
+     "ÉNÁ",
+     "9. ÉNÁ"
+    ]
+   },
+   {
+    "label": "2. esemény, 2. tétel: összeg",
+    "answer": "600",
+    "accept": "text",
+    "format": "szám (eFt vagy a feladat egysége)",
+    "alts": [
+     "1050",
+     "1 050"
+    ]
+   },
+   {
+    "label": "3. esemény: T számla",
+    "answer": "8. Egyéb ráfordítás",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Egyéb ráfordítás"
+    ]
+   },
+   {
+    "label": "3. esemény: K számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "3. esemény: összeg",
+    "answer": "25",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "4. esemény, 1. tétel: T számla",
+    "answer": "1. Beruházások",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Beruházások",
+     "1. Egyéb berendezések",
+     "Egyéb berendezések"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: K számla",
+    "answer": "4. Szállítók",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Szállítók",
+     "1. Beruházások",
+     "Beruházások"
+    ]
+   },
+   {
+    "label": "4. esemény, 1. tétel: összeg",
+    "answer": "400",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "4. esemény, 2. tétel: T számla",
+    "answer": "1. Egyéb berendezések",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Egyéb berendezések",
+     "1. Beruházások",
+     "Beruházások"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: K számla",
+    "answer": "1. Beruházások",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Beruházások",
+     "4. Szállítók",
+     "Szállítók"
+    ]
+   },
+   {
+    "label": "4. esemény, 2. tétel: összeg",
+    "answer": "400",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "5. esemény: T számla",
+    "answer": "3. Elszámolási betét",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Elszámolási betét",
+     "Elsz. betét",
+     "3. Elsz. betét",
+     "Bankbetétek",
+     "3. Bankbetétek",
+     "Bank",
+     "3. Bank"
+    ]
+   },
+   {
+    "label": "5. esemény: K számla",
+    "answer": "9. Pénzügyi műveletek bevétele",
+    "accept": "text",
+    "format": "számlanév (a számlaszám elhagyható)",
+    "alts": [
+     "Pénzügyi műveletek bevétele"
+    ]
+   },
+   {
+    "label": "5. esemény: összeg",
+    "answer": "18",
+    "accept": "dec",
+    "format": "szám (eFt vagy a feladat egysége)"
+   },
+   {
+    "label": "Az időszak eredménye (eFt)",
+    "answer": "443",
+    "accept": "int",
+    "format": "egész szám, veszteség negatív"
+   },
+   {
+    "label": "Az Elszámolási betét záró egyenlege (eFt)",
+    "answer": "993",
+    "accept": "int",
+    "format": "egész szám"
+   },
+   {
+    "label": "A záró mérlegfőösszeg (eFt)",
+    "answer": "3643",
+    "accept": "int",
+    "format": "egész szám"
+   }
+  ],
+  "explanation": "Eredmény = bevételek − ráfordítások: az eredményszámlák egyenlege. A mérlegfőösszeg az eszközök összege, ami egyenlő a forrásokkal (a keletkezett eredménnyel együtt).",
+  "source": "Jegyzet 1.3–1.5 · Pt3/7 szerkezete",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "esemény: az áru készletként nő. Tétel(ek): T 2. Áruk – K 4. Szállítók: 500.",
+   "esemény: árbevétel = 1 200 − 150 = 1 050 (T Vevők – K ÉNÁ); kivezetés 600 (T ELÁBÉ – K Áruk). Tétel(ek): T 3. Vevők – K 9. Értékesítés nettó árbevétele: 1 050; T 8. ELÁBÉ – K 2. Áruk: 600.",
+   "esemény: a fizetett késedelmi kamat egyéb ráfordítás. Tétel(ek): T 8. Egyéb ráfordítás – K 3. Elszámolási betét: 25.",
+   "esemény: előbb beruházás (T Beruházások – K Szállítók), használatba vételkor aktiválás (T Egyéb berendezések – K Beruházások); eredményhatás nincs. Tétel(ek): T 1. Beruházások – K 4. Szállítók: 400; T 1. Egyéb berendezések – K 1. Beruházások: 400.",
+   "esemény: pénzügyi műveletek bevétele. Tétel(ek): T 3. Elszámolási betét – K 9. Pénzügyi műveletek bevétele: 18.",
+   "→ Eredmény = bevételek − ráfordítások = 443; záró eszközök = záró források = 3 643; Elszámolási betét = 993."
+  ]
+ }
+]

@@ -1,0 +1,854 @@
+[
+ {
+  "id": "ke2-1-001",
+  "chapter": 1,
+  "section": "1.1",
+  "type": "igaz-hamis",
+  "question": "Az ember nem verbális kommunikációja fejlődéstörténetileg régebbi, mint a beszélt nyelv.",
+  "answer": true,
+  "explanation": "A dia szerint a nem verbális kommunikáció „sokkal régebbi” forma („már a majmok is”).",
+  "source": "Jegyzet 1.1 · Ea5, dia 3",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "ke2-1-002",
+  "chapter": 1,
+  "section": "1.1",
+  "type": "igaz-hamis",
+  "question": "A nem verbális jeleket lassabban dolgozzuk fel, mint a szavakat, mert tudatosan elemezzük őket.",
+  "answer": false,
+  "explanation": "Fordítva van: a nem verbális jeleket gyorsabban kódoljuk és dekódoljuk, a szóbeli közlést elemezzük tudatosan, és csak aztán válaszolunk rá.",
+  "source": "Jegyzet 1.1 · Ea5, dia 3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-003",
+  "chapter": 1,
+  "section": "1.1",
+  "type": "igaz-hamis",
+  "question": "Mivel a nem verbális viselkedésre kevesebb tudatos kontroll és figyelem jut, jól használható a hazugok leleplezésére.",
+  "answer": true,
+  "explanation": "A kevésbé tudatos kontroll miatt a jelek könnyebben „kicsúsznak”.",
+  "source": "Jegyzet 1.1 · Ea5, dia 3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-004",
+  "chapter": 1,
+  "section": "1.1",
+  "type": "feleletvalasztos",
+  "question": "Melyik állítás írja le helyesen a nyelv és a nem verbális üzenetek eltérő feladatát?",
+  "options": [
+   "A nyelv inkább a külső világ megoldandó problémáival kapcsolatos információt továbbít, a nem verbális üzenetek a társas életet szabályozzák, vonzalmakat és attitűdöket közölnek.",
+   "A nyelv a társas életet szabályozza és vonzalmakat közöl, a nem verbális üzenetek a külső világ problémáiról tájékoztatnak.",
+   "Mindkettő elsősorban a külső világ tényeit közvetíti, csak a nem verbális gyorsabb.",
+   "A nyelv főként attitűdök közlésére alkalmas, a nem verbális üzenetek a tényközlésre."
+  ],
+  "answer": "A nyelv inkább a külső világ megoldandó problémáival kapcsolatos információt továbbít, a nem verbális üzenetek a társas életet szabályozzák, vonzalmakat és attitűdöket közölnek.",
+  "explanation": "A nyelv a külső világ problémáiról szól; a nem verbális üzenetek a társas életet, a vonzalmakat és az attitűdöket szabályozzák és közvetítik. A felcserélt változat tipikus csapda.",
+  "source": "Jegyzet 1.1 · Ea5, dia 7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-005",
+  "chapter": 1,
+  "section": "1.1",
+  "type": "rovid-valasz",
+  "question": "A nem verbális kommunikáció a verbálisnál sokkal régebbi, gyorsabb, kevésbé tudatos, és főként …(mit?) kommunikálására alkalmas. Egészítsd ki!",
+  "answer": [
+   "attitűdök",
+   "attitűd",
+   "attitűdöt",
+   "attitűdök (és érzelmek) kommunikálására"
+  ],
+  "explanation": "Az Összefoglalás szerint főként attitűdök közvetítésére alkalmas (az érzelem a 7. dia szerint szintén).",
+  "source": "Jegyzet 1.1 · Ea5, dia 33",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "ke2-1-006",
+  "chapter": 1,
+  "section": "1.1",
+  "type": "relacio",
+  "question": "Relációanalízis, 1. tétel: mi a két állítás viszonya?",
+  "statements": [
+   "A nem verbális kommunikáció lassabb a verbálisnál",
+   "minden jelet tudatos elemzés előz meg."
+  ],
+  "answer": "E",
+  "explanation": "Mindkét állítás hamis: a nem verbális kommunikáció gyorsabb és kevésbé tudatos.",
+  "source": "Jegyzet 1.1 · Ea5, dia 3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-007",
+  "chapter": 1,
+  "section": "1.1",
+  "type": "relacio",
+  "question": "Relációanalízis, 2. tétel: mi a két állítás viszonya?",
+  "statements": [
+   "A nem verbális kommunikáció alkalmas a hazugok leleplezésére",
+   "kevesebb tudatos kontroll és figyelem kíséri."
+  ],
+  "answer": "A",
+  "explanation": "Mindkét állítás igaz, és az indoklás magyarázza az elsőt.",
+  "source": "Jegyzet 1.1 · Ea5, dia 3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-008",
+  "chapter": 1,
+  "section": "1.2",
+  "type": "feleletvalasztos",
+  "question": "A 8. dia kördiagramja a kommunikáció hatását a következő arányokban osztja fel. Melyik a helyes sorrend: szavak – hangszín – nem verbális jelek?",
+  "options": [
+   "7% – 38% – 55%",
+   "55% – 38% – 7%",
+   "38% – 7% – 55%",
+   "7% – 55% – 38%"
+  ],
+  "answer": "7% – 38% – 55%",
+  "explanation": "A dián: szavak 7%, hangszín 38%, nem verbális jelek 55%. A dia nem ad szerzőt, ezért ilyet ne társíts hozzá.",
+  "source": "Jegyzet 1.2 · Ea5, dia 8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-009",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "feleletvalasztos",
+  "question": "Melyik elem NEM tartozik a vokalitás csatornájához?",
+  "options": [
+   "Szemkontaktus",
+   "Hangminőség (paralingvisztika)",
+   "Intonáció (prozódia)",
+   "Csend"
+  ],
+  "answer": "Szemkontaktus",
+  "explanation": "A vokalitás: hangminőség, intonáció, csend. A szemkontaktus a „testbeszéd” csoport eleme.",
+  "source": "Jegyzet 1.3 · Ea5, dia 9",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-010",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "feleletvalasztos",
+  "question": "Melyik elem NEM tartozik a „testbeszéd” csatorna elemei közé?",
+  "options": [
+   "Mesterséges dolgok",
+   "Gesztusok",
+   "Szaglás",
+   "Érintés"
+  ],
+  "answer": "Mesterséges dolgok",
+  "explanation": "A mesterséges dolgok (ruha, tárgyak) és a fizikai megjelenés a „fizikai jellemzők” csoportba tartoznak; a gesztus, az érintés és a szaglás a „testbeszéd” elemei.",
+  "source": "Jegyzet 1.3 · Ea5, dia 9",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-011",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "igaz-hamis",
+  "question": "A csend a vokalitás része, így a nem verbális kommunikáció egyik csatornájának számít.",
+  "answer": true,
+  "explanation": "Bár hangzással kapcsolatos, a csend a vokalitás eleme, tehát nem verbális.",
+  "source": "Jegyzet 1.3 · Ea5, dia 9",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-012",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "igaz-hamis",
+  "question": "A szaglás nem szerepel a nem verbális kommunikáció csatornái között.",
+  "answer": false,
+  "explanation": "A szaglás a „testbeszéd” csoport eleme.",
+  "source": "Jegyzet 1.3 · Ea5, dia 9",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-013",
+  "chapter": 1,
+  "section": "1.3",
+  "type": "parositas",
+  "question": "Párosítsd a csatornacsoportot az egyik elemével!",
+  "answer": [
+   [
+    "Vokalitás",
+    "Csend"
+   ],
+   [
+    "„Testbeszéd”",
+    "Szemkontaktus"
+   ],
+   [
+    "Fizikai jellemzők",
+    "Mesterséges dolgok"
+   ],
+   [
+    "Proxemika",
+    "Térközszabályozás"
+   ]
+  ],
+  "explanation": "Négy csoport: vokalitás, „testbeszéd”, proxemika, fizikai jellemzők.",
+  "source": "Jegyzet 1.3 · Ea5, dia 9",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-014",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "feleletvalasztos",
+  "question": "A proxemika „buborékai” közül hány méterig tart a személyes zóna?",
+  "options": [
+   "1,2 m",
+   "0,5 m",
+   "3 m",
+   "2 m"
+  ],
+  "answer": "1,2 m",
+  "explanation": "Intim 0,5 m, személyes 1,2 m, társas 3 m; a nyilvános zónához a dia nem ad távolságot.",
+  "source": "Jegyzet 1.4 · Ea5, dia 10",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "ke2-1-015",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "feleletvalasztos",
+  "question": "Melyik zóna–távolság pár HIBÁS a dia szerint?",
+  "options": [
+   "társas zóna – 1,2 m",
+   "intim zóna – 0,5 m",
+   "személyes zóna – 1,2 m",
+   "társas zóna – 3 m"
+  ],
+  "answer": "társas zóna – 1,2 m",
+  "explanation": "A társas zóna határa 3 m; 1,2 m a személyes zónáé.",
+  "source": "Jegyzet 1.4 · Ea5, dia 10",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-016",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "feleletvalasztos",
+  "question": "A dia szerint melyik kultúrákra jellemző a kisebb személyes tér és a sok érintés?",
+  "options": [
+   "francia, olasz, latin-amerikai, orosz, arab, afrikai",
+   "kínai, japán, koreai",
+   "német, dán, észak-európai",
+   "USA, kanadai, új-zélandi"
+  ],
+  "answer": "francia, olasz, latin-amerikai, orosz, arab, afrikai",
+  "explanation": "A kisebb személyes tér és sok érintés az első csoport; a közepes csoport az USA, kanadai, észak-európai, új-zélandi, német, dán; az alacsony a kelet-ázsiai.",
+  "source": "Jegyzet 1.4 · Ea5, dia 10",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-017",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "rovid-valasz",
+  "question": "Bence a liftben áll, és egy ismeretlen férfi 40 cm-re lép mellé. Melyik személyes zónájába lépett be az idegen?",
+  "answer": [
+   "intim zóna",
+   "intim",
+   "az intim zónába"
+  ],
+  "explanation": "Az intim zóna 0,5 m-ig tart, ezért a 40 cm az intim zóna.",
+  "source": "Jegyzet 1.4 · Ea5, dia 10",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-018",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "rovid-valasz",
+  "question": "Két egyetemista egymás mellett ül az asztalnál, hogy együtt készítsenek el egy poszter-prezentációt. Melyik asztal körüli helyzetet testesíti meg az ülésrendjük?",
+  "answer": [
+   "együttműködés",
+   "kooperatív helyzet",
+   "együttműködő helyzet"
+  ],
+  "explanation": "Egymás mellett ülés = együttműködés, kooperatív helyzet.",
+  "source": "Jegyzet 1.4 · Ea5, dia 11",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-019",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "parositas",
+  "question": "Párosítsd az ülésrendet a helyzettel!",
+  "answer": [
+   [
+    "Az asztal két oldalán, szemben",
+    "Versengő-védekező helyzet"
+   ],
+   [
+    "Egymás mellett",
+    "Együttműködés, kooperatív helyzet"
+   ],
+   [
+    "Sarokhelyzet",
+    "Baráti beszélgetés, oldott légkör"
+   ],
+   [
+    "Egymástól távol, átlósan",
+    "Független helyzet"
+   ]
+  ],
+  "explanation": "Ne keverd a sarokhelyzetet (baráti) a távoli, átlós (független) üléssel.",
+  "source": "Jegyzet 1.4 · Ea5, dia 11",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-020",
+  "chapter": 1,
+  "section": "1.4",
+  "type": "igaz-hamis",
+  "question": "Az asztal körüli ülésrendnél az egymás melletti elhelyezkedés a versengő-védekező helyzet jele.",
+  "answer": false,
+  "explanation": "Az egymás melletti ülés az együttműködésé; a versengő-védekező helyzet az asztal két oldalán, szemben ülés.",
+  "source": "Jegyzet 1.4 · Ea5, dia 11",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-021",
+  "chapter": 1,
+  "section": "1.1",
+  "type": "relacio",
+  "question": "Relációanalízis, 3. tétel: mi a két állítás viszonya?",
+  "statements": [
+   "A proxemikai zónák külső határai 0,5 m, 1,2 m és 3 m",
+   "a nem verbális kommunikáció a verbálisnál régebbi."
+  ],
+  "answer": "B",
+  "explanation": "Mindkét állítás igaz, de nincs közöttük okozati összefüggés.",
+  "source": "Jegyzet 1.1, 1.4 · Ea5, dia 3, 10",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-022",
+  "chapter": 1,
+  "section": "1.5",
+  "type": "igaz-hamis",
+  "question": "Ha valakit nem kedvelünk, az arckifejezésünk sokszor barátságos marad, de a szemkontaktusunk csökken.",
+  "answer": true,
+  "explanation": "A dia: „az arckifejezés sokszor barátságos marad, de” a szemkontaktus csökken, távolodunk, hátradőlünk, feszültek vagyunk.",
+  "source": "Jegyzet 1.5 · Ea5, dia 13",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-023",
+  "chapter": 1,
+  "section": "1.5",
+  "type": "igaz-hamis",
+  "question": "A test kevésbé árulkodik a valódi belső állapotról, mint az arc, mert a testet jobban figyeljük.",
+  "answer": false,
+  "explanation": "A test mutatja jobban a valódi belső állapotot, mert az arc jobban kontrollálható.",
+  "source": "Jegyzet 1.5 · Ea5, dia 12",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-024",
+  "chapter": 1,
+  "section": "1.5",
+  "type": "feleletvalasztos",
+  "question": "Melyik viselkedés NEM jelzi a nem kedvelést a 13. dia szerint?",
+  "options": [
+   "A térköz csökkentése, közelebb húzódás",
+   "A szemkontaktus csökkenése",
+   "A felső test hátradőlése",
+   "A feszültség jelei"
+  ],
+  "answer": "A térköz csökkentése, közelebb húzódás",
+  "explanation": "A dia jelei: csökkenő szemkontaktus, távolodás, hátradőlés, feszültség. A közelebb húzódás ennek az ellenkezője.",
+  "source": "Jegyzet 1.5 · Ea5, dia 13",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-025",
+  "chapter": 1,
+  "section": "1.6",
+  "type": "feleletvalasztos",
+  "question": "Melyik elem NEM az „információ” funkció alá tartozik a 14. dián?",
+  "options": [
+   "Csatornavezérlés",
+   "Érzelmi állapotok, érzések",
+   "Önkép, én-bemutatás",
+   "Intimitás, kedvelés"
+  ],
+  "answer": "Csatornavezérlés",
+  "explanation": "A csatornavezérlés és a társas helyzet kezelése az „interakció folyamatának szabályozása” funkció elemei.",
+  "source": "Jegyzet 1.6 · Ea5, dia 14",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-026",
+  "chapter": 1,
+  "section": "1.6",
+  "type": "rovid-valasz",
+  "question": "A nem verbális kommunikáció egyik funkciója az információközlés, a másik az … szabályozása. Egészítsd ki!",
+  "answer": [
+   "az interakció folyamatának",
+   "interakció folyamatának",
+   "interakció",
+   "az interakció folyamata"
+  ],
+  "explanation": "A 14. dia két ága: információ, illetve az interakció folyamatának szabályozása.",
+  "source": "Jegyzet 1.6 · Ea5, dia 14",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "ke2-1-027",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "rovid-valasz",
+  "question": "Melyik metaforával írja le a dramaturgiai modell a hétköznapi interakciókat?",
+  "answer": [
+   "színház",
+   "a színház metaforája",
+   "színház = világ"
+  ],
+  "explanation": "A hétköznapi interakciókat jól leírja a színház metaforája.",
+  "source": "Jegyzet 1.7 · Ea5, dia 15",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "ke2-1-028",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "igaz-hamis",
+  "question": "A homlokzatot az egyén kizárólag szándékosan használja fel az alakítás során.",
+  "answer": false,
+  "explanation": "A definíció szerint szándékosan vagy szándéktalanul használja fel.",
+  "source": "Jegyzet 1.7 · Ea5, dia 16",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-029",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "igaz-hamis",
+  "question": "A homlokzat környezeti elemei akár átmeneti jellegűek is lehetnek.",
+  "answer": true,
+  "explanation": "A dia szerint a környezet (fizikai elrendezés, bútorzat) akár átmeneti jellegű is.",
+  "source": "Jegyzet 1.7 · Ea5, dia 16",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-030",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "feleletvalasztos",
+  "question": "Egy ügyvédi iroda váróteremének berendezése (könyvespolc, bőrfotelek, asztal). A homlokzat melyik részéhez tartozik?",
+  "options": [
+   "Környezet",
+   "Személyes homlokzat",
+   "Dramaturgiai csapatmunka",
+   "Homlokzat-összeomlás"
+  ],
+  "answer": "Környezet",
+  "explanation": "A fizikai elrendezés és a bútorzat a környezet. A személyes homlokzat a ruházat, testtartás, mimika, gesztusok, hivatali jelvények stb.",
+  "source": "Jegyzet 1.7 · Ea5, dia 16",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-031",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "feleletvalasztos",
+  "question": "A homlokzat melyik elemcsoportja a következő: ruházat, testtartás, beszédsémák, hivatal vagy poszt jelvényei?",
+  "options": [
+   "Személyes homlokzat",
+   "Környezet",
+   "Csatornavezérlés",
+   "Mikro-arckifejezés"
+  ],
+  "answer": "Személyes homlokzat",
+  "explanation": "Ezek mind a személyes homlokzat elemei.",
+  "source": "Jegyzet 1.7 · Ea5, dia 16",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-032",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "rovid-valasz",
+  "question": "Egy ünnepi vacsorán a pincér leönt egy vendéget. A társaság erőltetetten viccelődik, többen idegesen nevetnek, aztán csend lesz, majd valaki témát vált, és mindenki úgy tesz, mintha mi sem történt volna. Melyik jelenséget írja le az eset?",
+  "answer": [
+   "homlokzat-összeomlás",
+   "homlokzat összeomlása",
+   "homlokzat-összeomlás és közös helyreállítás",
+   "dramaturgiai csapatmunka"
+  ],
+  "explanation": "Zavarodottság (erőltetett viccelődés, ideges nevetés, kínos csend), majd közös helyreállítás.",
+  "source": "Jegyzet 1.7 · Ea5, dia 17",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-033",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "igaz-hamis",
+  "question": "Homlokzat-összeomlás után a résztvevők közösen igyekeznek helyreállítani a helyzetet, például úgy tesznek, mintha semmi sem történt volna.",
+  "answer": true,
+  "explanation": "A dia: együtt igyekszünk helyreállítani a homlokzatot.",
+  "source": "Jegyzet 1.7 · Ea5, dia 17",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-034",
+  "chapter": 1,
+  "section": "1.7",
+  "type": "relacio",
+  "question": "Relációanalízis, 4. tétel: mi a két állítás viszonya?",
+  "statements": [
+   "A homlokzat állandó jellegű kifejezéskészlet",
+   "a homlokzat környezete soha nem lehet átmeneti jellegű."
+  ],
+  "answer": "C",
+  "explanation": "Az első állítás igaz (definíció), a második hamis: a környezet akár átmeneti jellegű is.",
+  "source": "Jegyzet 1.7 · Ea5, dia 16",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-035",
+  "chapter": 1,
+  "section": "1.8",
+  "type": "feleletvalasztos",
+  "question": "Miért jelenti a csatornák közötti ellentmondás a hazugság legfontosabb jelét?",
+  "options": [
+   "Mert a hazugság komoly mentális erőfeszítés, és nem marad energia az összes csatorna összehangolására.",
+   "Mert a hazug mindig hangosabban beszél, mint az igazat mondó.",
+   "Mert a hazug nem képes az arcát irányítani.",
+   "Mert a hazugok kerülik a szemkontaktust."
+  ],
+  "answer": "Mert a hazugság komoly mentális erőfeszítés, és nem marad energia az összes csatorna összehangolására.",
+  "explanation": "A legfontosabb jel a különböző csatornák közötti ellentmondás, mert hazudni nagy mentális erőfeszítés, és nem marad energia az összes csatorna összehangolására.",
+  "source": "Jegyzet 1.8 · Ea5, dia 33",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-036",
+  "chapter": 1,
+  "section": "1.8",
+  "type": "feleletvalasztos",
+  "question": "Melyik NEM szerepel a 22. dia hazugságra utaló alapgondolatai között?",
+  "options": [
+   "A hazug mindig kerüli a szemkontaktust.",
+   "Hazugság = nagyobb mentális erőfeszítés",
+   "A valós érzelmek nehezen leplezhetők",
+   "Stressz és feszültség jelei"
+  ],
+  "answer": "A hazug mindig kerüli a szemkontaktust.",
+  "explanation": "A dia három pontja: nagyobb mentális erőfeszítés, nehezen leplezhető valós érzelmek, stressz és feszültség jelei. Mindig érvényes szemkontaktus-szabály nem szerepel.",
+  "source": "Jegyzet 1.8 · Ea5, dia 22",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-037",
+  "chapter": 1,
+  "section": "1.8",
+  "type": "rovid-valasz",
+  "question": "Réka azt mondja a barátjának, hogy „nagyon örülök a meglepetésnek!”, közben a mosolya merev, keze ökölbe szorul, lába az ajtó felé fordul. Mi a hazugság (színlelés) legfontosabb jele ebben az esetben?",
+  "answer": [
+   "a csatornák közötti ellentmondás",
+   "ellentmondás a csatornák között",
+   "verbális és nem verbális ellentmondás",
+   "szó és test ellentmondása"
+  ],
+  "explanation": "A szavak (öröm) és a nem verbális jelek (feszültség) ellentmondanak egymásnak.",
+  "source": "Jegyzet 1.8 · Ea5, dia 33",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-038",
+  "chapter": 1,
+  "section": "1.8",
+  "type": "relacio",
+  "question": "Relációanalízis, 5. tétel: mi a két állítás viszonya?",
+  "statements": [
+   "A hazugság legfontosabb jele az arc elpirulása",
+   "hazudni nagyobb mentális erőfeszítést jelent."
+  ],
+  "answer": "D",
+  "explanation": "Az első állítás hamis (a legfontosabb jel a csatornák közötti ellentmondás), a második igaz.",
+  "source": "Jegyzet 1.8 · Ea5, dia 22, 33",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-039",
+  "chapter": 1,
+  "section": "1.9",
+  "type": "feleletvalasztos",
+  "question": "Melyik NEM tartozik a hét alapérzelem közé?",
+  "options": [
+   "Irigység",
+   "Öröm",
+   "Harag",
+   "Megvetés"
+  ],
+  "answer": "Irigység",
+  "explanation": "A hét alapérzelem: öröm, meglepetés, félelem, szomorúság, harag, megvetés, undor.",
+  "source": "Jegyzet 1.9 · Ea5, dia 25–26",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-040",
+  "chapter": 1,
+  "section": "1.9",
+  "type": "feleletvalasztos",
+  "question": "Hány alapérzelemhez tartozik a dia szerint a világ minden táján azonos arckifejezés?",
+  "options": [
+   "Hét",
+   "Öt",
+   "Hat",
+   "Nyolc"
+  ],
+  "answer": "Hét",
+  "explanation": "Hét: öröm, meglepetés, félelem, szomorúság, harag, megvetés, undor.",
+  "source": "Jegyzet 1.9 · Ea5, dia 33",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "ke2-1-041",
+  "chapter": 1,
+  "section": "1.9",
+  "type": "feleletvalasztos",
+  "question": "Hol végzett Paul Ekman a dia szerint terepkutatást az érzelemkifejezésről?",
+  "options": [
+   "Pápua Új-Guineában",
+   "Japánban",
+   "Az Egyesült Államokban",
+   "Az Amazonas vidékén"
+  ],
+  "answer": "Pápua Új-Guineában",
+  "explanation": "A szerző–terep pár: Paul Ekman – Pápua Új-Guinea.",
+  "source": "Jegyzet 1.9 · Ea5, dia 24",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "ke2-1-042",
+  "chapter": 1,
+  "section": "1.9",
+  "type": "igaz-hamis",
+  "question": "A megvetés arckifejezésében a szájszél csak az arc egyik oldalán emelkedik.",
+  "answer": true,
+  "explanation": "A megvetés az egyetlen féloldalas jelű alapérzelem.",
+  "source": "Jegyzet 1.9 · Ea5, dia 25",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-043",
+  "chapter": 1,
+  "section": "1.9",
+  "type": "igaz-hamis",
+  "question": "A harag arckifejezésének jele a felhúzott szemöldök és a tágra nyílt szem.",
+  "answer": false,
+  "explanation": "Ez a meglepetés jele. A harag: lehúzott és összehúzott szemöldök, szúrós tekintet, keskenyre szorított ajkak.",
+  "source": "Jegyzet 1.9 · Ea5, dia 25",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-044",
+  "chapter": 1,
+  "section": "1.9",
+  "type": "feleletvalasztos",
+  "question": "Amerikai és japán résztvevők egyedül, illetve egy másik személy jelenlétében néztek műtétekről szóló filmeket. Mit mutat ez az érzelemkifejezésről?",
+  "options": [
+   "Egyedül nem volt különbség; a másik jelenlétében a japánok jobban titkolták az érzelmüket, tehát a kimutatás szabályai kultúrafüggők.",
+   "Egyedül is különböztek, tehát az arckifejezések nem univerzálisak.",
+   "A japánok nem élnek át undort.",
+   "Az amerikaiak jobban titkolják az érzelmeiket társaságban."
+  ],
+  "answer": "Egyedül nem volt különbség; a másik jelenlétében a japánok jobban titkolták az érzelmüket, tehát a kimutatás szabályai kultúrafüggők.",
+  "explanation": "Nem az univerzalitás cáfolata: egyedül a veleszületett kifejezés látszik, nyilvánosan a kultúrafüggő szabályok érvényesülnek.",
+  "source": "Jegyzet 1.9 · Ea5, dia 27",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-045",
+  "chapter": 1,
+  "section": "1.9",
+  "type": "relacio",
+  "question": "Relációanalízis, 6. tétel: mi a két állítás viszonya?",
+  "statements": [
+   "Amerikai és japán résztvevők egyedül egyformán reagáltak a filmekre",
+   "az érzelemkifejezés veleszületett alapja univerzális."
+  ],
+  "answer": "A",
+  "explanation": "Mindkét állítás igaz, és az indoklás magyarázza az elsőt (egyedül: veleszületett kifejezés).",
+  "source": "Jegyzet 1.9 · Ea5, dia 27",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-046",
+  "chapter": 1,
+  "section": "1.10",
+  "type": "parositas",
+  "question": "Párosítsd az arckifejezés típusát a dia jellemzésével!",
+  "answer": [
+   [
+    "Gyenge arckifejezés",
+    "Kezdeti, gyenge, csökkenő vagy titkolt"
+   ],
+   [
+    "Részleges arckifejezés",
+    "Enyhe, csökkenő, titkolt"
+   ],
+   [
+    "Mikro-arckifejezés",
+    "Szándékosan vagy tudattalanul elnyomott érzelem"
+   ]
+  ],
+  "explanation": "A három típus a 28. dia szerint.",
+  "source": "Jegyzet 1.10 · Ea5, dia 28",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-047",
+  "chapter": 1,
+  "section": "1.10",
+  "type": "rovid-valasz",
+  "question": "Tárgyalás közben a partner arcán egy pillanatra düh villan fel (kb. egy ötöd másodperc), majd semleges arcot mutat. Melyik arckifejezés-típus ez?",
+  "answer": [
+   "mikro-arckifejezés",
+   "mikromimika",
+   "mikro-mimika",
+   "mikro arckifejezés"
+  ],
+  "explanation": "A gyors (1/5 mp), villanásnyi megjelenés az elrejteni kívánt érzelem jele.",
+  "source": "Jegyzet 1.10 · Ea5, dia 28–29",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-048",
+  "chapter": 1,
+  "section": "1.10",
+  "type": "feleletvalasztos",
+  "question": "Mi utal arra, hogy valaki olyan érzelmet mutat, amit valójában nem él át?",
+  "options": [
+   "Enyhe aszimmetria, és hiányzik a gördülékeny megjelenés és eltűnés",
+   "Gyors, kb. 1/5 másodperces arcmozgás",
+   "Szarkalábak az arc két oldalán",
+   "Felhúzott szemöldök és tágra nyílt szem"
+  ],
+  "answer": "Enyhe aszimmetria, és hiányzik a gördülékeny megjelenés és eltűnés",
+  "explanation": "Megjátszott érzelem: enyhe aszimmetria, nem gördülékeny. A gyors arcmozgás az elrejteni kívánt érzelem jele.",
+  "source": "Jegyzet 1.10 · Ea5, dia 29",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-049",
+  "chapter": 1,
+  "section": "1.10",
+  "type": "igaz-hamis",
+  "question": "A megjátszott érzelem jele a villanásnyi, kb. 1/5 másodperces megjelenés.",
+  "answer": false,
+  "explanation": "Ez az elrejtett érzelemé. A megjátszotté az enyhe aszimmetria és a nem gördülékeny megjelenés és eltűnés.",
+  "source": "Jegyzet 1.10 · Ea5, dia 29",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "ke2-1-050",
+  "chapter": 1,
+  "section": "1.9",
+  "type": "feleletvalasztos",
+  "question": "A dia ismérvei szerint minek alapján lehet az igazi mosolyt felismerni?",
+  "options": [
+   "A szem környéke: szarkalábak, felnyomott arc, a szemet körülvevő izom mozgása",
+   "A mosoly szélessége és a látható fogak száma",
+   "A szájszélek egyik oldalon magasabbra emelkedése",
+   "Az orr ráncolása és a felső ajak felhúzása"
+  ],
+  "answer": "A szem környéke: szarkalábak, felnyomott arc, a szemet körülvevő izom mozgása",
+  "explanation": "A 25. dia: az igazi mosolyban mindig benne van a szem körüli izom mozgása. A féloldalas száj a megvetés, a ráncolt orr az undor jele.",
+  "source": "Jegyzet 1.9–1.10 · Ea5, dia 25, 30–31",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-051",
+  "chapter": 1,
+  "section": "1.11",
+  "type": "feleletvalasztos",
+  "question": "Mit javasol a záró dia a saját nem verbális viselkedésünk szabályozására?",
+  "options": [
+   "Ne csak az arcunkra figyeljünk, hanem a kezünkre, lábunkra, testtartásunkra, szemkontaktusunkra és térközünkre is.",
+   "Elég az arcunkat tudatosan irányítani.",
+   "Kerüljük a szemkontaktust.",
+   "Beszéljünk lassabban, hogy a testünk ne áruljon el semmit."
+  ],
+  "answer": "Ne csak az arcunkra figyeljünk, hanem a kezünkre, lábunkra, testtartásunkra, szemkontaktusunkra és térközünkre is.",
+  "explanation": "Az arc jobban kontrollálható, ezért a többi csatornára is figyelni kell.",
+  "source": "Jegyzet 1.11 · Ea5, dia 32",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "ke2-1-052",
+  "chapter": 1,
+  "section": "1.11",
+  "type": "igaz-hamis",
+  "question": "A dia szerint a saját nem verbális viselkedésünk szabályozásához elég az arcunkra figyelni.",
+  "answer": false,
+  "explanation": "Ne csak az arcunkra figyeljünk: kéz, láb, testtartás, szemkontaktus, térköz is számít.",
+  "source": "Jegyzet 1.11 · Ea5, dia 32",
+  "official": false,
+  "difficulty": 2
+ }
+]

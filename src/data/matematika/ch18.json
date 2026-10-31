@@ -1,0 +1,197 @@
+[
+ {
+  "id": "mat-18-001",
+  "chapter": 18,
+  "section": "18.1",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Két szabályos dobókockával dobunk egymás után (az első dobás X, a második Y); 36 egyformán valószínű kimenetel van. A: az első kockával 5-öt dobunk; B: a két dobás összege 8; C: a második dobás osztható 3-mal. a) Mennyi P(A ∩ B)? b) Mennyi P(B | C)? c) Mennyi P(C | B)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "1/36",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "1/6",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "2/5",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Két kocka: események, feltételes valószínűség. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KETKOCKA-1",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Klasszikus mező, |Ω| = 36. |A∩B| = 1, |B| = 5, |C| = 12, |B∩C| = 2.",
+   "a) P(A∩B) = 1/36 = 1/36.",
+   "b) P(B|C) = |B∩C|/|C| = 2/12 = 1/6.",
+   "c) P(C|B) = |B∩C|/|B| = 2/5 = 2/5. A feltétel kerül a nevezőbe, ezért b) ≠ c).",
+   "Eredmény: a) 1/36; b) 1/6; c) 2/5."
+  ]
+ },
+ {
+  "id": "mat-18-002",
+  "chapter": 18,
+  "section": "18.2",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Két szabályos dobókockával dobunk egymás után (az első dobás X, a második Y); 36 egyformán valószínű kimenetel van. A: az első dobás nagyobb a másodiknál; B: az összeg 7; C: a második dobás páratlan. a) Mennyi P(A ∩ B)? b) Mennyi P(B | C)? c) Mennyi P(C | B)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "1/12",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "1/6",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "1/2",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Két kocka: események, feltételes valószínűség. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KETKOCKA-2",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Klasszikus mező, |Ω| = 36. |A∩B| = 3, |B| = 6, |C| = 18, |B∩C| = 3.",
+   "a) P(A∩B) = 3/36 = 1/12.",
+   "b) P(B|C) = |B∩C|/|C| = 3/18 = 1/6.",
+   "c) P(C|B) = |B∩C|/|B| = 3/6 = 1/2. A feltétel kerül a nevezőbe, ezért b) ≠ c).",
+   "Eredmény: a) 1/12; b) 1/6; c) 1/2."
+  ]
+ },
+ {
+  "id": "mat-18-003",
+  "chapter": 18,
+  "section": "18.3",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Két szabályos dobókockával dobunk egymás után (az első dobás X, a második Y); 36 egyformán valószínű kimenetel van. A: az első dobás legalább 5; B: az összeg legalább 10; C: a második dobás páros. a) Mennyi P(A ∩ B)? b) Mennyi P(B | C)? c) Mennyi P(C | B)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "5/36",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "2/9",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "2/3",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Két kocka: események, feltételes valószínűség. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KETKOCKA-3",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Klasszikus mező, |Ω| = 36. |A∩B| = 5, |B| = 6, |C| = 18, |B∩C| = 4.",
+   "a) P(A∩B) = 5/36 = 5/36.",
+   "b) P(B|C) = |B∩C|/|C| = 4/18 = 2/9.",
+   "c) P(C|B) = |B∩C|/|B| = 4/6 = 2/3. A feltétel kerül a nevezőbe, ezért b) ≠ c).",
+   "Eredmény: a) 5/36; b) 2/9; c) 2/3."
+  ]
+ },
+ {
+  "id": "mat-18-004",
+  "chapter": 18,
+  "section": "18.4",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Két szabályos dobókockával dobunk egymás után (az első dobás X, a második Y); 36 egyformán valószínű kimenetel van. A: a két dobás egyenlő; B: az összeg legfeljebb 5; C: az első dobás páros. a) Mennyi P(A ∩ B)? b) Mennyi P(B | C)? c) Mennyi P(C | B)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "1/18",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "2/9",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "2/5",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Két kocka: események, feltételes valószínűség. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KETKOCKA-4",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Klasszikus mező, |Ω| = 36. |A∩B| = 2, |B| = 10, |C| = 18, |B∩C| = 4.",
+   "a) P(A∩B) = 2/36 = 1/18.",
+   "b) P(B|C) = |B∩C|/|C| = 4/18 = 2/9.",
+   "c) P(C|B) = |B∩C|/|B| = 4/10 = 2/5. A feltétel kerül a nevezőbe, ezért b) ≠ c).",
+   "Eredmény: a) 1/18; b) 2/9; c) 2/5."
+  ]
+ },
+ {
+  "id": "mat-18-005",
+  "chapter": 18,
+  "section": "18.5",
+  "type": "szamolas",
+  "points": 10,
+  "question": "Két szabályos dobókockával dobunk egymás után (az első dobás X, a második Y); 36 egyformán valószínű kimenetel van. A: az első dobás kisebb 3-nál; B: a két szám különbsége (abszolút értékben) 2; C: a második dobás legfeljebb 3. a) Mennyi P(A ∩ B)? b) Mennyi P(B | C)? c) Mennyi P(C | B)?",
+  "fields": [
+   {
+    "label": "a)",
+    "answer": "1/18",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "b)",
+    "answer": "2/9",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   },
+   {
+    "label": "c)",
+    "answer": "1/2",
+    "accept": "frac",
+    "format": "tört vagy tizedestört"
+   }
+  ],
+  "explanation": "Módszer: Két kocka: események, feltételes valószínűség. A számítás lépésről lépésre a Levezetésben.",
+  "source": "Gyakorló feladatok, KETKOCKA-5",
+  "official": false,
+  "difficulty": 3,
+  "steps": [
+   "Klasszikus mező, |Ω| = 36. |A∩B| = 2, |B| = 8, |C| = 18, |B∩C| = 4.",
+   "a) P(A∩B) = 2/36 = 1/18.",
+   "b) P(B|C) = |B∩C|/|C| = 4/18 = 2/9.",
+   "c) P(C|B) = |B∩C|/|B| = 4/8 = 1/2. A feltétel kerül a nevezőbe, ezért b) ≠ c).",
+   "Eredmény: a) 1/18; b) 2/9; c) 1/2."
+  ]
+ }
+]

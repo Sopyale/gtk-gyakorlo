@@ -132,15 +132,15 @@ Out: own server code, third-party analytics or tracking, any content outside the
 
 ### Matematika (2. ZH)
 
-The 2. ZH is calculation tasks. The bank is the 40 practice tasks of the owner's `gyakorlo_feladatok.md` (8 task types,
-5 own variants each; the original ZH tasks are never published). Each task is a Moodle-style card: "Feladat 4.2" and
+The 2. ZH is calculation tasks. The bank is the 115 practice tasks of the owner's `gyakorlo_feladatok_v3.md` (23 task types, 5 own variants
+each: the 8 types of the practice ZH plus 15 estimated types for later note chapters; the original ZH tasks are never published). Each task is a Moodle-style card: "Feladat 4.2" and
 "10,00 pont szerezhető" in the header, the task text, then one grey number field per sub-question (a), b), c) or y =)
 with its format hint. "Ellenőrzés" shows a green tick or red cross per field, the right value for wrong fields, a
 numbered step-by-step derivation ("Levezetés", `steps`, using only the note's methods) and the one-line method; the mock
 ZH's review shows the same derivation. No partial credit: the task's points count only when every field is right. Answers accept a
 decimal comma or point, spaces as thousands separators, and fractions where the format allows (`9/13`); decimals within
 ±0.001, whole numbers (year, Ft, count) exactly, "2–4 tizedesjegy" also when rounded to 2–4 decimals, so a percentage
-form fails. The filter is by task type ("Feladattípusok"); the mock ZH draws one task per type (8 tasks, 56 points,
+form fails. The filter is by task type ("Feladattípusok"); the mock ZH draws one task per type of the 8 original types (`mock.chapters`; 8 tasks, 56 points,
 60 minutes; the real ZH's time limit is not in the sources). No flashcards or matching game (no glossary).
 
 ## 5. Data format

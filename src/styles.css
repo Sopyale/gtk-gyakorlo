@@ -237,7 +237,7 @@ kbd { font: 600 12px var(--body); border: 1px solid var(--line); border-radius: 
 .badge { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; background: color-mix(in srgb, var(--acc) 14%, transparent); color: var(--acc-text); font-weight: 600; }
 .qfig { margin: 18px auto 0; max-width: 320px; }
 .qstem:focus { outline: none; }
-.qstem { font: 600 21px/1.4 var(--body); letter-spacing: -.01em; margin: 16px 0 20px; }
+.qstem { font: 600 21px/1.4 var(--body); letter-spacing: -.01em; margin: 16px 0 20px; white-space: pre-line; }
 .opts { display: grid; gap: 10px; }
 .opts.two { grid-template-columns: 1fr 1fr; }
 .opt { display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 10px 16px; border-radius: 16px; border: 1px solid var(--line); background: var(--glass); text-align: left; font-weight: 500; font-size: 16.5px; transition: border-color var(--fast), background var(--fast), opacity var(--fast); }
@@ -270,6 +270,11 @@ kbd { font: 600 12px var(--body); border: 1px solid var(--line); border-radius: 
 .calc-row .tick { grid-column: 3; } .tick.ok { color: var(--good); } .tick.bad { color: var(--bad); }
 .calc-key { grid-column: 2 / -1; font-style: normal; font-weight: 600; color: var(--good); }
 .calc-row small { grid-column: 2 / -1; color: var(--muted); font-size: 13px; }
+/* Long field labels (Számvitel accounts): the label sits above its input instead of in a 44px column. */
+.calc.long .calc-row { grid-template-columns: minmax(0, 340px) 28px; }
+.calc.long .calc-row > span { grid-column: 1 / -1; }
+.calc.long .calc-row .tick { grid-column: 2; }
+.calc.long .calc-key, .calc.long .calc-row small { grid-column: 1 / -1; }
 .calc .btn { justify-self: start; margin-top: 4px; }
 .relacio { margin: -4px 0 14px; padding: 12px 14px; border-radius: 14px; border: 1px solid var(--line); background: var(--glass); font-size: 16.5px; line-height: 1.5; }
 .relacio b { color: var(--acc-text); letter-spacing: .06em; }

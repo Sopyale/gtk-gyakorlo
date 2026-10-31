@@ -1,0 +1,673 @@
+[
+ {
+  "id": "mn-2-001",
+  "chapter": 2,
+  "section": "2.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik meghatározás írja le a szervezést?",
+  "options": [
+   "Az elvégzendő feladatok, valamint az azokat elvégző emberek és erőforrások csoportosítása, elrendezése és összekapcsolása a legeredményesebb munkavégzés érdekében",
+   "A szervezeti célok lebontása, megvalósulásuk ellenőrzése és a szükséges korrekciók végrehajtása",
+   "A szervezeti tagok viselkedésének tudatos befolyásolása a célok eléréséért",
+   "A lehetséges jövőbeli állapotok kijelölése és a hozzájuk vezető lépések meghatározása"
+  ],
+  "answer": "Az elvégzendő feladatok, valamint az azokat elvégző emberek és erőforrások csoportosítása, elrendezése és összekapcsolása a legeredményesebb munkavégzés érdekében",
+  "explanation": "A második válasz az irányítás, a harmadik a vezetés, a negyedik a tervezés meghatározása.",
+  "source": "Jegyzet 2.1",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mn-2-002",
+  "chapter": 2,
+  "section": "2.1",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "A szervezés melyik részfunkciójába tartozik a feladatok tartalom és fontosság szerinti csoportosítása, az egységek és kapcsolataik létrehozása?",
+  "options": [
+   "Szervezeti felépítés kialakítása",
+   "Munkakörök kialakítása",
+   "Erőforrások allokálása",
+   "Kapcsolatok létrehozása"
+  ],
+  "answer": "Szervezeti felépítés kialakítása",
+  "explanation": "A felépítés az egységeket és viszonyukat rögzíti; a munkakörök a feladatelosztást, az allokálás az erőforrások hozzárendelését, a kapcsolatok az együttműködés szabályait.",
+  "source": "Jegyzet 2.1",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-003",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik NEM a három fő strukturális jellemző egyike?",
+  "options": [
+   "Motivációs rendszer",
+   "Munkamegosztás",
+   "Hatáskörmegosztás",
+   "Koordinációs eszközök"
+  ],
+  "answer": "Motivációs rendszer",
+  "explanation": "A fő jellemzők: munkamegosztás (ki mit csinál), hatáskörmegosztás (ki kit utasíthat), koordinációs eszközök (ki kivel, hogyan működik együtt).",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-004",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik strukturális jellemző válaszol arra a kérdésre, hogy „ki kit utasíthat”?",
+  "options": [
+   "Hatáskörmegosztás",
+   "Munkamegosztás",
+   "Koordináció",
+   "A hierarchia nagysága"
+  ],
+  "answer": "Hatáskörmegosztás",
+  "explanation": "A hatáskör a döntési, utasítási, beszámoltatási jogok köre; a hatáskörmegosztás rögzíti, kinél melyik jog van.",
+  "source": "Jegyzet 2.3 · 2.6",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-005",
+  "chapter": 2,
+  "section": "2.7",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik igaz a lapos szervezetre a jegyzet szerint?",
+  "options": [
+   "Legfeljebb 4 vezetési szintje van, és könnyen decentralizálható",
+   "Legfeljebb 4 vezetési szintje van, és könnyen centralizálható",
+   "4-nél több vezetési szintje van, és könnyen decentralizálható",
+   "4-nél több vezetési szintje van, és könnyen centralizálható"
+  ],
+  "answer": "Legfeljebb 4 vezetési szintje van, és könnyen decentralizálható",
+  "explanation": "Lapos: 4 vagy kevesebb szint, könnyen decentralizálható. Hierarchikus: 4-nél több szint, könnyen centralizálható.",
+  "source": "Jegyzet 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-006",
+  "chapter": 2,
+  "section": "2.10",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy kis étel-kiszállító cégnél a tulajdonos minden utasítást személyesen ad, mindenkinek egyetlen főnöke van, a kínálat egyetlen termékre épül, a környezet alig változik. Melyik szervezeti formát írja le az eset?",
+  "options": [
+   "Lineáris szervezet",
+   "Funkcionális szervezet",
+   "Divizionális szervezet",
+   "Mátrix szervezet"
+  ],
+  "answer": "Lineáris szervezet",
+  "explanation": "Kis méret, homogén kínálat, minimálisan változó környezet, egyvonalas irányítás és centralizált döntés: a lineáris szervezet feltételei és jellemzői.",
+  "source": "Jegyzet 2.10",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-007",
+  "chapter": 2,
+  "section": "2.10",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi a törzsegység feladata és jogköre?",
+  "options": [
+   "Döntéselőkészítés és információszerzés, utasítási jogkör nélkül",
+   "Döntéselőkészítés és információszerzés, szakmai kérdésekben utasítási joggal",
+   "A vonalbeli egységek közvetlen irányítása az ügyvezető távollétében",
+   "A divíziók közötti horizontális koordináció, utasítási joggal"
+  ],
+  "answer": "Döntéselőkészítés és információszerzés, utasítási jogkör nélkül",
+  "explanation": "A törzsegység a lineáris szervezet szakértői kiegészítése; tanácsot ad, de nem utasít, ezért a törzskari szervezet egyvonalas marad.",
+  "source": "Jegyzet 2.10",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-008",
+  "chapter": 2,
+  "section": "2.11",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy gyárban a dolgozót a saját osztályvezetője mellett a minőségügyi és a pénzügyi szakvezető is utasíthatja. A cég piaca stabil, a működést szigorú szabályzatok rögzítik. Melyik formára utal ez leginkább?",
+  "options": [
+   "Funkcionális szervezet",
+   "Lineáris szervezet",
+   "Divizionális szervezet",
+   "Mátrix szervezet"
+  ],
+  "answer": "Funkcionális szervezet",
+  "explanation": "Stabil környezet, magas szabályozottság, többvonalas hatáskör és technokratikus koordináció: funkcionális. A mátrixnál dinamikus a környezet, és alacsony a szabályozottság.",
+  "source": "Jegyzet 2.11 · 2.14",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-009",
+  "chapter": 2,
+  "section": "2.12",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik hátrány jellemző leginkább a divizionális szervezetre?",
+  "options": [
+   "Párhuzamos funkciók és az ebből fakadó létszámnövekedés",
+   "Lassú válaszok és reakciók a változó környezetre a szigorú szabályozottság miatt",
+   "A döntések és a felelősségvállalás áthárítása a két főnök között",
+   "Az ügyvezető túlterheltsége és a kommunikáció kizárólag a szolgálati úton"
+  ],
+  "answer": "Párhuzamos funkciók és az ebből fakadó létszámnövekedés",
+  "explanation": "A második válasz a funkcionális, a harmadik a mátrix, a negyedik a lineáris szervezet hátránya. A divíziók saját funkciókat tartanak fenn.",
+  "source": "Jegyzet 2.12 · 2.14",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-010",
+  "chapter": 2,
+  "section": "2.13",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik kulcsszó kapcsolódik a mátrix szervezethez?",
+  "options": [
+   "Egy beosztott, két főnök",
+   "Divízióegoizmus",
+   "Túlterhelt ügyvezető",
+   "Rekeszelő hatás"
+  ],
+  "answer": "Egy beosztott, két főnök",
+  "explanation": "A mátrixban a beosztott egyszerre tartozik a funkcióhoz és a projekthez. A többi kulcsszó a divizionális, illetve a lineáris formához kötődik.",
+  "source": "Jegyzet 2.13 · 2.14",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-011",
+  "chapter": 2,
+  "section": "2.8",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik koordinációs eszköz-csoport a meghatározó a mátrix szervezetben?",
+  "options": [
+   "Személyorientált eszközök",
+   "Kizárólag formalizált útmutatók és költségvetési rendszerek",
+   "Hatalmi eszközök a szolgálati úton",
+   "Technokratikus tervek és menetrendek"
+  ],
+  "answer": "Személyorientált eszközök",
+  "explanation": "A mátrix alacsony szabályozottságú és rugalmas, ezért nem a szabály, hanem a kommunikáció, az egyeztetés, a közös értékek és az emberek a meghatározók.",
+  "source": "Jegyzet 2.8 · 2.13",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-012",
+  "chapter": 2,
+  "section": "2.8",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy vállalat részlegeit havi költségvetés, írásos éves terv és részletes menetrend hangolja össze. Melyik koordinációs eszköztípus ez?",
+  "options": [
+   "Technokratikus",
+   "Strukturális",
+   "Személyorientált",
+   "Hatalmi"
+  ],
+  "answer": "Technokratikus",
+  "explanation": "Az írásos szabályok, tervek, költségvetések technokratikus eszközök.",
+  "source": "Jegyzet 2.8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-013",
+  "chapter": 2,
+  "section": "2.8",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Egy cég a koordinációt főként erős szervezeti kultúrával, belső képzéssel és személyiség szerint kiválasztott vezetőkkel éri el. Melyik eszköztípus ez?",
+  "options": [
+   "Személyorientált",
+   "Technokratikus",
+   "Strukturális",
+   "Formalizált"
+  ],
+  "answer": "Személyorientált",
+  "explanation": "A személyorientált eszközök az egyének szervezettel való azonosulását célozzák (értékrend, kultúra, képzés, vezetői személyiség).",
+  "source": "Jegyzet 2.8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-014",
+  "chapter": 2,
+  "section": "2.9",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "A diák szerint melyik szervezeti forma sorolható részben a statikus, részben a rugalmas formák közé?",
+  "options": [
+   "Divizionális",
+   "Lineáris",
+   "Funkcionális",
+   "Mátrix"
+  ],
+  "answer": "Divizionális",
+  "explanation": "A divizionális mindkét csoportban szerepel „részben”; a lineáris és a funkcionális statikus, a mátrix rugalmas.",
+  "source": "Jegyzet 2.9",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-015",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik NEM előnye a munkaköri specializációnak?",
+  "options": [
+   "Csökken a monotonitás, ezért kevesebb a hiányzás",
+   "Nagy jártasság alakul ki a kis, egyszerű feladatokban",
+   "Csökken a feladatok közötti átállási idő",
+   "Könnyebb és olcsóbb pótolni a kieső munkaerőt"
+  ],
+  "answer": "Csökken a monotonitás, ezért kevesebb a hiányzás",
+  "explanation": "A specializáció hátránya éppen a monotonitás: unalom, elégedetlenség, nagyobb hiányzás, rosszabb minőség.",
+  "source": "Jegyzet 2.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-016",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik megoldás enyhítheti a túlzott specializáció hátrányait?",
+  "options": [
+   "Munkaköri rotáció",
+   "Hatáskör központosítása",
+   "Törzsegység létrehozása",
+   "A hierarchia szintjeinek növelése"
+  ],
+  "answer": "Munkaköri rotáció",
+  "explanation": "A rotáció és a munkakörbővítés a monotonitás ellen hat.",
+  "source": "Jegyzet 2.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-017",
+  "chapter": 2,
+  "section": "2.5",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Mi a termék, a vevő és a régió szerinti részlegesítés közös hátránya?",
+  "options": [
+   "Nagyobb adminisztratív személyzet és költség, mert a funkciók több egységben is megjelennek",
+   "A szervezet növekedésével lassabb döntéshozatal és szűk látókör",
+   "Az egységek közötti koordináció teljes hiánya",
+   "Az egységek nem értékelhetők objektíven"
+  ],
+  "answer": "Nagyobb adminisztratív személyzet és költség, mert a funkciók több egységben is megjelennek",
+  "explanation": "A lassabb döntés és szűk látókör a funkcionális elv hátránya; a tárgyi elveknél minden egységnek saját szakember kell.",
+  "source": "Jegyzet 2.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-018",
+  "chapter": 2,
+  "section": "2.7",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik a decentralizáció előnye?",
+  "options": [
+   "A döntés ott születik, ahol a megoldáshoz szükséges információ rendelkezésre áll",
+   "Egységes döntési akarat érvényesül",
+   "Az erőforrások racionalizálása könnyebb",
+   "Kizárja a „rövidlátás” veszélyét"
+  ],
+  "answer": "A döntés ott születik, ahol a megoldáshoz szükséges információ rendelkezésre áll",
+  "explanation": "Az első két másik válasz a centralizáció előnye; a rövidlátás veszélye a decentralizáció hátránya.",
+  "source": "Jegyzet 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-019",
+  "chapter": 2,
+  "section": "2.6",
+  "type": "feleletvalasztos",
+  "points": 1,
+  "question": "Melyik állítás igaz a delegálás és a decentralizáció viszonyára?",
+  "options": [
+   "A delegálás egy vezető egyedi lépése a munkaterhelése átadására, a decentralizáció az egész szervezetre jellemző tartós állapot",
+   "A delegálás az egész szervezetre jellemző tartós állapot, a decentralizáció egy vezető egyedi lépése",
+   "A két fogalom ugyanazt jelenti, csak a szervezet méretében különböznek",
+   "A delegálás csak többvonalas szervezetben lehetséges"
+  ],
+  "answer": "A delegálás egy vezető egyedi lépése a munkaterhelése átadására, a decentralizáció az egész szervezetre jellemző tartós állapot",
+  "explanation": "A delegálás személyes, egyedi lépés; a decentralizáció a döntési jogok rendszerszintű átruházása.",
+  "source": "Jegyzet 2.6 · 2.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-020",
+  "chapter": 2,
+  "section": "2.10",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az IGAZ állításokat a lineáris szervezetről! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "Egyvonalas irányítás jellemzi.",
+    "answer": true
+   },
+   {
+    "text": "A koordináció a szolgálati úton, hatalmi eszközökkel történik.",
+    "answer": true
+   },
+   {
+    "text": "A törzsegység utasíthatja a beosztottakat.",
+    "answer": false
+   },
+   {
+    "text": "Feltétele a kis méret, a homogén kínálat és a minimálisan változó környezet.",
+    "answer": true
+   },
+   {
+    "text": "Új feladatokhoz rugalmasan alkalmazkodik, ezért nincs szükség új egységekre.",
+    "answer": false
+   }
+  ],
+  "explanation": "A lineáris szervezet nem rugalmas: új feladatnál rendszerint új egységet hoz létre. A törzsegységnek nincs utasítási joga.",
+  "source": "Jegyzet 2.10",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-021",
+  "chapter": 2,
+  "section": "2.12",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az IGAZ állításokat a divizionális szervezetről! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "A divíziók között nincs horizontális koordináció.",
+    "answer": true
+   },
+   {
+    "text": "A stratégiai döntések a vállalat vezetésénél vannak.",
+    "answer": true
+   },
+   {
+    "text": "A divízióegoizmus a funkcionális szervezet jellemző hátránya.",
+    "answer": false
+   },
+   {
+    "text": "A rekeszelő hatás előnyként csökkenti a piaci kockázatot.",
+    "answer": true
+   },
+   {
+    "text": "A divízión belül a döntések decentralizáltak.",
+    "answer": false
+   }
+  ],
+  "explanation": "A divízióegoizmus a divizionális hátrány. A központ és a divíziók között decentralizált a döntés, a divízión belül viszont centralizált.",
+  "source": "Jegyzet 2.12",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-022",
+  "chapter": 2,
+  "section": "2.5",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelölje meg az IGAZ állításokat a részlegesítési elvekről! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "A funkció szerinti elv előnye a szakterületi jártasság és a részlegen belüli könnyebb koordináció.",
+    "answer": true
+   },
+   {
+    "text": "A funkció szerinti elv hátránya, hogy a szervezet növekedésével lassul a döntéshozatal.",
+    "answer": true
+   },
+   {
+    "text": "A termék szerinti elv fő hátránya a lassú döntéshozatal.",
+    "answer": false
+   },
+   {
+    "text": "A vevők szerinti elv előnye a képzett szakemberek az egyedi ügyféligények kezelésére.",
+    "answer": true
+   },
+   {
+    "text": "A földrajzi elv hátránya a koordinációs kihívás és a nagyobb adminisztratív személyzet.",
+    "answer": true
+   }
+  ],
+  "explanation": "A termék szerinti elvnél a döntés gyorsabb; hátránya a saját termékcsoportra szűkülő fókusz és a magas adminisztratív költség.",
+  "source": "Jegyzet 2.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-023",
+  "chapter": 2,
+  "section": "2.7",
+  "type": "tobbszoros",
+  "points": 4,
+  "question": "Jelölje meg az IGAZ állításokat a centralizációról és a hierarchiáról! (Több is igaz lehet.)",
+  "statements": [
+   {
+    "text": "A hierarchikus szervezetben 4-nél több vezetési szint van.",
+    "answer": true
+   },
+   {
+    "text": "A hierarchikus szervezet könnyen centralizálható.",
+    "answer": true
+   },
+   {
+    "text": "Szűk irányítási sáv mellett kevés vezetési szint alakul ki.",
+    "answer": false
+   },
+   {
+    "text": "A decentralizáció veszélye a „rövidlátás” és a konfliktusok.",
+    "answer": true
+   },
+   {
+    "text": "A delegálás az egész szervezetre jellemző, tartós állapot.",
+    "answer": false
+   }
+  ],
+  "explanation": "Szűk irányítási sáv sok szintet ad (hierarchikus), széles sáv kevés szintet (lapos). A delegálás egyedi vezetői lépés.",
+  "source": "Jegyzet 2.7",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-024",
+  "chapter": 2,
+  "section": "2.14",
+  "type": "parositas",
+  "points": 5,
+  "question": "Párosítsa a szervezeti formákat a hozzájuk tartozó kulcsszóval!",
+  "answer": [
+   [
+    "Lineáris",
+    "túlterhelt ügyvezető"
+   ],
+   [
+    "Funkcionális",
+    "szakértelem, de lassúság"
+   ],
+   [
+    "Divizionális",
+    "divízióegoizmus"
+   ],
+   [
+    "Mátrix",
+    "egy beosztott, két főnök"
+   ]
+  ],
+  "explanation": "Mindegyik forma jellemző kulcsszava a 2.14 összehasonlító táblából származik.",
+  "source": "Jegyzet 2.14",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-025",
+  "chapter": 2,
+  "section": "2.8",
+  "type": "parositas",
+  "points": 3,
+  "question": "Párosítsa a koordinációs eszközöket a típusukkal!",
+  "answer": [
+   [
+    "Éves költségvetés és írásos munkaterv",
+    "technokratikus"
+   ],
+   [
+    "Projektteam és termékmenedzser",
+    "strukturális"
+   ],
+   [
+    "Erős szervezeti értékrend és belső képzés",
+    "személyorientált"
+   ]
+  ],
+  "explanation": "Írásos szabály, terv, költségvetés: technokratikus; hierarchia, team, termékmenedzser: strukturális; kultúra, képzés: személyorientált.",
+  "source": "Jegyzet 2.8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mn-2-026",
+  "chapter": 2,
+  "section": "2.5",
+  "type": "parositas",
+  "points": 5,
+  "question": "Párosítsa a példákat a részlegesítési elvvel!",
+  "answer": [
+   [
+    "Pénzügyi és marketing osztály egy gyártócégnél",
+    "funkció szerint"
+   ],
+   [
+    "Üdítő- és snackgyártó üzletág",
+    "termék szerint"
+   ],
+   [
+    "Lakossági és vállalati ügyfélkapcsolati részleg",
+    "vevők szerint"
+   ],
+   [
+    "Északi és déli értékesítési terület",
+    "földrajzi helyszín szerint"
+   ]
+  ],
+  "explanation": "A funkció a tevékenység jellege szerint, a termék, vevő, régió pedig tárgyi elv szerint csoportosít.",
+  "source": "Jegyzet 2.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-027",
+  "chapter": 2,
+  "section": "2.10",
+  "type": "kifejtos",
+  "points": 4,
+  "question": "Egy családi pékség öt dolgozóval működik, minden döntést a tulajdonos hoz, egyetlen terméket készítenek, a vevőkör állandó. Melyik szervezeti forma illik rá? Indokolja egy mondatban!",
+  "answer": [
+   "Fogalom (2 p): Lineáris szervezet.",
+   "Indoklás (2 p): Kis méretű, homogén kínálatú, minimálisan változó környezetű szervezet, egyvonalas irányítással és centralizált döntéssel."
+  ],
+  "explanation": "Ez a lineáris forma feltételrendszere; a tulajdonos túlterheltsége lehet a következő feszültség. Kulcsszavak az indoklásban: kis méret · homogén kínálat · egyvonalas / centralizált",
+  "source": "Jegyzet 2.10",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-028",
+  "chapter": 2,
+  "section": "2.13",
+  "type": "kifejtos",
+  "points": 4,
+  "question": "Egy fejlesztőcégnél minden informatikus egyszerre tartozik a szakmai csoportjához és az éppen futó projekthez, tehát két vezetője van; a környezet gyorsan változik. Melyik szervezeti formát írja le az eset? Indokolja egy mondatban!",
+  "answer": [
+   "Fogalom (2 p): Mátrix szervezet.",
+   "Indoklás (2 p): Két munkamegosztási elv (funkció és projekt) érvényesül egyenrangúan, a beosztottnak két főnöke van, a környezet dinamikusan változik."
+  ],
+  "explanation": "A „egy beosztott, két főnök” a mátrix kulcsmondata; innovációs igény és dinamikus környezet a feltétele. Kulcsszavak az indoklásban: két dimenzió · két főnök / többvonalas · dinamikus környezet",
+  "source": "Jegyzet 2.13",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-029",
+  "chapter": 2,
+  "section": "2.10",
+  "type": "kifejtos",
+  "points": 4,
+  "question": "Egy kisvállalat ügyvezetője túlterhelt, ezért felvesz két szakértőt (jogász, informatikus), akik előkészítik a döntéseit, de a dolgozókat nem utasíthatják. Melyik formára alakult át a szervezet? Indokolja egy mondatban!",
+  "answer": [
+   "Fogalom (2 p): Törzskari szervezet.",
+   "Indoklás (2 p): A lineáris szervezet szakértőkből álló törzsegységgel egészült ki, amely döntést készít elő és információt gyűjt, de utasítási jogköre nincs."
+  ],
+  "explanation": "A törzsegység a lineáris forma túlterheltségi problémájára ad választ. Kulcsszavak az indoklásban: törzsegység · nincs utasítási jog · lineáris marad",
+  "source": "Jegyzet 2.10",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-030",
+  "chapter": 2,
+  "section": "2.13",
+  "type": "kifejtos",
+  "points": 9,
+  "question": "Mutassa be a mátrix szervezetet! (5–8 mondat)",
+  "answer": [
+   "Kialakulás: a II. világháború után, projektalapú működés, termékmenedzser megjelenése; legalább két alapvető munkamegosztási elv egyenrangúan (kétdimenziós szervezet).",
+   "Jellemző: egy beosztott, két főnök; többvonalas irányítás; funkcionális és tárgyi szemléletű vezetők együtt döntenek; decentralizált, alacsony szabályozottságú.",
+   "Koordináció: horizontális és vertikális; a személyorientált eszközök meghatározók.",
+   "Feltétel: dinamikusan változó környezet, innovációs igény.",
+   "Előnyök: adaptív, innovatív, szélesebb horizont, pozitív konfliktuskezelés mint tanulási folyamat.",
+   "Hátrányok: állandó konfliktus és hatalmi rivalizálás, áthárított felelősség, elhúzódó döntések (különösen krízisben)."
+  ],
+  "explanation": "Pontozás (saját becslés, nem hivatalos): jellemzők 3 p · feltétel 1 p · koordináció 1 p · előnyök 2 p · hátrányok 2 p.",
+  "source": "Jegyzet 2.13",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mn-2-031",
+  "chapter": 2,
+  "section": "2.11",
+  "type": "kifejtos",
+  "points": 9,
+  "question": "Hasonlítsa össze a funkcionális és a divizionális szervezetet munkamegosztás, hatáskör és koordináció szerint! (5–8 mondat)",
+  "answer": [
+   "Funkcionális: stabil környezet, elsődlegesen funkciók szerinti munkamegosztás; divizionális: viszonylag dinamikus környezet, tárgyi elv (termék, vevő, régió), a divízión belül funkciók szerint.",
+   "Hatáskör: funkcionális többvonalas, erősen szabályozott; divizionális: a központ és a divíziók között decentralizált, a divízión belül centralizált.",
+   "Koordináció: a funkcionálisban vertikális és azonos szinten horizontális, technokratikus; a divíziók között nincs horizontális koordináció, technokratikus eszközök (tervek, költségvetések).",
+   "Előny: funkcionális – szakértelem, termelékenység; divizionális – piaci orientáció, rekeszelő hatás, egyértelmű célok.",
+   "Hátrány: funkcionális – lassú reakció, funkcionális fókusz; divizionális – párhuzamos funkciók, divízióegoizmus.",
+   "Típus: a funkcionális statikus, a divizionális részben statikus, részben rugalmas."
+  ],
+  "explanation": "Pontozás (saját becslés, nem hivatalos): feltétel és munkamegosztás 2 p · hatáskör 2 p · koordináció 2 p · előny-hátrány 3 p.",
+  "source": "Jegyzet 2.11 · 2.12 · 2.14",
+  "official": false,
+  "difficulty": 3
+ }
+]

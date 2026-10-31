@@ -1,0 +1,432 @@
+[
+ {
+  "id": "mk-2-001",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "igaz-hamis",
+  "question": "A piac szegmentálása a termékek kisebb, homogén csoportokba rendezése.",
+  "answer": false,
+  "explanation": "A szegmentáció a vásárlókat csoportosítja, nem a termékeket.",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-2-002",
+  "chapter": 2,
+  "section": "2.3",
+  "type": "igaz-hamis",
+  "question": "A jó szegmentálásban a szegmensek között látható különbségek vannak (heterogenitás), a szegmenseken belül pedig látható hasonlóságok (homogenitás).",
+  "answer": true,
+  "explanation": "Heterogenitás a szegmensek között, homogenitás a szegmensen belül; ezt könnyű megfordítani.",
+  "source": "Jegyzet 2.3",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-003",
+  "chapter": 2,
+  "section": "2.1",
+  "type": "feleletvalasztos",
+  "question": "Melyik megfogalmazás jellemzi a tömegmarketinget?",
+  "options": [
+   "Nem szegmentál: ugyanazt a terméket ugyanazokkal a csatornákkal és reklámmal próbálja eladni az egész piacnak.",
+   "Minden vevőnek egyedi terméket és egyedi üzenetet kínál.",
+   "Egyetlen szűk szegmensre szakosodik.",
+   "A vevők magatartása alapján négy csoportot alakít ki."
+  ],
+  "answer": "Nem szegmentál: ugyanazt a terméket ugyanazokkal a csatornákkal és reklámmal próbálja eladni az egész piacnak.",
+  "explanation": "Alapkoncepciója az „One Size Fits All”; előnye az alacsony költség, ma viszont a különböző fogyasztói csoportok és a verseny miatt nehéz.",
+  "source": "Jegyzet 2.1",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mk-2-004",
+  "chapter": 2,
+  "section": "2.2",
+  "type": "feleletvalasztos",
+  "question": "Melyik az értékvezérelt marketingstratégia lépéseinek helyes sorrendje?",
+  "options": [
+   "szegmentálás → targetálás → differenciálás → pozicionálás",
+   "pozicionálás → szegmentálás → targetálás → differenciálás",
+   "targetálás → differenciálás → szegmentálás → pozicionálás",
+   "differenciálás → szegmentálás → pozicionálás → targetálás"
+  ],
+  "answer": "szegmentálás → targetálás → differenciálás → pozicionálás",
+  "explanation": "Előbb a megcélzott vevők kiválasztása (szegmentálás, targetálás), azután az értékajánlat (differenciálás, pozicionálás).",
+  "source": "Jegyzet 2.2",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-2-005",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "parositas",
+  "question": "Párosítsd a szegmentálási kritériumot egy hozzá tartozó változóval!",
+  "answer": [
+   [
+    "földrajzi",
+    "éghajlat"
+   ],
+   [
+    "demográfiai",
+    "foglalkozás"
+   ],
+   [
+    "pszichográfiai",
+    "életstílus"
+   ],
+   [
+    "magatartási",
+    "használat mértéke"
+   ]
+  ],
+  "explanation": "A négy kritérium: földrajzi, demográfiai, pszichográfiai, magatartási.",
+  "source": "Jegyzet 2.4",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-2-006",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "feleletvalasztos",
+  "question": "Melyik pár mindkét tagja könnyen mérhető, de nem jósolja meg elég jól a fogyasztói magatartást?",
+  "options": [
+   "földrajzi és demográfiai szegmentálás",
+   "pszichográfiai és magatartási szegmentálás",
+   "földrajzi és magatartási szegmentálás",
+   "demográfiai és pszichográfiai szegmentálás"
+  ],
+  "answer": "földrajzi és demográfiai szegmentálás",
+  "explanation": "A földrajzi és demográfiai könnyen mérhető, de gyenge előrejelző; a pszichográfiai elég jó, a magatartási nagyon jó előrejelző, ám nehezebben mérhető.",
+  "source": "Jegyzet 2.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-007",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "rovid-valasz",
+  "question": "Egy webshop azt nézi, hogy a vevői karácsonykor, évfordulókra vagy csak hétköznap vásárolnak, és eszerint csoportosítja őket. Melyik szegmentálási kritériumhoz tartozik ez?",
+  "answer": [
+   "magatartási (viselkedési) szegmentálás, felhasználási alkalmak szerint",
+   "magatartási",
+   "viselkedési",
+   "magatartási szegmentálás",
+   "felhasználási alkalom",
+   "felhasználási alkalmak szerint"
+  ],
+  "explanation": "A magatartási kritérium változói közé tartozik a felhasználási alkalom: mikor merül fel az igény, mikor vásárolják vagy használják a terméket.",
+  "source": "Jegyzet 2.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-008",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "parositas",
+  "question": "Párosítsd a magatartási változót azzal, hogyan csoportosít!",
+  "answer": [
+   [
+    "használat mértéke",
+    "gyenge, közepes és erős felhasználók"
+   ],
+   [
+    "márkahűség",
+    "erősen hűek, váltogatók, elhagyók, váltók"
+   ],
+   [
+    "felhasználói státusz",
+    "nem használók, ex-felhasználók, potenciális, első és rendszeres felhasználók"
+   ],
+   [
+    "hasznosság",
+    "a terméktől várt előnyök szerint"
+   ]
+  ],
+  "explanation": "Az öt magatartási változó: felhasználási alkalmak, hasznosság, felhasználói státusz, használat mértéke, márkahűség.",
+  "source": "Jegyzet 2.4",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-009",
+  "chapter": 2,
+  "section": "2.5",
+  "type": "tobbszoros",
+  "points": 5,
+  "question": "Jelöld meg az igaz állításokat a hatékony szegmentáció kritériumairól!",
+  "statements": [
+   {
+    "text": "A szegmens mérete és vásárlóereje mérhető.",
+    "answer": true
+   },
+   {
+    "text": "A szegmens eltérően reagál az egyes marketingmix-elemekre.",
+    "answer": true
+   },
+   {
+    "text": "A szegmens hatékonyan elérhető és kiszolgálható.",
+    "answer": true
+   },
+   {
+    "text": "Elég, ha a szegmens nagy, a jövedelmezősége mellékes.",
+    "answer": false
+   },
+   {
+    "text": "A szegmens ugyanúgy reagál minden ajánlatra, mint a többi szegmens.",
+    "answer": false
+   }
+  ],
+  "explanation": "A méretnél a szegmensnek kellően nagynak és jövedelmezőnek kell lennie, és a megkülönböztethetőség éppen az eltérő reakcióról szól.",
+  "source": "Jegyzet 2.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-010",
+  "chapter": 2,
+  "section": "2.5",
+  "type": "feleletvalasztos",
+  "question": "Melyik NEM a hatékony szegmentáció kritériuma?",
+  "options": [
+   "demográfiai jelleg",
+   "mérhetőség",
+   "kezelhetőség",
+   "elérhetőség"
+  ],
+  "answer": "demográfiai jelleg",
+  "explanation": "A demográfiai a szegmentálási kritériumok (mi alapján osztunk) egyike. A hatékony szegmentáció kritériumai azt mondják meg, hogy a kapott szegmens jó-e: mérhető, elérhető, méret, megkülönböztethető, kezelhető.",
+  "source": "Jegyzet 2.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-011",
+  "chapter": 2,
+  "section": "2.4",
+  "type": "igaz-hamis",
+  "question": "A földrajzi, demográfiai, pszichográfiai és magatartási szempontok azt mutatják meg, hogy a kapott szegmens elég jó-e a kiszolgálásra.",
+  "answer": false,
+  "explanation": "Ezek azt mondják meg, mi alapján osztjuk fel a piacot; a szegmens jóságát a hatékony szegmentáció öt kritériuma ítéli meg.",
+  "source": "Jegyzet 2.4 · 2.5",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-012",
+  "chapter": 2,
+  "section": "2.6",
+  "type": "feleletvalasztos",
+  "question": "Melyik a három szempont, amely szerint a piaci szegmenseket a célpiac-meghatározásnál értékelik?",
+  "options": [
+   "a szegmens mérete és növekedése · a szegmens általános vonzereje · a cég céljai és erőforrásai",
+   "a szegmens földrajzi helye · a vevők kora · a termék ára",
+   "a szegmens mérhetősége · elérhetősége · kezelhetősége",
+   "a márka ismertsége · imázsa · hűsége"
+  ],
+  "answer": "a szegmens mérete és növekedése · a szegmens általános vonzereje · a cég céljai és erőforrásai",
+  "explanation": "A második és harmadik lehetőség a kritériumokat (2.4, 2.5) keveri, a negyedik a márkához tartozik.",
+  "source": "Jegyzet 2.6",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-2-013",
+  "chapter": 2,
+  "section": "2.6",
+  "type": "igaz-hamis",
+  "question": "A stratégiai piac meghatározásánál a potenciális piacra is hangsúlyt helyez a cég, nem csak a termék jelenlegi piacára.",
+  "answer": true,
+  "explanation": "A célpiaci meghatározás jellemzően a jelenlegi piacra koncentrál, a stratégiai piac a potenciálisat is figyelembe veszi.",
+  "source": "Jegyzet 2.6",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-2-014",
+  "chapter": 2,
+  "section": "2.7",
+  "type": "parositas",
+  "question": "Párosítsd a célpiac-stratégiát a termék × szegmens mátrixbeli jellemzőjével!",
+  "answer": [
+   [
+    "differenciálatlan (tömeg-) marketing",
+    "minden termék minden szegmensnek"
+   ],
+   [
+    "termékszakosodás",
+    "egy termék több szegmensnek"
+   ],
+   [
+    "piacszakosodás",
+    "több termék egyetlen szegmensnek"
+   ],
+   [
+    "koncentrált (niche) marketing",
+    "egy termék egyetlen szegmensnek"
+   ]
+  ],
+  "explanation": "A név mondja meg, mire szakosodik a cég: termékre (egy termék, sok szegmens) vagy piacra (egy szegmens, sok termék).",
+  "source": "Jegyzet 2.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-015",
+  "chapter": 2,
+  "section": "2.7",
+  "type": "feleletvalasztos",
+  "question": "Egy cipőbolt kizárólag futócipőket árul, de a vásárlók minden csoportjának, a gyerekektől a nyugdíjasokig. Melyik célpiac-stratégia ez?",
+  "options": [
+   "differenciált marketing, termékszakosodás",
+   "differenciált marketing, piacszakosodás",
+   "koncentrált (niche) marketing",
+   "differenciálatlan marketing"
+  ],
+  "answer": "differenciált marketing, termékszakosodás",
+  "explanation": "Egy termék, több szegmens. Piacszakosodásnál fordítva lenne: egy vevőcsoport, sok termék.",
+  "source": "Jegyzet 2.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-016",
+  "chapter": 2,
+  "section": "2.7",
+  "type": "feleletvalasztos",
+  "question": "Egy drogéria csak egyetemista nőknek kínál sampont, testápolót, arcápolót és napkrémet. Melyik stratégia ez?",
+  "options": [
+   "piacszakosodás",
+   "termékszakosodás",
+   "szelektív specializáció",
+   "differenciálatlan marketing"
+  ],
+  "answer": "piacszakosodás",
+  "explanation": "Egyetlen szegmens, több termék.",
+  "source": "Jegyzet 2.7",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-017",
+  "chapter": 2,
+  "section": "2.7",
+  "type": "igaz-hamis",
+  "question": "A mikromarketing lehet helyi vagy egyéni (személyre szabott) marketing.",
+  "answer": true,
+  "explanation": "A mikromarketing a célpiac-stratégiák legszűkebb foka; helyi vagy egyéni formában valósul meg.",
+  "source": "Jegyzet 2.7",
+  "official": false,
+  "difficulty": 1
+ },
+ {
+  "id": "mk-2-018",
+  "chapter": 2,
+  "section": "2.8",
+  "type": "igaz-hamis",
+  "question": "A pozicionálás célja, hogy a célcsoportban a cégről vagy termékeiről olyan egyedi kép alakuljon ki, amely a cég erős pontjaira utal és a relatív versenyelőnyt fejezi ki.",
+  "answer": true,
+  "explanation": "A pozicionálás a versenytársakhoz képest meghatározza a cég helyét a vevők tudatában.",
+  "source": "Jegyzet 2.8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-2-019",
+  "chapter": 2,
+  "section": "2.8",
+  "type": "feleletvalasztos",
+  "question": "Melyik leírja helyesen a POP-ot (points of parity)?",
+  "options": [
+   "Olyan jellemző vagy előny, amely nem egyedi, más márkákhoz is kapcsolódik.",
+   "Olyan erős, kedvező és egyedi asszociáció, amelyet a konkurensek nem teljesítenek.",
+   "A márka pénzben kifejezett értékének becslése.",
+   "A vevők legnagyobb csoportja egy szegmensen belül."
+  ],
+  "answer": "Olyan jellemző vagy előny, amely nem egyedi, más márkákhoz is kapcsolódik.",
+  "explanation": "A POD (points of difference) az egyedi megkülönböztető elem, a POP az, amiben a márka ugyanolyan, mint a kategória többi tagja.",
+  "source": "Jegyzet 2.8",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-020",
+  "chapter": 2,
+  "section": "2.8",
+  "type": "rovid-valasz",
+  "question": "A pozicionálási mondat sablonjában („A … számára … a …, ami …”) melyik elem mondja meg, miben más a márka, mint a kategória többi tagja?",
+  "answer": [
+   "a megkülönböztető elem (POD)",
+   "megkülönböztető elem",
+   "POD",
+   "points of difference",
+   "az utolsó rész"
+  ],
+  "explanation": "A „fogalom” a kategóriát nevezi meg (mi a termék), a megkülönböztető elem azt, miben más. A tipikus hiba, hogy a megkülönböztető elem helyére is a kategóriát írják.",
+  "source": "Jegyzet 2.8",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-021",
+  "chapter": 2,
+  "section": "2.8",
+  "type": "feleletvalasztos",
+  "question": "Az értékajánlat-mátrix (ár × előnyök) melyik mezője a vesztes értékajánlat?",
+  "options": [
+   "többért ugyanannyit",
+   "ugyanannyiért többet",
+   "kevesebbért többet",
+   "sokkal kevesebbért kevesebbet"
+  ],
+  "answer": "többért ugyanannyit",
+  "explanation": "Drágább, de nem ad többet: nincs mivel igazolni a magasabb árat. A többi nyerő értékajánlat.",
+  "source": "Jegyzet 2.8",
+  "official": false,
+  "difficulty": 3
+ },
+ {
+  "id": "mk-2-022",
+  "chapter": 2,
+  "section": "2.8",
+  "type": "rovid-valasz",
+  "question": "Hogyan nevezzük azt az ábrát, amely megmutatja, hogyan érzékelik a fogyasztók a márkákat a fontos vásárlási dimenziók mentén egymáshoz képest?",
+  "answer": [
+   "percepciós (pozicionálási) térkép",
+   "percepciós térkép",
+   "pozicionálási térkép",
+   "percepciós/pozicionálási térkép"
+  ],
+  "explanation": "A vevők fejében lévő képet rajzolja le; az üres terület lehetséges új pozíciót jelez.",
+  "source": "Jegyzet 2.8",
+  "official": false,
+  "difficulty": 2
+ },
+ {
+  "id": "mk-2-023",
+  "chapter": 2,
+  "section": "2.2",
+  "type": "kifejtos",
+  "points": 10,
+  "question": "Mutasd be az értékvezérelt marketingstratégia (STP) négy lépését, és add meg, mi a különbség a szegmentálási kritériumok és a hatékony szegmentáció kritériumai között.",
+  "answer": [
+   "Definíció: az értékvezérelt stratégia először a megcélzott vevőket választja ki, azután dönt az értékajánlatról.",
+   "Szegmentálás: a piac kisebb, homogén vevőcsoportokra bontása; Targetálás: a megcélzott szegmens(ek) kiválasztása.",
+   "Differenciálás: a kínálat megkülönböztetése; Pozicionálás: a kínálat elhelyezése a célpiaci vevők fejében.",
+   "Szegmentálási kritériumok (4): földrajzi, demográfiai, pszichográfiai, magatartási: mi alapján osztunk.",
+   "Hatékony szegmentáció kritériumai (5): mérhetőség, elérhetőség, méret, megkülönböztethetőség, kezelhetőség: a kapott szegmens jó-e.",
+   "Példa (saját): egy fitneszalkalmazás életstílus (pszichográfiai) szerint szegmentál, és ellenőrzi, hogy a szegmens elég nagy és elérhető-e.",
+   "Kapcsolódás: a pozicionálás eredménye az értékajánlat és a pozicionálási mondat."
+  ],
+  "explanation": "Pontozás: négy lépés 3 pont, két kritériumcsoport megkülönböztetése 4 pont, példa 1 pont, szerkezet 2 pont.",
+  "source": "Jegyzet 2.2 · 2.4 · 2.5",
+  "official": false,
+  "difficulty": 3
+ }
+]

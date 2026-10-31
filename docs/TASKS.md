@@ -145,6 +145,12 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Mandatory feedback dialog every 3 days from registration (signed out: from the device's first visit), shown when
       the site is opened; the student goes on only after answering; the admin reads them in a "Visszajelzések" tab
       next to "Kérdések" (`supabase/feedback.sql`)
+## 2.0.4
+
+- [x] Upload the 2. ZH practice questions of Menedzsment (126), Számvitel (166), Marketing (117), Közösség és egyén (52)
+      and the new Matematika task types (chapters 9-23, 75 tasks), with glossaries, exam dates and mock mixes
+- [x] Mock ZH of a calculation exam can be limited to some task types (`mock.chapters`); ids may contain a digit in the
+      prefix (`ke2-`); typed effects like `Eszk+ Erd-` keep their signs; long field labels get their own row layout
 
 ## Open
 
