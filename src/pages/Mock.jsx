@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import { ArrowLeft, CheckCircle2, Clock, XCircle } from 'lucide-react';
-import QuestionCard, { Steps } from '../components/QuestionCard.jsx';
+import { ArrowLeft, Check, CheckCircle2, Clock, Share2, XCircle } from 'lucide-react';
+import Focus from '../components/Focus.jsx';
+import QuestionCard, { Steps, Why } from '../components/QuestionCard.jsx';
 import Ring from '../components/Ring.jsx';
 import { scopeQuestions } from '../lib/data.js';
 import { correctText, drawMock, MOCK_MIX, record, score, TYPES } from '../lib/quiz.js';
@@ -16,6 +17,18 @@ const show = (q, r) => {
   if (typeof r === 'object') return Object.entries(r).map(([l, v]) => `${l}: ${v}`).join('\n');
   return r;
 };
+
+// Eredménykártya: the score and the per-chapter lines as text, via the share sheet or the clipboard (no answers, no name).
+function Share({ text }) {
+  const [copied, setCopied] = useState(false);
+  const share = async () => {
+    try {
+      if (navigator.share) await navigator.share({ text });
+      else { await navigator.clipboard.writeText(text); setCopied(true); }
+    } catch { /* the student closed the share sheet */ }
+  };
+  return <button className="btn sec" onClick={share}>{copied ? <Check size={18} aria-hidden="true" /> : <Share2 size={18} aria-hidden="true" />}{copied ? 'Kimásolva' : 'Eredmény megosztása'}</button>;
+}
 
 export default function Mock({ subject }) {
   const mock = subject.exam.mock;
@@ -63,8 +76,9 @@ export default function Mock({ subject }) {
     return (
       <div className="wrap page narrow">
         <div className="run-head">{back}
-          <span className={`timer ${left < 120 ? 'low' : ''}`} role="timer" aria-label={`Hátralévő idő: ${mm} perc ${ss} másodperc`}>
+          <span className="focus-tools"><span className={`timer ${left < 120 ? 'low' : ''}`} role="timer" aria-label={`Hátralévő idő: ${mm} perc ${ss} másodperc`}>
             <Clock size={16} aria-hidden="true" />{mm}:{ss}</span>
+          <Focus timer={false} /></span>
         </div>
         <div className="progress" aria-hidden="true"><i style={{ width: `${(i / qs.length) * 100}%` }} /></div>
         <p className="count">{i + 1} / {qs.length}</p>
@@ -88,10 +102,13 @@ export default function Mock({ subject }) {
 
   return (
     <div className="wrap page narrow">{back}
-      <div className="result">
+      <div className="result share-card">
         <Ring value={max ? ok / max : 0} size={132} label={`Eredmény: ${ok} / ${max}`} />
-        <div><h1>{ok} / {max} pont</h1><p className="lede">{left ? 'Beadtad a ZH-t.' : 'Lejárt az idő.'}</p>
-          <button className="btn pri" onClick={() => setPhase('intro')}>Új ZH-szimuláció</button></div>
+        <div><small>{subject.title} · ZH-szimuláció · {new Date().toLocaleDateString('hu-HU')}</small>
+          <h1>{ok} / {max} pont</h1><p className="lede">{left ? 'Beadtad a ZH-t.' : 'Lejárt az idő.'}</p>
+          <div className="cta"><button className="btn pri" onClick={() => setPhase('intro')}>Új ZH-szimuláció</button>
+            <Share text={[`${subject.title}, ZH-szimuláció: ${ok} / ${max} pont (${max ? Math.round((ok / max) * 100) : 0}%)`,
+              ...chapters.map((c) => `${c.n}. ${c.short}: ${c.ok} / ${c.all}`), location.href.split('#')[0]].join('\n')} /></div></div>
       </div>
       <h2 className="sub">{mock?.perChapter ? 'Feladattípusonként' : 'Fejezetenként'}</h2>
       <ul className="breakdown">
@@ -109,6 +126,7 @@ export default function Mock({ subject }) {
               <p>Válaszod: <span className="pre">{show(q, a?.r)}</span></p>
               {!a?.ok && <p>Helyes válasz: <span className="pre">{correctText(q)}</span></p>}
               {q.steps && <Steps q={q} />}
+              {q.why && <Why q={q} picked={a?.r} />}
               <p className="muted">{q.explanation} <small>Forrás: {q.source}</small></p>
             </li>
           );

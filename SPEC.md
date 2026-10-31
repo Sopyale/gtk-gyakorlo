@@ -58,7 +58,13 @@ Out: own server code, third-party analytics or tracking, any content outside the
 - **Home**: intro and a "Következő ZH" card (the nearest active ZH with questions: subject, ZH, days left, date, count,
   one button to its practice); the hero figure and colour are that subject's. Below it the **"Ma" panel**: today's
   Ütemterv chapters (for every plan the student made, plus the next ZH), the Ismétlés questions due today per ZH, and
-  the daily streak ("N napos sorozat": days in a row with at least one answer, kept on the device). Then the bento:
+  the daily streak ("N napos sorozat": days in a row with at least one answer, kept on the device) and the weekly goal
+  ("Heti cél: N / 5 nap", answers on 5 different days Monday to Sunday; "Heti célod kész" when reached). Below it a
+  closable card "Tedd ki a kezdőképernyőre": install steps (iPhone: Safari Megosztás → Főképernyőhöz adás; Android and
+  desktop: the browser's install item, plus "Telepítés most" where the browser offers its prompt) and "Értesítés
+  bekapcsolása" for the ZH reminder: with permission, a notification the day before and on the day of the next ZH when
+  the site is opened (once per day; no background push, that needs a server). Hidden once installed with the
+  permission answered, or closed (`installHidden`). Then the bento:
   the next ZH's card with progress, totals, Drive, wrong questions, and the other subjects,
   "Tananyagok (Google Drive)" button → `https://drive.google.com/drive/folders/15-MBuk89WvQ-HQwPefg7sUawg0LdZi-0?usp=drive_link`
   with a one-line note that access is granted on request. A countdown to each active ZH ("2 nap az 1. ZH-ig") shows in
@@ -71,7 +77,11 @@ Out: own server code, third-party analytics or tracking, any content outside the
 - **Gyakorlás**: random questions from the selected chapters/types; one at a time; progress bar; feedback after each answer
   (correct/incorrect with icon + text, the correct answer, explanation, source); next button.
   "Hibás a kérdés?" next to it sends a bug-report ticket with the question id and an optional comment (signed in only).
-  Keyboard: 1–4 options, I/H true/false, Enter submit/next.
+  Keyboard: 1–4 options, I/H true/false, Enter submit/next. After 5, 10, … right answers in a row a short confetti
+  burst. **Fókusz mód** (button next to the progress, remembered in `focus`): menu, footer and legal banner hidden; in
+  practice a timer shows the time spent. A question with `why` shows "Miért rossz?" (each wrong option and its trap,
+  the picked one first and open); a calculation task with `solutions` shows them folded under the Levezetés, which
+  stays the easiest way.
   Short answers match with Hungarian endings, any word order, ignored articles and one typo outside a word's first
   4 letters (no extra words, so "határtermék-bevétel" never passes for "határtermék"). When the check says wrong, the
   student can press "Más szavakkal, de ugyanezt írtam": it counts as right and the question leaves the wrong and
@@ -84,7 +94,9 @@ Out: own server code, third-party analytics or tracking, any content outside the
   definition; a wrong pair adds 1 second; the best time per ZH is kept in `match` (synced).
 - **ZH-szimuláció**: 20 minutes, 25 questions drawn proportionally from the chapters; mix 13 igaz-hamis, 4 feleletválasztós,
   3 rövid válasz, 5 ábrás (the lecturer: many figure questions); only ZH-level questions (`official` or
-  `difficulty: 3`) unless a type has too few; no feedback until the end; then score, per-chapter breakdown, review of every question.
+  `difficulty: 3`) unless a type has too few; no feedback until the end; then a result card (subject, date, score ring, "Eredmény megosztása": score and
+  per-chapter lines as text via the share sheet or the clipboard, no answers or names), per-chapter breakdown, review
+  of every question (with Levezetés, other solutions and "Miért rossz?").
 - **Flashcardok**: glossary terms (front: term; back: definition + section), "tudtam / nem tudtam", unknown cards repeat.
   "Leírom a definíciót" mode: the student types the definition; `checkDefinition` (quiz.js) marks which of the term's
   `concepts` (groups of interchangeable wordings, endings and one typo allowed) are present and gives "Jó definíció"
@@ -172,6 +184,8 @@ Question object:
 | `question` | Hungarian text |
 | `answer` | igaz-hamis / abra-as-TF: `true`/`false`; feleletvalasztos / abra-as-choice: the correct option text (also first in `options`); rovid-valasz: array of accepted answers (first = model answer); parositas: array of `[left, right]` pairs (3–5) |
 | `options` | feleletvalasztos and abra-as-choice: exactly 4 strings, correct first, shuffled at runtime |
+| `why` | optional, with `options`: `{ "wrong option text": "one sentence on its trap" }` ("Miért rossz?") |
+| `solutions` | optional, szamolas: `[{ title, steps }]` other solution methods; `steps` stays the easiest one |
 | `figure` | abra only: id of an SVG figure component |
 | `points`, `fields`, `steps` | szamolas only: the task's point value, its derivation steps and its fields `[{ label, answer, accept, format, alts? }]`; `accept: "text"` is a typed text field (Számvitel account names, `alts` = other accepted forms such as the account number) (see README) |
 | `statements` | tobbszoros: 3+ `{ text, answer: true/false }` (the student ticks the true ones; `points` shared per statement in the mock ZH); relacio: the two statements joined by "MERT" (`answer` is `"A"`–`"E"`) |

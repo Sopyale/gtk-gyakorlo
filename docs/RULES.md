@@ -70,7 +70,10 @@ Do this on your own for every subject and every ZH, without being asked again:
 5. Use the question types the ZH uses: igaz-hamis, feleletvalasztos (also kakukktojás), rovid-valasz (also esettörténet,
    definition completion), parositas, abra, szamolas (Számvitel account grids with `accept: "text"` fields),
    tobbszoros, relacio, kifejtos (also "fogalom + indoklás"). Set the exam's mock mix in `subjects.json` (`mock.mix`).
-6. Short (typed) answers accept other wording: endings, word order and small typos are matched automatically, and the
+6. Since 2.2.0: give a multiple-choice question `why` (one sentence per wrong option on its trap, from the note) when
+   the trap is clear, and a calculation task `solutions` (other methods from the note) after its easiest `steps`.
+   Both are optional; only what the sources support.
+7. Short (typed) answers accept other wording: endings, word order and small typos are matched automatically, and the
    student can mark "Más szavakkal, de ugyanezt írtam". Give every short-answer question its usual alternative
    spellings in `answer`.
 

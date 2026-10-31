@@ -34,10 +34,25 @@ function Report({ q }) {
   );
 }
 
-// Step-by-step derivation of a calculation task (Matematika).
+// Step-by-step derivation of a calculation task; `steps` is the easiest way, `solutions` the other ways.
 export const Steps = ({ q }) => (
-  <div className="steps"><strong>Levezetés</strong><ol>{q.steps.map((s) => <li key={s}>{s}</li>)}</ol></div>
+  <div className="steps"><strong>Levezetés{q.solutions ? ' (a legegyszerűbb út)' : ''}</strong><ol>{q.steps.map((s) => <li key={s}>{s}</li>)}</ol>
+    {q.solutions?.map((m) => (
+      <details key={m.title} className="alt-sol"><summary>Másik megoldás: {m.title}</summary><ol>{m.steps.map((s) => <li key={s}>{s}</li>)}</ol></details>
+    ))}
+  </div>
 );
+
+// "Miért rossz?": why each wrong option is wrong; the one the student picked comes first.
+export const Why = ({ q, picked }) => {
+  const list = Object.entries(q.why).sort(([a], [b]) => (b === picked) - (a === picked));
+  return (
+    <details className="why" open={picked in q.why}>
+      <summary>Miért rossz{list.length > 1 ? 'ak a többi válaszok' : ' a másik válasz'}?</summary>
+      <ul>{list.map(([o, w]) => <li key={o} className={o === picked ? 'picked' : ''}><b>{o}</b> {w}</li>)}</ul>
+    </details>
+  );
+};
 
 // One question; the parent remounts it (via key) for each new question.
 // In practice mode it shows feedback after answering; in mock mode it only reports the response.
@@ -227,6 +242,7 @@ export default function QuestionCard({ q, feedback, onAnswer, onOverride, onNext
           )}
           {calc && <Steps q={q} />}
           <p>{q.explanation}</p>
+          {q.why && <Why q={q} picked={response} />}
           <small>Forrás: {q.source}</small>
           {/* The check can't know every wording, so the student can count a right answer given in other words. */}
           {q.type === 'rovid-valasz' && !correct && onOverride && (

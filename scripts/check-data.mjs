@@ -49,6 +49,8 @@ for (const s of subjects.filter((x) => x.active)) {
           else if (f.accept === 'text' ? !fieldCorrect(f, f.answer) : parseNumber(f.answer) === null || !fieldCorrect(f, f.answer)) err(`field ${f.label}: answer ${f.answer} is not a value it accepts`);
         }
       }
+      if (q.why !== undefined && !(q.options && Object.entries(q.why).length && Object.entries(q.why).every(([o, w]) => q.options.includes(o) && o !== q.answer && typeof w === 'string' && w.trim()))) err('why: { wrong option text: reason } for options other than the answer');
+      if (q.solutions !== undefined && !(q.steps && Array.isArray(q.solutions) && q.solutions.every((m) => m.title && Array.isArray(m.steps) && m.steps.length >= 2 && m.steps.every((x) => typeof x === 'string' && x.trim())))) err('solutions: [{ title, steps: 2+ strings }] next to steps (steps = the easiest way)');
       const strs = (a, n) => Array.isArray(a) && a.length >= n && a.every((x) => typeof x === 'string' && x.trim());
       if (q.type === 'tobbszoros') {
         if (!Number.isInteger(q.points) || q.points < 1) err('többszörös választás needs points');
