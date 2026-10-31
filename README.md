@@ -29,7 +29,13 @@ Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 2.1.0 ([c
   field and a step-by-step derivation (Levezetés); no partial credit. Decimal comma or point, fractions where the format allows, spaces in whole numbers.
 - **Ütemterv** (study plan): the ZH date is prefilled from `subjects.json`, the student picks the start day; spreads the
   chapters over the days until the ZH by question count; the last day is review. Ticking a day off re-spreads the rest.
-- **Home**: "Következő ZH" card and a "Ma" panel (today's plan, Ismétlés due, daily streak).
+- **Home**: "Következő ZH" card and a "Ma" panel (today's plan, Ismétlés due, daily streak, weekly goal of 5 practice
+  days); a card on installing the site and turning on the ZH reminder (a notification the day before and on the day of
+  a ZH, when the site is opened).
+- **Rewards and focus**: confetti after every 5 right answers in a row; **Fókusz mód** in practice and the mock ZH hides
+  the menu and footer (practice also shows the time spent).
+- **ZH result card**: after a mock ZH, "Eredmény megosztása" shares the score and per-chapter lines (share sheet or
+  clipboard).
 - **Accounts** (optional): Neptun code + password + own non-ELTE e-mail, or Google sign-in. Progress syncs across
   devices; the password can be reset by e-mail; "stay signed in" is optional. Signed-out visitors are asked to sign in
   once per visit, after their first answer. The Drive link asks for sign-in, so access requests can be matched to
@@ -80,14 +86,14 @@ Questions live in `src/data/<subject>/ch<N>.json`, one file per chapter. One que
 | Type (`type`) | `answer` | Extra fields |
 |---|---|---|
 | `igaz-hamis` | `true` / `false` | |
-| `feleletvalasztos` | text of the correct option | `options`: 4 options, including the correct one |
+| `feleletvalasztos` | text of the correct option | `options`: 4 options, including the correct one; optional `why`: `{ "wrong option text": "why it is wrong" }`, shown as "Miért rossz?" (also on `abra` with options) |
 | `rovid-valasz` | list of accepted answers, the first is the model answer | `keywords`: an answer containing one counts as correct. Typed answers also match with Hungarian endings, any word order and one typo (not in a word's first 4 letters); in practice the student can mark "Más szavakkal, de ugyanezt írtam" |
 | `parositas` | `[["left", "right"], …]` pairs | |
 | `abra` | a true/false or multiple-choice answer | `figure`: figure id from `src/figures/index.js` |
 | `tobbszoros` | (none) | `statements`: 3+ `{ text, answer: true/false }`; the student ticks the true ones; `points`. Practice: right when every statement is right; mock ZH: points shared per statement |
 | `relacio` | `"A"`–`"E"` | `statements`: the two halves joined by "MERT"; options A–E are fixed (A both true and related, B both true not related, C first true, D second true, E both false) |
 | `kifejtos` | 2+ key points of the model answer | `points`; the student writes the answer, then ticks the points it contains (self-check); mock ZH: ticked share of the points, rounded down to half points |
-| `szamolas` | (none) | `points`; `steps`: the numbered derivation shown as "Levezetés"; `fields`: `[{ label, answer, accept, format }]`. `accept`: `int` exact whole number, `dec` decimal within 0.001, `frac` also a fraction, `round` decimal with 2+ decimals rounded from the answer, `text` typed text such as an account name (`alts`: other accepted forms, e.g. the account number; case and accents ignored). `format` is the hint shown under the field |
+| `szamolas` | (none) | `points`; `steps`: the numbered derivation shown as "Levezetés" (the easiest way); optional `solutions`: `[{ title, steps }]` other ways, shown folded after it; `fields`: `[{ label, answer, accept, format }]`. `accept`: `int` exact whole number, `dec` decimal within 0.001, `frac` also a fraction, `round` decimal with 2+ decimals rounded from the answer, `text` typed text such as an account name (`alts`: other accepted forms, e.g. the account number; case and accents ignored). `format` is the hint shown under the field |
 
 `official: true` marks the real practice-ZH questions. The glossary is in `glossary.json` (`term`, `definition`,
 `section`).

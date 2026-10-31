@@ -3,6 +3,28 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 2.2.0 – 2026-10-31
+
+The first part of the "Later" ideas in `ideas.md` (owner: "Later mehet"), the ones that need no server.
+
+- **ZH result card:** the mock ZH result is a card (subject, date, ring, score) with "Eredmény megosztása": the score
+  and per-chapter lines as text through the share sheet, or copied where there is none. No answers, no names.
+- **Rewards:** confetti after every 5 right answers in a row (`Confetti.jsx`, CSS only). Weekly goal in the "Ma"
+  panel: answers on 5 different days of the week (`weekDays()`, `WEEK_GOAL` in `quiz.js`; the `streak` record keeps
+  the last 7 days; test in `quiz.test.mjs`); "Heti célod kész" when reached.
+- **Fókusz mód** (`Focus.jsx`): hides the menu, footer and legal banner (`html.focus`), remembered in `focus`; shows
+  the time spent in practice. Also in the mock ZH (its countdown stays).
+- **Install and ZH reminder card** (`InstallCard.jsx`) on Home: install steps per platform, the browser's install
+  prompt where offered, and a notification permission button. With permission, the day before and on the day of the
+  next ZH a notification comes when the site is opened. Real background push needs a server (VAPID keys, a scheduled
+  sender) and waits for the server ideas.
+- **Data fields for the agents:** `why` (per wrong option, "Miért rossz?") and `solutions` (other methods next to
+  the easiest `steps`) are optional; `check-data` validates them. The bank does not have them yet: the question
+  agents add them from the notes with the next uploads.
+- Checked with Playwright at 360 and 1280 px in both themes (with temporary test data for `why` and `solutions`):
+  confetti, Fókusz mód, "Miért rossz?", other solutions, share text, weekly goal and install card; no horizontal
+  scroll, no page errors.
+
 ## 2.1.0 – 2026-10-31
 
 The redesign the owner approved on 2026-10-31 ("Fix first" and "Upgrades" in `ideas.md`).

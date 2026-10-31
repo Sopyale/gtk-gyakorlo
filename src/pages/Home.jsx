@@ -1,11 +1,13 @@
-import { ArrowRight, ArrowUpRight, CalendarClock, ExternalLink, Flame, FolderOpen, Play } from 'lucide-react';
+import { useEffect } from 'react';
+import { ArrowRight, ArrowUpRight, CalendarClock, ExternalLink, Flame, FolderOpen, Play, Trophy } from 'lucide-react';
+import InstallCard, { remindZh } from '../components/InstallCard.jsx';
 import HeroPlot from '../components/HeroPlot.jsx';
 import Count from '../components/Count.jsx';
 import Ring from '../components/Ring.jsx';
 import SubjectArt from '../components/SubjectArt.jsx';
 import { getGlossary, getQuestions, getScope, getSubject, scopeQuestions, subjects } from '../lib/data.js';
 import { daysBetween, schedule, today } from '../lib/plan.js';
-import { due, streak } from '../lib/quiz.js';
+import { due, streak, WEEK_GOAL, weekDays } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 import { load } from '../lib/storage.js';
 import { accountsEnabled, recordDriveClick, useAccount } from '../lib/account.js';
@@ -36,6 +38,7 @@ function upcoming(now) {
 // "Ma" panel: today's Ütemterv chapters (plans the student made, plus the next ZH), what Ismétlés has due, the streak.
 function Today({ exams, now }) {
   const days = streak(now);
+  const week = weekDays(now);
   const plans = exams.filter((x, i) => x.plan || i === 0).map((x) => {
     const weights = x.sc.chapters.map((c) => ({ n: c.n, weight: x.qs.filter((q) => q.chapter === c.n).length }));
     const plan = { done: {}, ...x.plan, date: x.date, start: x.plan?.start || now };
@@ -51,6 +54,8 @@ function Today({ exams, now }) {
         <h2 id="today-h">Ma</h2>
         <span className={`streak-day ${days ? 'on' : ''}`}><Flame size={18} aria-hidden="true" />
           {days ? `${days} napos sorozat` : 'Válaszolj ma egy kérdésre, és indul a sorozatod.'}</span>
+        <span className={`streak-day week ${week >= WEEK_GOAL ? 'on won' : ''}`} title={`Heti cél: a héten ${WEEK_GOAL} különböző napon gyakorolj`}>
+          <Trophy size={18} aria-hidden="true" />{week >= WEEK_GOAL ? 'Heti célod kész' : `Heti cél: ${week} / ${WEEK_GOAL} nap`}</span>
       </div>
       <div className="today-grid">
         {plans.map((x) => (
@@ -92,6 +97,7 @@ export default function Home() {
   const total = active.reduce((n, s) => n + getQuestions(s.id).length, 0);
   const cards = active.reduce((n, s) => n + getGlossary(s.id).length, 0);
   const left = next && daysBetween(now, next.date);
+  useEffect(() => { if (next) remindZh({ ...next.sc, date: next.date }, left); }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <>
@@ -120,6 +126,7 @@ export default function Home() {
       </section>
 
       <Today exams={exams} now={now} />
+      <InstallCard />
 
       <div className="wrap bento">
         <a className="card main-card glow" href={href(next ? next.sc.path : main.id)}>

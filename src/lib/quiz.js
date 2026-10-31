@@ -148,8 +148,14 @@ export function record(q, correct) {
 // Napi sorozat: days in a row with at least one answer, kept on this device. Yesterday still counts until today ends.
 export function markDay(now = today()) {
   const s = load('streak', { last: '', count: 0 });
-  if (s.last !== now) save('streak', { last: now, count: s.last === addDays(now, -1) ? s.count + 1 : 1 });
+  if (s.last !== now) save('streak', { last: now, count: s.last === addDays(now, -1) ? s.count + 1 : 1, days: [...(s.days ?? []), now].slice(-7) });
 }
+// Heti cél: practise on WEEK_GOAL different days of the current week (Monday to Sunday).
+export const WEEK_GOAL = 5;
+export const weekDays = (now = today()) => {
+  const monday = addDays(now, -((new Date(now + 'T12:00:00').getDay() + 6) % 7));
+  return (load('streak', {}).days ?? []).filter((d) => d >= monday && d <= now).length;
+};
 export const streak = (now = today()) => {
   const s = load('streak', { last: '', count: 0 });
   return s.last === now || s.last === addDays(now, -1) ? s.count : 0;

@@ -1,4 +1,5 @@
 [
+  {"version": "2.2.0", "date": "2026-10-31", "items": ["A ZH-szimuláció eredményét megoszthatod.", "Konfetti 5 jó válasz után, és heti cél a főoldalon.", "Fókusz mód: gyakorlás közben eltűnik a menü, csak a kérdés és az idő marad.", "Kártya arról, hogyan teheted ki az oldalt a telefonod kezdőképernyőjére, és hogyan kapcsold be a ZH-emlékeztetőt."]},
   {"version": "2.1.0", "date": "2026-10-31", "items": ["Új kinézet: a főoldalon a következő ZH és a mai teendőid, minden tárgynak saját színe és ábrája.", "Az ütemterv magától újraosztja az anyagot, ha előrébb jársz vagy lemaradsz.", "Telefonon az Ellenőrzés gomb mindig kéznél van."]},
   {"version": "2.0.4", "date": "2026-10-31", "items": ["Megjelentek a 2. ZH gyakorló kérdései: Menedzsment, Számvitel, Marketing, Közösség és egyén, és újabb Matematika feladattípusok."]},
   {"version": "2.0.3", "date": "2026-10-30", "items": ["3 naponta rövid visszajelzést kérünk tőled az oldalról."]},

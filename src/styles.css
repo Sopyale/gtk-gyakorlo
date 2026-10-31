@@ -763,3 +763,39 @@ main.calm { min-height: calc(100dvh - 64px); padding-bottom: 32px; }
   .calm .qcard form > .btn.pri:last-child { width: 100%; justify-content: center; box-shadow: 0 14px 30px -12px rgba(0, 0, 0, .55); }
   .calm .qnext { padding: 10px; margin: 0 -10px; border-radius: 18px; background: color-mix(in srgb, var(--bg2) 88%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
 }
+
+/* 2.2.0: Fókusz mód, confetti, Miért rossz?, other solutions, result card, install card, weekly goal */
+html.focus .top, html.focus .foot, html.focus .legal-banner { display: none; }
+html.focus main { padding-top: 12px; }
+.focus-tools { display: inline-flex; align-items: center; gap: 8px; }
+.icon-btn[aria-pressed="true"] { color: var(--acc-text); border-color: color-mix(in srgb, var(--acc) 50%, transparent); }
+.confetti { position: fixed; inset: 0; pointer-events: none; z-index: 40; overflow: hidden; }
+.confetti i { position: absolute; top: -12px; left: var(--x); width: 9px; height: 14px; border-radius: 2px; opacity: 0; animation: confetti 1.6s var(--d) cubic-bezier(.2, .6, .4, 1) forwards; }
+@keyframes confetti { 0% { opacity: 1; transform: translateY(0) rotate(0); } 100% { opacity: 0; transform: translateY(85vh) rotate(var(--r)); } }
+.why { margin-top: 10px; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--line); background: color-mix(in srgb, var(--bg2) 70%, transparent); }
+.why summary, .alt-sol summary { cursor: pointer; font-weight: 700; font-size: 14px; color: var(--text); }
+.why ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 6px; color: var(--soft); }
+.fb .why li b, .review .why li b { display: block; color: var(--text); font-weight: 600; }
+.fb .why li.picked b, .review .why li.picked b { color: var(--bad); }
+.alt-sol { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.share-card { padding: 22px 26px; border-radius: 22px; border: 1px solid transparent; background: linear-gradient(var(--bg2), var(--bg2)) padding-box, var(--edge) border-box; }
+.share-card small { color: var(--muted); font-size: 13px; }
+.share-card .cta { display: flex; flex-wrap: wrap; gap: 10px; }
+.install { margin-top: 18px; }
+.install-card { position: relative; padding: 22px 24px; }
+.install-card .close { position: absolute; top: 12px; right: 12px; width: 36px; height: 36px; }
+.install-card h2 { font: 800 24px/1.1 var(--display); letter-spacing: -.02em; padding-right: 44px; }
+.install-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 14px; }
+.install-grid h3 { display: flex; align-items: center; gap: 8px; font-size: 16px; margin-bottom: 6px; }
+.install-grid h3 svg { color: var(--acc); }
+.install-grid ol { margin: 0 0 12px; padding-left: 20px; color: var(--soft); display: grid; gap: 4px; }
+.install-grid p { color: var(--soft); margin-bottom: 12px; }
+.install-grid .ok-line { color: var(--good); font-weight: 600; }
+.today-head h2 { margin-right: auto; }
+.streak-day.won svg { animation: streak 1.4s ease-in-out infinite alternate; }
+@media (max-width: 760px) {
+  .install-grid { grid-template-columns: 1fr; }
+  .share-card { padding: 20px; }
+}
+.run-head { flex-wrap: wrap; } .streak, .timer { white-space: nowrap; }
+@media (max-width: 420px) { .run-head .streak { font-size: 13px; padding: 6px 10px; } .run-head .icon-btn { width: 40px; height: 40px; } }

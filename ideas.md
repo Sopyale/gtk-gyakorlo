@@ -37,8 +37,8 @@ Ideas the owner approved for the redesign on 2026-10-31 (from a review of the li
 
 ### Later
 
-- **ZH result card** after a ZH-szimuláció that can be shown to others (score, ring, chapters).
-- **Small rewards:** confetti on a streak of 5, a "heti célod kész" badge.
+- **ZH result card** (built in 2.2.0) after a ZH-szimuláció that can be shown to others (score, ring, chapters).
+- **Small rewards** (built in 2.2.0): confetti on a streak of 5, a "heti célod kész" badge.
 - **Ranks and leaderboard:** badges from bronze and silver up to diamond; every user has a profile card; a
   leaderboard on the site. Opt-in, under a nickname, never the Neptun code or e-mail.
 - **Friends and messages:** students can add friends and message each other. Needs blocking, reporting and
@@ -47,13 +47,13 @@ Ideas the owner approved for the redesign on 2026-10-31 (from a review of the li
   the material more clearly. Needs an application and approval step by the owner, and videos hosted outside the
   site (for example unlisted YouTube links). The videos must not show the ELTE notes, slides or ZH materials
   (copyright, see RULES.md).
-- **Several solutions per task type** (Matematika, Számvitel): every task type shows the easiest solution first, so
+- **Several solutions per task type** (Matematika, Számvitel; the `solutions` field and its UI are in 2.2.0, the agents fill it): every task type shows the easiest solution first, so
   students understand it and it does not feel complicated, and other solution methods after it.
-- **"Miért rossz?" hint:** every wrong option gets one sentence on the trap in it, not only the correct answer.
-- **Notification before a ZH** (the site is already an installable PWA), for example "3 nap a Matek 2. ZH-ig, 6
+- **"Miért rossz?" hint** (the `why` field and its UI are in 2.2.0, the agents fill it): every wrong option gets one sentence on the trap in it, not only the correct answer.
+- **Notification before a ZH** (2.2.0: the install card and a reminder when the site is opened; background push still needs a server) (the site is already an installable PWA), for example "3 nap a Matek 2. ZH-ig, 6
   esedékes ismétlésed van". The site shows a card that explains how to install it on a phone and how to turn on
   notifications.
-- **Fókusz mód:** during practice the menu and the footer disappear; only the question and a timer stay.
+- **Fókusz mód** (built in 2.2.0): during practice the menu and the footer disappear; only the question and a timer stay.
 
 ## 1. Server-based AI on our own machine for checking typed definitions
 

@@ -1,5 +1,7 @@
 import { useMemo, useState } from 'react';
 import { ArrowLeft, Flame, PartyPopper } from 'lucide-react';
+import Confetti from '../components/Confetti.jsx';
+import Focus from '../components/Focus.jsx';
 import QuestionCard from '../components/QuestionCard.jsx';
 import { scopeQuestions } from '../lib/data.js';
 import { due, forgive, record, shuffle, zhLevel } from '../lib/quiz.js';
@@ -52,8 +54,12 @@ export default function Practice({ subject, mode, params }) {
   return (
     <div className="wrap page narrow">
       <div className="run-head">{back}
-        {streak >= 3 && <span key={streak} className="streak"><Flame size={16} aria-hidden="true" />{streak} helyes sorban</span>}
+        <span className="focus-tools">
+          {streak >= 3 && <span key={streak} className="streak"><Flame size={16} aria-hidden="true" />{streak} helyes sorban</span>}
+          <Focus />
+        </span>
       </div>
+      {streak > 0 && streak % 5 === 0 && <Confetti key={streak} />}
       <div className="progress" role="progressbar" aria-label={title} aria-valuemin={0} aria-valuemax={queue.length} aria-valuenow={i + 1}>
         <i style={{ width: `${((i + 1) / queue.length) * 100}%` }} />
       </div>
