@@ -53,7 +53,9 @@
     "official": false,
     "difficulty": 2,
     "why": {
-      "1,25 literről": "Az 1,25 a reciprok (1000/800), az fordított irány."
+      "1,25 literről": "Az 1,25 a reciprok (1000/800), az fordított irány.",
+      "2 literről": "A 2 l a tokaji gazda ára egy liter kékfrankosért (600/300), nem a villányié.",
+      "0,5 literről": "A 0,5 l a tokaji gazdánál egy liter szamorodni ára kékfrankosban, nem a villányi kékfrankosáé."
     }
   },
   {
@@ -96,6 +98,7 @@
     "difficulty": 3,
     "why": {
       "a villányinak, mert több szamorodnit tud termelni": "A több termelt mennyiség abszolút előny, nem komparatív.",
+      "mindkettőnek": "A komparatív előny megoszlik, ugyanabban a borban nem lehet mindkettőjüknek.",
       "senkinek, mert az árak azonosak": "A komparatív előny az alternatívaköltségen múlik, nem az áron."
     }
   },
@@ -165,7 +168,8 @@
     "official": false,
     "difficulty": 3,
     "why": {
-      "a termelésre, mert abban van abszolút előnye": "Az abszolút előny nem dönti el a szakosodást, a komparatív igen.",
+      "a termelésre, mert abban van abszolút előnye": "Cecíliának a termelésben nincs abszolút előnye (20 a 100-zal szemben), és relatíve is az értékesítésben jobb.",
+      "mindkettőre fele-fele arányban": "A fele-fele felosztás csak 90 termelést és 90 értékesítést ad, a teljes szakosodás 100-at.",
       "semmire, mert mindkettőben abszolút hátrányban van": "Abszolút hátrány mellett is van komparatív előny valamiben."
     }
   },
@@ -212,7 +216,8 @@
     "difficulty": 2,
     "why": {
       "200 l + 200 l": "A 200 l + 200 l a szakosodás nélküli eredmény.",
-      "600 l + 0 l": "A 600 l + 0 l csere nélküli szakosodás."
+      "600 l + 0 l": "A 600 l + 0 l csere nélküli szakosodás.",
+      "444 l + 444 l": "A kb. 444 l + 444 l a villányi gazda szakosodás nélküli fogyasztása, nem a tokajié."
     }
   },
   {
@@ -234,6 +239,7 @@
     "official": false,
     "difficulty": 3,
     "why": {
+      "kb. 444 l + 444 l": "A kb. 444 l + 444 l a szakosodás nélküli lehetőség, csere után ennél többhöz jut.",
       "800 l + 1000 l": "Az 800 l és 1000 l a külön-külön termelhető maximum, nem csere utáni fogyasztás."
     }
   },
@@ -301,7 +307,12 @@
     "explanation": "Ha a tokaji kevesebbet termel, mégsem megy tönkre, akkor alacsonyabbak a költségei, például olcsóbb ott a föld használata. A másik lehetséges magyarázat, hogy rosszul használják az erőforrásokat; az árak és a minőség a példában azonosak.",
     "source": "Jegyzet 4.5 · Könyv 50–52. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "magasabb áron adja el a bort": "A példa feltétele az azonos ár, ezért a magasabb eladási ár nem lehet a magyarázat.",
+      "a villányi rosszabb minőségű bort termel": "A példa feltétele az azonos minőség, ezért a minőségkülönbség nem magyarázat.",
+      "a tokaji nem fizet a munkaerőért": "A munkaerő is a tokaji költségei közé tartozik, az ára alacsonyabb lehet, de nem nulla."
+    }
   },
   {
     "id": "kg-4-028",
@@ -388,6 +399,7 @@
     "difficulty": 3,
     "why": {
       "Pénteknek, mert több halat fog": "A több kifogott hal abszolút előny.",
+      "mindkettőnek": "A komparatív előny megoszlik, a halászatban csak egyiküké lehet.",
       "senkinek": "Valakinek mindig van komparatív előnye."
     }
   },
@@ -575,7 +587,8 @@
     "official": false,
     "difficulty": 3,
     "why": {
-      "Lacinak, mert neki kisebb a kenyér alternatívaköltsége": "A kisebb alternatívaköltség komparatív előny, nem abszolút.",
+      "Lacinak, mert neki kisebb a kenyér alternatívaköltsége": "Laci kenyér-alternatívaköltsége (1 kalács) nagyobb Katiénál (0,5), és ez amúgy is komparatív, nem abszolút előny lenne.",
+      "Mindkettőjüknek, mert mindketten tudnak kenyeret sütni": "Abszolút előnye annak van, aki többet tud előállítani: kenyérből Kati süt többet (80 > 60).",
       "Lacinak, mert ő összesen több terméket tud előállítani": "Az összes termék nem a kenyérsütés abszolút előnye."
     }
   },
@@ -600,7 +613,7 @@
     "why": {
       "csak kalácsot": "Kati nem a kalácsra szakosodik, ott nincs komparatív előnye.",
       "fele-fele arányban kenyeret és kalácsot": "A fele-fele nem szakosodás.",
-      "semmit, mert Laci mindkettőben jobb": "Komparatív előny miatt Katinak is van mit termelnie."
+      "semmit, mert Laci mindkettőben jobb": "Laci nem jobb mindkettőben: kenyérből Kati süt többet, és abban komparatív előnye is van."
     }
   },
   {
@@ -624,7 +637,7 @@
     "why": {
       "A villányinak abszolút és komparatív előnye is van benne.": "Az abszolút és komparatív előny nem lehet mindkettő a villányinál.",
       "A tokajinak abszolút, a villányinak komparatív előnye van benne.": "A tokajinak nincs abszolút előnye a szamorodniban.",
-      "Egyiküknek sincs komparatív előnye, mert azonos az ár.": "Valakinek mindig van komparatív előnye."
+      "Egyiküknek sincs komparatív előnye, mert azonos az ár.": "A komparatív előny az alternatívaköltségen múlik, nem az áron, és itt a tokajié."
     }
   }
 ]

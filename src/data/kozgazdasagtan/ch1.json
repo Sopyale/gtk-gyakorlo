@@ -186,7 +186,8 @@
     "difficulty": 1,
     "why": {
       "a pénz iránti vágy": "A pénz iránti vágy tanult (másodlagos) drive, nem elsődleges.",
-      "a majmok vágya az automata érméi iránt": "Az automata érméi iránti vágy tanult, nem elsődleges drive."
+      "a majmok vágya az automata érméi iránt": "Az automata érméi iránti vágy tanult, nem elsődleges drive.",
+      "a hullámvasutazás iránti vágy": "A hullámvasutazás vágya nem az ön- és fajfenntartáshoz kötődik, a túléléssel nem magyarázható vágyak közé tartozik."
     }
   },
   {
@@ -283,8 +284,8 @@
     "difficulty": 2,
     "why": {
       "egy jószág iránti hiányérzetet": "A hiányérzet a szükséglet, nem maga a hasznosság.",
-      "a jószág piaci árát": "A hasznosság szubjektív, a piaci ár objektív adat.",
-      "a jószág előállításának költségét": "A költség a ráfordítás oldala, a hasznosság az élvezeté."
+      "a jószág piaci árát": "A hasznosság a fogyasztás szubjektív élvezete, nem a jószág ára.",
+      "a jószág előállításának költségét": "A hasznosság a fogyasztás élvezete, nem az előállítás költsége."
     }
   },
   {
@@ -414,7 +415,7 @@
     "why": {
       "a korlátlan információ": "A korlátlan információ a modell feltevése, nem a gyakorlati korlát.",
       "a stabil preferenciák": "A stabil preferenciák a racionalitás feltevései, nem korlátai.",
-      "a valószínűségszámítás pontos követése": "A pontos valószínűségszámítás a modell feltevése, a gyakorlatban ez hiányzik."
+      "a valószínűségszámítás pontos követése": "A valószínűségszámítás pontos követése a racionális kalkuláció feltevése, nem a korlátja."
     }
   },
   {
@@ -498,7 +499,8 @@
     "difficulty": 2,
     "why": {
       "beszámolna a rodosziaknak a hajókról": "A homo oeconomicus nem a rodosziak érdekét nézi, hanem a sajátját.",
-      "ingyen szétosztaná a gabonát": "Az ingyen szétosztás ellentmond a nyereségmaximalizálásnak."
+      "ingyen szétosztaná a gabonát": "Az ingyen szétosztás ellentmond a nyereségmaximalizálásnak.",
+      "olcsóbban adná a gabonát, hogy ne ártson a rodosziaknak": "Mások kímélése miatt lemondani a nyereségről etikus viselkedés, a homo oeconomicus viszont önző és nem etikus."
     }
   },
   {
@@ -579,7 +581,7 @@
     "difficulty": 1,
     "why": {
       "munkatényező": "A munkatényező az emberi munka, nem a gyártott eszköz.",
-      "természeti tényező": "A természeti tényező a föld és a nyersanyag, nem a gép.",
+      "természeti tényező": "A természeti tényező a föld, a víz és a bányakincs, nem ember alkotta eszköz.",
       "vállalkozói szolgáltatás": "A vállalkozói szolgáltatás szervezés és kockázatvállalás, nem tárgyi eszköz."
     }
   },
@@ -715,7 +717,8 @@
     "difficulty": 3,
     "why": {
       "igazi altruista tett": "Viszonzást váró segítség nem igazi altruizmus.",
-      "ál-altruista, pszichológiai haszonért tett": "A várt haszon itt a viszontsegítség, tehát gazdasági, nem pszichológiai."
+      "ál-altruista, pszichológiai haszonért tett": "A várt haszon itt a viszontsegítség, tehát gazdasági, nem pszichológiai.",
+      "öncélú etikai döntés": "Anna viszonzásra számít, tehát haszonért segít; az öncélú etika nem vár hasznot, hosszú távon is árthat."
     }
   },
   {

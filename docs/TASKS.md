@@ -169,6 +169,7 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Fókusz mód in practice and the mock ZH
 - [x] Card: how to install the site and turn on the ZH reminder
 - [x] Optional `why` ("Miért rossz?") and `solutions` (other methods) fields with their UI and checks
+- [x] Backfill `why` and `solutions` on the existing questions from the notes (2.2.1, 2026-10-31)
 
 ## Open
 

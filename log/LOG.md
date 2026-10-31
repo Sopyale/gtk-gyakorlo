@@ -3,6 +3,18 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 2.2.1 – 2026-10-31
+
+Question-bank backfill (owner's request): the existing questions got the optional 2.2.0 fields, written by the
+gyakorlo agent from each subject's note (only what the note supports; no other field changed).
+
+- `why` ("Miért rossz?") on multiple-choice and figure questions: Közgazdaságtan 111 (checked against the note and
+  the figures by the course agent; 32 reasons rewritten), Menedzsment 79, Marketing 41, Számvitel 40,
+  Közösség és egyén 16.
+- `solutions` (other methods) on calculation tasks: Matematika 65 (13 task types; the other 10 types have one method
+  in the note), Számvitel 13 (ÁFA, VAT payment by added value, FIFO from the closing stock). Every number was
+  recalculated by a script against the answer fields.
+
 ## 2.2.0 – 2026-10-31
 
 The first part of the "Later" ideas in `ideas.md` (owner: "Later mehet"), the ones that need no server.

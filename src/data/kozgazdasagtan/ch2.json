@@ -136,7 +136,7 @@
     "difficulty": 1,
     "why": {
       "Gossen II. törvénye": "Gossen II. törvénye az optimális jövedelemelköltésről szól.",
-      "az előnykiegyenlítés elve": "Az előnykiegyenlítés elve a pénzkorlát melletti választás szabálya.",
+      "az előnykiegyenlítés elve": "Az előnykiegyenlítés elve több jószág határhasznának kiegyenlítése, nem egy jószág csökkenő határhaszna.",
       "a kereslet törvénye": "A kereslet törvénye az ár és a keresett mennyiség kapcsolata."
     }
   },
@@ -399,7 +399,7 @@
     "official": false,
     "difficulty": 1,
     "why": {
-      "az azonos árú jószágkosarakat": "Az azonos árú kosarak a költségvetési egyenesre vonatkoznak.",
+      "az azonos árú jószágkosarakat": "A közömbösségi görbe azonos hasznosságú, nem azonos árú (értékű) kosarakat köt össze.",
       "az adott jövedelemből megvásárolható kosarakat": "A megvásárolható kosarak a költségvetési korlát fogalma.",
       "a jövedelem és a fogyasztott mennyiség kapcsolatát": "A jövedelem és a mennyiség kapcsolata az Engel-görbe."
     }
@@ -425,7 +425,7 @@
     "why": {
       "U1, az origóhoz legközelebbi görbe": "Az origóhoz közelebbi görbe kisebb hasznosságot jelent.",
       "mindhárom azonos hasznosságot jelent": "A különböző görbék különböző hasznosságot jelentenek.",
-      "U2, a középső görbe": "A középső görbe nem a legmagasabb hasznosságú."
+      "U2, a középső görbe": "Az U2 alacsonyabb hasznosságot jelent, mint az origótól távolabbi U3."
     }
   },
   {
@@ -484,7 +484,7 @@
     "difficulty": 2,
     "why": {
       "tökéletes helyettesítő termékek": "A tökéletes helyettesítők görbéi egyenesek, nem L alakúak.",
-      "nélkülözhető termékek": "Az L alak nem a nélkülözhető termékeké.",
+      "nélkülözhető termékek": "Nélkülözhető termékeknél a görbék elérik a tengelyeket, nem L alakúak.",
       "negatív hasznosságú jószág": "A negatív hasznosságú jószág görbéi emelkedők."
     }
   },
@@ -508,7 +508,7 @@
     "difficulty": 2,
     "why": {
       "tökéletes kiegészítő termékek": "A tökéletes kiegészítők görbéi L alakúak, nem egyenesek.",
-      "bizonyos mennyiség alatt nélkülözhetetlen termékek": "A nélkülözhetetlen termék görbéje nem egyenes.",
+      "bizonyos mennyiség alatt nélkülözhetetlen termékek": "Nélkülözhetetlen termékeknél a görbék egy minimális mennyiségnél „falba futnak”, nem egyenesek.",
       "negatív hasznosságú jószág": "A negatív hasznosságú jószág görbéi emelkedők."
     }
   },
@@ -567,7 +567,8 @@
     "difficulty": 2,
     "why": {
       "költségvetési egyenes": "A költségvetési egyenes a jövedelemből és az árakból jön, nem a szelő határértéke.",
-      "jövedelem-fogyasztás görbe": "A jövedelem–fogyasztás görbe az optimumokat köti össze, nem a szelőből lesz."
+      "jövedelem-fogyasztás görbe": "A jövedelem–fogyasztás görbe az optimumokat köti össze, nem a szelőből lesz.",
+      "a görbe egy másik közömbösségi görbét metsz": "A közömbösségi görbék nem metszhetik egymást, a szelőből pedig érintő lesz."
     }
   },
   {
@@ -655,7 +656,7 @@
     "why": {
       "−Pb/Pa": "Ez a meredekség fordítottja.",
       "I/Pa": "Az I/Pa tengelymetszet, nem meredekség.",
-      "−I/Pb": "A −I/Pb nem meredekség."
+      "−I/Pb": "Az I/Pb a Qb-tengelymetszet, nem a meredekség."
     }
   },
   {
@@ -697,7 +698,12 @@
     "explanation": "A tengelymetszetek I/Pa és I/Pb. Az ábrán a Qb-metszet kb. kétszer akkora, mint a Qa-metszet, tehát b feleannyiba kerül, mint a: Pb ≈ 100/2 = 50 Ft.",
     "source": "Jegyzet 2.8 · Könyv 21–23. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "25 Ft": "25 Ft-nál a Qb-metszet a Qa-metszet négyszerese lenne, az ábrán viszont csak kb. kétszerese.",
+      "200 Ft": "200 Ft-nál a Qb-metszet a Qa-metszetnek csak a fele lenne, az ábrán viszont a kétszerese.",
+      "300 Ft": "300 Ft-nál a Qb-metszet a Qa-metszet harmada lenne, az ábrán viszont a kétszerese."
+    }
   },
   {
     "id": "kg-2-063",
@@ -742,7 +748,9 @@
     "official": false,
     "difficulty": 2,
     "why": {
-      "nőtt a b jószág ára": "A jövedelem csökkenése párhuzamosan tolná el az egyenest, nem forgatná el."
+      "csökkent a fogyasztó jövedelme": "A jövedelem csökkenése párhuzamosan tolná befelé az egyenest, nem forgatná el.",
+      "nőtt a b jószág ára": "A b drágulása a Qb-metszetet mozdítaná el, az ábrán viszont éppen az maradt helyben.",
+      "csökkent az a jószág ára": "Az a olcsóbbodása kifelé fordítaná az egyenest, az ábrán viszont a Qa-metszet csökkent."
     }
   },
   {
@@ -812,7 +820,8 @@
     "difficulty": 2,
     "why": {
       "a határhaszon a fogyasztás növelésével csökken": "Ez Gossen I. törvénye (csökkenő határhaszon).",
-      "ha nő az ár, csökken a keresett mennyiség": "Ez a kereslet törvénye."
+      "ha nő az ár, csökken a keresett mennyiség": "Ez a kereslet törvénye.",
+      "a közömbösségi görbék nem metszik egymást": "Ez a közömbösségi görbék tulajdonsága, nem Gossen II. törvénye."
     }
   },
   {
@@ -834,7 +843,8 @@
     "difficulty": 2,
     "why": {
       "MUa/MUb": "Az MUa/MUb a fogyasztó szubjektív cserearánya (MRS), nem a piaci.",
-      "I/Pa": "Az I/Pa a tengelymetszet, nem cserearány."
+      "I/Pa": "Az I/Pa a tengelymetszet, nem cserearány.",
+      "a teljes hasznosságok aránya": "A piaci cserearány az árak aránya, a teljes hasznosságok aránya nem cserearány."
     }
   },
   {
@@ -1031,6 +1041,7 @@
     "difficulty": 3,
     "why": {
       "a helyettesítési határrátát az A pontban": "Az A pontbeli határrátát az érintő adja, nem az A–B szelő.",
+      "a két jószág árának arányát": "Az árarány a költségvetési egyenes meredeksége, nem a közömbösségi görbe két pontját összekötő szelőé.",
       "a hasznosság növekedését A-ból B-be": "A és B ugyanazon a közömbösségi görbén van, a hasznosság nem nő."
     }
   },
@@ -1054,7 +1065,8 @@
     "difficulty": 3,
     "why": {
       "nő, mert Qa nő": "Qa nő, de Qb csökken, ezért a hasznosság nem nő.",
-      "csökken, mert Qb csökken": "Qb csökkenését Qa növekedése pont kiegyenlíti."
+      "csökken, mert Qb csökken": "Qb csökkenését Qa növekedése pont kiegyenlíti.",
+      "nő, mert B közelebb van a Qa tengelyhez": "Ugyanazon a közömbösségi görbén a hasznosság mindenhol azonos, a pont helyétől függetlenül."
     }
   },
   {
@@ -1077,7 +1089,8 @@
     "difficulty": 3,
     "why": {
       "MUb/MUa": "Az MUb/MUa a reciproka.",
-      "I/Pa": "Az I/Pa tengelymetszet, nem meredekség."
+      "I/Pa": "Az I/Pa tengelymetszet, nem meredekség.",
+      "TUa/TUb": "Az MRS a határhasznok hányadosa, nem a teljes hasznosságoké."
     }
   },
   {
@@ -1124,7 +1137,8 @@
     "difficulty": 3,
     "why": {
       "tökéletes kiegészítő termékek": "Tökéletes kiegészítőknél L alakú görbék vannak.",
-      "tökéletes helyettesítő termékek": "Tökéletes helyettesítőknél csökkenő egyenesek vannak."
+      "tökéletes helyettesítő termékek": "Tökéletes helyettesítőknél csökkenő egyenesek vannak.",
+      "mindkét jószág normál jószág": "Két hasznos jószágnál a közömbösségi görbe negatív meredekségű, nem emelkedő."
     }
   },
   {
@@ -1195,7 +1209,7 @@
     "difficulty": 3,
     "why": {
       "az egyenes meredeksége": "Az egyenes meredeksége (az árak aránya) elforduláskor megváltozik.",
-      "az I/Pa tengelymetszet": "Az árváltozást követő jószág tengelymetszete változik.",
+      "az I/Pa tengelymetszet": "Az a jószág drágult, ezért éppen az I/Pa metszet csökkent.",
       "a megvásárolható kombinációk halmaza": "A megvásárolható kombinációk halmaza is megváltozik."
     }
   },
@@ -1219,7 +1233,8 @@
     "difficulty": 3,
     "why": {
       "a fogyasztó jövedelme (I)": "A jövedelem nem a meredekség.",
-      "az I/Pb tengelymetszet": "A tengelymetszet nem a meredekség."
+      "az I/Pb tengelymetszet": "A tengelymetszet nem a meredekség.",
+      "a b jószág határhasznossága": "Az optimumban az MUa/MUb hányados egyenlő Pa/Pb-vel, nem egyedül MUb."
     }
   },
   {

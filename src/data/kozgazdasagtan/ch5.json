@@ -88,9 +88,9 @@
     "official": false,
     "difficulty": 2,
     "why": {
-      "a föld bérbeadásából elérhető bevétel": "A bérbeadás bevétele lehetőségköltség, nem elsüllyedt.",
-      "a kukoricatermesztés hozama": "A kukorica hozama lehetőségköltség.",
-      "a golfpályaként való hasznosítás bevétele": "A golfpálya bevétele lehetőségköltség."
+      "a föld bérbeadásából elérhető bevétel": "A bérbeadás most is választható lehetőség, ezért alternatívaköltség, nem elsüllyedt költség.",
+      "a kukoricatermesztés hozama": "A kukoricatermesztés most is választható lehetőség, ezért alternatívaköltség, nem elsüllyedt.",
+      "a golfpályaként való hasznosítás bevétele": "A golfpályaként való hasznosítás most is választható, ezért alternatívaköltség, nem elsüllyedt."
     }
   },
   {
@@ -221,7 +221,8 @@
     "difficulty": 2,
     "why": {
       "áruhiány (túlkereslet)": "Az egyensúlyi ár fölött nem hiány, hanem felesleg van.",
-      "piaci egyensúly": "Egyensúly csak P0-nál van."
+      "piaci egyensúly": "Egyensúly csak P0-nál van.",
+      "a kereslet növekedése": "P2 egy ár a változatlan keresleti görbén, nem a görbe eltolódása."
     }
   },
   {
@@ -397,7 +398,7 @@
     "official": false,
     "difficulty": 3,
     "why": {
-      "az ár és a mennyiség is nő": "Az ár irányát nem lehet tudni, mert a két eltolódás ellentétes irányba hat.",
+      "az ár és a mennyiség is nő": "Az ár iránya nem tudható: a kereslet növekedése emelné, a kínálaté csökkentené.",
       "az ár nő, a mennyiség nem változik": "A mennyiség biztosan nő, nem marad változatlan.",
       "az ár csökken, a mennyiség csökken": "A mennyiség nem csökken."
     }
@@ -564,8 +565,8 @@
     "difficulty": 3,
     "why": {
       "a csökkenő határhasznosság elve": "A csökkenő határhasznosság a keresleti oldal elve.",
-      "a növekvő mérethozadék, amely nagyobb mennyiségnél csökkenti az egységköltséget": "A mérethozadék nem a kínálati görbe meredekségét magyarázza.",
-      "magasabb árnál a termelőknek kevesebb erőforrásra van szükségük": "Magasabb árnál nem kell kevesebb erőforrás."
+      "a növekvő mérethozadék, amely nagyobb mennyiségnél csökkenti az egységköltséget": "A könyv a pozitív meredekséget a növekvő határ-alternatívaköltséggel magyarázza, nem a mérethozadékkal.",
+      "magasabb árnál a termelőknek kevesebb erőforrásra van szükségük": "A magasabb ár az erőforrások elvonását fizeti meg, nem csökkenti az erőforrásigényt."
     }
   },
   {
@@ -689,8 +690,8 @@
     "difficulty": 3,
     "why": {
       "a kínálat is nőtt, ezért nőtt a kínált mennyiség": "A kínálat nem nőtt, csak a kínált mennyiség (mozgás a görbén).",
-      "a kínált mennyiség nem változott, csak a keresett mennyiség nőtt": "A kínálati görbe helyben maradt.",
-      "az ár P1-re nőtt, ezért a kereslet visszaesik D0-ra": "A kínált mennyiség is nőtt."
+      "a kínált mennyiség nem változott, csak a keresett mennyiség nőtt": "A magasabb P1 árnál a változatlan S görbe mentén a kínált mennyiség is Q1-re nőtt.",
+      "az ár P1-re nőtt, ezért a kereslet visszaesik D0-ra": "Az áremelkedés a keresett mennyiséget mozgatja a görbén, a keresletet (D1) nem tolja vissza."
     }
   },
   {
@@ -713,7 +714,7 @@
     "difficulty": 3,
     "why": {
       "az ár és a mennyiség is nőtt": "A kínálat növekedése az árat csökkenti.",
-      "az ár nőtt, a mennyiség csökkent": "Ár és mennyiség iránya itt ellentétes.",
+      "az ár nőtt, a mennyiség csökkent": "A kínálat növekedésekor az ár csökken és a mennyiség nő, nem fordítva.",
       "nőtt a kereslet, mert olcsóbb lett a termék": "A kereslet nem változott, csak mozgás van a görbén."
     }
   },
