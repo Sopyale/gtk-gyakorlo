@@ -5,7 +5,7 @@ calculation tasks in 23 task types, a 60-minute mock ZH of 8 tasks), Menedzsment
 és egyén; the Közgazdaságtan 1. ZH is written and off the site (1.13.0), and further ZHs are added by the owner's
 daily automation as their material arrives. The site itself is in Hungarian.
 
-Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 2.0.4 ([change log](log/LOG.md))
+Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 2.1.0 ([change log](log/LOG.md))
 
 > For personal use only, not to be distributed. The site is based on ELTE's internal teaching materials; the copyright
 > of the original materials belongs to the lecturers and ELTE GTK. The notes, the textbook and the ZH materials
@@ -28,10 +28,11 @@ Live site: https://sopyale.github.io/gtk-gyakorlo/ · Current version: 2.0.4 ([c
 - **Számolás** (Matematika): Moodle-style task cards with the point value, grey number fields, a tick or cross per
   field and a step-by-step derivation (Levezetés); no partial credit. Decimal comma or point, fractions where the format allows, spaces in whole numbers.
 - **Ütemterv** (study plan): the ZH date is prefilled from `subjects.json`, the student picks the start day; spreads the
-  chapters over the days until the ZH by question count; the last day is review.
+  chapters over the days until the ZH by question count; the last day is review. Ticking a day off re-spreads the rest.
+- **Home**: "Következő ZH" card and a "Ma" panel (today's plan, Ismétlés due, daily streak).
 - **Accounts** (optional): Neptun code + password + own non-ELTE e-mail, or Google sign-in. Progress syncs across
   devices; the password can be reset by e-mail; "stay signed in" is optional. Signed-out visitors are asked to sign in
-  on every visit. The Drive link asks for sign-in, so access requests can be matched to
+  once per visit, after their first answer. The Drive link asks for sign-in, so access requests can be matched to
   Neptun codes. Details in the privacy notice (`#/adatkezeles`).
 - **Segítség kérése** (ticket) tab: signed-in students send a question, request or bug report to the owner, and the
   owner and the student can reply back and forth.

@@ -3,6 +3,31 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 2.1.0 – 2026-10-31
+
+The redesign the owner approved on 2026-10-31 ("Fix first" and "Upgrades" in `ideas.md`).
+
+- **First visit:** the legal banner is one line ("Kizárólag saját felhasználásra – nem terjeszthető.", "Részletek"
+  opens the full text, which stays verbatim in every footer). The sign-in dialog no longer opens on arrival, only
+  after the first answer of a visit (1.5 s later, so the feedback can be read first).
+- **Home:** a "Következő ZH" card (nearest active ZH with questions; the student's Ütemterv date wins) replaces the
+  old Közgazdaságtan button, which led to an empty page. New "Ma" panel: today's Ütemterv chapters, Ismétlés due per
+  ZH and a daily streak (`streak` in localStorage, set by every answer; device only, not synced). The bento follows
+  the next ZH; totals count every active subject.
+- **Menu:** only active subjects; inactive ones go into a "Hamarosan" dropdown.
+- **Per subject:** own aurora colour (`[data-subject]`, mixed per theme so text tokens stay AA) and own line figure
+  (`SubjectArt.jsx`) on the hub hero, the ZH card and the home hero.
+- **Subject page:** the modes are an even grid (3 / 2 / 1 columns, the last card fills its row), each with a data
+  line: progress bar, wrong count, due today, flashcards known, best Párosító time, days to the ZH.
+- **Practice on phones:** the check/next button is sticky at the bottom; in practice views the footer starts below
+  the screen.
+- **Ütemterv:** days fold (today open), ticked days fade and keep their chapters (`done[date]` is now the list of
+  chapters; an old `true` still counts). `schedule()` in `plan.js` spreads the material not yet done from today (or
+  tomorrow once today is ticked) to the ZH, so getting ahead or behind re-plans by itself; "Újratervezés mától" is
+  gone. Tests in `plan.test.mjs` and `quiz.test.mjs` (streak).
+- Checked with Playwright at 360 and 1280 px in both themes: no horizontal scroll, no page errors; ticking a day and
+  the sign-in prompt after an answer were clicked through.
+
 ## 2.0.4 – 2026-10-31
 
 - **2. ZH question banks:** Menedzsment (126 questions, 32 glossary terms), Számvitel (166; `szv-4-002` is left out, it was a Moodle practice item word for word), Marketing (117, 39 terms),

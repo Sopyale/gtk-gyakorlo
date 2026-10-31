@@ -142,7 +142,18 @@ export function record(q, correct) {
   }
   save('wrong', wrong);
   schedule(q.id, correct);
+  markDay();
 }
+
+// Napi sorozat: days in a row with at least one answer, kept on this device. Yesterday still counts until today ends.
+export function markDay(now = today()) {
+  const s = load('streak', { last: '', count: 0 });
+  if (s.last !== now) save('streak', { last: now, count: s.last === addDays(now, -1) ? s.count + 1 : 1 });
+}
+export const streak = (now = today()) => {
+  const s = load('streak', { last: '', count: 0 });
+  return s.last === now || s.last === addDays(now, -1) ? s.count : 0;
+};
 
 // "Más szavakkal, de ugyanezt írtam": the student's own answer was right after all, so undo the miss.
 export function forgive(q) {

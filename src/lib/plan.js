@@ -29,3 +29,25 @@ export function addDays(iso, n) {
 
 // Today's date in the student's own time zone.
 export const today = () => new Date(Date.now() - new Date().getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+
+// The Ütemterv as shown: the days already ticked off (with the chapters done that day) and the material still left,
+// spread from today (tomorrow once today is ticked) up to the ZH. Getting ahead therefore re-spreads the rest.
+// `done[date]` is the list of chapters done that day; an older plan's `true` counts as a done day without chapters.
+export function schedule(chapters, { date, start, done = {} }, now) {
+  const doneDays = Object.keys(done).filter((d) => done[d]).sort()
+    .map((d) => ({ date: d, chapters: Array.isArray(done[d]) ? done[d] : [] }));
+  const finished = new Set(doneDays.flatMap((d) => d.chapters));
+  let from = start > now ? start : now;
+  if (done[from]) from = addDays(from, 1);
+  const n = date ? Math.max(0, daysBetween(from, date)) : 0;
+  const left = chapters.filter((c) => !finished.has(c.n));
+  const slots = n && left.length ? planDays(left, n >= 3 ? n - 1 : n) : []; // with three days or more the last is review
+  const upcoming = Array.from({ length: n }, (_, i) => ({ date: addDays(from, i), chapters: slots[i] ?? null }));
+  return { done: doneDays, upcoming };
+}
+
+// Ticking a day off counts its chapters as done today, whichever planned day they came from.
+export function tick(stored, chapters, now) {
+  const prev = Array.isArray(stored.done?.[now]) ? stored.done[now] : [];
+  return { ...stored, done: { ...stored.done, [now]: [...new Set([...prev, ...(chapters ?? [])])] } };
+}

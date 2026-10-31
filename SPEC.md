@@ -2,7 +2,7 @@
 
 Practice website for first-semester ELTE GTK students. Static, Hungarian UI, English code.
 Changes only with the owner's approval; every change follows [docs/RULES.md](docs/RULES.md) and is logged in
-[log/LOG.md](log/LOG.md). Current version: 1.9.0.
+[log/LOG.md](log/LOG.md). Current version: 2.1.0.
 
 ## 1. Objective
 
@@ -53,9 +53,13 @@ Out: own server code, third-party analytics or tracking, any content outside the
 
 ## 4. Pages and modes
 
-- **Menu**: top bar on desktop, drawer on phones; the six subjects in the order above.
-- **Home**: intro, subject bento cards (Közgazdaságtan active with its question count, Matematika as a link with its task
-  count, others "Hamarosan", not clickable),
+- **Menu**: top bar on desktop, drawer on phones; the active subjects in the order above; subjects without questions
+  wait in one "Hamarosan" dropdown (in the drawer: listed, not clickable).
+- **Home**: intro and a "Következő ZH" card (the nearest active ZH with questions: subject, ZH, days left, date, count,
+  one button to its practice); the hero figure and colour are that subject's. Below it the **"Ma" panel**: today's
+  Ütemterv chapters (for every plan the student made, plus the next ZH), the Ismétlés questions due today per ZH, and
+  the daily streak ("N napos sorozat": days in a row with at least one answer, kept on the device). Then the bento:
+  the next ZH's card with progress, totals, Drive, wrong questions, and the other subjects,
   "Tananyagok (Google Drive)" button → `https://drive.google.com/drive/folders/15-MBuk89WvQ-HQwPefg7sUawg0LdZi-0?usp=drive_link`
   with a one-line note that access is granted on request. A countdown to each active ZH ("2 nap az 1. ZH-ig") shows in
   the hero and on the ZH card; the date is `date` on the exam in `subjects.json`, or the student's own Ütemterv date.
@@ -89,9 +93,13 @@ Out: own server code, third-party analytics or tracking, any content outside the
   browser) and adds a meaning similarity; if it fails to load, only the concepts are used. The student decides.
 - **Ütemterv**: the ZH date is prefilled from `date` in `subjects.json` (the owner's calendar; the student can change
   it) and the student picks the day they start studying (default: today); the chapters are spread over the days by question count, the last day is
-  review when at least three days are left; days can be ticked off; "Újratervezés mától" re-plans from today.
+  review when at least three days are left. Today's day is open, the others are folded but can be opened and practised
+  any time. "Kész" ticks a day's chapters off as done today (also a later day's, when the student is ahead); the
+  material still left is then spread again from tomorrow (from today while today is not ticked) up to the ZH, so
+  falling behind or getting ahead re-plans by itself. Ticked days stay at the top, faded; "Mégsem kész" undoes one.
 - **Haladás törlése** button clears all stored progress.
-- **Legal notice** (verbatim, see §7) in every page footer and as a dismissible first-visit banner.
+- **Legal notice** (verbatim, see §7) in every page footer; on the first visit a one-line banner ("Kizárólag saját
+  felhasználásra – nem terjeszthető." + "Részletek" for the full text + "Értem"), owner's choice in 2.1.0.
 - `<meta name="robots" content="noindex, nofollow">` on every page; `robots.txt` disallows everything.
 
 ## 4a. Accounts, admin, privacy
@@ -102,7 +110,7 @@ Out: own server code, third-party analytics or tracking, any content outside the
 - **Google sign-in** (PKCE); the student then enters their Neptun code once.
 - **Bejelentkezve maradok** checkbox (default on): the session is kept in localStorage; unchecked, in sessionStorage
   (ends when the browser closes).
-- **Sign-in prompt**: on every visit (page load) a signed-out visitor gets a dialog saying progress is saved on every
+- **Sign-in prompt**: once per visit (page load), right after a signed-out visitor's first answer, a dialog saying progress is saved on every
   device after sign-in and that Drive access must be requested with the registered e-mail. "Most nem" closes it; it is
   not shown on `#/fiok`, `#/admin` and `#/adatkezeles`.
 - **Sign-in with Neptun code**: the `login_email` RPC returns the account's e-mail only after a password check,
@@ -192,6 +200,10 @@ Dark, futuristic, premium (Linear / Vercel / Raycast polish), built on the exam 
   red `#a8233c`, border `#e6dce4`, tint `#faf6f9`.
 - Dark tokens (hero theme): plum `#d79bcb`, accent `#f0a052`, background `#140b13`; other hues lightened to pass AA.
 - Follows the system theme, with a manual toggle.
+- Each subject has its own colour (aurora and figures; text keeps the AA tokens) and its own line figure (Közgazdaságtan:
+  indifference curves, Matematika: normal curve, Számvitel: T-account, Marketing: funnel, Menedzsment: org chart,
+  Közösség és egyén: network). Subject page modes sit in an even grid, each with a real-data line. On phones the
+  check/next button of a question stays at the bottom of the screen and the footer starts below the screen.
 - Signature: slow aurora/mesh gradient + grain behind the hero; bento grid with 1 px gradient borders, glass surfaces and a
   cursor-following glow (desktop); View Transitions between pages; answer card slide/flip to feedback; shake on wrong,
   glow pulse on a correct streak; animated counters and score ring. 150–300 ms, ease-out. Animations always run,
