@@ -1,7 +1,7 @@
 // Self-check for the quiz helpers: node src/lib/quiz.test.mjs
 import assert from 'node:assert/strict';
 globalThis.localStorage = undefined; // exercise the memory fallback
-const { normalize, isCorrect, apportion, record, correctText, schedule, due, drawMock, fieldCorrect, MOCK_MIX, zhLevel, forgive, checkDefinition, definitionVerdict, score } = await import('./quiz.js');
+const { normalize, isCorrect, apportion, record, correctText, schedule, due, drawMock, fieldCorrect, MOCK_MIX, zhLevel, forgive, checkDefinition, definitionVerdict, score, markDay, streak } = await import('./quiz.js');
 const { load } = await import('./storage.js');
 
 assert.equal(normalize('  Ceteris   Páribus! '), 'ceteris paribus');
@@ -46,6 +46,10 @@ schedule('y', true, '2026-10-01'); assert.equal(r().due, '2026-10-02');
 schedule('y', true, '2026-10-02'); assert.deepEqual(r(), { step: 1, due: '2026-10-05' });
 schedule('y', true, '2026-10-05'); assert.deepEqual(r(), { step: 2, due: '2026-10-12' });
 schedule('y', true, '2026-10-12'); assert.equal(r(), undefined);
+(await import('./storage.js')).save('streak', { last: '', count: 0 }); // record() above already marked today
+markDay('2026-11-01'); markDay('2026-11-01'); markDay('2026-11-02');
+assert.equal(streak('2026-11-02'), 2); assert.equal(streak('2026-11-03'), 2, 'yesterday still counts');
+assert.equal(streak('2026-11-04'), 0); markDay('2026-11-05'); assert.equal(streak('2026-11-05'), 1, 'a gap restarts it');
 console.log('quiz helpers ok');
 
 // Typed definitions

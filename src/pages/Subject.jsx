@@ -7,6 +7,16 @@ import { due, TYPES, zhLevel } from '../lib/quiz.js';
 import { href } from '../lib/route.js';
 import { clearProgress, load } from '../lib/storage.js';
 
+// The real-data line at the bottom of a mode card; with `of` it is a progress bar.
+function Meter({ value, of, text }) {
+  return (
+    <span className={`meter ${value ? 'on' : ''}`}>
+      {of > 0 && <i aria-hidden="true"><em style={{ width: `${(value / of) * 100}%` }} /></i>}
+      <small>{text}</small>
+    </span>
+  );
+}
+
 const toggle = (set, v) => (set.includes(v) ? set.filter((x) => x !== v) : [...set, v]);
 
 export default function Subject({ subject }) {
@@ -26,6 +36,8 @@ export default function Subject({ subject }) {
   const wrong = qs.filter((q) => q.id in wrongIds).length;
   const dueNow = due(qs).length;
   const best = load('match', {})[subject.path];
+  const knownMap = load('cards', {});
+  const known = scopeGlossary(subject).filter((g) => knownMap[g.term]).length;
   const pool = qs.filter((q) => (!chapters.length || chapters.includes(q.chapter)) && (!types.length || types.includes(q.type)) && (!hard || zhLevel(q)));
   const query = new URLSearchParams();
   if (chapters.length) query.set('ch', chapters.join(','));
@@ -75,17 +87,20 @@ export default function Subject({ subject }) {
       </section>
 
       <div className="bento modes">
-        <a className="card mode glow big" href={practiceHref} aria-disabled={!pool.length}>
+        <a className="card mode glow" href={practiceHref} aria-disabled={!pool.length}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Play size={26} className="mi" aria-hidden="true" /><h3>Gyakorlás</h3>
           <p>{calc ? `${pool.length} feladat a kiválasztott feladattípusokból, ellenőrzés és megoldás minden feladat után.` : `${pool.length} kérdés a kiválasztott fejezetekből és típusokból, visszajelzés minden válasz után.`}</p>
+          <Meter value={done} of={qs.length} text={`${done} / ${qs.length} helyes`} />
         </a>
         <a className="card mode glow" href={href(subject.path, 'rontott')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><RotateCcw size={24} className="mi" aria-hidden="true" /><h3>Rontott kérdéseim</h3>
-          <p>{wrong ? `${wrong} kérdés vár. Kétszer egymás után eltalálva lekerül a listáról.` : 'Még nincs rontott kérdésed.'}</p>
+          <p>Kétszer egymás után eltalálva egy kérdés lekerül a listáról.</p>
+          <Meter value={wrong} text={wrong ? `${wrong} kérdés vár` : 'Nincs rontott kérdésed'} />
         </a>
         <a className="card mode glow" href={href(subject.path, 'ismetles')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Repeat size={24} className="mi" aria-hidden="true" /><h3>Ismétlés</h3>
-          <p>{dueNow ? `Mára ${dueNow} kérdés esedékes.` : 'Mára nincs ismételnivaló.'} Az elrontottak 1, 3 és 7 nap múlva jönnek vissza.</p>
+          <p>Az elrontottak 1, 3 és 7 nap múlva jönnek vissza.</p>
+          <Meter value={dueNow} text={dueNow ? `Mára ${dueNow} esedékes` : 'Mára nincs ismételnivaló'} />
         </a>
         <a className="card mode glow" href={href(subject.path, 'szimulacio')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Timer size={24} className="mi" aria-hidden="true" /><h3>ZH-szimuláció</h3>
@@ -94,16 +109,19 @@ export default function Subject({ subject }) {
         {cards > 0 && <>
           <a className="card mode glow" href={href(subject.path, 'flashcard')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Layers size={24} className="mi" aria-hidden="true" /><h3>Flashcardok</h3>
-          <p>{cards} fogalom a fogalomtárból.</p>
+          <p>Fogalmak a fogalomtárból: megfordítod, vagy leírod a definíciót.</p>
+          <Meter value={known} of={cards} text={`${known} / ${cards} tudtam`} />
         </a>
           <a className="card mode glow" href={href(subject.path, 'parosito')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><Puzzle size={24} className="mi" aria-hidden="true" /><h3>Párosító</h3>
-          <p>Párosíts 6 fogalmat a meghatározásával, minél gyorsabban.{best ? ` Legjobb időd: ${(best / 1000).toFixed(1)} mp.` : ''}</p>
+          <p>Párosíts 6 fogalmat a meghatározásával, minél gyorsabban.</p>
+          <Meter value={best ? 1 : 0} text={best ? `Legjobb időd: ${(best / 1000).toFixed(1)} mp` : 'Még nincs időd'} />
         </a>
         </>}
-        <a className="card mode glow wide" href={href(subject.path, 'utemterv')}>
+        <a className="card mode glow" href={href(subject.path, 'utemterv')}>
           <ArrowUpRight className="go" size={22} aria-hidden="true" /><CalendarDays size={24} className="mi" aria-hidden="true" /><h3>Ütemterv</h3>
-          <p>{zhDate > today() ? `${daysBetween(today(), zhDate)} nap a ZH-ig. Add meg, mikor kezdesz tanulni, és napokra bontjuk az anyagot.` : 'Add meg a ZH dátumát, és napokra bontjuk az anyagot.'}</p>
+          <p>Add meg, mikor kezdesz tanulni, és napokra bontjuk az anyagot a ZH-ig.</p>
+          <Meter value={zhDate > today() ? 1 : 0} text={zhDate > today() ? `${daysBetween(today(), zhDate)} nap a ZH-ig` : 'Nincs ZH-dátum'} />
         </a>
       </div>
 

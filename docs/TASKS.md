@@ -152,6 +152,17 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Mock ZH of a calculation exam can be limited to some task types (`mock.chapters`); ids may contain a digit in the
       prefix (`ke2-`); typed effects like `Eszk+ Erd-` keep their signs; long field labels get their own row layout
 
+## 2.1.0
+
+- [x] First visit: one-line legal banner with "Részletek"; sign-in prompt only after the first answer
+- [x] Home: "Következő ZH" card; "Ma" panel (today's Ütemterv chapters, Ismétlés due, daily streak)
+- [x] Menu: only active subjects, the rest in a "Hamarosan" dropdown
+- [x] Own colour and line figure per subject (hub hero, ZH card, home hero)
+- [x] Subject page: even card grid, every card with a real-data line
+- [x] Practice on phones: check/next button stays at the bottom, footer below the screen
+- [x] Ütemterv: today open, other days folded, ticked days faded; ticking re-spreads the rest of the material
+
 ## Open
 
-- [ ] 2.1.0: full redesign of the site (see ideas.md, section "2.1.0 – redesign")
+- [ ] Later redesign ideas (result card, rewards, ranks, friends, student teachers, several solutions, hints,
+      notifications, Fókusz mód): see ideas.md

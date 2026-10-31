@@ -62,14 +62,18 @@ function DrawerAdmin({ close }) {
   return profile?.is_admin ? <a href={href('admin')} onClick={close}>Admin</a> : null;
 }
 
-function SubjectLinks({ current, onPick }) {
-  return subjects.map((s) =>
-    s.active ? (
-      <a key={s.id} href={href(s.id)} className={current === s.id ? 'on' : ''}
-        aria-current={current === s.id ? 'page' : undefined} onClick={onPick}>{s.name}</a>
-    ) : (
-      <span key={s.id} className="soon" aria-disabled="true">{s.name}<small>Hamarosan</small></span>
-    ),
+// Active subjects as links; the ones without questions yet wait in one "Hamarosan" group instead of filling the bar.
+function SubjectLinks({ current, onPick, group }) {
+  const soon = subjects.filter((s) => !s.active);
+  const items = soon.map((s) => <span key={s.id} className="soon" aria-disabled="true">{s.name}<small>Hamarosan</small></span>);
+  return (
+    <>
+      {subjects.filter((s) => s.active).map((s) => (
+        <a key={s.id} href={href(s.id)} className={current === s.id ? 'on' : ''}
+          aria-current={current === s.id ? 'page' : undefined} onClick={onPick}>{s.name}</a>
+      ))}
+      {soon.length > 0 && (group ? <details className="soon-menu"><summary>Hamarosan</summary><div className="card">{items}</div></details> : items)}
+    </>
   );
 }
 
@@ -88,7 +92,7 @@ export default function Layout({ current, calm, children }) {
       <header className="top">
         <div className="wrap bar">
           <a className="logo" href="#/"><span className="mark" aria-hidden="true" />gyakorló</a>
-          <nav className="nav" aria-label="Tárgyak"><SubjectLinks current={current} /></nav>
+          <nav className="nav" aria-label="Tárgyak"><SubjectLinks current={current} group /></nav>
           <AdminLink current={current} />
           <TicketLink current={current} />
           <AccountButton />
@@ -110,7 +114,7 @@ export default function Layout({ current, calm, children }) {
           </nav>
         </div>
       )}
-      <main id="main" tabIndex={-1} className={calm ? 'calm' : ''}>{children}</main>
+      <main id="main" tabIndex={-1} className={calm ? 'calm' : ''} data-subject={current}>{children}</main>
       <footer className="foot"><div className="wrap"><p>{LEGAL}</p>
         <p className="ver links"><a href={href('ujdonsagok')}>Újdonságok</a>{accountsEnabled && <a href={href('adatkezeles')}>Adatkezelési tájékoztató</a>}</p>
         <p className="ver">Verzió: {__VERSION__}</p></div></footer>

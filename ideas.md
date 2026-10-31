@@ -12,7 +12,7 @@ workflow.
 
 Ideas the owner approved for the redesign on 2026-10-31 (from a review of the live 2.0.3 site):
 
-### Fix first
+### Fix first (built in 2.1.0)
 
 - **First visit:** today the sign-in dialog and the large legal banner open at the same time and cover the page.
   Make the legal banner one short line with a "Részletek" link (the full text stays in the footer), and ask for
@@ -21,7 +21,7 @@ Ideas the owner approved for the redesign on 2026-10-31 (from a review of the li
   page. Replace it with a "Következő ZH" card (subject, ZH, days left) and one button straight to its practice.
 - **Menu:** show only active subjects; the "Hamarosan" ones go into one "Hamarosan" dropdown.
 
-### Upgrades
+### Upgrades (built in 2.1.0)
 
 - **"Ma" panel** at the top of the home page: today's Ütemterv chapters, the Ismétlés items due today and a
   streak counter.
