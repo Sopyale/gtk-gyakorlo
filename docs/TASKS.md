@@ -170,11 +170,10 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Card: how to install the site and turn on the ZH reminder
 - [x] Optional `why` ("Miért rossz?") and `solutions` (other methods) fields with their UI and checks
 - [x] Backfill `why` and `solutions` on the existing questions from the notes (2.2.1, 2026-10-31)
+- [x] New uploads fill `why` and `solutions` (RULES.md Question bank 6, which the weboldal agent follows; moodle-figyelo.md step 5)
 
 ## Open
 
-- [ ] Agents fill `why` and `solutions` from the notes in new uploads (update moodle-figyelo.md and the weboldal agent
-      after 2.2.0 is merged)
 - [ ] 2.3.0: ranks bronze to diamond, profile card, opt-in leaderboard under a nickname (new non-destructive SQL,
       privacy-notice update)
 - [ ] 2.4.0: friends and messages with blocking, reporting and moderation
