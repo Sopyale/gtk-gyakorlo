@@ -10,6 +10,46 @@ better. A major change, so it gets its own minor version, 2.1.0. To be specified
 (look, navigation, subject and ZH tabs, mobile use, new features); use frontend-design and the agent-skills spec
 workflow.
 
+Ideas the owner approved for the redesign on 2026-10-31 (from a review of the live 2.0.3 site):
+
+### Fix first
+
+- **First visit:** today the sign-in dialog and the large legal banner open at the same time and cover the page.
+  Make the legal banner one short line with a "Részletek" link (the full text stays in the footer), and ask for
+  sign-in only after the first answered question.
+- **Home points to the next ZH:** the main button says "Közgazdaságtan gyakorlása" and leads to an empty "Hamarosan"
+  page. Replace it with a "Következő ZH" card (subject, ZH, days left) and one button straight to its practice.
+- **Menu:** show only active subjects; the "Hamarosan" ones go into one "Hamarosan" dropdown.
+
+### Upgrades
+
+- **"Ma" panel** at the top of the home page: today's Ütemterv chapters, the Ismétlés items due today and a
+  streak counter.
+- **Own colour and hero figure per subject** (for example a vector or a distribution curve for Matematika instead of
+  the economics curve).
+- **Even card grid on the subject page:** no half-empty Gyakorlás card and no gaps; every card shows real data
+  (progress bar, last result).
+- **Practice on phones:** the Ellenőrzés button is fixed at the bottom; the footer does not appear right under the
+  question.
+- **Ütemterv:** today's day is open and highlighted, the other days are collapsed, finished days are ticked and
+  faded. It must not suggest that the other days are locked: every chapter stays open to practise. When a student
+  gets ahead of the plan, the remaining material is re-spread over the remaining days automatically.
+
+### Later
+
+- **ZH result card** after a ZH-szimuláció that can be shown to others (score, ring, chapters).
+- **Small rewards:** confetti on a streak of 5, a "heti célod kész" badge.
+- **Ranks and leaderboard:** badges from bronze and silver up to diamond; every user has a profile card; a
+  leaderboard on the site. Opt-in, under a nickname, never the Neptun code or e-mail.
+- **Friends and messages:** students can add friends and message each other. Needs blocking, reporting and
+  moderation, and a privacy-notice update.
+- **Student teachers and videos** (owner's idea): students can apply to be a "tanár" and make videos that explain
+  the material more clearly. Needs an application and approval step by the owner, and videos hosted outside the
+  site (for example unlisted YouTube links). The videos must not show the ELTE notes, slides or ZH materials
+  (copyright, see RULES.md).
+- **Several solutions per task type** (Matematika, Számvitel): every task type shows the easiest solution first, so
+  students understand it and it does not feel complicated, and other solution methods after it.
+
 ## 1. Server-based AI on our own machine for checking typed definitions
 
 Today (since 1.9.0) a typed definition is checked in the student's browser: a key-concept list per term, plus an
