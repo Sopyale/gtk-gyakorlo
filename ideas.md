@@ -49,6 +49,11 @@ Ideas the owner approved for the redesign on 2026-10-31 (from a review of the li
   (copyright, see RULES.md).
 - **Several solutions per task type** (Matematika, Számvitel): every task type shows the easiest solution first, so
   students understand it and it does not feel complicated, and other solution methods after it.
+- **"Miért rossz?" hint:** every wrong option gets one sentence on the trap in it, not only the correct answer.
+- **Notification before a ZH** (the site is already an installable PWA), for example "3 nap a Matek 2. ZH-ig, 6
+  esedékes ismétlésed van". The site shows a card that explains how to install it on a phone and how to turn on
+  notifications.
+- **Fókusz mód:** during practice the menu and the footer disappear; only the question and a timer stay.
 
 ## 1. Server-based AI on our own machine for checking typed definitions
 
