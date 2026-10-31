@@ -16,7 +16,12 @@
   "explanation": "Az irányítás (to control) többet jelent ellenőrzésnél: be is avatkozik, ha az eltérés ezt kívánja.",
   "source": "Jegyzet 4.1",
   "official": false,
-  "difficulty": 1
+  "difficulty": 1,
+  "why": {
+   "A munkakörök kialakítása és az erőforrások hozzárendelése": "Ez a szervezés meghatározása.",
+   "A szervezeti tagok viselkedésének tudatos befolyásolása a motiváción keresztül": "Ez a vezetés meghatározása.",
+   "A jövőbeli célok kijelölése és a hozzájuk vezető lépések meghatározása": "Ez a tervezés meghatározása."
+  }
  },
  {
   "id": "mn-4-002",
@@ -35,7 +40,12 @@
   "explanation": "Az ellenőrzés csak megnézi, mi történt; az irányítás az eltérés esetén be is avatkozik.",
   "source": "Jegyzet 4.1",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Az irányítás kizárólag a stratégiai szintre vonatkozik": "Az irányítás nem csak a stratégiai szintre vonatkozik.",
+   "Az ellenőrzés a jövőre, az irányítás a múltra irányul": "Az ellenőrzés csak megnézi, mi történt; a különbség a beavatkozás, nem a múlt/jövő.",
+   "Az irányítás csak a pénzügyi mutatókat vizsgálja": "Az irányítás nem korlátozódik pénzügyi mutatókra."
+  }
  },
  {
   "id": "mn-4-003",
@@ -54,7 +64,12 @@
   "explanation": "A motiváción keresztüli befolyásolás a vezetés feladata. Az irányítás megerősít, jelez eltérést és beavatkozik.",
   "source": "Jegyzet 4.1 · 5.1",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "A folyamatok megerősítése, ha a tervek szerint zajlanak": "A megerősítés az irányítás feladata.",
+   "Az eltérések jelzése": "Az eltérések jelzése az irányítás feladata.",
+   "Időben történő beavatkozás": "Az időben történő beavatkozás az irányítás feladata."
+  }
  },
  {
   "id": "mn-4-004",
@@ -73,7 +88,12 @@
   "explanation": "Előbb kell a mérce (követelmény), utána a mérés, aztán a terv-tény összevetés, végül az értékelés.",
   "source": "Jegyzet 4.4",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Teljesítmény mérése → követelmények meghatározása → összehasonlítás → értékelés": "A mérés a követelmények meghatározása után jön.",
+   "Követelmények meghatározása → összehasonlítás → teljesítmény mérése → értékelés": "Az összehasonlítás csak a mérés után lehetséges.",
+   "Értékelés → követelmények meghatározása → mérés → összehasonlítás": "Az értékelés a folyamat vége, nem a kezdete."
+  }
  },
  {
   "id": "mn-4-005",
@@ -92,7 +112,11 @@
   "explanation": "A „ne csináljunk semmit” (status quo) is tudatos döntés.",
   "source": "Jegyzet 4.4",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Előzetes, közbenső és utólagos ellenőrzés": "Az ellenőrzés típusai nem az értékelés reakciói.",
+   "Mérés, jelzés és jutalmazás": "A jutalmazás nem az értékelés három reakciója."
+  }
  },
  {
   "id": "mn-4-006",
@@ -111,7 +135,11 @@
   "explanation": "A cél (követelményszint) módosul, az eltérésre ható beavatkozás nélkül. A korrekciónál a teljesítményt javítanák.",
   "source": "Jegyzet 4.4",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "A status quo megőrzését": "A status quo megőrzése változtatás nélküli marad, itt a cél módosult.",
+   "Az eltérés korrekcióját": "Az eltérés korrekciója a teljesítmény javítását jelentené, itt a célt módosították."
+  }
  },
  {
   "id": "mn-4-007",
@@ -130,7 +158,12 @@
   "explanation": "A menedzser tervez, szervez, irányít, vezet; a kontroller a „révkalauz”, aki adatot, információt és javaslatot ad.",
   "source": "Jegyzet 4.3",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "A kontroller felel az eredményért, a menedzser az átláthatóságért": "A szerepek fel vannak cserélve: az eredményért a menedzser felel.",
+   "A kontroller dönt a tervek tartalmáról, a menedzser csak végrehajt": "A kontroller nem dönt a tervek tartalmáról.",
+   "A két szerep teljesen azonos, csak a megnevezés különbözik": "A két szerep nem azonos, a kontroller információt és javaslatot ad."
+  }
  },
  {
   "id": "mn-4-008",
@@ -149,7 +182,11 @@
   "explanation": "A rallynavigátor-kép: a navigátor (kontroller) szól, ha letértek az útról, de a kormány a sofőré (menedzseré).",
   "source": "Jegyzet 4.3",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "A kontroller feladata kizárólag az utólagos ellenőrzés": "A kontroller feladata nem kizárólag az utólagos ellenőrzés.",
+   "A kontroller csak a külső beszámolókkal foglalkozik": "A kontroller nem csak külső beszámolókkal foglalkozik."
+  }
  },
  {
   "id": "mn-4-009",
@@ -168,7 +205,12 @@
   "explanation": "Az irányítás célja még: költségek alacsony szinten tartása, a komplexitás kezelése és a környezeti változásokhoz való alkalmazkodás.",
   "source": "Jegyzet 4.5",
   "official": false,
-  "difficulty": 1
+  "difficulty": 1,
+  "why": {
+   "Növeli a beosztottak hatalmát": "Az irányítás nem a beosztottak hatalmát növeli.",
+   "Megszünteti a szervezeti komplexitást": "A komplexitást kezelni kell, nem megszüntetni.",
+   "Kizárja a környezeti változásokhoz való alkalmazkodást": "Az irányítás célja az alkalmazkodás segítése, nem kizárása."
+  }
  },
  {
   "id": "mn-4-010",
@@ -187,7 +229,11 @@
   "explanation": "Az utólagos ellenőrzés az output szakaszhoz tartozik, a végeredményre fókuszál.",
   "source": "Jegyzet 4.6",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Előzetes": "Az előzetes ellenőrzés a folyamat előtt avatkozik be, még változtatható.",
+   "Közbenső": "A közbenső ellenőrzés a folyamat közben avatkozik be, még módosítható."
+  }
  },
  {
   "id": "mn-4-011",
@@ -206,7 +252,10 @@
   "explanation": "Stratégiai: jellemzően öt év vagy hosszabb; operatív: rövid és középtáv (egy hónaptól egy évig).",
   "source": "Jegyzet 4.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Öt évtől tíz évig": "Az öt-tíz év nem operatív, a stratégiai jellemzően öt év vagy hosszabb."
+  }
  },
  {
   "id": "mn-4-012",
@@ -225,7 +274,10 @@
   "explanation": "Az előfeltevések vizsgálata szisztematikusan figyeli, hogy a stratégiát megalapozó feltételezések érvényesek-e még.",
   "source": "Jegyzet 4.7",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "A stratégia eredményességének értékelése": "A stratégia eredményességének értékelése a teljesítményt méri, nem a feltevéseket."
+  }
  },
  {
   "id": "mn-4-013",
@@ -244,7 +296,12 @@
   "explanation": "Az operatív pillérek: költségvetés, ütemterv, kritikus sikertényezők. A stratégiai felügyelet a stratégiai irányítás módszere.",
   "source": "Jegyzet 4.7",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Költségvetések": "A költségvetés az operatív irányítás pillére.",
+   "Ütemtervek": "Az ütemterv az operatív irányítás pillére.",
+   "A kritikus sikertényezők azonosítása": "A kritikus sikertényezők az operatív irányítás pillére."
+  }
  },
  {
   "id": "mn-4-014",
@@ -263,7 +320,11 @@
   "explanation": "A hangsúly az utólagos ellenőrzésről az előzetesre és a közbenső ellenőrzésre tolódik: olcsóbb megelőzni, mint kiszűrni.",
   "source": "Jegyzet 4.8",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "A minőségellenőrzés megelőz, a minőségbiztosítás utólag szűr": "Fordítva: a minőségbiztosítás előz meg, az ellenőrzés szűr.",
+   "Nincs különbség, a két fogalom szinonima": "A két fogalom nem szinonima."
+  }
  },
  {
   "id": "mn-4-015",
@@ -282,7 +343,10 @@
   "explanation": "Az első válasz a működési költségvetés meghatározása. A pénzforgalmi tervből látszik, mikor kell külső forrás.",
   "source": "Jegyzet 4.9",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "A tervezett termékmennyiség és az ehhez szükséges erőforrások terve": "Ez a működési költségvetés meghatározása."
+  }
  },
  {
   "id": "mn-4-016",
@@ -301,7 +365,11 @@
   "explanation": "Belső ellenőrzés: saját munkatársak, hibák és kockázatok kiküszöbölése. Könyvvizsgálat: külső szakértők, a beszámoló törvényessége és valós képe.",
   "source": "Jegyzet 4.9",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "A szervezet saját, funkcionálisan független munkatársai végzik": "A saját munkatársak a belső ellenőrzést végzik.",
+   "A szervezet kockázatait és hibáit a vezetés megbízásából belül tárja fel": "A hibák és kockázatok belső feltárása a belső ellenőrzés feladata."
+  }
  },
  {
   "id": "mn-4-017",
@@ -320,7 +388,10 @@
   "explanation": "Ezért készítenek a kontrollerek havi, negyedéves, féléves beszámolókat a menedzsmentnek.",
   "source": "Jegyzet 4.9",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Nem tartalmaz pénzügyi adatokat": "Az éves beszámoló tartalmaz pénzügyi adatokat."
+  }
  },
  {
   "id": "mn-4-018",
@@ -339,7 +410,12 @@
   "explanation": "Az eredményes rendszer tervvel összekapcsolt, rugalmas, megbízható, naprakész és objektív. A költség a hatékonysághoz tartozik.",
   "source": "Jegyzet 4.10",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Rugalmas": "A rugalmasság az eredményes rendszer ismérve.",
+   "Megbízható": "A megbízhatóság az eredményes rendszer ismérve.",
+   "Naprakész": "A naprakészség az eredményes rendszer ismérve."
+  }
  },
  {
   "id": "mn-4-019",
@@ -358,7 +434,11 @@
   "explanation": "Az összköltség görbéje U alakú: kevés irányítás mellett drága a tévedés, túl sok irányítás mellett drága a rendszer.",
   "source": "Jegyzet 4.10",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Ha a lehető legtöbb ellenőrzési pontot tartalmazza": "Több ellenőrzési pont drágítja a rendszert, nem biztos hatékonyság.",
+   "Ha költsége nulla": "A nulla költség nem reális, a haszon és a költség mérlege számít."
+  }
  },
  {
   "id": "mn-4-020",
@@ -377,7 +457,10 @@
   "explanation": "A túlzott kontroll, ami értelmetlennek tűnik, az ellenállás egyik oka. További okok: rossz fókusz, nem hatékony munka jutalmazása, elszámoltathatóság.",
   "source": "Jegyzet 4.11",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Elszámoltathatóság hiánya": "Az elszámoltathatóság hiánya másik ellenállási ok."
+  }
  },
  {
   "id": "mn-4-021",
@@ -396,7 +479,11 @@
   "explanation": "A jegyzet három kezelést nevez meg: eredményes rendszer, bevonás, ellenőrizhető teljesítménymutatók.",
   "source": "Jegyzet 4.11",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Ha a mutatókat titokban tartják": "A titkolózás növeli az ellenállást.",
+   "Ha a kontroll szigorúbb lesz": "A szigorúbb kontroll növeli az ellenállást."
+  }
  },
  {
   "id": "mn-4-022",

@@ -57,7 +57,12 @@
   "explanation": "A három egyre tágabb kör: ugyanaz a termék, ugyanaz a szolgáltatás más termékkel, ugyanaz a pénztárca. A mozi és az étterem utóbbi.",
   "source": "Jegyzet 5.2",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "akik ugyanazt a terméket vagy termékkategóriát gyártják": "Ez a legszűkebb kör, a mozi és az étterem nem ugyanazt a terméket adja.",
+   "akik ugyanazt a szolgáltatást nyújtó, de más termékeket gyártanak": "A mozi és az étterem nem ugyanazt a szolgáltatást nyújtja.",
+   "akik ugyanabban a stratégiai csoportban vannak": "A stratégiai csoport ugyanazt a stratégiát követő cégeket jelent, nem a pénztárcáért folyó versenyt."
+  }
  },
  {
   "id": "mk-5-005",
@@ -166,7 +171,12 @@
   "explanation": "A versenytársak erősségeinek és gyengeségeinek értékelésénél használt összehasonlítás; alapja lehet az iparág, egy ország vagy egy régió.",
   "source": "Jegyzet 5.3",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "hogy melyik versenytárs a legnagyobb a piacon": "A benchmarking teljesítményt hasonlít össze, nem piacméretet rangsorol.",
+   "hogy hány vevő hagyta el a céget": "Ez a vevőelvándorlás mutatója, nem a benchmarking.",
+   "hogy melyik márkaelem a legvédhetőbb": "Ez a márkaelemek jogi értékelése, nem a benchmarking."
+  }
  },
  {
   "id": "mk-5-010",
@@ -184,7 +194,12 @@
   "explanation": "70 < 74 < 80: átlag fölötti, de még nincs a felső harmadban (az 80 fölött kezdődne). A jegyzet ábra-olvasata: a 81-es cég a 78-as határ fölött a felső harmadba esik.",
   "source": "Jegyzet 5.3 (derivedKey: a dia nem magyarázza az ábrát, az olvasat a jegyzet Értelmezés doboza)",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "a felső harmadba": "A felső harmad határa 80, a 74 ez alatt van.",
+   "az alsó harmad alá": "Az alsó harmad határa 60, a 74 ennél magasabb.",
+   "a felső 10%-ba": "A felső 10% határa 92, a 74 messze alatta marad."
+  }
  },
  {
   "id": "mk-5-011",
@@ -243,7 +258,12 @@
   "explanation": "Porter négy stratégiája: költségdiktáló, differenciáló, koncentráló, harmadikutas. A piackövető a piaci helyzet szerinti szerepek egyike.",
   "source": "Jegyzet 5.5 · 5.6",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "költségdiktáló stratégia": "Ez Porter négy stratégiájának egyike.",
+   "koncentráló stratégia": "Ez Porter négy stratégiájának egyike.",
+   "differenciáló stratégia": "Ez Porter négy stratégiájának egyike."
+  }
  },
  {
   "id": "mk-5-015",
@@ -261,7 +281,12 @@
   "explanation": "Kulcsszó: termelési hatékonyság és költségfegyelem.",
   "source": "Jegyzet 5.5",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "differenciáló": "A differenciáló kimagasló teljesítményt jelent egy értékelt területen, itt a költség a kulcs.",
+   "koncentráló": "A koncentráló egy szegmensre szabott, itt a költségfegyelem a lényeg.",
+   "harmadikutas": "A harmadikutas nem tud kiemelkedni, itt a cég költségben iparági vezető."
+  }
  },
  {
   "id": "mk-5-016",
@@ -279,7 +304,12 @@
   "explanation": "A differenciáló stratégia a piac nagy része által értékelt, lényeges területen ér el kimagasló teljesítményt. A koncentráló egy-egy szegmensre szabott.",
   "source": "Jegyzet 5.5",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "költségdiktáló": "Itt a vendégélmény a cél, nem a legalacsonyabb költség.",
+   "koncentráló": "A koncentráló egy szegmensre szabott, itt a piac nagy része által értékelt területről van szó.",
+   "harmadikutas": "A harmadikutas nem tud kiemelkedni, itt a cég kimagasló teljesítményre törekszik."
+  }
  },
  {
   "id": "mk-5-017",
@@ -297,7 +327,12 @@
   "explanation": "Az erősség egy-egy piaci szegmentum igényeinek kielégítésében és az ennek megfelelő termékfejlesztésben rejlik.",
   "source": "Jegyzet 5.5",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "differenciáló": "A differenciáló a piac nagy része által értékelt területen teljesít, itt egy szűk szegmens a cél.",
+   "költségdiktáló": "Itt a szegmens igényeinek kielégítése a lényeg, nem a költség.",
+   "harmadikutas": "A harmadikutas nem tud kiemelkedni, a pörkölő viszont egy szegmensre koncentrál."
+  }
  },
  {
   "id": "mk-5-018",
@@ -402,7 +437,12 @@
   "explanation": "A vezető első feladata a piaci kereslet bővítése (új felhasználók, új használati módok, több használat).",
   "source": "Jegyzet 5.6",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "piackihívó": "A kihívó a vezetőre támad, hogy növelje a részesedését.",
+   "piackövető": "A követő nem tör vezetésre, a keresletbővítés a vezető első feladata.",
+   "piaci niche": "A niche szereplő egy kis rést tölt be, nem a teljes kereslet bővítésére törekszik."
+  }
  },
  {
   "id": "mk-5-023",
@@ -450,7 +490,12 @@
   "explanation": "Az utolsó leírás a kék óceán stratégia, nem a niche.",
   "source": "Jegyzet 5.6 · 5.4",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "kicsi és gyorsan zsugorodó, ezért a nagy szereplők elkerülik": "Az ideális rés elég nagy és nagy növekedési potenciálú.",
+   "nagy, ezért a nagy versenytársak is aktívan harcolnak érte": "Az ideális rés iránt a versenytársak kevés érdeklődést mutatnak.",
+   "olyan piac, amelyen még nincs semmilyen verseny és a kereslet végtelen": "Ez a kék óceán stratégia, nem a niche."
+  }
  },
  {
   "id": "mk-5-026",

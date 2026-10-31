@@ -121,7 +121,10 @@
   "explanation": "Összetett az, amelyik az eredményt is érinti; alapvető, amelyik nem. Itt: eszközcsere: a vevőkövetelés pénzzé válik, eredményhatás nincs.",
   "source": "Jegyzet 1.6 · 2.1",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Összetett gazdasági esemény": "Az összetett esemény az eredményt is érinti; itt a vevőkövetelés csak pénzzé alakul, eredményhatás nincs."
+  }
  },
  {
   "id": "szv-1-011",
@@ -137,7 +140,10 @@
   "explanation": "Összetett az, amelyik az eredményt is érinti; alapvető, amelyik nem. Itt: árbevétel keletkezik: az eredmény is változik.",
   "source": "Jegyzet 1.6 · 2.1",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Alapvető gazdasági esemény": "Alapvetőnek az eredményt nem érintő esemény számít; a szolgáltatás kiszámlázása árbevételt hoz, tehát az eredmény is változik."
+  }
  },
  {
   "id": "szv-1-012",
@@ -153,7 +159,10 @@
   "explanation": "Összetett az, amelyik az eredményt is érinti; alapvető, amelyik nem. Itt: csak források cserélődnek (szállító ↔ hitel), eredményhatás nincs.",
   "source": "Jegyzet 1.6 · 2.1",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Összetett gazdasági esemény": "Itt csak a források cserélődnek (szállító helyett hitel), az eredmény nem változik, így nem összetett."
+  }
  },
  {
   "id": "szv-1-013",
@@ -169,7 +178,10 @@
   "explanation": "Összetett az, amelyik az eredményt is érinti; alapvető, amelyik nem. Itt: a kamat ráfordítás: pénz is csökken és az eredmény is.",
   "source": "Jegyzet 1.6 · 2.1",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Alapvető gazdasági esemény": "A kamat ráfordítás: nemcsak a pénz csökken, hanem az eredmény is, ezért az esemény összetett."
+  }
  },
  {
   "id": "szv-1-014",
@@ -187,7 +199,12 @@
   "explanation": "A késedelmi kamat egyéb bevétel; a kölcsönkamat és az osztalék a pénzügyi műveletek bevétele.",
   "source": "Jegyzet 1.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "9. Pénzügyi műveletek bevétele": "A pénzügyi bevétel a kölcsönkamat és az osztalék számlája; a késedelmi kamat egyéb bevétel.",
+   "9. Értékesítés nettó árbevétele": "Az árbevétel az értékesítés ellenértéke, a késedelmi kamat nem az.",
+   "3. Vevők": "A Vevők eszközszámla, a kamat viszont eredményhatású bevétel, nem követelésmozgás."
+  }
  },
  {
   "id": "szv-1-015",
@@ -205,7 +222,12 @@
   "explanation": "Az osztalék pénzügyi műveletek bevétele (T 3. Elszámolási betét – K 9. Pénzügyi műveletek bevétele).",
   "source": "Jegyzet 1.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "9. Egyéb bevétel": "Az egyéb bevétel a késedelmi kamat és a kártérítés számlája; az osztalék pénzügyi bevétel.",
+   "9. Értékesítés nettó árbevétele": "Az osztalék nem értékesítésből származik.",
+   "8. Pénzügyi műveletek ráfordításai": "Ez ráfordítás (T oldalon nő); a kapott osztalék bevétel, ezért 9. osztályú K számla."
+  }
  },
  {
   "id": "szv-1-016",
@@ -223,7 +245,12 @@
   "explanation": "A fizetett késedelmi kamat egyéb ráfordítás, a ráfordítás pedig T oldalon nő. A hitelkamat lenne pénzügyi ráfordítás.",
   "source": "Jegyzet 1.7 Vizsgatipp",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "8. Pénzügyi műveletek ráfordításai (T)": "A pénzügyi ráfordítás a hitelkamaté; a fizetett késedelmi kamat egyéb ráfordítás.",
+   "9. Egyéb bevétel (K)": "A fizetett késedelmi kamat ráfordítás, nem bevétel.",
+   "8. Egyéb ráfordítás (K)": "A ráfordítás T oldalon nő, a K oldal csökkenést jelentene."
+  }
  },
  {
   "id": "szv-1-017",
@@ -241,7 +268,12 @@
   "explanation": "A hitelkamat pénzügyi ráfordítás; a késedelmi kamat lenne egyéb ráfordítás.",
   "source": "Jegyzet 1.7 Vizsgatipp",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "8. Egyéb ráfordítás": "Az egyéb ráfordítás a késedelmi kamat számlája; a hitelkamat pénzügyi ráfordítás.",
+   "5. Igénybe vett szolgáltatás": "A kamat nem költségnem, hanem 8. osztályú ráfordítás.",
+   "8. ELÁBÉ": "Az ELÁBÉ az értékesített áru bekerülési értéke, nem kamat."
+  }
  },
  {
   "id": "szv-1-018",
@@ -259,7 +291,12 @@
   "explanation": "Az ELÁBÉ az értékesített áru bekerülési értékének kivezetése; 8. ráfordítás, nem költségnem.",
   "source": "Jegyzet 1.4 · Fogalomtár",
   "official": false,
-  "difficulty": 1
+  "difficulty": 1,
+  "why": {
+   "Egyéb ráfordítások és bevételek egyenlege": "Az ELÁBÉ az eladott áru bekerülési értékét jelenti, nem az egyéb tételek egyenlegét.",
+   "Elszámolt ár és bruttó érték": "Az ELÁBÉ rövidítésben az eladott áru bekerülési értéke áll, nem ár és bruttó érték.",
+   "Elhatárolt árbevétel": "Az ELÁBÉ nem árbevétel, hanem ráfordítás (az értékesített áru bekerülési értéke)."
+  }
  },
  {
   "id": "szv-1-019",

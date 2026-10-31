@@ -51,7 +51,10 @@
     "explanation": "1 l kékfrankosért a villányi 800/1000 = 0,8 l szamorodniról mond le, ez az alternatíva költsége. A tokajinak ugyanez 600/300 = 2 l, ezért a kékfrankosban a villányinak van komparatív előnye.",
     "source": "Jegyzet 4.1 · Könyv 47–48. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "1,25 literről": "Az 1,25 a reciprok (1000/800), az fordított irány."
+    }
   },
   {
     "id": "kg-4-009",
@@ -90,7 +93,11 @@
     "explanation": "A tokajinak 1 l szamorodni 300/600 = 0,5 l kékfrankosba, a villányinak 1000/800 = 1,25 l-be kerül. A tokaji tehát kevesebbről mond le érte, így övé a komparatív előny; a villányinak csak abszolút előnye van, mert többet termel.",
     "source": "Jegyzet 4.1 · Könyv 47–48. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "a villányinak, mert több szamorodnit tud termelni": "A több termelt mennyiség abszolút előny, nem komparatív.",
+      "senkinek, mert az árak azonosak": "A komparatív előny az alternatívaköltségen múlik, nem az áron."
+    }
   },
   {
     "id": "kg-4-011",
@@ -156,7 +163,11 @@
     "explanation": "Cecília mindkettőben gyengébb Aladárnál (abszolút hátrány), de saját magához képest az értékesítésben jobb: 20 termelés vagy 40 értékesítés. Ezért az értékesítésben van komparatív előnye. Teljes szakosodással a termelés és az értékesítés is 90-ről 100-ra nő.",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "a termelésre, mert abban van abszolút előnye": "Az abszolút előny nem dönti el a szakosodást, a komparatív igen.",
+      "semmire, mert mindkettőben abszolút hátrányban van": "Abszolút hátrány mellett is van komparatív előny valamiben."
+    }
   },
   {
     "id": "kg-4-017",
@@ -198,7 +209,11 @@
     "explanation": "A tokaji csak szamorodnit termel (600 l), és a felét 1:1 arányban kékfrankosra cseréli: 300 l + 300 l. Ez több, mint a szakosodás nélküli kb. 200 l + 200 l, tehát a szakosodás és a csere megérte.",
     "source": "Jegyzet 4.3 · Könyv 49–50. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "200 l + 200 l": "A 200 l + 200 l a szakosodás nélküli eredmény.",
+      "600 l + 0 l": "A 600 l + 0 l csere nélküli szakosodás."
+    }
   },
   {
     "id": "kg-4-020",
@@ -217,7 +232,10 @@
     "explanation": "A villányi 1000 l kékfrankost termel, a felét 1:1 arányban szamorodnira cseréli: 500 l + 500 l. Szakosodás nélkül csak kb. 444 l + 444 l jutna.",
     "source": "Jegyzet 4.3 · Könyv 49–50. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "800 l + 1000 l": "Az 800 l és 1000 l a külön-külön termelhető maximum, nem csere utáni fogyasztás."
+    }
   },
   {
     "id": "kg-4-021",
@@ -367,7 +385,11 @@
     "explanation": "Alternatíva költség: hány kókuszdióról mond le egy halért. Robinsonnak 10/1 = 10, Pénteknek 30/2 = 15 kókuszdióba kerül egy hal, így Robinsonnak olcsóbb, övé a komparatív előny. Abszolút előnye Pénteknek van, mert óránként több halat fog (2 > 1).",
     "source": "Jegyzet 4.7",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "Pénteknek, mert több halat fog": "A több kifogott hal abszolút előny.",
+      "senkinek": "Valakinek mindig van komparatív előnye."
+    }
   },
   {
     "id": "kg-4-034",
@@ -485,7 +507,12 @@
     "explanation": "1 t kukorica az A-nál 2 t, a B-nél 1,5 t búzába kerül, így a kukoricában B-nek van komparatív előnye. Abszolút előnye mindkettőben A-nak van (200 > 120, 100 > 80).",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "Az A gazdaságnak mindkét terményben komparatív előnye van.": "Mindkét terményben nem lehet komparatív előnye ugyanannak.",
+      "A B gazdaságnak komparatív előnye van a búzában.": "B alternatívaköltsége a búzában nagyobb, ezért nem ott van előnye.",
+      "Az A gazdaságnak a kukoricában van komparatív előnye, mert abból többet tud termelni.": "A több kukorica abszolút előny, ez még nem komparatív."
+    }
   },
   {
     "id": "kg-4-045",
@@ -522,7 +549,12 @@
     "explanation": "Katinak 1 kalács 80/40 = 2 kenyérbe, Lacinak 60/60 = 1 kenyérbe kerül, így a kalácsban Laci alternatívaköltsége kisebb. Katinak a kenyérben van komparatív előnye (0,5 kalács az 1 helyett).",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "Katinak, mert neki 1 kalács 2 kenyérbe kerül": "Kati alternatívaköltsége a kalácsban nagyobb, ezért nála nincs komparatív előny.",
+      "Katinak, mert ő több kenyeret tud sütni": "A több kenyér abszolút előny, nem a kalács komparatív előnye.",
+      "Egyiküknek sem, mert a két egyenes metszi egymást": "A metsző egyenesek éppen eltérő alternatívaköltséget jeleznek."
+    }
   },
   {
     "id": "kg-4-048",
@@ -541,7 +573,11 @@
     "explanation": "Abszolút előny: valamiből többet tud előállítani. Kenyérből Kati süt többet (80 > 60), kalácsból Laci (60 > 40). Itt az abszolút és a komparatív előny egybeesik.",
     "source": "Jegyzet 4.2 · Könyv 48. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "Lacinak, mert neki kisebb a kenyér alternatívaköltsége": "A kisebb alternatívaköltség komparatív előny, nem abszolút.",
+      "Lacinak, mert ő összesen több terméket tud előállítani": "Az összes termék nem a kenyérsütés abszolút előnye."
+    }
   },
   {
     "id": "kg-4-049",
@@ -560,7 +596,12 @@
     "explanation": "Katinak 1 kenyér 0,5 kalácsba, Lacinak 1 kalácsba kerül, így Kati komparatív előnye a kenyér. Szakosodva csak kenyeret süt, Laci csak kalácsot, majd cserélnek.",
     "source": "Jegyzet 4.3 · Könyv 49. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "csak kalácsot": "Kati nem a kalácsra szakosodik, ott nincs komparatív előnye.",
+      "fele-fele arányban kenyeret és kalácsot": "A fele-fele nem szakosodás.",
+      "semmit, mert Laci mindkettőben jobb": "Komparatív előny miatt Katinak is van mit termelnie."
+    }
   },
   {
     "id": "kg-4-050",
@@ -579,6 +620,11 @@
     "explanation": "Szamorodniból a villányi termel többet (800 > 600), ez abszolút előny. Egy liter szamorodni viszont a tokajinak csak 0,5, a villányinak 1,25 l kékfrankosba kerül: a komparatív előny a tokajié.",
     "source": "Jegyzet 4.1 · Könyv 48. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "A villányinak abszolút és komparatív előnye is van benne.": "Az abszolút és komparatív előny nem lehet mindkettő a villányinál.",
+      "A tokajinak abszolút, a villányinak komparatív előnye van benne.": "A tokajinak nincs abszolút előnye a szamorodniban.",
+      "Egyiküknek sincs komparatív előnye, mert azonos az ár.": "Valakinek mindig van komparatív előnye."
+    }
   }
 ]

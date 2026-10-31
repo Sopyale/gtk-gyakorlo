@@ -29,6 +29,17 @@
       "Szita formula (jegyzet 6.7): P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Átrendezve: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
       "a) Mindkettő: P(A ∩ B) = 0,72 + 0,51 − 1 = 0,23.",
       "b) Csak „körte” = „körte”, de „alma” nem: a(z) körte valószínűségéből levonjuk a közös részt: 0,51 − 0,23 = 0,28."
+    ],
+    "solutions": [
+      {
+        "title": "Komplementer és különbség",
+        "steps": [
+          "Jelölés: X = „körte”, Y = „alma”. P(X) = 0,51, P(Y) = 0,72. Mindenki legalább az egyikbe tartozik, ezért aki nincs Y-ban, az biztosan X-ben van.",
+          "b) „Csak körte” = „X, de Y nem” = Ȳ, mert Ȳ minden eleme X-ben van. Komplementer (jegyzet 6.7): P(Ȳ) = 1 − P(Y) = 1 − 0,72 = 0,28.",
+          "a) Az X-be tartozók két részre oszlanak: „csak X” és „X és Y is” (különbség, jegyzet 6.6). Ezért P(X ∩ Y) = P(X) − P(csak X) = 0,51 − 0,28 = 0,23.",
+          "Eredmény: a) 0,23; b) 0,28."
+        ]
+      }
     ]
   },
   {
@@ -61,6 +72,17 @@
       "Szita formula (jegyzet 6.7): P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Átrendezve: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
       "a) Mindkettő: P(A ∩ B) = 0,64 + 0,58 − 1 = 0,22.",
       "b) Csak „német” = „német”, de „angol” nem: a(z) német valószínűségéből levonjuk a közös részt: 0,58 − 0,22 = 0,36."
+    ],
+    "solutions": [
+      {
+        "title": "Komplementer és különbség",
+        "steps": [
+          "Jelölés: X = „német”, Y = „angol”. P(X) = 0,58, P(Y) = 0,64. Mindenki legalább az egyikbe tartozik, ezért aki nincs Y-ban, az biztosan X-ben van.",
+          "b) „Csak német” = „X, de Y nem” = Ȳ, mert Ȳ minden eleme X-ben van. Komplementer (jegyzet 6.7): P(Ȳ) = 1 − P(Y) = 1 − 0,64 = 0,36.",
+          "a) Az X-be tartozók két részre oszlanak: „csak X” és „X és Y is” (különbség, jegyzet 6.6). Ezért P(X ∩ Y) = P(X) − P(csak X) = 0,58 − 0,36 = 0,22.",
+          "Eredmény: a) 0,22; b) 0,36."
+        ]
+      }
     ]
   },
   {
@@ -93,6 +115,17 @@
       "Szita formula (jegyzet 6.7): P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Átrendezve: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
       "a) Mindkettő: P(A ∩ B) = 0,81 + 0,37 − 1 = 0,18.",
       "b) Csak „tea” = „tea”, de „kávé” nem: a(z) tea valószínűségéből levonjuk a közös részt: 0,37 − 0,18 = 0,19."
+    ],
+    "solutions": [
+      {
+        "title": "Komplementer és különbség",
+        "steps": [
+          "Jelölés: X = „tea”, Y = „kávé”. P(X) = 0,37, P(Y) = 0,81. Mindenki legalább az egyikbe tartozik, ezért aki nincs Y-ban, az biztosan X-ben van.",
+          "b) „Csak tea” = „X, de Y nem” = Ȳ, mert Ȳ minden eleme X-ben van. Komplementer (jegyzet 6.7): P(Ȳ) = 1 − P(Y) = 1 − 0,81 = 0,19.",
+          "a) Az X-be tartozók két részre oszlanak: „csak X” és „X és Y is” (különbség, jegyzet 6.6). Ezért P(X ∩ Y) = P(X) − P(csak X) = 0,37 − 0,19 = 0,18.",
+          "Eredmény: a) 0,18; b) 0,19."
+        ]
+      }
     ]
   },
   {
@@ -125,6 +158,17 @@
       "Szita formula (jegyzet 6.7): P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Átrendezve: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
       "a) Mindkettő: P(A ∩ B) = 0,55 + 0,62 − 1 = 0,17.",
       "b) Csak „Netflix” = „Netflix”, de „HBO” nem: a(z) Netflix valószínűségéből levonjuk a közös részt: 0,55 − 0,17 = 0,38."
+    ],
+    "solutions": [
+      {
+        "title": "Komplementer és különbség",
+        "steps": [
+          "Jelölés: X = „Netflix”, Y = „HBO”. P(X) = 0,55, P(Y) = 0,62. Mindenki legalább az egyikbe tartozik, ezért aki nincs Y-ban, az biztosan X-ben van.",
+          "b) „Csak Netflix” = „X, de Y nem” = Ȳ, mert Ȳ minden eleme X-ben van. Komplementer (jegyzet 6.7): P(Ȳ) = 1 − P(Y) = 1 − 0,62 = 0,38.",
+          "a) Az X-be tartozók két részre oszlanak: „csak X” és „X és Y is” (különbség, jegyzet 6.6). Ezért P(X ∩ Y) = P(X) − P(csak X) = 0,55 − 0,38 = 0,17.",
+          "Eredmény: a) 0,17; b) 0,38."
+        ]
+      }
     ]
   },
   {
@@ -157,6 +201,17 @@
       "Szita formula (jegyzet 6.7): P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Átrendezve: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
       "a) Mindkettő: P(A ∩ B) = 0,73 + 0,44 − 1 = 0,17.",
       "b) Csak „kerékpár” = „kerékpár”, de „autó” nem: a(z) kerékpár valószínűségéből levonjuk a közös részt: 0,44 − 0,17 = 0,27."
+    ],
+    "solutions": [
+      {
+        "title": "Komplementer és különbség",
+        "steps": [
+          "Jelölés: X = „kerékpár”, Y = „autó”. P(X) = 0,44, P(Y) = 0,73. Mindenki legalább az egyikbe tartozik, ezért aki nincs Y-ban, az biztosan X-ben van.",
+          "b) „Csak kerékpár” = „X, de Y nem” = Ȳ, mert Ȳ minden eleme X-ben van. Komplementer (jegyzet 6.7): P(Ȳ) = 1 − P(Y) = 1 − 0,73 = 0,27.",
+          "a) Az X-be tartozók két részre oszlanak: „csak X” és „X és Y is” (különbség, jegyzet 6.6). Ezért P(X ∩ Y) = P(X) − P(csak X) = 0,44 − 0,27 = 0,17.",
+          "Eredmény: a) 0,17; b) 0,27."
+        ]
+      }
     ]
   }
 ]

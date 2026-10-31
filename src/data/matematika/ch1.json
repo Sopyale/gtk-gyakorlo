@@ -23,6 +23,19 @@
       "λ egy olyan koordinátából, ahol mindkét szám ismert: 6 = λ·(−4) → λ = 6/(−4) = −3/2.",
       "Ellenőrzés a másik ismert koordinátával: λ·6 = −3/2·6 = −9. Egyezik, tehát jó a λ.",
       "A hiányzó koordináta: y = λ·10 = −3/2·10 = −15."
+    ],
+    "solutions": [
+      {
+        "title": "Lineáris kombináció nullvektorral (nem triviális együtthatók)",
+        "steps": [
+          "Adat: első vektor (6; y; −9), második vektor (−4; 10; 6). A jegyzet 4.1 szerint két vektor lineárisan összefüggő, ha van olyan (c₁; c₂) ≠ (0; 0), amelyre c₁·(első) + c₂·(második) = 0 (ugyanez a jegyzet 1. példája: 2a₁ + (−1)a₂ = 0). Ez koordinátánként 3 egyenlet.",
+          "A 1. koordináta mindkét vektorban ismert: 6·c₁ + (−4)·c₂ = 0. Ennek egy nem nulla megoldása c₁ = 2, c₂ = 3 (egyszerűsítve).",
+          "Ellenőrzés a 3. koordinátával: 2·(−9) + 3·6 = 0 → −18 + 18 = 0, igaz, tehát ez a (c₁; c₂) jó.",
+          "A 2. koordináta egyenlete: 2·y + 3·10 = 0.",
+          "Megoldva y-ra: y = −15.",
+          "Eredmény: y = −15."
+        ]
+      }
     ]
   },
   {
@@ -49,6 +62,19 @@
       "λ egy olyan koordinátából, ahol mindkét szám ismert: 12 = λ·(−9) → λ = 12/(−9) = −4/3.",
       "Ellenőrzés a másik ismert koordinátával: λ·6 = −4/3·6 = −8. Egyezik, tehát jó a λ.",
       "A hiányzó koordináta: y = λ·15 = −4/3·15 = −20."
+    ],
+    "solutions": [
+      {
+        "title": "Lineáris kombináció nullvektorral (nem triviális együtthatók)",
+        "steps": [
+          "Adat: első vektor (12; −8; y), második vektor (−9; 6; 15). A jegyzet 4.1 szerint két vektor lineárisan összefüggő, ha van olyan (c₁; c₂) ≠ (0; 0), amelyre c₁·(első) + c₂·(második) = 0 (ugyanez a jegyzet 1. példája: 2a₁ + (−1)a₂ = 0). Ez koordinátánként 3 egyenlet.",
+          "A 1. koordináta mindkét vektorban ismert: 12·c₁ + (−9)·c₂ = 0. Ennek egy nem nulla megoldása c₁ = 3, c₂ = 4 (egyszerűsítve).",
+          "Ellenőrzés a 2. koordinátával: 3·(−8) + 4·6 = 0 → −24 + 24 = 0, igaz, tehát ez a (c₁; c₂) jó.",
+          "A 3. koordináta egyenlete: 3·y + 4·15 = 0.",
+          "Megoldva y-ra: y = −20.",
+          "Eredmény: y = −20."
+        ]
+      }
     ]
   },
   {
@@ -75,6 +101,19 @@
       "λ egy olyan koordinátából, ahol mindkét szám ismert: 14 = λ·(−8) → λ = 14/(−8) = −7/4.",
       "Ellenőrzés a másik ismert koordinátával: λ·12 = −7/4·12 = −21. Egyezik, tehát jó a λ.",
       "A hiányzó koordináta: y = λ·4 = −7/4·4 = −7."
+    ],
+    "solutions": [
+      {
+        "title": "Lineáris kombináció nullvektorral (nem triviális együtthatók)",
+        "steps": [
+          "Adat: első vektor (y; 14; −21), második vektor (4; −8; 12). A jegyzet 4.1 szerint két vektor lineárisan összefüggő, ha van olyan (c₁; c₂) ≠ (0; 0), amelyre c₁·(első) + c₂·(második) = 0 (ugyanez a jegyzet 1. példája: 2a₁ + (−1)a₂ = 0). Ez koordinátánként 3 egyenlet.",
+          "A 2. koordináta mindkét vektorban ismert: 14·c₁ + (−8)·c₂ = 0. Ennek egy nem nulla megoldása c₁ = 4, c₂ = 7 (egyszerűsítve).",
+          "Ellenőrzés a 3. koordinátával: 4·(−21) + 7·12 = 0 → −84 + 84 = 0, igaz, tehát ez a (c₁; c₂) jó.",
+          "A 1. koordináta egyenlete: 4·y + 7·4 = 0.",
+          "Megoldva y-ra: y = −7.",
+          "Eredmény: y = −7."
+        ]
+      }
     ]
   },
   {
@@ -101,6 +140,19 @@
       "λ egy olyan koordinátából, ahol mindkét szám ismert: −15 = λ·10 → λ = −15/10 = −3/2.",
       "Ellenőrzés a másik ismert koordinátával: λ·(−4) = −3/2·(−4) = 6. Egyezik, tehát jó a λ.",
       "A hiányzó koordináta: y = λ·7 = −3/2·7 = −21/2 = −10,5."
+    ],
+    "solutions": [
+      {
+        "title": "Lineáris kombináció nullvektorral (nem triviális együtthatók)",
+        "steps": [
+          "Adat: első vektor (−15; 6; y), második vektor (10; −4; 7). A jegyzet 4.1 szerint két vektor lineárisan összefüggő, ha van olyan (c₁; c₂) ≠ (0; 0), amelyre c₁·(első) + c₂·(második) = 0 (ugyanez a jegyzet 1. példája: 2a₁ + (−1)a₂ = 0). Ez koordinátánként 3 egyenlet.",
+          "A 1. koordináta mindkét vektorban ismert: (−15)·c₁ + 10·c₂ = 0. Ennek egy nem nulla megoldása c₁ = 2, c₂ = 3 (egyszerűsítve).",
+          "Ellenőrzés a 2. koordinátával: 2·6 + 3·(−4) = 0 → 12 + (−12) = 0, igaz, tehát ez a (c₁; c₂) jó.",
+          "A 3. koordináta egyenlete: 2·y + 3·7 = 0.",
+          "Megoldva y-ra: y = −21/2 ≈ −10,5.",
+          "Eredmény: y = −21/2."
+        ]
+      }
     ]
   },
   {
@@ -127,6 +179,19 @@
       "λ egy olyan koordinátából, ahol mindkét szám ismert: 8 = λ·(−6) → λ = 8/(−6) = −4/3.",
       "Ellenőrzés a másik ismert koordinátával: λ·(−15) = −4/3·(−15) = 20. Egyezik, tehát jó a λ.",
       "A hiányzó koordináta: y = λ·9 = −4/3·9 = −12."
+    ],
+    "solutions": [
+      {
+        "title": "Lineáris kombináció nullvektorral (nem triviális együtthatók)",
+        "steps": [
+          "Adat: első vektor (8; y; 20), második vektor (−6; 9; −15). A jegyzet 4.1 szerint két vektor lineárisan összefüggő, ha van olyan (c₁; c₂) ≠ (0; 0), amelyre c₁·(első) + c₂·(második) = 0 (ugyanez a jegyzet 1. példája: 2a₁ + (−1)a₂ = 0). Ez koordinátánként 3 egyenlet.",
+          "A 1. koordináta mindkét vektorban ismert: 8·c₁ + (−6)·c₂ = 0. Ennek egy nem nulla megoldása c₁ = 3, c₂ = 4 (egyszerűsítve).",
+          "Ellenőrzés a 3. koordinátával: 3·20 + 4·(−15) = 0 → 60 + (−60) = 0, igaz, tehát ez a (c₁; c₂) jó.",
+          "A 2. koordináta egyenlete: 3·y + 4·9 = 0.",
+          "Megoldva y-ra: y = −12.",
+          "Eredmény: y = −12."
+        ]
+      }
     ]
   }
 ]

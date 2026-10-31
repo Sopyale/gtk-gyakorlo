@@ -119,7 +119,12 @@
   "explanation": "Magas piaci növekedés + alacsony részesedés = kérdőjel. Sok befektetést igényel, és dönteni kell: csillaggá fejlesztik, vagy fokozatosan megszüntetik.",
   "source": "Jegyzet 1.4",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "csillag": "A csillagnak magas a piaci részesedése is, itt viszont kicsi.",
+   "fejős tehén": "A fejős tehén lassan növő piac nagy részesedéssel, itt a piac gyorsan nő.",
+   "döglött kutya": "A döglött kutya alacsony növekedésű piacon kis részesedésű, itt a piac gyorsan nő."
+  }
  },
  {
   "id": "mk-1-008",
@@ -137,7 +142,12 @@
   "explanation": "Alacsony növekedésű piacon magas részesedés: a sikeres üzletág „pénzforrás”. A csillag és a kérdőjel pénzt igényel, a döglött kutya nem kecsegtet pénzforrásként.",
   "source": "Jegyzet 1.4",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "csillag": "A csillag gyorsan növő piacon van, ezért pénzt igényel, nem termel fölösleget.",
+   "kérdőjel": "A kérdőjel sok befektetést igényel, nem pénzforrás.",
+   "döglött kutya": "A döglött kutya nem kecsegtet pénzforrásként."
+  }
  },
  {
   "id": "mk-1-009",
@@ -201,7 +211,12 @@
   "explanation": "A termék a régi, az új elem a piac: új vevőkör, új terület. Intenzív piacfejlesztésnél a jelenlegi piacon nőne az eladás.",
   "source": "Jegyzet 1.5",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "intenzív piacfejlesztés": "Ez a jelenlegi piacon növelné az eladást, itt viszont új területre lép a cég.",
+   "termékfejlesztés": "A termék itt a régi marad, így nem termékfejlesztés.",
+   "diverzifikáció": "Diverzifikációnál a termék is új lenne, itt ugyanazt a kenyeret árulja."
+  }
  },
  {
   "id": "mk-1-012",
@@ -231,7 +246,12 @@
   "explanation": "Új üzletág indítása vagy vásárlása a jelenlegi termékein és piacán kívül: új termék és új piac is.",
   "source": "Jegyzet 1.5",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "termékfejlesztés": "Termékfejlesztésnél csak a termék új, a piac a régi.",
+   "piacfejlesztés": "Piacfejlesztésnél a termék a régi, itt új üzletágat vesz a cég.",
+   "intenzív piacfejlesztés": "Ez a jelenlegi termék és piac bővítése, itt mindkettő új."
+  }
  },
  {
   "id": "mk-1-014",
@@ -249,7 +269,12 @@
   "explanation": "Külső (nem kontrollálható) és a cégnek káros tényező: fenyegetés.",
   "source": "Jegyzet 1.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "gyengeség": "A gyengeség belső tényező, a konkurens a cégen kívül van.",
+   "lehetőség": "A lehetőség külső, de a cégnek kedvező tényező, ez káros.",
+   "erősség": "Az erősség belső és kedvező tényező, ez külső és káros."
+  }
  },
  {
   "id": "mk-1-015",
@@ -279,7 +304,12 @@
   "explanation": "A „kontrollálható” a SWOT külső tényezőitől, a „taktikai” a stratégiától (STP) különbözteti meg.",
   "source": "Jegyzet 1.8",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "A cégen kívüli, nem kontrollálható tényezők összessége.": "Ez a környezet (SWOT külső tényezői), a marketingmix kontrollálható.",
+   "A vevők homogén csoportjainak meghatározása.": "Ez a szegmentálás, vagyis a stratégia, nem a taktikai eszközkészlet.",
+   "A cég hosszú távú céljainak és értékeinek írásos rögzítése.": "Ez a küldetésnyilatkozat."
+  }
  },
  {
   "id": "mk-1-017",
@@ -338,7 +368,12 @@
   "explanation": "A marketingterv öt része: vezetői összefoglaló, helyzetelemzés, marketingstratégia, pénzügyi előrejelzések, a megvalósítás ellenőrzése.",
   "source": "Jegyzet 1.6",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "vezetői összefoglaló és tartalomjegyzék": "Ez a marketingterv első része.",
+   "helyzetelemzés": "A helyzetelemzés a marketingterv része.",
+   "a megvalósítás ellenőrzése": "Ez a marketingterv záró része."
+  }
  },
  {
   "id": "mk-1-020",

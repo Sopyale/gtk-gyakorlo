@@ -28,6 +28,20 @@
    "a) det = p₁·q₂ − q₁·p₂ = 3·4 − (−2)·5 = 22 ≠ 0 → p és q lineárisan független.",
    "b) A vektorokat oszlopba írva (sorok: (2  0  1) | (1  3  t) | (0  1  4)) az első sor szerinti kifejtés: det = (2)·(−t + 12) − (0)·(4) + (1)·(1) = −2t + 25. Összefüggők, ha det = 0 → t = 25/2.",
    "Eredmény: a) 22; b) t = 25/2."
+  ],
+  "solutions": [
+   {
+    "title": "3×3 determináns az átlós szabállyal (hat szorzat)",
+    "steps": [
+     "a) 2×2-es determináns: ad − bc = 3·4 − (−2)·5 = 22 (0 esetén a két vektor összefüggő, jegyzet 4.2).",
+     "b) A három vektor oszlop a mátrixban, sorai: (2  0  1) | (1  3  t) | (0  1  4). A jegyzet átlós szabálya: a főátló irányú három szorzat összege mínusz a mellékátló irányú három szorzat.",
+     "Főátló irányú szorzatok: 2·3·4 + 0·t·0 + 1·1·1.",
+     "Mellékátló irányú szorzatok: 1·3·0 + 2·t·1 + 0·1·4.",
+     "A különbség összevonva: det = −2·t + 25 (ugyanazt adja, mint az első sor szerinti kifejtés).",
+     "Összefüggők, ha det = 0 → t = 25/2 ≈ 12,5.",
+     "Eredmény: a) 22; b) t = 25/2."
+    ]
+   }
   ]
  },
  {
@@ -59,6 +73,20 @@
    "a) det = p₁·q₂ − q₁·p₂ = 6·6 − (−4)·(−9) = 0 → p és q összefüggő (az egyik a másik számszorosa).",
    "b) A vektorokat oszlopba írva (sorok: (1  0  2) | (2  1  5) | (3  t  1)) az első sor szerinti kifejtés: det = (1)·(−5t + 1) − (0)·(−13) + (2)·(2t − 3) = −t − 5. Összefüggők, ha det = 0 → t = −5.",
    "Eredmény: a) 0; b) t = -5."
+  ],
+  "solutions": [
+   {
+    "title": "3×3 determináns az átlós szabállyal (hat szorzat)",
+    "steps": [
+     "a) 2×2-es determináns: ad − bc = 6·6 − (−4)·(−9) = 0 (0 esetén a két vektor összefüggő, jegyzet 4.2).",
+     "b) A három vektor oszlop a mátrixban, sorai: (1  0  2) | (2  1  5) | (3  t  1). A jegyzet átlós szabálya: a főátló irányú három szorzat összege mínusz a mellékátló irányú három szorzat.",
+     "Főátló irányú szorzatok: 1·1·1 + 0·5·3 + 2·2·t.",
+     "Mellékátló irányú szorzatok: 2·1·3 + 1·5·t + 0·2·1.",
+     "A különbség összevonva: det = −1·t − 5 (ugyanazt adja, mint az első sor szerinti kifejtés).",
+     "Összefüggők, ha det = 0 → t = −5.",
+     "Eredmény: a) 0; b) t = −5."
+    ]
+   }
   ]
  },
  {
@@ -90,6 +118,20 @@
    "a) det = p₁·q₂ − q₁·p₂ = 7·3 − 1·2 = 19 ≠ 0 → p és q lineárisan független.",
    "b) A vektorokat oszlopba írva (sorok: (4  t  1) | (1  2  0) | (0  1  3)) az első sor szerinti kifejtés: det = (4)·(6) − (t)·(3) + (1)·(1) = −3t + 25. Összefüggők, ha det = 0 → t = 25/3.",
    "Eredmény: a) 19; b) t = 25/3."
+  ],
+  "solutions": [
+   {
+    "title": "3×3 determináns az átlós szabállyal (hat szorzat)",
+    "steps": [
+     "a) 2×2-es determináns: ad − bc = 7·3 − 1·2 = 19 (0 esetén a két vektor összefüggő, jegyzet 4.2).",
+     "b) A három vektor oszlop a mátrixban, sorai: (4  t  1) | (1  2  0) | (0  1  3). A jegyzet átlós szabálya: a főátló irányú három szorzat összege mínusz a mellékátló irányú három szorzat.",
+     "Főátló irányú szorzatok: 4·2·3 + t·0·0 + 1·1·1.",
+     "Mellékátló irányú szorzatok: 1·2·0 + 4·0·1 + t·1·3.",
+     "A különbség összevonva: det = −3·t + 25 (ugyanazt adja, mint az első sor szerinti kifejtés).",
+     "Összefüggők, ha det = 0 → t = 25/3 ≈ 8,33333333.",
+     "Eredmény: a) 19; b) t = 25/3."
+    ]
+   }
   ]
  },
  {
@@ -121,6 +163,20 @@
    "a) det = p₁·q₂ − q₁·p₂ = (−5)·(−8) − 10·4 = 0 → p és q összefüggő (az egyik a másik számszorosa).",
    "b) A vektorokat oszlopba írva (sorok: (2  3  t) | (−1  0  4) | (1  2  5)) az első sor szerinti kifejtés: det = (2)·(−8) − (3)·(−9) + (t)·(−2) = −2t + 11. Összefüggők, ha det = 0 → t = 11/2.",
    "Eredmény: a) 0; b) t = 11/2."
+  ],
+  "solutions": [
+   {
+    "title": "3×3 determináns az átlós szabállyal (hat szorzat)",
+    "steps": [
+     "a) 2×2-es determináns: ad − bc = -5·-8 − 10·4 = 0 (0 esetén a két vektor összefüggő, jegyzet 4.2).",
+     "b) A három vektor oszlop a mátrixban, sorai: (2  3  t) | (-1  0  4) | (1  2  5). A jegyzet átlós szabálya: a főátló irányú három szorzat összege mínusz a mellékátló irányú három szorzat.",
+     "Főátló irányú szorzatok: 2·0·5 + 3·4·1 + t·(−1)·2.",
+     "Mellékátló irányú szorzatok: t·0·1 + 2·4·2 + 3·(−1)·5.",
+     "A különbség összevonva: det = −2·t + 11 (ugyanazt adja, mint az első sor szerinti kifejtés).",
+     "Összefüggők, ha det = 0 → t = 11/2 ≈ 5,5.",
+     "Eredmény: a) 0; b) t = 11/2."
+    ]
+   }
   ]
  },
  {
@@ -152,6 +208,20 @@
    "a) det = p₁·q₂ − q₁·p₂ = 2·3 − 5·(−1) = 11 ≠ 0 → p és q lineárisan független.",
    "b) A vektorokat oszlopba írva (sorok: (1  2  0) | (0  3  4) | (2  1  t)) az első sor szerinti kifejtés: det = (1)·(3t − 4) − (2)·(−8) + (0)·(−6) = 3t + 12. Összefüggők, ha det = 0 → t = −4.",
    "Eredmény: a) 11; b) t = -4."
+  ],
+  "solutions": [
+   {
+    "title": "3×3 determináns az átlós szabállyal (hat szorzat)",
+    "steps": [
+     "a) 2×2-es determináns: ad − bc = 2·3 − 5·(−1) = 11 (0 esetén a két vektor összefüggő, jegyzet 4.2).",
+     "b) A három vektor oszlop a mátrixban, sorai: (1  2  0) | (0  3  4) | (2  1  t). A jegyzet átlós szabálya: a főátló irányú három szorzat összege mínusz a mellékátló irányú három szorzat.",
+     "Főátló irányú szorzatok: 1·3·t + 2·4·2 + 0·0·1.",
+     "Mellékátló irányú szorzatok: 0·3·2 + 1·4·1 + 2·0·t.",
+     "A különbség összevonva: det = 3·t + 12 (ugyanazt adja, mint az első sor szerinti kifejtés).",
+     "Összefüggők, ha det = 0 → t = −4.",
+     "Eredmény: a) 11; b) t = −4."
+    ]
+   }
   ]
  }
 ]

@@ -34,6 +34,19 @@
    "a–b) A sajátértékek a λ² − tr·λ + det = 0 egyenlet gyökei: tr = 4 + 3 = 7, det = 4·3 − 1·6 = 6, így λ² − 7λ + 6 = 0 → λ = 1 és λ = 6 (ellenőrzés: összegük 7, szorzatuk 6).",
    "c) A λ = 6 sajátértékhez az A·(x; 1) = λ·(x; 1) egyenlet első sora: 4x + 1 = 6x → x = 1/(6 − 4) = 1/2 (a második sor is stimmel: 6·0,5 + 3 = 6).",
    "Eredmény: a) 1; b) 6; c) x = 1/2."
+  ],
+  "solutions": [
+   {
+    "title": "Karakterisztikus egyenlet kifejtése és a második sor",
+    "steps": [
+     "A sajátértékek feltétele (jegyzet 4.2): det(A − λI) = 0. A = [[4, 1], [6, 3]] esetén (4 − λ)(3 − λ) − 1·6 = 0.",
+     "Kifejtve: λ² − 7λ + 12 − 6 = λ² − 7λ + 6 = 0.",
+     "Megoldóképlet: λ = (7 ± √(7² − 4·6)) / 2 = (7 ± √25) / 2 = (7 ± 5) / 2 → λ₁ = 1, λ₂ = 6.",
+     "A nagyobbik sajátérték λ = 6. Az A·(x; 1) = λ·(x; 1) második sora: 6·x + 3·1 = 6·1 → x = (6 − 3) / 6 = 1/2.",
+     "Ellenőrzés az első sorral: 4·1/2 + 1 = 3, és λ·x = 6·1/2 = 3: egyezik.",
+     "Eredmény: a) 1; b) 6; c) x = 1/2."
+    ]
+   }
   ]
  },
  {
@@ -71,6 +84,19 @@
    "a–b) A sajátértékek a λ² − tr·λ + det = 0 egyenlet gyökei: tr = 2 + 4 = 6, det = 2·4 − 3·1 = 5, így λ² − 6λ + 5 = 0 → λ = 1 és λ = 5 (ellenőrzés: összegük 6, szorzatuk 5).",
    "c) A λ = 1 sajátértékhez az A·(x; 1) = λ·(x; 1) egyenlet első sora: 2x + 3 = x → x = 3/(1 − 2) = −3 (a második sor is stimmel: 1·(−3) + 4 = 1).",
    "Eredmény: a) 1; b) 5; c) x = -3."
+  ],
+  "solutions": [
+   {
+    "title": "Karakterisztikus egyenlet kifejtése és a második sor",
+    "steps": [
+     "A sajátértékek feltétele (jegyzet 4.2): det(A − λI) = 0. A = [[2, 3], [1, 4]] esetén (2 − λ)(4 − λ) − 3·1 = 0.",
+     "Kifejtve: λ² − 6λ + 8 − 3 = λ² − 6λ + 5 = 0.",
+     "Megoldóképlet: λ = (6 ± √(6² − 4·5)) / 2 = (6 ± √16) / 2 = (6 ± 4) / 2 → λ₁ = 1, λ₂ = 5.",
+     "A kisebbik sajátérték λ = 1. Az A·(x; 1) = λ·(x; 1) második sora: 1·x + 4·1 = 1·1 → x = (1 − 4) / 1 = −3.",
+     "Ellenőrzés az első sorral: 2·(−3) + 3 = −3, és λ·x = 1·(−3) = −3: egyezik.",
+     "Eredmény: a) 1; b) 5; c) x = −3."
+    ]
+   }
   ]
  },
  {
@@ -108,6 +134,19 @@
    "a–b) A sajátértékek a λ² − tr·λ + det = 0 egyenlet gyökei: tr = 1 + 2 = 3, det = 1·2 − 6·1 = −4, így λ² − 3λ − 4 = 0 → λ = −1 és λ = 4 (ellenőrzés: összegük 3, szorzatuk −4).",
    "c) A λ = 4 sajátértékhez az A·(x; 1) = λ·(x; 1) egyenlet első sora: x + 6 = 4x → x = 6/(4 − 1) = 2 (a második sor is stimmel: 1·2 + 2 = 4).",
    "Eredmény: a) -1; b) 4; c) x = 2."
+  ],
+  "solutions": [
+   {
+    "title": "Karakterisztikus egyenlet kifejtése és a második sor",
+    "steps": [
+     "A sajátértékek feltétele (jegyzet 4.2): det(A − λI) = 0. A = [[1, 6], [1, 2]] esetén (1 − λ)(2 − λ) − 6·1 = 0.",
+     "Kifejtve: λ² − 3λ + 2 − 6 = λ² − 3λ + (−4) = 0.",
+     "Megoldóképlet: λ = (3 ± √(3² − 4·(−4))) / 2 = (3 ± √25) / 2 = (3 ± 5) / 2 → λ₁ = −1, λ₂ = 4.",
+     "A nagyobbik sajátérték λ = 4. Az A·(x; 1) = λ·(x; 1) második sora: 1·x + 2·1 = 4·1 → x = (4 − 2) / 1 = 2.",
+     "Ellenőrzés az első sorral: 1·2 + 6 = 8, és λ·x = 4·2 = 8: egyezik.",
+     "Eredmény: a) −1; b) 4; c) x = 2."
+    ]
+   }
   ]
  },
  {
@@ -145,6 +184,19 @@
    "a–b) A sajátértékek a λ² − tr·λ + det = 0 egyenlet gyökei: tr = 8 + 3 = 11, det = 8·3 − 3·2 = 18, így λ² − 11λ + 18 = 0 → λ = 2 és λ = 9 (ellenőrzés: összegük 11, szorzatuk 18).",
    "c) A λ = 2 sajátértékhez az A·(x; 1) = λ·(x; 1) egyenlet első sora: 8x + 3 = 2x → x = 3/(2 − 8) = −1/2 (a második sor is stimmel: 2·(−0,5) + 3 = 2).",
    "Eredmény: a) 2; b) 9; c) x = -1/2."
+  ],
+  "solutions": [
+   {
+    "title": "Karakterisztikus egyenlet kifejtése és a második sor",
+    "steps": [
+     "A sajátértékek feltétele (jegyzet 4.2): det(A − λI) = 0. A = [[8, 3], [2, 3]] esetén (8 − λ)(3 − λ) − 3·2 = 0.",
+     "Kifejtve: λ² − 11λ + 24 − 6 = λ² − 11λ + 18 = 0.",
+     "Megoldóképlet: λ = (11 ± √(11² − 4·18)) / 2 = (11 ± √49) / 2 = (11 ± 7) / 2 → λ₁ = 2, λ₂ = 9.",
+     "A kisebbik sajátérték λ = 2. Az A·(x; 1) = λ·(x; 1) második sora: 2·x + 3·1 = 2·1 → x = (2 − 3) / 2 = −1/2.",
+     "Ellenőrzés az első sorral: 8·(−1/2) + 3 = −1, és λ·x = 2·(−1/2) = −1: egyezik.",
+     "Eredmény: a) 2; b) 9; c) x = −1/2."
+    ]
+   }
   ]
  },
  {
@@ -182,6 +234,19 @@
    "a–b) A sajátértékek a λ² − tr·λ + det = 0 egyenlet gyökei: tr = 3 + 6 = 9, det = 3·6 − 1·4 = 14, így λ² − 9λ + 14 = 0 → λ = 2 és λ = 7 (ellenőrzés: összegük 9, szorzatuk 14).",
    "c) A λ = 7 sajátértékhez az A·(x; 1) = λ·(x; 1) egyenlet első sora: 3x + 1 = 7x → x = 1/(7 − 3) = 1/4 (a második sor is stimmel: 4·0,25 + 6 = 7).",
    "Eredmény: a) 2; b) 7; c) x = 1/4."
+  ],
+  "solutions": [
+   {
+    "title": "Karakterisztikus egyenlet kifejtése és a második sor",
+    "steps": [
+     "A sajátértékek feltétele (jegyzet 4.2): det(A − λI) = 0. A = [[3, 1], [4, 6]] esetén (3 − λ)(6 − λ) − 1·4 = 0.",
+     "Kifejtve: λ² − 9λ + 18 − 4 = λ² − 9λ + 14 = 0.",
+     "Megoldóképlet: λ = (9 ± √(9² − 4·14)) / 2 = (9 ± √25) / 2 = (9 ± 5) / 2 → λ₁ = 2, λ₂ = 7.",
+     "A nagyobbik sajátérték λ = 7. Az A·(x; 1) = λ·(x; 1) második sora: 4·x + 6·1 = 7·1 → x = (7 − 6) / 4 = 1/4.",
+     "Ellenőrzés az első sorral: 3·1/4 + 1 = 7/4, és λ·x = 7·1/4 = 7/4: egyezik.",
+     "Eredmény: a) 2; b) 7; c) x = 1/4."
+    ]
+   }
   ]
  }
 ]

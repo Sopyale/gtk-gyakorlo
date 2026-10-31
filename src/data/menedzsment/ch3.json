@@ -16,7 +16,12 @@
   "explanation": "A két telephely és a kiszállítás miatt az ügyvezető túlterhelt lett; a törzsegység (könyvelő, marketinges, informatikus, beszerzési és HR-tanácsadó) tehermentesítette.",
   "source": "Jegyzet 3.1",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "az egyik telephelyen megszűnt a kiszállítás": "A kiszállítás megszűnése nem váltotta ki a törzskari formát.",
+   "a futárszolgálat külső megrendelőknek is dolgozni kezdett": "A külső megrendelős futárszolgálat a divizionális váltás oka.",
+   "hulladékcsökkentési projekt indult": "A hulladékcsökkentési projekt a mátrixra váltás oka."
+  }
  },
  {
   "id": "mn-3-002",
@@ -35,7 +40,12 @@
   "explanation": "A külső megrendelőknek is dolgozó futárszolgálat önálló üzletág; minden pizzériának saját funkcionális területei lettek.",
   "source": "Jegyzet 3.1",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Az ügyvezető túlterheltségét törzsegységgel kellett enyhíteni": "A túlterhelt ügyvezető a törzskari forma kiváltó oka volt.",
+   "Hulladékcsökkentési projektet indítottak a telephelyeken át": "A hulladékcsökkentési projekt a mátrixra váltás oka.",
+   "A pizzéria egyetlen telephelyről indult, és nem volt kiszállítás": "Az egyetlen telephely a kiinduló lineáris állapot."
+  }
  },
  {
   "id": "mn-3-003",
@@ -54,7 +64,11 @@
   "explanation": "Az egyik dimenzió a pizzériavezetők és a futárszolgálat üzletágvezetője, a másik a szolgáltatásokért felelős igazgató alatti funkcionális területek.",
   "source": "Jegyzet 3.1",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "A törzsegység tanácsadói": "A törzsegység tanácsadói nem alkotnak mátrixdimenziót.",
+   "Az ügyvezetőnek közvetlenül alárendelt műszakvezetők": "A műszakvezetők a lineáris alapműködéshez tartoznak, nem a mátrixdimenzióhoz."
+  }
  },
  {
   "id": "mn-3-004",
@@ -73,7 +87,12 @@
   "explanation": "Az alapműködés lineáris marad; a törzsegység javítja a döntések színvonalát és csökkenti az ügyvezető terheit.",
   "source": "Jegyzet 3.1",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "A törzsegység tagjai utasíthatják a műszakvezetőket": "A törzsegységnek nincs utasítási joga.",
+   "A törzsegység átveszi az ügyvezető stratégiai döntéseit": "A stratégiai döntések az ügyvezetőnél maradnak.",
+   "A szervezet átlép a divizionális formára": "A divizionális forma későbbi szakasz."
+  }
  },
  {
   "id": "mn-3-005",
@@ -92,7 +111,12 @@
   "explanation": "A funkcionális formánál centralizált, szabályozott a működés, a döntéseket az ügyvezető hozza.",
   "source": "Jegyzet 3.1",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Divíziók közötti versengés az erőforrásokért": "A divíziók közötti versengés a divizionális szakasz gondja.",
+   "Két főnök utasításainak ütközése a műszakvezetőknél": "A két főnök ütközése a mátrix szakasz gondja.",
+   "Az utasítási jog nélküli törzsegység tekintélyvesztése": "A törzsegység utasítási jog nélkül is segít, a gond a funkcionális szakaszban az ügyvezető túlterheltsége."
+  }
  },
  {
   "id": "mn-3-006",
@@ -111,7 +135,12 @@
   "explanation": "A váltásokat sorra a túlterhelt ügyvezető, az új telephely, a külső kiszállítási üzletág és a telephelyeken átívelő projekt indította.",
   "source": "Jegyzet 3.1",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Lineáris → funkcionális → törzskari → mátrix → divizionális": "A törzskari szakasz a funkcionális előtt jön, és a mátrix zárja a sort.",
+   "Lineáris → divizionális → funkcionális → törzskari → mátrix": "A divizionális a funkcionális után, a mátrix előtt jön.",
+   "Törzskari → lineáris → funkcionális → mátrix → divizionális": "A lineáris az első, a törzskari ennek bővítése."
+  }
  },
  {
   "id": "mn-3-007",
@@ -130,7 +159,10 @@
   "explanation": "Elnökség – igazgatói – menedzseri – alkalmazotti szint, ez a lapos szervezet határa (legfeljebb 4 szint).",
   "source": "Jegyzet 3.2",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "3": "Az ábrán négy szint van, ez a lapos szervezet felső határa."
+  }
  },
  {
   "id": "mn-3-008",
@@ -149,7 +181,11 @@
   "explanation": "Ha egy beosztottat két felettes is utasíthat, az többvonalas irányítás, amely a mátrixra jellemző.",
   "source": "Jegyzet 3.2 · 2.6",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Egyvonalas": "Két felettes utasítási joga miatt ez nem egyvonalas.",
+   "Törzskari": "A törzsegységnek nincs utasítási joga, ez más helyzet."
+  }
  },
  {
   "id": "mn-3-009",

@@ -135,7 +135,12 @@
   "explanation": "Az üzleti jelentés a beszámolóval együtt készül, de nem része.",
   "source": "Jegyzet 3.2",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Mérleg": "A mérleg az éves beszámoló egyik alapvető része.",
+   "Eredménykimutatás": "Az eredménykimutatás az éves beszámoló része.",
+   "Kiegészítő melléklet": "A kiegészítő melléklet az éves beszámoló része."
+  }
  },
  {
   "id": "szv-3-012",
@@ -153,7 +158,12 @@
   "explanation": "A diák négy szabályzatot említenek: értékelési, leltározási, pénzkezelési és önköltségszámítási.",
   "source": "Jegyzet 3.5",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Pénzkezelési szabályzat": "A pénzkezelési szabályzat a diák négy szabályzata között van.",
+   "Leltárkészítési, leltározási szabályzat": "A leltározási szabályzat a diák négy szabályzata között van.",
+   "Önköltségszámítási szabályzat": "Az önköltségszámítási szabályzat a diák négy szabályzata között van."
+  }
  },
  {
   "id": "szv-3-013",
@@ -171,7 +181,12 @@
   "explanation": "Az egyszerűsített éves beszámoló határai 2 000 / 4 000 millió Ft / 50 fő; a mikro 180 / 360 / 10.",
   "source": "Jegyzet 3.3",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Mikrogazdálkodói egyszerűsített éves beszámolót": "A mikro határai 180 / 360 millió Ft és 10 fő, ezeket a cég meghaladja.",
+   "Konszolidált éves beszámolót": "Ez az anyavállalatok összevont beszámolója, a kérdés nem erről szól.",
+   "IFRS szerinti pénzügyi kimutatást kizárólag": "Az IFRS szerinti kimutatás külön feltételekhez kötött, a megadott határértékek nem erről szólnak."
+  }
  },
  {
   "id": "szv-3-014",
@@ -189,7 +204,12 @@
   "explanation": "Mérleg – vagyoni; eredménykimutatás – jövedelmi; kiegészítő melléklet (cash-flow) – pénzügyi helyzet.",
   "source": "Jegyzet 3.2",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Mérleg": "A mérleg a vagyoni helyzetet mutatja, nem a jövedelmit.",
+   "Kiegészítő melléklet": "A kiegészítő melléklet (cash-flow) a pénzügyi helyzetet támasztja alá.",
+   "Üzleti jelentés": "Az üzleti jelentés nem része a beszámolónak."
+  }
  },
  {
   "id": "szv-3-015",
@@ -207,7 +227,12 @@
   "explanation": "Az IFRS-részek: pénzügyi helyzet kimutatás, átfogó jövedelem kimutatás, saját tőke változások, cash flow, megjegyzések.",
   "source": "Jegyzet 3.4",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Pénzügyi helyzet kimutatás": "Ez az IFRS-kimutatás egyik része.",
+   "Cash flow kimutatás": "Ez az IFRS-kimutatás egyik része.",
+   "Saját tőke változások": "Ez az IFRS-kimutatás egyik része."
+  }
  },
  {
   "id": "szv-3-016",

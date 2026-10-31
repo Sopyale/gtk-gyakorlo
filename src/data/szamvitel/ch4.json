@@ -63,7 +63,12 @@
   "explanation": "Irodaszer, nyomtatvány, energia, üzemanyag: anyagköltség.",
   "source": "Jegyzet 4.4",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Igénybe vett szolgáltatás": "Az irodaszer anyag, nem szolgáltatás.",
+   "Egyéb szolgáltatás": "Az egyéb szolgáltatás bank, biztosítás és hatóság; az irodaszer anyagköltség.",
+   "ELÁBÉ": "Az ELÁBÉ az eladott áru bekerülési értéke, nem költségnem."
+  }
  },
  {
   "id": "szv-4-007",
@@ -81,7 +86,12 @@
   "explanation": "A pénzügyi szolgáltatás (bankköltség) egyéb szolgáltatás.",
   "source": "Jegyzet 4.5",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Anyagköltség": "A bankköltség pénzügyi szolgáltatás, nem anyag.",
+   "Igénybe vett szolgáltatás": "A bank, biztosítás és hatóság kivétel az igénybe vett szolgáltatások alól, ezek egyéb szolgáltatások.",
+   "ELÁBÉ": "Az ELÁBÉ az eladott áru bekerülési értéke, nem költségnem."
+  }
  },
  {
   "id": "szv-4-008",
@@ -99,7 +109,12 @@
   "explanation": "Ami nem bank, befektetés, biztosítás vagy hatóság, az igénybe vett szolgáltatás (takarítás, bérleti díj, könyvelés, reklám).",
   "source": "Jegyzet 4.5 Vizsgatipp",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Anyagköltség": "A takarítás szolgáltatás, nem anyag.",
+   "Egyéb szolgáltatás": "Az egyéb szolgáltatás a bank, biztosítás és hatóság; a takarítás ezeken kívüli szolgáltatás.",
+   "ELÁBÉ": "Az ELÁBÉ az eladott áru bekerülési értéke, nem költségnem."
+  }
  },
  {
   "id": "szv-4-009",
@@ -117,7 +132,12 @@
   "explanation": "A biztosítási szolgáltatás (a CASCO is) egyéb szolgáltatás.",
   "source": "Jegyzet 4.5 Vizsgatipp",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Anyagköltség": "A CASCO biztosítási szolgáltatás, nem anyag.",
+   "Igénybe vett szolgáltatás": "A biztosítás kivétel: az egyéb szolgáltatások közé tartozik.",
+   "ELÁBÉ": "Az ELÁBÉ az eladott áru bekerülési értéke, nem költségnem."
+  }
  },
  {
   "id": "szv-4-010",
@@ -135,7 +155,12 @@
   "explanation": "Hirdetés, reklám, propaganda: igénybe vett szolgáltatás.",
   "source": "Jegyzet 4.5",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Anyagköltség": "A reklám szolgáltatás, nem anyag.",
+   "Egyéb szolgáltatás": "Az egyéb szolgáltatás a bank, biztosítás és hatóság; a hirdetés ezeken kívüli szolgáltatás.",
+   "ELÁBÉ": "Az ELÁBÉ az eladott áru bekerülési értéke, nem költségnem."
+  }
  },
  {
   "id": "szv-4-011",
@@ -153,7 +178,12 @@
   "explanation": "A hatósági igazgatási szolgáltatás az egyéb szolgáltatások csoportjába tartozik.",
   "source": "Jegyzet 4.5",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Anyagköltség": "A hatósági díj szolgáltatás, nem anyag.",
+   "Igénybe vett szolgáltatás": "A hatósági igazgatási szolgáltatás kivétel: az egyéb szolgáltatások közé tartozik.",
+   "ELÁBÉ": "Az ELÁBÉ az eladott áru bekerülési értéke, nem költségnem."
+  }
  },
  {
   "id": "szv-4-012",
@@ -171,7 +201,12 @@
   "explanation": "Az ELÁBÉ ráfordítás, nem költségnem; az értékesített áru bekerülési értéke.",
   "source": "Jegyzet 4.3 Értelmezés",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Anyagköltség": "Az áru kivezetése nem anyagfelhasználás.",
+   "Igénybe vett szolgáltatás": "Az áru kivezetése nem szolgáltatás.",
+   "Egyéb szolgáltatás": "Az áru kivezetése nem szolgáltatás."
+  }
  },
  {
   "id": "szv-4-013",
@@ -189,7 +224,12 @@
   "explanation": "A legfeljebb egy évig szolgáló anyagi eszközök (szerszám, munkaruha stb.) bekerülési értéke anyagköltség.",
   "source": "Jegyzet 4.4",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Igénybe vett szolgáltatás": "A szerszám és a munkaruha anyagi eszköz, nem szolgáltatás.",
+   "Egyéb szolgáltatás": "A szerszám és a munkaruha anyagi eszköz, nem szolgáltatás.",
+   "ELÁBÉ": "Az ELÁBÉ az eladott áru bekerülési értéke, nem költségnem."
+  }
  },
  {
   "id": "szv-4-014",
@@ -207,7 +247,12 @@
   "explanation": "A bérjárulék a munkáltatót terhelő szocho; az szja és a TB-járulék a dolgozó levonása, a bruttó bér pedig bérköltség. Hibák: mindhárom összeadása; a levonások összege; a nettó bér; a bruttó + járulék.",
   "source": "Jegyzet 4.6 · 4.9",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "1 302 000 Ft": "Ez a három tétel összege; a bérjárulék csak a munkáltatót terhelő szocho.",
+   "938 000 Ft": "Ez az szja és a TB-járulék levonások összege, a dolgozó terhe, nem bérjárulék.",
+   "1 862 000 Ft": "Ez a nettó bér (bruttó − levonások), nem a bérjárulék."
+  }
  },
  {
   "id": "szv-4-015",
@@ -225,7 +270,12 @@
   "explanation": "A bérjárulék a munkáltatót terhelő szocho; az szja és a TB-járulék a dolgozó levonása, a bruttó bér pedig bérköltség. Hibák: mindhárom összeadása; a levonások összege; a nettó bér; a bruttó + járulék.",
   "source": "Jegyzet 4.6 · 4.9",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "697 500 Ft": "Ez a három tétel összege; a bérjárulék csak a munkáltatót terhelő szocho.",
+   "502 500 Ft": "Ez az szja és a TB-járulék levonások összege, a dolgozó terhe, nem bérjárulék.",
+   "997 500 Ft": "Ez a nettó bér (bruttó − levonások), nem a bérjárulék."
+  }
  },
  {
   "id": "szv-4-016",
@@ -243,7 +293,12 @@
   "explanation": "A bérjárulék költség (T 5. Bérjárulékok), tartozás a KBK felé (K 4. KBK).",
   "source": "Jegyzet 4.6",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "T 5. Bérjárulékok – K 4. Jövedelemelszámolási számla": "A szocho a munkáltató tartozása a KBK felé, nem a dolgozóval szembeni elszámolás.",
+   "T 5. Személyi jellegű költségek – K 4. KBK": "A bérjárulék saját költségszámlán, a Bérjárulékok számlán szerepel.",
+   "T 4. Jövedelemelszámolási számla – K 4. KBK": "A munkáltatói szocho költség, nem a dolgozó bérének levonása."
+  }
  },
  {
   "id": "szv-4-017",
@@ -261,7 +316,12 @@
   "explanation": "A levonás nem költség: csak a tartozás címzettje változik (dolgozó → állam).",
   "source": "Jegyzet 4.6 Értelmezés",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "T 5. Bérköltség – K 4. SZJA kötelezettség": "A levonás nem költség: a bérköltség már a bruttó bérrel elszámolva szerepel.",
+   "T 5. Bérjárulékok – K 4. SZJA kötelezettség": "A bérjárulék a munkáltatói szocho, az szja levonás nem költség.",
+   "T 4. SZJA kötelezettség – K 4. Jövedelemelszámolási számla": "Fordított oldalak: a levonáskor a dolgozóval szembeni tartozás csökken (T), az állammal szembeni nő (K)."
+  }
  },
  {
   "id": "szv-4-018",
