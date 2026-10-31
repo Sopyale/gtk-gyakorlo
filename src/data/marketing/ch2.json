@@ -39,7 +39,12 @@
   "explanation": "Alapkoncepciója az „One Size Fits All”; előnye az alacsony költség, ma viszont a különböző fogyasztói csoportok és a verseny miatt nehéz.",
   "source": "Jegyzet 2.1",
   "official": false,
-  "difficulty": 1
+  "difficulty": 1,
+  "why": {
+   "Minden vevőnek egyedi terméket és egyedi üzenetet kínál.": "Ez a mikromarketing, a tömegmarketing épp nem szegmentál.",
+   "Egyetlen szűk szegmensre szakosodik.": "Ez a koncentrált (niche) marketing.",
+   "A vevők magatartása alapján négy csoportot alakít ki.": "Ez a szegmentálás egyik módja, a tömegmarketing nem szegmentál."
+  }
  },
  {
   "id": "mk-2-004",
@@ -57,7 +62,12 @@
   "explanation": "Előbb a megcélzott vevők kiválasztása (szegmentálás, targetálás), azután az értékajánlat (differenciálás, pozicionálás).",
   "source": "Jegyzet 2.2",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "pozicionálás → szegmentálás → targetálás → differenciálás": "A pozicionálás az utolsó lépés, mert előbb a célpiacot kell kiválasztani.",
+   "targetálás → differenciálás → szegmentálás → pozicionálás": "Szegmensek nélkül nincs mit célozni, a szegmentálás az első lépés.",
+   "differenciálás → szegmentálás → pozicionálás → targetálás": "Előbb a megcélzott vevőket kell kiválasztani, csak utána jön az értékajánlat."
+  }
  },
  {
   "id": "mk-2-005",
@@ -104,7 +114,12 @@
   "explanation": "A földrajzi és demográfiai könnyen mérhető, de gyenge előrejelző; a pszichográfiai elég jó, a magatartási nagyon jó előrejelző, ám nehezebben mérhető.",
   "source": "Jegyzet 2.4",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "pszichográfiai és magatartási szegmentálás": "A magatartási nagyon jó előrejelző, de nehezebben mérhető.",
+   "földrajzi és magatartási szegmentálás": "A magatartási szegmentálás nagyon jó előrejelző, csak nehezen mérhető.",
+   "demográfiai és pszichográfiai szegmentálás": "A pszichográfiai elég jó előrejelző, de nehezebben mérhető."
+  }
  },
  {
   "id": "mk-2-007",
@@ -204,7 +219,12 @@
   "explanation": "A demográfiai a szegmentálási kritériumok (mi alapján osztunk) egyike. A hatékony szegmentáció kritériumai azt mondják meg, hogy a kapott szegmens jó-e: mérhető, elérhető, méret, megkülönböztethető, kezelhető.",
   "source": "Jegyzet 2.5",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "mérhetőség": "A mérhetőség a hatékony szegmentáció kritériuma.",
+   "kezelhetőség": "A kezelhetőség a hatékony szegmentáció kritériuma.",
+   "elérhetőség": "Az elérhetőség a hatékony szegmentáció kritériuma."
+  }
  },
  {
   "id": "mk-2-011",
@@ -234,7 +254,12 @@
   "explanation": "A második és harmadik lehetőség a kritériumokat (2.4, 2.5) keveri, a negyedik a márkához tartozik.",
   "source": "Jegyzet 2.6",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "a szegmens földrajzi helye · a vevők kora · a termék ára": "Ezek szegmentálási ismérvek vagy marketingmix-elemek, nem értékelési szempontok.",
+   "a szegmens mérhetősége · elérhetősége · kezelhetősége": "Ezek a hatékony szegmentáció kritériumai, nem a szegmensek értékelésének szempontjai.",
+   "a márka ismertsége · imázsa · hűsége": "Ezek a márkához tartoznak, nem a szegmensértékeléshez."
+  }
  },
  {
   "id": "mk-2-013",
@@ -293,7 +318,12 @@
   "explanation": "Egy termék, több szegmens. Piacszakosodásnál fordítva lenne: egy vevőcsoport, sok termék.",
   "source": "Jegyzet 2.7",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "differenciált marketing, piacszakosodás": "Piacszakosodásnál egy vevőcsoport kap sok terméket, itt fordítva van.",
+   "koncentrált (niche) marketing": "Itt minden vevőcsoportot kiszolgál, nem egyetlen szegmenst.",
+   "differenciálatlan marketing": "A bolt egyetlen terméket árul, de több szegmenst céloz, nem az egész piacot egyformán."
+  }
  },
  {
   "id": "mk-2-016",
@@ -311,7 +341,12 @@
   "explanation": "Egyetlen szegmens, több termék.",
   "source": "Jegyzet 2.7",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "termékszakosodás": "Termékszakosodásnál egy termék kerül több szegmenshez, itt egy szegmens kap több terméket.",
+   "szelektív specializáció": "Itt egyetlen szegmens van, a szelektív specializáció több, egymástól független szegmensre épül.",
+   "differenciálatlan marketing": "A drogéria egyetlen szegmenst céloz, nem az egész piacot."
+  }
  },
  {
   "id": "mk-2-017",
@@ -353,7 +388,12 @@
   "explanation": "A POD (points of difference) az egyedi megkülönböztető elem, a POP az, amiben a márka ugyanolyan, mint a kategória többi tagja.",
   "source": "Jegyzet 2.8",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Olyan erős, kedvező és egyedi asszociáció, amelyet a konkurensek nem teljesítenek.": "Ez a POD (points of difference), nem a POP.",
+   "A márka pénzben kifejezett értékének becslése.": "Ez a márkaérték (brand equity), nem a POP.",
+   "A vevők legnagyobb csoportja egy szegmensen belül.": "Ennek semmi köze a POP-hoz."
+  }
  },
  {
   "id": "mk-2-020",
@@ -389,7 +429,12 @@
   "explanation": "Drágább, de nem ad többet: nincs mivel igazolni a magasabb árat. A többi nyerő értékajánlat.",
   "source": "Jegyzet 2.8",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "ugyanannyiért többet": "Ez nyerő értékajánlat.",
+   "kevesebbért többet": "Ez nyerő értékajánlat.",
+   "sokkal kevesebbért kevesebbet": "Ez nyerő értékajánlat: az alacsonyabb ár igazolja a kevesebb előnyt."
+  }
  },
  {
   "id": "mk-2-022",

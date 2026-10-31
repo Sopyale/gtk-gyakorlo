@@ -39,7 +39,12 @@
   "explanation": "A mag az, amiért a vevő valójában vásárol; a tényleges termék az, amit kézbe kap; a kiterjesztett a körítés.",
   "source": "Jegyzet 3.2",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "tényleges termék → alaphasznosság → kiterjesztett termék": "A mag az alaphasznosság, azt veszi körül a tényleges termék.",
+   "kiterjesztett termék → tényleges termék → alaphasznosság": "Ez a sorrend kívülről befelé haladna.",
+   "alaphasznosság → kiterjesztett termék → tényleges termék": "A tényleges termék a második réteg, a kiterjesztett a legkülső."
+  }
  },
  {
   "id": "mk-3-004",
@@ -98,7 +103,12 @@
   "explanation": "A kényelmi termékeket gyakran, minimális erőfeszítéssel vásárolják; a vészhelyzettermékeket a szükséglet hirtelen felmerülésekor.",
   "source": "Jegyzet 3.3",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "bevásárlási jószág": "Itt nincs hosszas összehasonlítás, a vevő a legközelebbi boltban azonnal vesz.",
+   "speciális termék": "Nincs külön márkahűség vagy célzott keresés, csak a hirtelen szükséglet.",
+   "nem keresett termék": "A vevő pontosan tudja, mire van szüksége."
+  }
  },
  {
   "id": "mk-3-007",
@@ -116,7 +126,12 @@
   "explanation": "Bevásárlási javaknál a megfelelőség, minőség, ár és stílus szerinti válogatás a lényeg.",
   "source": "Jegyzet 3.3",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "kényelmi termék": "Kényelmi terméknél minimális erőfeszítéssel vásárolnak, itt hosszas összehasonlítás zajlik.",
+   "speciális termék": "Speciális terméknél a vevő egy bizonyos márkát keres, nem hasonlítgat.",
+   "nem keresett termék": "A vevő tudatosan keresi a kanapét."
+  }
  },
  {
   "id": "mk-3-008",
@@ -146,7 +161,12 @@
   "explanation": "A nem keresett termékről a fogyasztó nem tud, vagy magától nem gondol a megvásárlására (pl. életbiztosítás, füstérzékelő).",
   "source": "Jegyzet 3.3",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "kényelmi termékek": "Kényelmi terméket a vevő ismer és gyakran, kis erőfeszítéssel vesz.",
+   "bevásárlási javak": "A bevásárlási jószágról a vevő tud és összehasonlítja.",
+   "speciális termékek": "A speciális terméket a vevő ismeri és célzottan keresi."
+  }
  },
  {
   "id": "mk-3-010",
@@ -256,7 +276,12 @@
   "explanation": "Az öt döntés: termékjellemzők, márkázás, csomagolás, címkézés és logók, terméktámogatás. Az ár a marketingmix másik eleme.",
   "source": "Jegyzet 3.5",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "termékjellemzők": "A termékjellemzők az öt döntés egyike.",
+   "csomagolás": "A csomagolás az öt döntés egyike.",
+   "terméktámogatás": "A terméktámogatás az öt döntés egyike."
+  }
  },
  {
   "id": "mk-3-015",
@@ -274,7 +299,12 @@
   "explanation": "A minőség két dimenziója: a teljesítmény minősége (ellátja-e a funkcióit) és a megfelelőség minősége (hibamentesség).",
   "source": "Jegyzet 3.5",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "a teljesítmény minősége": "A teljesítmény a funkciók ellátását jelenti, ezeket a telefon tudja.",
+   "a forma minősége": "A minőségnek két dimenziója van (teljesítmény és megfelelőség), a forma nem tartozik közéjük.",
+   "a dizájn minősége": "A minőségnek két dimenziója van (teljesítmény és megfelelőség), a dizájn nem tartozik közéjük."
+  }
  },
  {
   "id": "mk-3-016",
@@ -338,7 +368,12 @@
   "explanation": "A védelem a csomagolás funkciója. A címke négy funkciója: azonosít, osztályoz, leír, reklámoz.",
   "source": "Jegyzet 3.5",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "azonosítja a terméket vagy a márkát": "Az azonosítás a címke funkciója.",
+   "leírja a terméket (gyártó, összetevők)": "A leírás a címke funkciója.",
+   "reklámozhatja a terméket": "A reklámozás a címke funkciója."
+  }
  },
  {
   "id": "mk-3-019",
@@ -385,7 +420,12 @@
   "explanation": "A termékek zöme balra (keresési minőség), a szolgáltatások zöme jobbra esik; az orvosi diagnózis a skála bizalmi végén van.",
   "source": "Jegyzet 3.1",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "vásárlás előtt megnézhető és összehasonlítható (magas keresési minőség)": "Ez a legtöbb termékre igaz, az orvosi diagnózist vásárlás előtt nem lehet értékelni.",
+   "csak kipróbálás után ítélhető meg (magas tapasztalati minőség)": "A diagnózist kipróbálás után sem tudja a vevő megítélni.",
+   "minősége a címke alapján eldönthető": "A diagnózisnak nincs ilyen megítélhető jegye, bizalmi szolgáltatás."
+  }
  },
  {
   "id": "mk-3-022",

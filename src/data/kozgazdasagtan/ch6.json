@@ -124,7 +124,11 @@
     "explanation": "Határtermék-bevétel = határtermék × határbevétel = 10 db × 500 Ft = 5000 Ft. A 10 darab csak a határtermék, az 500 Ft egy darab ára; a kérdés a pénzben mért többletbevételre vonatkozik.",
     "source": "Jegyzet 6.2 · Könyv 39. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "10 darab": "A 10 darab a határtermék, nem a bevétel.",
+      "500 Ft": "Az 500 Ft a termék ára."
+    }
   },
   {
     "id": "kg-6-016",
@@ -166,7 +170,10 @@
     "explanation": "A-nál egy forint több bevételt hoz, mint B-nél (nagyobb az MRP/P hányados), ezért B-t részben A-val érdemes kiváltani. Ezt addig folytatják, amíg a két hányados ki nem egyenlítődik.",
     "source": "Jegyzet 6.3 · Könyv 39–40. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "A-t részben B-vel helyettesíteni": "Fordítva kell helyettesíteni."
+    }
   },
   {
     "id": "kg-6-019",
@@ -238,7 +245,12 @@
     "explanation": "Állandó mérethozadék: ha minden tényezőt azonos arányban növelünk, a kibocsátás is pontosan ugyanolyan arányban nő. Növekvő hozadéknál több, csökkenőnél kevesebb lenne, mint dupla; a csökkenő határhozadék pedig csak egy tényező növelésére vonatkozik.",
     "source": "Jegyzet 6.4 · Könyv 40. o.",
     "official": false,
-    "difficulty": 1
+    "difficulty": 1,
+    "why": {
+      "növekvő mérethozadék": "Növekvő mérethozadéknál a kibocsátás többszörösére nő.",
+      "csökkenő mérethozadék": "Csökkenő mérethozadéknál kevesebbel nő.",
+      "csökkenő határhozadék": "A határhozadék egy tényező növelésére vonatkozik, nem az összesre."
+    }
   },
   {
     "id": "kg-6-025",
@@ -323,7 +335,11 @@
     "explanation": "Mint a fogyasztói optimumnál: az adott termelés ott a legolcsóbb, ahol az egyenlőköltség-egyenes éppen érinti az egyenlőtermék-görbét. Ott a görbe meredeksége (MRPA/MRPB) egyenlő a tényezőárak arányával (PA/PB).",
     "source": "Jegyzet 6.6 · Könyv 41–45. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "ott a két görbe metszi egymást": "A metszéspont nem költségminimum, onnan van olcsóbb kombináció.",
+      "ott a kibocsátás nulla": "A költségminimumnál nem nulla a kibocsátás."
+    }
   },
   {
     "id": "kg-6-034",
@@ -521,7 +537,12 @@
     "explanation": "Egységárra jutó határtermék-bevétel: A-nál 8000/2000 = 4, B-nél 3000/1000 = 3. A nagyobb hányadosú A-val kell B-t részben helyettesíteni, amíg a hányadosok ki nem egyenlítődnek.",
     "source": "Jegyzet 6.3 · Könyv 40–41., 62. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "A egy részét B-vel helyettesíteni, mert B olcsóbb": "Az ár önmagában nem dönt, az MRP/ár arányokat kell összevetni.",
+      "A egy részét B-vel helyettesíteni, mert A határtermék-bevétele nagyobb": "A nagyobb MRP önmagában nem elég, az MRP/ár arány számít.",
+      "semmit, mert mindkét tényező határtermék-bevétele nagyobb az áránál": "Az arányok eltérnek (4 és 3), tehát van mit javítani."
+    }
   },
   {
     "id": "kg-6-050",
@@ -539,7 +560,12 @@
     "explanation": "Határtermék-bevétel = 20 db × 300 Ft = 6000 Ft, ez több, mint az 5000 Ft-os bér. Amíg a tényező határköltsége kisebb a határtermék-bevételénél, megéri alkalmazni.",
     "source": "Jegyzet 6.5 · Könyv 41–42., 63. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "nem veszi fel, mert a bére (5000 Ft) nagyobb a határterméknél (20 db)": "A bér pénz, a 20 db nem hasonlítható hozzá, a bevétellel kell összevetni.",
+      "nem veszi fel, mert a termék ára (300 Ft) kisebb a bérnél": "A termék ára és a bér nem közvetlenül összevethető.",
+      "közömbös, mert a határtermék-bevétel éppen egyenlő a bérrel": "A határtermék-bevétel (6000) nem egyenlő a bérrel (5000)."
+    }
   },
   {
     "id": "kg-6-051",
@@ -575,7 +601,12 @@
     "explanation": "A növekvő mérethozadék mögött műszaki okok és főleg a specializálódás előnyei állnak. A másik három a csökkenő mérethozadék oka.",
     "source": "Jegyzet 6.4 · Könyv 41., 62–63. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "a menedzselés és az ellenőrzés költségeinek emelkedése": "Ez a csökkenő mérethozadék oka.",
+      "az üzemzavarok kockázata": "Ez a csökkenő mérethozadék oka.",
+      "a szállítási költségek elszaladása": "Ez a csökkenő mérethozadék oka."
+    }
   },
   {
     "id": "kg-6-053",
@@ -643,7 +674,12 @@
     "explanation": "Egy egyenlőtermék-görbe mentén azonos a kibocsátás (bevétel); a görbe azt mutatja, mely tényezőkombinációkkal érhető el. Az azonos költségűeket az egyenlőköltség-egyenes mutatja.",
     "source": "Jegyzet 6.6 · Könyv 42–46., 63–65. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "az azonos költségű TA–TB tényezőkombinációkat": "Az azonos költségű kombinációk az egyenlőköltség-egyenesre esnek.",
+      "az azonos hasznosságot adó fogyasztási kosarakat": "Az azonos hasznosságú kosarak a közömbösségi görbére esnek.",
+      "a tényező ára és felhasznált mennyisége közti kapcsolatot": "Az ár és a mennyiség kapcsolata a keresleti függvény."
+    }
   },
   {
     "id": "kg-6-057",
@@ -662,7 +698,11 @@
     "explanation": "Az egyenlőköltség-egyenes adott költségnél mutatja a lehetséges tényezőkombinációkat, meredeksége az árak aránya. Az MRP-arány (helyettesítési határráta) az egyenlőtermék-görbe meredeksége.",
     "source": "Jegyzet 6.6 · Könyv 42–46., 63–65. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "a két tényező határtermék-bevételének arányát": "A határtermék-bevételek arányának egyenlősége a költségminimum feltétele, nem a meredekség.",
+      "a mérethozadék típusát": "A mérethozadék típusa nem a meredekség."
+    }
   },
   {
     "id": "kg-6-058",
@@ -738,7 +778,11 @@
     "explanation": "Egyetlen tényezőt növelünk, és a többletkibocsátás egyre kisebb: ez a csökkenő határhozadék. A mérethozadéknál minden tényezőt azonos arányban növelünk; a határhasznosság fogyasztói fogalom.",
     "source": "Jegyzet 6.2 · Könyv 40., 62. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "a csökkenő mérethozadékot": "A mérethozadék az összes tényező együttes növelésére vonatkozik.",
+      "a csökkenő határhasznosság elvét": "A határhasznosság a fogyasztói oldali elv."
+    }
   },
   {
     "id": "kg-6-062",
@@ -757,6 +801,10 @@
     "explanation": "A párhuzamos egyenlőköltség-egyenesek érintési pontjai a fogyasztónál a párhuzamosan eltolt költségvetési egyenesek érintési pontjainak felelnek meg, ez a jövedelem–fogyasztás görbe.",
     "source": "Jegyzet 6.6 · Könyv 42–46., 63–65. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "az ár–fogyasztás görbe": "Az ár–fogyasztás görbe árváltozásból keletkezik.",
+      "az Engel-görbe": "Az Engel-görbe jövedelem és mennyiség kapcsolata."
+    }
   }
 ]

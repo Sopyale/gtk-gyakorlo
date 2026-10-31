@@ -16,7 +16,12 @@
   "explanation": "A válságmenedzsment a bekövetkezett katasztrófa vagy váratlan szerencsétlenség kezelése. A tervek előzetes végiggondolása a szükséghelyzeti tervezés dolga.",
   "source": "Jegyzet 1.3",
   "official": false,
-  "difficulty": 1
+  "difficulty": 1,
+  "why": {
+   "A lehetséges szükséghelyzetek előzetes végiggondolása, még a bekövetkezésük előtt, kizárólag papíron": "Ez a szükséghelyzeti tervezés, nem a válságmenedzsment: a terv a bekövetkezés előtt készül.",
+   "A hosszú távú célok megvalósulásának éves ellenőrzése a stratégiai irányítás keretében": "Az éves ellenőrzés a stratégiai irányítás feladata, nem a válságkezelésé.",
+   "A jelző mutatók meghatározása és a hozzájuk tartozó határértékek kijelölése": "A mutatók kijelölése a szükséghelyzeti tervezés egy lépése, nem a válságmenedzsment."
+  }
  },
  {
   "id": "mn-1-002",
@@ -35,7 +40,12 @@
   "explanation": "A folyamat a tervezéssel és a lehetséges szükséghelyzetek végiggondolásával indul, majd azonosítás, akcióba lendítés és figyelés következik.",
   "source": "Jegyzet 1.2",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Azonosítás → tervezés és végiggondolás → figyelés → akcióba lendítés": "A tervezés és végiggondolás megelőzi az azonosítást, nem fordítva.",
+   "Akcióba lendítés → tervezés és végiggondolás → azonosítás → figyelés": "Az akcióba lendítés nem előzheti meg a tervezést és az azonosítást.",
+   "Figyelés → azonosítás → tervezés és végiggondolás → akcióba lendítés": "A folyamat nem a figyeléssel indul, hanem a tervezéssel és a végiggondolással."
+  }
  },
  {
   "id": "mn-1-003",
@@ -54,7 +64,12 @@
   "explanation": "A „valószínű és jelentős” kettős szűrő: csak azokra az eseményekre készül terv, amelyek elég valószínűek és elég nagy hatásúak.",
   "source": "Jegyzet 1.2",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Mindegyikre, amely elméletileg bekövetkezhet, a valószínűségüktől függetlenül": "Nem minden elméleti eseményre készül terv, csak a valószínű és jelentős eseményekre.",
+   "Csak azokra, amelyek már legalább egyszer bekövetkeztek a szervezetben": "A korábbi bekövetkezés nem szűrőfeltétel, a valószínűség és a jelentőség számít.",
+   "Csak azokra, amelyeknek a költsége a legalacsonyabb": "A költség nem szempont a kiválasztásnál, a valószínűség és a jelentőség az."
+  }
  },
  {
   "id": "mn-1-004",
@@ -73,7 +88,12 @@
   "explanation": "A mutató figyelése jelzi, mikor kell élesíteni a szükséghelyzeti tervet. A szükséghelyzet maga a szállítási zavar, nem a késések száma.",
   "source": "Jegyzet 1.2",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Az azonosított szükséghelyzet maga, amelyre a terv készült": "A szükséghelyzet maga a szállítási zavar, a késések száma csak annak mutatója.",
+   "A terv sikeres végrehajtásának eredménye": "A késések száma a terv élesítését jelzi, nem a végrehajtás eredménye.",
+   "A válságmenedzsment ad hoc eleme": "A mutató a szükséghelyzeti terv eleme, nem a válságmenedzsment ad hoc része."
+  }
  },
  {
   "id": "mn-1-005",
@@ -126,7 +146,10 @@
   "explanation": "A Disney az időjárás-alapú szükséghelyzeti terveit használta, amikor 2020-ban szisztematikusan bezárta a parkjait, majd az üdülőhelyeit.",
   "source": "Jegyzet 1.3",
   "official": false,
-  "difficulty": 1
+  "difficulty": 1,
+  "why": {
+   "Campus Pizza": "A Campus Pizza a szervezeti formák példája, nem a szükséghelyzeti terv újrafelhasználásáé."
+  }
  },
  {
   "id": "mn-1-007",
@@ -145,7 +168,12 @@
   "explanation": "A mérés és az összehasonlítás az irányítási folyamat (4.4) lépése; a szükséghelyzeti tervezés lépései: tervezés + végiggondolás, azonosítás, akcióba lendítés, figyelés.",
   "source": "Jegyzet 1.2 · 4.4",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Az akcióba lendítés": "Az akcióba lendítés a szükséghelyzeti tervezés lépése.",
+   "A jelző mutatók figyelése": "A jelző mutatók figyelése a szükséghelyzeti tervezés lépése.",
+   "A lehetséges szükséghelyzetek végiggondolása": "A lehetséges szükséghelyzetek végiggondolása a folyamat első lépése."
+  }
  },
  {
   "id": "mn-1-008",
@@ -210,7 +238,12 @@
   "explanation": "A terv előre készül; a válságmenedzsment a bekövetkezés utáni kezelés, amelynek egy része tervszerű, más része ad hoc.",
   "source": "Jegyzet 1.3",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "A válságmenedzsment mindig teljesen tervszerű, ad hoc elemet nem tartalmaz": "A válságmenedzsmentnek van ad hoc eleme is, nem mindig teljesen tervszerű.",
+   "A szükséghelyzeti terv a bekövetkezett katasztrófa kezelésére szolgáló ad hoc döntések összessége": "A szükséghelyzeti terv előre készül, nem a bekövetkezett katasztrófa kezelése.",
+   "A két fogalom azonos, csak a jelző mutatók használatában különböznek": "A két fogalom különbözik: az egyik előzetes terv, a másik a bekövetkezés utáni kezelés."
+  }
  },
  {
   "id": "mn-1-011",
@@ -229,7 +262,11 @@
   "explanation": "Az ábra végén az eredmény a tervek vagy a szükséghelyzeti terv sikeres végrehajtása.",
   "source": "Jegyzet 1.2",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "A szervezet teljes kockázatmentessége": "A terv nem szünteti meg a kockázatot, csak a kezelésére készít fel.",
+   "A jelző mutatók megszüntetése": "A mutatók nem szűnnek meg, a figyelés a folyamat része."
+  }
  },
  {
   "id": "mn-1-012",
@@ -248,7 +285,12 @@
   "explanation": "A válságkezelés egyes elemei szisztematikusak, tervszerűek, mások az események sodrában, ad hoc alakulnak ki.",
   "source": "Jegyzet 1.3",
   "official": false,
-  "difficulty": 1
+  "difficulty": 1,
+  "why": {
+   "Tervszerű: a külső partnerek döntik el; ad hoc: a belső munkatársak döntik el": "A tervszerű és az ad hoc nem a belső-külső szereplők szerint válik szét.",
+   "Tervszerű: a hosszú távú célokhoz kötött; ad hoc: a rövid távú célokhoz kötött": "A tervszerű és az ad hoc nem az időtávhoz kötődik.",
+   "Tervszerű: a mutatók figyelése; ad hoc: a mutatók meghatározása": "A mutatók figyelése és meghatározása folyamatlépés, nem a tervszerű/ad hoc megkülönböztetés."
+  }
  },
  {
   "id": "mn-1-013",

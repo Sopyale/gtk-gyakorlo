@@ -41,7 +41,12 @@
     "explanation": "A makroökonómia közösségi szereplőkkel és aggregált mutatókkal dolgozik. Az egyéni szereplők és az egyéni döntések a mikroökonómia tárgyai.",
     "source": "Jegyzet 1.1 · Könyv 3. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "egy háztartás vásárlási döntésével": "Egy háztartás döntése mikroökonómiai kérdés, nem aggregált mutató.",
+      "egyéni (üzleti) szereplők döntéseivel": "Az egyéni szereplők döntéseit a mikroökonómia vizsgálja.",
+      "elkülönült gazdálkodók és egységek együttesével": "Az elkülönült gazdálkodók vizsgálata a mikroökonómia tárgya."
+    }
   },
   {
     "id": "kg-1-014",
@@ -95,7 +100,12 @@
     "explanation": "A másik három szerepel az alapelvek között (ösztönzők, kereskedelem, túl sok pénz kibocsátása). Olyan alapelv nincs, hogy mindig a legolcsóbb terméket választanánk.",
     "source": "Jegyzet 1.2",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "Az emberek ösztönzőkre reagálnak.": "Ez valódi alapelv: az emberek ösztönzőkre reagálnak.",
+      "Kereskedelem, csere révén mindenki jobban járhat.": "Ez valódi alapelv: a csere révén mindenki jobban járhat.",
+      "Ha a kormány túl sok pénzt bocsát ki, az árak emelkednek.": "Ez valódi alapelv: a túlzott pénzkibocsátás áremelkedéshez vezet."
+    }
   },
   {
     "id": "kg-1-021",
@@ -173,7 +183,11 @@
     "explanation": "Az elsődleges drive-ok az ön- és fajfenntartással kapcsolatosak, például hőszabályozás, éhség, szomjúság, alvás. A pénz és az érme másodlagos drive.",
     "source": "Jegyzet 1.4 · Könyv 4–5. o.",
     "official": false,
-    "difficulty": 1
+    "difficulty": 1,
+    "why": {
+      "a pénz iránti vágy": "A pénz iránti vágy tanult (másodlagos) drive, nem elsődleges.",
+      "a majmok vágya az automata érméi iránt": "Az automata érméi iránti vágy tanult, nem elsődleges drive."
+    }
   },
   {
     "id": "kg-1-030",
@@ -266,7 +280,12 @@
     "explanation": "A hasznosság mindaz, amit a fogyasztás ad: az élvezet, és hogy elkerülünk valami kellemetlent. A hiányérzet maga a szükséglet, az ár és a költség pedig nem hasznosság.",
     "source": "Jegyzet 1.6 · Könyv 7. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "egy jószág iránti hiányérzetet": "A hiányérzet a szükséglet, nem maga a hasznosság.",
+      "a jószág piaci árát": "A hasznosság szubjektív, a piaci ár objektív adat.",
+      "a jószág előállításának költségét": "A költség a ráfordítás oldala, a hasznosság az élvezeté."
+    }
   },
   {
     "id": "kg-1-040",
@@ -368,7 +387,12 @@
     "explanation": "Az altruista önzetlenül, mások javára cselekszik, a homo oeconomicus viszont önző: csak a saját hasznosságát maximalizálja. A másik három valóban a jellemzői közé tartozik.",
     "source": "Jegyzet 1.7 · Könyv 7–13. o.",
     "official": false,
-    "difficulty": 1
+    "difficulty": 1,
+    "why": {
+      "átlagegyén": "Az átlagegyén valóban a homo oeconomicus jellemzője.",
+      "önző": "Az önzés a homo oeconomicus jellemzője.",
+      "racionálisan kalkulál": "A racionális kalkuláció a homo oeconomicus jellemzője."
+    }
   },
   {
     "id": "kg-1-048",
@@ -386,7 +410,12 @@
     "explanation": "Vágyvezérelt gondolkodás: az információt úgy látjuk, ahogy szeretnénk, ezért rosszul számolunk. A többi opció nem korlát, hanem éppen a racionális kalkuláció feltevése.",
     "source": "Jegyzet 1.7 · Könyv 7–13. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "a korlátlan információ": "A korlátlan információ a modell feltevése, nem a gyakorlati korlát.",
+      "a stabil preferenciák": "A stabil preferenciák a racionalitás feltevései, nem korlátai.",
+      "a valószínűségszámítás pontos követése": "A pontos valószínűségszámítás a modell feltevése, a gyakorlatban ez hiányzik."
+    }
   },
   {
     "id": "kg-1-050",
@@ -466,7 +495,11 @@
     "explanation": "A homo oeconomicus önző és nem etikus, ezért elhallgatná az információt. Ha a kereskedő szól, az etikus vagy altruista viselkedés, ami közgazdasági értelemben „irracionális”.",
     "source": "Jegyzet 1.8 · Könyv 9–10. o.",
     "official": false,
-    "difficulty": 2
+    "difficulty": 2,
+    "why": {
+      "beszámolna a rodosziaknak a hajókról": "A homo oeconomicus nem a rodosziak érdekét nézi, hanem a sajátját.",
+      "ingyen szétosztaná a gabonát": "Az ingyen szétosztás ellentmond a nyereségmaximalizálásnak."
+    }
   },
   {
     "id": "kg-1-057",
@@ -508,7 +541,12 @@
     "explanation": "A „kellene” kulcsszó jelzi a normatív, előíró állítást. A többi leíró állítás, tényekkel ellenőrizhető.",
     "source": "Jegyzet 1.9 · Könyv 13. o.",
     "official": false,
-    "difficulty": 1
+    "difficulty": 1,
+    "why": {
+      "Ha valaminek felmegy az ára, kevesebbet fogyasztanak belőle.": "Ez pozitív állítás: ténymegállapítás az ár és a fogyasztás kapcsolatáról.",
+      "A háztartások döntéseit a mikroökonómia vizsgálja.": "Ez pozitív állítás: azt írja le, mit vizsgál a mikroökonómia.",
+      "Őseink evolúciós történetük több mint 99%-át vadászó-gyűjtögetőként töltötték.": "Ez pozitív állítás: ellenőrizhető tény az evolúciós múltról."
+    }
   },
   {
     "id": "kg-1-060",
@@ -538,7 +576,12 @@
     "explanation": "Tőkejavak: az ember által létrehozott (mesterséges) eszközök, amelyekkel termelni lehet, például gép, épület, alkatrész. A föld és a víz természeti tényező.",
     "source": "Jegyzet 1.10 · Könyv 3, 17, 38. o.",
     "official": false,
-    "difficulty": 1
+    "difficulty": 1,
+    "why": {
+      "munkatényező": "A munkatényező az emberi munka, nem a gyártott eszköz.",
+      "természeti tényező": "A természeti tényező a föld és a nyersanyag, nem a gép.",
+      "vállalkozói szolgáltatás": "A vállalkozói szolgáltatás szervezés és kockázatvállalás, nem tárgyi eszköz."
+    }
   },
   {
     "id": "kg-1-064",
@@ -669,7 +712,11 @@
     "explanation": "Ha a segítség később visszajön, a motívum gazdasági haszon: ez ál-altruizmus, ami belefér a homo oeconomicus önzésébe.",
     "source": "Jegyzet 1.8 · Könyv 10–11. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "igazi altruista tett": "Viszonzást váró segítség nem igazi altruizmus.",
+      "ál-altruista, pszichológiai haszonért tett": "A várt haszon itt a viszontsegítség, tehát gazdasági, nem pszichológiai."
+    }
   },
   {
     "id": "kg-1-077",
@@ -687,7 +734,12 @@
     "explanation": "A teljes informáltság, a világos preferenciák és a tökéletes matematikai képesség a feltevések. A „savanyú a szőlő” a racionális kalkuláció egyik gyakorlati korlátja.",
     "source": "Jegyzet 1.7 · Könyv 11–12. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "teljes informáltság": "A teljes informáltság a racionális kalkuláció feltevése.",
+      "világos preferenciarendezés": "A világos preferenciarendezés a feltevés része.",
+      "tökéletes valószínűség-számítási, matematikai képességek": "A tökéletes számolási képesség a feltevés része."
+    }
   },
   {
     "id": "kg-1-078",
@@ -705,7 +757,12 @@
     "explanation": "A pozitív állítás leíró: azt mondja, milyen a világ, és adatokkal ellenőrizhető. A többi „kellene” vagy értékítélet, ezért normatív.",
     "source": "Jegyzet 1.9 · Könyv 14. o.",
     "official": false,
-    "difficulty": 3
+    "difficulty": 3,
+    "why": {
+      "A gáz árát alacsonyan kellene tartani.": "Ez normatív: azt mondja meg, mit kellene tenni.",
+      "Igazságtalan, hogy ilyen drága a gáz.": "Ez normatív: értékítélet (igazságtalanság).",
+      "Az államnak támogatnia kellene a hőszigetelést.": "Ez normatív: az állam teendőjéről szól."
+    }
   },
   {
     "id": "kg-1-079",

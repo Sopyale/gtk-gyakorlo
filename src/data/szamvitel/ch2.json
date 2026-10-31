@@ -111,7 +111,12 @@
   "explanation": "Beszerzéskor az ÁFA visszaigényelhető: Előzetes ÁFA, és az eszközhöz hasonlóan T oldalon nő.",
   "source": "Jegyzet 2.3 · 2.4 · 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Előzetes ÁFA (K)": "Beszerzéskor az Előzetes ÁFA nő, és az eszközjellegű számla T oldalon nő.",
+   "Fizetendő ÁFA (T)": "Beszerzéskor nem fizetendő, hanem visszaigényelhető ÁFA keletkezik.",
+   "Fizetendő ÁFA (K)": "A Fizetendő ÁFA az értékesítés ÁFA-ja; vásárláskor az Előzetes ÁFA számlát használjuk."
+  }
  },
  {
   "id": "szv-2-010",
@@ -129,7 +134,12 @@
   "explanation": "Értékesítéskor a megfizetendő adó tartozás az állam felé: K oldalon nő.",
   "source": "Jegyzet 2.3 · 2.4 · 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Előzetes ÁFA (T)": "Az Előzetes ÁFA a beszerzés ÁFA-ja; értékesítéskor a Fizetendő ÁFA nő.",
+   "Előzetes ÁFA (K)": "Az Előzetes ÁFA a vásárlások ÁFA-ja, és értékesítéskor nem ez a számla érintett.",
+   "Fizetendő ÁFA (T)": "A számla jó, de az oldal rossz: a tartozás K oldalon nő."
+  }
  },
  {
   "id": "szv-2-011",
@@ -147,7 +157,12 @@
   "explanation": "Az adóhivatallal szembeni pénzmozgás számlája a pénzügyi elszámolási számla; befizetéskor T oldal.",
   "source": "Jegyzet 2.3 · 2.4 · 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Előzetes ÁFA (T)": "Az adóhivatalnak utalt pénz a pénzügyi elszámolási számlán szerepel, nem az Előzetes ÁFA-n.",
+   "Előzetes ÁFA (K)": "Az adóhivatalnak utalt pénz a pénzügyi elszámolási számlán szerepel, nem az Előzetes ÁFA-n.",
+   "Fizetendő ÁFA (T)": "A befizetés az ÁFA pénzügyi elszámolási számlán jelenik meg (T oldal), nem a Fizetendő ÁFA-n."
+  }
  },
  {
   "id": "szv-2-012",
@@ -165,7 +180,12 @@
   "explanation": "Visszatérítéskor a pénzügyi elszámolási számla K oldalon szerepel (a befizetés T, a visszatérítés K).",
   "source": "Jegyzet 2.3 · 2.4 · 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Előzetes ÁFA (T)": "A visszatérítés pénzmozgás az adóhivatallal, ezt az ÁFA pénzügyi elszámolási számla követi.",
+   "Előzetes ÁFA (K)": "A visszatérítés pénzmozgás az adóhivatallal, ezt az ÁFA pénzügyi elszámolási számla követi.",
+   "Fizetendő ÁFA (T)": "A visszatérítés pénzmozgás az adóhivatallal, ezt az ÁFA pénzügyi elszámolási számla követi."
+  }
  },
  {
   "id": "szv-2-013",
@@ -183,7 +203,12 @@
   "explanation": "A visszaküldés a beszerzés fordítottja: az Előzetes ÁFA csökken, tehát K oldalon szerepel (3 000 × 20% × 25% = 150).",
   "source": "Jegyzet 2.3 · 2.4 · 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Előzetes ÁFA (T)": "A visszaküldés a beszerzés fordítottja, az Előzetes ÁFA csökken, ezért K oldalon szerepel.",
+   "Fizetendő ÁFA (T)": "Beszerzés visszaküldésekor az Előzetes ÁFA csökken, a Fizetendő ÁFA nem érintett.",
+   "Fizetendő ÁFA (K)": "Beszerzés visszaküldésekor az Előzetes ÁFA csökken, a Fizetendő ÁFA nem érintett."
+  }
  },
  {
   "id": "szv-2-014",
@@ -201,7 +226,12 @@
   "explanation": "Az engedmény csökkenti az ÁFA-tartozást, ezért a Fizetendő ÁFA T oldalra kerül (2 000 × 10% × 25% = 50).",
   "source": "Jegyzet 2.3 · 2.4 · 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Előzetes ÁFA (T)": "Az eladó az engedménnyel a saját Fizetendő ÁFA-ját csökkenti, az Előzetes ÁFA a vevő oldala.",
+   "Előzetes ÁFA (K)": "Az eladó az engedménnyel a saját Fizetendő ÁFA-ját csökkenti, az Előzetes ÁFA a vevő oldala.",
+   "Fizetendő ÁFA (K)": "A K oldal növelné az ÁFA-tartozást; az engedmény csökkenti, így T oldalra kerül."
+  }
  },
  {
   "id": "szv-2-015",
@@ -219,7 +249,12 @@
   "explanation": "A szállítókkal szembeni kötelezettség az ÁFÁ-val növelt (bruttó) összeg.",
   "source": "Jegyzet 2.4 · 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Előzetes ÁFA": "Az Előzetes ÁFA csak az ÁFA részt tartalmazza, a bruttó összeg a szállítói tartozás.",
+   "Áruk": "Az Áruk számlára csak a nettó érték kerül.",
+   "Fizetendő ÁFA": "A Fizetendő ÁFA az értékesítés ÁFA-ja, vásárlásnál nem ez érintett."
+  }
  },
  {
   "id": "szv-2-016",
@@ -237,7 +272,12 @@
   "explanation": "A vevőtől az ÁFÁ-val növelt összeget követeljük: a Vevők számla T oldalon a bruttó összegre nő.",
   "source": "Jegyzet 2.4 · 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Fizetendő ÁFA": "A Fizetendő ÁFA csak az ÁFA részt tartalmazza, a bruttó követelés a Vevők számlán van.",
+   "Értékesítés nettó árbevétele": "Az árbevételre csak a nettó összeg kerül.",
+   "Szállítók": "A Szállítók a vásárlás tartozásszámlája, eladásnál a vevőkövetelés keletkezik."
+  }
  },
  {
   "id": "szv-2-017",
@@ -255,7 +295,12 @@
   "explanation": "Készpénzes fizetésnél nincs szállító: a Pénztár K oldalán a teljes bruttó összeg szerepel (80 nettó + 20 ÁFA).",
   "source": "Jegyzet 2.4 · 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Szállítók": "Készpénzes fizetésnél nincs szállítói tartozás, a pénztár csökken.",
+   "Előzetes ÁFA": "Az Előzetes ÁFA csak a 20 eFt ÁFA részt tartalmazza, a bruttó összeg a pénztárból megy ki.",
+   "Anyagköltség": "Az anyagköltség csak a nettó 80 eFt, a bruttó összeg nem ide kerül."
+  }
  },
  {
   "id": "szv-2-018",
@@ -273,7 +318,12 @@
   "explanation": "A hozam a nettó eladási ár (5 000), az ÁFA nem bevétel, az ELÁBÉ ráfordítás.",
   "source": "Jegyzet 2.4 · 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Eladott áruk beszerzési értéke": "Az ELÁBÉ a bekerülési érték, ráfordítás, nem hozam.",
+   "Fizetendő ÁFA": "Az ÁFA nem bevétel, hanem az államnak járó tartozás.",
+   "Vevők": "A Vevők eszközszámla, nem hozamszámla."
+  }
  },
  {
   "id": "szv-2-019",
@@ -375,6 +425,16 @@
   "steps": [
    "Bruttó = 125%: nettó = bruttó / 1,25 = 3 750 / 1,25 = 3 000.",
    "ÁFA = bruttó × 0,2 = 750 (vagy nettó × 0,25 = 750)."
+  ],
+  "solutions": [
+   {
+    "title": "ÁFA először (bruttó ötöde)",
+    "steps": [
+     "A bruttóból az ÁFA a bruttó 20%-a (ötöde): 3 750 × 0,2 = 750.",
+     "Nettó = bruttó − ÁFA = 3 750 − 750 = 3 000.",
+     "Ellenőrzés: nettó × 0,25 = 3 000 × 0,25 = 750 = az ÁFA."
+    ]
+   }
   ]
  },
  {
@@ -411,6 +471,16 @@
   "steps": [
    "ÁFA = nettó × 0,25 = 2 800 × 0,25 = 700.",
    "Bruttó = nettó × 1,25 = 3 500."
+  ],
+  "solutions": [
+   {
+    "title": "Összeadással (nettó + ÁFA)",
+    "steps": [
+     "ÁFA = nettó × 0,25 = 2 800 × 0,25 = 700.",
+     "Bruttó = nettó + ÁFA = 2 800 + 700 = 3 500.",
+     "Ellenőrzés: bruttó / 1,25 = 3 500 / 1,25 = 2 800 = a nettó."
+    ]
+   }
   ]
  },
  {
@@ -447,6 +517,16 @@
   "steps": [
    "Bruttó = 125%: nettó = bruttó / 1,25 = 1 875 / 1,25 = 1 500.",
    "ÁFA = bruttó × 0,2 = 375 (vagy nettó × 0,25 = 375)."
+  ],
+  "solutions": [
+   {
+    "title": "ÁFA először (bruttó ötöde)",
+    "steps": [
+     "A bruttóból az ÁFA a bruttó 20%-a (ötöde): 1 875 × 0,2 = 375.",
+     "Nettó = bruttó − ÁFA = 1 875 − 375 = 1 500.",
+     "Ellenőrzés: nettó × 0,25 = 1 500 × 0,25 = 375 = az ÁFA."
+    ]
+   }
   ]
  },
  {
@@ -483,6 +563,16 @@
   "steps": [
    "ÁFA = nettó × 0,25 = 640 × 0,25 = 160.",
    "Bruttó = nettó × 1,25 = 800."
+  ],
+  "solutions": [
+   {
+    "title": "Összeadással (nettó + ÁFA)",
+    "steps": [
+     "ÁFA = nettó × 0,25 = 640 × 0,25 = 160.",
+     "Bruttó = nettó + ÁFA = 640 + 160 = 800.",
+     "Ellenőrzés: bruttó / 1,25 = 800 / 1,25 = 640 = a nettó."
+    ]
+   }
   ]
  },
  {
@@ -519,6 +609,16 @@
   "steps": [
    "Bruttó = 125%: nettó = bruttó / 1,25 = 5 000 / 1,25 = 4 000.",
    "ÁFA = bruttó × 0,2 = 1 000 (vagy nettó × 0,25 = 1 000)."
+  ],
+  "solutions": [
+   {
+    "title": "ÁFA először (bruttó ötöde)",
+    "steps": [
+     "A bruttóból az ÁFA a bruttó 20%-a (ötöde): 5 000 × 0,2 = 1 000.",
+     "Nettó = bruttó − ÁFA = 5 000 − 1 000 = 4 000.",
+     "Ellenőrzés: nettó × 0,25 = 4 000 × 0,25 = 1 000 = az ÁFA."
+    ]
+   }
   ]
  },
  {
@@ -869,6 +969,17 @@
    "→ Savanyító: Fizetendő 140 × 0,25 = 35; Előzetes 80 × 0,25 = 20; befizetendő 35 − 20 = 15 (= többletérték 60 × 0,25).",
    "→ Nagykereskedő: Fizetendő 260 × 0,25 = 65; Előzetes 140 × 0,25 = 35; befizetendő 65 − 35 = 30 (= többletérték 120 × 0,25).",
    "→ Összesen 65 = a végső fogyasztónak kiszámlázott 260 × 0,25 = 65: az adót végül a végső fogyasztó viseli."
+  ],
+  "solutions": [
+   {
+    "title": "Többletérték módszer",
+    "steps": [
+     "Kertész: többletérték = 80 − 0 = 80; ÁFA = 80 × 0,25 = 20.",
+     "Savanyító: többletérték = 140 − 80 = 60; ÁFA = 60 × 0,25 = 15.",
+     "Nagykereskedő: többletérték = 260 − 140 = 120; ÁFA = 120 × 0,25 = 30.",
+     "Összesen: 20 + 15 + 30 = 65 = a végső fogyasztói ár ÁFA-ja (260 × 0,25 = 65)."
+    ]
+   }
   ]
  },
  {
@@ -919,6 +1030,17 @@
    "→ Asztalos: Fizetendő 360 × 0,25 = 90; Előzetes 200 × 0,25 = 50; befizetendő 90 − 50 = 40 (= többletérték 160 × 0,25).",
    "→ Bútorbolt: Fizetendő 500 × 0,25 = 125; Előzetes 360 × 0,25 = 90; befizetendő 125 − 90 = 35 (= többletérték 140 × 0,25).",
    "→ Összesen 125 = a végső fogyasztónak kiszámlázott 500 × 0,25 = 125: az adót végül a végső fogyasztó viseli."
+  ],
+  "solutions": [
+   {
+    "title": "Többletérték módszer",
+    "steps": [
+     "Fűrészüzem: többletérték = 200 − 0 = 200; ÁFA = 200 × 0,25 = 50.",
+     "Asztalos: többletérték = 360 − 200 = 160; ÁFA = 160 × 0,25 = 40.",
+     "Bútorbolt: többletérték = 500 − 360 = 140; ÁFA = 140 × 0,25 = 35.",
+     "Összesen: 50 + 40 + 35 = 125 = a végső fogyasztói ár ÁFA-ja (500 × 0,25 = 125)."
+    ]
+   }
   ]
  },
  {

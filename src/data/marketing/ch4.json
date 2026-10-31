@@ -27,7 +27,12 @@
   "explanation": "Az „azonosítás” a vállalati lista eleme, és belső nyilvántartást (készlet, számvitel) jelent, nem a vevő döntését.",
   "source": "Jegyzet 4.1",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "a fogyasztó számára: a döntés leegyszerűsítése": "Itt a vállalat belső nyilvántartásáról van szó, nem a vevő döntéséről.",
+   "a fogyasztó számára: önkifejezés eszköze": "A készlet- és számviteli nyilvántartás vállalati cél, nem fogyasztói.",
+   "a vállalat számára: csökkenti a versenytársak általi sebezhetőséget": "Ez a márka védelmi szerepe, nem a belső nyilvántartás."
+  }
  },
  {
   "id": "mk-4-003",
@@ -120,7 +125,12 @@
   "explanation": "A hat kritérium: emlékezetes, ésszerű, rokonszenves, átvihető, adaptálható, védhető.",
   "source": "Jegyzet 4.2",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "emlékezetes": "Az emlékezetesség a hat kritérium egyike.",
+   "adaptálható": "Az adaptálhatóság a hat kritérium egyike.",
+   "védhető": "A védhetőség a hat kritérium egyike."
+  }
  },
  {
   "id": "mk-4-007",
@@ -166,7 +176,12 @@
   "explanation": "A márkaerősség a jövőbeli növekedés értékét mutatja; az elismertség és az ismertség a márkatekintély, a jelenlegi helyzet.",
   "source": "Jegyzet 4.3",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "az elismertség és az ismertség": "Ez a márkatekintély, vagyis a jelenlegi helyzet, nem a márkaerősség.",
+   "a különbözőség és az ismertség": "Az ismertség a tekintély összetevője, nem a márkaerősségé.",
+   "a relevancia és az elismertség": "Az elismertség a tekintély összetevője, nem a márkaerősségé."
+  }
  },
  {
   "id": "mk-4-010",
@@ -184,7 +199,12 @@
   "explanation": "Magas márkaerősség, alacsony tekintély: növekedhet. Pusztuló az, amelyik ismert és tisztelt, de már nem elég különleges.",
   "source": "Jegyzet 4.3",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "vezető pozíció": "A vezető pozícióban a márka erős is és tekintélyes is, itt a tekintély alacsony.",
+   "pusztuló / csökkenő": "A pusztuló márka ismert és tisztelt, de már nem elég különleges, itt fordítva van.",
+   "új / fókuszálatlan": "Ennek a negyednek a márkaereje és tekintélye is alacsony, itt a márkaerő magas."
+  }
  },
  {
   "id": "mk-4-011",
@@ -214,7 +234,12 @@
   "explanation": "Felidézés: a kategória hallatán magától jut eszembe a márka, nincs előttem. Felismerésnél látom a márkát, és tudom, hogy találkoztam vele.",
   "source": "Jegyzet 4.4",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "márkafelismerés (recognition)": "Felismerésnél a vevő látja a márkát, itt neki kell magától előhozni.",
+   "márkaimázs": "Az imázs a márkához kapcsolódó asszociációkról szól, nem arról, eszünkbe jut-e a név.",
+   "márkaszemélyiség": "A személyiség a márka emberi jellemzőit jelenti, nem az ismertséget."
+  }
  },
  {
   "id": "mk-4-013",
@@ -323,7 +348,12 @@
   "explanation": "A jó név utal az előnyökre, könnyen kimondható és megjegyezhető, megkülönböztető, bővíthető, lefordítható és jogilag védhető.",
   "source": "Jegyzet 4.5",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "könnyen kimondható és megjegyezhető legyen": "A könnyű kimondhatóság és megjegyezhetőség követelmény.",
+   "jogilag védhető legyen": "A jogi védhetőség követelmény.",
+   "idegen nyelvre lefordítható legyen": "A lefordíthatóság követelmény."
+  }
  },
  {
   "id": "mk-4-018",
@@ -386,7 +416,12 @@
   "explanation": "Új márkanév + új termékkategória. Multimárkánál új név jelenik meg, de meglévő kategóriában.",
   "source": "Jegyzet 4.5",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "multimárka": "Multimárkánál új név jelenik meg, de meglévő termékkategóriában.",
+   "termékkategória-bővítés": "Ennél a meglévő márkanevet használják egy új kategóriában.",
+   "termékcsalád-bővítés": "Ennél a meglévő név marad egy meglévő kategória új változatain."
+  }
  },
  {
   "id": "mk-4-021",
@@ -416,7 +451,11 @@
   "explanation": "A termékcsalád-bővítés hátránya a túlterhelt márkanév miatti vevői zavar, a multimárkáé a kis részesedés és az elaprózott erőforrás.",
   "source": "Jegyzet 4.5",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "a „túlterhelt” márkanév zavart okoz a vevőkben": "Ez a termékcsalád-bővítés hátránya.",
+   "az erőforrások elaprózódnak a sok kis részesedésű márka között": "Ez a multimárka hátránya."
+  }
  },
  {
   "id": "mk-4-023",

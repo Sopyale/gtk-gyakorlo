@@ -33,6 +33,18 @@
   "steps": [
    "A gyöktényezős alak a(x − 1)(x − 5). Az x = 0 helyen: −10 = a·(−1)·(−5) = a·5 → a = −2. A csúcs a két gyök számtani közepénél van: (1 + 5)/2 = 3; ott q = −2·2·(−2) = 8 (maximum, mert a < 0).",
    "Eredmény: a) -2; b) 3; c) 8."
+  ],
+  "solutions": [
+   {
+    "title": "Kifejtés és teljes négyzetes alak",
+    "steps": [
+     "A gyöktényezős alak a(x − 1)(x − 5); az x = 0 helyen −10 az érték: −10 = a·(−1)·(−5) → a = −2.",
+     "Kifejtve: q(x) = (−2)·(x² − 6x + 5) = −2x² + 12x + (−10).",
+     "Teljes négyzetté alakítva (jegyzet 5.5): a csúcs helye −b/(2a) = 3, a konstans s = c − a·m² = (−10) − (−2)·9 = 8, tehát q(x) = (−2)·(x − 3)² + 8.",
+     "Az alakból a csúcs azonnal leolvasható: (3; 8), maximum, mert a < 0.",
+     "Eredmény: a) −2; b) 3; c) 8."
+    ]
+   }
   ]
  },
  {
@@ -69,6 +81,18 @@
   "steps": [
    "A gyöktényezős alak a(x + 4)(x − 2). Az x = 1 helyen: 15 = a·5·(−1) = a·(−5) → a = −3. A csúcs a két gyök számtani közepénél van: ((−4) + 2)/2 = −1; ott q = −3·3·(−3) = 27 (maximum, mert a < 0).",
    "Eredmény: a) -3; b) -1; c) 27."
+  ],
+  "solutions": [
+   {
+    "title": "Kifejtés és teljes négyzetes alak",
+    "steps": [
+     "A gyöktényezős alak a(x + 4)(x − 2); az x = 1 helyen 15 az érték: 15 = a·(5)·(−1) → a = −3.",
+     "Kifejtve: q(x) = (−3)·(x² − (−2)x + (−8)) = −3x² + (−6)x + 24.",
+     "Teljes négyzetté alakítva (jegyzet 5.5): a csúcs helye −b/(2a) = −1, a konstans s = c − a·m² = 24 − (−3)·1 = 27, tehát q(x) = (−3)·(x − (−1))² + 27.",
+     "Az alakból a csúcs azonnal leolvasható: (−1; 27), maximum, mert a < 0.",
+     "Eredmény: a) −3; b) −1; c) 27."
+    ]
+   }
   ]
  },
  {
@@ -105,6 +129,18 @@
   "steps": [
    "A gyöktényezős alak a(x − 0)(x − 8). Az x = 2 helyen: −24 = a·2·(−6) = a·(−12) → a = 2. A csúcs a két gyök számtani közepénél van: (0 + 8)/2 = 4; ott q = 2·4·(−4) = −32 (minimum, mert a > 0).",
    "Eredmény: a) 2; b) 4; c) -32."
+  ],
+  "solutions": [
+   {
+    "title": "Kifejtés és teljes négyzetes alak",
+    "steps": [
+     "A gyöktényezős alak a(x − 0)(x − 8); az x = 2 helyen −24 az érték: −24 = a·(2)·(−6) → a = 2.",
+     "Kifejtve: q(x) = 2·(x² − 8x + 0) = 2x² + (−16)x + 0.",
+     "Teljes négyzetté alakítva (jegyzet 5.5): a csúcs helye −b/(2a) = 4, a konstans s = c − a·m² = 0 − 2·16 = −32, tehát q(x) = 2·(x − 4)² + (−32).",
+     "Az alakból a csúcs azonnal leolvasható: (4; −32), minimum, mert a > 0.",
+     "Eredmény: a) 2; b) 4; c) −32."
+    ]
+   }
   ]
  },
  {
@@ -141,6 +177,18 @@
   "steps": [
    "A gyöktényezős alak a(x + 3)(x + 1). Az x = 0 helyen: 6 = a·3·1 = a·3 → a = 2. A csúcs a két gyök számtani közepénél van: ((−3) + (−1))/2 = −2; ott q = 2·1·(−1) = −2 (minimum, mert a > 0).",
    "Eredmény: a) 2; b) -2; c) -2."
+  ],
+  "solutions": [
+   {
+    "title": "Kifejtés és teljes négyzetes alak",
+    "steps": [
+     "A gyöktényezős alak a(x + 3)(x + 1); az x = 0 helyen 6 az érték: 6 = a·(3)·(1) → a = 2.",
+     "Kifejtve: q(x) = 2·(x² − (−4)x + 3) = 2x² + 8x + 6.",
+     "Teljes négyzetté alakítva (jegyzet 5.5): a csúcs helye −b/(2a) = −2, a konstans s = c − a·m² = 6 − 2·4 = −2, tehát q(x) = 2·(x − (−2))² + (−2).",
+     "Az alakból a csúcs azonnal leolvasható: (−2; −2), minimum, mert a > 0.",
+     "Eredmény: a) 2; b) −2; c) −2."
+    ]
+   }
   ]
  },
  {
@@ -177,6 +225,18 @@
   "steps": [
    "A gyöktényezős alak a(x − 2)(x − 10). Az x = 4 helyen: −12 = a·2·(−6) = a·(−12) → a = 1. A csúcs a két gyök számtani közepénél van: (2 + 10)/2 = 6; ott q = 1·4·(−4) = −16 (minimum, mert a > 0).",
    "Eredmény: a) 1; b) 6; c) -16."
+  ],
+  "solutions": [
+   {
+    "title": "Kifejtés és teljes négyzetes alak",
+    "steps": [
+     "A gyöktényezős alak a(x − 2)(x − 10); az x = 4 helyen −12 az érték: −12 = a·(2)·(−6) → a = 1.",
+     "Kifejtve: q(x) = 1·(x² − 12x + 20) = 1x² + (−12)x + 20.",
+     "Teljes négyzetté alakítva (jegyzet 5.5): a csúcs helye −b/(2a) = 6, a konstans s = c − a·m² = 20 − 1·36 = −16, tehát q(x) = 1·(x − 6)² + (−16).",
+     "Az alakból a csúcs azonnal leolvasható: (6; −16), minimum, mert a > 0.",
+     "Eredmény: a) 1; b) 6; c) −16."
+    ]
+   }
   ]
  }
 ]

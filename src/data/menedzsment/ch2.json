@@ -16,7 +16,12 @@
   "explanation": "A második válasz az irányítás, a harmadik a vezetés, a negyedik a tervezés meghatározása.",
   "source": "Jegyzet 2.1",
   "official": false,
-  "difficulty": 1
+  "difficulty": 1,
+  "why": {
+   "A szervezeti célok lebontása, megvalósulásuk ellenőrzése és a szükséges korrekciók végrehajtása": "Ez az irányítás meghatározása.",
+   "A szervezeti tagok viselkedésének tudatos befolyásolása a célok eléréséért": "Ez a vezetés meghatározása.",
+   "A lehetséges jövőbeli állapotok kijelölése és a hozzájuk vezető lépések meghatározása": "Ez a tervezés meghatározása."
+  }
  },
  {
   "id": "mn-2-002",
@@ -35,7 +40,12 @@
   "explanation": "A felépítés az egységeket és viszonyukat rögzíti; a munkakörök a feladatelosztást, az allokálás az erőforrások hozzárendelését, a kapcsolatok az együttműködés szabályait.",
   "source": "Jegyzet 2.1",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Munkakörök kialakítása": "A munkakörök a feladatok elosztását rögzítik, nem az egységek kialakítását.",
+   "Erőforrások allokálása": "Az erőforrás-allokálás a források hozzárendelése, nem a csoportosítás.",
+   "Kapcsolatok létrehozása": "A kapcsolatok az együttműködés szabályai, nem az egységek létrehozása."
+  }
  },
  {
   "id": "mn-2-003",
@@ -54,7 +64,12 @@
   "explanation": "A fő jellemzők: munkamegosztás (ki mit csinál), hatáskörmegosztás (ki kit utasíthat), koordinációs eszközök (ki kivel, hogyan működik együtt).",
   "source": "Jegyzet 2.3",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Munkamegosztás": "A munkamegosztás a három fő strukturális jellemző egyike.",
+   "Hatáskörmegosztás": "A hatáskörmegosztás a három fő strukturális jellemző egyike.",
+   "Koordinációs eszközök": "A koordinációs eszközök a három fő strukturális jellemző egyike."
+  }
  },
  {
   "id": "mn-2-004",
@@ -73,7 +88,11 @@
   "explanation": "A hatáskör a döntési, utasítási, beszámoltatási jogok köre; a hatáskörmegosztás rögzíti, kinél melyik jog van.",
   "source": "Jegyzet 2.3 · 2.6",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Munkamegosztás": "A munkamegosztás azt rögzíti, ki mit csinál, nem azt, ki utasíthat.",
+   "Koordináció": "A koordináció az együttműködés módját adja, nem az utasítási jogot."
+  }
  },
  {
   "id": "mn-2-005",
@@ -92,7 +111,11 @@
   "explanation": "Lapos: 4 vagy kevesebb szint, könnyen decentralizálható. Hierarchikus: 4-nél több szint, könnyen centralizálható.",
   "source": "Jegyzet 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Legfeljebb 4 vezetési szintje van, és könnyen centralizálható": "A lapos szervezet könnyen decentralizálható, nem centralizálható; ez a hierarchikusra igaz.",
+   "4-nél több vezetési szintje van, és könnyen centralizálható": "A 4-nél több szint hierarchikus szervezetet jelent."
+  }
  },
  {
   "id": "mn-2-006",
@@ -111,7 +134,11 @@
   "explanation": "Kis méret, homogén kínálat, minimálisan változó környezet, egyvonalas irányítás és centralizált döntés: a lineáris szervezet feltételei és jellemzői.",
   "source": "Jegyzet 2.10",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Funkcionális szervezet": "A funkcionálisnál több szakvezető utasít, itt egyetlen főnök van.",
+   "Mátrix szervezet": "A mátrixban két főnök van és dinamikus a környezet."
+  }
  },
  {
   "id": "mn-2-007",
@@ -130,7 +157,10 @@
   "explanation": "A törzsegység a lineáris szervezet szakértői kiegészítése; tanácsot ad, de nem utasít, ezért a törzskari szervezet egyvonalas marad.",
   "source": "Jegyzet 2.10",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Döntéselőkészítés és információszerzés, szakmai kérdésekben utasítási joggal": "A törzsegységnek nincs utasítási joga, ezért marad egyvonalas a szervezet."
+  }
  },
  {
   "id": "mn-2-008",
@@ -149,7 +179,11 @@
   "explanation": "Stabil környezet, magas szabályozottság, többvonalas hatáskör és technokratikus koordináció: funkcionális. A mátrixnál dinamikus a környezet, és alacsony a szabályozottság.",
   "source": "Jegyzet 2.11 · 2.14",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Lineáris szervezet": "A lineárisnál egyetlen főnök utasít, itt több szakvezető.",
+   "Mátrix szervezet": "A mátrixnál dinamikus a környezet és alacsony a szabályozottság."
+  }
  },
  {
   "id": "mn-2-009",
@@ -168,7 +202,12 @@
   "explanation": "A második válasz a funkcionális, a harmadik a mátrix, a negyedik a lineáris szervezet hátránya. A divíziók saját funkciókat tartanak fenn.",
   "source": "Jegyzet 2.12 · 2.14",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Lassú válaszok és reakciók a változó környezetre a szigorú szabályozottság miatt": "Ez a funkcionális szervezet hátránya.",
+   "A döntések és a felelősségvállalás áthárítása a két főnök között": "Ez a mátrix szervezet hátránya.",
+   "Az ügyvezető túlterheltsége és a kommunikáció kizárólag a szolgálati úton": "Ez a lineáris szervezet hátránya."
+  }
  },
  {
   "id": "mn-2-010",
@@ -187,7 +226,11 @@
   "explanation": "A mátrixban a beosztott egyszerre tartozik a funkcióhoz és a projekthez. A többi kulcsszó a divizionális, illetve a lineáris formához kötődik.",
   "source": "Jegyzet 2.13 · 2.14",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Divízióegoizmus": "A divízióegoizmus a divizionális szervezet kulcsszava.",
+   "Túlterhelt ügyvezető": "A túlterhelt ügyvezető a lineáris szervezet jellemzője."
+  }
  },
  {
   "id": "mn-2-011",
@@ -206,7 +249,12 @@
   "explanation": "A mátrix alacsony szabályozottságú és rugalmas, ezért nem a szabály, hanem a kommunikáció, az egyeztetés, a közös értékek és az emberek a meghatározók.",
   "source": "Jegyzet 2.8 · 2.13",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Kizárólag formalizált útmutatók és költségvetési rendszerek": "A mátrix rugalmas és alacsony szabályozottságú, a formalizált eszközök nem meghatározók.",
+   "Hatalmi eszközök a szolgálati úton": "A hatalmi eszközök a szolgálati úton a lineáris jellemzői.",
+   "Technokratikus tervek és menetrendek": "A technokratikus eszközök a funkcionális szervezetben meghatározók."
+  }
  },
  {
   "id": "mn-2-012",
@@ -225,7 +273,10 @@
   "explanation": "Az írásos szabályok, tervek, költségvetések technokratikus eszközök.",
   "source": "Jegyzet 2.8",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Személyorientált": "A személyorientált eszköz az értékrendre, kultúrára, emberekre épül, nem írásos szabályokra."
+  }
  },
  {
   "id": "mn-2-013",
@@ -244,7 +295,10 @@
   "explanation": "A személyorientált eszközök az egyének szervezettel való azonosulását célozzák (értékrend, kultúra, képzés, vezetői személyiség).",
   "source": "Jegyzet 2.8",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Technokratikus": "A technokratikus eszközök írásos tervek, szabályok, költségvetések."
+  }
  },
  {
   "id": "mn-2-014",
@@ -263,7 +317,12 @@
   "explanation": "A divizionális mindkét csoportban szerepel „részben”; a lineáris és a funkcionális statikus, a mátrix rugalmas.",
   "source": "Jegyzet 2.9",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Lineáris": "A lineáris statikus forma.",
+   "Funkcionális": "A funkcionális statikus forma.",
+   "Mátrix": "A mátrix a rugalmas formák közé tartozik."
+  }
  },
  {
   "id": "mn-2-015",
@@ -282,7 +341,12 @@
   "explanation": "A specializáció hátránya éppen a monotonitás: unalom, elégedetlenség, nagyobb hiányzás, rosszabb minőség.",
   "source": "Jegyzet 2.4",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Nagy jártasság alakul ki a kis, egyszerű feladatokban": "A jártasság kialakulása a specializáció előnye.",
+   "Csökken a feladatok közötti átállási idő": "Az átállási idő csökkenése a specializáció előnye.",
+   "Könnyebb és olcsóbb pótolni a kieső munkaerőt": "A kieső munkaerő könnyebb pótlása a specializáció előnye."
+  }
  },
  {
   "id": "mn-2-016",
@@ -301,7 +365,12 @@
   "explanation": "A rotáció és a munkakörbővítés a monotonitás ellen hat.",
   "source": "Jegyzet 2.4",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Hatáskör központosítása": "A hatáskör központosítása nem a monotonitás ellen hat.",
+   "Törzsegység létrehozása": "A törzsegység a lineáris szervezet kiegészítése, nem a specializáció ellenszere.",
+   "A hierarchia szintjeinek növelése": "A szintek növelése nem csökkenti a monotonitást."
+  }
  },
  {
   "id": "mn-2-017",
@@ -320,7 +389,10 @@
   "explanation": "A lassabb döntés és szűk látókör a funkcionális elv hátránya; a tárgyi elveknél minden egységnek saját szakember kell.",
   "source": "Jegyzet 2.5",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "A szervezet növekedésével lassabb döntéshozatal és szűk látókör": "A lassú döntés és szűk látókör a funkcionális elv hátránya."
+  }
  },
  {
   "id": "mn-2-018",
@@ -339,7 +411,12 @@
   "explanation": "Az első két másik válasz a centralizáció előnye; a rövidlátás veszélye a decentralizáció hátránya.",
   "source": "Jegyzet 2.7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Egységes döntési akarat érvényesül": "Az egységes döntési akarat a centralizáció előnye.",
+   "Az erőforrások racionalizálása könnyebb": "Az erőforrások racionalizálása a centralizáció előnye.",
+   "Kizárja a „rövidlátás” veszélyét": "A rövidlátás veszélye a decentralizáció hátránya."
+  }
  },
  {
   "id": "mn-2-019",
@@ -358,7 +435,11 @@
   "explanation": "A delegálás személyes, egyedi lépés; a decentralizáció a döntési jogok rendszerszintű átruházása.",
   "source": "Jegyzet 2.6 · 2.7",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "A delegálás az egész szervezetre jellemző tartós állapot, a decentralizáció egy vezető egyedi lépése": "A két fogalom fel van cserélve: a delegálás az egyedi lépés.",
+   "A két fogalom ugyanazt jelenti, csak a szervezet méretében különböznek": "A két fogalom nem azonos: a delegálás egyedi, a decentralizáció rendszerszintű."
+  }
  },
  {
   "id": "mn-2-020",

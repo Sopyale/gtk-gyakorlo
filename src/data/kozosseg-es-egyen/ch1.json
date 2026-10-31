@@ -51,7 +51,11 @@
   "explanation": "A nyelv a külső világ problémáiról szól; a nem verbális üzenetek a társas életet, a vonzalmakat és az attitűdöket szabályozzák és közvetítik. A felcserélt változat tipikus csapda.",
   "source": "Jegyzet 1.1 · Ea5, dia 7",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "A nyelv a társas életet szabályozza és vonzalmakat közöl, a nem verbális üzenetek a külső világ problémáiról tájékoztatnak.": "A két csatorna feladata fel van cserélve: a külső világ problémái a nyelvhez tartoznak.",
+   "A nyelv főként attitűdök közlésére alkalmas, a nem verbális üzenetek a tényközlésre.": "Fordítva igaz: a nyelv a tényközlő, a nem verbális üzenetek közvetítik az attitűdöket."
+  }
  },
  {
   "id": "ke2-1-005",
@@ -118,7 +122,12 @@
   "explanation": "A dián: szavak 7%, hangszín 38%, nem verbális jelek 55%. A dia nem ad szerzőt, ezért ilyet ne társíts hozzá.",
   "source": "Jegyzet 1.2 · Ea5, dia 8",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "55% – 38% – 7%": "A sorrend fordított: a szavak adják a legkisebb arányt, nem a legnagyobbat.",
+   "38% – 7% – 55%": "A hangszín és a nem verbális jelek aránya felcserélődött, a szavaké pedig nem 38%.",
+   "7% – 55% – 38%": "A hangszín és a nem verbális jelek aránya felcserélődött."
+  }
  },
  {
   "id": "ke2-1-009",
@@ -136,7 +145,12 @@
   "explanation": "A vokalitás: hangminőség, intonáció, csend. A szemkontaktus a „testbeszéd” csoport eleme.",
   "source": "Jegyzet 1.3 · Ea5, dia 9",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Hangminőség (paralingvisztika)": "A hangminőség (paralingvisztika) a vokalitás eleme.",
+   "Intonáció (prozódia)": "Az intonáció (prozódia) a vokalitás eleme.",
+   "Csend": "A csend is a vokalitás eleme."
+  }
  },
  {
   "id": "ke2-1-010",
@@ -154,7 +168,12 @@
   "explanation": "A mesterséges dolgok (ruha, tárgyak) és a fizikai megjelenés a „fizikai jellemzők” csoportba tartoznak; a gesztus, az érintés és a szaglás a „testbeszéd” elemei.",
   "source": "Jegyzet 1.3 · Ea5, dia 9",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Gesztusok": "A gesztusok a testbeszéd elemei.",
+   "Szaglás": "A szaglás a testbeszéd eleme.",
+   "Érintés": "Az érintés a testbeszéd eleme."
+  }
  },
  {
   "id": "ke2-1-011",
@@ -243,7 +262,12 @@
   "explanation": "A társas zóna határa 3 m; 1,2 m a személyes zónáé.",
   "source": "Jegyzet 1.4 · Ea5, dia 10",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "intim zóna – 0,5 m": "Ez a pár helyes: az intim zóna határa 0,5 m.",
+   "személyes zóna – 1,2 m": "Ez a pár helyes: a személyes zóna 1,2 m.",
+   "társas zóna – 3 m": "Ez a pár helyes: a társas zóna határa 3 m."
+  }
  },
  {
   "id": "ke2-1-016",
@@ -261,7 +285,12 @@
   "explanation": "A kisebb személyes tér és sok érintés az első csoport; a közepes csoport az USA, kanadai, észak-európai, új-zélandi, német, dán; az alacsony a kelet-ázsiai.",
   "source": "Jegyzet 1.4 · Ea5, dia 10",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "kínai, japán, koreai": "A kelet-ázsiai kultúrák az alacsony érintésű csoportba tartoznak.",
+   "német, dán, észak-európai": "A német, dán és észak-európai kultúrák a közepes csoportba tartoznak.",
+   "USA, kanadai, új-zélandi": "Az USA, kanadai és új-zélandi kultúrák a közepes csoportba tartoznak."
+  }
  },
  {
   "id": "ke2-1-017",
@@ -392,7 +421,12 @@
   "explanation": "A dia jelei: csökkenő szemkontaktus, távolodás, hátradőlés, feszültség. A közelebb húzódás ennek az ellenkezője.",
   "source": "Jegyzet 1.5 · Ea5, dia 13",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "A szemkontaktus csökkenése": "A csökkenő szemkontaktus a nem kedvelés jele.",
+   "A felső test hátradőlése": "A hátradőlés a nem kedvelés jele.",
+   "A feszültség jelei": "A feszültség jelei a nem kedvelést jelzik."
+  }
  },
  {
   "id": "ke2-1-025",
@@ -410,7 +444,12 @@
   "explanation": "A csatornavezérlés és a társas helyzet kezelése az „interakció folyamatának szabályozása” funkció elemei.",
   "source": "Jegyzet 1.6 · Ea5, dia 14",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Érzelmi állapotok, érzések": "Az érzelmi állapotok az információ funkcióhoz tartoznak.",
+   "Önkép, én-bemutatás": "Az önkép és az én-bemutatás az információ funkcióhoz tartozik.",
+   "Intimitás, kedvelés": "Az intimitás és a kedvelés az információ funkcióhoz tartozik."
+  }
  },
  {
   "id": "ke2-1-026",
@@ -485,7 +524,10 @@
   "explanation": "A fizikai elrendezés és a bútorzat a környezet. A személyes homlokzat a ruházat, testtartás, mimika, gesztusok, hivatali jelvények stb.",
   "source": "Jegyzet 1.7 · Ea5, dia 16",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Személyes homlokzat": "A személyes homlokzat a ruházat, testtartás, mimika, gesztusok és jelvények, nem a berendezés."
+  }
  },
  {
   "id": "ke2-1-031",
@@ -503,7 +545,10 @@
   "explanation": "Ezek mind a személyes homlokzat elemei.",
   "source": "Jegyzet 1.7 · Ea5, dia 16",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Környezet": "A környezet a fizikai elrendezés és a bútorzat, nem a ruházat vagy a testtartás."
+  }
  },
  {
   "id": "ke2-1-032",
@@ -584,7 +629,12 @@
   "explanation": "A dia három pontja: nagyobb mentális erőfeszítés, nehezen leplezhető valós érzelmek, stressz és feszültség jelei. Mindig érvényes szemkontaktus-szabály nem szerepel.",
   "source": "Jegyzet 1.8 · Ea5, dia 22",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Hazugság = nagyobb mentális erőfeszítés": "A nagyobb mentális erőfeszítés szerepel a dia alapgondolatai között.",
+   "A valós érzelmek nehezen leplezhetők": "A nehezen leplezhető valós érzelmek szerepelnek a dián.",
+   "Stressz és feszültség jelei": "A stressz és feszültség jelei szerepelnek a dián."
+  }
  },
  {
   "id": "ke2-1-037",
@@ -635,7 +685,12 @@
   "explanation": "A hét alapérzelem: öröm, meglepetés, félelem, szomorúság, harag, megvetés, undor.",
   "source": "Jegyzet 1.9 · Ea5, dia 25–26",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Öröm": "Az öröm az egyik hét alapérzelem.",
+   "Harag": "A harag az egyik hét alapérzelem.",
+   "Megvetés": "A megvetés az egyik hét alapérzelem."
+  }
  },
  {
   "id": "ke2-1-040",
@@ -713,7 +768,11 @@
   "explanation": "Nem az univerzalitás cáfolata: egyedül a veleszületett kifejezés látszik, nyilvánosan a kultúrafüggő szabályok érvényesülnek.",
   "source": "Jegyzet 1.9 · Ea5, dia 27",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Egyedül is különböztek, tehát az arckifejezések nem univerzálisak.": "Egyedül nem volt különbség, így ez nem az univerzalitás cáfolata.",
+   "Az amerikaiak jobban titkolják az érzelmeiket társaságban.": "Nem a japánok titkolták jobban a kimutatást társaságban, nem az amerikaiak."
+  }
  },
  {
   "id": "ke2-1-045",
@@ -789,7 +848,10 @@
   "explanation": "Megjátszott érzelem: enyhe aszimmetria, nem gördülékeny. A gyors arcmozgás az elrejteni kívánt érzelem jele.",
   "source": "Jegyzet 1.10 · Ea5, dia 29",
   "official": false,
-  "difficulty": 3
+  "difficulty": 3,
+  "why": {
+   "Gyors, kb. 1/5 másodperces arcmozgás": "A gyors arcmozgás az elrejteni kívánt érzelem jele, nem a megjátszotté."
+  }
  },
  {
   "id": "ke2-1-049",
@@ -819,7 +881,11 @@
   "explanation": "A 25. dia: az igazi mosolyban mindig benne van a szem körüli izom mozgása. A féloldalas száj a megvetés, a ráncolt orr az undor jele.",
   "source": "Jegyzet 1.9–1.10 · Ea5, dia 25, 30–31",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "A mosoly szélessége és a látható fogak száma": "A féloldalas száj a megvetés jele, nem az igazi mosolyé.",
+   "A szájszélek egyik oldalon magasabbra emelkedése": "A ráncolt orr az undor jele, nem az igazi mosolyé."
+  }
  },
  {
   "id": "ke2-1-051",
@@ -837,7 +903,10 @@
   "explanation": "Az arc jobban kontrollálható, ezért a többi csatornára is figyelni kell.",
   "source": "Jegyzet 1.11 · Ea5, dia 32",
   "official": false,
-  "difficulty": 2
+  "difficulty": 2,
+  "why": {
+   "Elég az arcunkat tudatosan irányítani.": "Az arc jobban kontrollálható, ezért a többi csatornára is figyelni kell."
+  }
  },
  {
   "id": "ke2-1-052",

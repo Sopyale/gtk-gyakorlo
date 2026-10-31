@@ -36,6 +36,18 @@
    "b) P(A∪B) = 0,8 + 0,9 − 0,72 = 0,98 (másképp: 1 − 0,2·0,1).",
    "c) 0,8·0,1 + 0,2·0,9 = 0,26 (másképp: a legalább egy mínusz mindkettő: 0,98 − 0,72).",
    "Eredmény: a) 0.72; b) 0.98; c) 0.26."
+  ],
+  "solutions": [
+   {
+    "title": "Komplementer és teljes felosztás",
+    "steps": [
+     "Függetlenek, ezért P(A ∩ B) = P(A)·P(B) (jegyzet 7.1). P(A) = 0,8, P(B) = 0,9; a komplementerek (jegyzet 6.7): P(Ā) = 0,2, P(B̄) = 0,1.",
+     "a) Mindkettő: 0,8·0,9 = 0,72.",
+     "b) „Legalább az egyik” komplementere az, hogy egyik sem: P(Ā ∩ B̄) = 0,2·0,1 = 0,02 (a komplementerek is függetlenek). Így 1 − 0,02 = 0,98.",
+     "c) Három, páronként kizáró eset teszi ki Ω-t: egyik sem, pontosan az egyik, mindkettő. Összegük 1, ezért pontosan az egyik: 1 − 0,02 − 0,72 = 0,26.",
+     "Eredmény: a) 0,72; b) 0,98; c) 0,26."
+    ]
+   }
   ]
  },
  {
@@ -75,6 +87,18 @@
    "b) P(A∪B) = 0,35 + 0,6 − 0,21 = 0,74 (másképp: 1 − 0,65·0,4).",
    "c) 0,35·0,4 + 0,65·0,6 = 0,53 (másképp: a legalább egy mínusz mindkettő: 0,74 − 0,21).",
    "Eredmény: a) 0.21; b) 0.74; c) 0.53."
+  ],
+  "solutions": [
+   {
+    "title": "Komplementer és teljes felosztás",
+    "steps": [
+     "Függetlenek, ezért P(A ∩ B) = P(A)·P(B) (jegyzet 7.1). P(A) = 0,35, P(B) = 0,6; a komplementerek (jegyzet 6.7): P(Ā) = 0,65, P(B̄) = 0,4.",
+     "a) Mindkettő: 0,35·0,6 = 0,21.",
+     "b) „Legalább az egyik” komplementere az, hogy egyik sem: P(Ā ∩ B̄) = 0,65·0,4 = 0,26 (a komplementerek is függetlenek). Így 1 − 0,26 = 0,74.",
+     "c) Három, páronként kizáró eset teszi ki Ω-t: egyik sem, pontosan az egyik, mindkettő. Összegük 1, ezért pontosan az egyik: 1 − 0,26 − 0,21 = 0,53.",
+     "Eredmény: a) 0,21; b) 0,74; c) 0,53."
+    ]
+   }
   ]
  },
  {
@@ -114,6 +138,18 @@
    "b) P(A∪B) = 0,5 + 0,4 − 0,2 = 0,7 (másképp: 1 − 0,5·0,6).",
    "c) 0,5·0,6 + 0,5·0,4 = 0,5 (másképp: a legalább egy mínusz mindkettő: 0,7 − 0,2).",
    "Eredmény: a) 0.2; b) 0.7; c) 0.5."
+  ],
+  "solutions": [
+   {
+    "title": "Komplementer és teljes felosztás",
+    "steps": [
+     "Függetlenek, ezért P(A ∩ B) = P(A)·P(B) (jegyzet 7.1). P(A) = 0,5, P(B) = 0,4; a komplementerek (jegyzet 6.7): P(Ā) = 0,5, P(B̄) = 0,6.",
+     "a) Mindkettő: 0,5·0,4 = 0,2.",
+     "b) „Legalább az egyik” komplementere az, hogy egyik sem: P(Ā ∩ B̄) = 0,5·0,6 = 0,3 (a komplementerek is függetlenek). Így 1 − 0,3 = 0,7.",
+     "c) Három, páronként kizáró eset teszi ki Ω-t: egyik sem, pontosan az egyik, mindkettő. Összegük 1, ezért pontosan az egyik: 1 − 0,3 − 0,2 = 0,5.",
+     "Eredmény: a) 0,2; b) 0,7; c) 0,5."
+    ]
+   }
   ]
  },
  {
@@ -153,6 +189,18 @@
    "b) P(A∪B) = 0,25 + 0,8 − 0,2 = 0,85 (másképp: 1 − 0,75·0,2).",
    "c) 0,25·0,2 + 0,75·0,8 = 0,65 (másképp: a legalább egy mínusz mindkettő: 0,85 − 0,2).",
    "Eredmény: a) 0.2; b) 0.85; c) 0.65."
+  ],
+  "solutions": [
+   {
+    "title": "Komplementer és teljes felosztás",
+    "steps": [
+     "Függetlenek, ezért P(A ∩ B) = P(A)·P(B) (jegyzet 7.1). P(A) = 0,25, P(B) = 0,8; a komplementerek (jegyzet 6.7): P(Ā) = 0,75, P(B̄) = 0,2.",
+     "a) Mindkettő: 0,25·0,8 = 0,2.",
+     "b) „Legalább az egyik” komplementere az, hogy egyik sem: P(Ā ∩ B̄) = 0,75·0,2 = 0,15 (a komplementerek is függetlenek). Így 1 − 0,15 = 0,85.",
+     "c) Három, páronként kizáró eset teszi ki Ω-t: egyik sem, pontosan az egyik, mindkettő. Összegük 1, ezért pontosan az egyik: 1 − 0,15 − 0,2 = 0,65.",
+     "Eredmény: a) 0,2; b) 0,85; c) 0,65."
+    ]
+   }
   ]
  },
  {
@@ -192,6 +240,18 @@
    "b) P(A∪B) = 0,9 + 0,15 − 0,135 = 0,915 (másképp: 1 − 0,1·0,85).",
    "c) 0,9·0,85 + 0,1·0,15 = 0,78 (másképp: a legalább egy mínusz mindkettő: 0,915 − 0,135).",
    "Eredmény: a) 0.135; b) 0.915; c) 0.78."
+  ],
+  "solutions": [
+   {
+    "title": "Komplementer és teljes felosztás",
+    "steps": [
+     "Függetlenek, ezért P(A ∩ B) = P(A)·P(B) (jegyzet 7.1). P(A) = 0,9, P(B) = 0,15; a komplementerek (jegyzet 6.7): P(Ā) = 0,1, P(B̄) = 0,85.",
+     "a) Mindkettő: 0,9·0,15 = 0,135.",
+     "b) „Legalább az egyik” komplementere az, hogy egyik sem: P(Ā ∩ B̄) = 0,1·0,85 = 0,085 (a komplementerek is függetlenek). Így 1 − 0,085 = 0,915.",
+     "c) Három, páronként kizáró eset teszi ki Ω-t: egyik sem, pontosan az egyik, mindkettő. Összegük 1, ezért pontosan az egyik: 1 − 0,085 − 0,135 = 0,78.",
+     "Eredmény: a) 0,135; b) 0,915; c) 0,78."
+    ]
+   }
   ]
  }
 ]

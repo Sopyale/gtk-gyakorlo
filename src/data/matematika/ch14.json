@@ -43,6 +43,19 @@
    "c) Az a = −0,5 < 0, ezért a csúcs maximum: q = −b/(2a) = 20/(2·0,5) = 20.",
    "d) P(20) = 180 ezer Ft.",
    "Eredmény: a) 148; b) 13.5; c) 20; d) 180."
+  ],
+  "solutions": [
+   {
+    "title": "Profitfüggvény, határköltség képlettel és teljes négyzet",
+    "steps": [
+     "Profit = bevétel − költség: P(q) = 24q − (0,5q² + 4q + 20) = −0,5q² + 20q − 20 (jegyzet 5.3.6).",
+     "a) Behelyettesítés q = 12-re a kifejtett alakba: P(12) = 148 ezer Ft.",
+     "b) A q-adik egység költsége C(q) − C(q − 1) = 0,5·(2q − 1) + 4 (a négyzetes tagok különbsége 2q − 1-et ad). q = 10-nél: 0,5·19 + 4 = 13,5 ezer Ft.",
+     "c) Teljes négyzetté alakítás (jegyzet 5.5): a csúcs helye −b/(2a) = 20 / (2·0,5) = 20, és P(20) = 180, tehát P(q) = −0,5·(q − 20)² + 180.",
+     "Az a = −0,5 < 0, ezért a csúcs maximum: q = 20, a legnagyobb profit 180 ezer Ft.",
+     "Eredmény: a) 148; b) 13,5; c) 20; d) 180."
+    ]
+   }
   ]
  },
  {
@@ -89,6 +102,19 @@
    "c) Az a = −0,25 < 0, ezért a csúcs maximum: q = −b/(2a) = 10/(2·0,25) = 20.",
    "d) P(20) = 70 ezer Ft.",
    "Eredmény: a) 34; b) 9.75; c) 20; d) 70."
+  ],
+  "solutions": [
+   {
+    "title": "Profitfüggvény, határköltség képlettel és teljes négyzet",
+    "steps": [
+     "Profit = bevétel − költség: P(q) = 16q − (0,25q² + 6q + 30) = −0,25q² + 10q − 30 (jegyzet 5.3.6).",
+     "a) Behelyettesítés q = 8-re a kifejtett alakba: P(8) = 34 ezer Ft.",
+     "b) A q-adik egység költsége C(q) − C(q − 1) = 0,25·(2q − 1) + 6 (a négyzetes tagok különbsége 2q − 1-et ad). q = 8-nél: 0,25·15 + 6 = 9,75 ezer Ft.",
+     "c) Teljes négyzetté alakítás (jegyzet 5.5): a csúcs helye −b/(2a) = 10 / (2·0,25) = 20, és P(20) = 70, tehát P(q) = −0,25·(q − 20)² + 70.",
+     "Az a = −0,25 < 0, ezért a csúcs maximum: q = 20, a legnagyobb profit 70 ezer Ft.",
+     "Eredmény: a) 34; b) 9,75; c) 20; d) 70."
+    ]
+   }
   ]
  },
  {
@@ -135,6 +161,19 @@
    "c) Az a = −2 < 0, ezért a csúcs maximum: q = −b/(2a) = 64/(2·2) = 16.",
    "d) P(16) = 462 ezer Ft.",
    "Eredmény: a) 220; b) 28; c) 16; d) 462."
+  ],
+  "solutions": [
+   {
+    "title": "Profitfüggvény, határköltség képlettel és teljes négyzet",
+    "steps": [
+     "Profit = bevétel − költség: P(q) = 74q − (2q² + 10q + 50) = −2q² + 64q − 50 (jegyzet 5.3.6).",
+     "a) Behelyettesítés q = 5-re a kifejtett alakba: P(5) = 220 ezer Ft.",
+     "b) A q-adik egység költsége C(q) − C(q − 1) = 2·(2q − 1) + 10 (a négyzetes tagok különbsége 2q − 1-et ad). q = 5-nél: 2·9 + 10 = 28 ezer Ft.",
+     "c) Teljes négyzetté alakítás (jegyzet 5.5): a csúcs helye −b/(2a) = 64 / (2·2) = 16, és P(16) = 462, tehát P(q) = −2·(q − 16)² + 462.",
+     "Az a = −2 < 0, ezért a csúcs maximum: q = 16, a legnagyobb profit 462 ezer Ft.",
+     "Eredmény: a) 220; b) 28; c) 16; d) 462."
+    ]
+   }
   ]
  },
  {
@@ -181,6 +220,19 @@
    "c) Az a = −0,1 < 0, ezért a csúcs maximum: q = −b/(2a) = 8/(2·0,1) = 40.",
    "d) P(40) = 152 ezer Ft.",
    "Eredmény: a) 129.5; b) 7.9; c) 40; d) 152."
+  ],
+  "solutions": [
+   {
+    "title": "Profitfüggvény, határköltség képlettel és teljes négyzet",
+    "steps": [
+     "Profit = bevétel − költség: P(q) = 11q − (0,1q² + 3q + 8) = −0,1q² + 8q − 8 (jegyzet 5.3.6).",
+     "a) Behelyettesítés q = 25-re a kifejtett alakba: P(25) = 129,5 ezer Ft.",
+     "b) A q-adik egység költsége C(q) − C(q − 1) = 0,1·(2q − 1) + 3 (a négyzetes tagok különbsége 2q − 1-et ad). q = 25-nél: 0,1·49 + 3 = 7,9 ezer Ft.",
+     "c) Teljes négyzetté alakítás (jegyzet 5.5): a csúcs helye −b/(2a) = 8 / (2·0,1) = 40, és P(40) = 152, tehát P(q) = −0,1·(q − 40)² + 152.",
+     "Az a = −0,1 < 0, ezért a csúcs maximum: q = 40, a legnagyobb profit 152 ezer Ft.",
+     "Eredmény: a) 129,5; b) 7,9; c) 40; d) 152."
+    ]
+   }
   ]
  },
  {
@@ -227,6 +279,19 @@
    "c) Az a = −0,05 < 0, ezért a csúcs maximum: q = −b/(2a) = 3/(2·0,05) = 30.",
    "d) P(30) = 30 ezer Ft.",
    "Eredmény: a) 22.8; b) 3.75; c) 30; d) 30."
+  ],
+  "solutions": [
+   {
+    "title": "Profitfüggvény, határköltség képlettel és teljes négyzet",
+    "steps": [
+     "Profit = bevétel − költség: P(q) = 5q − (0,05q² + 2q + 15) = −0,05q² + 3q − 15 (jegyzet 5.3.6).",
+     "a) Behelyettesítés q = 18-re a kifejtett alakba: P(18) = 22,8 ezer Ft.",
+     "b) A q-adik egység költsége C(q) − C(q − 1) = 0,05·(2q − 1) + 2 (a négyzetes tagok különbsége 2q − 1-et ad). q = 18-nél: 0,05·35 + 2 = 3,75 ezer Ft.",
+     "c) Teljes négyzetté alakítás (jegyzet 5.5): a csúcs helye −b/(2a) = 3 / (2·0,05) = 30, és P(30) = 30, tehát P(q) = −0,05·(q − 30)² + 30.",
+     "Az a = −0,05 < 0, ezért a csúcs maximum: q = 30, a legnagyobb profit 30 ezer Ft.",
+     "Eredmény: a) 22,8; b) 3,75; c) 30; d) 30."
+    ]
+   }
   ]
  }
 ]
