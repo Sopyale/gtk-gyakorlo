@@ -293,6 +293,41 @@
     "chapterLabel": "Feladattípusok",
     "chapters": [
       {
+        "n": 24,
+        "title": "ZH típus: vektorok lineáris függősége (hiányzó koordináta)",
+        "short": "ZH: vektorok"
+      },
+      {
+        "n": 25,
+        "title": "ZH típus: számjegykód páros és páratlan jegyekkel",
+        "short": "ZH: kód"
+      },
+      {
+        "n": 26,
+        "title": "ZH típus: 2×2-es mátrix legkisebb sajátértéke",
+        "short": "ZH: sajátérték"
+      },
+      {
+        "n": 27,
+        "title": "ZH típus: költség, haszon, maximális haszon",
+        "short": "ZH: profit"
+      },
+      {
+        "n": 28,
+        "title": "ZH típus: több dobókocka, klasszikus valószínűség",
+        "short": "ZH: kockák"
+      },
+      {
+        "n": 29,
+        "title": "ZH típus: kamatos kamat (érték és szükséges évek)",
+        "short": "ZH: kamat"
+      },
+      {
+        "n": 30,
+        "title": "ZH típus: sajátvektor adott sajátértékhez",
+        "short": "ZH: sajátvektor"
+      },
+      {
         "n": 1,
         "title": "Vektorok lineáris függősége",
         "short": "Vektorok"
@@ -414,6 +449,13 @@
         "name": "2. ZH",
         "active": true,
         "chapters": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
           1,
           2,
           3,

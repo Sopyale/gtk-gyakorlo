@@ -1,0 +1,137 @@
+[
+  {
+    "id": "mat-24-001",
+    "chapter": 24,
+    "section": "24.1",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Az u = (4; −6; 3) és a v = (−6; 9; z) vektor lineárisan összefüggő. Mennyi z?",
+    "fields": [
+      {
+        "label": "z =",
+        "answer": "-9/2",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "Módszer: két vektor akkor összefüggő, ha az egyik a másik λ-szorosa; λ az ismert koordinátákból.",
+    "source": "Jegyzet 4.1 · ZH-típusú saját feladat (VEK-1)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: két vektor akkor lineárisan összefüggő (NEM független), ha az egyik a másik számszorosa (Jegyzet 4.1): v = λ·u.",
+      "λ a két ismert koordinátapárból: λ = −6 / 4 = −3/2; ellenőrzés a másik ismert párral: −6 · (−3/2) = 9.",
+      "A hiányzó koordináta: z = λ · 3 = (−3/2) · 3 = −4,5.",
+      "Ellenőrzés: (−6; 9; −4,5) = (−3/2) · (4; −6; 3). Eredmény: z = −4,5."
+    ]
+  },
+  {
+    "id": "mat-24-002",
+    "chapter": 24,
+    "section": "24.2",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Melyik y-ra lesz az a = (1; y; −4) és a b = (−3; 12; 12) vektorpár lineárisan összefüggő (azaz NEM független)?",
+    "fields": [
+      {
+        "label": "y =",
+        "answer": "-4",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "Módszer: két vektor akkor összefüggő, ha az egyik a másik λ-szorosa; λ az ismert koordinátákból.",
+    "source": "Jegyzet 4.1 · ZH-típusú saját feladat (VEK-2)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: két vektor akkor lineárisan összefüggő (NEM független), ha az egyik a másik számszorosa (Jegyzet 4.1): v = λ·u.",
+      "λ a két ismert koordinátapárból: λ = −3 / 1 = −3; ellenőrzés a másik ismert párral: −4 · (−3) = 12.",
+      "A hiányzó koordináta: 12 = λ · y, ezért y = 12 / (−3) = −4.",
+      "Ellenőrzés: (−3; 12; 12) = (−3) · (1; −4; −4). Eredmény: y = −4."
+    ]
+  },
+  {
+    "id": "mat-24-003",
+    "chapter": 24,
+    "section": "24.3",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Egy bolt két kosarának tartalmát a k₁ = (x; 10; 6) és a k₂ = (6; 15; 9) vektor írja le (darab almából, körtéből, szilvából). Mekkora x esetén nem lineárisan független a két vektor?",
+    "fields": [
+      {
+        "label": "x =",
+        "answer": "4",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "Módszer: két vektor akkor összefüggő, ha az egyik a másik λ-szorosa; λ az ismert koordinátákból.",
+    "source": "Jegyzet 4.1 · ZH-típusú saját feladat (VEK-3)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: két vektor akkor lineárisan összefüggő (NEM független), ha az egyik a másik számszorosa (Jegyzet 4.1): v = λ·u.",
+      "λ a két ismert koordinátapárból: λ = 15 / 10 = 3/2; ellenőrzés a másik ismert párral: 6 · (3/2) = 9.",
+      "A hiányzó koordináta: 6 = λ · x, ezért x = 6 / (3/2) = 4.",
+      "Ellenőrzés: (6; 15; 9) = (3/2) · (4; 10; 6). Eredmény: x = 4."
+    ]
+  },
+  {
+    "id": "mat-24-004",
+    "chapter": 24,
+    "section": "24.4",
+    "type": "szamolas",
+    "points": 3,
+    "question": "A p = (5; 2; w) és a q = (−10; −4; 7) vektor lineárisan összefügg. Adja meg w értékét!",
+    "fields": [
+      {
+        "label": "w =",
+        "answer": "-7/2",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "Módszer: két vektor akkor összefüggő, ha az egyik a másik λ-szorosa; λ az ismert koordinátákból.",
+    "source": "Jegyzet 4.1 · ZH-típusú saját feladat (VEK-4)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: két vektor akkor lineárisan összefüggő (NEM független), ha az egyik a másik számszorosa (Jegyzet 4.1): v = λ·u.",
+      "λ a két ismert koordinátapárból: λ = −10 / 5 = −2; ellenőrzés a másik ismert párral: 2 · (−2) = −4.",
+      "A hiányzó koordináta: 7 = λ · w, ezért w = 7 / (−2) = −3,5.",
+      "Ellenőrzés: (−10; −4; 7) = (−2) · (5; 2; −3,5). Eredmény: w = −3,5."
+    ]
+  },
+  {
+    "id": "mat-24-005",
+    "chapter": 24,
+    "section": "24.5",
+    "type": "szamolas",
+    "points": 3,
+    "question": "Két termék anyagfelhasználását (kg acél; kg műanyag; óra munka) a t₁ = (3; 4,5; 6) és a t₂ = (2; 3; t) vektor adja meg. Mekkora t mellett lineárisan összefüggő a két vektor?",
+    "fields": [
+      {
+        "label": "t =",
+        "answer": "4",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "Módszer: két vektor akkor összefüggő, ha az egyik a másik λ-szorosa; λ az ismert koordinátákból.",
+    "source": "Jegyzet 4.1 · ZH-típusú saját feladat (VEK-5)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: két vektor akkor lineárisan összefüggő (NEM független), ha az egyik a másik számszorosa (Jegyzet 4.1): v = λ·u.",
+      "λ a két ismert koordinátapárból: λ = 2 / 3 = 2/3; ellenőrzés a másik ismert párral: 4,5 · (2/3) = 3.",
+      "A hiányzó koordináta: t = λ · 6 = (2/3) · 6 = 4.",
+      "Ellenőrzés: (2; 3; 4) = (2/3) · (3; 4,5; 6). Eredmény: t = 4."
+    ]
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "mat-30-001",
+    "chapter": 30,
+    "section": "30.1",
+    "type": "szamolas",
+    "points": 4,
+    "question": "Az M = (5 2; 2 2) mátrix egyik sajátértéke 6. Legyen v = (x; 1) a 6-os sajátértékhez tartozó sajátvektor. Mennyi x? (A mátrix sorait pontosvessző választja el.)",
+    "fields": [
+      {
+        "label": "x =",
+        "answer": "2",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "Módszer: M·v = λ·v első sorából az ismeretlen, a második sorral ellenőrzés.",
+    "source": "Jegyzet 4.2 · ZH-típusú saját feladat (SAJATVEKTOR-1)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: λ = 6 sajátérték; a v sajátvektorra M·v = λ·v, azaz (M − λI)·v = 0.",
+      "Az M·v = λ·v egyenlet első sora (Jegyzet 4.2): 5·x + 2·1 = 6·x → (5 − 6)·x = −2 → x = 2.",
+      "Ellenőrzés a második sorral: 2·2 + 2 = 6 és λ·1 = 6: egyezik.",
+      "Eredmény: x = 2."
+    ]
+  },
+  {
+    "id": "mat-30-002",
+    "chapter": 30,
+    "section": "30.2",
+    "type": "szamolas",
+    "points": 4,
+    "question": "Az A = (4 −2; 1 1) mátrix egyik sajátértéke 2. A hozzá tartozó sajátvektor v = (x; 1) alakú. Adja meg x-et! (A mátrix sorait pontosvessző választja el.)",
+    "fields": [
+      {
+        "label": "x =",
+        "answer": "1",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "Módszer: M·v = λ·v első sorából az ismeretlen, a második sorral ellenőrzés.",
+    "source": "Jegyzet 4.2 · ZH-típusú saját feladat (SAJATVEKTOR-2)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: λ = 2 sajátérték; a v sajátvektorra M·v = λ·v, azaz (M − λI)·v = 0.",
+      "Az M·v = λ·v egyenlet első sora (Jegyzet 4.2): 4·x + −2·1 = 2·x → (4 − 2)·x = 2 → x = 1.",
+      "Ellenőrzés a második sorral: 1·1 + 1 = 2 és λ·1 = 2: egyezik.",
+      "Eredmény: x = 1."
+    ]
+  },
+  {
+    "id": "mat-30-003",
+    "chapter": 30,
+    "section": "30.3",
+    "type": "szamolas",
+    "points": 4,
+    "question": "A B = (3 1; 2 2) mátrixnak az 1 sajátértéke. Az 1-hez tartozó sajátvektort v = (1; y) alakban keressük. Mennyi y? (A mátrix sorait pontosvessző választja el.)",
+    "fields": [
+      {
+        "label": "y =",
+        "answer": "-2",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "Módszer: M·v = λ·v első sorából az ismeretlen, a második sorral ellenőrzés.",
+    "source": "Jegyzet 4.2 · ZH-típusú saját feladat (SAJATVEKTOR-3)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: λ = 1 sajátérték; a v sajátvektorra M·v = λ·v, azaz (M − λI)·v = 0.",
+      "Az M·v = λ·v egyenlet első sora (Jegyzet 4.2): 3·1 + 1·y = 1·1 → 1·y = −2 → y = −2.",
+      "Ellenőrzés a második sorral: 2 + 2·−2 = −2 és λ·y = −2: egyezik.",
+      "Eredmény: y = −2."
+    ]
+  },
+  {
+    "id": "mat-30-004",
+    "chapter": 30,
+    "section": "30.4",
+    "type": "szamolas",
+    "points": 4,
+    "question": "A C = (7 −4; 2 1) mátrix egyik sajátértéke 5. Ha v = (x; 1) az 5-höz tartozó sajátvektor, mennyi x? (A mátrix sorait pontosvessző választja el.)",
+    "fields": [
+      {
+        "label": "x =",
+        "answer": "2",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "Módszer: M·v = λ·v első sorából az ismeretlen, a második sorral ellenőrzés.",
+    "source": "Jegyzet 4.2 · ZH-típusú saját feladat (SAJATVEKTOR-4)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: λ = 5 sajátérték; a v sajátvektorra M·v = λ·v, azaz (M − λI)·v = 0.",
+      "Az M·v = λ·v egyenlet első sora (Jegyzet 4.2): 7·x + −4·1 = 5·x → (7 − 5)·x = 4 → x = 2.",
+      "Ellenőrzés a második sorral: 2·2 + 1 = 5 és λ·1 = 5: egyezik.",
+      "Eredmény: x = 2."
+    ]
+  },
+  {
+    "id": "mat-30-005",
+    "chapter": 30,
+    "section": "30.5",
+    "type": "szamolas",
+    "points": 4,
+    "question": "A D = (1 6; 1 2) mátrix egyik sajátértéke −1. A −1-hez tartozó sajátvektor v = (1; y). Mennyi y? (A mátrix sorait pontosvessző választja el.)",
+    "fields": [
+      {
+        "label": "y =",
+        "answer": "-1/3",
+        "accept": "frac",
+        "format": "tört vagy tizedestört"
+      }
+    ],
+    "explanation": "Módszer: M·v = λ·v első sorából az ismeretlen, a második sorral ellenőrzés.",
+    "source": "Jegyzet 4.2 · ZH-típusú saját feladat (SAJATVEKTOR-5)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: λ = −1 sajátérték; a v sajátvektorra M·v = λ·v, azaz (M − λI)·v = 0.",
+      "Az M·v = λ·v egyenlet első sora (Jegyzet 4.2): 1·1 + 6·y = −1·1 → 6·y = −2 → y = −1/3.",
+      "Ellenőrzés a második sorral: 1 + 2·−1/3 = 1/3 és λ·y = 1/3: egyezik.",
+      "Eredmény: y = −1/3."
+    ]
+  }
+]

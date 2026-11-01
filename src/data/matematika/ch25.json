@@ -1,0 +1,172 @@
+[
+  {
+    "id": "mat-25-001",
+    "chapter": 25,
+    "section": "25.1",
+    "type": "szamolas",
+    "points": 6,
+    "question": "Egy 6 jegyű belépőkód pontosan 3 páros és 3 páratlan számjegyből áll; a számjegyek ismétlődhetnek, és a kód 0-val is kezdődhet. a) Hány ilyen kód létezik? b) Hány ilyen kód van, ha az első számjegy páros?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "312500",
+        "accept": "int",
+        "format": "egész szám (db)"
+      },
+      {
+        "label": "b)",
+        "answer": "156250",
+        "accept": "int",
+        "format": "egész szám (db)"
+      }
+    ],
+    "explanation": "Módszer: C(n; k) a páros jegyek helyére, majd minden helyre 5 lehetőség (5^n).",
+    "source": "Jegyzet 6.3–6.4 · ZH-típusú saját feladat (KOD-1)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: 6 hely, ebből 3 páros és 3 páratlan jegy; páros jegy 5 féle (0, 2, 4, 6, 8), páratlan is 5 féle (1, 3, 5, 7, 9), ismétléssel.",
+      "a) Először kiválasztjuk, melyik 3 helyen áll páros jegy: C(6; 3) = 20 (kombináció, Jegyzet 6.4); utána minden helyre 5 lehetőség: 5^6 = 15 625 (ismétléses variáció, Jegyzet 6.3).",
+      "a) Szorzási szabály: 20 · 15 625 = 312 500.",
+      "b) A helyek kiosztása: a feltétel után 5 szabad helyből kell 2 páros helyét kiválasztani: C(5; 2) = 10; a jegyek továbbra is 5^6 = 15 625-féleképpen jönnek.",
+      "b) 10 · 15 625 = 156 250. Eredmény: a) 312 500; b) 156 250."
+    ]
+  },
+  {
+    "id": "mat-25-002",
+    "chapter": 25,
+    "section": "25.2",
+    "type": "szamolas",
+    "points": 6,
+    "question": "Egy gyár 8 jegyű sorozatszámai 3 páros és 5 páratlan számjegyet tartalmaznak, ismétlés megengedett (0 is állhat elöl). a) Hány ilyen kód létezik? b) Hány olyan sorozatszám van, amelynek az utolsó két jegye páros?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "21875000",
+        "accept": "int",
+        "format": "egész szám (db)"
+      },
+      {
+        "label": "b)",
+        "answer": "2343750",
+        "accept": "int",
+        "format": "egész szám (db)"
+      }
+    ],
+    "explanation": "Módszer: C(n; k) a páros jegyek helyére, majd minden helyre 5 lehetőség (5^n).",
+    "source": "Jegyzet 6.3–6.4 · ZH-típusú saját feladat (KOD-2)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: 8 hely, ebből 3 páros és 5 páratlan jegy; páros jegy 5 féle (0, 2, 4, 6, 8), páratlan is 5 féle (1, 3, 5, 7, 9), ismétléssel.",
+      "a) Először kiválasztjuk, melyik 3 helyen áll páros jegy: C(8; 3) = 56 (kombináció, Jegyzet 6.4); utána minden helyre 5 lehetőség: 5^8 = 390 625 (ismétléses variáció, Jegyzet 6.3).",
+      "a) Szorzási szabály: 56 · 390 625 = 21 875 000.",
+      "b) A helyek kiosztása: a feltétel után 6 szabad helyből kell 1 páros helyét kiválasztani: C(6; 1) = 6; a jegyek továbbra is 5^8 = 390 625-féleképpen jönnek.",
+      "b) 6 · 390 625 = 2 343 750. Eredmény: a) 21 875 000; b) 2 343 750."
+    ]
+  },
+  {
+    "id": "mat-25-003",
+    "chapter": 25,
+    "section": "25.3",
+    "type": "szamolas",
+    "points": 6,
+    "question": "Egy 5 jegyű széfkód egyetlen páros és négy páratlan számjegyből áll; ugyanaz a számjegy többször is szerepelhet. a) Hány ilyen kód létezik? b) Hány kód van, ha a páros számjegy nem a középső (3.) helyen áll?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "15625",
+        "accept": "int",
+        "format": "egész szám (db)"
+      },
+      {
+        "label": "b)",
+        "answer": "12500",
+        "accept": "int",
+        "format": "egész szám (db)"
+      }
+    ],
+    "explanation": "Módszer: C(n; k) a páros jegyek helyére, majd minden helyre 5 lehetőség (5^n).",
+    "source": "Jegyzet 6.3–6.4 · ZH-típusú saját feladat (KOD-3)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: 5 hely, ebből 1 páros és 4 páratlan jegy; páros jegy 5 féle (0, 2, 4, 6, 8), páratlan is 5 féle (1, 3, 5, 7, 9), ismétléssel.",
+      "a) Először kiválasztjuk, melyik 1 helyen áll páros jegy: C(5; 1) = 5 (kombináció, Jegyzet 6.4); utána minden helyre 5 lehetőség: 5^5 = 3 125 (ismétléses variáció, Jegyzet 6.3).",
+      "a) Szorzási szabály: 5 · 3 125 = 15 625.",
+      "b) A helyek kiosztása: a feltétel után 4 szabad helyből kell 1 páros helyét kiválasztani: C(4; 1) = 4; a jegyek továbbra is 5^5 = 3 125-féleképpen jönnek.",
+      "b) 4 · 3 125 = 12 500. Eredmény: a) 15 625; b) 12 500."
+    ]
+  },
+  {
+    "id": "mat-25-004",
+    "chapter": 25,
+    "section": "25.4",
+    "type": "szamolas",
+    "points": 6,
+    "question": "Egy 7 jegyű ügyfélazonosítóban 4 páros és 3 páratlan számjegy van, a jegyek ismétlődhetnek (0-val is kezdődhet). a) Hány ilyen kód létezik? b) Hány azonosító van, ha az első három számjegy mind páros?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "2734375",
+        "accept": "int",
+        "format": "egész szám (db)"
+      },
+      {
+        "label": "b)",
+        "answer": "312500",
+        "accept": "int",
+        "format": "egész szám (db)"
+      }
+    ],
+    "explanation": "Módszer: C(n; k) a páros jegyek helyére, majd minden helyre 5 lehetőség (5^n).",
+    "source": "Jegyzet 6.3–6.4 · ZH-típusú saját feladat (KOD-4)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: 7 hely, ebből 4 páros és 3 páratlan jegy; páros jegy 5 féle (0, 2, 4, 6, 8), páratlan is 5 féle (1, 3, 5, 7, 9), ismétléssel.",
+      "a) Először kiválasztjuk, melyik 4 helyen áll páros jegy: C(7; 4) = 35 (kombináció, Jegyzet 6.4); utána minden helyre 5 lehetőség: 5^7 = 78 125 (ismétléses variáció, Jegyzet 6.3).",
+      "a) Szorzási szabály: 35 · 78 125 = 2 734 375.",
+      "b) A helyek kiosztása: a feltétel után 4 szabad helyből kell 1 páros helyét kiválasztani: C(4; 1) = 4; a jegyek továbbra is 5^7 = 78 125-féleképpen jönnek.",
+      "b) 4 · 78 125 = 312 500. Eredmény: a) 2 734 375; b) 312 500."
+    ]
+  },
+  {
+    "id": "mat-25-005",
+    "chapter": 25,
+    "section": "25.5",
+    "type": "szamolas",
+    "points": 6,
+    "question": "Egy 6 jegyű csomagkövető kód 2 páros és 4 páratlan számjegyből áll, ismétléssel (0 is lehet az első). a) Hány ilyen kód létezik? b) Hány kód van, ha a két páros számjegy közvetlenül egymás mellett áll?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "234375",
+        "accept": "int",
+        "format": "egész szám (db)"
+      },
+      {
+        "label": "b)",
+        "answer": "78125",
+        "accept": "int",
+        "format": "egész szám (db)"
+      }
+    ],
+    "explanation": "Módszer: C(n; k) a páros jegyek helyére, majd minden helyre 5 lehetőség (5^n).",
+    "source": "Jegyzet 6.3–6.4 · ZH-típusú saját feladat (KOD-5)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: 6 hely, ebből 2 páros és 4 páratlan jegy; páros jegy 5 féle (0, 2, 4, 6, 8), páratlan is 5 féle (1, 3, 5, 7, 9), ismétléssel.",
+      "a) Először kiválasztjuk, melyik 2 helyen áll páros jegy: C(6; 2) = 15 (kombináció, Jegyzet 6.4); utána minden helyre 5 lehetőség: 5^6 = 15 625 (ismétléses variáció, Jegyzet 6.3).",
+      "a) Szorzási szabály: 15 · 15 625 = 234 375.",
+      "b) A helyek kiosztása: a két páros jegy helye 5-féle szomszédos pár lehet; a jegyek továbbra is 5^6 = 15 625-féleképpen jönnek.",
+      "b) 5 · 15 625 = 78 125. Eredmény: a) 234 375; b) 78 125."
+    ]
+  }
+]

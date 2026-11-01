@@ -20,7 +20,9 @@ export default function Practice({ subject, mode, params }) {
       const wrong = load('wrong', {});
       return shuffle(all.filter((q) => q.id in wrong));
     }
-    return shuffle(all.filter((q) => (!ch || ch.includes(q.chapter)) && (!t || t.includes(q.type)) && (!zh || zhLevel(q))));
+    const pool = all.filter((q) => (!ch || ch.includes(q.chapter)) && (!t || t.includes(q.type)) && (!zh || zhLevel(q)));
+    // Tasks modelled on a real ZH (zhType) come first, each group shuffled.
+    return [...shuffle(pool.filter((q) => q.zhType)), ...shuffle(pool.filter((q) => !q.zhType))];
   }, [subject.path, mode, params]);
   const [i, setI] = useState(0);
   const [score, setScore] = useState(0);

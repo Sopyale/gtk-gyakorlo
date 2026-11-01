@@ -1,0 +1,172 @@
+[
+  {
+    "id": "mat-29-001",
+    "chapter": 29,
+    "section": "29.1",
+    "type": "szamolas",
+    "points": 4,
+    "question": "850 000 forintot teszünk be a bankba évi 3,5%-os kamatra. a) Mennyi pénz lesz a számlán 6 év múlva? Válaszát egész forintra kerekítve adja meg! b) Hány év alatt duplázódik meg a pénzünk? Válaszát a legközelebbi egész évre felfelé kerekítve adja meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "1044867",
+        "accept": "int",
+        "format": "egész szám (Ft)"
+      },
+      {
+        "label": "b)",
+        "answer": "21",
+        "accept": "int",
+        "format": "egész szám (év)"
+      }
+    ],
+    "explanation": "Módszer: V = A·(1 + r)^t; „hány év alatt” → t = ln(arány)/ln(1 + r), felfelé kerekítve.",
+    "source": "Jegyzet 5.8–5.9 · ZH-típusú saját feladat (KAMAT-1)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: A = 850 000 Ft, r = 0,035, éves kamatozás; V(t) = A·(1 + r)^t (Jegyzet 5.9).",
+      "a) V(6) = 850 000 · 1,035^6 = 850 000 · 1,229255 ≈ 1 044 867,027 Ft, egész forintra kerekítve 1 044 867 Ft.",
+      "b) A cél a kezdőtőke 2-szerese: 1,035^t ≥ 2. Logaritmussal (Jegyzet 5.8): t ≥ ln 2 / ln 1,035 = 0,69315 / 0,0344 ≈ 20,149.",
+      "b) Csapda: „hány év alatt” → FELFELÉ kerekítünk, mert 20 év még kevés: 1,035^20 ≈ 1,9898 < 2, 1,035^21 ≈ 2,0594 > 2.",
+      "Eredmény: a) 1 044 867 Ft; b) 21 év."
+    ]
+  },
+  {
+    "id": "mat-29-002",
+    "chapter": 29,
+    "section": "29.2",
+    "type": "szamolas",
+    "points": 4,
+    "question": "Egy vállalkozás 1 500 000 forintot köt le évi 6%-os kamatlábbal. a) Mennyi pénz lesz a számlán 10 év múlva? Válaszát egész forintra kerekítve adja meg! b) Hány év alatt lesz a betét a kezdőösszeg négyszerese? Válaszát a legközelebbi egész évre felfelé kerekítve adja meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "2686272",
+        "accept": "int",
+        "format": "egész szám (Ft)"
+      },
+      {
+        "label": "b)",
+        "answer": "24",
+        "accept": "int",
+        "format": "egész szám (év)"
+      }
+    ],
+    "explanation": "Módszer: V = A·(1 + r)^t; „hány év alatt” → t = ln(arány)/ln(1 + r), felfelé kerekítve.",
+    "source": "Jegyzet 5.8–5.9 · ZH-típusú saját feladat (KAMAT-2)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: A = 1 500 000 Ft, r = 0,06, éves kamatozás; V(t) = A·(1 + r)^t (Jegyzet 5.9).",
+      "a) V(10) = 1 500 000 · 1,06^10 = 1 500 000 · 1,790848 ≈ 2 686 271,545 Ft, egész forintra kerekítve 2 686 272 Ft.",
+      "b) A cél a kezdőtőke 4-szerese: 1,06^t ≥ 4. Logaritmussal (Jegyzet 5.8): t ≥ ln 4 / ln 1,06 = 1,38629 / 0,05827 ≈ 23,791.",
+      "b) Csapda: „hány év alatt” → FELFELÉ kerekítünk, mert 23 év még kevés: 1,06^23 ≈ 3,8197 < 4, 1,06^24 ≈ 4,0489 > 4.",
+      "Eredmény: a) 2 686 272 Ft; b) 24 év."
+    ]
+  },
+  {
+    "id": "mat-29-003",
+    "chapter": 29,
+    "section": "29.3",
+    "type": "szamolas",
+    "points": 4,
+    "question": "Nagymama 420 000 forintot helyez el egy takarékszámlán, évi 5,5%-os kamatra. a) Mennyi pénz lesz a számlán 4 év múlva? Válaszát egész forintra kerekítve adja meg! b) Hány év alatt lépi át a számlán lévő összeg az 1 000 000 forintot? Válaszát a legközelebbi egész évre felfelé kerekítve adja meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "520306",
+        "accept": "int",
+        "format": "egész szám (Ft)"
+      },
+      {
+        "label": "b)",
+        "answer": "17",
+        "accept": "int",
+        "format": "egész szám (év)"
+      }
+    ],
+    "explanation": "Módszer: V = A·(1 + r)^t; „hány év alatt” → t = ln(arány)/ln(1 + r), felfelé kerekítve.",
+    "source": "Jegyzet 5.8–5.9 · ZH-típusú saját feladat (KAMAT-3)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: A = 420 000 Ft, r = 0,055, éves kamatozás; V(t) = A·(1 + r)^t (Jegyzet 5.9).",
+      "a) V(4) = 420 000 · 1,055^4 = 420 000 · 1,238825 ≈ 520 306,353 Ft, egész forintra kerekítve 520 306 Ft.",
+      "b) A cél 1 000 000 Ft, azaz a kezdőtőke 50/21 ≈ 2,381-szerese: 1,055^t ≥ 2,381. Logaritmussal (Jegyzet 5.8): t ≥ ln 2,381 / ln 1,055 = 0,8675 / 0,05354 ≈ 16,203.",
+      "b) Csapda: „hány év alatt” → FELFELÉ kerekítünk, mert 16 év még kevés: 1,055^16 ≈ 2,3553 < 2,381, 1,055^17 ≈ 2,4848 > 2,381.",
+      "Eredmény: a) 520 306 Ft; b) 17 év."
+    ]
+  },
+  {
+    "id": "mat-29-004",
+    "chapter": 29,
+    "section": "29.4",
+    "type": "szamolas",
+    "points": 4,
+    "question": "Egy cég 2 000 000 forintot fektet be évi 3%-os kamatos kamatra. a) Mennyi pénz lesz a számlán 8 év múlva? Válaszát egész forintra kerekítve adja meg! b) Hány év alatt nő a befektetés a másfélszeresére? Válaszát a legközelebbi egész évre felfelé kerekítve adja meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "2533540",
+        "accept": "int",
+        "format": "egész szám (Ft)"
+      },
+      {
+        "label": "b)",
+        "answer": "14",
+        "accept": "int",
+        "format": "egész szám (év)"
+      }
+    ],
+    "explanation": "Módszer: V = A·(1 + r)^t; „hány év alatt” → t = ln(arány)/ln(1 + r), felfelé kerekítve.",
+    "source": "Jegyzet 5.8–5.9 · ZH-típusú saját feladat (KAMAT-4)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: A = 2 000 000 Ft, r = 0,03, éves kamatozás; V(t) = A·(1 + r)^t (Jegyzet 5.9).",
+      "a) V(8) = 2 000 000 · 1,03^8 = 2 000 000 · 1,26677 ≈ 2 533 540,163 Ft, egész forintra kerekítve 2 533 540 Ft.",
+      "b) A cél a kezdőtőke 1,5-szerese: 1,03^t ≥ 1,5. Logaritmussal (Jegyzet 5.8): t ≥ ln 1,5 / ln 1,03 = 0,40547 / 0,02956 ≈ 13,717.",
+      "b) Csapda: „hány év alatt” → FELFELÉ kerekítünk, mert 13 év még kevés: 1,03^13 ≈ 1,4685 < 1,5, 1,03^14 ≈ 1,5126 > 1,5.",
+      "Eredmény: a) 2 533 540 Ft; b) 14 év."
+    ]
+  },
+  {
+    "id": "mat-29-005",
+    "chapter": 29,
+    "section": "29.5",
+    "type": "szamolas",
+    "points": 4,
+    "question": "Egy diák 750 000 forint ösztöndíjat tesz bankba évi 4%-os kamatlábbal. a) Mennyi pénz lesz a számlán 12 év múlva? Válaszát egész forintra kerekítve adja meg! b) Hány év alatt háromszorozódik meg az összeg? Válaszát a legközelebbi egész évre felfelé kerekítve adja meg!",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "1200774",
+        "accept": "int",
+        "format": "egész szám (Ft)"
+      },
+      {
+        "label": "b)",
+        "answer": "29",
+        "accept": "int",
+        "format": "egész szám (év)"
+      }
+    ],
+    "explanation": "Módszer: V = A·(1 + r)^t; „hány év alatt” → t = ln(arány)/ln(1 + r), felfelé kerekítve.",
+    "source": "Jegyzet 5.8–5.9 · ZH-típusú saját feladat (KAMAT-5)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: A = 750 000 Ft, r = 0,04, éves kamatozás; V(t) = A·(1 + r)^t (Jegyzet 5.9).",
+      "a) V(12) = 750 000 · 1,04^12 = 750 000 · 1,601032 ≈ 1 200 774,164 Ft, egész forintra kerekítve 1 200 774 Ft.",
+      "b) A cél a kezdőtőke 3-szerese: 1,04^t ≥ 3. Logaritmussal (Jegyzet 5.8): t ≥ ln 3 / ln 1,04 = 1,09861 / 0,03922 ≈ 28,011.",
+      "b) Csapda: „hány év alatt” → FELFELÉ kerekítünk, mert 28 év még kevés: 1,04^28 ≈ 2,9987 < 3, 1,04^29 ≈ 3,1187 > 3.",
+      "Eredmény: a) 1 200 774 Ft; b) 29 év."
+    ]
+  }
+]

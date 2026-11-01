@@ -100,6 +100,10 @@ Matematika ZHs are calculation tasks, not the true/false and multiple-choice que
    decimals within ±0.001, whole numbers exactly; a percentage where a decimal is asked is wrong.
 7. The mock ZH draws one task per type with the ZH's points. Content still comes only from the subject's note and
    practice tasks; new weeks' material for a later ZH is added the same way when the owner sends a new task file.
+8. **ZH-type tasks (owner's rule, 2026-11-01):** when the owner adds a real ZH's tasks (e.g. last year's ZH as
+   screenshots), every task type of it gets 5 own variants in a new chapter titled "ZH típus: …", marked
+   `zhType: true`, with the ZH's points. These chapters go first in the subject's `chapters` and the exam's `chapters`;
+   the site shows the "ZH típus" badge and puts these tasks first in Gyakorlás. Never the original tasks or numbers.
 
 ## Privacy and secrets
 

@@ -193,6 +193,7 @@ Question object:
 | `explanation` | 1–3 sentences: why, and the correct version for wrong options / false statements |
 | `source` | `"Jegyzet 3.4"` or `"Jegyzet 3.4 · Könyv 30. o."` |
 | `official` | `true` for the imported Moodle questions (UI badge "Valódi gyakorló ZH-kérdés") |
+| `zhType` | optional, `true` only: own task modelled on a real ZH's task type (UI badge "ZH típus"; shuffled to the front of Gyakorlás; its chapters are listed first) |
 | `derivedKey` | `true` where the key was derived from the note/book, not given by Moodle |
 | `difficulty` | `1`–`3` |
 

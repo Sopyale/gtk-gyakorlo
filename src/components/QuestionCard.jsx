@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { BadgeCheck, CheckCircle2, CornerDownLeft, Flag, Send, XCircle } from 'lucide-react';
+import { BadgeCheck, CheckCircle2, CornerDownLeft, Flag, Send, Target, XCircle } from 'lucide-react';
 import { figures } from '../figures/index.js';
 import { accountsEnabled, sendTicket, useAccount } from '../lib/account.js';
 import { correctText, fieldCorrect, isCorrect, isTrueFalse, RELACIO, shuffle, TYPES } from '../lib/quiz.js';
@@ -115,6 +115,7 @@ export default function QuestionCard({ q, feedback, onAnswer, onOverride, onNext
       <div className="qmeta">
         {calc ? <span className="qpoints">Feladat {q.section}<b>{q.points},00 pont szerezhető</b></span> : <span>{TYPES[q.type]}, {q.section}</span>}
         {q.official && <span className="badge"><BadgeCheck size={15} aria-hidden="true" />Valódi gyakorló ZH-kérdés</span>}
+        {q.zhType && <span className="badge"><Target size={15} aria-hidden="true" />ZH típus</span>}
       </div>
       {Fig && <div className="qfig"><Fig /></div>}
       <h2 className="qstem" ref={stemRef} tabIndex={-1}>{q.question}</h2>

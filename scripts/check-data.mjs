@@ -30,6 +30,7 @@ for (const s of subjects.filter((x) => x.active)) {
       if (!new RegExp(`^${chapter}\\.\\d+$`).test(q.section ?? '')) err('section must look like 3.4');
       for (const k of ['question', 'explanation', 'source']) if (typeof q[k] !== 'string' || !q[k].trim()) err(`missing ${k}`);
       if (typeof q.official !== 'boolean') err('official must be boolean');
+      if (q.zhType !== undefined && q.zhType !== true) err('zhType is true or left out');
       if (![1, 2, 3].includes(q.difficulty)) err('difficulty must be 1, 2 or 3');
       if (q.type === 'igaz-hamis' && typeof q.answer !== 'boolean') err('igaz-hamis answer must be boolean');
       if (q.type === 'feleletvalasztos' || q.type === 'abra') {

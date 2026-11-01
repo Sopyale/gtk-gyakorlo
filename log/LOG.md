@@ -3,6 +3,18 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 2.3.0 – 2026-11-01
+
+Matematika ZH-type tasks (owner's request): he added last year's real 2. ZH (7 tasks, 33 points) as screenshots.
+
+- 35 own tasks, 5 per type, own wording and numbers (the original tasks are not on the site): vectors' linear
+  dependence 3 p, digit code with even/odd digits 6 p, smallest eigenvalue 4 p, cost/profit/maximum profit 7 p,
+  several dice 5 p, compound interest value and years 4 p, eigenvector for a given eigenvalue 4 p. Chapters 24–30,
+  generated and checked by `Subjects\Matematika\Matematika 2.ZH\gyakorlo_feladatok_zh.py`.
+- New optional field `zhType: true`: "ZH típus" badge on the task card (`QuestionCard.jsx`), these tasks come first in
+  Gyakorlás (`Practice.jsx`, each group shuffled), their chapters are listed first; `check-data` validates the field.
+- The 2. ZH mock is unchanged (chapters 1–8). The planned 2.3.0–2.5.0 features move to 2.4.0–2.6.0.
+
 ## 2.2.1 – 2026-10-31
 
 Question-bank backfill (owner's request): the existing questions got the optional 2.2.0 fields, written by the

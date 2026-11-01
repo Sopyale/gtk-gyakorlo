@@ -172,10 +172,16 @@ Every change the owner asks for is added here as a new task before work starts, 
 - [x] Backfill `why` and `solutions` on the existing questions from the notes (2.2.1, 2026-10-31)
 - [x] New uploads fill `why` and `solutions` (RULES.md Question bank 6, which the weboldal agent follows; moodle-figyelo.md step 5)
 
+## 2.3.0 (Matematika ZH-type tasks)
+
+- [x] 35 own tasks modelled on last year's real Matematika 2. ZH (7 types × 5, chapters 24–30), from
+      `gyakorlo_feladatok_zh.py` in the exam folder; `zhType` field with the "ZH típus" badge; these chapters listed
+      first and their tasks first in Gyakorlás (2026-11-01, waiting for the owner's "mehet a push")
+
 ## Open
 
-- [ ] 2.3.0: ranks bronze to diamond, profile card, opt-in leaderboard under a nickname (new non-destructive SQL,
+- [ ] 2.4.0: ranks bronze to diamond, profile card, opt-in leaderboard under a nickname (new non-destructive SQL,
       privacy-notice update)
-- [ ] 2.4.0: friends and messages with blocking, reporting and moderation
-- [ ] 2.5.0: student "tanár" applications approved by the owner, external video links
+- [ ] 2.5.0: friends and messages with blocking, reporting and moderation
+- [ ] 2.6.0: student "tanár" applications approved by the owner, external video links
 - [ ] Background push notification before a ZH (needs a server: VAPID keys, scheduled sender)

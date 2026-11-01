@@ -95,7 +95,9 @@ Questions live in `src/data/<subject>/ch<N>.json`, one file per chapter. One que
 | `kifejtos` | 2+ key points of the model answer | `points`; the student writes the answer, then ticks the points it contains (self-check); mock ZH: ticked share of the points, rounded down to half points |
 | `szamolas` | (none) | `points`; `steps`: the numbered derivation shown as "Levezetés" (the easiest way); optional `solutions`: `[{ title, steps }]` other ways, shown folded after it; `fields`: `[{ label, answer, accept, format }]`. `accept`: `int` exact whole number, `dec` decimal within 0.001, `frac` also a fraction, `round` decimal with 2+ decimals rounded from the answer, `text` typed text such as an account name (`alts`: other accepted forms, e.g. the account number; case and accents ignored). `format` is the hint shown under the field |
 
-`official: true` marks the real practice-ZH questions. The glossary is in `glossary.json` (`term`, `definition`,
+`official: true` marks the real practice-ZH questions. `zhType: true` marks own tasks modelled on a real ZH's task
+types (Matematika chapters 24–30): they get the "ZH típus" badge and come first in Gyakorlás; list their chapters
+first in `subjects.json`. The glossary is in `glossary.json` (`term`, `definition`,
 `section`).
 
 Before every build, `npm run check-data` checks the fields, duplicate ids and texts, figure references, and that every

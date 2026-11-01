@@ -1,0 +1,202 @@
+[
+  {
+    "id": "mat-27-001",
+    "chapter": 27,
+    "section": "27.1",
+    "type": "szamolas",
+    "points": 7,
+    "question": "Egy pékség q tepsi pogácsa elkészítésének költsége ezer forintban C(q) = 0,002q² + 0,4q + 5. Egy tepsi 1400 forintért adható el. a) Hány forintba kerül 20 tepsi előállítása? b) Hány forint a haszon 20 tepsi előállítása és eladása esetén? c) Hány tepsit kell előállítani a maximális haszonhoz?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "13800",
+        "accept": "int",
+        "format": "egész szám (forint)"
+      },
+      {
+        "label": "b)",
+        "answer": "14200",
+        "accept": "int",
+        "format": "egész szám (forint)"
+      },
+      {
+        "label": "c)",
+        "answer": "250",
+        "accept": "int",
+        "format": "egész szám (tepsi)"
+      }
+    ],
+    "explanation": "Módszer: C(q) ezer egységben! Haszon = bevétel − költség; maximum a parabola csúcsában, q = −B/(2A).",
+    "source": "Jegyzet 5.5 · ZH-típusú saját feladat (PROFIT-1)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: C(q) ezer forintban van, az ár 1 400 forint = 1,4 ezer forint. Csapda: a választ forintban kérik, ezért a végén 1000-rel szorzunk.",
+      "a) C(20) = 0,002·20² + 0,4·20 + 5 = 0,8 + 8 + 5 = 13,8 ezer forint = 13 800 forint (Jegyzet 5.5, költségfüggvény).",
+      "b) Bevétel: 20 · 1 400 = 28 000 forint; haszon = bevétel − költség = 28 000 − 13 800 = 14 200 forint.",
+      "c) Haszonfüggvény ezer forintban: P(q) = 1,4q − C(q) = −0,002q² + 1q − 5; másodfokú, a főegyüttható negatív, ezért a csúcsban maximális (Jegyzet 5.5).",
+      "c) A csúcs: q = −B/(2A) = 1 / (2·0,002) = 250. Eredmény: a) 13 800; b) 14 200; c) 250."
+    ]
+  },
+  {
+    "id": "mat-27-002",
+    "chapter": 27,
+    "section": "27.2",
+    "type": "szamolas",
+    "points": 7,
+    "question": "Egy kerékpárműhely q kerékpár összeszerelési költsége ezer euróban C(q) = 0,01q² + 1,5q + 8. Egy kerékpár eladási ára 3500 euró. a) Hány euróba kerül 30 kerékpár előállítása? b) Hány euró a haszon 30 kerékpár előállítása és eladása esetén? c) Hány kerékpárt kell előállítani a maximális haszonhoz?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "62000",
+        "accept": "int",
+        "format": "egész szám (euró)"
+      },
+      {
+        "label": "b)",
+        "answer": "43000",
+        "accept": "int",
+        "format": "egész szám (euró)"
+      },
+      {
+        "label": "c)",
+        "answer": "100",
+        "accept": "int",
+        "format": "egész szám (kerékpár)"
+      }
+    ],
+    "explanation": "Módszer: C(q) ezer egységben! Haszon = bevétel − költség; maximum a parabola csúcsában, q = −B/(2A).",
+    "source": "Jegyzet 5.5 · ZH-típusú saját feladat (PROFIT-2)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: C(q) ezer euróban van, az ár 3 500 euró = 3,5 ezer euró. Csapda: a választ euróban kérik, ezért a végén 1000-rel szorzunk.",
+      "a) C(30) = 0,01·30² + 1,5·30 + 8 = 9 + 45 + 8 = 62 ezer euró = 62 000 euró (Jegyzet 5.5, költségfüggvény).",
+      "b) Bevétel: 30 · 3 500 = 105 000 euró; haszon = bevétel − költség = 105 000 − 62 000 = 43 000 euró.",
+      "c) Haszonfüggvény ezer euróban: P(q) = 3,5q − C(q) = −0,01q² + 2q − 8; másodfokú, a főegyüttható negatív, ezért a csúcsban maximális (Jegyzet 5.5).",
+      "c) A csúcs: q = −B/(2A) = 2 / (2·0,01) = 100. Eredmény: a) 62 000; b) 43 000; c) 100."
+    ]
+  },
+  {
+    "id": "mat-27-003",
+    "chapter": 27,
+    "section": "27.3",
+    "type": "szamolas",
+    "points": 7,
+    "question": "Egy asztalosüzemben q szekrény gyártási költsége ezer dollárban C(q) = 0,004q² + 0,8q + 3, egy szekrényt 2400 dollárért vesznek meg. a) Hány dollárba kerül 25 szekrény előállítása? b) Hány dollár a haszon 25 szekrény előállítása és eladása esetén? c) Hány szekrényt kell előállítani a maximális haszonhoz?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "25500",
+        "accept": "int",
+        "format": "egész szám (dollár)"
+      },
+      {
+        "label": "b)",
+        "answer": "34500",
+        "accept": "int",
+        "format": "egész szám (dollár)"
+      },
+      {
+        "label": "c)",
+        "answer": "200",
+        "accept": "int",
+        "format": "egész szám (szekrény)"
+      }
+    ],
+    "explanation": "Módszer: C(q) ezer egységben! Haszon = bevétel − költség; maximum a parabola csúcsában, q = −B/(2A).",
+    "source": "Jegyzet 5.5 · ZH-típusú saját feladat (PROFIT-3)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: C(q) ezer dollárban van, az ár 2 400 dollár = 2,4 ezer dollár. Csapda: a választ dollárban kérik, ezért a végén 1000-rel szorzunk.",
+      "a) C(25) = 0,004·25² + 0,8·25 + 3 = 2,5 + 20 + 3 = 25,5 ezer dollár = 25 500 dollár (Jegyzet 5.5, költségfüggvény).",
+      "b) Bevétel: 25 · 2 400 = 60 000 dollár; haszon = bevétel − költség = 60 000 − 25 500 = 34 500 dollár.",
+      "c) Haszonfüggvény ezer dollárban: P(q) = 2,4q − C(q) = −0,004q² + 1,6q − 3; másodfokú, a főegyüttható negatív, ezért a csúcsban maximális (Jegyzet 5.5).",
+      "c) A csúcs: q = −B/(2A) = 1,6 / (2·0,004) = 200. Eredmény: a) 25 500; b) 34 500; c) 200."
+    ]
+  },
+  {
+    "id": "mat-27-004",
+    "chapter": 27,
+    "section": "27.4",
+    "type": "szamolas",
+    "points": 7,
+    "question": "Egy kávépörkölő q kilogramm kávé pörkölésének költsége ezer forintban C(q) = 0,0025q² + 0,5q + 4; a kávé kilogrammonként 1600 forintért kel el. a) Hány forintba kerül 40 kilogramm előállítása? b) Hány forint a haszon 40 kilogramm előállítása és eladása esetén? c) Hány kilogrammot kell előállítani a maximális haszonhoz?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "28000",
+        "accept": "int",
+        "format": "egész szám (forint)"
+      },
+      {
+        "label": "b)",
+        "answer": "36000",
+        "accept": "int",
+        "format": "egész szám (forint)"
+      },
+      {
+        "label": "c)",
+        "answer": "220",
+        "accept": "int",
+        "format": "egész szám (kilogramm)"
+      }
+    ],
+    "explanation": "Módszer: C(q) ezer egységben! Haszon = bevétel − költség; maximum a parabola csúcsában, q = −B/(2A).",
+    "source": "Jegyzet 5.5 · ZH-típusú saját feladat (PROFIT-4)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: C(q) ezer forintban van, az ár 1 600 forint = 1,6 ezer forint. Csapda: a választ forintban kérik, ezért a végén 1000-rel szorzunk.",
+      "a) C(40) = 0,0025·40² + 0,5·40 + 4 = 4 + 20 + 4 = 28 ezer forint = 28 000 forint (Jegyzet 5.5, költségfüggvény).",
+      "b) Bevétel: 40 · 1 600 = 64 000 forint; haszon = bevétel − költség = 64 000 − 28 000 = 36 000 forint.",
+      "c) Haszonfüggvény ezer forintban: P(q) = 1,6q − C(q) = −0,0025q² + 1,1q − 4; másodfokú, a főegyüttható negatív, ezért a csúcsban maximális (Jegyzet 5.5).",
+      "c) A csúcs: q = −B/(2A) = 1,1 / (2·0,0025) = 220. Eredmény: a) 28 000; b) 36 000; c) 220."
+    ]
+  },
+  {
+    "id": "mat-27-005",
+    "chapter": 27,
+    "section": "27.5",
+    "type": "szamolas",
+    "points": 7,
+    "question": "Egy nyomda q doboz névjegykártya előállítási költsége ezer dollárban C(q) = 0,006q² + 0,9q + 2,5. Egy doboz ára 2700 dollár. a) Hány dollárba kerül 15 doboz előállítása? b) Hány dollár a haszon 15 doboz előállítása és eladása esetén? c) Hány dobozt kell előállítani a maximális haszonhoz?",
+    "fields": [
+      {
+        "label": "a)",
+        "answer": "17350",
+        "accept": "int",
+        "format": "egész szám (dollár)"
+      },
+      {
+        "label": "b)",
+        "answer": "23150",
+        "accept": "int",
+        "format": "egész szám (dollár)"
+      },
+      {
+        "label": "c)",
+        "answer": "150",
+        "accept": "int",
+        "format": "egész szám (doboz)"
+      }
+    ],
+    "explanation": "Módszer: C(q) ezer egységben! Haszon = bevétel − költség; maximum a parabola csúcsában, q = −B/(2A).",
+    "source": "Jegyzet 5.5 · ZH-típusú saját feladat (PROFIT-5)",
+    "official": false,
+    "zhType": true,
+    "difficulty": 3,
+    "steps": [
+      "Adatok: C(q) ezer dollárban van, az ár 2 700 dollár = 2,7 ezer dollár. Csapda: a választ dollárban kérik, ezért a végén 1000-rel szorzunk.",
+      "a) C(15) = 0,006·15² + 0,9·15 + 2,5 = 1,35 + 13,5 + 2,5 = 17,35 ezer dollár = 17 350 dollár (Jegyzet 5.5, költségfüggvény).",
+      "b) Bevétel: 15 · 2 700 = 40 500 dollár; haszon = bevétel − költség = 40 500 − 17 350 = 23 150 dollár.",
+      "c) Haszonfüggvény ezer dollárban: P(q) = 2,7q − C(q) = −0,006q² + 1,8q − 2,5; másodfokú, a főegyüttható negatív, ezért a csúcsban maximális (Jegyzet 5.5).",
+      "c) A csúcs: q = −B/(2A) = 1,8 / (2·0,006) = 150. Eredmény: a) 17 350; b) 23 150; c) 150."
+    ]
+  }
+]
