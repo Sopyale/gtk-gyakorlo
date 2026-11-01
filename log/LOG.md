@@ -6,7 +6,7 @@ Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 ## 2.3.1 – 2026-11-01
 
 - Matematika 2. ZH mock (owner's request): draws one task from each ZH-type chapter 24–30 (last year's real ZH,
-  7 tasks, 33 points) instead of chapters 1–8 (56 points). Minutes unchanged (60).
+  7 tasks, 33 points) instead of chapters 1–8 (56 points). 20 minutes (owner: the real ZH is about 20 minutes).
 
 ## 2.3.0 – 2026-11-01
 

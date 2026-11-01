@@ -481,7 +481,7 @@
           23
         ],
         "mock": {
-          "minutes": 60,
+          "minutes": 20,
           "perChapter": 1,
           "chapters": [
             24,
