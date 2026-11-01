@@ -3,6 +3,11 @@
 Newest first. Every shipped change gets an entry and a version (see [docs/RULES.md](../docs/RULES.md)).
 Each version is tagged `vX.Y.Z` in git and published as a GitHub release.
 
+## 2.3.1 – 2026-11-01
+
+- Matematika 2. ZH mock (owner's request): draws one task from each ZH-type chapter 24–30 (last year's real ZH,
+  7 tasks, 33 points) instead of chapters 1–8 (56 points). Minutes unchanged (60).
+
 ## 2.3.0 – 2026-11-01
 
 Matematika ZH-type tasks (owner's request): he added last year's real 2. ZH (7 tasks, 33 points) as screenshots.
@@ -13,7 +18,7 @@ Matematika ZH-type tasks (owner's request): he added last year's real 2. ZH (7 t
   generated and checked by `Subjects\Matematika\Matematika 2.ZH\gyakorlo_feladatok_zh.py`.
 - New optional field `zhType: true`: "ZH típus" badge on the task card (`QuestionCard.jsx`), these tasks come first in
   Gyakorlás (`Practice.jsx`, each group shuffled), their chapters are listed first; `check-data` validates the field.
-- The 2. ZH mock is unchanged (chapters 1–8). The planned 2.3.0–2.5.0 features move to 2.4.0–2.6.0.
+- The 2. ZH mock is unchanged (chapters 1–8; changed in 2.3.1). The planned 2.3.0–2.5.0 features move to 2.4.0–2.6.0.
 
 ## 2.2.1 – 2026-10-31
 

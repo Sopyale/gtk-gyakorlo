@@ -103,7 +103,8 @@ Matematika ZHs are calculation tasks, not the true/false and multiple-choice que
 8. **ZH-type tasks (owner's rule, 2026-11-01):** when the owner adds a real ZH's tasks (e.g. last year's ZH as
    screenshots), every task type of it gets 5 own variants in a new chapter titled "ZH típus: …", marked
    `zhType: true`, with the ZH's points. These chapters go first in the subject's `chapters` and the exam's `chapters`;
-   the site shows the "ZH típus" badge and puts these tasks first in Gyakorlás. Never the original tasks or numbers.
+   the site shows the "ZH típus" badge and puts these tasks first in Gyakorlás; the exam's `mock.chapters` are
+   these chapters (one task per ZH type, the real ZH's points). Never the original tasks or numbers.
 
 ## Privacy and secrets
 

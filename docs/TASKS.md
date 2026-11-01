@@ -176,7 +176,9 @@ Every change the owner asks for is added here as a new task before work starts, 
 
 - [x] 35 own tasks modelled on last year's real Matematika 2. ZH (7 types × 5, chapters 24–30), from
       `gyakorlo_feladatok_zh.py` in the exam folder; `zhType` field with the "ZH típus" badge; these chapters listed
-      first and their tasks first in Gyakorlás (2026-11-01, waiting for the owner's "mehet a push")
+      first and their tasks first in Gyakorlás (2026-11-01)
+
+- [x] 2.3.1: the 2. ZH mock draws from the ZH-type chapters 24–30 (2026-11-01)
 
 ## Open
 
